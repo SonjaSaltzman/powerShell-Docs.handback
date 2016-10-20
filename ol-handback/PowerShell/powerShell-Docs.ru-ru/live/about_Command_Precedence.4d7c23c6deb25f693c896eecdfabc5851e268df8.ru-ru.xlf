@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">567eb14a2daba07e5fc50fb1dd8a71419b92b501</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_Command_Precedence.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">14b617eeacfbdc298c51b5e2c247b0a8d9403a3f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ff216515ee10fbdc6f1053f80852fa01f0958004</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Command Precedence</source>
+          <target state="translated">Об очередности команд</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">КРАТКОЕ ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Describes how Windows PowerShell determines which command to run.</source>
+          <target state="translated">Содержит сведения о том, каким образом Windows PowerShell выбирает команды для выполнения.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">ПОДРОБНОЕ ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This topic explains how Windows PowerShell determines which command to run, especially when a session contains more than one command with the same name.</source>
+          <target state="translated">В этом разделе объясняется, как Windows PowerShell определяет, какая команда для запуска, особенно в том случае, если сеанс содержит более одной команды с тем же именем.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>It also explains how to run commands that do not run by default, and it explains how to avoid command-name conflicts in your session.</source>
+          <target state="translated">Также объясняется, как выполнять команды, которые не запускаются по умолчанию, а также описание способов избежать конфликта имен команд в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>COMMAND PRECEDENCE</source>
+          <target state="translated">КОМАНДА ПРИОРИТЕТ</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When a session includes commands that have the same name, Windows PowerShell uses the following rules to decide which command to run.</source>
+          <target state="translated">Если сеанс содержит команды, которые имеют одинаковые имена, Windows PowerShell использует следующие правила, чтобы определить команды для выполнения.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These rules become very important when you add commands to your session from modules, snap-ins, and other sessions.</source>
+          <target state="translated">Эти правила становятся очень важен при добавлении команд в сеанс из модулей, оснасток и других сеансов.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-- If you specify the path to a command, Windows PowerShell runs the command at the location specified by the path.</source>
+          <target state="translated">--Если указан путь к команде, Windows PowerShell выполняет команду в расположении, указанном в пути.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example, the following command runs the FindDocs.ps1 script in the C:\TechDocs directory:</source>
+          <target state="translated">Например следующая команда запускает сценарий FindDocs.ps1 в каталоге C:\TechDocs:</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>C:\TechDocs\FindDocs.ps1</source>
+          <target state="translated">C:\TechDocs\FindDocs.ps1</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>As a security feature, Windows PowerShell does not run executable (native) commands, including Windows PowerShell scripts, unless the command is located in a path that is listed in the Path environment variable ($env:path) or unless you specify the path to the script file.</source>
+          <target state="translated">Средство безопасности Windows PowerShell не запустить исполняемый файл (native) команд, включая сценариев Windows PowerShell, если команда находится в путь, указанный в переменной среды Path ($env: путь) или если не указан путь к файлу сценария.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To run a script that is in the current directory, specify the full path, or type a dot (.) to represent the current directory.</source>
+          <target state="translated">Чтобы запустить сценарий, который находится в текущем каталоге, укажите полный путь, или введите точку (.) для представления в текущем каталоге.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, to run the FindDocs.ps1 file in the current directory, type:</source>
+          <target state="translated">Например для запуска файла FindDocs.ps1 в текущем каталоге, введите следующую команду:</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>.\FindDocs.ps1</source>
+          <target state="translated">.\FindDocs.ps1</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-- If you do not specify a path, Windows PowerShell uses the following precedence order when it runs commands:</source>
+          <target state="translated">--Если путь не указан, Windows PowerShell использует следующий порядок приоритета при выполнении команды:</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Alias</source>
+          <target state="translated">Alias</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Function</source>
+          <target state="translated">Функция</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Cmdlet</source>
+          <target state="translated">Командлет</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Native Windows commands</source>
+          <target state="translated">Собственные команды Windows</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Therefore, if you type "help", Windows PowerShell first looks for an alias named "help", then a function named "Help", and finally a cmdlet named "Help".</source>
+          <target state="translated">Таким образом Если ввести «Справка», Windows PowerShell сначала ищет псевдонима с именем «Справка», то функция с именем «Справка», и наконец командлет с именем «Справка».</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It runs the first "help" item that it finds.</source>
+          <target state="translated">Он выполняется первым элементом «Справка», который находит.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For example, if you have a Get-Map function in the session and you import a cmdlet named Get-Map.</source>
+          <target state="translated">Например, если в сеансе имеется функция Get-карты и импортировать командлет с именем Get-карты.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>By default, when you type "Get-Map", Windows PowerShell runs the Get-Map function.</source>
+          <target state="translated">По умолчанию при вводе «Get-карта», Windows PowerShell выполняет функцию Get-карты.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-- When the session contains items of the same type that have the same name, such as two cmdlets with the same name, Windows PowerShell runs the item that was added to the session most recently.</source>
+          <target state="translated">--Если сеанс содержит элементы того же типа, имеющие одинаковое имя, например, два командлета с тем же именем, элемент, который был добавлен к сеансу недавно запусках Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, if you have a cmdlet named Get-Date and you import another cmdlet named Get-Date, by default, Windows PowerShell runs the most-recently imported cmdlet when you type "Get-Date".</source>
+          <target state="translated">Например если у вас есть командлет с именем Get-Date и импортировать другой командлет с именем Get-Date, по умолчанию Windows PowerShell выполняется командлет недавно импортированные при введите «Get-Date».</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>HIDDEN and REPLACED ITEMS As a result of these rules, items can be replaced or hidden by items with the same name.</source>
+          <target state="translated">СКРЫТЫЕ и ЗАМЕНИТЬ ЭЛЕМЕНТЫ в результате этих правил, элементы можно заменить или скрыты элементы с тем же именем.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>--  Items are "hidden" or "shadowed" if you can still access the original item, such as by qualifying the item name with a module or snap-in name.</source>
+          <target state="translated">--Элементы «скрытых» или «тенью», если можно получить доступ исходный элемент, например, указав имя элемента с помощью имени модуля или оснастки.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, if you import a function that has the same name as a cmdlet in the session, the cmdlet is hidden (but not replaced) because it was imported from a snap-in or module.</source>
+          <target state="translated">Например, при импорте функцию, которая имеет то же имя, как командлет в сеансе, командлет скрыты (но не заменяет), так как она была импортирована из оснастки или модуля.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>--  Items are "replaced" or "overwritten" if you can no longer access the original item.</source>
+          <target state="translated">--Элементы «заменить» или «перезаписаны», если отсутствует доступ к исходным элементом.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, if you import a variable that has the same name as a a variable in the session, the original variable is replaced and is no longer accessible.</source>
+          <target state="translated">Например, если импортировать переменную, которая имеет то же имя, что к переменной в сеансе исходную переменную заменяется, больше не доступен.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You cannot qualify a variable with a module name.</source>
+          <target state="translated">Нельзя уточнить переменной с именем модуля.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Also, if you type a function at the command line and then import a function with the same name, the original function is replaced and is no longer accessible.</source>
+          <target state="translated">Кроме того Если в командной строке введите функцию, а затем импорт функции с тем же именем, исходной функции заменяется и больше не доступен.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>FINDING HIDDEN COMMANDS</source>
+          <target state="translated">ПОИСК СКРЫТЫХ КОМАНД</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The All parameter of the Get-Command cmdlet gets all commands with the specified name, even if they are hidden or replaced.</source>
+          <target state="translated">Все параметры командлета Get-Command возвращает все команды с указанным именем, даже если они скрыты или заменены.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, by default, Get-Command gets only the commands that run when you type the command name.</source>
+          <target state="translated">Начиная с Windows PowerShell 3.0 по умолчанию Get-Command возвращает только команды, которые выполняются при вводе имени команды.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the following examples, the session includes a Get-Date function and a Get-Date cmdlet.</source>
+          <target state="translated">В следующих примерах сеанс включает функцию Get-Date и командлет Get-Date.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The following command gets the Get-Date command that runs when you type "Get-Date".</source>
+          <target state="translated">Следующая команда получает команду Get-Date, которая запускается при вводе «Get-Date».</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Command Get-Date</source>
+          <target state="translated">PS C: &gt; Get-Command Get-Date</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>CommandType     Name                                               ModuleName</source>
+          <target state="translated">Имя модуля CommandType имя</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Function        get-date</source>
+          <target state="translated">Функция get-date</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The following command uses the All parameter to get all Get-Date commands.</source>
+          <target state="translated">Следующая команда использует параметр All для получения всех команд Get-Date.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Command Get-Date -All</source>
+          <target state="translated">PS C: &gt; Get-Command Get-Date-все</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>CommandType     Name                                               ModuleName</source>
+          <target state="translated">Имя модуля CommandType имя</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Function        get-date Cmdlet          Get-Date                                           Microsoft.PowerShell.Utility</source>
+          <target state="translated">Функция get-date командлет Get-Date Microsoft.PowerShell.Utility</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>RUNNING HIDDEN COMMANDS</source>
+          <target state="translated">ВЫПОЛНЕНИЕ СКРЫТЫХ КОМАНД</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can run particular commands by specifying item properties that distinguish the command from other commands that might have the same name.</source>
+          <target state="translated">Необходимо выполнить определенные команды, указав свойства элемента, отличить от других команд, которые могут иметь то же имя команды.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can use this method to run any command, but it is especially useful for running hidden commands.</source>
+          <target state="translated">Этот метод можно использовать для выполнения любой команды, но особенно полезен для выполнения скрытых команд.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Use this method as a best practice when writing scripts that you intend to distribute because you cannot predict which commands might be present in the session in which the script runs.</source>
+          <target state="translated">Этот метод рекомендуется используйте при написании сценариев, которые вы собираетесь распространять, поскольку невозможно предсказать, какие команды могут присутствовать в сеансе, в котором выполняется сценарий.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>QUALIFIED NAMES</source>
+          <target state="translated">ПОЛНЫЕ ИМЕНА</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can run commands that have been imported from a Windows PowerShell snap-in or module or from another session by qualifying the command name with the name of the module or snap-in in which it originated.</source>
+          <target state="translated">Можно запускать команды, которые были импортированы из оснастки Windows PowerShell или модуля, или из другого сеанса, указав имя команды с именем модуля или оснастки, в которой она была создана.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can qualify commands, but you cannot qualify variables or aliases.</source>
+          <target state="translated">Можно определять команды, но не может определить переменные или псевдонимы.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For example, if the Get-Date cmdlet from the Microsoft.PowerShell.Utility snap-in is hidden by an alias, function, or cmdlet with the same name, you can run it by using the snap-in-qualified name of the cmdlet:</source>
+          <target state="translated">Например если командлет Get-Date из Microsoft.PowerShell.Utility скрыт псевдоним, функция или командлета с тем же именем, можно запустить его с помощью оснастки в полное имя командлета:</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Utility\Get-Date</source>
+          <target state="translated">Microsoft.PowerShell.Utility\Get-Date</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To run a New-Map command that was added by the MapFunctions module, use its module-qualified name:</source>
+          <target state="translated">Для выполнения команды New-карты, добавленный в модуле MapFunctions, используйте его модуль доменного имени:</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>MapFunctions\New-Map</source>
+          <target state="translated">MapFunctions\New карты</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To find the snap-in or module from which a command was imported, use the ModuleName property of commands.</source>
+          <target state="translated">Чтобы найти оснастку или модуль, из которого была импортирована команды, используйте свойство ModuleName команд.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>(Get-Command &lt;command-name&gt;).ModuleName</source>
+          <target state="translated">(Get-Command &lt; имя команды &gt;). Имя модуля</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For example, to find the source of the Get-Date cmdlet, type:</source>
+          <target state="translated">Например чтобы найти источник командлет Get-Date, введите:</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;(Get-Command Get-Date).ModuleName Microsoft.PowerShell.Utility</source>
+          <target state="translated">PS C: &gt; (Get-Command Get-Date). Имя модуля Microsoft.PowerShell.Utility</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>CALL OPERATOR</source>
+          <target state="translated">ОПЕРАТОР ВЫЗОВА</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can also use the Call operator (&amp;) to run any command that you can get by using a Get-ChildItem (the alias is "dir"), Get-Command, or Get-Module command.</source>
+          <target state="translated">Можно также использовать оператор вызова (&amp;), чтобы выполнить любую команду, что вы можете получить с помощью Get-ChildItem (псевдоним — «dir»), команда Get или Get-Module команды.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To run a command, enclose the Get-Command command in parentheses, and use the Call operator (&amp;) to run the command.</source>
+          <target state="translated">Для выполнения команды, заключить в круглые скобки команду Get-Command и использовать оператор вызова (&amp;) для выполнения команды.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>&amp;(Get-Command ...)</source>
+          <target state="translated">&amp; (get команду...)</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>or -</source>
+          <target state="translated">или -</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>&amp;(dir ... )</source>
+          <target state="translated">&amp;(dir...)</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>For example, if you have a function named Map that is hidden by an alias named Map, use the following command to run the function.</source>
+          <target state="translated">Например если имеется функция с именем карты, скрытые при помощи карты псевдоним с именем пользоваться команду функция.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>&amp;(Get-Command -Name Map -Type function)</source>
+          <target state="translated">&amp; (get-Command - сопоставление имени-функция типа)</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>or -</source>
+          <target state="translated">или -</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>&amp;(dir function:\map)</source>
+          <target state="translated">&amp; (\map: функция dir)</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>You can also save your hidden command in a variable to make it easier to run.</source>
+          <target state="translated">Можно также сохранить скрытых команд в переменной для облегчения выполнения.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For example, the following command saves the Map function in the $myMap variable and then uses the Call operator to run it.</source>
+          <target state="translated">Например следующая команда сохраняет функцию сопоставления в переменной $myMap, а затем использует оператор вызова для его запуска.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>$myMap = (Get-Command -Name map -Type function)</source>
+          <target state="translated">$myMap = (get-Command - имя карты - функция типа)</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>&amp;($myMap)</source>
+          <target state="translated">&amp;($myMap)</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If a command originated in a module, you can use the following format to run it.</source>
+          <target state="translated">Если команда, которая была создана в модуле, можно использовать следующий формат для его запуска.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>&amp; &lt;PSModuleInfo-object&gt;</source>
+          <target state="translated">&amp; &lt; объекта PSModuleInfo &gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For example, to run the Add-File cmdlet in the FileCommands module, use the following command sequence.</source>
+          <target state="translated">Например чтобы запустить командлет Add File в модуле FileCommands, используйте следующую последовательность команд.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>$FileCommands = get-module -name FileCommands</source>
+          <target state="translated">$FileCommands = get-module-name FileCommands</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>&amp; $FileCommands Add-File</source>
+          <target state="translated">&amp; Добавить $FileCommands-файла</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>REPLACED ITEMS</source>
+          <target state="translated">ЗАМЕНА ЭЛЕМЕНТОВ</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Items that have not been imported from a module or snap-in, such as functions, variables, and aliases that you create in your session or that you add by using a profile can be replaced by commands that have the same name.</source>
+          <target state="translated">Команды, которые имеют одинаковые имена могут быть заменены элементы, которые не были импортированы из модуля или оснастки, например функции, переменные и псевдонимы, создайте в сеансе или добавить с помощью профиля.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If they are replaced, you cannot access them.</source>
+          <target state="translated">Они заменяются, вы не сможете их.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Variables and aliases are always replaced even if they have been imported from a module or snap-in because you cannot use a call operator or a qualified name to run them.</source>
+          <target state="translated">Переменные и псевдонимы всегда заменяются, даже если они были импортированы из модуля или оснастки, так как оператор вызова или полное имя нельзя использовать для их выполнения.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For example, if you type a Get-Map function in your session, and you import a function called Get-Map, the original function is replaced.</source>
+          <target state="translated">Например если функция Get-карт в сеансе и импорт функции с именем Get-карты, заменяется исходной функции.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You cannot retrieve it in the current session.</source>
+          <target state="translated">Не удалось получить его в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>AVOIDING NAME CONFLICTS</source>
+          <target state="translated">ПРЕДОТВРАЩЕНИЕ КОНФЛИКТОВ ИМЕН</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The best way to manage command name conflicts is to prevent them.</source>
+          <target state="translated">Чтобы предотвратить их является наиболее удобный способ управления конфликта имен команд.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>When you name your commands, use a name that is very specific or is likely to be unique.</source>
+          <target state="translated">При задании имени команды, используйте имя, которое является очень специализированным, или, скорее всего, должны быть уникальными.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For example, add your initials or company name acronym to the nouns in your commands.</source>
+          <target state="translated">Например добавьте инициалы или акроним имя компании существительные в командах.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Also, when you import commands into your session from a Windows PowerShell module or from another session, use the Prefix parameter of the Import-Module or Import-PSSession cmdlet to add a prefix to the nouns in the names of commands.</source>
+          <target state="translated">Кроме того при импорте команд в сеанс из модуля Windows PowerShell или из другого сеанса, используйте параметр префикс командлет Import-Module или Import-PSSession для добавления префикса к существительным в именах команд.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>For example, the following command avoids any conflict with the Get-Date and Set-Date cmdlets that come with Windows PowerShell when you import the DateFunctions module.</source>
+          <target state="translated">Например следующая команда позволяет избежать любого конфликта с помощью командлетов Get-Date и Set-Date, входящие в состав Windows PowerShell при импорте модуля DateFunctions.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Import-Module -Name DateFunctions -Prefix ZZ</source>
+          <target state="translated">Import-Module-Name DateFunctions-префикс ZZ</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For more information, see Import-Module and Import-PSSession.</source>
+          <target state="translated">Дополнительные сведения см. в разделе Import-Module и Import-PSSession.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">СМ. ТАКЖЕ</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>about_Path_Syntax about_Aliases about_Functions Alias (provider) Function (provider) Get-Command Import-Module Import-PSSession</source>
+          <target state="translated">about_Functions about_Aliases about_Path_Syntax псевдоним (поставщик) функция (поставщик) Get-Command Import-Module Import-PSSession</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

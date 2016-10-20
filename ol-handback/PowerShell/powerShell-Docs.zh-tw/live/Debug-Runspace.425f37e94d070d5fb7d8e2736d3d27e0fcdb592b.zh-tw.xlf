@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">08f8d683c83ea18eec2bef20079275be8c3a14f4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Debug-Runspace.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">76690ced6e90a1fb571899e21f1f062843ad36a5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">456528dcd56f8bff340f62b99c941c806e5c0310</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Debug-Runspace</source>
+          <target state="translated">Debug-Runspace</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Debug-Runspace</source>
+          <target state="translated">Debug-Runspace</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starts an interactive debugging session with a runspace.</source>
+          <target state="translated">啟動 runspace 的互動式偵錯工作階段。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>RunspaceParameterSet (Default)</source>
+          <target state="translated">RunspaceParameterSet （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>IdParameterSet</source>
+          <target state="translated">IdParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Debug-Runspace<ept id="p1">**</ept> cmdlet starts an interactive debugging session with a local or remote active runspace.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>偵錯 Runspace<ept id="p1">**</ept> 指令程式可啟動的互動式偵錯工作階段與本機或遠端使用 runspace。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can find a runspace that you want to debug by first running Get-Process to find processes associated with Windows PowerShell, then Enter-PSHostProcess with the process ID specified in the <bpt id="p1">*</bpt>Id<ept id="p1">*</ept> parameter to attach to the process, and then Get-Runspace to list runspaces within the Windows PowerShell host process.</source>
+          <target state="translated">您可以找到您要尋找 Windows PowerShell 相關聯的處理程序的第一個執行 Get-process 所偵錯，然後輸入-PSHostProcess 處理序識別碼中指定的 runspace <bpt id="p1">*</bpt>識別碼<ept id="p1">*</ept> 參數清單 runspace，Windows PowerShell 主機處理序中要附加至處理程序，然後取得 Runspace。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>After you have selected a runspace to debug, if the runspace is currently running a command or script, or if the script has stopped at a breakpoint, Windows PowerShell opens a remote debugger session for the runspace.</source>
+          <target state="translated">如果 runspace 目前正在執行的命令或指令碼中，選取偵錯，runspace 之後或指令碼已在中斷點停止，Windows PowerShell 會開啟 runspace 的遠端偵錯工具工作階段。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can debug the runspace script in the same way remote session scripts are debugged.</source>
+          <target state="translated">您可以偵錯 runspace 指令碼，可在偵錯遠端工作階段的指令碼的方式相同。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can only attach to a Windows PowerShell host process if you are an administrator on the computer that is running the process, or you are running the script that you want to debug.</source>
+          <target state="translated">如果您是系統管理員執行此程序，在電腦上的，只能將其附加至 Windows PowerShell 主機處理序，或您正在執行您要偵錯指令碼。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Also, you cannot enter the host process that is running the current Windows PowerShell session; you can only enter a host process that is running a different Windows PowerShell session.</source>
+          <target state="translated">此外，您無法輸入主機處理序正在執行目前的 Windows PowerShell 工作階段中。您可以只輸入主機處理序正在使用不同的 Windows PowerShell 工作階段。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, if you are working in a PowerShell.exe session, you can't enter the host process for that session, but you can enter the host process of a running Windows PowerShell ISE session.</source>
+          <target state="translated">例如，如果您使用 PowerShell.exe 工作階段中，您不能為該工作階段中，輸入主控件程序，但您可以輸入主機的程序執行的 Windows PowerShell ISE 工作階段。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Example 1: Debug a remote runspace</source>
+          <target state="translated">範例 1︰ 偵錯遠端 runspace</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In this example, you debug a runspace that is open on a remote computer, WS10TestServer.</source>
+          <target state="translated">在此範例中，您將偵錯已開啟的遠端電腦上，WS10TestServer runspace。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The first command runs the Get-Process cmdlet on the remote computer, and then filters for Windows PowerShell host processes.</source>
+          <target state="translated">第一個命令在遠端電腦上執行 Get-process cmdlet，並接著篩選 Windows PowerShell 主機處理程序。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The command debugs process ID 1152, the Windows PowerShell ISE host process.</source>
+          <target state="translated">此命令偵錯處理序識別碼 1152，Windows PowerShell ISE 主機處理序。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The second command runs Enter-PSSession to open a remote session on WS10TestServer.</source>
+          <target state="translated">第二個命令會執行 Enter-pssession 開啟 WS10TestServer 上的遠端工作階段。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The third command attaches to the Windows PowerShell ISE host process that runs on the remote server by running Enter-PSHostProcess, and specifies the ID of the host process that you obtained in the first command, 1152.</source>
+          <target state="translated">第三個命令會將附加至 Windows PowerShell ISE 主機處理序執行遠端伺服器上執行 Enter PSHostProcess，和 1152年在第一個命令中，指定您取得主機處理序的識別碼。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The fourth command lists available runspaces for process ID 1152 by using the Get-Runspace cmdlet.</source>
+          <target state="translated">第四個命令會列出處理序識別碼 1152年可用 runspace 使用 Get Runspace 指令程式。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You note the ID number of the Busy runspace; it is running a script that you want to debug.</source>
+          <target state="translated">您注意忙碌的 runspace; 的 ID 編號它執行您要偵錯指令碼。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The firth command debugs an opened runspace that is running a script, TestWFVar1.ps1, by using the <bpt id="p1">**</bpt>Debug-Runspace<ept id="p1">**</ept> cmdlet, and identifies the runspace by its ID, 2, that uses the <bpt id="p2">*</bpt>Id<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">Firth 命令進行偵錯使用執行指令碼，而 TestWFVar1.ps1，開啟的 runspace <bpt id="p1">**</bpt>偵錯 Runspace<ept id="p1">**</ept> 指令程式，並識別其 id，2，使用 runspace <bpt id="p2">*</bpt>識別碼<ept id="p2">*</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Because there's a breakpoint in the script, the debugger opens.</source>
+          <target state="translated">因為指令碼中的中斷點，偵錯工具隨即開啟。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">會提示您進行確認，然後再執行此指令程式。會提示您進行確認，然後再執行此指令程式。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">識別碼</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Specifies the ID number of a runspace.</source>
+          <target state="translated">指定 runspace 的 ID 編號。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can run Get-Runspace to show runspace IDs.</source>
+          <target state="translated">您可以執行 Get-Runspace，以顯示 runspace Id。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-執行個體識別碼</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Specifies a runspace by its instance ID, a GUID that you can show by running <bpt id="p1">**</bpt>Get-Runspace<ept id="p1">**</ept>.</source>
+          <target state="translated">指定依執行個體識別碼，您可以藉由執行顯示 GUID runspace <bpt id="p1">**</bpt>Get Runspace<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specifies a runspace by its name.</source>
+          <target state="translated">依據名稱指定 runspace。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can run <bpt id="p1">**</bpt>Get-Runspace<ept id="p1">**</ept> to show the names of runspaces.</source>
+          <target state="translated">您可以執行 <bpt id="p1">**</bpt>Get Runspace<ept id="p1">**</ept> 顯示 runspace 的名稱。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-Runspace</source>
+          <target state="translated">-Runspace</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Specifies a runspace object.</source>
+          <target state="translated">指定的 runspace 物件。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The simplest way to provide a value for this parameter is to specify a variable that contains the results of a filtered <bpt id="p1">**</bpt>Get-Runspace<ept id="p1">**</ept> command.</source>
+          <target state="translated">最簡單的方式提供值，這個參數是指定的變數，其中包含已篩選的結果 <bpt id="p1">**</bpt>Get Runspace<ept id="p1">**</ept> 命令。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">顯示執行 Cmdlet 後會發生的情況。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">無法執行此指令程式。顯示執行此指令程式會發生什麼事。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">未執行 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.Runspace</source>
+          <target state="translated">System.Management.Automation.Runspaces.Runspace</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can pipe the results of a <bpt id="p1">**</bpt>Get-Runspace<ept id="p1">**</ept> command to <bpt id="p2">**</bpt>Debug-Runspace.<ept id="p2">**</ept></source>
+          <target state="translated">您可以使用管線的結果 <bpt id="p1">**</bpt>Get Runspace<ept id="p1">**</ept> 命令 <bpt id="p2">**</bpt>偵錯 Runspace。<ept id="p2">**</ept></target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Debug-Runspace<ept id="p1">**</ept> works on runspaces that are in the Opened state.</source>
+          <target state="translated"><bpt id="p1">**</bpt>偵錯 Runspace<ept id="p1">**</ept> 從事 runspace 處於開啟狀態。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If a runspace state changes from Opened to another state, that runspace is automatically removed from the running list.</source>
+          <target state="translated">從開啟的 runspace 狀態是另一個狀態變更，會自動會從執行中的清單移除該 runspace。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A runspace is added to the running list only if it meets the following criteria.</source>
+          <target state="translated">只有在符合下列準則，runspace 會加入至執行中的清單。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If it is coming from Invoke-Command; that is, it has an <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> GUID ID.</source>
+          <target state="translated">如果來自 Invoke-command;也就是具有 <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> GUID 識別碼。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If it is coming from <bpt id="p1">**</bpt>Debug-Runspace<ept id="p1">**</ept>; that is, it has a <bpt id="p2">**</bpt>Debug-Runspace<ept id="p2">**</ept> GUID ID.</source>
+          <target state="translated">如果來自 <bpt id="p1">**</bpt>偵錯 Runspace<ept id="p1">**</ept>; 也就是說，它有 <bpt id="p2">**</bpt>偵錯 Runspace<ept id="p2">**</ept> GUID 識別碼。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If it is coming from a Windows PowerShell workflow, and its workflow job ID is the same as the current active debugger workflow job ID.</source>
+          <target state="translated">如果來自 Windows PowerShell 工作流程，而且它的工作流程的作業識別碼與目前的作用中的偵錯工具工作流程工作 ID 相同。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>about_Debuggers</source>
+          <target state="translated">about_Debuggers</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Debug-Job</source>
+          <target state="translated">偵錯工作</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Get-Runspace</source>
+          <target state="translated">Get-Runspace</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Get-Process</source>
+          <target state="translated">Get-Process</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Enter-PSHostProcess</source>
+          <target state="translated">Enter-PSHostProcess</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

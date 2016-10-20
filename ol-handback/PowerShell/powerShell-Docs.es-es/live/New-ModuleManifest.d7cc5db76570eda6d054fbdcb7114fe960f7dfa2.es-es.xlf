@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">27655b6cea957c9bc863deb9aacbf704d3c89777</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\New-ModuleManifest.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">94552938b3cdafa2068625064d771a318593f238</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e73e280ac1d4f5ca00faa9f4862643abc2817e31</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet de PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-ModuleManifest</source>
+          <target state="translated">Nueva ModuleManifest</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-ModuleManifest</source>
+          <target state="translated">Nueva ModuleManifest</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SINOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates a new module manifest.</source>
+          <target state="translated">Crea un manifiesto de módulo.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTAXIS</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPCIÓN</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> cmdlet creates a new module manifest (.psd1) file, populates its values, and saves the manifest file in the specified path.</source>
+          <target state="translated">El <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> cmdlet crea un nuevo archivo de manifiesto (. psd1) del módulo, rellena los valores y guarda el archivo de manifiesto en la ruta de acceso especificada.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Module authors can use this cmdlet to create a manifest for their module.</source>
+          <target state="translated">Los autores de módulos pueden usar este cmdlet a fin de crear un manifiesto para su módulo.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A module manifest is a .psd1 file that contains a hash table.</source>
+          <target state="translated">Un manifiesto de módulo es un archivo .psd1 que contiene una tabla hash.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The keys and values in the hash table describe the contents and attributes of the module, define the prerequisites, and determine how the components are processed.</source>
+          <target state="translated">Las claves y los valores de la tabla hash describen el contenido y los atributos del módulo, definen los requisitos previos y determinan cómo se procesan los componentes.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Manifests are not required for a module.</source>
+          <target state="translated">No es obligatorio que un módulo tenga manifiestos.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a manifest that includes all of the frequently used manifest keys, so that you can use the default output as a manifest template.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nueva ModuleManifest<ept id="p1">**</ept> crea un manifiesto que incluye todas las claves de manifiesto utilizadas con frecuencia, para que pueda usar la salida predeterminada como plantilla de manifiesto.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To add or change values, or to add module keys that this cmdlet does not add, open the resulting file in a text editor.</source>
+          <target state="translated">Para agregar o cambiar los valores, o para agregar claves de módulo que no agrega este cmdlet, abra el archivo resultante en un editor de texto.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Each parameter of this cmdlet, except for <bpt id="p1">*</bpt>Path<ept id="p1">*</ept> and <bpt id="p2">*</bpt>PassThru<ept id="p2">*</ept>, creates a module manifest key and its value.</source>
+          <target state="translated">Cada parámetro de este cmdlet, excepto <bpt id="p1">*</bpt>ruta de acceso<ept id="p1">*</ept> y <bpt id="p2">*</bpt>PassThru<ept id="p2">*</ept>, crea una clave de manifiesto de módulo y su valor.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In a module manifest, only the <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> key is required.</source>
+          <target state="translated">En un manifiesto de módulo, sólo el <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> clave es obligatoria.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Unless specified in the parameter description, if you omit a parameter from the command, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a comment string for the associated value that has no effect.</source>
+          <target state="translated">A menos que especifique en la descripción del parámetro, si se omite un parámetro del comando <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> crea una cadena de comentario para el valor asociado a la que no tiene ningún efecto.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> prompts you for the values of frequently used parameters that are not specified in the command, in addition to required parameter values.</source>
+          <target state="translated">En Windows PowerShell 2.0, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> le pide los valores de los parámetros usados con frecuencia que no se especifican en el comando además a los valores de parámetro necesario.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Starting in Windows PowerShell 3.0, it prompts only when required parameter values are not specified.</source>
+          <target state="translated">A partir de Windows PowerShell 3.0, solicita sólo cuando no se especifican valores de parámetro necesario.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EJEMPLOS</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example 1: Create a manifest</source>
+          <target state="translated">Ejemplo 1: Crear un manifiesto</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command creates a module manifest in the file that is specified by the <bpt id="p1">*</bpt>Path<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Este comando crea un manifiesto de módulo en el archivo especificado por el <bpt id="p1">*</bpt>ruta de acceso<ept id="p1">*</ept> parámetro.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter sends the output to the pipeline in addition to the file.</source>
+          <target state="translated">El <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parámetro envía el resultado a la canalización además del archivo.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The output shows the default values of all keys in the manifest.</source>
+          <target state="translated">El resultado muestra los valores predeterminados de todas las claves del manifiesto.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Create a manifest and add values to keys</source>
+          <target state="translated">Ejemplo 2: Crear un manifiesto y agregar valores a claves</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command creates a new module manifest.</source>
+          <target state="translated">Este comando crea un nuevo manifiesto de módulo.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>PowerShellVersion<ept id="p1">*</ept> and <bpt id="p2">*</bpt>AliasesToExport<ept id="p2">*</ept> parameters to add values to the corresponding manifest keys.</source>
+          <target state="translated">Usa el <bpt id="p1">*</bpt>PowerShellVersion<ept id="p1">*</ept> y <bpt id="p2">*</bpt>AliasesToExport<ept id="p2">*</ept> parámetros para agregar valores a las correspondientes claves de manifiesto.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 3: Create a manifest by using strings and hash tables</source>
+          <target state="translated">Ejemplo 3: Crear un manifiesto con cadenas y tablas hash</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the string and hash table formats of the <bpt id="p1">*</bpt>ModuleList<ept id="p1">*</ept>, <bpt id="p2">*</bpt>RequiredModules<ept id="p2">*</ept>, and <bpt id="p3">*</bpt>NestedModules<ept id="p3">*</ept> parameter.</source>
+          <target state="translated">Este ejemplo muestra cómo utilizar la cadena y hash de formatos de tabla de la <bpt id="p1">*</bpt>ModuleList<ept id="p1">*</ept>, <bpt id="p2">*</bpt>RequiredModules<ept id="p2">*</ept>, y <bpt id="p3">*</bpt>NestedModules<ept id="p3">*</ept> parámetro.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can combine strings and hash tables in the same parameter value.</source>
+          <target state="translated">Las cadenas y las tablas hash se pueden combinar en el mismo valor de parámetro.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command commands creates a module manifest for a module that requires the <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> and <bpt id="p2">**</bpt>PSScheduledJob<ept id="p2">**</ept> modules.</source>
+          <target state="translated">Este comando crea un manifiesto de módulo para un módulo que requiere el <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> y <bpt id="p2">**</bpt>PSScheduledJob<ept id="p2">**</ept> módulos.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The command uses a string format to specify the name of the <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> module and the hash table format to specify the name, a GUID, and a version of the <bpt id="p2">**</bpt>PSScheduledJob<ept id="p2">**</ept> module.</source>
+          <target state="translated">El comando usa un formato de cadena para especificar el nombre de la <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> módulo y el formato de la tabla hash para especificar el nombre, GUID y una versión de la <bpt id="p2">**</bpt>PSScheduledJob<ept id="p2">**</ept> módulo.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example 4: Create a manifest for a module that support updatable help</source>
+          <target state="translated">Ejemplo 4: Crear un manifiesto para un módulo que admiten ayuda actualizable</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This example shows creates a module manifest for a module that supports the Updatable Help feature.</source>
+          <target state="translated">En este ejemplo se muestra cómo crear un manifiesto de módulo para un módulo que admite la característica de ayuda actualizable.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This feature lets users use the Update-Help and Save-Help cmdlets, which download help files for the module from the Internet and install them in the module.</source>
+          <target state="translated">Esta característica permite a los usuarios usar los cmdlets de Update-Help y Save-Help, que le ayudan a de descarga de archivos para el módulo de Internet e instalarlos en el módulo.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>HelpInfoUri<ept id="p1">*</ept> parameter to create a <bpt id="p2">**</bpt>HelpInfoUri<ept id="p2">**</ept> key in the module manifest.</source>
+          <target state="translated">El comando utiliza el <bpt id="p1">*</bpt>HelpInfoUri<ept id="p1">*</ept> parámetro para crear un <bpt id="p2">**</bpt>HelpInfoUri<ept id="p2">**</ept> clave en el manifiesto del módulo.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The value of the parameter and the key must begin with http or https.</source>
+          <target state="translated">El valor del parámetro y la clave debe empezar con http o https.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This value tells the Updatable Help system where to find the HelpInfo XML updatable help information file for the module.</source>
+          <target state="translated">Este valor le indica al sistema de ayuda actualizable dónde puede encontrar el archivo de información de ayuda actualizable XML HelpInfo para el módulo.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For information about Updatable Help, see about_Updatable_Help (http://go.microsoft.com/fwlink/?LinkID=235801).</source>
+          <target state="translated">Para obtener información sobre la Ayuda actualizable, consulte about_Updatable_Help (http://go.microsoft.com/fwlink/?LinkID=235801).</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For information about the HelpInfo XML file, see "Supporting Updatable Help" in the Microsoft Developer Library (MSDN) library.</source>
+          <target state="translated">Para obtener información sobre el archivo XML HelpInfo, consulte "Compatibilidad con ayuda actualizable" en la biblioteca de la biblioteca de Microsoft Developer (MSDN).</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Example 5: Get the module manifest values of a module</source>
+          <target state="translated">Ejemplo 5: Obtener los valores de manifiesto de un módulo</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This example shows how to get the module manifest values of a module.</source>
+          <target state="translated">En este ejemplo se muestra cómo obtener los valores de manifiesto de un módulo.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This is essentially a "Get-ModuleManifest" command.</source>
+          <target state="translated">Esto es esencialmente un comando "Get-ModuleManifest".</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Because the values in the module manifest are reflected in the values of properties of the module object, you can get the module manifest values by displaying the module object properties.</source>
+          <target state="translated">Dado que los valores del manifiesto de módulo se reflejan en los valores de propiedades del objeto de módulo, puede obtener los valores del manifiesto si muestra las propiedades del objeto de módulo.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> cmdlet to get the <bpt id="p2">*</bpt>PSScheduledJob<ept id="p2">*</ept> module.</source>
+          <target state="translated">El primer comando usa el <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> para obtener la <bpt id="p2">*</bpt>PSScheduledJob<ept id="p2">*</ept> módulo.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>List<ept id="p1">*</ept> parameter, because the module is installed, but not imported into the session.</source>
+          <target state="translated">El comando utiliza el <bpt id="p1">*</bpt>lista<ept id="p1">*</ept> parámetro, porque el módulo está instalado, pero no se importan a la sesión.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The command sends the module to the Format-List cmdlet, which displays all properties and values of the module object in a list.</source>
+          <target state="translated">El comando envía el módulo al cmdlet Format-List, que muestra todas las propiedades y valores del objeto de módulo en una lista.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The second command uses the Format-Table cmdlet to display the <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> property of all installed modules in a table.</source>
+          <target state="translated">El segundo comando usa el cmdlet Format-Table para mostrar la <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> propiedad de todos los módulos instalados en una tabla.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> property is defined in the module manifest.</source>
+          <target state="translated">El <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> propiedad está definida en el manifiesto del módulo.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARÁMETROS</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-AliasesToExport</source>
+          <target state="translated">-AliasesToExport</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Specifies the aliases that the module exports.</source>
+          <target state="translated">Especifica los alias que exporta el módulo.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">Se permite el uso de caracteres comodín.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to restrict the aliases that are exported by the module.</source>
+          <target state="translated">Puede utilizar este parámetro para restringir los alias que exporta el módulo.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>It can remove aliases from the list of exported aliases, but it cannot add aliases to the list.</source>
+          <target state="translated">Puede quitar los alias de la lista de alias exportados, pero no puede agregar alias a la lista.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates an <bpt id="p2">**</bpt>AliasesToExport<ept id="p2">**</ept> key with a value of * (all), meaning that all aliases that are exported by the module are exported by the manifest.</source>
+          <target state="translated">Si se omite este parámetro, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> crea un <bpt id="p2">**</bpt>AliasesToExport<ept id="p2">**</ept> clave con un valor de * (todos), lo que significa que todos los alias que exportan el módulo del manifiesto.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-Author</source>
+          <target state="translated">: Autor</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specifies the module author.</source>
+          <target state="translated">Especifica el autor del módulo.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates an <bpt id="p2">**</bpt>Author<ept id="p2">**</ept> key with the name of the current user.</source>
+          <target state="translated">Si se omite este parámetro, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> crea un <bpt id="p2">**</bpt>autor<ept id="p2">**</ept> clave con el nombre del usuario actual.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-ClrVersion</source>
+          <target state="translated">-ClrVersion</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum version of the Common Language Runtime (CLR) of the Microsoft .NET Framework that the module requires.</source>
+          <target state="translated">Especifica la versión mínima de Common Language Runtime (CLR) de Microsoft .NET Framework que requiere el módulo.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-CmdletsToExport</source>
+          <target state="translated">-CmdletsToExport</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies the cmdlets that the module exports.</source>
+          <target state="translated">Especifica los cmdlets que exporta el módulo.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">Se permite el uso de caracteres comodín.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to restrict the cmdlets that are exported by the module.</source>
+          <target state="translated">Puede utilizar este parámetro para restringir los cmdlets que exporta el módulo.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>It can remove cmdlets from the list of exported cmdlets, but it cannot add cmdlets to the list.</source>
+          <target state="translated">Puede quitar los cmdlets de la lista de cmdlets exportados, pero no puede agregar cmdlets a la lista.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>CmdletsToExport<ept id="p2">**</ept> key with a value of * (all), meaning that all cmdlets that are exported by the module are exported by the manifest.</source>
+          <target state="translated">Si se omite este parámetro, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> crea un <bpt id="p2">**</bpt>CmdletsToExport<ept id="p2">**</ept> clave con un valor de * (todos), lo que significa que todos los cmdlets que exporta el módulo del manifiesto.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-CompanyName</source>
+          <target state="translated">-CompanyName</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Identifies the company or vendor who created the module.</source>
+          <target state="translated">Identifica a la compañía o al proveedor que creó el módulo.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>CompanyName<ept id="p2">**</ept> key with a value of "Unknown".</source>
+          <target state="translated">Si se omite este parámetro, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> crea un <bpt id="p2">**</bpt>CompanyName<ept id="p2">**</ept> clave con un valor de "Desconocido".</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Le pide confirmación antes de ejecutar el cmdlet. Le pide confirmación antes de ejecutar el cmdlet.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-Copyright</source>
+          <target state="translated">-Copyright</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Specifies a copyright statement for the module.</source>
+          <target state="translated">Especifica una instrucción de copyright para el módulo.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>Copyright<ept id="p2">**</ept> key with a value of  "(c) <ph id="ph1">\&lt;</ph>year<ph id="ph2">\&gt;</ph> <ph id="ph3">\&lt;</ph>username<ph id="ph4">\&gt;</ph>.</source>
+          <target state="translated">Si se omite este parámetro, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> crea un <bpt id="p2">**</bpt>Copyright<ept id="p2">**</ept> clave con un valor de "(c) <ph id="ph1">\&lt;</ph>año<ph id="ph2">\&gt;</ph> <ph id="ph3">\&lt;</ph>nombre de usuario<ph id="ph4">\&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>All rights reserved."</source>
+          <target state="translated">Todos los derechos reservados."</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>where <ph id="ph1">\&lt;</ph>year<ph id="ph2">\&gt;</ph> is the current year and <ph id="ph3">\&lt;</ph>username<ph id="ph4">\&gt;</ph> is the value of the <bpt id="p1">**</bpt>Author<ept id="p1">**</ept> key (if one is specified) or the name of the current user.</source>
+          <target state="translated">donde <ph id="ph1">\&lt;</ph>año<ph id="ph2">\&gt;</ph> es el año actual y <ph id="ph3">\&lt;</ph>username<ph id="ph4">\&gt;</ph> es el valor de la <bpt id="p1">**</bpt>autor<ept id="p1">**</ept> clave (si se ha especificado) o el nombre del usuario actual.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-DefaultCommandPrefix</source>
+          <target state="translated">-DefaultCommandPrefix</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Specifies a prefix that is prepended to the nouns of all commands in the module when they are imported into a session.</source>
+          <target state="translated">Especifica un prefijo que se antepone a los nombres de todos los comandos del módulo cuando se importan en una sesión.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Prefixes prevent command name conflicts in a user's session.</source>
+          <target state="translated">Los prefijos evitan conflictos de nombres de comando en una sesión de usuario.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Module users can override this prefix by specifying the <bpt id="p1">*</bpt>Prefix<ept id="p1">*</ept> parameter of the Import-Module cmdlet.</source>
+          <target state="translated">Los usuarios del módulo pueden invalidar este prefijo especificando el <bpt id="p1">*</bpt>prefijo<ept id="p1">*</ept> parámetro del cmdlet Import-Module.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Este parámetro se incorporó en Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">- Description</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Describes the contents of the module.</source>
+          <target state="translated">Describe el contenido del módulo.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-DotNetFrameworkVersion</source>
+          <target state="translated">-DotNetFrameworkVersion</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum version of the Microsoft .NET Framework that the module requires.</source>
+          <target state="translated">Especifica la versión mínima de Microsoft .NET Framework que requiere el módulo.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-DscResourcesToExport</source>
+          <target state="translated">-DscResourcesToExport</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>@{Text=}</source>
+          <target state="translated">@{Texto =}</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-FileList</source>
+          <target state="translated">Lista de archivos:</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Specifies all items that are included in the module.</source>
+          <target state="translated">Especifica todos los elementos que se incluyen en el módulo.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This key is designed to act as a module inventory.</source>
+          <target state="translated">Esta clave está diseñada para actuar como un inventario de módulo.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The files listed in the key are not automatically exported with the module.</source>
+          <target state="translated">Los archivos enumerados en la clave no se exportan automáticamente con el módulo.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>-FormatsToProcess</source>
+          <target state="translated">-FormatsToProcess</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Specifies the formatting files (.ps1xml) that run when the module is imported.</source>
+          <target state="translated">Especifica los archivos de formato (.ps1xml) que se ejecutan cuando se importa el módulo.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>When you import a module, Windows PowerShell runs the Update-FormatData cmdlet with the specified files.</source>
+          <target state="translated">Al importar un módulo, Windows PowerShell ejecuta el cmdlet Update-FormatData con los archivos especificados.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Because formatting files are not scoped, they affect all session states in the session.</source>
+          <target state="translated">Dado que los archivos de formato no tienen ámbito, afectan a todos los estados de sesión de la sesión.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-FunctionsToExport</source>
+          <target state="translated">-FunctionsToExport</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Specifies the functions that the module exports.</source>
+          <target state="translated">Especifica las funciones que exporta el módulo.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">Se permite el uso de caracteres comodín.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to restrict the functions that are exported by the module.</source>
+          <target state="translated">Puede utilizar este parámetro para restringir las funciones que exporta el módulo.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>It can remove functions from the list of exported aliases, but it cannot add functions to the list.</source>
+          <target state="translated">Puede quitar las funciones de la lista de alias exportados, pero no puede agregar funciones a la lista.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates an <bpt id="p2">**</bpt>FunctionsToExport<ept id="p2">**</ept> key with a value of * (all), meaning that all functions that are exported by the module are exported by the manifest.</source>
+          <target state="translated">Si se omite este parámetro, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> crea un <bpt id="p2">**</bpt>FunctionsToExport<ept id="p2">**</ept> clave con un valor de * (todos), lo que significa que todas las funciones que exportan el módulo del manifiesto.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-Guid</source>
+          <target state="translated">-Guid</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Specifies a unique identifier for the module.</source>
+          <target state="translated">Especifica un identificador único para el módulo.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The GUID can be used to distinguish among modules with the same name.</source>
+          <target state="translated">El GUID puede utilizarse para distinguir módulos con el mismo nombre.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>GUID<ept id="p2">**</ept> key in the manifest and generates a GUID for the value.</source>
+          <target state="translated">Si se omite este parámetro, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> crea un <bpt id="p2">**</bpt>GUID<ept id="p2">**</ept> clave en el manifiesto y genera un GUID para el valor.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To create a new GUID in Windows PowerShell, type "<ph id="ph1">\[</ph>guid<ph id="ph2">\]</ph>::NewGuid()".</source>
+          <target state="translated">Para crear un nuevo GUID en Windows PowerShell, escriba "<ph id="ph1">\[</ph>guid<ph id="ph2">\]</ph>::::NewGuid()".</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-HelpInfoUri</source>
+          <target state="translated">-HelpInfoUri</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Specifies the Internet address of the HelpInfo XML file for the module.</source>
+          <target state="translated">Especifica la dirección de Internet del archivo XML HelpInfo para el módulo.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Enter an Uniform Resource Identifier (URI) that starts with "http" or "https".</source>
+          <target state="translated">Escriba un identificador uniforme de recursos (URI) que empieza con "http" o "https".</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The HelpInfo XML file supports the Updatable Help feature that was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">El archivo XML HelpInfo admite la característica de ayuda actualizable que se introdujo en Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>It contains information about the location of downloadable help files for the module and the version numbers of the newest help files for each supported locale.</source>
+          <target state="translated">Contiene información sobre la ubicación de los archivos de ayuda descargable del módulo y los números de versión de los archivos de ayuda más recientes para cada configuración regional compatible.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For information about Updatable Help, see about_Updatable_Help (http://go.microsoft.com/fwlink/?LinkID=235801).</source>
+          <target state="translated">Para obtener información sobre la Ayuda actualizable, consulte about_Updatable_Help (http://go.microsoft.com/fwlink/?LinkID=235801).</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For information about the HelpInfo XML file, see "Supporting Updatable Help" in the Microsoft Developer Network (MSDN) library.</source>
+          <target state="translated">Para obtener información sobre el archivo XML HelpInfo, consulte "Compatibilidad con ayuda actualizable" en la biblioteca de Microsoft Developer Network (MSDN).</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Este parámetro se incorporó en Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-IconUri</source>
+          <target state="translated">-IconUri</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>@{Text=}</source>
+          <target state="translated">@{Texto =}</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-LicenseUri</source>
+          <target state="translated">-LicenseUri</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>@{Text=}</source>
+          <target state="translated">@{Texto =}</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-ModuleList</source>
+          <target state="translated">-ModuleList</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Lists all modules that are included in this module.</source>
+          <target state="translated">Enumera todos los módulos que se incluyen en este módulo.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Enter each module name as a string or as a hash table with <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> keys.</source>
+          <target state="translated">Escriba el nombre de cada módulo como una cadena o como una tabla hash con <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> y <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> claves.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The hash table can also have an optional <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> key.</source>
+          <target state="translated">La tabla hash también puede tener una función opcional <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> clave.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>You can combine strings and hash tables in the parameter value.</source>
+          <target state="translated">Puede combinar las cadenas y las tablas hash en el valor del parámetro.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">Para obtener más información, consulte los ejemplos.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This key is designed to act as a module inventory.</source>
+          <target state="translated">Esta clave está diseñada para actuar como un inventario de módulo.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The modules that are listed in the value of this key are not automatically processed.</source>
+          <target state="translated">Los módulos que se enumeran en el valor de esta clave no se procesan automáticamente.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-ModuleVersion</source>
+          <target state="translated">-ModuleVersion</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Specifies the version of the module.</source>
+          <target state="translated">Especifica la versión del módulo.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This parameter is not required by the cmdlet, but a <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> key is required in the manifest.</source>
+          <target state="translated">Este parámetro no es necesario en el cmdlet, pero un <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> clave es necesaria en el manifiesto.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> key with a value of "1.0".</source>
+          <target state="translated">Si se omite este parámetro, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> crea un <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> clave con un valor de "1.0".</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>-NestedModules</source>
+          <target state="translated">-NestedModules</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Specifies script modules (.psm1) and binary modules (.dll) that are imported into the module's session state.</source>
+          <target state="translated">Especifica los módulos de script (.psm1) y módulos binarios (.dll) que se importan en el estado de sesión del módulo.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The files in the <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> key run in the order in which they are listed in the value.</source>
+          <target state="translated">Los archivos de la <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> clave que se ejecutan en el orden en que se enumeran en el valor.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Enter each module name as a string or as a hash table with <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> keys.</source>
+          <target state="translated">Escriba el nombre de cada módulo como una cadena o como una tabla hash con <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> y <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> claves.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The hash table can also have an optional <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> key.</source>
+          <target state="translated">La tabla hash también puede tener una función opcional <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> clave.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>You can combine strings and hash tables in the parameter value.</source>
+          <target state="translated">Puede combinar las cadenas y las tablas hash en el valor del parámetro.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">Para obtener más información, consulte los ejemplos.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Typically, nested modules contain commands that the root module needs for its internal processing.</source>
+          <target state="translated">Normalmente, los módulos anidados contienen comandos que son necesarios para el procesamiento interno del módulo de raíz.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>By default, the commands in nested modules are exported from the module's session state into the caller's session state, but the root module can restrict the commands that it exports, for example, by using an Export-ModuleMember command.</source>
+          <target state="translated">De forma predeterminada, los comandos de módulos anidados se exportan desde el estado de sesión del módulo en el estado de sesión del llamador, pero el módulo raíz puede restringir los comandos que exporta, por ejemplo, mediante un comando Export-ModuleMember.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Nested modules in the module session state are available to the root module, but they are not returned by a Get-Module command in the caller's session state.</source>
+          <target state="translated">Los módulos anidados en el estado de sesión del módulo están disponibles para el módulo raíz, pero no son devueltos por un comando Get-Module en estado de sesión del llamador.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Scripts (.ps1) that are listed in the <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> key are run in the module's session state, not in the caller's session state.</source>
+          <target state="translated">Secuencias de comandos (. ps1) que se enumeran en la <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> clave se ejecutan en el estado de sesión del módulo, no está en estado de sesión del llamador.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To run a script in the caller's session state, list the script file name in the value of the <bpt id="p1">**</bpt>ScriptsToProcess<ept id="p1">**</ept> key in the manifest.</source>
+          <target state="translated">Para ejecutar una secuencia de comandos en el estado de sesión del llamador, enumere el nombre de archivo de script en el valor de la <bpt id="p1">**</bpt>ScriptsToProcess<ept id="p1">**</ept> clave en el manifiesto.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet writes the resulting module manifest to the console, in addition to creating a .psd1 file.</source>
+          <target state="translated">Indica que este cmdlet escribe el manifiesto del módulo resultante en la consola, además de crear un archivo. psd1.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">De forma predeterminada, este cmdlet no genera ningún resultado.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Specifies the path and file name of the new module manifest.</source>
+          <target state="translated">Especifica la ruta de acceso y el nombre del nuevo manifiesto de módulo.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Enter a path and file name with a .psd1 file name extension, such as <ph id="ph1">`$pshome\Modules\MyModule\MyModule.psd1`</ph>.</source>
+          <target state="translated">Escriba un ruta de acceso y nombre de archivo con una extensión de nombre de archivo. psd1, como <ph id="ph1">`$pshome\Modules\MyModule\MyModule.psd1`</ph>.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">Este parámetro es obligatorio.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>If you specify the path of an existing file, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> replaces the file without warning unless the file has the read-only attribute.</source>
+          <target state="translated">Si especifica la ruta de acceso de un archivo existente, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> reemplaza el archivo sin ninguna advertencia a menos que el archivo tiene el atributo de sólo lectura.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The manifest should be located in the module's directory, and the manifest file name should be the same as the module directory name, but with a .psd1 file name extension.</source>
+          <target state="translated">El manifiesto debe estar ubicado en el directorio del módulo y el nombre del archivo de manifiesto debe ser igual que el nombre del directorio del módulo, pero con la extensión de nombre de archivo .psd1.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>You cannot use variables, such as $pshome or $home, in response to a prompt for a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter value.</source>
+          <target state="translated">No puede utilizar variables como $pshome o $home en respuesta a una solicitud de un <bpt id="p1">**</bpt>ruta de acceso<ept id="p1">**</ept> el valor del parámetro.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>To use a variable, include the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter in the command.</source>
+          <target state="translated">Para utilizar una variable, incluya el <bpt id="p1">**</bpt>ruta de acceso<ept id="p1">**</ept> parámetro del comando.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>-PowerShellHostName</source>
+          <target state="translated">-PowerShellHostName</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the Windows PowerShell host program that the module requires.</source>
+          <target state="translated">Especifica el nombre del programa de host de Windows PowerShell requerido por el módulo.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Enter the name of the host program, such as <ph id="ph1">`Windows PowerShell ISE Host`</ph> or <ph id="ph2">`ConsoleHost`</ph>.</source>
+          <target state="translated">Escriba el nombre del programa host, como <ph id="ph1">`Windows PowerShell ISE Host`</ph> o <ph id="ph2">`ConsoleHost`</ph>.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are not permitted.</source>
+          <target state="translated">No se admite el uso de caracteres comodín.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>To find the name of a host program, in the program, type <ph id="ph1">`$host.name`</ph>.</source>
+          <target state="translated">Para buscar el nombre de un programa de host, en el programa, escriba <ph id="ph1">`$host.name`</ph>.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>-PowerShellHostVersion</source>
+          <target state="translated">-PowerShellHostVersion</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum version of the Windows PowerShell host program that works with the module.</source>
+          <target state="translated">Especifica la versión mínima del programa host de Windows PowerShell que funciona con el módulo.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Enter a version number, such as 1.1.</source>
+          <target state="translated">Escriba un número de versión, como la 1.1.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>-PowerShellVersion</source>
+          <target state="translated">-PowerShellVersion</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum version of Windows PowerShell that works with this module.</source>
+          <target state="translated">Especifica la versión mínima de Windows PowerShell que funciona con este módulo.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>For example, you can enter 3.0, 4.0, or 5.0 as the value of this parameter.</source>
+          <target state="translated">Por ejemplo, puede escribir 3.0, 4.0 o 5.0 como el valor de este parámetro.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>-PrivateData</source>
+          <target state="translated">-PrivateData</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Specifies data that is passed to the module when it is imported.</source>
+          <target state="translated">Especifica los datos que se pasan al módulo cuando se importa.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>-ProcessorArchitecture</source>
+          <target state="translated">-ProcessorArchitecture</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Specifies the processor architecture that the module requires.</source>
+          <target state="translated">Especifica la arquitectura de procesador que requiere el módulo.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are: x86, AMD64, IA64, and None.</source>
+          <target state="translated">Los valores aceptables para este parámetro son: x86, AMD64, IA64 y None.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>None indicates unknown or unspecified.</source>
+          <target state="translated">Indica desconocido o no especificado.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>-ProjectUri</source>
+          <target state="translated">-ProjectUri</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>@{Text=}</source>
+          <target state="translated">@{Texto =}</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>-ReleaseNotes</source>
+          <target state="translated">-Denominados ReleaseNotes</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Specifies release notes.</source>
+          <target state="translated">Especifica las notas de la versión.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>-RequiredAssemblies</source>
+          <target state="translated">-RequiredAssemblies</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Specifies the assembly (.dll) files that the module requires.</source>
+          <target state="translated">Especifica los archivos de ensamblado (.dll) que requiere el módulo.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Enter the assembly file names.</source>
+          <target state="translated">Escriba los nombres de los archivos de ensamblado.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell loads the specified assemblies before updating types or formats, importing nested modules, or importing the module file that is specified in the value of the <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> key.</source>
+          <target state="translated">Windows PowerShell carga los ensamblados especificados antes de actualizar los tipos o formatos, Importar módulos anidados o importar el archivo de módulo que se especifica en el valor de la <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> clave.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Use this parameter to list all the assemblies that the module requires.</source>
+          <target state="translated">Utilice este parámetro para enumerar todos los ensamblados que requiere el módulo.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>This includes assemblies that must be loaded to update any formatting or type files that are listed in the <bpt id="p1">**</bpt>FormatsToProcess<ept id="p1">**</ept> or <bpt id="p2">**</bpt>TypesToProcess<ept id="p2">**</ept> keys, even if those assemblies are also listed as binary modules in the <bpt id="p3">**</bpt>NestedModules<ept id="p3">**</ept> key.</source>
+          <target state="translated">Esto incluye los ensamblados que deben cargarse para actualizar cualquier formato o tipo de archivos que se enumeran en la <bpt id="p1">**</bpt>FormatsToProcess<ept id="p1">**</ept> o <bpt id="p2">**</bpt>TypesToProcess<ept id="p2">**</ept> claves, incluso si esos ensamblados también aparecen como módulos binarios en la <bpt id="p3">**</bpt>NestedModules<ept id="p3">**</ept> clave.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>-RequiredModules</source>
+          <target state="translated">-RequiredModules</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Specifies modules that must be in the global session state.</source>
+          <target state="translated">Especifica los módulos que deben estar en el estado de sesión global.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>If the required modules are not in the global session state, Windows PowerShell imports them.</source>
+          <target state="translated">Si los módulos necesarios no están en el estado de sesión global, Windows PowerShell los importa.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>If the required modules are not available, the Import-Module command fails.</source>
+          <target state="translated">Si los módulos necesarios no están disponibles, el comando Import-Module produce un error.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Enter each module name as a string or as a hash table with <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> keys.</source>
+          <target state="translated">Escriba el nombre de cada módulo como una cadena o como una tabla hash con <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> y <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> claves.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The hash table can also have an optional <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> key.</source>
+          <target state="translated">La tabla hash también puede tener una función opcional <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> clave.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>You can combine strings and hash tables in the parameter value.</source>
+          <target state="translated">Puede combinar las cadenas y las tablas hash en el valor del parámetro.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">Para obtener más información, consulte los ejemplos.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> does not import required modules automatically.</source>
+          <target state="translated">En Windows PowerShell 2.0, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> importar los módulos necesarios automáticamente.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>It just verifies that the required modules are in the global session state.</source>
+          <target state="translated">sino que simplemente comprueba que los módulos necesarios están en el estado de sesión global.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>-RootModule</source>
+          <target state="translated">-RootModule</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Specifies the primary or root file of the module.</source>
+          <target state="translated">Especifica el elemento principal o raíz de archivo del módulo.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Enter the file name of a script (.ps1), a script module (.psm1), a module manifest (.psd1), an assembly (.dll), a cmdlet definition XML file (.cdxml), or a workflow (.xaml).</source>
+          <target state="translated">Escriba el nombre de archivo de un script (. ps1), un módulo de script (. psm1), un manifiesto de módulo (. psd1), un ensamblado (.dll), un archivo XML de definición de cmdlet (.cdxml) o un flujo de trabajo (.xaml).</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>When the module is imported, the members that are exported from the root module file are imported into the caller's session state.</source>
+          <target state="translated">Cuando se importa el módulo, los miembros que se exportan desde el archivo de módulo raíz se importan en el estado de sesión del llamador.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>If a module has a manifest file and no root file has been designated in the <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> key, the manifest becomes the primary file for the module, and the module becomes a manifest module (ModuleType = Manifest).</source>
+          <target state="translated">Si un módulo tiene un archivo de manifiesto y no se ha designado ningún archivo raíz en el <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> clave, el manifiesto se convierte en el archivo principal para el módulo y el módulo se convierte en un módulo de manifiesto (ModuleType = Manifest).</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>To export members from .psm1 or .dll files in a module that has a manifest, the names of those files must be specified in the values of the <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> or <bpt id="p2">**</bpt>NestedModules<ept id="p2">**</ept> keys in the manifest.</source>
+          <target state="translated">Para exportar los miembros de los archivos. psm1 o .dll de un módulo que tiene un manifiesto, deben especificarse los nombres de los archivos en los valores de la <bpt id="p1">**</bpt>RootModule<ept id="p1">**</ept> o <bpt id="p2">**</bpt>NestedModules<ept id="p2">**</ept> claves en el manifiesto.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Otherwise, their members are not exported.</source>
+          <target state="translated">De lo contrario, sus miembros no se exportan.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, this key was called <bpt id="p1">**</bpt>ModuleToProcess<ept id="p1">**</ept>.</source>
+          <target state="translated">En Windows PowerShell 2.0, esta clave se denomina <bpt id="p1">**</bpt>ModuleToProcess<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">*</bpt>RootModule<ept id="p1">*</ept> parameter name or its <bpt id="p2">*</bpt>ModuleToProcess<ept id="p2">*</ept> alias.</source>
+          <target state="translated">Puede usar el <bpt id="p1">*</bpt>RootModule<ept id="p1">*</ept> nombre de parámetro o su <bpt id="p2">*</bpt>ModuleToProcess<ept id="p2">*</ept> alias.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>-ScriptsToProcess</source>
+          <target state="translated">-ScriptsToProcess</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Specifies script (.ps1) files that run in the caller's session state when the module is imported.</source>
+          <target state="translated">Especifica los archivos de script (.ps1) que se ejecutan en el estado de sesión del llamador cuando se importa el módulo.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>You can use these scripts to prepare an environment, just as you might use a logon script.</source>
+          <target state="translated">Puede usar estas secuencias de comandos para preparar un entorno, igual que puede utilizar una secuencia de comandos de inicio de sesión.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>To specify scripts that run in the module's session state, use the <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> key.</source>
+          <target state="translated">Para especificar scripts que se ejecutan en estado de sesión del módulo, utilice la <bpt id="p1">**</bpt>NestedModules<ept id="p1">**</ept> clave.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>-Tags</source>
+          <target state="translated">-Etiquetas</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>@{Text=}</source>
+          <target state="translated">@{Texto =}</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>-TypesToProcess</source>
+          <target state="translated">-TypesToProcess</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Specifies the type files (.ps1xml) that run when the module is imported.</source>
+          <target state="translated">Especifica los archivos de tipo (.ps1xml) que se ejecutan cuando se importa el módulo.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>When you import the module, Windows PowerShell runs the Update-TypeData cmdlet with the specified files.</source>
+          <target state="translated">Al importar el módulo, Windows PowerShell ejecuta el cmdlet Update-TypeData con los archivos especificados.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Because type files are not scoped, they affect all session states in the session.</source>
+          <target state="translated">Dado que los archivos de tipo no tienen ámbito, afectan a todos los estados de sesión de la sesión.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>-VariablesToExport</source>
+          <target state="translated">-VariablesToExport</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Specifies the variables that the module exports.</source>
+          <target state="translated">Especifica las variables que exporta el módulo.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">Se permite el uso de caracteres comodín.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to restrict the variables that are exported by the module.</source>
+          <target state="translated">Puede utilizar este parámetro para restringir las variables que exporta el módulo.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>It can remove variables from the list of exported variables, but it cannot add variables to the list.</source>
+          <target state="translated">Puede quitar las variables de la lista de variables exportadas, pero no puede agregar variables a la lista.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> creates a <bpt id="p2">**</bpt>VariablesToExport<ept id="p2">**</ept> key with a value of * (all), meaning that all variables that are exported by the module are exported by the manifest.</source>
+          <target state="translated">Si se omite este parámetro, <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> crea un <bpt id="p2">**</bpt>VariablesToExport<ept id="p2">**</ept> clave con un valor de * (todos), lo que significa que todas las variables que exportan el módulo del manifiesto.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Muestra lo que sucedería si se ejecutara el cmdlet.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">No se ejecuta el cmdlet. Muestra lo que sucedería si se ejecuta el cmdlet.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">El cmdlet no se ejecuta.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Este cmdlet admite los parámetros comunes:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction y - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Para obtener más información, consulte about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRADAS</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Ninguno</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">No se puede canalizar la entrada a este cmdlet.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SALIDAS</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>None or System.String</source>
+          <target state="translated">Ninguno o System.String</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>This cmldet does not generate any output by default.</source>
+          <target state="translated">Este cmdlet no genera ninguna salida predeterminada.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>However, if you use the <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter, it generates a <bpt id="p2">**</bpt>System.String<ept id="p2">**</ept> object that represents the module manifest.</source>
+          <target state="translated">Sin embargo, si utiliza el <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parámetro, genera un <bpt id="p2">**</bpt>System.String<ept id="p2">**</ept> objeto que representa el manifiesto del módulo.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTAS</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Module manifests are usually optional.</source>
+          <target state="translated">Los manifiestos de módulo suelen ser opcionales.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>However, a module manifest is required to export an assembly that is installed in the global assembly cache.</source>
+          <target state="translated">Sin embargo, se necesita un manifiesto de módulo para exportar un ensamblado que está instalado en la caché global de ensamblados.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>To add or change files in the $pshome\Modules directory (%Windir%\System32\WindowsPowerShell\v1.0\Modules), start Windows PowerShell by using the Run as administrator option.</source>
+          <target state="translated">Para agregar o cambiar archivos en el directorio $pshome\Modules (% Windir%\System32\WindowsPowerShell\v1.0\Modules), inicie Windows PowerShell mediante la ejecución como opción de administrador.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, many parameters of <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> are mandatory, even though they are not required in a module manifest.</source>
+          <target state="translated">En Windows PowerShell 2.0, muchos de los parámetros de <bpt id="p1">**</bpt>New-ModuleManifest<ept id="p1">**</ept> son obligatorios, aunque no son necesarios en un manifiesto de módulo.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 3.0, only the <bpt id="p1">*</bpt>Path<ept id="p1">*</ept> parameter is mandatory.</source>
+          <target state="translated">En Windows PowerShell 3.0, sólo el <bpt id="p1">*</bpt>ruta de acceso<ept id="p1">*</ept> el parámetro es obligatorio.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>A session is an instance of the Windows PowerShell run environment.</source>
+          <target state="translated">Una sesión es una instancia del entorno de ejecución de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>A session can have one or more session states.</source>
+          <target state="translated">Una sesión puede tener uno o varios estados de sesión.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>By default, a session has only a global session state, but each imported module has its own session state.</source>
+          <target state="translated">De forma predeterminada, una sesión solo tiene un estado de sesión global, pero cada módulo importado tiene su propio estado de sesión.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Session states allow the commands in a module to run without affecting the global session state.</source>
+          <target state="translated">Los estados de sesión permiten que los comandos de un módulo se ejecuten sin alterar el estado de sesión global.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The caller's session state is the session state into which a module is imported.</source>
+          <target state="translated">Estado de la sesión del llamador es el estado de sesión al que se importa un módulo.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Typically, it refers to the global session state, but when a module imports nested modules, the caller is the module and the caller's session state is the module's session state.</source>
+          <target state="translated">Normalmente, hace referencia al estado de sesión global, pero cuando un módulo importa módulos anidados, el llamador es el módulo y el estado de sesión del llamador está en estado de sesión del módulo.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VÍNCULOS RELACIONADOS</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Export-ModuleMember</source>
+          <target state="translated">Export-ModuleMember</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Get-Module</source>
+          <target state="translated">Get-Module</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Remove-Module</source>
+          <target state="translated">Remove-Module</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Test-ModuleManifest</source>
+          <target state="translated">Test-ModuleManifest</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>about_Modules</source>
+          <target state="translated">about_Modules</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

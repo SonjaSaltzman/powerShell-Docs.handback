@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5d5a54092fee0107e4660f9852f585714b852907</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Management\Start-Transaction.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c3978f68110688e768814057107145c6ea772d0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">61a6b48e1b3a7adcf774ff7ce6fe3a5919d45e9f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Start-Transaction</source>
+          <target state="translated">Start-Transaction</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Start-Transaction</source>
+          <target state="translated">Start-Transaction</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starts a transaction.</source>
+          <target state="translated">트랜잭션을 시작합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> cmdlet starts a transaction, which is a series of commands that are managed as a unit.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> cmdlet은 일련의 명령이 하나의 단위로 관리 되는 트랜잭션을 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A transaction can be completed, or committed.</source>
+          <target state="translated">트랜잭션은 완료 또는 커밋 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Alternatively, it can be completely undone, or rolled back, so that any data changed by the transaction is restored to its original state.</source>
+          <target state="translated">또는 완전히 취소 또는 수 롤백되며를 트랜잭션에 의해 변경 되는 모든 데이터를 원래 상태로 복원 됩니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Because the commands in a transaction are managed as a unit, either all commands are committed or all commands are rolled back.</source>
+          <target state="translated">트랜잭션의 명령은 하나의 단위로 관리되므로 모든 명령이 커밋되거나 롤백됩니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>By default, if any command in the transaction generates an error, transactions are rolled back automatically.</source>
+          <target state="translated">기본적으로 모든 명령에서에서 오류가 발생 하는 경우 트랜잭션이 롤백됩니다 자동으로 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">*</bpt>RollbackPreference<ept id="p1">*</ept> parameter to change this behavior.</source>
+          <target state="translated">사용할 수는 <bpt id="p1">*</bpt>RollbackPreference<ept id="p1">*</ept> 매개 변수를이 동작을 변경 합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The cmdlets used in a transaction must be designed to support transactions.</source>
+          <target state="translated">트랜잭션에 사용된 cmdlet은 트랜잭션을 지원해야 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Cmdlets that support transactions have a <bpt id="p1">*</bpt>UseTransaction<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">트랜잭션을 지 원하는 cmdlet는 <bpt id="p1">*</bpt>UseTransaction<ept id="p1">*</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To perform transactions in a provider, the provider must support transactions.</source>
+          <target state="translated">공급자에서 트랜잭션을 수행하려면 공급자가 트랜잭션을 지원해야 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Registry provider in Windows Vista and later versions of the Windows operating system supports transactions.</source>
+          <target state="translated">Windows Vista 및 이후 버전의 Windows 운영 체제에서 Windows PowerShell 레지스트리 공급자는 트랜잭션을 지원합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>Microsoft.PowerShell.Commands.Management.TransactedString<ept id="p1">**</ept> class to include expressions in transactions on any version of the Windows system that supports Windows PowerShell.</source>
+          <target state="translated">사용할 수도 있습니다는 <bpt id="p1">**</bpt>Microsoft.PowerShell.Commands.Management.TransactedString<ept id="p1">**</ept> 클래스를 지 원하는 Windows PowerShell은 Windows 시스템의 모든 버전에 대 한 트랜잭션을에 식을 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Other Windows PowerShell providers can also support transactions.</source>
+          <target state="translated">다른 Windows PowerShell 공급자도 트랜잭션을 지원할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Only one transaction can be active at a time.</source>
+          <target state="translated">한 번에 하나의 트랜잭션만 활성화할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you start a new, independent transaction while a transaction is in progress, the new transaction becomes the active transaction, and you must commit or roll back the new transaction before you make any changes to the original transaction.</source>
+          <target state="translated">트랜잭션이 진행 중일 독립 새 트랜잭션이 시작 하면 새 트랜잭션이 활성 트랜잭션이 되며 커밋하거나 원본 트랜잭션에 변경 하기 전에 새 트랜잭션을 롤백합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> cmdlet is one of a set of cmdlets that support the transactions feature in Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> cmdlet는 Windows PowerShell의 트랜잭션 기능을 지 원하는 cmdlet 집합 중 하나입니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Transactions.</source>
+          <target state="translated">자세한 내용은 about_Transactions를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 1: Start and roll back a transaction</source>
+          <target state="translated">예제 1: 시작 하 고 트랜잭션을 롤백하십시오.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>These commands start and then roll back a transaction.</source>
+          <target state="translated">이들 명령은 트랜잭션을 시작한 후 롤백합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Because the transaction is rolled back, no changes are made to the registry.</source>
+          <target state="translated">트랜잭션이 롤백되므로 레지스트리가 변경되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 2: Start and complete a transaction</source>
+          <target state="translated">예제 2: 시작 되 고 트랜잭션 완료</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>These commands start and then complete a transaction.</source>
+          <target state="translated">이들 명령은 전체 트랜잭션을 시작한 후 완료합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>No changes are made to the registry until the <bpt id="p1">**</bpt>Complete-Transaction<ept id="p1">**</ept> command is used.</source>
+          <target state="translated">레지스트리에 될 때까지 변경 되지 않습니다는 <bpt id="p1">**</bpt>Complete-transaction<ept id="p1">**</ept> 명령을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Example 3: Use different rollback preferences</source>
+          <target state="translated">예제 3: 다양 한 롤백 기본 설정 사용</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This example demonstrates the effect of changing the <bpt id="p1">*</bpt>RollbackPreference<ept id="p1">*</ept> parameter value.</source>
+          <target state="translated">이 예제에서는 변경의 결과 <bpt id="p1">*</bpt>RollbackPreference<ept id="p1">*</ept> 매개 변수 값입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In the first set of commands, <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> does not use <bpt id="p2">*</bpt>RollbackPreference<ept id="p2">*</ept>.</source>
+          <target state="translated">명령의 첫 번째 집합에 <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> 사용 하지 않는 <bpt id="p2">*</bpt>RollbackPreference<ept id="p2">*</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>As a result, the default value (Error) is used.</source>
+          <target state="translated">결과적으로, 기본값 (오류)가 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When an error occurs in a transaction command, that is, the specified path does not exist, the transaction is automatically rolled back.</source>
+          <target state="translated">즉, 트랜잭션 명령에서 오류가 발생 하는 경우 지정 된 경로가 존재 하지 않는, 트랜잭션이 자동으로 롤백됩니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the second set of commands, <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> uses <bpt id="p2">*</bpt>RollbackPreference<ept id="p2">*</ept> with a value of Never.</source>
+          <target state="translated">명령의 두 번째 집합에서 <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> 사용 하 여 <bpt id="p2">*</bpt>RollbackPreference<ept id="p2">*</ept> 값이 사용 안 함.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>As a result, when an error occurs in a transaction command, the transaction is still active and can be completed successfully.</source>
+          <target state="translated">그 결과 트랜잭션 명령에 오류가 발생해도 트랜잭션이 여전히 활성 상태가 되므로 성공적으로 완료할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Because most transactions must be performed without error, the default value of <bpt id="p1">*</bpt>RollbackPreference<ept id="p1">*</ept> is typically preferred.</source>
+          <target state="translated">대부분의 트랜잭션은 기본값인 오류 없이 수행 해야 하기 때문에 <bpt id="p1">*</bpt>RollbackPreference<ept id="p1">*</ept> 는 것이 좋습니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Example 4: Use this cmdlet while a transaction is in progress</source>
+          <target state="translated">예 4: 트랜잭션이 진행 중인 동안이 cmdlet을 사용</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of using <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> while a transaction is in progress.</source>
+          <target state="translated">이 예제를 사용 하 여 결과 보여 줍니다. <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> 트랜잭션이 진행 중인 동안.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The effect is much like joining the transaction in progress.</source>
+          <target state="translated">효과는 진행 중인 트랜잭션에 가입하는 것과 매우 유사합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Although this is a simplified command, this scenario frequently occurs when the transaction involves running a script that includes a complete transaction.</source>
+          <target state="translated">간단한 명령 이지만이 시나리오는 트랜잭션이 전체 트랜잭션을 포함 하는 스크립트 실행을 포함 하는 경우 자주 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> command starts the transaction.</source>
+          <target state="translated">첫 번째 <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> 명령은 트랜잭션을 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The first <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> command is part of the transaction.</source>
+          <target state="translated">첫 번째 <bpt id="p1">**</bpt>New-item<ept id="p1">**</ept> 명령은 트랜잭션의 일부입니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> command adds a new subscriber to the transaction.</source>
+          <target state="translated">두 번째 <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> 명령은 트랜잭션에 새 가입자를 추가 합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Transaction<ept id="p1">**</ept> command now returns a transaction with a subscriber count of 2.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-transaction<ept id="p1">**</ept> 명령에는 이제 구독자 수가 2 인 트랜잭션을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The second <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> command is part of the same transaction.</source>
+          <target state="translated">두 번째 <bpt id="p1">**</bpt>New-item<ept id="p1">**</ept> 명령은 동일한 트랜잭션의 일부입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>No changes are made to the registry until the whole transaction is completed.</source>
+          <target state="translated">전체 트랜잭션이 완료 될 때까지 레지스트리를 변경 하지 않고 이루어집니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To complete the transaction, you must enter two <bpt id="p1">**</bpt>Complete-Transaction<ept id="p1">**</ept> commands, one for each subscriber.</source>
+          <target state="translated">거래를 완료 하려면 두 개의 입력 해야 있습니다 <bpt id="p1">**</bpt>Complete-transaction<ept id="p1">**</ept> 각 구독자에 대 한 명령입니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you were to roll back the transaction at any point, all the transaction would be rolled back for both subscribers.</source>
+          <target state="translated">언제 든 지는 트랜잭션을 롤백할 경우 모든 트랜잭션은 롤백할 수 구독자가 모두에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Example 5: Start an independent transaction while one is in progress</source>
+          <target state="translated">진행 중인 동안 독립 트랜잭션을 시작 하는 예제 5:</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of using the <bpt id="p1">*</bpt>Independent<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Start-Transaction<ept id="p2">**</ept> to start a transaction while another transaction is in progress.</source>
+          <target state="translated">이 예제를 사용 하 여 결과 보여 줍니다.는 <bpt id="p1">*</bpt>독립<ept id="p1">*</ept> 의 매개 변수 <bpt id="p2">**</bpt>Start-transaction<ept id="p2">**</ept> 다른 트랜잭션이 진행 중인 동안 트랜잭션을 시작할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In this case, the new transaction is rolled back without affecting the original transaction.</source>
+          <target state="translated">이 경우 원본 트랜잭션에 영향을 주지 않고 새 트랜잭션이 롤백됩니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Although the transactions are logically independent, because only one transaction can be active at a time, you must roll back or commit the newest transaction before resuming work on the original transaction.</source>
+          <target state="translated">트랜잭션은 논리적으로 독립적이지만 한 번의 한 개의 트랜잭션만 활성 상태일 수 있으므로 원본 트랜잭션 작업을 다시 시작하기 전에 최신의 트랜잭션을 롤백하거나 커밋해야 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The first set of commands starts a transaction.</source>
+          <target state="translated">첫 번째 명령은 트랜잭션을 시작합니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> command is part of the first transaction.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-item<ept id="p1">**</ept> 명령은 첫 번째 트랜잭션의 일부입니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In the second set of commands, the <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> command uses the <bpt id="p2">*</bpt>Independent<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">명령의 두 번째 집합에는 <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> 명령을 사용 하 여는 <bpt id="p2">*</bpt>독립<ept id="p2">*</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Transaction<ept id="p1">**</ept> command that follows shows the transaction object for the active transaction, which is the newest one.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-transaction<ept id="p1">**</ept> 뒤에 오는 명령은 최신을 활성 트랜잭션에 대 한 트랜잭션 개체를 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The subscriber count is equal to 1, that shows that the transactions are unrelated.</source>
+          <target state="translated">가입자 수가 1, 트랜잭션 관련 없는 것을 보여 주는 하는 것과 같습니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When the active transaction is rolled back by using an <bpt id="p1">**</bpt>Undo-Transaction<ept id="p1">**</ept> command, the original transaction becomes active again.</source>
+          <target state="translated">때 활성 트랜잭션이 롤백되면를 사용 하 여는 <bpt id="p1">**</bpt>Undo-transaction<ept id="p1">**</ept> 명령, 원래 트랜잭션이 다시 활성화 됩니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-ItemProperty<ept id="p1">**</ept> command, which is part of the original transaction, finishes without error, and the original transaction can be completed by using the <bpt id="p2">**</bpt>Complete-Transaction<ept id="p2">**</ept> command.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-itemproperty<ept id="p1">**</ept> 명령 원본 트랜잭션의 일부인 오류 없이 완료 하 고 사용 하 여 원본 트랜잭션을 완료할 수는 <bpt id="p2">**</bpt>Complete-transaction<ept id="p2">**</ept> 명령입니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>As a result, the registry is changed.</source>
+          <target state="translated">그 결과 레지스트리가 변경됩니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Example 6: Run commands that are not part of a transaction</source>
+          <target state="translated">트랜잭션이 포함 되지 않은 명령을 실행 하는 예제 6:</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that commands that are submitted while a transaction is in progress can be included in the transaction or not included.</source>
+          <target state="translated">이 예제에서는 트랜잭션 진행 중 전송된 명령이 트랜잭션에 포함되는지 여부를 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Only commands that use the <bpt id="p1">*</bpt>UseTransaction<ept id="p1">*</ept> parameter are part of the transaction.</source>
+          <target state="translated">만 사용 하는 명령은 <bpt id="p1">*</bpt>UseTransaction<ept id="p1">*</ept> 매개 변수는 트랜잭션의 일부입니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The first and third <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> commands use the <bpt id="p2">*</bpt>UseTransaction<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">첫 번째 및 세 번째 <bpt id="p1">**</bpt>New-item<ept id="p1">**</ept> 사용 명령은 <bpt id="p2">*</bpt>UseTransaction<ept id="p2">*</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>These commands are part of the transaction.</source>
+          <target state="translated">트랜잭션의 일부입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Because the second <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> command does not use the <bpt id="p2">*</bpt>UseTransaction<ept id="p2">*</ept> parameter, it is not part of the transaction.</source>
+          <target state="translated">때문에 두 번째 <bpt id="p1">**</bpt>New-item<ept id="p1">**</ept> 명령은 사용 하지 않습니다는 <bpt id="p2">*</bpt>UseTransaction<ept id="p2">*</ept> 매개 변수를 트랜잭션의 일부가 않습니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The first dir command shows the effect.</source>
+          <target state="translated">첫 번째는 dir 명령의 결과 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The second <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> command is completed immediately, but the first and third <bpt id="p2">**</bpt>New-Item<ept id="p2">**</ept> commands are not effective until the transaction is committed.</source>
+          <target state="translated">두 번째 <bpt id="p1">**</bpt>New-item<ept id="p1">**</ept> 명령 첫 번째 하지만 즉시 완료 되며 세 번째 <bpt id="p2">**</bpt>New-item<ept id="p2">**</ept> 트랜잭션이 커밋될 때까지 명령을 적용 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Complete-Transaction<ept id="p1">**</ept> command commits the transaction.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Complete-transaction<ept id="p1">**</ept> 명령은 트랜잭션을 커밋합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>As a result, the second dir command shows that all of the new items are added to the registry.</source>
+          <target state="translated">결과적으로, 두 번째 명령은 dir 표시 모든 새 항목이 레지스트리에 추가 됩니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Example 7: Roll back a transaction that does not finish in a specified time</source>
+          <target state="translated">예제 7: 지정된 된 시간 안에 완료 되지 않으면 트랜잭션을 롤백하십시오.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">*</bpt>Timeout<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Start-Transaction<ept id="p2">**</ept> to start a transaction that must be completed within two minutes.</source>
+          <target state="translated">이 명령을 사용 하 여는 <bpt id="p1">*</bpt>제한 시간<ept id="p1">*</ept> 의 매개 변수 <bpt id="p2">**</bpt>Start-transaction<ept id="p2">**</ept> 를 2 분 이내에 완료 해야 하는 트랜잭션을 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If the transaction is not finished when the time-out expires, it is rolled back automatically.</source>
+          <target state="translated">제한 시간이 만료 되 면 트랜잭션이 완료 되지 않으면, 것이 자동으로 롤백됩니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When the time-out expires, you are not notified, but the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> property of the transaction object is set to RolledBack and commands that use the <bpt id="p2">*</bpt>UseTransaction<ept id="p2">*</ept> parameter fail.</source>
+          <target state="translated">제한 시간이 만료 되 면 알림이 나타나지, 하지만 <bpt id="p1">**</bpt>상태<ept id="p1">**</ept> 트랜잭션 개체의 속성이 RolledBack으로 설정 되 고 사용 하는 명령은 <bpt id="p2">*</bpt>UseTransaction<ept id="p2">*</ept> 매개 변수 실패 합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">이 cmdlet을 실행 하기 전에 확인 하면 메시지를 표시 합니다. 이 cmdlet을 실행 하기 전에 확인 하면 메시지를 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-Independent</source>
+          <target state="translated">독립적인</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet starts a transaction that is independent of any transactions in progress.</source>
+          <target state="translated">이 cmdlet은 진행 중인 트랜잭션에 독립적인 트랜잭션을 시작 됨을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>By default, if you use <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> while another transaction is in progress, a new subscriber is added to the transaction in progress.</source>
+          <target state="translated">기본적으로 사용 하는 경우 <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> 새 구독자를 진행 중인 트랜잭션을에 추가 됩니다 다른 트랜잭션이 진행 중입니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This parameter has an effect only when a transaction is already in progress in the session.</source>
+          <target state="translated">이 매개 변수는 세션에서 트랜잭션이 이미 진행 중인 경우에만 적용됩니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>By default, if you use <bpt id="p1">**</bpt>Start-Transaction<ept id="p1">**</ept> while a transaction is in progress, the existing transaction object is reused and the subscriber count is incremented.</source>
+          <target state="translated">기본적으로 사용 하는 경우 <bpt id="p1">**</bpt>Start-transaction<ept id="p1">**</ept> 트랜잭션이 진행 중일 기존 트랜잭션 개체가 다시 사용 되 고 가입자 수가 증가 합니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The effect is much like joining the original transaction.</source>
+          <target state="translated">결과는 원본 트랜잭션 가입과 매우 유사합니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An Undo-Transaction command rolls back the whole the transaction.</source>
+          <target state="translated">Undo-transaction 명령은 전체 롤백합니다 트랜잭션이 있습니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To complete the transaction, you must enter a Complete-Transaction command for each subscriber.</source>
+          <target state="translated">트랜잭션을 완료하려면 각 가입자에 대해 Complete-Transaction 명령을 입력해야 합니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Because most transactions that are in progress at the same time are related, the default is sufficient for most uses.</source>
+          <target state="translated">동시에 진행 중인 트랜잭션은 거의 관련되어 있으므로 대부분의 경우 기본값을 사용하면 됩니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If you specify the <bpt id="p1">*</bpt>Independent<ept id="p1">*</ept> parameter, this cmdlet creates a new transaction that can be completed or undone without affecting the original transaction.</source>
+          <target state="translated">지정 하는 경우는 <bpt id="p1">*</bpt>독립<ept id="p1">*</ept> 매개 변수를이 cmdlet 완료 되거나 원본 트랜잭션에 영향을 주지 않고 실행 취소 될 수 있는 새 트랜잭션을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>However, because only one transaction can be active at a time, you must complete or roll back the new transaction before resuming work on the original transaction.</source>
+          <target state="translated">그러나 한 번의 한 개의 트랜잭션만 활성 상태일 수 있으므로 새 트랜잭션을 완료하거나 롤백해야만 원본 트랜잭션을 다시 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-RollbackPreference</source>
+          <target state="translated">-RollbackPreference</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Specifies the conditions under which a transaction is automatically rolled back.</source>
+          <target state="translated">트랜잭션이 자동으로 롤백되는 조건을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">이 매개 변수에 허용되는 값은 다음과 같습니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Error.</source>
+          <target state="translated">오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The transaction is rolled back automatically if a terminating or non-terminating error occurs.</source>
+          <target state="translated">종료되는 오류 또는 종료되지 않는 오류가 발생하면 트랜잭션이 자동으로 롤백됩니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>TerminatingError.</source>
+          <target state="translated">오류를 TerminatingError 합니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The transaction is rolled back automatically if a terminating error occurs.</source>
+          <target state="translated">종료되는 오류가 발생하면 트랜잭션이 자동으로 롤백됩니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Never.</source>
+          <target state="translated">없습니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The transaction is never rolled back automatically.</source>
+          <target state="translated">트랜잭션이 자동으로 롤백되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The default value is Error.</source>
+          <target state="translated">기본값은 오류입니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-Timeout</source>
+          <target state="translated">시간 제한</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum time, in minutes, that the transaction is active.</source>
+          <target state="translated">트랜잭션이 활성 상태일 수 있는 최대 시간(분)을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>When the time-out expires, the transaction is automatically rolled back.</source>
+          <target state="translated">제한 시간이 만료되면 트랜잭션이 자동으로 롤백됩니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>By default, there is no time-out for transactions that are started at the command line.</source>
+          <target state="translated">기본적으로 명령줄에서 시작된 트랜잭션에 대한 제한 시간은 없습니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>When transactions are started by a script, the default time-out is 30 minutes.</source>
+          <target state="translated">트랜잭션을 스크립트로 시작하면 기본 제한 시간은 30분입니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">cmdlet이 실행될 경우 결과 동작을 표시합니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Cmdlet은 실행 되지 않습니다. Cmdlet이 실행 되 면 어떻게 되는지를 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">cmdlet이 실행되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">없음</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">이 cmdlet에 입력을 파이프할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">없음</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not generate any output.</source>
+          <target state="translated">이 cmdlet은 어떠한 출력도 생성하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Complete-Transaction</source>
+          <target state="translated">Complete-Transaction</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Get-Transaction</source>
+          <target state="translated">Get-Transaction</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Undo-Transaction</source>
+          <target state="translated">Undo-Transaction</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Use-Transaction</source>
+          <target state="translated">Use-Transaction</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

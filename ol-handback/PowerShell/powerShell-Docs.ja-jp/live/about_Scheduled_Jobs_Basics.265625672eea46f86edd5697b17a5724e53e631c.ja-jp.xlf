@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b405466d226415a506b6d429591842a50bf361ac</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\PSScheduledJob\About\about_Scheduled_Jobs_Basics.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b0c0a7cb61a59b04e6598015767e30d97231863</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e99ca94ebd33390450190ddfd193a437dcca88e9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Basics</source>
+          <target state="translated">about_Scheduled_Jobs_Basics</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Scheduled Jobs Basics</source>
+          <target state="translated">スケジュールされたジョブの基礎について</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Basics</source>
+          <target state="translated">about_Scheduled_Jobs_Basics</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Basics</source>
+          <target state="translated">about_Scheduled_Jobs_Basics</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Explains how to create and manage scheduled jobs.</source>
+          <target state="translated">ジョブをスケジュールし、管理する方法について説明します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">詳細説明</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This topic shows how to perform basic tasks of creating and managing scheduled jobs.</source>
+          <target state="translated">このトピックでは、基本的なタスクの作成とスケジュールされたジョブの管理を実行する方法を説明します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For information about more advanced tasks, see about_Scheduled_Jobs_Advanced.</source>
+          <target state="translated">高度なタスクについては、about_Scheduled_Jobs_Advanced を参照してください。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>HOW TO CREATE A SCHEDULED JOB</source>
+          <target state="translated">スケジュールされたジョブを作成するには、方法</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To create a scheduled job, use the Register-ScheduledJob cmdlet.</source>
+          <target state="translated">スケジュールされたジョブを作成するには、Register-scheduledjob コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The cmdlet requires a name and the commands or script that the job runs.</source>
+          <target state="translated">コマンドレットでは、名前し、ジョブが実行されるスクリプトまたはコマンドが必要です。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can either run the job immediately by adding the RunNow parameter, or create a job trigger and set job options when you create the job or at a later time.</source>
+          <target state="translated">RunNow パラメーターを追加してすぐにジョブを実行するか、ジョブ トリガーを作成するジョブを作成するとき、または後で、ジョブ オプションを設定とします。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To create a job that runs a script, use the FilePath parameter to specify the path to the script file.</source>
+          <target state="translated">スクリプトを実行するジョブを作成するのにには、スクリプト ファイルへのパスを指定するのに、FilePath パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To create a job that runs commands, use the ScriptBlock parameter.</source>
+          <target state="translated">コマンドを実行するジョブを作成するには、ScriptBlock パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following command creates the ProcessJob, which runs a Get-Process command.</source>
+          <target state="translated">次のコマンドでは、Get-process コマンドを実行すると、ProcessJob を作成します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This scheduled job has the default job options and no job trigger.</source>
+          <target state="translated">このスケジュールされたジョブは、既定のジョブのオプションとジョブ トリガーを持っていません。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Register-ScheduledJob -Name ProcessJob -ScriptBlock { Get-Process }</source>
+          <target state="translated">PS c: &gt; Register-scheduledjob-ProcessJob-scriptblock {Get-process} という名前を</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Id         Name            Triggers        Command       Enabled</source>
+          <target state="translated">Id Name トリガー コマンドが有効になっています。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>8          ProcessJob      {}              Get-Process   True</source>
+          <target state="translated">8 ProcessJob {} Get-process True</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>HOW TO CREATE A JOB TRIGGER</source>
+          <target state="translated">ジョブ トリガーを作成するには、方法</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Job triggers start a scheduled job automatically.</source>
+          <target state="translated">ジョブ トリガーは、スケジュールされたジョブを自動的に開始します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A job trigger can be one-time or recurring schedule or an event, such as when a user logs on or Windows starts.</source>
+          <target state="translated">ジョブ トリガーは、1 回だけまたは定期的なスケジュールまたはユーザーのログオン時などのイベントや、Windows が起動します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Each job can have zero, one, or multiple job triggers.</source>
+          <target state="translated">各ジョブは、0、1、または複数のジョブ トリガーにもできます。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To create a job trigger, use the New-JobTrigger cmdlet.</source>
+          <target state="translated">ジョブ トリガーを作成するには、New-jobtrigger コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following command creates a job trigger that starts a job every Monday and Thursday at 5:00 AM.</source>
+          <target state="translated">次のコマンドでは、午前 5 時に毎週月曜日と木曜日にジョブを開始するジョブ トリガーを作成します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The command saves the job trigger in the $t variable.</source>
+          <target state="translated">コマンドは、$t 変数内のジョブ トリガーを保存します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>$t = New-JobTrigger -Weekly -DaysOfWeek "Monday", "Thursday" -At "5:00 AM"</source>
+          <target state="translated">$t = 新しい JobTrigger-毎週 DaysOfWeek"Monday","Thursday"、"5時 00分 Am"</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Job triggers are optional.</source>
+          <target state="translated">ジョブ トリガーは省略可能です。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can start a scheduled job at any time by adding the RunNow parameter to your Register-ScheduledJob command, or by using the Start-Job cmdlets.</source>
+          <target state="translated">Register-scheduledjob コマンドに RunNow パラメーターを追加するか、Start-job コマンドレットを使用して、いつでも、スケジュールされたジョブを開始できます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>HOW TO ADD A JOB TRIGGER</source>
+          <target state="translated">ジョブ トリガーを追加するには、方法</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When you add a job trigger to a scheduled job, the job trigger is added to the scheduled job XML file for the scheduled job and becomes part of the scheduled job.</source>
+          <target state="translated">スケジュールされたジョブにジョブ トリガーを追加すると、ジョブ トリガーは、スケジュールされたジョブのスケジュールされたジョブの XML ファイルが追加され、スケジュールされたジョブの一部になります。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can add a job trigger to a scheduled job when you create the scheduled job or at a later time and you can change the job trigger of a scheduled job at any time.</source>
+          <target state="translated">スケジュールされたジョブ、スケジュールされたジョブを作成するときに、または後で、ジョブ トリガーは、いつでも、スケジュールされたジョブのジョブ トリガーを変更できますを追加することができます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses some of the same job triggers that Task Scheduler uses.</source>
+          <target state="translated">Windows PowerShell では、タスク スケジューラを使用する同じジョブ トリガーの一部を使用します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For detailed information about job triggers, see the help topic for the New-JobTrigger cmdlet.</source>
+          <target state="translated">ジョブ トリガーの詳細については、New-jobtrigger コマンドレットのヘルプ トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The following command uses the Register-ScheduledJob cmdlet to create the process job.</source>
+          <target state="translated">次のコマンドでは、Register-scheduledjob コマンドレットを使用して、処理ジョブを作成します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It uses the Trigger parameter to specify the job trigger in the $t variable.</source>
+          <target state="translated">-Trigger パラメーターを使用して、$t 変数内ジョブ トリガーを指定します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Register-ScheduledJob -Name ProcessJob -ScriptBlock {Get-Command} -Trigger $t</source>
+          <target state="translated">Register-scheduledjob-ProcessJob ScriptBlock という名前を {Get-command} - $t のトリガー</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can also add a job trigger to an existing scheduled job at any time.</source>
+          <target state="translated">いつでも、既存のスケジュールされたジョブにジョブ トリガーを追加することもできます。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The following command adds the job trigger in the $t variable to the  ProcessJob scheduled job.</source>
+          <target state="translated">次のコマンドでは、ジョブ トリガーを $t 変数内 ProcessJob スケジュールされたジョブに追加します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Add-JobTrigger -Name ProcessJob -Trigger $t</source>
+          <target state="translated">Add-jobtrigger-ProcessJob という名前の $t のトリガー</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>As a result of this command, the job trigger starts the ProcessJob automatically every Monday and Thursday at 5:00 AM.</source>
+          <target state="translated">このコマンドの結果として、ジョブ トリガー、ProcessJob が自動的に開始毎週月曜日と木曜日午前 5時 00分です。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>HOW TO GET A JOB TRIGGER</source>
+          <target state="translated">ジョブ トリガーを取得するには、方法</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To get the job trigger of a scheduled job, use the Get-JobTrigger cmdlet.</source>
+          <target state="translated">スケジュールされたジョブのジョブ トリガーを取得するには、Get-jobtrigger コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Use the Name, ID, and InputObject parameters to specify the scheduled job (not the job trigger).</source>
+          <target state="translated">名前、ID、および InputObject パラメーターを使用すると、スケジュールされたジョブ (ジョブのトリガーとは異なる) を指定できます。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The following command gets the job trigger of the ProcessJob.</source>
+          <target state="translated">次のコマンドは、ProcessJob のジョブ トリガーを取得します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-JobTrigger -Name ProcessJob</source>
+          <target state="translated">PS c: &gt; Get-jobtrigger-ProcessJob という名前を</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Id   Frequency       Time                   DaysOfWeek              Enabled</source>
+          <target state="translated">Id の頻度に DaysOfWeek が有効になっています。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>1    Weekly          11/7/2011 5:00:00 AM   {Monday, Thursday}      True</source>
+          <target state="translated">1 週間 2011 年 11 月 7 日 5時 00分: 00 AM {月曜日、木曜日} True</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>HOW TO CREATE JOB OPTIONS</source>
+          <target state="translated">ジョブ オプションを作成するには、方法</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Job options establish conditions for starting and running the job.</source>
+          <target state="translated">ジョブのオプションは、開始して、ジョブを実行するための条件を確立します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Every job has the default job options unless you change them.</source>
+          <target state="translated">各ジョブでは、それらを変更しない限り、既定のジョブ オプションがあります。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Because job options can prevent a job from running at the scheduled time, it is important to understand the job options and use them carefully.</source>
+          <target state="translated">ジョブのオプションは、ジョブを防ぐため、スケジュールされた時刻に実行してから、これがジョブのオプションを理解し、慎重に使用する重要です。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses the same job options that Task Scheduler uses.</source>
+          <target state="translated">Windows PowerShell では、タスク スケジューラを使用してジョブのオプションを使用します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For detailed information about the job options, see the help topic for the New-ScheduledJobOption cmdlet.</source>
+          <target state="translated">ジョブ オプションに関する詳細については、New-scheduledjoboption コマンドレットのヘルプ トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Type "Get-Help New-ScheduledJobOption" or see the help topic online at http://go.microsoft.com/fwlink/?LinkID=223915.</source>
+          <target state="translated">"Get-help New-scheduledjoboption"を入力するか、http://go.microsoft.com/fwlink/?LinkID=223915 でオンライン ヘルプ トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Job options are stored in the scheduled job XML file.</source>
+          <target state="translated">ジョブのオプションは、スケジュールされたジョブの XML ファイルに格納されます。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can set job options when you create a scheduled job or change them at any time.</source>
+          <target state="translated">スケジュールされたジョブを作成またはそれらをいつでも変更する場合は、ジョブ オプションを設定できます。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The following command creates a scheduled job option in which the WakeToRun scheduled job option is set to True.</source>
+          <target state="translated">次のコマンドでは、WakeToRun スケジュールされたジョブのオプションが True に設定されているスケジュールされたジョブ オプションを作成します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The WakeToRun option runs the scheduled job even if the computer is in the Sleep or Hibernate state at the scheduled start time.</source>
+          <target state="translated">場合でも、スケジュールされた開始時刻にコンピューターがスリープまたは休止状態には、WakeToRun オプションは、スケジュールされたジョブを実行します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The command saves the job options in the $o variable.</source>
+          <target state="translated">このコマンドでは、$o 変数にジョブ オプションを保存します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>$o = New-ScheduledJobOption -WakeToRun</source>
+          <target state="translated">$o = 新しい ScheduledJobOption WakeToRun</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>HOW TO GET JOB OPTIONS</source>
+          <target state="translated">ジョブ オプションを取得するには、方法</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To get the job options of a scheduled job, use the Get-ScheduledJobOption cmdlet.</source>
+          <target state="translated">スケジュールされたジョブのジョブ オプションを取得するには、Get-scheduledjoboption コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Use the Name, ID, and InputObject parameters to specify the scheduled job (not the job options).</source>
+          <target state="translated">名前、ID、および InputObject パラメーターを使用すると、スケジュールされたジョブ (ジョブのオプションとは異なる) を指定できます。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The following command gets the job options of the ProcessJob.</source>
+          <target state="translated">次のコマンドは、ProcessJob のジョブ オプションを取得します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJobOption -Name ProcessJob</source>
+          <target state="translated">PS c: &gt; Get-scheduledjoboption-ProcessJob という名前を</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>StartIfOnBatteries     : False StopIfGoingOnBatteries : True WakeToRun              : False StartIfNotIdle         : True StopIfGoingOffIdle     : False RestartOnIdleResume    : False IdleDuration           : 00:10:00 IdleTimeout            : 01:00:00 ShowInTaskScheduler    : True RunElevated            : False RunWithoutNetwork      : True DoNotAllowDemandStart  : False MultipleInstancePolicy : IgnoreNew JobDefinition          : Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</source>
+          <target state="translated">StartIfOnBatteries: False StopIfGoingOnBatteries: WakeToRun を True: False StartIfNotIdle: StopIfGoingOffIdle を True: False RestartOnIdleResume: False IdleDuration: 00時 10分: 00 IdleTimeout: 1時 00分: 00 ShowInTaskScheduler: True RunElevated: False RunWithoutNetwork: DoNotAllowDemandStart を True: False MultipleInstancePolicy: IgnoreNew JobDefinition: Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>HOW TO CHANGE JOB OPTIONS</source>
+          <target state="translated">ジョブ オプションを変更するには、方法</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You can change the job options of a scheduled job when you create a scheduled job or at any time thereafter.</source>
+          <target state="translated">または、その後、いつでも、スケジュールされたジョブを作成するときにスケジュールされたジョブのジョブ オプションを変更できます。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The following command uses the Register-JobTrigger cmdlet to create the process job.</source>
+          <target state="translated">次のコマンドでは、レジスタ JobTrigger コマンドレットを使用して、処理ジョブを作成します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It uses the ScheduledJobOption parameter to specify the job options in the $o variable.</source>
+          <target state="translated">ScheduledJobOption パラメーターを使用して、$o 変数にジョブ オプションを指定します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Register-JobTrigger -Name ProcessJob -ScriptBlock {Get-Process} -ScheduledJobOption $o</source>
+          <target state="translated">レジスタ JobTrigger-ProcessJob-scriptblock {Get-process} ScheduledJobOption という名前を $o</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You can also change the job options to an existing scheduled job at any time.</source>
+          <target state="translated">また、既存のスケジュールされたジョブに、いつでもジョブ オプションを変更することができます。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The following command uses the Set-ScheduledJobOption cmdlet to change the value of the WakeToRun option of the ProcessJob scheduledJob to True.</source>
+          <target state="translated">次のコマンドでは、Set-scheduledjoboption コマンドレットを使用して、ProcessJob scheduledJob の WakeToRun オプションの値を True に変更します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Like all of the Set cmdlets in the PSScheduledJob module, Set-ScheduledJobOption cmdlet does not have Name or ID parameters.</source>
+          <target state="translated">すべて PSScheduledJob モジュールのセット コマンドレットと同様に、Set-scheduledjoboption コマンドレットは、名前または ID パラメーターがありません。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You can use the InputObject parameter to specify the scheduled job options or pipe a scheduled job from Get-ScheduledJobOption cmdlet to Set-ScheduledJobOption.</source>
+          <target state="translated">InputObject パラメーターを使用して、スケジュールされたジョブ オプションを指定するか、Get-scheduledjoboption コマンドレットから Set-scheduledjoboption へのスケジュールされたジョブをパイプすることができます。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The following command uses the Get-ScheduledJob cmdlet to get the ProcessJob.</source>
+          <target state="translated">次のコマンドでは、Get-scheduledjob コマンドレットを使用して、ProcessJob を取得します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>It uses the Get-ScheduledJobOption cmdlet to get the job options in the ProcessJob and the Set-ScheduledJobOption cmdlet to change the WakeToRun job option in the ProcessJob to True.</source>
+          <target state="translated">Get-scheduledjoboption コマンドレットを使用して、ProcessJob で WakeToRun ジョブ オプションを True に変更する、ProcessJob と Set-scheduledjoboption コマンドレットのジョブ オプションを取得します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJob -Name ProcessJob | Get-ScheduledJobOption | Set-ScheduledJobOption -WakeToRun</source>
+          <target state="translated">Get-scheduledjob-ProcessJob という名前を |Get-scheduledjoboption |Set-scheduledjoboption WakeToRun</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>HOW TO GET SCHEDULED JOB INSTANCES</source>
+          <target state="translated">スケジュールされたジョブのインスタンスを取得するには、方法</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>When a scheduled job is started, Windows PowerShell creates a job instance that is similar to a standard Windows PowerShell background job.</source>
+          <target state="translated">スケジュールされたジョブが開始されると、Windows PowerShell は、標準の Windows PowerShell バック グラウンド ジョブを次のようなジョブ インスタンスを作成します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You can use the Job cmdlets, such as Get-Job, Stop-Job and Receive-Job to manage the job instances.</source>
+          <target state="translated">Get-job などの Job コマンドレットを使用するジョブのインスタンスを管理するには、Stop-job と Receive-job です。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>NOTE: To use the Job cmdlets on instances of scheduled jobs, the PSScheduledJob module  must be imported into the session.</source>
+          <target state="translated">注: をジョブ コマンドレットを使用して、スケジュールされたジョブのインスタンスで、PSScheduledJob モジュール必要がありますにインポートするセッションです。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To import the PSScheduledJob module, type "Import-Module PSScheduledJob" (without quotation marks) or use any Scheduled Job cmdlet, such as Get-ScheduledJob.</source>
+          <target state="translated">PSScheduledJob モジュールをインポートするには、(引用符なし)"PSScheduledJob モジュールのインポート"を入力するか、Get-scheduledjob などの任意のスケジュールされたジョブ コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To get all instances of Windows PowerShell scheduled jobs (and all active standard jobs), use the Get-Job cmdlet.</source>
+          <target state="translated">Windows PowerShell のスケジュールされたジョブ (およびアクティブなすべての標準的なジョブ) のすべてのインスタンスを取得するには、Get-job コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The following command imports the PSScheduledJob module and then gets all jobs on the local computer.</source>
+          <target state="translated">次のコマンドは、PSScheduledJob モジュールをインポートし、ローカル コンピューター上のすべてのジョブを取得します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Import-Module PSScheduledJob</source>
+          <target state="translated">PS c: &gt; Import-module PSScheduledJob</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job</source>
+          <target state="translated">PS c: &gt; Get-job</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The following command gets all instances of the ProcessJob on the local computer.</source>
+          <target state="translated">次のコマンドは、ローカル コンピューター上、ProcessJob のすべてのインスタンスを取得します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job -Name ProcessJob</source>
+          <target state="translated">PS c: &gt; Get-job-ProcessJob という名前を</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Id     Name        PSJobTypeName  State    HasMoreData   Location   Command</source>
+          <target state="translated">Id 名 PSJobTypeName 状態 HasMoreData 場所コマンド</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>45     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 46     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 47     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 48     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 49     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 50     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 51     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process</source>
+          <target state="translated">45 ProcessJob PSScheduledJob 完了 True localhost Get-process 46 ProcessJob PSScheduledJob 完了した場合は True。 localhost Get-process 47 ProcessJob PSScheduledJob 完了した場合は True。 localhost Get-process 48 ProcessJob PSScheduledJob 完了した場合は True。 localhost Get-process 49 ProcessJob PSScheduledJob 完了した場合は True。 localhost Get-process 50 ProcessJob PSScheduledJob 完了した場合は True。 localhost Get-process 51 ProcessJob PSScheduledJob 完了した場合は True。 localhost Get-process</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The default display does not show the start time, which typically distinguishes instances of the same scheduled job.</source>
+          <target state="translated">既定の表示では、開始時刻は、通常、同じスケジュールされたジョブのインスタンスを区別は表示されません。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The following command uses the Format-Table cmdlet to display the Name, ID, and BeginTime  properties of the scheduled job.</source>
+          <target state="translated">次のコマンドでは、Format-table コマンドレットを使用して、スケジュールされたジョブの名前、ID、および形式の BeginTime プロパティを表示します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job ProcessJob | Format-Table -Property Name, ID, BeginTime</source>
+          <target state="translated">PS c: &gt; Get-job ProcessJob |表の書式設定の名前、ID、形式の BeginTime プロパティ</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Name       Id BeginTime</source>
+          <target state="translated">名前 Id 形式の BeginTime</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>ProcessJob 43 11/2/2011 3:00:02 AM ProcessJob 44 11/3/2011 3:00:02 AM ProcessJob 45 11/4/2011 3:00:02 AM ProcessJob 46 11/5/2011 3:00:02 AM ProcessJob 47 11/6/2011 3:00:02 AM ProcessJob 48 11/7/2011 12:00:01 AM ProcessJob 49 11/7/2011 3:00:02 AM ProcessJob 50 11/8/2011 3:00:02 AM</source>
+          <target state="translated">ProcessJob 43 11/2/2011 午前 3時 00分: 02 ProcessJob 44 11/3/2011 午前 3時 00分: 02 ProcessJob 45 11/4/2011 午前 3時 00分: 02 ProcessJob 46 11/5/2011 午前 3時 00分: 02 ProcessJob 47 11/6/2011 ProcessJob 48 11/7/2011 の午前 3時 00分: 02 12時 00分: 01 AM ProcessJob 49 11/7/2011 午前 3時 00分: 02 ProcessJob 50 11/8/2011 午前 3時 00分: 02</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>GET SCHEDULED JOB RESULTS</source>
+          <target state="translated">スケジュールされたジョブの結果を得る</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To get the results of an instance of a scheduled job, use the Receive-Job cmdlet.</source>
+          <target state="translated">スケジュールされたジョブのインスタンスの結果を取得するには、Receive-job コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>NOTE: To use the Job cmdlets on instances of scheduled jobs, the PSScheduledJob module must be imported into the session.</source>
+          <target state="translated">注: をジョブ コマンドレットを使用して、スケジュールされたジョブのインスタンスで、PSScheduledJob モジュール必要がありますにインポートするセッションです。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To import the PSScheduledJob module, type "Import-Module PSScheduledJob" (without quotation marks) or use any Scheduled Job cmdlet, such as Get-ScheduledJob.</source>
+          <target state="translated">PSScheduledJob モジュールをインポートするには、(引用符なし)"PSScheduledJob モジュールのインポート"を入力するか、Get-scheduledjob などの任意のスケジュールされたジョブ コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The following command gets the results of the newest instance of the ProcessJob scheduled job (ID = 51)</source>
+          <target state="translated">次のコマンドは、ProcessJob スケジュールされたジョブの最新のインスタンスの結果を取得 (ID = 51)</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Import-Module PSScheduledJob</source>
+          <target state="translated">PS c: &gt; Import-module PSScheduledJob</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Receive-Job -ID 51 -Keep</source>
+          <target state="translated">PS c: &gt; が表示されるジョブ ID 51 の保持</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The results of scheduled jobs are saved on disk, so the Keep parameter of Receive-Job is not required.</source>
+          <target state="translated">Receive-job の Keep パラメーターは必要ありませんので、スケジュールされたジョブの結果は、ディスクに保存されます。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>However, without the Keep parameter, you can get the results of a scheduled job only once in each Windows PowerShell session.</source>
+          <target state="translated">ただし、Keep パラメーターがない場合に、各 Windows PowerShell セッションで、スケジュールされたジョブのみに 1 回の結果を取得できます。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To start a new Windows PowerShell session, type "PowerShell" or open a new Windows PowerShell window.</source>
+          <target state="translated">新しい Windows PowerShell セッションを開始するには、"PowerShell"を入力するか、新しい Windows PowerShell ウィンドウを開きます。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">関連項目</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs about_Scheduled_Jobs_Advanced about_Scheduled_Jobs_Troubleshooting</source>
+          <target state="translated">about_Scheduled_Jobs about_Scheduled_Jobs_Advanced about_Scheduled_Jobs_Troubleshooting</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

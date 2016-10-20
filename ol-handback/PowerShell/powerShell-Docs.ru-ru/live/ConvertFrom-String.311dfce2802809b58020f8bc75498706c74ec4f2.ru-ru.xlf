@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b887b04a42e3ed4a34c3149eb926434b2812073</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\ConvertFrom-String.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc139ae602e803d12e36303954502ffa7ba98dd3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12eb81c1f67bac207762a69fe821c7b8403f44b5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-String</source>
+          <target state="translated">ConvertFrom строка</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-String</source>
+          <target state="translated">ConvertFrom строка</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Extracts and parses structured objects from string content.</source>
+          <target state="translated">Извлекает и выполняет синтаксический анализ структурированных объектов из содержимого строки.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ByDelimiter (Default)</source>
+          <target state="translated">ByDelimiter (по умолчанию)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>TemplateParsing</source>
+          <target state="translated">TemplateParsing</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ConvertFrom-String<ept id="p1">**</ept> cmdlet extracts and parses structured objects from string content.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Строка ConvertFrom<ept id="p1">**</ept> командлет извлекает и выполняет синтаксический анализ структурированных объектов из содержимого строки.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This cmdlet generates an object by parsing text from a traditional text stream.</source>
+          <target state="translated">Этот командлет создает объект путем синтаксического анализа текста из традиционного текстового потока.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For each string in the pipeline, the cmdlet splits the input by either a delimiter or a parse expression, and then assigns property names to each of the resulting split elements.</source>
+          <target state="translated">Для каждой строки в конвейере командлет разделяет входные данные с разделителем или синтаксического анализа выражения и присваивает каждой разделить элементы конечного имен свойств.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can provide these property names; if you do not, they are automatically generated for you.</source>
+          <target state="translated">Можно указать имена этих свойств; Если этого не сделать, они автоматически создаются автоматически.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The cmdlet's default parameter set, <bpt id="p1">*</bpt>ByDelimiter<ept id="p1">*</ept>, splits exactly on the regular expression delimiter.</source>
+          <target state="translated">Значение параметра по умолчанию командлета, <bpt id="p1">*</bpt>ByDelimiter<ept id="p1">*</ept>, разделяет совпадают с разделителем регулярного выражения.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It does not perform quote matching or delimiter escaping as the Import-Csv cmdlet does.</source>
+          <target state="translated">Он не выполняет сопоставления квоты или разделитель экранирование как командлет Import-Csv.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The cmdlet's alternate parameter set, <bpt id="p1">*</bpt>TemplateParsing<ept id="p1">*</ept>, generates elements from the groups that are captured by a regular expression.</source>
+          <target state="translated">Задать альтернативный параметра командлета, <bpt id="p1">*</bpt>TemplateParsing<ept id="p1">*</ept>, создает элементы из групп, которые регистрируются регулярным выражением.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports two modes: basic delimited parsing, and automatically-generated, example-driven parsing.</source>
+          <target state="translated">Этот командлет поддерживает два режима: basic запятой синтаксический анализ и автоматически создается, ориентированных на примере синтаксического анализа.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Delimited parsing, by default, splits the input at white space, and assigns property names to the resulting groups.</source>
+          <target state="translated">Анализ с разделением, используемый по умолчанию, разбивает входные данные с помощью пробелов и присваивает имена свойств получаемым группам.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can customize the delimiter by piping the <bpt id="p1">**</bpt>ConvertFrom-String<ept id="p1">**</ept> results into one of the Format-<bpt id="p2">*</bpt> cmdlets, or you can use the <ept id="p2">*</ept>Delimiter* parameter.</source>
+          <target state="translated">Разделитель можно настроить по конвейеру <bpt id="p1">**</bpt>ConvertFrom строка<ept id="p1">**</ept> результаты в формате-<bpt id="p2">*</bpt> можно использовать командлеты, или <ept id="p2">*</ept>разделитель * параметра.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The cmdlet also supports automatically-generated, example-driven parsing based on the <bpt id="p1">**</bpt>FlashExtract<ept id="p1">**</ept> research work by Microsoft Researchhttp://research.microsoft.com/.</source>
+          <target state="translated">Командлет поддерживает автоматически создается, ориентированных на примере синтаксический анализ на основе <bpt id="p1">**</bpt>FlashExtract<ept id="p1">**</ept> изучения работы с Microsoft Researchhttp://research.microsoft.com/.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Example 1: Generate an object with default property names</source>
+          <target state="translated">Пример 1: Создание объекта с именами свойств по умолчанию</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command generates an object with default property names, P1 and P2.</source>
+          <target state="translated">Эта команда создает объект с именами по умолчанию свойство P1 и P2.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The results are P1=Hello and P2=World.</source>
+          <target state="translated">Результаты будут P1 = Hello и P2 = мир.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Generate an object with default property names using a delimiter</source>
+          <target state="translated">Пример 2: Создание объекта с именами свойств по умолчанию, с помощью разделителя</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command generates an object with P1=He and P2=o World, by specifying the ll in Hello  as the delimiter.</source>
+          <target state="translated">Эта команда создает объект с P1 = он и P2 = реляционный мир, указав ll в Hello в качестве разделителя.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 3: Use an expression as the value of the TemplateContent parameter</source>
+          <target state="translated">Пример 3: Используйте выражение в качестве значения параметра TemplateContent</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command uses an expression as the value of the <bpt id="p1">*</bpt>TemplateContent<ept id="p1">*</ept> parameter to instruct Windows PowerShell that the string that is used on the pipeline to <bpt id="p2">**</bpt>ConvertFrom-String<ept id="p2">**</ept> has a property of <bpt id="p3">**</bpt>Name<ept id="p3">**</ept>.</source>
+          <target state="translated">Эта команда использует выражение в качестве значения <bpt id="p1">*</bpt>TemplateContent<ept id="p1">*</ept> параметр, чтобы среда Windows PowerShell, строка, используемая в конвейере для <bpt id="p2">**</bpt>ConvertFrom строка<ept id="p2">**</ept> имеет свойство <bpt id="p3">**</bpt>имя<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can also save the expression in a variable, then use the variable as the value of the <bpt id="p1">*</bpt>TemplateContent<ept id="p1">*</ept> parameter, as shown here.</source>
+          <target state="translated">Также можно сохранить в переменной, выражения, а затем использовать в качестве значения переменной <bpt id="p1">*</bpt>TemplateContent<ept id="p1">*</ept> параметра, как показано ниже.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Example 4: Generate an object that contains two properties</source>
+          <target state="translated">Пример 4: Создать объект, который содержит два свойства</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command generates an object that contains two properties, FirstWord and SecondWord.</source>
+          <target state="translated">Эта команда создает объект, который содержит два свойства, FirstWord и SecondWord.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The results are FirstWord=Hello and SecondWord=World.</source>
+          <target state="translated">Результаты будут FirstWord = Hello и SecondWord = мир.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example 5: Generate two objects of different object types</source>
+          <target state="translated">Пример 5: Создание двух объектов различных типов объектов</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This command generates an object with default property names P1 and P2, but property types String and Integer are identified.</source>
+          <target state="translated">Эта команда создает объект с именами по умолчанию свойство P1 и P2, но определяются типы свойств, строковые и числовые данные.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The results are P1=123 and P2=456.</source>
+          <target state="translated">Результаты будут P1 = 123 и P2 = 456.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The second property is an integer, not a string.</source>
+          <target state="translated">Второе свойство представляет собой целое число, не является строкой.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-Delimiter</source>
+          <target state="translated">-Разделитель</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specifies a regular expression that identifies the boundary between elements.</source>
+          <target state="translated">Указывает регулярное выражение, которое определяет границу между элементами.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Elements that are created by the split become properties in the resulting object.</source>
+          <target state="translated">Элементы, которые создаются путем разделения становятся свойствами в конечном объекте.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The delimiter is ultimately used in a call to <bpt id="p1">**</bpt>System.Text.RegularExpressions.RegularExpression.Split()<ept id="p1">**</ept>.</source>
+          <target state="translated">Разделитель в конечном счете используется при обращении к <bpt id="p1">**</bpt>System.Text.RegularExpressions.RegularExpression.Split()<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-IncludeExtent</source>
+          <target state="translated">-IncludeExtent</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet includes an extent text property that is removed by default.</source>
+          <target state="translated">Указывает, что этот командлет включает текстовое свойство экстентов, удаляются по умолчанию.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specifies strings received from the pipeline, or a variable that contains a string object.</source>
+          <target state="translated">Задает строки, полученные из конвейера или переменную, которая содержит строковый объект.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-PropertyNames</source>
+          <target state="translated">-PropertyNames</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Specifies and array of property names to which to assign split values in the resulting object.</source>
+          <target state="translated">Указывает и массив имен свойств, к которому необходимо назначить значения разбиения в конечном объекте.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Every line of text that you split or parse generates elements that represent property values.</source>
+          <target state="translated">Каждая строка текста, который можно разбить или проанализировать создает элементы, представляющие значения свойств.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If the element is the result of a capture group, and that capture group is named (for example, (?<ph id="ph1">\&lt;</ph>name<ph id="ph2">\&gt;</ph>) or (?'name') ), then the name of that capture group is assigned to the property.</source>
+          <target state="translated">Если элемент является результатом группа захвата, а именованные группы захвата (например, (?<ph id="ph1">\&lt;</ph>имя<ph id="ph2">\&gt;</ph>) или (? " Имя ")), то имя этой группы захвата присваивается свойству.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you provide any elements in the <bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept> array, those names are assigned to properties that have not yet been named.</source>
+          <target state="translated">При указании любых элементов в <bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept> массив этих присваиваются имена свойств, которые не присвоено.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If you provide more property names than there are fields, Windows PowerShell ignores the extra property names.</source>
+          <target state="translated">Если указано несколько имен свойств, чем поля, Windows PowerShell игнорирует имена дополнительных свойств.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you do not specify enough property names to name all fields, Windows PowerShellautomatically assigns numerical property names to any properties that are not named: P1, P2, etc.</source>
+          <target state="translated">Если не указать достаточно имена свойств для именования всех полей, Windows PowerShellautomatically назначает имена числовых свойств всех свойств, которые не являются именованными: P1, P2, и т. д.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-TemplateContent</source>
+          <target state="translated">-TemplateContent</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Specifies an expression, or an expression saved as a variable, that describes the properties to which this cmdlet assigns strings.</source>
+          <target state="translated">Указывает выражение или выражение, сохранить в виде переменной, описывающий свойства, к которым он назначает строки.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The syntax of a template field specification is the following: {<ph id="ph1">\[</ph>optional-typecast<ph id="ph2">\]</ph>name(sequence-spec, for example <bpt id="p1">*</bpt>):example-value}. An example is {PersonInfo<ept id="p1">*</ept>:{Name:Patti Fuller}.</source>
+          <target state="translated">Синтаксис спецификации поля шаблона находится в следующем: {<ph id="ph1">\[</ph>необязательно приведения<ph id="ph2">\]</ph>name(sequence-spec, for example <bpt id="p1">*</bpt>):example-значение}. Примером является {PersonInfo<ept id="p1">*</ept>: {имя: Patti Fuller}.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-TemplateFile</source>
+          <target state="translated">-TemplateFile</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies a file, as an array, that contains a template for the desired parsing of the string.</source>
+          <target state="translated">Указывает файл, как массив, который содержит шаблон для требуемой синтаксический анализ строки.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In the template file, properties and their values are enclosed in brackets, as shown in the following example.</source>
+          <target state="translated">В файле шаблона свойства и их значения заключаются в квадратные скобки, как показано в следующем примере.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If a property, such as the Name property and its associated other properties, appears multiple times, you can add an asterisk (*) to indicate that this results in multiple records.</source>
+          <target state="translated">Свойства, такие как свойства Name и связанный с ним другие свойства встречается несколько раз, можно добавить звездочку (*), чтобы указать, что в результате несколько записей.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This avoids extracting multiple properties into a single record.</source>
+          <target state="translated">Это позволяет избежать извлечения нескольких свойств в одну запись.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>{Name*:David Chew}</source>
+          <target state="translated">{Name*:David Chew}</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>{City:Redmond}, {State:WA}</source>
+          <target state="translated">{Город: Redmond} {состояние: WA}</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>{Name*:Evan Narvaez}</source>
+          <target state="translated">{Name*:Evan Narvaez}</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>{City:Issaquah}, {State:WA}</source>
+          <target state="translated">{Город: Иссаква} {состояние: WA}</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-UpdateTemplate</source>
+          <target state="translated">-UpdateTemplate</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet saves the results of a learning algorithm into a comment in the template file.</source>
+          <target state="translated">Указывает, что этот командлет сохраняет результаты алгоритм обучения в комментарий в файле шаблона.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This makes the algorithm learning process faster.</source>
+          <target state="translated">Это делает алгоритм обучения процесс быстрее.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To use this parameter, you must also specify a template file with the <bpt id="p1">*</bpt>TemplateFile<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Чтобы использовать этот параметр, необходимо указать файл шаблона с <bpt id="p1">*</bpt>TemplateFile<ept id="p1">*</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-String: Example-based text parsing</source>
+          <target state="translated">ConvertFrom-строка: Синтаксический анализ текста на основе примера</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-StringData</source>
+          <target state="translated">ConvertFrom-StringData</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-Csv</source>
+          <target state="translated">ConvertFrom-Csv</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>ConvertTo-Xml</source>
+          <target state="translated">ConvertTo-Xml</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

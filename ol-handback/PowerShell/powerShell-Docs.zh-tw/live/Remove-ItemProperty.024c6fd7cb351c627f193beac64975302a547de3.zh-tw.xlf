@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">927f66382340f7d9d62a03ca6223d41e0f66fa45</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Management\Remove-ItemProperty.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d6ffa68c8e2902caaab6e22d3f387cd00e667a6b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b7db8ffa3851f35f33d3b28e1e43398528c098ab</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Remove-ItemProperty</source>
+          <target state="translated">Remove-itemproperty</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Remove-ItemProperty</source>
+          <target state="translated">Remove-itemproperty</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Deletes the property and its value from an item.</source>
+          <target state="translated">刪除項目的屬性及其值。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Path (Default)</source>
+          <target state="translated">路徑 （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LiteralPath</source>
+          <target state="translated">常值路徑</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Remove-ItemProperty cmdlet deletes a property and its value from an item.</source>
+          <target state="translated">Remove-ItemProperty Cmdlet 會刪除項目的屬性及其值。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use it to delete registry values and the data that they store.</source>
+          <target state="translated">您可以使用它來刪除登錄值和它們所儲存的資料。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 範例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command deletes the SmpProperty registry value, and its data, from the SmpApplication subkey of the HKEY_LOCAL_MACHINE\Software registry key.</source>
+          <target state="translated">此命令會從 HKEY_LOCAL_MACHINE\Software 登錄機碼的 SmpApplication 子機碼中刪除 SmpProperty 登錄值及其資料。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Because the command is issued from a file system drive (PS C:<ph id="ph1">\\\&gt;</ph>), it includes the fully qualified path to the SmpApplication subkey, including the drive, HKLM:, and the Software key.</source>
+          <target state="translated">因為發出此命令從檔案系統磁碟機 (PS<ph id="ph1">\\\&gt;</ph>)，其中包括完整的路徑 SmpApplication 子機碼，包括磁碟機、 HKLM:，以及軟體機碼。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It uses the Name parameter to identify the registry value that is being deleted.</source>
+          <target state="translated">它會使用 Name 參數來識別要刪除的登錄值。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>These commands delete the Options registry value, and its data, from the MyApp subkey of HKEY_CURRENT_USER\Software\MyCompany.</source>
+          <target state="translated">這些命令會從 HKEY_CURRENT_USER\Software\MyCompany 的 MyApp 子機碼刪除 Options 登錄值及其資料。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The first command uses the Set-Location cmdlet to change the current location to the HKEY_CURRENT_USER drive (HKCU:) and the Software\MyCompany\MyApp subkey.</source>
+          <target state="translated">第一個命令使用 Set-Location Cmdlet，將目前的位置變更為 HKEY_CURRENT_USER 磁碟機 (HKCU:) 和 Software\MyCompany\MyApp 子機碼。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The second command uses the Remove-Item cmdlet to remove the Options registry value, and its data, from the MyApp subkey.</source>
+          <target state="translated">第二個命令使用 Remove-Item Cmdlet，從 MyApp 子機碼移除 Options 登錄值及其資料。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Because the Path parameter is required, the command uses a dot (.) to indicate the current location.</source>
+          <target state="translated">由於 Path 參數是必要參數，因此，命令會使用點 (.) 來表示目前的位置。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It uses the Name parameter to specify which registry value to delete.</source>
+          <target state="translated">它會使用 Name 參數來指定要刪除的登錄值。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It uses the Confirm parameter to request a user prompt before deleting the value.</source>
+          <target state="translated">它會使用 Confirm 參數，要求在刪除值前提供使用者提示。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This command deletes the NoOfEmployees registry value, and its data, from the HKLM\Software\MyCompany registry key.</source>
+          <target state="translated">此命令會從 HKLM\Software\MyCompany 登錄機碼刪除 NoOfEmployees 登錄值及其資料。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Item cmdlet to get an item that represents the registry key.</source>
+          <target state="translated">命令使用 Get-Item Cmdlet 取得代表登錄機碼的項目。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to send the object to the Remove-ItemProperty cmdlet.</source>
+          <target state="translated">它會使用管線運算子 (|) 將物件傳送至 Remove-ItemProperty Cmdlet。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Then, it uses the Name parameter of Remove-ItemProperty to specify the name of the registry value.</source>
+          <target state="translated">然後，使用 Remove-ItemProperty 的 Name 參數，指定登錄值的名稱。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">指定具有執行此動作權限的使用者帳戶。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">預設為目前使用者。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01", or enter a PSCredential object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">輸入使用者名稱，例如 "User01" 或 "Domain01\User01"，或輸入 PSCredential 物件，例如 Get-Credential Cmdlet 產生的物件。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If you type a user name, you will be prompted for a password.</source>
+          <target state="translated">若您輸入使用者名稱，將會提示您輸入密碼。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This parameter is not supported by any providers installed with Windows PowerShell.</source>
+          <target state="translated">與 Windows PowerShell 一起安裝的任何提供者皆不支援此參數。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-Exclude</source>
+          <target state="translated">-排除</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Omits the specified items.</source>
+          <target state="translated">省略指定的項目。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Path parameter.</source>
+          <target state="translated">此參數的值會限定 Path 參數。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Enter a path element or pattern, such as "*.txt".</source>
+          <target state="translated">輸入路徑元素或模式，例如 "*.txt"。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">篩選器</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Specifies a filter in the provider's format or language.</source>
+          <target state="translated">以提供者的格式或語言指定篩選。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Path parameter.</source>
+          <target state="translated">此參數的值會限定 Path 參數。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The syntax of the filter, including the use of wildcards, depends on the provider.</source>
+          <target state="translated">篩選的語法 (包括是否使用萬用字元) 取決於提供者。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Filters are more efficient than other parameters, because the provider applies them when retrieving the objects rather than having Windows PowerShell filter the objects after they are retrieved.</source>
+          <target state="translated">篩選比其他參數更有效率，因為提供者會在抓取物件時套用篩選，而不是讓 Windows PowerShell 抓取物件後篩選。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Allows the cmdlet to remove a property of an object that cannot otherwise be accessed by the user.</source>
+          <target state="translated">可讓 Cmdlet 在使用者無法以其他方式存取的物件上移除屬性。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Implementation varies from provider to provider.</source>
+          <target state="translated">實作會依提供者而異。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Providers.</source>
+          <target state="translated">如需詳細資訊，請參閱 about_Providers。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-Include</source>
+          <target state="translated">-Include</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Deletes only the specified items.</source>
+          <target state="translated">只刪除指定的項目。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Path parameter.</source>
+          <target state="translated">此參數的值會限定 Path 參數。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Enter a path element or pattern, such as "*.txt".</source>
+          <target state="translated">輸入路徑元素或模式，例如 "*.txt"。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies a path to the item property.</source>
+          <target state="translated">指定項目屬性的路徑。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The value of LiteralPath is used exactly as it is typed.</source>
+          <target state="translated">LiteralPath 的值將完全依照其輸入值來使用。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">沒有字元會被視為萬用字元。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">如果路徑包含逸出字元，請將它括在單引號中。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">單引號告知 Windows PowerShell 不要將任何字元視為逸出序列。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specifies the names of the properties to be retrieved.</source>
+          <target state="translated">指定要抓取的屬性名稱。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the item whose properties are being removed.</source>
+          <target state="translated">指定要移除其屬性的項目路徑。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">會提示您進行確認，然後再執行此指令程式。會提示您進行確認，然後再執行此指令程式。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">顯示執行 Cmdlet 後會發生的情況。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">無法執行此指令程式。顯示執行此指令程式會發生什麼事。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">未執行 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-UseTransaction</source>
+          <target state="translated">-UseTransaction</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Includes the command in the active transaction.</source>
+          <target state="translated">將命令加入使用中交易。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">只有交易為處理中狀態時，此參數才有效。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For more information, see Includes the command in the active transaction.</source>
+          <target state="translated">如需詳細資訊，請參閱包含使用中交易中的命令。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">只有交易為處理中狀態時，此參數才有效。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For more information, see</source>
+          <target state="translated">如需詳細資訊，請參閱本主題中的</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can pipe a string that contains a path (but not a literal path) to Remove-ItemProperty.</source>
+          <target state="translated">您可以使用管線將包含路徑的字串 (而非常值路徑) 傳送至 Remove-ItemProperty。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">無</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not return any output.</source>
+          <target state="translated">此 Cmdlet 不會傳回任何輸出。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>You can also refer to Remove-ItemProperty by its built-in alias, "rp".</source>
+          <target state="translated">您也可以用內建的別名 "rp" 來參照 Remove-ItemProperty。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Alias.</source>
+          <target state="translated">如需詳細資訊，請參閱 about_Alias。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>In the Windows PowerShell Registry provider, registry values are considered to be properties of a registry key or subkey.</source>
+          <target state="translated">在 Windows PowerShell 登錄提供者中，登錄值會被視為登錄機碼或子機碼的屬性。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You can use the ItemProperty cmdlets to manage these values.</source>
+          <target state="translated">您可以使用 ItemProperty Cmdlet 來管理這些值。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The Remove-ItemProperty cmdlet is designed to work with the data exposed by any provider.</source>
+          <target state="translated">Remove-ItemProperty Cmdlet 是針對與任何提供者公開的資料搭配使用所設計。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To list the providers available in your session, type "Get-PSProvider".</source>
+          <target state="translated">若要列出工作階段中可用的提供者，請輸入 "Get-PSProvider"。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Providers.</source>
+          <target state="translated">如需詳細資訊，請參閱 about_Providers。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Clear-ItemProperty</source>
+          <target state="translated">Clear-itemproperty</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Copy-ItemProperty</source>
+          <target state="translated">Copy-itemproperty</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Get-ItemProperty</source>
+          <target state="translated">Get-itemproperty</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Move-ItemProperty</source>
+          <target state="translated">Move-itemproperty</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>New-ItemProperty</source>
+          <target state="translated">New-itemproperty</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Remove-Item</source>
+          <target state="translated">Remove-Item</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Rename-ItemProperty</source>
+          <target state="translated">Rename-itemproperty</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Set-ItemProperty</source>
+          <target state="translated">Set-ItemProperty</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>about_Providers</source>
+          <target state="translated">about_Providers</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

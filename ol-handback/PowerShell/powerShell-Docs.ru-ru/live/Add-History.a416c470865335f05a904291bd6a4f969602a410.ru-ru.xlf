@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">382fef981b31b940b109a5bbfd3dfb926a8b75cc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Add-History.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">721e2c998b577b53cd0af6a394dde22c8e384063</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">78668ba0fcc2296e70d417cc46f01d5c82a8582e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Add-History</source>
+          <target state="translated">Add-History</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Add-History</source>
+          <target state="translated">Add-History</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Appends entries to the session history.</source>
+          <target state="translated">Добавляет записи в журнал сеанса.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet adds entries to the end of the session history, that is, the list of commands entered during the current session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> добавляет записи в конец журнала сеанса, то есть список команд, введенных в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the Get-History cmdlet to get the commands and pass them to <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept>, or you can export the commands to a CSV or XML file, then import the commands, and pass the imported file to <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept>.</source>
+          <target state="translated">Можно использовать для получения команд и передать их в командлет Get-History <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept>, или можно экспортировать команды в файл CSV или XML, а затем импортировать команды и передать импортируемый файл <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can use this cmdlet to add specific commands to the history or to create a single history file that includes commands from more than one session.</source>
+          <target state="translated">Этот командлет позволяет добавить определенные команды в журнал или создать единый файл журнала, в котором содержатся команды, введенные в течение нескольких сеансов.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Example 1: Add commands to the history of a different session</source>
+          <target state="translated">Пример 1: Добавьте команды в журнал другого сеанса</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These commands add the commands typed in one Windows PowerShell session to the history of a different Windows PowerShell session.</source>
+          <target state="translated">Эти команды добавляют команды, введенные в одном сеансе Windows PowerShell, в журнал другого сеанса Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The first command gets objects representing the commands in the history and exports them to the History.csv file.</source>
+          <target state="translated">Первая команда извлекает объекты, представляющие команды в журнале, и экспортирует их в файл History.csv.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The second command is typed at the command line of a different session.</source>
+          <target state="translated">Вторая команда должна вводится в командной строке другого сеанса.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Import-Csv<ept id="p1">**</ept> cmdlet to import the objects in the History.csv file.</source>
+          <target state="translated">Он использует <bpt id="p1">**</bpt>Import-Csv<ept id="p1">**</ept> для импорта объектов в файле History.csv.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) passes the objects to the <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet, which adds the objects representing the commands in the History.csv file to the current session history.</source>
+          <target state="translated">Оператор конвейера (|) передает объекты в <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> который добавляет объекты, представляющие команды в файле History.csv в журнал текущего сеанса.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Example 2: Import and turn commands</source>
+          <target state="translated">Пример 2: Импорт и Включение команды</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This command imports commands from the History.xml file, adds them to the current session history, and then runs the commands in the combined history.</source>
+          <target state="translated">Эта команда импортирует команды из файла History.xml, добавляет их в журнал текущего сеанса и затем выполняет команды в объединенном журнале.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Import-Clixml<ept id="p1">**</ept> cmdlet to import a command history that was exported to the History.xml file.</source>
+          <target state="translated">Первая команда использует <bpt id="p1">**</bpt>Import-Clixml<ept id="p1">**</ept> для импорта журнала команд, который был экспортирован в файл History.xml.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The pipeline operator passes the commands to the <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet, which adds the commands to the current session history.</source>
+          <target state="translated">Конвейерный оператор передает команды <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> который добавляет команды в журнал текущего сеанса.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter passes the objects representing the added commands down the pipeline.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> параметр передает объекты, представляющие добавленные команды по конвейеру.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The command then uses the ForEach-Object cmdlet to apply the Invoke-History command to each of the commands in the combined history.</source>
+          <target state="translated">Затем команда использует командлет ForEach-Object для применения к каждой из команд в объединенном журнале команда Invoke-History.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Invoke-History<ept id="p1">**</ept> command is formatted as a script block, enclosed in braces, as required by the <bpt id="p2">*</bpt>Process<ept id="p2">*</ept> parameter of the <bpt id="p3">**</bpt>ForEach-Object<ept id="p3">**</ept> cmdlet.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Invoke-History<ept id="p1">**</ept> команда форматируется как блок скрипта, заключенный в фигурные скобки, в соответствии с требованиями <bpt id="p2">*</bpt>процесс<ept id="p2">*</ept> параметр <bpt id="p3">**</bpt>ForEach-Object<ept id="p3">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 3: Add commands in the history to the end of the history</source>
+          <target state="translated">Пример 3: Добавление команд в журнале в конец журнала</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command adds the first five commands in the history to the end of the history list.</source>
+          <target state="translated">Эта команда добавляет первые пять команд в журнале в конец списка журналов.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It uses the Get-History cmdlet to get the five commands ending in command 5.</source>
+          <target state="translated">Она использует командлет Get-History для получения пять команд, заканчивающиеся команда 5.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The pipeline operator passes them to the <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet, which appends them to the current history.</source>
+          <target state="translated">Конвейерный оператор передает их <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> командлет, который добавляет их в текущий журнал.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> command does not include any parameters, but Windows PowerShell associates the objects passed through the pipeline with the <bpt id="p2">*</bpt>InputObject<ept id="p2">*</ept> parameter of <bpt id="p3">**</bpt>Add-History<ept id="p3">**</ept>.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> команда содержит параметры, но Windows PowerShell связывает объекты, передаваемые через конвейер с <bpt id="p2">*</bpt>InputObject<ept id="p2">*</ept> параметр <bpt id="p3">**</bpt>Add-History<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Example 4: Add commands in a .csv file to the current history</source>
+          <target state="translated">Пример 4: Добавление команд в CSV-файл в текущий журнал</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>These commands add the commands in the History.csv file to the current session history.</source>
+          <target state="translated">Эти команды добавляют команды из файла History.csv в журнал текущего сеанса.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Import-Csv<ept id="p1">**</ept> cmdlet to import the commands in the History.csv file and store its contents in the variable $a.</source>
+          <target state="translated">Первая команда использует <bpt id="p1">**</bpt>Import-Csv<ept id="p1">**</ept> командлет, чтобы импортировать команды из файла History.csv и сохранить его содержимое в переменной $.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet to add the commands from History.csv to the current session history.</source>
+          <target state="translated">Вторая команда использует <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> командлет, чтобы добавить команды из History.csv в журнал текущего сеанса.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> parameter to specify the $a variable and the <bpt id="p2">*</bpt>PassThru<ept id="p2">*</ept> parameter to generate an object to display at the command line.</source>
+          <target state="translated">Он использует <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> для указания переменной $a и <bpt id="p2">*</bpt>PassThru<ept id="p2">*</ept> параметр для создания объекта для отображения в командной строке.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Without the <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> parameter, the <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> cmdlet does not generate any output.</source>
+          <target state="translated">Без <bpt id="p1">*</bpt>PassThru<ept id="p1">*</ept> параметр <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> командлет не создает никаких выходных данных.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Example 5: Add commands in an .xml file to the current history</source>
+          <target state="translated">Пример 5: Добавление команд в XML-файл текущего журнала</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This command adds the commands in the History01.xml file to the current session history.</source>
+          <target state="translated">Эта команда добавляет команды из файла History01.xml в журнал текущего сеанса.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> parameter to pass the results of the command in parentheses to the <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated">Он использует <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> передать результаты выполнения команды в круглых скобках <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The command in parentheses, which is executed first, imports the History01.xml file into Windows PowerShell.</source>
+          <target state="translated">Команда в круглых скобках, которая выполняется первой, импортирует файл History01.xml в Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> cmdlet then adds the commands in the file to the session history.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> командлет добавляет команды в файле в журнал сеанса.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Specifies an array of entries to add to the history as HistoryInfo object to the session history.</source>
+          <target state="translated">Задает массив элементов для добавления в журнал как объект HistoryInfo журнал сеанса.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to submit a <bpt id="p1">**</bpt>HistoryInfo<ept id="p1">**</ept> object, such as the ones that are returned by the <bpt id="p2">**</bpt>Get-History<ept id="p2">**</ept>, Import-Clixml, or Import-Csv cmdlets, to <bpt id="p3">**</bpt>Add-History<ept id="p3">**</ept>.</source>
+          <target state="translated">Этот параметр можно использовать для отправки <bpt id="p1">**</bpt>HistoryInfo<ept id="p1">**</ept> объекта, например те, которые возвращаются <bpt id="p2">**</bpt>Get-History<ept id="p2">**</ept>, Import-Clixml или командлеты Import-Csv для <bpt id="p3">**</bpt>Add-History<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-Passthru</source>
+          <target state="translated">-Passthru</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet returns a history object for each history entry.</source>
+          <target state="translated">Указывает, что этот командлет возвращает объект журнала для каждой записи журнала.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">По умолчанию этот командлет не создает выходные данные.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.HistoryInfo</source>
+          <target state="translated">Microsoft.PowerShell.Commands.HistoryInfo</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can pipe a <bpt id="p1">**</bpt>HistoryInfo<ept id="p1">**</ept> object to this cmdlet.</source>
+          <target state="translated">Можно передать <bpt id="p1">**</bpt>HistoryInfo<ept id="p1">**</ept> объект для этого командлета.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>None or Microsoft.PowerShell.Commands.HistoryInfo</source>
+          <target state="translated">None или Microsoft.PowerShell.Commands.HistoryInfo</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns a <bpt id="p1">**</bpt>HistoryInfo<ept id="p1">**</ept> object if you specify the <bpt id="p2">*</bpt>PassThru<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">Этот командлет возвращает <bpt id="p1">**</bpt>HistoryInfo<ept id="p1">**</ept> объекта, если указать <bpt id="p2">*</bpt>PassThru<ept id="p2">*</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">В противном случае командлет не формирует никаких выходных данных.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The session history is a list of the commands entered during the session together with the ID.</source>
+          <target state="translated">Журнал сеанса — это список команд, введенных во время сеанса, а также идентификатор.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The session history represents the order of execution, the status, and the start and end times of the command.</source>
+          <target state="translated">В журнале сеанса представлен порядок выполнения, состояние, время начала и завершения выполнения команды.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>As you enter each command, Windows PowerShell adds it to the history so that you can reuse it.</source>
+          <target state="translated">При вводе каждой команды Windows PowerShell добавляет ее в журнал, чтобы обеспечить возможность ее повторного использования.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For more information about the session history, see about_History.</source>
+          <target state="translated">Дополнительные сведения о журнале сеанса в разделе about_History.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To specify the commands to add to the history, use the <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Чтобы указать команды, чтобы добавить в журнал, используйте <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> command accepts only <bpt id="p2">**</bpt>HistoryInfo<ept id="p2">**</ept> objects, such as those returned for each command by the <bpt id="p3">**</bpt>Get-History<ept id="p3">**</ept> cmdlet.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> принимает только <bpt id="p2">**</bpt>HistoryInfo<ept id="p2">**</ept> объекты, такие как те, которые возвращаются для каждой команды <bpt id="p3">**</bpt>Get-History<ept id="p3">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You cannot pass it a path and file name or a list of commands.</source>
+          <target state="translated">Передать путь и имя файла или список команд по конвейеру нельзя.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> parameter to pass a file of <bpt id="p2">**</bpt>HistoryInfo<ept id="p2">**</ept> objects to <bpt id="p3">**</bpt>Add-History<ept id="p3">**</ept>.</source>
+          <target state="translated">Можно использовать <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> передать файл <bpt id="p2">**</bpt>HistoryInfo<ept id="p2">**</ept> объектов <bpt id="p3">**</bpt>Add-History<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To do so, export the results of a <bpt id="p1">**</bpt>Get-History<ept id="p1">**</ept> command to a file by using the Export-Csv or Export-Clixml cmdlet and then import the file by using the <bpt id="p2">**</bpt>Import-Csv<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Import-Clixml<ept id="p3">**</ept> cmdlets.</source>
+          <target state="translated">Чтобы сделать это, экспортировать результаты <bpt id="p1">**</bpt>Get-History<ept id="p1">**</ept> команды в файл с помощью командлета Export-Csv или Export-Clixml, а затем импортировать файл с помощью <bpt id="p2">**</bpt>Import-Csv<ept id="p2">**</ept> или <bpt id="p3">**</bpt>Import-Clixml<ept id="p3">**</ept> командлетов.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can then pass the file of imported <bpt id="p1">**</bpt>HistoryInfo<ept id="p1">**</ept> objects to <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> through a pipeline or in a variable.</source>
+          <target state="translated">Затем можно передать в файле импортированных <bpt id="p1">**</bpt>HistoryInfo<ept id="p1">**</ept> объектов <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> через конвейер или переменной.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">Дополнительные сведения см. в примерах.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The file of <bpt id="p1">**</bpt>HistoryInfo<ept id="p1">**</ept> objects that you pass to the <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> cmdlet must include the type information, column headings, and all of the properties of the <bpt id="p3">**</bpt>HistoryInfo<ept id="p3">**</ept> objects.</source>
+          <target state="translated">В файле <bpt id="p1">**</bpt>HistoryInfo<ept id="p1">**</ept> объекты, передаваемые <bpt id="p2">**</bpt>Add-History<ept id="p2">**</ept> должен содержать сведения о типе, заголовки столбцов и все свойства <bpt id="p3">**</bpt>HistoryInfo<ept id="p3">**</ept> объектов.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If you intend to pass the objects back to <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept>, do not use the <bpt id="p2">*</bpt>NoTypeInformation<ept id="p2">*</ept> parameter of the <bpt id="p3">**</bpt>Export-Csv<ept id="p3">**</ept> cmdlet and do not delete the type information, column headings, or any fields in the file.</source>
+          <target state="translated">Если требуется передать объекты к <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept>, не используйте <bpt id="p2">*</bpt>NoTypeInformation<ept id="p2">*</ept> параметр <bpt id="p3">**</bpt>Export-Csv<ept id="p3">**</ept> командлета и не удаляйте сведения о типе, заголовки столбцов или все поля в файле.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To modify the session history, export the session to a CSV or XML file, modify the file, import the file, and use <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> to append it to the current session history.</source>
+          <target state="translated">Изменение журнала сеанса, экспортировать сеанс в файл CSV или XML, измените файл, импортируйте файл и использовать <bpt id="p1">**</bpt>Add-History<ept id="p1">**</ept> Добавить в журнал текущего сеанса.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Clear-History</source>
+          <target state="translated">Clear-History</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Get-History</source>
+          <target state="translated">Get-History</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Invoke-History</source>
+          <target state="translated">Invoke-History</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>about_History</source>
+          <target state="translated">about_History</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

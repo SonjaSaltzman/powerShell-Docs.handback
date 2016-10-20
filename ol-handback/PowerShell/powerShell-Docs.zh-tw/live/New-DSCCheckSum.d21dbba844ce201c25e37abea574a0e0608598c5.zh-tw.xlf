@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b6258725fee01205cb6f069c526b79248d11d129</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\PSDesiredStateConfiguration\New-DSCCheckSum.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">228187ef89e4bc084911dd91787f23ca67040e6b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df8c4d601fc5b378f9495b1fdf13def7d45eead6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-DSCCheckSum</source>
+          <target state="translated">新 DSCCheckSum</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-DSCCheckSum</source>
+          <target state="translated">新 DSCCheckSum</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates checksum files for Desired State Configuration documents and Desired State Configuration resources.</source>
+          <target state="translated">建立預期狀態設定文件和預期狀態設定資源的總和檢查碼檔案。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-DSCCheckSum<ept id="p1">**</ept> cmdlet generates checksum files for Desired State Configuration documents and compressed Desired State Configuration resources.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-dscchecksum<ept id="p1">**</ept> 指令程式會產生預期狀態設定文件和壓縮的預期狀態設定資源的總和檢查碼檔案。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The cmdlet generates a checksum file for each configuration and resource to be used in pull mode.</source>
+          <target state="translated">此 Cmdlet 會產生要在提取模式下使用的每個設定和資源的總和檢查碼檔案。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Desired State Configuration service uses the checksums to ensure that the correct configuration and resources exist on the target node.</source>
+          <target state="translated">預期狀態設定服務使用總和檢查碼確保目標節點上有正確的設定和資源。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Place the checksums along with the associated Desired State Configuration documents and compressed Desired State Configuration resources in the Desired State Configuration service store.</source>
+          <target state="translated">將總和檢查碼與關聯的預期狀態設定文件和壓縮的預期狀態設定資源一起放在預期狀態設定服務存放區中。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Example 1: Create checksum files for all configurations in a specific path</source>
+          <target state="translated">範例 1︰ 建立特定路徑中的所有設定的總和檢查碼檔案</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command creates checksum files for all configurations in the path C:\DSC\Configurations.</source>
+          <target state="translated">此命令會在路徑 C:\DSC\Configurations 中建立所有設定的總和檢查碼檔案。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Any checksum files that already exist will be skipped.</source>
+          <target state="translated">系統將會略過已存在的任何總和檢查碼檔案。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Example 2: Create checksum files for all configurations in a specific path and overwrite the existing checksum files</source>
+          <target state="translated">範例 2︰ 在特定路徑中建立所有設定的總和檢查碼檔案，並覆寫現有的總和檢查碼檔案</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This command creates new checksum files for all configurations in the path C:\DSC\Configurations.</source>
+          <target state="translated">此命令會在路徑 C:\DSC\Configurations 中建立所有設定的新總和檢查碼檔案。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Specifying the Force parameter causes the command to overwrite any checksum files that already exist.</source>
+          <target state="translated">指定 Force 參數會使此命令覆寫已存在的任何總和檢查碼檔案。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-ConfigurationPath</source>
+          <target state="translated">-ConfigurationPath</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Specifies an array of paths to the Desired State Configuration documents or resource archives.</source>
+          <target state="translated">指定預期狀態設定文件或資源封存之路徑的陣列。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Indicates that the cmdlet overwrites the specified output file if it already exists.</source>
+          <target state="translated">指出此 Cmdlet 會覆寫指定的輸出檔案 (如果該檔案已存在)。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-OutPath</source>
+          <target state="translated">-OutPath</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specifies the path and file name of the output checksum file.</source>
+          <target state="translated">指定輸出總和檢查碼檔案的路徑和檔案名稱。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">執行 Cmdlet 之前先提示您確認。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">顯示執行 Cmdlet 後會發生的情況。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">未執行 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Desired State Configuration Overview</source>
+          <target state="translated">Windows PowerShell 預期狀態設定概觀</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

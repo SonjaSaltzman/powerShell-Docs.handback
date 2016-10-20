@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d2489da1264620081c81392a871d8623e435fd26</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Security\Get-PfxCertificate.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c05183318bfb2ea16f20dc7f77d477b5f9b89349</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64858a46fb39625928d3a03e91df0a64fbbf58f6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-PfxCertificate</source>
+          <target state="translated">Get-PfxCertificate</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-PfxCertificate</source>
+          <target state="translated">Get-PfxCertificate</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets information about .pfx certificate files on the computer.</source>
+          <target state="translated">コンピューター上の .pfx 証明書ファイルに関する情報を取得します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ByPath (Default)</source>
+          <target state="translated">ByPath (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ByLiteralPath</source>
+          <target state="translated">ByLiteralPath</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-PfxCertificate<ept id="p1">**</ept> cmdlet gets an object representing each specified .pfx certificate file.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-pfxcertificate<ept id="p1">**</ept> コマンドレットは、各指定 .pfx 証明書ファイルを表すオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A .pfx file includes both the certificate and a private key.</source>
+          <target state="translated">.pfx ファイルには、証明書と秘密キーの両方が含まれます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Example 1: Get a .pfx certificate</source>
+          <target state="translated">例 1: .pfx 証明書を取得します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command gets information about the Test.pfx certificate on the system.</source>
+          <target state="translated">このコマンドは、システム上の Test.pfx 証明書に関する情報を取得します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Example 2: Get a .pfx certificate from a remote computer</source>
+          <target state="translated">例 2: リモート コンピューターから .pfx 証明書を取得します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This command gets a .pfx certificate file from the Server01 remote computer.</source>
+          <target state="translated">このコマンドは、Server01 リモート コンピューターから .pfx 証明書ファイルを取得します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It uses Invoke-Command to run a <bpt id="p1">**</bpt>Get-PfxCertificate<ept id="p1">**</ept> command remotely.</source>
+          <target state="translated">Invoke-command コマンドレットを使用して実行を <bpt id="p1">**</bpt>Get-pfxcertificate<ept id="p1">**</ept> コマンドをリモートでします。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When the .pfx certificate file is not password-protected, the value of the <bpt id="p1">*</bpt>Authentication<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Invoke-Command<ept id="p2">**</ept> must be CredSSP.</source>
+          <target state="translated">ときに .pfx 証明書ファイルのパスワードで保護されていない、値の <bpt id="p1">*</bpt>認証<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>Invoke-command<ept id="p2">**</ept> CredSSP にする必要があります。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-FilePath</source>
+          <target state="translated">ファイルのパス</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Specifies the full path to the .pfx file of the secured file.</source>
+          <target state="translated">セキュリティで保護されたファイルの .pfx ファイルへの完全パスを指定します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you specify a value for this parameter, it is not necessary to type <ph id="ph1">`-FilePath`</ph> at the command line.</source>
+          <target state="translated">このパラメーターの値を指定する場合は、入力する必要はありません <ph id="ph1">`-FilePath`</ph> コマンドライン。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">– LiteralPath</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The full path to the .pfx file of the secured file.</source>
+          <target state="translated">セキュリティで保護されたファイルの .pfx ファイルの完全パスです。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">*</bpt>FilePath<ept id="p1">*</ept>, the value of the <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">異なり <bpt id="p1">*</bpt>FilePath<ept id="p1">*</ept>, の値、 <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> は入力したとおりにパラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">ワイルドカードとして解釈される文字はありません。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">パスにエスケープ文字が含まれている場合は、単一引用符で囲みます。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">単一引用符で囲んだ文字はエスケープ シーケンスとして解釈されません。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can pipe a string that contains a file path to <bpt id="p1">**</bpt>Get-PfxCertificate<ept id="p1">**</ept>.</source>
+          <target state="translated">ファイル パスを表す文字列をパイプする <bpt id="p1">**</bpt>Get-pfxcertificate<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>System.Security.Cryptography.X509Certificates.X509Certificate2</source>
+          <target state="translated">System.Security.Cryptography.X509Certificates.X509Certificate2</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-PfxCertificate<ept id="p1">**</ept> returns an object for each certificate that it gets.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-pfxcertificate<ept id="p1">**</ept> 各証明書では、取得したオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When using the Invoke-Command cmdlet to run a <bpt id="p1">**</bpt>Get-PfxCertificate<ept id="p1">**</ept> command remotely, and the .pfx certificate file is not password protected, the value of the <bpt id="p2">*</bpt>Authentication<ept id="p2">*</ept> parameter of <bpt id="p3">**</bpt>Invoke-Command<ept id="p3">**</ept> must be CredSSP.</source>
+          <target state="translated">Invoke-command コマンドレットを使用して実行する場合、 <bpt id="p1">**</bpt>Get-pfxcertificate<ept id="p1">**</ept> リモートでコマンドを使用し、.pfx 証明書ファイルがパスワードで保護されたの値ではありません、 <bpt id="p2">*</bpt>認証<ept id="p2">*</ept> のパラメーター <bpt id="p3">**</bpt>Invoke-command<ept id="p3">**</ept> CredSSP にする必要があります。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Get-AuthenticodeSignature</source>
+          <target state="translated">Get-AuthenticodeSignature</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Set-AuthenticodeSignature</source>
+          <target state="translated">Set-AuthenticodeSignature</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>about_Signing</source>
+          <target state="translated">about_Signing</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

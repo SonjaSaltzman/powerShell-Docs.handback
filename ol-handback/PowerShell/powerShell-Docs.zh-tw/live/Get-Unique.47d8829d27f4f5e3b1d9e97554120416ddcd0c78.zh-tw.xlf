@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9b5997ec7ad8e8927a39dde4e95c20c6c051a23a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Get-Unique.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ec2a142f6c5a27fe7cff2f93df88d6270708b5b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">23180c4ca3d75fb5c641a61c0fef7fc3cd923f3e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-Unique</source>
+          <target state="translated">Get-Unique</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-Unique</source>
+          <target state="translated">Get-Unique</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Returns unique items from a sorted list.</source>
+          <target state="translated">從排序的清單中傳回唯一項目。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>AsString (Default)</source>
+          <target state="translated">AsString （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>UniqueByType</source>
+          <target state="translated">UniqueByType</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> cmdlet compares each item in a sorted list to the next item, eliminates duplicates, and returns only one instance of each item.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-unique<ept id="p1">**</ept> 指令程式會比較已排序的清單下, 一個項目中的每個項目、 排除重複項目，並傳回只有一個執行個體的每個項目。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The list must be sorted for the cmdlet to work properly.</source>
+          <target state="translated">清單必須排序，此 Cmdlet 才能正常運作。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Unique<ept id="p1">**</ept> is case-sensitive.</source>
+          <target state="translated"><bpt id="p1">**</bpt>取得唯一<ept id="p1">**</ept> 會區分大小寫。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>As a result, strings that differ only in character casing are considered to be unique.</source>
+          <target state="translated">因此，只有字元大小寫不同的字串會被視為唯一的字串。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 範例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>These commands find the number of unique words in a text file.</source>
+          <target state="translated">這些命令會尋找文字檔案中的唯一文字數目。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The first command gets the content of the File.txt file.</source>
+          <target state="translated">第一個命令會取得 File.txt 檔案的內容。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>It converts each line of text to lowercase letters and then splits each word onto a separate line at the space (" ").</source>
+          <target state="translated">它會將每一行文字轉換成小寫字母，然後在空格 ("") 將每個字分割到不同行。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Then, it sorts the resulting list alphabetically (the default) and uses the Get-Unique cmdlet to eliminate any duplicate words.</source>
+          <target state="translated">接著，它會依字母順序 (預設值) 排序結果清單，然後使用 Get-Unique Cmdlet 來排除任何重複的文字。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The results are stored in the $a variable.</source>
+          <target state="translated">結果會儲存在 $a 變數中。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The second command uses the Count property of the collection of strings in $a to determine how many items are in $a.</source>
+          <target state="translated">第二個命令會使用 $a 中之字串集合的 Count 屬性來判斷 $a 中有多少個項目。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command finds the unique members of the set of integers.</source>
+          <target state="translated">此命令會尋找整數的集合的唯一成員。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The first command takes an array of integers typed at the command line, pipes them to the Sort-Object cmdlet to be sorted, and then pipes them to Get-Unique, which eliminates duplicate entries.</source>
+          <target state="translated">第一個命令會接受在命令列中輸入的整數陣列，使用管線將它們傳送至 Sort-Object Cmdlet 進行排序，然後使用管線將它們傳送至 Get-Unique，藉此排除重複的項目。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command uses the Get-ChildItem cmdlet to retrieve the contents of the local directory, which includes files and directories.</source>
+          <target state="translated">此命令會使用 Get-ChildItem Cmdlet 來擷取本機目錄的內容，其中包括檔案和目錄。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) sends the results to the Sort-Object cmdlet.</source>
+          <target state="translated">管線運算子 (|) 會將結果傳送至 Sort-Object Cmdlet。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The "$_.GetType()" statement applies the GetType method to each file or directory.</source>
+          <target state="translated">"$_.GetType()" 陳述式會將 GetType 方法套用至每個檔案或目錄。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Then, Sort-Object sorts the items by type.</source>
+          <target state="translated">接著，Sort-Object 會依照類型排序項目。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Another pipeline operator sends the results to Get-Unique.</source>
+          <target state="translated">另一個管線運算子會將結果傳送至 Get-Unique。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The OnType parameter directs Get-Unique to return only one object of each type.</source>
+          <target state="translated">OnType 參數會指示 Get-Unique 只針對每個類型傳回一個物件。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command gets the names of processes running on the computer with duplicates eliminated.</source>
+          <target state="translated">此命令會取得電腦上執行之處理程序的名稱，並排除重複項目。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The Get-Process command gets all of the processes on the computer.</source>
+          <target state="translated">Get-Process 命令會取得電腦上的所有處理程序。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) passes the result to Sort-Object, which, by default, sorts the processes alphabetically by ProcessName.</source>
+          <target state="translated">管線運算子 (|) 會將結果傳送至 Sort-Object，其預設會依 ProcessName 的字母順序排序處理程序。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The results are piped to the Select-Object cmdlet, which selects only the values of the ProcessName property of each object.</source>
+          <target state="translated">結果會使用管線傳送至 Select-Object Cmdlet，其只會選取每個物件之 ProcessName 屬性的值。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The results are then piped to Get-Unique to eliminate duplicates.</source>
+          <target state="translated">結果會接著使用管線傳送至 Get-Unique 以排除重複項目。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The AsString parameter tells Get-Unique to treat the ProcessName values as strings.</source>
+          <target state="translated">AsString 參數會指示 Get-Unique 將 ProcessName 值視為字串。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Without this parameter, Get-Unique treats the ProcessName values as objects and returns only one instance of the object, that is, the first process name in the list.</source>
+          <target state="translated">如果沒有這個參數，Get-Unique 會將 ProcessName 值視為物件，並只傳回物件的一個執行個體，也就是清單中的第一個處理程序名稱。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-AsString</source>
+          <target state="translated">-AsString</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Treats the data as a string.</source>
+          <target state="translated">將資料視為字串。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Without this parameter, data is treated as an object, so when you submit a collection of objects of the same type to Get-Unique, such as a collection of files, it returns just one (the first).</source>
+          <target state="translated">如果沒有這個參數，資料會被視為物件，因此當您將相同類型的物件集合 (如檔案集合) 提交至 Get-Unique 時，它只會傳回一個 (第一個)。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to find the unique values of object properties, such as the file names.</source>
+          <target state="translated">您可以使用此參數來尋找物件屬性的唯一值，例如檔案名稱。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Accepts input for Get-Unique.</source>
+          <target state="translated">接受 Get-Unique 的輸入值。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects or type a command or expression that gets the objects.</source>
+          <target state="translated">輸入包含物件的變數，或輸入可取得物件的命令或運算式。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Get-Unique treats the input submitted by using InputObject as a collection; it does not enumerate individual items in the collection.</source>
+          <target state="translated">Get-Unique 會將使用 InputObject 送出的輸入值視為集合；它無法列舉集合中的個別項目。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Because the collection is a single item, input submitted by using InputObject is always returned unchanged.</source>
+          <target state="translated">因為集合為單一項目，使用 InputObject 送出的輸入傳回時一律不變。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-OnType</source>
+          <target state="translated">-OnType</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Returns only one object of each type.</source>
+          <target state="translated">每個類型只傳回一個物件。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can pipe any type of object to Get-Unique.</source>
+          <target state="translated">您可以使用管線傳送任何類型的物件至 Get-Unique。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The type of object that Get-Unique returns is determined by the input.</source>
+          <target state="translated">Get-Unique 傳回的物件類型是由輸入值所決定。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can also refer to Get-Unique by its built-in alias, "gu".</source>
+          <target state="translated">您也可以使用 Get-Unique 內建的別名 "gu" 來參照 Get-Unique。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">如需詳細資訊，請參閱 about_Aliases。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To sort a list, use Sort-Object.</source>
+          <target state="translated">如果要排序清單，請使用 Sort-Object。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can also use the Unique parameter of Sort-Object to find the unique items in a list.</source>
+          <target state="translated">您也可以使用 Sort-Object 的 Unique 參數來尋找清單中的唯一項目。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Sort-Object</source>
+          <target state="translated">Sort-Object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

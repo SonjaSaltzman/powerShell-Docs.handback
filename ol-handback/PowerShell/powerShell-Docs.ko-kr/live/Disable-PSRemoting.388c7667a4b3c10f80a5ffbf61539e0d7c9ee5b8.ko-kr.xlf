@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fd532397b321a196d9407fc58acc8ce9004311c1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Disable-PSRemoting.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c814873f2d0c52413824dafa2d374674adcb8d3d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">234a98b02db4593e23b8027f7776757b179aca1b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Disable-PSRemoting</source>
+          <target state="translated">Disable-psremoting</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Disable-PSRemoting</source>
+          <target state="translated">Disable-psremoting</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Prevents remote users from running commands on the local computer.</source>
+          <target state="translated">원격 사용자가 로컬 컴퓨터에서 명령을 실행할 수 없도록 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> cmdlet prevents users on other computers from running commands on the local computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> cmdlet 다른 컴퓨터의 사용자를 로컬 컴퓨터에서 명령이 실행 되지 않도록 방지 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> blocks remote access to all session configurations on the local computer.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> 로컬 컴퓨터의 모든 세션 구성에 대 한 원격 액세스를 차단 합니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This prevents remote users from creating temporary or persistent sessions to the local computer.</source>
+          <target state="translated">또한 원격 사용자가 로컬 컴퓨터에 임시 또는 영구 세션을 만들 수 없도록 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> does not prevent users of the local computer from creating sessions ("PSSessions") on the local computer or remote computers.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> 해도 사용자가 만드는 세션 ("PSSessions")에서 로컬 컴퓨터의 로컬 컴퓨터 또는 원격 컴퓨터에 있습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To re-enable remote access to all session configurations, use the Enable-PSRemoting cmdlet.</source>
+          <target state="translated">모든 세션 구성에 대 한 원격 액세스를 다시 활성화 하려면 Enable-psremoting cmdlet을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To enable remote access to selected session configurations, use the <bpt id="p1">**</bpt>AccessMode<ept id="p1">**</ept> parameter of the Set-PSSessionConfiguration cmdlet.</source>
+          <target state="translated">선택한 세션 구성에 대 한 원격 액세스를 사용 하려면 사용 된 <bpt id="p1">**</bpt>AccessMode<ept id="p1">**</ept> Set-pssessionconfiguration cmdlet의 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can also use the Enable-PSSessionConfiguration and Disable-PSSessionConfiguration cmdlets to enable and disable session configurations for all users.</source>
+          <target state="translated">또한 활성화 하 고 모든 사용자에 대해 세션 구성을 사용 하지 않도록 Enable-pssessionconfiguration 및 Disable-pssessionconfiguration cmdlet을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">세션 구성에 대한 자세한 내용은 about_Session_Configurations(http://go.microsoft.com/fwlink/?LinkID=145152)를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> prevents all users from creating user-managed sessions ("PSSessions") to the local computer.</source>
+          <target state="translated">Windows PowerShell 2.0에서 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> 모든 사용자가 로컬 컴퓨터에 사용자 관리 세션 ("PSSessions")을 만들지 못하도록 방지 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 3.0, <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> prevents users on other computers from creating user-managed sessions on the local computer, but allows users of the local computer to create user-managed "loopback" sessions.</source>
+          <target state="translated">Windows PowerShell 3.0에서 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> 다른 컴퓨터의 사용자가 로컬 컴퓨터에서 사용자 관리 세션을 만들고 하지 못하도록 하지만 로컬 컴퓨터의 사용자 관리 "루프백" 세션을 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To run this cmdlet, start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">이 cmdlet을 실행하려면 "관리자 권한으로 실행" 옵션으로 Windows PowerShell을 시작하세요.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>CAUTION: On systems that have both Windows PowerShell 3.0 and the Windows PowerShell 2.0 engine, do not use Windows PowerShell 2.0 to run the <bpt id="p1">**</bpt>Enable-PSRemoting<ept id="p1">**</ept> and Disable-PSRemoting cmdlets.</source>
+          <target state="translated">주의: Windows PowerShell 3.0 및 Windows PowerShell 2.0 엔진 모두 있는 시스템을 사용 하지 마십시오 Windows PowerShell 2.0을 실행 하는 <bpt id="p1">**</bpt>Enable-psremoting<ept id="p1">**</ept> 및 Disable-psremoting cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The commands might appear to succeed, but the remoting is not configured correctly.</source>
+          <target state="translated">명령이 성공한 것처럼 보일 수 있지만 원격 기능이 올바르게 구성되지 않았습니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Remote commands, and later attempts to enable and disable remoting, are likely to fail.</source>
+          <target state="translated">원격 명령 및 원격 기능을 사용하거나 사용하지 않도록 설정하려는 이후 시도가 실패할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 예제 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command prevents remote access to all session configurations on the computer.</source>
+          <target state="translated">이 명령은 컴퓨터의 모든 세션 구성에 대한 원격 액세스를 방지합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command prevents remote access all session configurations on the computer without prompting.</source>
+          <target state="translated">이 명령은 확인 없이 컴퓨터의 모든 세션 구성에 대한 원격 액세스를 방지합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of using the <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">이 예제를 사용 하 여 결과 보여 줍니다.는 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To run this command sequence, start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">이 명령 시퀀스를 실행하려면 "관리자 권한으로 실행" 옵션으로 Windows PowerShell을 시작합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> cmdlet to disable all registered session configurations on the Server01 computer.</source>
+          <target state="translated">첫 번째 명령은 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> cmdlet을 Server01 컴퓨터의 모든 등록 된 세션 구성을 사용 하지 않도록 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-PSSession cmdlet to create a remote session to the local computer (also known as a "loopback").</source>
+          <target state="translated">두 번째 명령은 New-pssession cmdlet를 사용 하 여 로컬 컴퓨터 (라고도 "루프백")에 대 한 원격 세션을 만들려고 합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The command succeeds.</source>
+          <target state="translated">명령이 성공합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The third command is run on the Server02 remote computer.</source>
+          <target state="translated">세 번째 명령은 Server02 원격 컴퓨터에서 실행됩니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept> cmdlet to create a session to the Server01 remote computer.</source>
+          <target state="translated">이 명령은 <bpt id="p1">**</bpt>New-pssession<ept id="p1">**</ept> cmdlet을 Server01 원격 컴퓨터에 대 한 세션을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Because remote access is disabled, the command fails.</source>
+          <target state="translated">원격 액세스를 사용할 수 없도록 설정했으므로 명령이 실패합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This example shows the effect on the session configurations of using the <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> and Enable-PSRemoting cmdlets.</source>
+          <target state="translated">사용 하 여 세션 구성에 영향을 보여 주는이 예제는 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> 및 Enable-psremoting cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> cmdlet to disable remote access to all session configurations.</source>
+          <target state="translated">첫 번째 명령은 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> cmdlet을 모든 세션 구성에 대 한 원격 액세스를 사용 하지 않도록 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter suppresses all user prompts.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> 매개 변수 모든 사용자 프롬프트를 표시 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-PSSessionConfiguration cmdlet to display the session configurations on the computer.</source>
+          <target state="translated">두 번째 명령은 Get-pssessionconfiguration cmdlet를 사용 하 여 컴퓨터에서 세션 구성을 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The command uses a pipeline operator to send the results to a Format-Table command, which displays only the Name and Permission properties of the configurations in a table.</source>
+          <target state="translated">테이블에는 구성의 이름 및 사용 권한 속성을 표시 하는 Format-table 명령에 결과 보내려면 파이프라인 연산자를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The output shows that only remote users are denied access to the configurations.</source>
+          <target state="translated">출력은 원격 사용자만 구성에 대한 액세스가 거부됨을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Members of the Administrators group on the local computer are allowed to use the session configurations.</source>
+          <target state="translated">로컬 컴퓨터에서 Administrators 그룹의 구성원은 세션 구성을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The output also shows that the command affects all session configurations, including the user-created "WithProfile" session configuration.</source>
+          <target state="translated">또한 출력은 이 명령이 사용자가 만든 "WithProfile" 세션 구성을 포함하여 모든 세션 구성에 영향을 준다는 것을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Enable-PSRemoting<ept id="p1">**</ept> cmdlet to re-enable remote access to all session configurations on the computer.</source>
+          <target state="translated">세 번째 명령은 <bpt id="p1">**</bpt>Enable-psremoting<ept id="p1">**</ept> cmdlet는 컴퓨터의 모든 세션 구성에 대 한 원격 액세스 다시 사용할 수 있도록 합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to suppress all user prompts and to restart the WinRM service without prompting.</source>
+          <target state="translated">명령을 사용 하 여는 <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> 매개 변수를 모든 사용자 프롬프트를 표시 하지 않는 메시지를 표시 하지 않고 WinRM 서비스를 다시 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Get-PSSessionConfiguration and Format-Table cmdlets to display the names and permissions of the session configurations.</source>
+          <target state="translated">네 번째 명령은 Get-pssessionconfiguration 및 Format-table cmdlet를 사용 하 여 이름 및 세션 구성의 권한을 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The results show that the "AccessDenied" security descriptors have been removed from all session configurations.</source>
+          <target state="translated">결과에서는 "AccessDenied" 보안 설명자가 모든 세션 구성에서 제거되었음을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that the <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> cmdlet disables remote access to all session configurations, including session configurations with custom security descriptors.</source>
+          <target state="translated">이 예제는 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> cmdlet은 세션 구성 사용자 지정 보안 설명자를 포함 하 여 모든 세션 구성에 대 한 원격 액세스 해제 합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The first command uses the Register-PSSessionConfiguration cmdlet to create the Test session configuration.</source>
+          <target state="translated">첫 번째 명령은 Register-pssessionconfiguration cmdlet를 사용 하 여 테스트 세션 구성을 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> parameter to specify a session configuration file that customizes the session and the <bpt id="p2">**</bpt>ShowSecurityDescriptorUI<ept id="p2">**</ept> parameter to display a dialog box that sets permissions for the session configuration.</source>
+          <target state="translated">명령을 사용 하 여는 <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> 세션을 사용자 지정 하는 세션 구성 파일을 지정 하려면 매개 변수 및 <bpt id="p2">**</bpt>ShowSecurityDescriptorUI<ept id="p2">**</ept> 매개 변수는 세션 구성에 대 한 권한을 설정 하는 대화 상자를 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In the Permissions dialog box, we create custom full-access permissions for the Domain01\User01 user.</source>
+          <target state="translated">사용 권한 대화 상자에서는 Domain01\User01 사용자에 대해 사용자 지정 전체 액세스 권한을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-PSSessionConfiguration and Format-Table cmdlets to display the session configurations and their properties.</source>
+          <target state="translated">두 번째 명령은 Get-pssessionconfiguration 및 Format-table cmdlet를 사용 하 여 세션 구성 및 해당 속성을 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The output shows that the Test session configuration allows interactive access and special permissions for the Domain01\User01 user.</source>
+          <target state="translated">출력은 Test 세션 구성이 Domain01\User01 사용자에 대해 대화형 액세스 및 특별 권한을 허용함을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> cmdlet to disable remote access to all session configurations.</source>
+          <target state="translated">세 번째 명령은 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> cmdlet을 모든 세션 구성에 대 한 원격 액세스를 사용 하지 않도록 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>Get-PSSessionConfiguration<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Format-Table<ept id="p2">**</ept> cmdlets to display the session configurations and their properties.</source>
+          <target state="translated">네 번째 명령은 <bpt id="p1">**</bpt>Get-pssessionconfiguration<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>Format-table<ept id="p2">**</ept> 세션 구성 및 해당 속성을 표시 하는 cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The output shows that an AccessDenied security descriptor for all network users is added to all session configurations, including the Test session configuration.</source>
+          <target state="translated">출력은 모든 네트워크 사용자에 대해 AccessDenied 보안 설명자가 Test 세션 구성을 포함한 모든 세션 구성에 추가됨을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Although the other security desriptors are not changed, the "network_deny_all" security descriptor takes precedence.</source>
+          <target state="translated">다른 보안 설명자는 변경되지 않지만 "network_deny_all" 보안 설명자는 우선 적용됩니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The fifth command shows that the <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> command prevents even the Domain01\User01 user with special permissions to the Test session configuration from using the Test session configuration to connect to the computer remotely.</source>
+          <target state="translated">다섯 번째 명령은 표시 하는 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> 명령은 테스트 세션 구성에 특별 권한이 있는 Domain01\User01 사용자도 Test 세션 구성을 사용 하 여 컴퓨터에 원격으로 연결할 방지 합니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This example shows how to re-enable remote access only to selected session configurations.</source>
+          <target state="translated">이 예제에서는 선택한 세션 구성에 대해서만 원격 액세스를 사용하도록 다시 설정하는 방법을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> cmdlet to disable remote access to all session configurations.</source>
+          <target state="translated">첫 번째 명령은 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> cmdlet을 모든 세션 구성에 대 한 원격 액세스를 사용 하지 않도록 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-PSSessionConfiguration and Format-Table cmdlets to display the session configurations and their properties.</source>
+          <target state="translated">두 번째 명령은 Get-pssessionconfiguration 및 Format-table cmdlet를 사용 하 여 세션 구성 및 해당 속성을 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The output shows that an AccessDenied security descriptor for all network users is added to all session configurations.</source>
+          <target state="translated">출력은 모든 네트워크 사용자에 대해 AccessDenied 보안 설명자가 모든 세션 구성에 추가됨을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The third command uses the Set-PSSessionConfiguration cmdlet.</source>
+          <target state="translated">세 번째 명령은 Set-pssessionconfiguration cmdlet을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>AccessMode<ept id="p1">**</ept> parameter with a value of <bpt id="p2">**</bpt>Remote<ept id="p2">**</ept> to enable remote access to the Microsoft.ServerManager session configuration.</source>
+          <target state="translated">명령을 사용 하 여는 <bpt id="p1">**</bpt>AccessMode<ept id="p1">**</ept> 매개 변수 값이 <bpt id="p2">**</bpt>원격<ept id="p2">**</ept> Microsoft.ServerManager 세션 구성에 원격으로 액세스할 수 있도록 합니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>AccessMode<ept id="p1">**</ept> parameter to enable Local access and to disable session configurations.</source>
+          <target state="translated">사용할 수도 있습니다는 <bpt id="p1">**</bpt>AccessMode<ept id="p1">**</ept> 로컬 액세스를 사용 하 고 세션 구성을 사용 하지 않도록 설정 하려면 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>Get-PSSessionConfiguration<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Format-Table<ept id="p2">**</ept> cmdlets to display the session configurations and their properties.</source>
+          <target state="translated">네 번째 명령은 <bpt id="p1">**</bpt>Get-pssessionconfiguration<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>Format-table<ept id="p2">**</ept> 세션 구성 및 해당 속성을 표시 하는 cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The output shows that the AccessDenied security descriptor for all network users is removed, thereby restoring remote access to the Microsoft.ServerManager session configuration.</source>
+          <target state="translated">출력은 모든 네트워크 사용자에 대해 AccessDenied 보안 설명자가 제거되어 Microsoft.ServerManager 세션 구성에 대한 원격 액세스가 복원되는 것을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Suppresses all user prompts.</source>
+          <target state="translated">모든 사용자 프롬프트를 표시하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>By default, you are prompted to confirm each operation.</source>
+          <target state="translated">기본적으로 각 작업을 확인하라는 메시지가 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">이 cmdlet을 실행 하기 전에 확인 하면 메시지를 표시 합니다. 이 cmdlet을 실행 하기 전에 확인 하면 메시지를 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">cmdlet이 실행될 경우 결과 동작을 표시합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Cmdlet은 실행 되지 않습니다. Cmdlet이 실행 되 면 어떻게 되는지를 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">cmdlet이 실행되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">없음</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">이 cmdlet에 입력을 파이프할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">없음</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not return any object.</source>
+          <target state="translated">이 cmdlet은 개체를 반환하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Disabling the session configurations does not undo all the changes made by the Enable-PSRemoting or Enable-PSSessionConfiguration cmdlets.</source>
+          <target state="translated">세션 구성을 사용 하지 않도록 설정 해도 Enable-psremoting 또는 Enable-pssessionconfiguration cmdlet에서 변경한 모든 내용을 실행 취소 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>You might have to undo the following changes manually.</source>
+          <target state="translated">다음 변경 작업을 수동으로 실행 취소해야 할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Stop and disable the WinRM service.</source>
+          <target state="translated">WinRM 서비스를 중지하고 사용하지 않도록 설정합니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Delete the listener that accepts requests on any IP address.</source>
+          <target state="translated">모든 IP 주소에서 요청을 수락하는 수신기를 삭제합니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Disable the firewall exceptions for WS-Management communications.</source>
+          <target state="translated">WS-Management 통신에 대해 방화벽 예외를 사용하지 않도록 설정합니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Restore the value of the LocalAccountTokenFilterPolicy to 0, which restricts remote access to members of the Administrators group on the computer.</source>
+          <target state="translated">LocalAccountTokenFilterPolicy 값을 0으로 복원하여 컴퓨터에서 Administrators 그룹의 구성원에 대한 원격 액세스를 제한합니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A session configuration is a group of settings that define the environment for a session.</source>
+          <target state="translated">세션 구성은 세션에 대한 환경을 정의하는 설정 그룹입니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Every session that connects to the computer must use one of the session configurations that are registered on the computer.</source>
+          <target state="translated">컴퓨터에 연결되는 모든 세션은 컴퓨터에 등록된 세션 구성 중 하나를 사용해야 합니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>By denying remote access to all session configurations, you effectively prevent remote users from establishing sessions that connect to the computer.</source>
+          <target state="translated">모든 세션 구성에 대한 원격 액세스를 거부하면 원격 사용자가 컴퓨터에 연결되는 세션을 설정하는 것을 효과적으로 방지할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> adds a "Deny_All" entry to the security descriptors of all session configurations.</source>
+          <target state="translated">Windows PowerShell 2.0에서 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> 모든 세션 구성의 보안 설명자에 "Deny_All" 항목을 추가 합니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This setting prevents all users from creating user-managed sessions ("PSSessions") to the local computer.</source>
+          <target state="translated">이 설정은 모든 사용자가 로컬 컴퓨터에 사용자 관리 세션("PSSessions")을 만들 수 없도록 합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 3.0, Disable-PSRemoting adds a "Network_Deny_All" entry to the security descriptors of all session configurations.</source>
+          <target state="translated">Windows PowerShell 3.0에서 Disable-PSRemoting은 "Network_Deny_All" 항목을 모든 세션 구성의 보안 설명자에 추가합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This setting prevents users on other computers from creating user-managed sessions on the local computer, but allows users of the local computer to create user-managed "loopback" sessions.</source>
+          <target state="translated">이 설정은 다른 컴퓨터의 사용자가 로컬 컴퓨터에서 사용자 관리 세션을 만들 수 없도록 하지만 로컬 컴퓨터의 사용자가 사용자 관리 "루프백" 세션을 만들 수 있도록 합니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> is the equivalent of "<ph id="ph1">`Disable-PSSessionConfiguration -name *`</ph>".</source>
+          <target state="translated">Windows PowerShell 2.0에서 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> 의 해당 하는 "<ph id="ph1">`Disable-PSSessionConfiguration -name *`</ph>"입니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 3.0, <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> is the equivalent of "<ph id="ph1">`Set-PSSessionConfiguration -Name \&lt;Configuration name\&gt; -AccessMode Local`</ph>"</source>
+          <target state="translated">Windows PowerShell 3.0에서 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> 의 해당 하는 "<ph id="ph1">`Set-PSSessionConfiguration -Name \&lt;Configuration name\&gt; -AccessMode Local`</ph>"</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>Disable-PSRemoting<ept id="p1">**</ept> is a function.</source>
+          <target state="translated">Windows PowerShell 2.0에서 <bpt id="p1">**</bpt>Disable-psremoting<ept id="p1">**</ept> 함수입니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, it is a cmdlet.</source>
+          <target state="translated">Windows PowerShell 3.0부터는 cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Disable-PSSessionConfiguration</source>
+          <target state="translated">Disable-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Enable-PSRemoting</source>
+          <target state="translated">Enable-PSRemoting</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration</source>
+          <target state="translated">Get-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration</source>
+          <target state="translated">Set-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Unregister-PSSessionConfiguration</source>
+          <target state="translated">Unregister-pssessionconfiguration</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>WSMan Provider</source>
+          <target state="translated">WSMan 공급자</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

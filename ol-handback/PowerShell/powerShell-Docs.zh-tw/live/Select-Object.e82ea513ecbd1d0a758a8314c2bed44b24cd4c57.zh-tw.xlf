@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">88c770d9e1efe84fed0ba4fdde7e01b02180cc06</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Select-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a344abd79d4d55b0947da49140d9d68ab61cef25</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">48860c668dd7bc27b1e7b9aa2ba04a061295e230</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Selects objects or object properties.</source>
+          <target state="translated">選取物件或物件屬性。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DefaultParameter (Default)</source>
+          <target state="translated">DefaultParameter （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>SkipLastParameter</source>
+          <target state="translated">SkipLastParameter</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>IndexParameter</source>
+          <target state="translated">IndexParameter</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet selects specified properties of an object or set of objects.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> cmdlet 會選取指定的物件的屬性或一組物件。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It can also select unique objects, a specified number of objects, or objects in a specified position in an array.</source>
+          <target state="translated">它也可以選取唯一物件、指定數目的物件，或位於陣列中指定位置的物件。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To select objects from a collection, use the <bpt id="p1">*</bpt>First<ept id="p1">*</ept>, <bpt id="p2">*</bpt>Last<ept id="p2">*</ept>, <bpt id="p3">*</bpt>Unique<ept id="p3">*</ept>, <bpt id="p4">*</bpt>Skip<ept id="p4">*</ept>, and <bpt id="p5">*</bpt>Index<ept id="p5">*</ept> parameters.</source>
+          <target state="translated">若要從集合中選取物件，請使用 <bpt id="p1">*</bpt>第一個<ept id="p1">*</ept>, ，<bpt id="p2">*</bpt>上次<ept id="p2">*</ept>, ，<bpt id="p3">*</bpt>Unique<ept id="p3">*</ept>, ，<bpt id="p4">*</bpt>略過<ept id="p4">*</ept>, ，和 <bpt id="p5">*</bpt>索引<ept id="p5">*</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To select object properties, use the <bpt id="p1">*</bpt>Property<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要選取物件屬性，請使用 <bpt id="p1">*</bpt>屬性<ept id="p1">*</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When you select properties, this cmdlet returns new objects that have only the specified properties.</source>
+          <target state="translated">當您選取屬性時，此 cmdlet 會傳回具有指定的屬性的新物件。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> includes an optimization feature that prevents commands from creating and processing objects that are not used.</source>
+          <target state="translated">在 Windows PowerShell 3.0 中，從 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 包括最佳化功能，可防止命令建立及處理未使用的物件。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When you include a <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> command with the <bpt id="p2">*</bpt>First<ept id="p2">*</ept> or <bpt id="p3">*</bpt>Index<ept id="p3">*</ept> parameter in a command pipeline, Windows PowerShell stops the command that generates the objects as soon as the selected number of objects is generated, even when the command that generates the objects appears before the <bpt id="p4">**</bpt>Select-Object<ept id="p4">**</ept> command in the pipeline.</source>
+          <target state="translated">當您加入 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 命令搭配 <bpt id="p2">*</bpt>第一個<ept id="p2">*</ept> 或 <bpt id="p3">*</bpt>索引<ept id="p3">*</ept> 參數在命令管線中，Windows PowerShell 停止產生物件，只要產生選取的物件數目，即使之前出現產生物件的命令的命令 <bpt id="p4">**</bpt>Select-object<ept id="p4">**</ept> 命令管線中。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To turn off this optimizing behavior, use the <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要關閉此最佳化行為，請使用 <bpt id="p1">*</bpt>等候<ept id="p1">*</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Example 1: Select objects by property</source>
+          <target state="translated">範例 1︰ 選取物件屬性</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command creates objects that have the Name, ID, and working set (WS) properties of process objects.</source>
+          <target state="translated">此命令會建立具有處理物件之名稱、識別碼及工作集 (WS) 屬性的物件。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Example 2: Select objects by property and format the results</source>
+          <target state="translated">範例 2︰ 屬性所選取物件，並將結果格式化</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command gets information about the modules used by the processes on the computer.</source>
+          <target state="translated">此命令會取得電腦中處理程序所使用之模組的相關資訊。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It uses Get-Process cmdlet to get the process on the computer.</source>
+          <target state="translated">它使用 Get-process cmdlet 取得電腦上的處理程序。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet to create new objects with only the selected properties.</source>
+          <target state="translated">它會使用 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 指令程式來建立新的物件選取的屬性。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Property<ept id="p1">*</ept> parameter of the <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept> cmdlet to select the process names.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">*</bpt>屬性<ept id="p1">*</ept> 參數 <bpt id="p2">**</bpt>Select-object<ept id="p2">**</ept> cmdlet 以選取處理程序名稱。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">**</bpt>Modules<ept id="p1">**</ept> property contains a <bpt id="p2">**</bpt>ModuleProcess<ept id="p2">**</ept> object that has many properties, the command uses the <bpt id="p3">*</bpt>ExpandProperty<ept id="p3">*</ept> parameter to get the properties of the objects in the <bpt id="p4">**</bpt>Modules<ept id="p4">**</ept> property of each process.</source>
+          <target state="translated">因為 <bpt id="p1">**</bpt>模組<ept id="p1">**</ept> 屬性包含 <bpt id="p2">**</bpt>ModuleProcess<ept id="p2">**</ept> 物件，具有許多屬性，此命令會使用 <bpt id="p3">*</bpt>ExpandProperty<ept id="p3">*</ept> 參數，以取得在物件的屬性 <bpt id="p4">**</bpt>模組<ept id="p4">**</ept> 屬性的每個處理序。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The command uses the Format-List cmdlet to display the name and modules of each process in a list.</source>
+          <target state="translated">命令使用 Format-list 指令程式清單中顯示的名稱與模組的每個處理序。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Example 3: Select processes using the most memory</source>
+          <target state="translated">範例 3︰ 選取 [使用最多記憶體的處理序</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This command gets the five processes that are using the most memory.</source>
+          <target state="translated">此命令會取得使用最多記憶體的五個處理程序。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The Get-Process cmdlet gets the processes on the computer.</source>
+          <target state="translated">Get-process cmdlet 取得電腦上的處理程序。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The Sort-Object cmdlet sorts the processes according to memory (working set) usage, and the Select-Object cmdlet selects only the last five members of the resulting array of objects.</source>
+          <target state="translated">Sort-object cmdlet 排序 （工作集） 的記憶體使用量，根據處理程序，並 Select-object 指令程式會選取的物件產生的陣列的最後五個成員。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter is not required in commands that include the <bpt id="p2">**</bpt>Sort-Object<ept id="p2">**</ept> cmdlet because <bpt id="p3">**</bpt>Sort-Object<ept id="p3">**</ept> processes all objects and then returns a collection.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>等待<ept id="p1">*</ept> 參數中包含的命令不需要 <bpt id="p2">**</bpt>Sort-object<ept id="p2">**</ept> 指令程式因為 <bpt id="p3">**</bpt>排序物件<ept id="p3">**</ept> 處理所有物件，然後傳回集合。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> optimization is available only for commands that return objects individually as they are processed.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 最佳化為僅適用於個別傳回物件，在處理命令。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Example 4: Select the name and start day of processes</source>
+          <target state="translated">範例 4︰ 選取名稱和處理程序的開始日期</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command gets the name and start day of the processes running on a computer.</source>
+          <target state="translated">此命令會取得在電腦上執行之處理程序的名稱與開始日期。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Process cmdlet to get the processes on the computer.</source>
+          <target state="translated">命令使用 Get-process cmdlet 取得電腦上的處理程序。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It passes the processes to the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet, which creates objects that have only the <bpt id="p2">*</bpt>ProcessName<ept id="p2">*</ept> parameter and a calculated property named Start Day.</source>
+          <target state="translated">它會傳遞至處理序 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 指令程式，以建立物件的擁有 <bpt id="p2">*</bpt>ProcessName<ept id="p2">*</ept> 參數且名為開始日期的導出的屬性。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The Start Day property is added by using a hash table with Name and Expression keys.</source>
+          <target state="translated">開始日期] 屬性會加入具有名稱和運算式的索引鍵使用雜湊表。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The value of the Expression key is a script blocks that gets the <bpt id="p1">**</bpt>StartTime<ept id="p1">**</ept> property of each process and the <bpt id="p2">**</bpt>DayofWeek<ept id="p2">**</ept> property of the StartTime.</source>
+          <target state="translated">Expression 索引鍵的值是指令碼區塊，可取得 <bpt id="p1">**</bpt>StartTime<ept id="p1">**</ept> 屬性的每個處理序和 <bpt id="p2">**</bpt>DayofWeek<ept id="p2">**</ept> 屬性。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Example 5: Select unique characters from an array</source>
+          <target state="translated">範例 5︰ 從陣列選取唯一的字元</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">*</bpt>Unique<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept> to get unique characters from an array of characters.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">*</bpt>Unique<ept id="p1">*</ept> 參數 <bpt id="p2">**</bpt>Select-object<ept id="p2">**</ept> 取得唯一字元的字元陣列。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Example 6: Select newest and oldest events in the event log</source>
+          <target state="translated">範例 6︰ 選取事件記錄檔中的最新和最舊的事件</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>These commands gets the first (newest) and last (oldest) events in the Windows PowerShell event log.</source>
+          <target state="translated">這些命令會取得 Windows PowerShell 事件記錄檔中的 （最新版） 的第一個和最後一個 （舊） 的事件。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-EventLog cmdlet to get all events in the Windows PowerShell log.</source>
+          <target state="translated">命令使用 Get-eventlog cmdlet 可取得 Windows PowerShell 記錄檔中的所有事件。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It saves them in the $A variable.</source>
+          <target state="translated">它將它們儲存在 $A 變數中。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The second command uses a pipeline operator (|) to send the events in $A to the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">第二個命令使用管線運算子 (|) $A 中的事件傳送至 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> command uses the <bpt id="p2">*</bpt>Index<ept id="p2">*</ept> parameter to select events from the array of events in the $A variable.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 命令會使用 <bpt id="p2">*</bpt>索引<ept id="p2">*</ept> $A 變數中的事件陣列中選取事件的參數。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The index of the first event is 0.</source>
+          <target state="translated">第一個事件的索引為 0。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The index of the last event is the number of items in $A minus 1.</source>
+          <target state="translated">最後一個事件的索引是 $A 減 1 中的項目數。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Example 7: Select all but the first object</source>
+          <target state="translated">範例 7︰ 選取第一個物件以外的所有</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This command creates a new PSSession on each of the computers listed in the Servers.txt files, except for the first one.</source>
+          <target state="translated">此命令會在 Servers.txt 檔案中列出的每部電腦上建立新的 PSSession，除了第一部電腦之外。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet to select all but the first computer in a list of computer names.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 指令程式來選取所有但電腦名稱清單中的第一部電腦。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The resulting list of computers is set as the value of the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter of the New-PSSession cmdlet.</source>
+          <target state="translated">產生的電腦清單設定的值為 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> New-pssession cmdlet 的參數。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Example 8: Rename files and select several to review</source>
+          <target state="translated">範例 8︰ 重新命名檔案，然後選取數個檢閱</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This command adds a -ro suffix to the base names of text files that have the read-only attribute and then displays the first five files so the user can see a sample of the effect.</source>
+          <target state="translated">此命令會將-ro 尾碼加入至文字檔案具有唯讀屬性的基底名稱，並接著會顯示前五個檔案，讓使用者只能看到效果範例。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>ReadOnly<ept id="p1">*</ept> dynamic parameter of the Get-ChildItem for FileSystem cmdlet to get read-only files.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">*</bpt>ReadOnly<ept id="p1">*</ept> Get-childitem 的檔案系統指令程式來取得唯讀檔案的動態參數。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to send the files to the Rename-Item cmdlet, which renames the file.</source>
+          <target state="translated">它會使用管線運算子 (|) 將檔案傳送至 Rename-item cmdlet，以重新命名檔案。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Passthru<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Rename-Item<ept id="p2">**</ept> to send the renamed files to the <bpt id="p3">**</bpt>Select-Object<ept id="p3">**</ept> cmdlet, which selects the first five for display.</source>
+          <target state="translated">它會使用 <bpt id="p1">*</bpt>Passthru<ept id="p1">*</ept> 參數 <bpt id="p2">**</bpt>重新命名項目<ept id="p2">**</ept> 重新命名後將檔案傳送到 <bpt id="p3">**</bpt>Select-object<ept id="p3">**</ept> 指令程式，以選取顯示的前五個。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Wait<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept> prevents Windows PowerShell from stopping the <bpt id="p3">**</bpt>Get-ChildItem<ept id="p3">**</ept> cmdlet after it gets the first five read-only text files.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>等待<ept id="p1">*</ept> 參數 <bpt id="p2">**</bpt>Select-object<ept id="p2">**</ept> 防止停止的 Windows PowerShell <bpt id="p3">**</bpt>Get-childitem<ept id="p3">**</ept> 指令程式之後，它會取得前五個唯讀文字檔案。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Without this parameter, only the first five read-only files would be renamed.</source>
+          <target state="translated">在沒有此參數的情況下，只會重新命名前五個唯讀檔案。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-ExcludeProperty</source>
+          <target state="translated">-ExcludeProperty</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies the properties that this cmdlet excludes from the operation.</source>
+          <target state="translated">指定這個指令程式排除作業的屬性。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This parameter is effective only when the command also includes the <bpt id="p1">*</bpt>Property<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">此參數在此命令也包含時，才會生效 <bpt id="p1">*</bpt>屬性<ept id="p1">*</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-ExpandProperty</source>
+          <target state="translated">-ExpandProperty</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Specifies a property to select, and indicates that an attempt should be made to expand that property.</source>
+          <target state="translated">請指定要選取的屬性，並指示應嘗試延伸該屬性。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted in the property name.</source>
+          <target state="translated">允許在屬性名稱中使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For example, if the specified property is an array, each value of the array is included in the output.</source>
+          <target state="translated">例如，如果指定的屬性是陣列，輸出中會包括陣列的每個值。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If the property contains an object, the properties of that object are displayed in the output.</source>
+          <target state="translated">如果屬性包含物件，輸出中就會顯示該物件的屬性。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-First</source>
+          <target state="translated">優先</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets only the specified number of objects.</source>
+          <target state="translated">只取得指定數目的物件。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Enter the number of objects to get.</source>
+          <target state="translated">輸入要取得的物件數目。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-Index</source>
+          <target state="translated">-索引</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Specifies an array of objects based on their index values.</source>
+          <target state="translated">指定根據索引值的物件的陣列。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Enter the indexes in a comma-separated list.</source>
+          <target state="translated">在使用逗號區隔的清單中輸入索引。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Indexes in an array begin with 0, where 0 represents the first value and (n-1) represents the last value.</source>
+          <target state="translated">陣列中的索引是以 0 開始，其中 0 代表第一個值，(n-1) 則代表最後一個值。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Specifies objects to send to the cmdlet through the pipeline.</source>
+          <target state="translated">指定要透過管線傳送給 Cmdlet 的物件。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This parameter enables you to pipe objects to <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept>.</source>
+          <target state="translated">這個參數可讓您以管線將物件傳送至 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> parameter with <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept>, instead of piping command results to <bpt id="p3">**</bpt>Select-Object<ept id="p3">**</ept>, the <bpt id="p4">*</bpt>InputObject<ept id="p4">*</ept> value-even if the value is a collection that is the result of a command, such as <ph id="ph1">`-InputObject (Get-Process)`</ph>-is treated as a single object.</source>
+          <target state="translated">當您使用 <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> 參數 <bpt id="p2">**</bpt>選取物件<ept id="p2">**</ept>, ，而不是管道命令結果輸出至 <bpt id="p3">**</bpt>Select-object<ept id="p3">**</ept>, 、 <bpt id="p4">*</bpt>InputObject<ept id="p4">*</ept> 值甚至如果值為集合之結果的命令，例如 <ph id="ph1">`-InputObject (Get-Process)`</ph>-會被視為單一物件。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> cannot return individual properties from an array or collection of objects, it is recommended that if you use <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept> to filter a collection of objects for those objects that have specific values in defined properties, you use <bpt id="p3">**</bpt>Select-Object<ept id="p3">**</ept> in the pipeline, as shown in the examples in this topic.</source>
+          <target state="translated">因為 <bpt id="p1">*</bpt>InputObject<ept id="p1">*</ept> 無法傳回個別屬性從陣列或物件的集合，則建議使用 <bpt id="p2">**</bpt>Select-object<ept id="p2">**</ept> 若要篩選的物件中定義的屬性具有特定值之物件的集合，使用 <bpt id="p3">**</bpt>Select-object<ept id="p3">**</ept> 在管線中，如本主題中的範例所示。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>-Last</source>
+          <target state="translated">-最後一個</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Specifies the number of objects to select from the end of an array of input objects.</source>
+          <target state="translated">指定要從輸入物件陣列結束位置選取的物件數。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-Property</source>
+          <target state="translated">屬性</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Specifies the properties to select.</source>
+          <target state="translated">指定要選取的屬性。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">*</bpt>Property<ept id="p1">*</ept> parameter can be a new calculated property.</source>
+          <target state="translated">值 <bpt id="p1">*</bpt>屬性<ept id="p1">*</ept> 參數可以是新計算的屬性。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To create a calculated, property, use a hash table.</source>
+          <target state="translated">若要建立計算的屬性，請使用雜湊表。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Valid keys are:</source>
+          <target state="translated">有效索引鍵為：</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Name (or Label) <ph id="ph1">\&lt;</ph>string</source>
+          <target state="translated">名稱 （或標籤） <ph id="ph1">\&lt;</ph>字串</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Expression <ph id="ph1">\&lt;</ph>string<ph id="ph2">\&gt;</ph> or <ph id="ph3">\&lt;</ph>script block</source>
+          <target state="translated">運算式 <ph id="ph1">\&lt;</ph>字串<ph id="ph2">\&gt;</ph> 或 <ph id="ph3">\&lt;</ph>指令碼區塊</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>-Skip</source>
+          <target state="translated">-略過</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Ignores the specified number of objects and then gets the remaining objects.</source>
+          <target state="translated">略過指定的物件數目，並取得剩餘的物件。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Enter the number of objects to skip.</source>
+          <target state="translated">輸入要略過的物件數目。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-SkipLast</source>
+          <target state="translated">-SkipLast</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>@{Text=}</source>
+          <target state="translated">@{文字 =}</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-Unique</source>
+          <target state="translated">唯一</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Specifies that if a subset of the input objects has identical properties and values, only a single member of the subset will be selected.</source>
+          <target state="translated">指定當輸入物件的子集具有完全相同的屬性與值，將只會選取子集的一個成員。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This parameter is case-sensitive.</source>
+          <target state="translated">此參數區分大小寫。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>As a result, strings that differ only in character casing are considered to be unique.</source>
+          <target state="translated">因此，只有字元大小寫不同的字串會被視為唯一的字串。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-Wait</source>
+          <target state="translated">-Wait</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Indicates that the cmdlet turns off optimization.</source>
+          <target state="translated">表示此指令程式會關閉最佳化。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell runs commands in the order that they appear in the command pipeline and lets them generate all objects.</source>
+          <target state="translated">Windows PowerShell 會以命令在命令管線中出現的順序執行命令，並讓它們產生所有物件。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>By default, if you include a <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> command with the <bpt id="p2">*</bpt>First<ept id="p2">*</ept> or <bpt id="p3">*</bpt>Index<ept id="p3">*</ept> parameters in a command pipeline, Windows PowerShell stops the command that generates the objects as soon as the selected number of objects is generated.</source>
+          <target state="translated">根據預設，如果您包含 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 命令搭配 <bpt id="p2">*</bpt>第一個<ept id="p2">*</ept> 或 <bpt id="p3">*</bpt>索引<ept id="p3">*</ept> 命令管線中的參數，Windows PowerShell 停止產生物件，因為選取的物件數會產生命令。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can pipe any object to <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept>.</source>
+          <target state="translated">您可以使用管線傳送任何物件至 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>You can also refer to the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet by its built-in alias, <bpt id="p2">**</bpt>select<ept id="p2">**</ept>.</source>
+          <target state="translated">您也可以參考 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 指令程式內建的別名， <bpt id="p2">**</bpt>選取<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">如需詳細資訊，請參閱 about_Aliases。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The optimization feature of <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> is available only for commands that write objects to the pipeline as they are processed.</source>
+          <target state="translated">「 最佳化 」 功能的 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 僅適用於物件寫入管線所處理的命令。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>It has no effect on commands that buffer processed objects and write them as a collection.</source>
+          <target state="translated">它對緩衝已處理之物件的命令沒有效果，並且會將它們以集合的方式寫入。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Writing objects immediately is a cmdlet design best practice.</source>
+          <target state="translated">立即寫入物件是 Cmdlet 設計最佳做法。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For more information, see Write Single Records to the Pipeline in Strongly Encouraged Development Guidelines at http://go.microsoft.com/fwlink/?LinkId=223385http://go.microsoft.com/fwlink/?LinkId=223385</source>
+          <target state="translated">如需詳細資訊，請參閱強烈鼓勵開發指導方針中的管線來寫入單一記錄在 http://go.microsoft.com/fwlink/?LinkId=223385http://go.microsoft.com/fwlink/?LinkId=223385</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Group-Object</source>
+          <target state="translated">Group-Object</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Sort-Object</source>
+          <target state="translated">Sort-Object</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Where-Object</source>
+          <target state="translated">Where-Object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

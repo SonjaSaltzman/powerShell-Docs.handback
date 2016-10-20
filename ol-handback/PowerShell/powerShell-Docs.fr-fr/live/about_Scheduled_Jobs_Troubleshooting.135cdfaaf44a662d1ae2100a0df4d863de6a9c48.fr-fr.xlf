@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7815a1030389745ad53eeb81b3393e67b5719d11</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\PSScheduledJob\About\about_Scheduled_Jobs_Troubleshooting.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">50bc04b7e8e0c42fac5ff8cbe94faedda19dfed9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">17dcbb7fd096fcb76047e8bdc8ee1c9e3153a13a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Troubleshooting</source>
+          <target state="translated">about_Scheduled_Jobs_Troubleshooting</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Scheduled Jobs Troubleshooting</source>
+          <target state="translated">À propos de la résolution des problèmes de tâches planifiées</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Troubleshooting</source>
+          <target state="translated">about_Scheduled_Jobs_Troubleshooting</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Troubleshooting</source>
+          <target state="translated">about_Scheduled_Jobs_Troubleshooting</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">DESCRIPTION COURTE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Explains how to resolve problems with scheduled jobs</source>
+          <target state="translated">Explique comment résoudre les problèmes de tâches planifiées</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">DESCRIPTION DÉTAILLÉE</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This section describes some of the problems that you might encounter when using the scheduled job features of Windows PowerShell and it suggests solutions to these problems.</source>
+          <target state="translated">Cette section décrit certains des problèmes que vous pouvez rencontrer lorsque vous utilisez les fonctionnalités de la tâche planifiée de Windows PowerShell, et il propose des solutions à ces problèmes.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Before using Windows PowerShell scheduled jobs, see about_Scheduled_Jobs and the related scheduled jobs about topics.</source>
+          <target state="translated">Avant d’utiliser Windows PowerShell les tâches planifiées, consultez about_Scheduled_Jobs et les tâches planifiées sur les rubriques connexes.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This topic contains the following sections: --  CANNOT FIND JOB RESULTS --  SCHEDULED JOB DOES NOT RUN --  CANNOT GET SCHEDULED JOB : SCHEDULED JOB IS CORRUPTED --  JOB CMDLETS CANNOT CONSISTENTLY FIND SCHEDULED JOBS</source>
+          <target state="translated">Cette rubrique contient les sections suivantes :--INTROUVABLE : RÉSULTATS de la TÂCHE PLANIFIÉE TRAVAIL N’EXÉCUTION--IMPOSSIBLE de TÂCHE PLANIFIÉE OBTENIR : PLANIFIÉE TRAVAIL EST ENDOMMAGÉ--TÂCHE applets de COMMANDE ne peut PAS SYSTÉMATIQUEMENT de TROUVER les TÂCHES PLANIFIÉES</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>CANNOT FIND JOB RESULTS</source>
+          <target state="translated">NE PEUT PAS TROUVER LES RÉSULTATS DE LA TÂCHE</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-- Basic method for getting job results in Windows PowerShell</source>
+          <target state="translated">--Méthode base pour obtenir des résultats de la tâche dans Windows PowerShell</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When a scheduled job runs, it creates an "instance" of the scheduled job.</source>
+          <target state="translated">Lorsqu’une tâche planifiée s’exécute, il crée une « instance » de la tâche planifiée.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To view, manage, and  get the results of scheduled job instances, use the Job cmdlets.</source>
+          <target state="translated">Pour afficher, gérer et obtenir les résultats des instances de tâche planifiée, utilisez les applets de commande du travail.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>NOTE: To use the Job cmdlets on instances of scheduled jobs, the PSScheduledJob module must be imported into the session.</source>
+          <target state="translated">REMARQUE : Pour utiliser les applets de commande de travail sur les instances de tâches planifiées, le module PSScheduledJob doit être importé dans la session.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To import the PSScheduledJob module, type "Import-Module PSScheduledJob" (without quotation marks) or use any Scheduled Job cmdlet, such as Get-ScheduledJob.</source>
+          <target state="translated">Pour importer le module PSScheduledJob, tapez « Import-Module PSScheduledJob » (sans guillemets) ou utiliser une applet de commande de tâche planifiée, telles que Get-ScheduledJob.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To get a list of all instances of a scheduled job, use the Get-Job cmdlet.</source>
+          <target state="translated">Pour obtenir une liste de toutes les instances d’une tâche planifiée, utilisez l’applet de commande Get-Job.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Import-Module PSScheduledJob PS C:&gt; Get-Job ProcessJob</source>
+          <target state="translated">C: &gt; Import-Module PSScheduledJob PS C: &gt; Get-Job ProcessJob</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Id     Name         PSJobTypeName   State         HasMoreData     Location</source>
+          <target state="translated">ID nom PSJobTypeName état HasMoreData emplacement</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>43     ProcessJob   PSScheduledJob  Completed     False           localhost 44     ProcessJob   PSScheduledJob  Completed     False           localhost 45     ProcessJob   PSScheduledJob  Completed     False           localhost 46     ProcessJob   PSScheduledJob  Completed     False           localhost 47     ProcessJob   PSScheduledJob  Completed     False           localhost 48     ProcessJob   PSScheduledJob  Completed     False           localhost 49     ProcessJob   PSScheduledJob  Completed     False           localhost 50     ProcessJob   PSScheduledJob  Completed     False           localhost</source>
+          <target state="translated">43 False ProcessJob PSScheduledJob terminé localhost 44 ProcessJob PSScheduledJob terminé False localhost 45 False ProcessJob PSScheduledJob terminé localhost 46 False ProcessJob PSScheduledJob terminé localhost 47 False ProcessJob PSScheduledJob terminé localhost 48 False ProcessJob PSScheduledJob terminé localhost 49 False ProcessJob PSScheduledJob terminé localhost 50 False ProcessJob PSScheduledJob terminé localhost</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The following command uses the Format-Table cmdlet to display the Name, ID, and PSBeginTime properties of a scheduled job instance in a table.</source>
+          <target state="translated">La commande suivante utilise l’applet de commande Format-Table pour afficher les propriétés de nom, ID et PSBeginTime d’une instance de tâche planifiée dans une table.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job ProcessJob | Format-Table -Property Name, ID, PSBeginTime -Auto</source>
+          <target state="translated">C: &gt; Get-Job ProcessJob | Format-Table-PSBeginTime de nom, l’ID de propriété-automatique</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Name       Id PSBeginTime</source>
+          <target state="translated">Nom Id PSBeginTime</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>ProcessJob 43 11/2/2011 3:00:02 AM ProcessJob 44 11/3/2011 3:00:02 AM ProcessJob 45 11/4/2011 3:00:02 AM ProcessJob 46 11/5/2011 3:00:02 AM ProcessJob 47 11/6/2011 3:00:02 AM ProcessJob 48 11/7/2011 12:00:01 AM ProcessJob 49 11/7/2011 3:00:02 AM ProcessJob 50 11/8/2011 3:00:02 AM</source>
+          <target state="translated">ProcessJob 43 11/2/2011 3 h 00:02 ProcessJob 44 11/3/2011 45 11/4/2011 de 3 h 00:02 ProcessJob 3 h 00:02 ProcessJob 46 11/5/2011 3 h 00:02 ProcessJob 47 11/6/2011 3 h 00:02 ProcessJob 48 11/7/2011 12:00:01 AM ProcessJob 49 11/7/2011 3 h 00:02 ProcessJob 50 11/8/2011 3 h 00:02</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To get the results of an instance of a scheduled job, use the Receive-Job cmdlet.</source>
+          <target state="translated">Pour obtenir les résultats d’une instance d’une tâche planifiée, utilisez l’applet de commande Receive-Job.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following command gets the results of the newest instance of the ProcessJob (ID = 50).</source>
+          <target state="translated">La commande suivante obtient les résultats de l’instance plus récente de la ProcessJob (ID = 50).</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Receive-Job -ID 50</source>
+          <target state="translated">C: &gt; Receive-Job - ID 50</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>--  Basic method for finding job results on disk</source>
+          <target state="translated">--Méthode base de recherche des résultats de la tâche sur le disque</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To manage scheduled jobs, use the Job cmdlets, such as Get-Job and Receive-Job.</source>
+          <target state="translated">Pour gérer les tâches planifiées, utilisez les applets de commande Job, telles que Get-Job et Receive-Job.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If Get-Job does not get the job instance or Receive-Job does not get the job results, you can search the execution history files for the job on disk.</source>
+          <target state="translated">Si Get-Job n’obtient pas l’instance de tâche ou Receive-Job n’obtient pas les résultats de la tâche, vous pouvez rechercher les fichiers d’historique d’exécution du travail sur le disque.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The execution history contains a record of all triggered job instances.</source>
+          <target state="translated">L’historique d’exécution contient un enregistrement de toutes les instances de tâche déclenchée.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Verify that there is a timestamp-named directory in the directory for a scheduled job in the following path:</source>
+          <target state="translated">Vérifiez qu’il est un répertoire nommé d’horodatage dans le répertoire pour une tâche planifiée dans le chemin suivant :</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>$home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJob <ph id="ph1">&lt;ScheduledJobName&gt;</ph>\Output</source>
+          <target state="translated">$home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJob <ph id="ph1">&lt;ScheduledJobName&gt;</ph>\Output</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Typically: C:\Users<ph id="ph1">&lt;UserName&gt;</ph>\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJob <ph id="ph2">&lt;ScheduledJobName&gt;</ph>\Output</source>
+          <target state="translated">En règle générale : C:\Users<ph id="ph1">&lt;UserName&gt;</ph>\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJob <ph id="ph2">&lt;ScheduledJobName&gt;</ph>\Output</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the on-disk execution history of the ProcessJob scheduled job.</source>
+          <target state="translated">Par exemple, la commande suivante obtient l’historique d’exécution sur le disque de la tâche planifiée ProcessJob.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs\ProcessJob\Output</source>
+          <target state="translated">C: &gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs\ProcessJob\Output</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Directory: C:\Users\User01\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs\ProcessJob\Output</source>
+          <target state="translated">Répertoire : C:\Users\User01\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs\ProcessJob\Output</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Mode                LastWriteTime     Length Name</source>
+          <target state="translated">Mode                LastWriteTime     Length Name</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>d----         11/2/2011   3:00 AM            20111102-030002-260 d----         11/3/2011   3:00 AM            20111103-030002-277 d----         11/4/2011   3:00 AM            20111104-030002-209 d----         11/5/2011   3:00 AM            20111105-030002-251 d----         11/6/2011   3:00 AM            20111106-030002-174 d----         11/7/2011  12:00 AM            20111107-000001-914 d----         11/7/2011   3:00 AM            20111107-030002-376</source>
+          <target state="translated">d---11/2/2011 3 h 00 20111102-030002-260 d---3/11/2011 3 h 00 20111103-030002-277 d---4/11/2011 3:00 AM 20111104-030002-209 d---5/11/2011 3 h 00 20111105-030002-251 d---6/11/2011 3:00 AM 20111106-030002-174 d---7/11/2011 12:00 AM 20111107-000001-914 d---7/11/2011 3 h 00 20111107-030002-376</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Each timestamp-named directory represents a job instance.</source>
+          <target state="translated">Chaque répertoire nommé horodatage représente une instance de tâche.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The results of each job instance are saved in a Results.xml file in the timestamp-named directory.</source>
+          <target state="translated">Les résultats de chaque instance de tâche sont enregistrés dans un fichier Results.xml dans le répertoire nommé d’horodatage.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the Results.xml files for every saved instance of the ProcessJob scheduled job.</source>
+          <target state="translated">Par exemple, la commande suivante obtient les fichiers Results.xml pour chaque instance de la tâche planifiée ProcessJob enregistré.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs \ProcessJob\Output<ph id="ph1">\*</ph>\Results.xml</source>
+          <target state="translated">C: &gt; dir $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs \ProcessJob\Output<ph id="ph1">\*</ph>\Results.xml</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Directory: C:\Users\User01\Appdata\Local\Microsoft\Windows\PowerShell \ScheduledJobs\ProcessJob\Output</source>
+          <target state="translated">Répertoire : C:\Users\User01\Appdata\Local\Microsoft\Windows\PowerShell \ScheduledJobs\ProcessJob\Output</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If the Results.xml file is missing, Windows PowerShell cannot return or display the job results.</source>
+          <target state="translated">Si le fichier Results.xml est manquant, Windows PowerShell ne peut pas retourner ou afficher les résultats de la tâche.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-- The Job cmdlet might not be able to get scheduled job instances or their results because the PSScheduledJob module is not imported into the session.</source>
+          <target state="translated">--L’applet de commande Job n’est peut-être pas en mesure d’obtenir des instances de tâche planifiée ou les résultats, car le module PSScheduledJob n’est pas importé dans la session.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>NOTE:   Before using a Job cmdlet on scheduled job instances, verify that the PSScheduledJob module is included in the session.</source>
+          <target state="translated">REMARQUE : Avant d’utiliser une applet de commande du travail sur les instances de tâche planifiée, vérifiez que le module PSScheduledJob est inclus dans la session.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Without the module, the Job cmdlets cannot get scheduled job instances or their results.</source>
+          <target state="translated">Sans le module, les applets de commande de travail ne peut pas obtenir les instances de tâche planifiée ou les résultats.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To import the PSScheduledJob module, type:</source>
+          <target state="translated">Pour importer le module PSScheduledJob, tapez :</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Import-Module PSScheduledJob</source>
+          <target state="translated">Import-Module PSScheduledJob</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-- The Receive-Job cmdlet might already have returned the results in the current session.</source>
+          <target state="translated">--L’applet de commande Receive-Job peut déjà avoir retourné les résultats dans la session active.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If Receive-Job does not return job instance results, it might be because a Receive-Job command has been run for that job instance in the current session without the Keep parameter.</source>
+          <target state="translated">Si la tâche de réception ne retourne pas de résultats d’instance de tâche, il peut être une commande Receive-Job a été exécutée pour cette instance de la tâche dans la session en cours sans le paramètre Keep.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>When you use Receive-Job without the Keep parameter, Receive-Job returns the job results and sets the HasMoreData property of the job instance to False to indicate that it returned all of the results for the job instance and has no more results to return.</source>
+          <target state="translated">Lorsque vous utilisez Receive-Job sans le paramètre Keep, Receive-Job retourne des résultats de la tâche et définit la propriété HasMoreData de l’instance de tâche sur False pour indiquer qu’il a renvoyé la totalité des résultats pour l’instance de tâche et a plus aucun résultat à retourner.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This setting is appropriate for standard background jobs, but not for instances of scheduled jobs, which are saved to disk.</source>
+          <target state="translated">Ce paramètre est approprié pour les tâches en arrière-plan standard, mais pas pour les instances de tâches planifiées, qui sont enregistrées sur le disque.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To get the job instance results again, start a new Windows PowerShell session (type "PowerShell" without quotation marks), import the PSScheduledJob module, and try the Receive-Job command again.</source>
+          <target state="translated">Pour obtenir la tâche des résultats d’instance, démarrer une nouvelle session Windows PowerShell (type « PowerShell » sans les guillemets), importer le module PSScheduledJob et réessayez la commande Receive-Job.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Receive-Job -ID 50 PS C:&gt;                     #No results PS C:&gt; PowerShell</source>
+          <target state="translated">C: &gt; Receive-Job - ID 50 PS C: &gt; #No résultats PS C: &gt; PowerShell</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Copyright (C) 2012 Microsoft Corporation.</source>
+          <target state="translated">Windows PowerShell Copyright (C) 2012 Microsoft Corporation.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>All rights reserved.</source>
+          <target state="translated">Tous droits réservés.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Import-Module PSScheduledJob PS C:&gt; Receive-Job -ID 50</source>
+          <target state="translated">C: &gt; Import-Module PSScheduledJob PS C: &gt; Receive-Job - ID 50</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName</source>
+          <target state="translated">Gère les VM (m) Id d’UC ProcessName de npm (k) PM (k) WS (k)</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>1213      33    12348      21676    88    25.71   1608 CcmExec 29       4     1168       2920    43     0.02    748 conhost 46       6     2208       4612    45     0.03   1640 conhost</source>
+          <target state="translated">1213 33 12348 21676 88 25.71 1608 CcmExec 29 4 1168 2920 43 0,02 748 conhost 46 6 2208 4612 45 1640 0,03 conhost</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To get the result of a job instance more than one time in a session, use the Keep parameter of the Receive-Job cmdlet.</source>
+          <target state="translated">Pour obtenir le résultat d’une instance de tâche plusieurs fois dans une session, utilisez le paramètre de conservation de l’applet de commande Receive-Job.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Import-Module PSScheduledJob PS C:&gt; Receive-Job -ID 50 -Keep</source>
+          <target state="translated">C: &gt; Import-Module PSScheduledJob PS C: &gt; Receive-Job - ID 50 - conserver</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName</source>
+          <target state="translated">Gère les VM (m) Id d’UC ProcessName de npm (k) PM (k) WS (k)</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>1213      33    12348      21676    88    25.71   1608 CcmExec 29       4     1168       2920    43     0.02    748 conhost 46       6     2208       4612    45     0.03   1640 conhost</source>
+          <target state="translated">1213 33 12348 21676 88 25.71 1608 CcmExec 29 4 1168 2920 43 0,02 748 conhost 46 6 2208 4612 45 1640 0,03 conhost</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Receive-Job -ID 50 -Keep</source>
+          <target state="translated">C: &gt; Receive-Job - ID 50 - conserver</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName</source>
+          <target state="translated">Gère les VM (m) Id d’UC ProcessName de npm (k) PM (k) WS (k)</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>1213      33    12348      21676    88    25.71   1608 CcmExec 29       4     1168       2920    43     0.02    748 conhost 46       6     2208       4612    45     0.03   1640 conhost</source>
+          <target state="translated">1213 33 12348 21676 88 25.71 1608 CcmExec 29 4 1168 2920 43 0,02 748 conhost 46 6 2208 4612 45 1640 0,03 conhost</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-- The scheduled job might be corrupted.</source>
+          <target state="translated">--La tâche planifiée peut être endommagée.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If a scheduled job becomes corrupted, Windows PowerShell deletes the corrupted scheduled job and its results.</source>
+          <target state="translated">Si une tâche planifiée est endommagée, Windows PowerShell permet de supprimer la tâche planifiée endommagée et ses résultats.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You cannot recover the results of a corrupted scheduled job.</source>
+          <target state="translated">Vous ne pouvez pas récupérer les résultats d’une tâche planifiée endommagée.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To determine if a scheduled job still exists, use the Get-ScheduledJob cmdlet.</source>
+          <target state="translated">Pour déterminer si une tâche planifiée existe toujours, utilisez l’applet de commande Get-ScheduledJob.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob</source>
+          <target state="translated">C: &gt; Get-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-- The number of results might have exceeded the ExecutionHistoryLength of the scheduled job.</source>
+          <target state="translated">--Le nombre de résultats peut avoir dépassé le ExecutionHistoryLength de la tâche planifiée.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The ExecutionHistoryLength property of a scheduled job determines how many job instances, and their results, are saved to disk.</source>
+          <target state="translated">La propriété ExecutionHistoryLength d’une tâche planifiée détermine le nombre d’instances travail et leurs résultats, sont enregistrés sur le disque.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The default value is 32.</source>
+          <target state="translated">La valeur par défaut est 32.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>When the number of instances of a scheduled job exceeds this value, Windows PowerShell deletes the oldest job instance to make room for each new job instance.</source>
+          <target state="translated">Lorsque le nombre d’instances d’une tâche planifiée dépasse cette valeur, Windows PowerShell supprime l’instance de tâche plus ancien pour faire de la place pour chaque nouvelle instance de la tâche.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To get the value of the ExecutionHistoryLength property of a scheduled job, use the following command format:</source>
+          <target state="translated">Pour obtenir la valeur de la propriété ExecutionHistoryLength d’une tâche planifiée, utilisez le format de la commande suivante :</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>(Get-ScheduledJob <ph id="ph1">&lt;JobName&gt;</ph>).ExecutionHistoryLength</source>
+          <target state="translated">(Get-ScheduledJob <ph id="ph1">&lt;JobName&gt;</ph>). ExecutionHistoryLength</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the value of the ExecutionHistoryLength property of the ProcessJob scheduled job.</source>
+          <target state="translated">Par exemple, la commande suivante obtient la valeur de la propriété ExecutionHistoryLength de la tâche planifiée ProcessJob.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; (Get-ScheduledJob ProcessJob).ExecutionHistoryLength</source>
+          <target state="translated">C: &gt; (Get-ScheduledJob ProcessJob). ExecutionHistoryLength</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To set or change the value of the ExecutionHistoryLength property, use the MaxResultCount parameter of the Register-ScheduledJob and Set-ScheduledJob cmdlets.</source>
+          <target state="translated">Pour définir ou modifier la valeur de la propriété ExecutionHistoryLength, utilisez le paramètre MaxResultCount des applets de commande Register-ScheduledJob et Set-ScheduledJob.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The following command increases the value of the ExecutionHistoryLength property to 50.</source>
+          <target state="translated">La commande suivante augmente la valeur de la propriété ExecutionHistoryLength à 50.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob ProcessJob | Set-ScheduledJob -MaxResultCount 50</source>
+          <target state="translated">C: &gt; Get-ScheduledJob ProcessJob | Set-ScheduledJob - MaxResultCount 50</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-- The job instance results might have been deleted</source>
+          <target state="translated">--Les résultats d’instance de tâche a peut-être été supprimés</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The ClearExecutionHistory parameter of the Set-ScheduledJob cmdlet deletes the execution history of a job.</source>
+          <target state="translated">Le paramètre ClearExecutionHistory de l’applet de commande Set-ScheduledJob supprime l’historique d’exécution d’une tâche.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>You can use this feature to free up disk space or delete results that are not needed, or already used, analyzed or saved in a different location.</source>
+          <target state="translated">Vous pouvez utiliser cette fonctionnalité pour libérer de l’espace disque ou de supprimer des résultats non nécessaire, ou déjà utilisés, analysées ou enregistrés dans un emplacement différent.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To delete the execution history of a scheduled job, use the ClearExecutionHistory parameter of the scheduled job.</source>
+          <target state="translated">Pour supprimer l’historique d’exécution d’une tâche planifiée, utilisez le paramètre ClearExecutionHistory de la tâche planifiée.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The following command deletes the execution history of the ProcessJob scheduled job.</source>
+          <target state="translated">La commande suivante supprime l’historique d’exécution de la tâche planifiée ProcessJob.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob ProcessJob | Set-ScheduledJob -ClearExecutionHistory</source>
+          <target state="translated">C: &gt; Get-ScheduledJob ProcessJob | Set-ScheduledJob - ClearExecutionHistory</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Also, the Remove-Job cmdlet deletes job results.</source>
+          <target state="translated">En outre, l’applet de commande Remove-Job supprime les résultats de la tâche.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>When you use Remove-Job to delete a scheduled job, it deletes all instances of the job on disk, including the execution history and all job results.</source>
+          <target state="translated">Lorsque vous utilisez Remove-Job pour supprimer une tâche planifiée, il supprime toutes les instances de la tâche sur le disque, y compris l’historique d’exécution et tous les résultats de la tâche.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-- Jobs started by using the Start-Job cmdlet are not saved to disk.</source>
+          <target state="translated">--Tâches démarrées à l’aide de l’applet de commande Start-Job ne sont pas enregistrées sur le disque.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>When you use Start-Job to start a scheduled job, instead of using a job trigger, Start-Job starts a standard background job.</source>
+          <target state="translated">Lorsque vous utilisez Start-Job pour démarrer une tâche planifiée, au lieu d’utiliser un déclencheur de tâche, Start-Job démarre une tâche en arrière-plan standard.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The background job and its results are not stored in the execution history of the job on disk.</source>
+          <target state="translated">La tâche en arrière-plan et ses résultats ne sont pas stockés dans l’historique d’exécution du travail sur le disque.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You can use the Get-Job cmdlet to get the job and the Receive-Job cmdlet to get the job results, but the results are available only until you receive them, unless you use the Keep parameter of the Receive-Job cmdlet.</source>
+          <target state="translated">Vous pouvez utiliser l’applet de commande Get-Job pour obtenir la tâche et l’applet de commande Receive-Job pour obtenir les résultats de la tâche, mais les résultats sont disponibles uniquement jusqu'à ce que vous les recevez, sauf si vous utilisez le paramètre de conservation de l’applet de commande Receive-Job.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Also, background jobs and their results are session-specific; they exist only in the session in which they are created.</source>
+          <target state="translated">En outre, des tâches en arrière-plan et leurs résultats sont spécifiques à la session ; ils existent uniquement dans la session dans laquelle ils sont créés.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you delete the job (Remove-Job), close the session or close Windows PowerShell, the job instance and its results are deleted.</source>
+          <target state="translated">Si vous supprimez le travail (Remove-Job), fermer la session ou fermez Windows PowerShell, l’instance de tâche et ses résultats sont supprimés.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>SCHEDULED JOB DOES NOT RUN</source>
+          <target state="translated">TÂCHE PLANIFIÉE NE S’EXÉCUTE PAS</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-- Scheduled jobs do not run automatically if the job triggers or the scheduled job are disabled.</source>
+          <target state="translated">--Tâches planifiées ne fonctionneront pas automatiquement si les déclencheurs de tâche ou de la tâche planifiée est désactivée.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Use the Get-ScheduledJob cmdlet to get the scheduled job.</source>
+          <target state="translated">Utilisez l’applet de commande Get-ScheduledJob pour obtenir la tâche planifiée.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Verify that the value of the Enabled property of the scheduled job is True ($true).</source>
+          <target state="translated">Vérifiez que la valeur de la propriété Enabled de la tâche planifiée est True ($true).</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob ProcessJob</source>
+          <target state="translated">C: &gt; Get-ScheduledJob ProcessJob</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Id         Name            Triggers        Command         Enabled</source>
+          <target state="translated">ID nom déclencheurs commande activée</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>4          ProcessJob      {1, 2}          Get-Process     True</source>
+          <target state="translated">4 ProcessJob {1, 2} Get-Process True</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; (Get-ScheduledJob ProcessJob).Enabled True</source>
+          <target state="translated">C: &gt; (Get-ScheduledJob ProcessJob). Activé True</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Use the Get-JobTrigger cmdlet to get the job triggers of the scheduled job.</source>
+          <target state="translated">Utilisez l’applet de commande Get-JobTrigger pour obtenir les déclencheurs de tâche de la tâche planifiée.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Verify that the value of the Enabled property of the job trigger is True ($true)</source>
+          <target state="translated">Vérifiez que la valeur de la propriété Enabled du déclencheur est True ($true)</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob ProcessJob | Get-JobTrigger</source>
+          <target state="translated">C: &gt; Get-ScheduledJob ProcessJob | Get-JobTrigger</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Id         Frequency       Time                   DaysOfWeek              Enabled</source>
+          <target state="translated">ID fréquence heure DaysOfWeek activé</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>1          Weekly          11/7/2011 5:00:00 AM   {Monday, Thursday}      True 2          Daily           11/7/2011 3:00:00 PM                           True</source>
+          <target state="translated">1 semaine le 7/11/2011 5:00:00 AM {lundi, jeudi} True 2 quotidienne 7/11/2011 True de 3:00:00 PM</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob ProcessJob | Get-JobTrigger | Format-Table ID, Enabled -Auto</source>
+          <target state="translated">C: &gt; Get-ScheduledJob ProcessJob | Get-JobTrigger | ID de format-Table, activé - automatique</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Id Enabled</source>
+          <target state="translated">ID activée</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>1    True 2    True</source>
+          <target state="translated">1 2 true True</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-- Scheduled jobs do not run automatically if the job triggers are invalid.</source>
+          <target state="translated">--Tâches planifiées ne fonctionneront pas automatiquement si les déclencheurs ne sont pas valides.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>For example, a job trigger might specify a date in the past or a date that does not occur, such as the 5th Monday of the month.</source>
+          <target state="translated">Par exemple, un déclencheur de tâche peut spécifier une date dans le passé ou une date qui ne se produit pas, par exemple le 5e lundi du mois.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-- Scheduled jobs do not run automatically if the conditions of the job trigger or the job options are not satisfied.</source>
+          <target state="translated">--Tâches planifiées ne fonctionneront pas automatiquement si les conditions du déclencheur ou les options de tâche ne sont pas satisfaites.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For example, a scheduled job that runs only when a particular user logs on to the computer will not run if that user does not log on or only connects remotely.</source>
+          <target state="translated">Par exemple, une tâche planifiée qui s’exécute uniquement lorsqu’un utilisateur particulier se connecte à l’ordinateur exécutera pas si cet utilisateur n’est pas connecté ou seulement se connecte à distance.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Examine the options of the scheduled job and make sure that they are satisfied.</source>
+          <target state="translated">Examinez les options de la tâche planifiée et assurez-vous qu’ils sont satisfaits.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For example, a scheduled job that requires that the computer be idle or requires a network connection, or has a long IdleDuration or a brief IdleTimeout might never run.</source>
+          <target state="translated">Par exemple, une tâche planifiée qui nécessite que l’ordinateur soit inactif ou nécessite une connexion réseau ou dispose d’une long IdleDuration ou une brève IdleTimeout ne peut jamais s’exécuter.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Use the Get-ScheduledJobOption cmdlet to examine the job options and their values.</source>
+          <target state="translated">Utilisez l’applet de commande Get-ScheduledJobOption pour examiner les options et leurs valeurs.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob -Name ProcessJob</source>
+          <target state="translated">C: &gt; Get-ScheduledJob-nom ProcessJob</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>StartIfOnBatteries     : False StopIfGoingOnBatteries : True WakeToRun              : True StartIfNotIdle         : True StopIfGoingOffIdle     : False RestartOnIdleResume    : False IdleDuration           : 00:10:00 IdleTimeout            : 01:00:00 ShowInTaskScheduler    : True RunElevated            : False RunWithoutNetwork      : True DoNotAllowDemandStart  : False MultipleInstancePolicy : IgnoreNew JobDefinition          : Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</source>
+          <target state="translated">StartIfOnBatteries : StopIfGoingOnBatteries False : True WakeToRun : True StartIfNotIdle : True StopIfGoingOffIdle : False RestartOnIdleResume : IdleDuration False : IdleTimeout de 10:00:00 : 01:00:00 ShowInTaskScheduler : True RunElevated : False RunWithoutNetwork : True DoNotAllowDemandStart : False MultipleInstancePolicy : IgnoreNew JobDefinition : Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>For descriptions of the scheduled job options, see the help topic for the New-ScheduledJobOption cmdlet (http://go.microsoft.com/fwlink/?LinkID=223919).</source>
+          <target state="translated">Pour obtenir une description des options de tâche planifiée, consultez la rubrique d’aide pour l’applet de commande New-ScheduledJobOption (http://go.microsoft.com/fwlink/?LinkID=223919).</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-- The scheduled job instance might have failed.</source>
+          <target state="translated">--L’instance de tâche planifiée a peut-être échoué.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>If a scheduled job command fails, Windows PowerShell reports it immediately by generating an error message.</source>
+          <target state="translated">Si une commande de la tâche planifiée échoue, Windows PowerShell signale immédiatement en générant un message d’erreur.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>However, if the job fails when Task Scheduler tries to run it, the error is not available to Windows PowerShell.</source>
+          <target state="translated">Toutefois, si la tâche échoue quand le Planificateur de tâches essaie de l'exécuter, l'erreur n'est pas disponible pour Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Use the following methods to detect and correct job failures.</source>
+          <target state="translated">Utilisez les méthodes suivantes pour détecter et corriger les échecs des tâches.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>-- Check the Task Scheduler event log for errors.</source>
+          <target state="translated">--Vérifiez le journal des événements du Planificateur de tâches pour les erreurs.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>To check the log, use Event Viewer or a Windows PowerShell command such as the following:</source>
+          <target state="translated">Pour vérifier le journal, utilisez l’Observateur d’événements ou d’une commande Windows PowerShell, comme suit :</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Get-WinEvent -LogName Microsoft-Windows-TaskScheduler/Operational | Where {$_.Message -like "fail"}</source>
+          <target state="translated">Get-WinEvent LogName - Microsoft-Windows-TaskScheduler opérationnels | Où {$_. Message - comme « fail »}</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>-- Check the job record in Task Scheduler.</source>
+          <target state="translated">--Vérifiez l’enregistrement de la tâche du Planificateur de tâches.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell scheduled jobs are stored in the following Task Scheduled folder:</source>
+          <target state="translated">Tâches planifiées de Windows PowerShell sont stockés dans le dossier Tâches planifiées suivant :</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Task Scheduler Library\Microsoft\Windows\PowerShell\ScheduledJobs</source>
+          <target state="translated">Du Planificateur de tâches\microsoft\windows\powershell\scheduledjobs</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-- The scheduled job might not run because of insuffienct permission.</source>
+          <target state="translated">--La tâche planifiée ne peut pas s’exécuter en raison de l’autorisation insuffienct.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Scheduled jobs run with the permissions of the user who created the job or the permissions of the user who is specified by the Credential parameter in the Register-ScheduledJob or Set-ScheduledJob command.</source>
+          <target state="translated">Les tâches planifiées s’exécutent avec les autorisations de l’utilisateur qui a créé le travail ou les autorisations de l’utilisateur qui est spécifié par le paramètre d’informations d’identification dans la commande Register-ScheduledJob ou Set-ScheduledJob.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If that user does not have permission to run the commands or scripts, the job fails.</source>
+          <target state="translated">Si cet utilisateur n’est pas autorisé à exécuter les commandes ou les scripts, la tâche échoue.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>CANNOT GET SCHEDULED JOB : SCHEDULED JOB IS CORRUPTED</source>
+          <target state="translated">NE PEUT PAS OBTENIR PLANIFIÉE TÂCHE : TÂCHE PLANIFIÉE EST ENDOMMAGÉE.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>On rare occasions, scheduled jobs can become corrupted or contain internal contradictions that cannot be resolved.</source>
+          <target state="translated">Dans de rares occasions, les tâches planifiées peuvent être endommagées ou contiennent des contradictions internes qui ne peut pas être résolues.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Typically, this happens when the XML files for the scheduled job are manually edited, resulting in invalid XML.</source>
+          <target state="translated">En général, cela se produit lorsque les fichiers XML de la tâche planifiée sont modifiés manuellement, résultant dans le code XML non valide.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>When a scheduled job is corrupted, Windows PowerShell attempts to delete the scheduled job, its execution history, and its results from disk.</source>
+          <target state="translated">Lorsqu’une tâche planifiée est endommagée, Windows PowerShell tente de supprimer la tâche planifiée, son historique d’exécution et ses résultats à partir du disque.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>If it cannot remove the scheduled job, you will get a corrupted job error message each time you run the Get-ScheduledJob cmdlet.</source>
+          <target state="translated">Si elle ne peut pas supprimer la tâche planifiée, vous obtiendrez un message d’erreur endommagé tâche chaque fois que vous exécutez l’applet de commande Get-ScheduledJob.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>To remove a corrupted scheduled job, use either one of the following methods.</source>
+          <target state="translated">Pour supprimer une tâche planifiée endommagée, utilisez l’une des méthodes suivantes :</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>-- Delete the <ph id="ph1">&lt;ScheduledJobName&gt;</ph> directory for the scheduled job.</source>
+          <target state="translated">--Supprimer le <ph id="ph1">&lt;ScheduledJobName&gt;</ph> répertoire pour la tâche planifiée.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Do not delete the ScheduledJob directory.</source>
+          <target state="translated">Ne supprimez pas le répertoire ScheduledJob.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The directory is located at $env:UserProfile\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs</source>
+          <target state="translated">Le répertoire se trouve dans $env : UserProfile\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Typically: C:\Users<ph id="ph1">&lt;UserName&gt;</ph>\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs<ph id="ph2">&lt;ScheduledJobName&gt;</ph>.</source>
+          <target state="translated">En règle générale : C:\Users<ph id="ph1">&lt;UserName&gt;</ph>\AppData\Local\Microsoft\Windows\PowerShell \ScheduledJobs<ph id="ph2">&lt;ScheduledJobName&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>-- Use Task Scheduler to delete the scheduled job.</source>
+          <target state="translated">--Utiliser le Planificateur de tâches pour supprimer la tâche planifiée.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell scheduled tasks appear in the following Task Scheduler path:</source>
+          <target state="translated">Les tâches planifiées de Windows PowerShell s’affichent dans le chemin d’accès du Planificateur de tâches suivante :</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Task Scheduler Library\Microsoft\Windows\PowerShell\ScheduledJobs</source>
+          <target state="translated">Du Planificateur de tâches\microsoft\windows\powershell\scheduledjobs</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>-- JOB CMDLETS CANNOT CONSISTENTLY FIND SCHEDULED JOBS</source>
+          <target state="translated">--APPLETS DE COMMANDE JOB NE PEUT PAS RECHERCHER RÉGULIÈREMENT LES TÂCHES PLANIFIÉES</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>When the PSScheduledJob module is not in the current session, the Job cmdlets cannot get scheduled jobs, start them, or get their results.</source>
+          <target state="translated">Lorsque le module PSScheduledJob n’est pas dans la session active, les applets de commande de travail ne peut pas obtenir les tâches planifiées, démarrez-les ou obtenir leurs résultats.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>To import the PSScheduledJob module, type "Import-Module PSScheduledJob" or run or get any cmdlet in the module, such as the Get-ScheduledJob cmdlet.</source>
+          <target state="translated">Pour importer le module PSScheduledJob, tapez « Import-Module PSScheduledJob » ou exécutez ou obtenir une applet de commande dans le module, telles que l’applet de commande Get-ScheduledJob.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, modules are imported automatically when you get or use any cmdlet in the module.</source>
+          <target state="translated">Modules à partir de Windows PowerShell 3.0, sont importés automatiquement lorsque vous obtenez ou utilisez une applet de commande dans le module.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>When the PSScheduledJob cmdlet is not in the current session, the following command sequence is possible.</source>
+          <target state="translated">Lorsque l’applet de commande PSScheduledJob n’est pas dans la session active, la séquence de commandes est possible.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job ProcessJob</source>
+          <target state="translated">C: &gt; Get-Job ProcessJob</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Get-Job : The command cannot find the job because the job name ProcessJob was not found.</source>
+          <target state="translated">Get-Job : La commande ne peut pas trouver le travail, car le nom de la tâche ProcessJob est introuvable.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Verify the value of the Name parameter, and then try the command again.</source>
+          <target state="translated">Vérifiez la valeur du paramètre Name, puis réessayez la commande.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>CategoryInfo          : ObjectNotFound: (ProcessJob:String) [Get-Job], PSArgumentException</source>
+          <target state="translated">CategoryInfo : Exécution ObjectNotFound : (ProcessJob:String) Get-Job, PSArgumentException</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>FullyQualifiedErrorId : JobWithSpecifiedNameNotFound,Microsoft.PowerShell.</source>
+          <target state="translated">FullyQualifiedErrorId : JobWithSpecifiedNameNotFound,Microsoft.PowerShell.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Commands.GetJobCommand</source>
+          <target state="translated">Commands.GetJobCommand</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job PS C:&gt; Get-ScheduledJob ProcessJob</source>
+          <target state="translated">C: &gt; Get-Job PS C: &gt; Get-ScheduledJob ProcessJob</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Id         Name            Triggers        Command      Enabled</source>
+          <target state="translated">ID nom déclencheurs commande activée</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>4          ProcessJob      {1}             Get-Process  True</source>
+          <target state="translated">Valeur de Get-Process True ProcessJob 4 {1}</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job ProcessJob</source>
+          <target state="translated">C: &gt; Get-Job ProcessJob</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Id     Name         PSJobTypeName   State       HasMoreData     Location</source>
+          <target state="translated">ID nom PSJobTypeName état HasMoreData emplacement</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>43     ProcessJob   PSScheduledJob  Completed   True            localhost 44     ProcessJob   PSScheduledJob  Completed   True            localhost 45     ProcessJob   PSScheduledJob  Completed   True            localhost 46     ProcessJob   PSScheduledJob  Completed   True            localhost 47     ProcessJob   PSScheduledJob  Completed   True            localhost 48     ProcessJob   PSScheduledJob  Completed   True            localhost 49     ProcessJob   PSScheduledJob  Completed   True            localhost 50     ProcessJob   PSScheduledJob  Completed   True            localhost</source>
+          <target state="translated">43 ProcessJob PSScheduledJob terminé True localhost 44 ProcessJob PSScheduledJob terminé True localhost 45 ProcessJob PSScheduledJob terminé True localhost 46 ProcessJob PSScheduledJob terminé True localhost 47 ProcessJob PSScheduledJob terminé True localhost 48 ProcessJob PSScheduledJob terminé True localhost 49 ProcessJob PSScheduledJob terminé True localhost 50 ProcessJob PSScheduledJob terminé True localhost</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>This behavior occurs because the Get-ScheduledJob command automatically imports the PSScheduledJob module, and then runs the command.</source>
+          <target state="translated">Ce comportement se produit car la commande Get-ScheduledJob importe automatiquement le module PSScheduledJob, puis exécute la commande.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">VOIR AUSSI</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs about_Scheduled_Jobs_Basics about_Scheduled_Jobs_Advanced</source>
+          <target state="translated">about_Scheduled_Jobs about_Scheduled_Jobs_Basics about_Scheduled_Jobs_Advanced</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

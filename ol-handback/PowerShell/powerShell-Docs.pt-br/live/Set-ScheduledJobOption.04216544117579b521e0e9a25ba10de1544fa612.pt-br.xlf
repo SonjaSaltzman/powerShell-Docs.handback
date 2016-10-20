@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">212420a45ee584765ff93c74f55a2409f0101baf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\PSScheduledJob\Set-ScheduledJobOption.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">398835d12a8261d51fe9b00c2433d8fa40a1f967</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df86f44c7bd909e433892adc8e9a70a3bed2db76</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJobOption</source>
+          <target state="translated">Set-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJobOption</source>
+          <target state="translated">Set-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SINOPSE</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Changes the job options of a scheduled job.</source>
+          <target state="translated">Altera as opções de trabalho de um trabalho agendado.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIÇÃO</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-ScheduledJobOptions<ept id="p1">**</ept> cmdlet changes the job options of scheduled jobs.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>Set-ScheduledJobOptions<ept id="p1">**</ept> cmdlet altera as opções de trabalho dos trabalhos agendados.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To change the options of a scheduled job, begin by using the Get-ScheduledJobOption cmdlet to get the job options of a scheduled job.</source>
+          <target state="translated">Para alterar as opções de um trabalho agendado, comece usando o cmdlet Get-ScheduledJobOption para obter as opções de trabalho de um trabalho agendado.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Then, pipe the options to <bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept> or save the options in a variable and use the <bpt id="p2">**</bpt>InputObject<ept id="p2">**</ept> parameter of <bpt id="p3">**</bpt>Set-ScheduledJobOption<ept id="p3">**</ept> cmdlet to identify the options.</source>
+          <target state="translated">Em seguida, canalize as opções para <bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept> ou salvar as opções em uma variável e use o <bpt id="p2">**</bpt>InputObject<ept id="p2">**</ept> parâmetro <bpt id="p3">**</bpt>Set-ScheduledJobOption<ept id="p3">**</ept> cmdlet para identificar as opções.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use the remaining parameters of <bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept> to change the job options.</source>
+          <target state="translated">Use os parâmetros restantes do <bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept> para alterar as opções de trabalho.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To turn on a job option, use the parameter that sets that option.</source>
+          <target state="translated">Para ativar uma opção de trabalho, use o parâmetro que define essa opção.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To turn off an option, type the parameter name, a colon (:), and <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>.</source>
+          <target state="translated">Para desativar uma opção, digite o nome do parâmetro, dois-pontos (:), e <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, to turn off the <bpt id="p1">**</bpt>RunElevated<ept id="p1">**</ept> option, type <ph id="ph1">`-RunElevated:$false`</ph>.</source>
+          <target state="translated">Por exemplo, para desativar o <bpt id="p1">**</bpt>RunElevated<ept id="p1">**</ept> opção, digite <ph id="ph1">`-RunElevated:$false`</ph>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Each job options object includes a <bpt id="p1">**</bpt>JobDefinition<ept id="p1">**</ept> property that contains the scheduled job, so the association with the scheduled job is retained when the job options are changed.</source>
+          <target state="translated">Cada objeto de opções de trabalho inclui uma <bpt id="p1">**</bpt>JobDefinition<ept id="p1">**</ept> propriedade que contém o trabalho agendado, portanto, a associação com o trabalho agendado é mantida quando as opções de trabalho são alteradas.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The scheduled job options determine how the job runs when it is started by Task Scheduler.</source>
+          <target state="translated">As opções de trabalho agendadas determinam como o trabalho é executado quando ele é iniciado pelo Agendador de Tarefas.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>These options to not apply when you use the Start-Job cmdlet to start a scheduled job.</source>
+          <target state="translated">Essas opções não se aplicam quando você usa o cmdlet Start-Job para iniciar um trabalho agendado.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept> is one of a collection of job scheduling cmdlets in the PSScheduledJob module that is included in Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept> é de uma coleção de cmdlets no módulo PSScheduledJob que está incluído no Windows PowerShell o agendamento de trabalho.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about Scheduled Jobs, see the About topics in the PSScheduledJob module.</source>
+          <target state="translated">Para obter mais informações sobre trabalhos agendados, consulte os tópicos sobre o módulo PSScheduledJob.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Import the PSScheduledJob module and then type: <ph id="ph1">`Get-Help about_Scheduled*`</ph> or see about_Scheduled_Jobs.</source>
+          <target state="translated">Importe o módulo PSScheduledJob e, em seguida, digite: <ph id="ph1">`Get-Help about_Scheduled*`</ph> ou consulte about_Scheduled_Jobs.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This cmdlet is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Este cmdlet é introduzido no Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLOS</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1: Change job options</source>
+          <target state="translated">Exemplo 1: Alterar opções de trabalho</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This example shows how to change the options of a scheduled job on the local computer.</source>
+          <target state="translated">Este exemplo mostra como alterar as opções de uma tarefa agendada no computador local.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Change an option on all remote scheduled jobs</source>
+          <target state="translated">Exemplo 2: Alterar uma opção em todos os trabalhos agendados remotos</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command changes the value of the IdleTimeout from one hour (the default value) to two hours on all scheduled jobs on the Server01 computer.</source>
+          <target state="translated">Esse comando altera o valor de IdleTimeout de uma hora (o valor padrão) para duas horas em todos os trabalhos agendados do computador Server01.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The command uses the Invoke-Command cmdlet to run a command on the Server01 computer.</source>
+          <target state="translated">O comando usa o cmdlet Invoke-Command para executar um comando no computador Server01.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The remote command begins with a Get-ScheduledJob command that gets all scheduled jobs on the  computer.</source>
+          <target state="translated">O comando remoto começa com um comando Get-ScheduledJob que obtém todos os trabalhos agendados no computador.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The scheduled jobs are piped to the Get-ScheduledJobOption cmdlet, which gets the job options of the scheduled jobs.</source>
+          <target state="translated">Os trabalhos agendados são canalizados para o cmdlet Get-ScheduledJobOption, que obtém as opções de trabalho dos trabalhos agendados.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Each job options object contains a <bpt id="p1">**</bpt>JobDefinition<ept id="p1">**</ept> property that contains the scheduled job, so the options object remains associated with the scheduled job even when it is changed.</source>
+          <target state="translated">Cada objeto de opções de trabalho contém uma <bpt id="p1">**</bpt>JobDefinition<ept id="p1">**</ept> propriedade que contém o trabalho agendado, portanto, as opções de objeto permanece associado com o trabalho agendado, mesmo quando ele for alterado.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The job triggers are piped to the <bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept> cmdlet, which changes the value of the IdleTimeout option to two hours (2:00:00).</source>
+          <target state="translated">Os gatilhos de trabalho são canalizados para o <bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept> cmdlet, que altera o valor da opção IdleTimeout a cada duas horas (2: 00:00).</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARÂMETROS</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-ContinueIfGoingOnBattery</source>
+          <target state="translated">-ContinueIfGoingOnBattery</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Do not stop the scheduled job if the computer switches to battery power (disconnects from AC power) while the job is running.</source>
+          <target state="translated">Não interrompa a tarefa se o computador alternar para a energia da bateria (desconectado da corrente alternada) enquanto o trabalho estiver em execução.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>By default, scheduled jobs stop when the computer disconnects from AC power.</source>
+          <target state="translated">Por padrão, os trabalhos agendados param quando o computador é desconectado da corrente alternada.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ContinueIfGoingOnBattery<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>StopIfGoingOnBatteries<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>ContinueIfGoingOnBattery<ept id="p1">**</ept> parâmetro define o valor de <bpt id="p2">**</bpt>StopIfGoingOnBatteries<ept id="p2">**</ept> propriedade dos trabalhos agendados para True.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-DoNotAllowDemandStart</source>
+          <target state="translated">-DoNotAllowDemandStart</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Start the job only when it is triggered.</source>
+          <target state="translated">Inicie o trabalho somente quando ele é acionado.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Users cannot start the job manually, such as by using the Run feature in Task Scheduler.</source>
+          <target state="translated">Os usuários não podem iniciar o trabalho manualmente, como usando a execução de recursos no Agendador de tarefas.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This parameter only affects Task Scheduler.</source>
+          <target state="translated">Este parâmetro afeta somente o Agendador de tarefas.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It does not prevents users from using the Start-Job cmdlet to start the job.</source>
+          <target state="translated">Ela não impede que os usuários usando o cmdlet Start-Job para iniciar o trabalho.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>DoNotAllowDemandStart<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>DoNotAllowDemandStart<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>DoNotAllowDemandStart<ept id="p1">**</ept> parâmetro define o valor de <bpt id="p2">**</bpt>DoNotAllowDemandStart<ept id="p2">**</ept> propriedade dos trabalhos agendados para True.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-HideInTaskScheduler</source>
+          <target state="translated">-HideInTaskScheduler</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Do not display the job in Task Scheduler.</source>
+          <target state="translated">Não exiba o trabalho no Agendador de tarefas.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This value affects only the computer on which the job runs.</source>
+          <target state="translated">Esse valor afeta somente o computador no qual o trabalho é executado.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>By default, scheduled tasks appear in Task Scheduler.</source>
+          <target state="translated">Por padrão, as tarefas agendadas são exibidas no Agendador de tarefas.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Even if a task is hidden, users can display the task by selecting the "<bpt id="p1">**</bpt>Show hidden tasks<ept id="p1">**</ept>" view option in Task Scheduler.</source>
+          <target state="translated">Mesmo se uma tarefa estiver oculto, os usuários podem exibir a tarefa selecionando o "<bpt id="p1">**</bpt>Mostrar tarefas ocultas<ept id="p1">**</ept>" Exibir opção no Agendador de tarefas.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>HideInTaskScheduler<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>ShowInTaskScheduler<ept id="p2">**</ept> property of scheduled jobs to False.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>HideInTaskScheduler<ept id="p1">**</ept> parâmetro define o valor de <bpt id="p2">**</bpt>ShowInTaskScheduler<ept id="p2">**</ept> propriedade dos trabalhos agendados para False.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-IdleDuration</source>
+          <target state="translated">-IdleDuration</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Specifies how long the computer must be idle before the job starts.</source>
+          <target state="translated">Especifica quanto tempo o computador deve permanecer ocioso antes de iniciar o trabalho.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The default value is 10 minutes.</source>
+          <target state="translated">O valor padrão é 10 minutos.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If the computer is not idle for the specified duration before the value of <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> expires, the scheduled job does not run until the next scheduled time, if any.</source>
+          <target state="translated">Se o computador não estiver ocioso durante o tempo especificado antes do valor de <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> expirar, o trabalho agendado não executado até a próxima execução agendada, se houver.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Enter a timespan object, such as one generated by the New-TimeSpan cmdlet, or enter a value in <ph id="ph1">\&lt;</ph>hours<ph id="ph2">\&gt;</ph>:<ph id="ph3">\&lt;</ph>minutes<ph id="ph4">\&gt;</ph>:<ph id="ph5">\&lt;</ph>seconds<ph id="ph6">\&gt;</ph> format that is automatically converted to a timespan object</source>
+          <target state="translated">Insira um objeto timespan, como aquele gerado pelo cmdlet New-TimeSpan, ou insira um valor em <ph id="ph1">\&lt;</ph>horas<ph id="ph2">\&gt;</ph>:<ph id="ph3">\&lt;</ph>minutos<ph id="ph4">\&gt;</ph>:<ph id="ph5">\&lt;</ph>segundos<ph id="ph6">\&gt;</ph> formato é automaticamente convertido em um objeto timespan</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To enable this value, use the <bpt id="p1">**</bpt>StartIfIdle<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Para habilitar esse valor, use o <bpt id="p1">**</bpt>StartIfIdle<ept id="p1">**</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">**</bpt>StartIfNotIdle<ept id="p1">**</ept> property of scheduled jobs is set to True and Windows PowerShell ignores the <bpt id="p2">**</bpt>IdleDuration<ept id="p2">**</ept> and <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> values.</source>
+          <target state="translated">Por padrão, o <bpt id="p1">**</bpt>StartIfNotIdle<ept id="p1">**</ept> propriedade dos trabalhos agendados é definida como True e o Windows PowerShell ignora o <bpt id="p2">**</bpt>IdleDuration<ept id="p2">**</ept> e <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> valores.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-IdleTimeout</source>
+          <target state="translated">-IdleTimeout</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies how long the computer must be idle before the job starts.</source>
+          <target state="translated">Especifica quanto tempo o computador deve permanecer ocioso antes de iniciar o trabalho.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The default value is 10 minutes.</source>
+          <target state="translated">O valor padrão é 10 minutos.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If the computer is not idle for the specified duration before the value of <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> expires, the scheduled job does not run until the next scheduled time, if any.</source>
+          <target state="translated">Se o computador não estiver ocioso durante o tempo especificado antes do valor de <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> expirar, o trabalho agendado não executado até a próxima execução agendada, se houver.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Enter a timespan object, such as one generated by the New-TimeSpan cmdlet, or enter a value in <ph id="ph1">\&lt;</ph>hours<ph id="ph2">\&gt;</ph>:<ph id="ph3">\&lt;</ph>minutes<ph id="ph4">\&gt;</ph>:<ph id="ph5">\&lt;</ph>seconds<ph id="ph6">\&gt;</ph> format  that is automatically converted to a timespan object.</source>
+          <target state="translated">Insira um objeto timespan, como aquele gerado pelo cmdlet New-TimeSpan, ou insira um valor em <ph id="ph1">\&lt;</ph>horas<ph id="ph2">\&gt;</ph>:<ph id="ph3">\&lt;</ph>minutos<ph id="ph4">\&gt;</ph>:<ph id="ph5">\&lt;</ph>segundos<ph id="ph6">\&gt;</ph> formato é automaticamente convertido em um objeto timespan.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To enable this value, use the <bpt id="p1">**</bpt>StartIfIdle<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Para habilitar esse valor, use o <bpt id="p1">**</bpt>StartIfIdle<ept id="p1">**</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">**</bpt>StartIfNotIdle<ept id="p1">**</ept> property of scheduled jobs is set to True and Windows PowerShell ignores the <bpt id="p2">**</bpt>IdleDuration<ept id="p2">**</ept> and <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> values.</source>
+          <target state="translated">Por padrão, o <bpt id="p1">**</bpt>StartIfNotIdle<ept id="p1">**</ept> propriedade dos trabalhos agendados é definida como True e o Windows PowerShell ignora o <bpt id="p2">**</bpt>IdleDuration<ept id="p2">**</ept> e <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> valores.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies the job options.</source>
+          <target state="translated">Especifica as opções de trabalho.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains  <bpt id="p1">**</bpt>ScheduledJobOptions<ept id="p1">**</ept> objects or type a command or expression that gets <bpt id="p2">**</bpt>ScheduledJobOptions<ept id="p2">**</ept> objects, such as a Get-ScheduledJobOption command.</source>
+          <target state="translated">Insira uma variável que contém  <bpt id="p1">**</bpt>ScheduledJobOptions<ept id="p1">**</ept> objetos ou digite um comando ou expressão que obtém <bpt id="p2">**</bpt>ScheduledJobOptions<ept id="p2">**</ept> objetos, como um comando Get-ScheduledJobOption.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can also pipe a <bpt id="p1">**</bpt>ScheduledJobOptions<ept id="p1">**</ept> object to <bpt id="p2">**</bpt>Set-ScheduledJobOption<ept id="p2">**</ept>.</source>
+          <target state="translated">Você também pode redirecionar uma <bpt id="p1">**</bpt>ScheduledJobOptions<ept id="p1">**</ept> objeto <bpt id="p2">**</bpt>Set-ScheduledJobOption<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-MultipleInstancePolicy</source>
+          <target state="translated">-MultipleInstancePolicy</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Determines how the system responds to a request to start an instance of a scheduled job while another instance of the job is running.</source>
+          <target state="translated">Determina como o sistema responde a uma solicitação para iniciar uma instância de um trabalho agendado, enquanto outra instância de trabalho está em execução.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>IgnoreNew<ept id="p1">**</ept>.</source>
+          <target state="translated">O valor padrão é <bpt id="p1">**</bpt>IgnoreNew<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">Os valores válidos são:</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>IgnoreNew<ept id="p1">**</ept>: The new job instance is ignored.</source>
+          <target state="translated"><bpt id="p1">**</bpt>IgnoreNew<ept id="p1">**</ept>: A nova instância de trabalho é ignorada.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This is the default value.</source>
+          <target state="translated">Este é o valor padrão.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Parallel<ept id="p1">**</ept>: The new job instance starts immediately.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Paralelo<ept id="p1">**</ept>: A nova instância de trabalho é iniciado imediatamente.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Queue<ept id="p1">**</ept>: The new job instance starts as soon as the current instance completes.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Fila<ept id="p1">**</ept>: A nova instância de trabalho começa assim que a instância atual seja concluída.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>StopExisting<ept id="p1">**</ept>: The current instance of the job stop and the new instance starts.</source>
+          <target state="translated"><bpt id="p1">**</bpt>StopExisting<ept id="p1">**</ept>: inicia a instância atual do trabalho parado e a nova instância.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To run the job, all conditions for the job schedule must be met.</source>
+          <target state="translated">Para executar o trabalho, todas as condições da agenda de trabalho devem ser atendidas.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For example, if the conditions that are set by the <bpt id="p1">**</bpt>RequireNetwork<ept id="p1">**</ept>, <bpt id="p2">**</bpt>IdleDuration<ept id="p2">**</ept> and <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> parameters are not satisfied, the job instance is not started, regardless of the value of this parameter.</source>
+          <target state="translated">Por exemplo, se as condições que são definidas pelo <bpt id="p1">**</bpt>RequireNetwork<ept id="p1">**</ept>, <bpt id="p2">**</bpt>IdleDuration<ept id="p2">**</ept> e <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> parâmetros não forem atendidos, a instância de trabalho não for iniciada, independentemente do valor desse parâmetro.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Returns the job options that changed.</source>
+          <target state="translated">Retorna as opções de trabalho que foram alteradas.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">Por padrão, este cmdlet não gera saída.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-RequireNetwork</source>
+          <target state="translated">-RequireNetwork</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Runs the scheduled job only when network connections are available.</source>
+          <target state="translated">Executa a tarefa agendada somente quando conexões de rede estão disponíveis.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If you specify this parameter and the network is not available at the scheduled start time, the job does not run until the next scheduled start time, if any.</source>
+          <target state="translated">Se você especificar esse parâmetro e a rede não estiver disponível na hora de início agendada, o trabalho não será executado até a próxima hora de início agendada, se houver alguma.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>RequireNetwork<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>RunWithoutNetwork<ept id="p2">**</ept> property of scheduled jobs to False.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>RequireNetwork<ept id="p1">**</ept> parâmetro define o valor de <bpt id="p2">**</bpt>RunWithoutNetwork<ept id="p2">**</ept> propriedade dos trabalhos agendados para False.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-RestartOnIdleResume</source>
+          <target state="translated">-RestartOnIdleResume</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Restarts a scheduled job when the computer becomes idle.</source>
+          <target state="translated">Reinicia um trabalho agendado quando o computador ficar ocioso.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This parameter works with the <bpt id="p1">**</bpt>StopIfGoingOffIdle<ept id="p1">**</ept> parameter, which suspends a running scheduled job if the computer becomes active (leaves the idle state).</source>
+          <target state="translated">Esse parâmetro funciona com o <bpt id="p1">**</bpt>StopIfGoingOffIdle<ept id="p1">**</ept> parâmetro, que suspende um trabalho agendado em execução se o computador se torna ativo (deixa o estado ocioso).</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>RestartOnIdleResume<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>RestartOnIdleResume<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>RestartOnIdleResume<ept id="p1">**</ept> parâmetro define o valor de <bpt id="p2">**</bpt>RestartOnIdleResume<ept id="p2">**</ept> propriedade dos trabalhos agendados para True.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-RunElevated</source>
+          <target state="translated">-RunElevated</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Runs the scheduled job with the permissions of a member of the Administrators group on the computer on which the job runs.</source>
+          <target state="translated">Executa o trabalho agendado com as permissões de um membro do grupo Administradores no computador no qual o trabalho é executado.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To enable a scheduled job to run with Administrator permissions, use the <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> parameter of Register-ScheduledJob to provide explicit credential for the job.</source>
+          <target state="translated">Para habilitar um trabalho agendado ser executado com permissões de administrador, use o <bpt id="p1">**</bpt>credencial<ept id="p1">**</ept> parâmetro de Register-ScheduledJob para fornecer credenciais explícitas para o trabalho.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>RunElevated<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>RunElevated<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>RunElevated<ept id="p1">**</ept> parâmetro define o valor de <bpt id="p2">**</bpt>RunElevated<ept id="p2">**</ept> propriedade dos trabalhos agendados para True.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>-StartIfIdle</source>
+          <target state="translated">-StartIfIdle</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Starts the scheduled job if the computer has been idle for the time specified by the <bpt id="p1">**</bpt>IdleDuration<ept id="p1">**</ept> parameter before the time specified by the <bpt id="p2">**</bpt>IdleTimeout<ept id="p2">**</ept> parameter expires.</source>
+          <target state="translated">Inicia o trabalho agendado, se o computador estiver ocioso pelo tempo especificado pelo <bpt id="p1">**</bpt>IdleDuration<ept id="p1">**</ept> parâmetro antes do tempo especificado pelo <bpt id="p2">**</bpt>IdleTimeout<ept id="p2">**</ept> parâmetro expira.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">**</bpt>IdleDuration<ept id="p1">**</ept> and <bpt id="p2">**</bpt>IdleTimeout<ept id="p2">**</ept> parameters are ignored and the job starts at the scheduled start time even if the computer is busy.</source>
+          <target state="translated">Por padrão, o <bpt id="p1">**</bpt>IdleDuration<ept id="p1">**</ept> e <bpt id="p2">**</bpt>IdleTimeout<ept id="p2">**</ept> parâmetros serão ignorados e o trabalho é iniciado na hora de início agendada, mesmo se o computador estiver ocupado.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If you specify this parameter and the computer is busy (not idle) at the scheduled start time, the job does not run until the next scheduled start time, if any.</source>
+          <target state="translated">Se você especificar esse parâmetro e o computador estiver ocupado (não ocioso) na hora de início agendada, o trabalho não será executado até a próxima hora de início agendada se houver.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>StartIfIdle<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>StartIfNotIdle<ept id="p2">**</ept> property of scheduled jobs to False.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>StartIfIdle<ept id="p1">**</ept> parâmetro define o valor de <bpt id="p2">**</bpt>StartIfNotIdle<ept id="p2">**</ept> propriedade dos trabalhos agendados para False.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>-StartIfOnBattery</source>
+          <target state="translated">-StartIfOnBattery</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Starts the scheduled job even if the computer is running on batteries at the scheduled start time.</source>
+          <target state="translated">Inicia o trabalho agendado, mesmo se o computador estiver usando baterias na hora de início agendada.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The default value is False.</source>
+          <target state="translated">O valor padrão é False.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>StartIfOnBattery<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>StartIfOnBatteries<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>StartIfOnBattery<ept id="p1">**</ept> parâmetro define o valor de <bpt id="p2">**</bpt>StartIfOnBatteries<ept id="p2">**</ept> propriedade dos trabalhos agendados para True.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-StopIfGoingOffIdle</source>
+          <target state="translated">-StopIfGoingOffIdle</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Suspends a running scheduled job if the computer becomes active (not idle) while the job is running.</source>
+          <target state="translated">Suspende um trabalho agendado em execução se o computador se torna ativo (não ocioso) enquanto o trabalho está em execução.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>By default, a scheduled job that is suspended when the computer becomes active resumes when the computer becomes idle again.</source>
+          <target state="translated">Por padrão, um trabalho agendado é suspenso quando o computador se torna ativo e retomado quando o computador tornar-se ocioso novamente.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To change this default behavior, use the <bpt id="p1">**</bpt>RestartOnIdleResume<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Para alterar esse comportamento padrão, use o <bpt id="p1">**</bpt>RestartOnIdleResume<ept id="p1">**</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>StopIfGoingOffIdle<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>StopIfGoingOffIdle<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>StopIfGoingOffIdle<ept id="p1">**</ept> parâmetro define o valor de <bpt id="p2">**</bpt>StopIfGoingOffIdle<ept id="p2">**</ept> propriedade dos trabalhos agendados para True.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>-WakeToRun</source>
+          <target state="translated">-WakeToRun</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Wakes the computer from a Hibernate or Sleep state at the scheduled start time so it can run the job.</source>
+          <target state="translated">Desperta o computador de um estado de suspensão ou de hibernação na hora de início agendada para que possa executar o trabalho.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>By default, if the computer is in a Hibernate or Sleep state at the scheduled start time, the job does not run.</source>
+          <target state="translated">Por padrão, se o computador está em um estado de suspensão ou de hibernação na hora de início agendada, o trabalho não será executado.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>WakeToRun<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>WakeToRun<ept id="p2">**</ept> property of scheduled jobs to True.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>WakeToRun<ept id="p1">**</ept> parâmetro define o valor de <bpt id="p2">**</bpt>WakeToRun<ept id="p2">**</ept> propriedade dos trabalhos agendados para True.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Esse cmdlet oferece suporte aos parâmetros comuns:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Para obter mais informações, consulte about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRADAS</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.ScheduledJob.ScheduledJobOptions</source>
+          <target state="translated">Microsoft.PowerShell.ScheduledJob.ScheduledJobOptions</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>You can pipe a scheduled job options object to <bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept>.</source>
+          <target state="translated">Você pode redirecionar um objeto de opções de trabalho agendado para <bpt id="p1">**</bpt>Set-ScheduledJobOption<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SAÍDAS</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>None or Microsoft.PowerShell.ScheduledJob.ScheduledJobOptions</source>
+          <target state="translated">Nenhum ou Microsoft.PowerShell.ScheduledJob.ScheduledJobOptions</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> parameter, <bpt id="p2">**</bpt>Set-ScheduledJobOption<ept id="p2">**</ept> returns the job options that were changed.</source>
+          <target state="translated">Quando você usa o <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> parâmetro <bpt id="p2">**</bpt>Set-ScheduledJobOption<ept id="p2">**</ept> retorna as opções de trabalho que foram alteradas.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">Caso contrário, este cmdlet não gera nenhuma saída.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ANOTAÇÕES</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LINKS RELACIONADOS</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs</source>
+          <target state="translated">about_Scheduled_Jobs</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Add-JobTrigger</source>
+          <target state="translated">Add-JobTrigger</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Disable-JobTrigger</source>
+          <target state="translated">Disable-JobTrigger</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Disable-ScheduledJob</source>
+          <target state="translated">Disable-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Enable-JobTrigger</source>
+          <target state="translated">Enable-JobTrigger</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Enable-ScheduledJob</source>
+          <target state="translated">Enable-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Get-JobTrigger</source>
+          <target state="translated">Get-JobTrigger</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJob</source>
+          <target state="translated">Get-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJobOption</source>
+          <target state="translated">Get-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>New-JobTrigger</source>
+          <target state="translated">New-JobTrigger</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>New-ScheduledJobOption</source>
+          <target state="translated">New-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Register-ScheduledJob</source>
+          <target state="translated">Register-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Remove-JobTrigger</source>
+          <target state="translated">Remove-JobTrigger</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Set-JobTrigger</source>
+          <target state="translated">Set-JobTrigger</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJob</source>
+          <target state="translated">Set-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJobOption</source>
+          <target state="translated">Set-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Unregister-ScheduledJob</source>
+          <target state="translated">Unregister-ScheduledJob</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

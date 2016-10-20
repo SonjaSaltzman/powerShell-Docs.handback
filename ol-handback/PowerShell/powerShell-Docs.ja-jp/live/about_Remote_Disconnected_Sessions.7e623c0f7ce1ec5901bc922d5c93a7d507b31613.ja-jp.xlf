@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4940d7e74e3d93205deeba141c37a4cdc053c52a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_Remote_Disconnected_Sessions.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2660511bdfb9404cb724fe18ad3d475b09a19b5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">91c57e3e54eb648bd4de436ce23b2ae89db8bd0f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Sessions</source>
+          <target state="translated">about_Remote_Disconnected_Sessions</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Remote Disconnected Sessions</source>
+          <target state="translated">切断されたセッションのリモート デスクトップについて</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Sessions</source>
+          <target state="translated">about_Remote_Disconnected_Sessions</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Session</source>
+          <target state="translated">about_Remote_Disconnected_Session</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Explains how to disconnect from and reconnect to a PSSession</source>
+          <target state="translated">切断して、PSSession に再接続する方法について説明します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">詳細説明</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can disconnect from a PSSession and reconnect to the PSSession at a later time on the same computer or a different computer.</source>
+          <target state="translated">Windows PowerShell 3.0 以降では、PSSession から切断し、後、同じコンピューターまたは別のコンピューター上で PSSession を再接続できます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The session state is maintained and commands in the PSSession continue to run while the session is disconnected.</source>
+          <target state="translated">セッション状態を維持し、PSSession 内のコマンドは引き続き、セッションが切断されている間に実行します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Disconnected Sessions feature is available only when the computer at the remote end of a connection is running Windows PowerShell 3.0 or a later version of Windows PowerShell.</source>
+          <target state="translated">切断されたセッション機能は、接続のリモート側のコンピューターには、Windows PowerShell 3.0 または Windows PowerShell の以降のバージョンが実行されている場合にのみ使用できます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Disconnected Sessions feature allows you to close the session in which a PSSession was created, and even close Windows PowerShell, and shut down the computer, without disrupting commands running in the PSSession.</source>
+          <target state="translated">切断されたセッション機能を使用するを PSSession が作成されたも Windows PowerShell を閉じるし、PSSession で実行されるコマンドを中断することがなく、コンピューターをシャット ダウンのセッションを閉じることができます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It is especially useful for running commands that take an extended time to complete, and it provides the time and device flexibility that IT professionals require.</source>
+          <target state="translated">完了するには時間がかかるコマンドを実行するために特に便利ですし、IT プロフェッショナルが必要とする時間とデバイスの柔軟性を提供します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>NOTE: You cannot disconnect from an interactive session that is started by using the Enter-PSSession cmdlet.</source>
+          <target state="translated">注: Enter-pssession コマンドレットを使用して起動される対話型セッションから切断することはできません。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use Disconnected Sessions to manage PSSessions that were disconnected unintentionally as the result of a computer or network outage.</source>
+          <target state="translated">切断されたセッションを使用すると、コンピューターまたはネットワークの停止の結果として意図せず切断された Pssession を管理します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In real-world use, the Disconnected Sessions feature allows you to begin solving a problem, turn your attention to a higher priority issue, and then resume work on the solution, even on a different computer in a different location.</source>
+          <target state="translated">現実の機能では、問題の解決を開始できます。 切断されたセッションを使用してより高い優先度の問題に注意を向けるおよびソリューションを別の場所に別のコンピューターにも作業を再開します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>DISCONNECTED SESSION CMDLETS</source>
+          <target state="translated">切断されたセッションのコマンドレット</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The following cmdlets support the Disconnected Sessions feature:</source>
+          <target state="translated">次のコマンドレットでは、切断されたセッション機能をサポートします。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Disconnect-PSSession:  Disconnects a PSSession.</source>
+          <target state="translated">Disconnect-pssession: は、PSSession を切断します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession:     Connects to a disconnected PSSession.</source>
+          <target state="translated">接続-PSSession: は、切断された PSSession に接続します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession:     Gets the results of commands that ran in disconnected sessions.</source>
+          <target state="translated">Receive-pssession: は、切断されたセッションで実行されたコマンドの結果を取得します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Get-PSSession:         Gets PSSessions on the local computer or on remote computers.</source>
+          <target state="translated">Get-pssession: は、ローカル コンピューターまたはリモート コンピューター上に Pssession を取得します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Invoke-Command:        InDisconnectedSession parameter creates a PSSession and disconnects immediately.</source>
+          <target state="translated">Invoke-command: InDisconnectedSession パラメーターは PSSession を作成し、すぐに切断します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>HOW THE DISCONNECTED SESSIONS FEATURE WORKS</source>
+          <target state="translated">切断されたセッション機能のしくみ</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, PSSessions are independent of the sessions in which they are created.</source>
+          <target state="translated">Windows PowerShell 3.0 以降では、Pssession は、セッションを作成するには依存しません。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Active PSSession are maintained on the remote computer or "server side" of the connection, even if the session in which PSSession was created is closed and the originating computer is shut down or disconnected from the network.</source>
+          <target state="translated">PSSession が作成されたセッションが閉じられ、元のコンピューターがシャット ダウンまたはネットワークから切断されている場合でも、アクティブな PSSession がリモート コンピューター上で「サーバー側」は接続の維持されます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, the PSSession is deleted from the remote computer when it is disconnected from the originating session or the session in which it was created ends.</source>
+          <target state="translated">Windows PowerShell 2.0 では、元のセッションまたは端点を作成したセッションから切断されている場合は、PSSession は、リモート コンピューターから削除されます。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When you disconnect a PSSession, the PSSession remains active and is maintained on the remote computer.</source>
+          <target state="translated">PSSession を切断すると、PSSession アクティブなままし、リモート コンピューター上に保持します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The session state changes from Running to Disconnected.</source>
+          <target state="translated">セッション状態は Disconnected に実行してから変更します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can reconnect to a disconnected PSSession from the current session or from a different session on the same computer, or from a different computer.</source>
+          <target state="translated">現在のセッションまたは同じコンピューター上の別のセッションまたは別のコンピューターからは、切断された PSSession に再接続することができます。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The remote computer that maintains the session must be running and be connected to the network.</source>
+          <target state="translated">セッションを保持しているリモート コンピューターでは、実行されている必要があり、ネットワークに接続されています。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Commands in a disconnected PSSession continue to run uninterrupted on the remote computer until the command completes or the output buffer fills.</source>
+          <target state="translated">切断された PSSession 内のコマンドは続行まで実行を中断なくリモート コンピューターでコマンドが完了または出力バッファーを塗りつぶします。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To prevent a full output buffer from suspending a command, use the OutputBufferingMode parameter of the Disconnect-PSSession, New-PSSessionOption, or New-PSTransportOption cmdlets.</source>
+          <target state="translated">出力バッファーがいっぱいのコマンドを中断を回避するのには、Disconnect-pssession、New-pssessionoption、または New-pstransportoption コマンドレットの OutputBufferingMode パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Disconnected sessions are maintained in the disconnected state on the remote computer.</source>
+          <target state="translated">切断されたセッションは、リモート コンピューターに接続していない状態で保持されます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>They are available for you to reconnect, until you delete the PSSession, such as by using the Remove-PSSession cmdlet, or until the idle timeout of the PSSession expires.</source>
+          <target state="translated">など Remove-pssession コマンドレットを使用して、PSSession を削除するまで、または、PSSession のアイドル タイムアウトの期限が切れるまでに再接続するための利用。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can adjust the idle timeout of a PSSession by using the IdleTimeoutSec or IdleTimeout parameters of the Disconnect-PSSession, New-PSSessionOption, or New-PSTransportOption cmdlets.</source>
+          <target state="translated">Disconnect-pssession、New-pssessionoption、または New-pstransportoption コマンドレットの IdleTimeoutSec または IdleTimeout パラメーターを使用して、PSSession のアイドル タイムアウトを調整できます。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Another user can connect to PSSessions that you created, but only if they can supply the credentials that were used to create the session, or use the RunAs credentials of the session configuration.</source>
+          <target state="translated">別のユーザーは、のみ場合、セッションの作成に使用された資格情報を指定したり、セッション構成の RunAs 資格情報を使用して、作成された Pssession に接続できます。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>HOW TO GET PSSESSIONS</source>
+          <target state="translated">PSSESSION を取得するには、方法</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, the Get-PSSession cmdlet gets PSSessions on the local computer and remote computers.</source>
+          <target state="translated">Windows PowerShell 3.0 以降では、Get-pssession コマンドレットは、ローカル コンピューターおよびリモート コンピューター上の Pssession を取得します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It can also get PSSessions that were created in the current session.</source>
+          <target state="translated">現在のセッションで作成された Pssession を取得することもできます。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To get PSsessions on the local computer or remote computers, use the ComputerName or ConnectionUri parameters.</source>
+          <target state="translated">ローカル コンピューターまたはリモート コンピューターで Pssession を取得するには、コンピューター名または ConnectionUri パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Without parameters, Get-PSSession gets PSSession that were created in the local session, regardless of where they terminate.</source>
+          <target state="translated">パラメーターを指定せずに Get-pssession は終了する場所に関係なく、ローカル セッションで作成された PSSession を取得します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When getting PSSessions, remember to look for them on the computer on which they are maintained, that is, the remote or "server-side" computer.</source>
+          <target state="translated">Pssession を取得する場合は、リモートまたは「サーバー側」コンピューターに保持されます、つまり、コンピューター上に検索してください。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, if you create a PSSession to the Server01 computer, get the session from the Server01 computer.</source>
+          <target state="translated">たとえば、Server01 コンピューターに PSSession を作成する場合は、Server01 コンピューターからセッションを開始します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If you create a PSSession from another computer to the local computer, get the session from the local computer.</source>
+          <target state="translated">別のコンピューターからローカル コンピューターに PSSession を作成する場合は、ローカル コンピューターからセッションを開始します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The following command sequence shows how Get-PSSession works.</source>
+          <target state="translated">次のコマンド シーケンスは、Get-pssession のしくみを示しています。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The first command creates a session to the Server01 computer.</source>
+          <target state="translated">最初のコマンドでは、Server01 コンピューターへのセッションを作成します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The session resides on the Server01 computer.</source>
+          <target state="translated">セッションは、Server01 コンピューターに常駐します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; New-PSSession -ComputerName Server01</source>
+          <target state="translated">PS C:\ps-test &gt; 新しい PSSession の ComputerName Server01</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名 ComputerName 状態 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>2 Session2        Server01        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">2 つの Session2 Server01 開いた Microsoft.PowerShell 利用可能です</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To get the session, use the ComputerName parameter of Get-PSSession with a value of Server01.</source>
+          <target state="translated">セッションを開始するには、Server01 の値を持つ Get PSSession の ComputerName パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; Get-PSSession -ComputerName Server01</source>
+          <target state="translated">PS C:\ps-test &gt; Get-pssession-computername Server01</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名 ComputerName 状態 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>2 Session2        Server01        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">2 つの Session2 Server01 開いた Microsoft.PowerShell 利用可能です</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If the value of the ComputerName parameter of Get-PSSession is localhost, Get-PSSession gets PSSessions that terminate at and are maintained on the local computer.</source>
+          <target state="translated">Get PSSession の ComputerName パラメーターの値がローカル ホストの場合は、Get-pssession はで終了し、ローカル コンピューター上に保持されている Pssession を取得します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It does not get PSSessions on the Server01 computer, even if they were started on the local computer.</source>
+          <target state="translated">ローカル コンピューターで開始されている場合でも、Server01 コンピューター上の Pssession に取得しません。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; Get-PSSession -ComputerName localhost PS C:\ps-test&gt;</source>
+          <target state="translated">PS C:\ps-test &gt; Get-pssession ComputerName localhost PS C:\ps-test &gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To get sessions that were created in the current session, use the Get-PSSession cmdlet without parameters.</source>
+          <target state="translated">現在のセッションで作成されたセッションを取得するには、パラメーターを指定せずに Get-pssession コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This command gets the PSSession that was created in the current session and connects to the Server01 computer.</source>
+          <target state="translated">このコマンドは、現在のセッションで作成されたを Server01 コンピューターに接続する PSSession を取得します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; Get-PSSession</source>
+          <target state="translated">PS C:\ps-test &gt; Get-pssession</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名 ComputerName 状態 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>2 Session2        Server01        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">2 つの Session2 Server01 開いた Microsoft.PowerShell 利用可能です</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>HOW TO DISCONNECT SESSIONS</source>
+          <target state="translated">セッションを切断するには、方法</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To disconnect a PSSession use the Disconnect-PSSession cmdlet.</source>
+          <target state="translated">切断するのには、PSSession は、Disconnect-pssession コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To identify the PSSession, use the Session parameter, or pipe a PSSession from the New-PSSession or Get-PSSession cmdlets to Disconnect-PSSession.</source>
+          <target state="translated">PSSession を識別するために、Session パラメーターを使用してまたは Disconnect-pssession するには、New-pssession を Get-pssession コマンドレットの PSSession をパイプします。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The following command disconnects the PSSession to the Server01 computer.</source>
+          <target state="translated">次のコマンドは、Server01 コンピューターに PSSession を切断します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Notice that the value of the State property is Disconnected and the Availability is None.</source>
+          <target state="translated">State プロパティの値が切断されているし、可用性は None のことに注意してください。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server01 | Disconnect-PSSession</source>
+          <target state="translated">PS c: &gt; Get-pssession-computername Server01 |Disconnect-pssession</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名 ComputerName 状態 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>2 Session2        Server01        Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">2 つの Session2 Server01 切断 Microsoft.PowerShell なし</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To create a disconnected session, use the InDisconnectedSession parameter of the Invoke-Command cmdlet.</source>
+          <target state="translated">切断されたセッションを作成するには、Invoke-command コマンドレットの InDisconnectedSession パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It creates a session, starts the command, and disconnects immediately, before the command can return any output.</source>
+          <target state="translated">セッションが作成され、コマンドを起動し、コマンドが何も出力を返す前に、すぐに切断されました。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The following command runs a Get-WinEvent command in a disconnected session on the Server02 remote computer.</source>
+          <target state="translated">次のコマンドは、Server02 リモート コンピューター上、切断されたセッションで Get-winevent コマンドを実行します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Invoke-Command -ComputerName Server02 -InDisconnectedSession ` -ScriptBlock {Get-WinEvent -LogName "Windows PowerShell"}</source>
+          <target state="translated">PS c: &gt; Invoke-command-computername Server02 InDisconnectedSession '-scriptblock {Get-winevent LogName"Windows PowerShell"}</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名 ComputerName 状態 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>4 Session3        Server02        Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">4 Session3 Server02 の切断 Microsoft.PowerShell なし</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>HOW TO CONNECT TO DISCONNECTED SESSIONS</source>
+          <target state="translated">切断されたセッションに接続するには、方法</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You can connect to any available disconnected PSSession from the session in which you created the PSSession or from other sessions on the local computer or other computers.</source>
+          <target state="translated">PSSession を作成する元のセッションとは、ローカル コンピューターまたは他のコンピューターの他のセッションから、使用可能な切断された PSSession に接続できます。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You can create a PSSession, run commands in the PSSession, disconnect from the PSSession, close Windows PowerShell, and shut down the computer.</source>
+          <target state="translated">PSSession を作成、PSSession でコマンドを実行、PSSession から切断、Windows PowerShell が終了してコンピューターをシャット ダウンします。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Hours later, you can open a different computer, get the PSSession, connect to it, and get the results of commands that ran in the PSSession while it was disconnected.</source>
+          <target state="translated">時間後に、別のコンピューター、PSSession を取得、それに接続を開きが切断された状態で、PSSession で実行したコマンドの結果を取得します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Then you can run more commands in the session.</source>
+          <target state="translated">セッションで他のコマンドを実行できます。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To connect a disconnected PSSession, use the Connect-PSSession cmdlet.</source>
+          <target state="translated">切断された PSSession に接続するには、Connect-pssession コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Use the ComputerName or ConnectionUri parameters to identify the PSSession, or pipe a PSSession from Get-PSSession to Connect-PSSession.</source>
+          <target state="translated">コンピューター名または ConnectionUri パラメーターを使用して、PSSession を識別または Connect-pssession に Get-pssession から PSSession をパイプします。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The following command gets the sessions on the Server02 computer.</source>
+          <target state="translated">次のコマンドは、Server02 コンピューター上のセッションを取得します。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The output includes two disconnected sessions, both of which are available.</source>
+          <target state="translated">出力には、どちらも使用可能な 2 つの切断されたセッションが含まれています。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server02</source>
+          <target state="translated">PS c: &gt; Get-pssession-computername Server02</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名 ComputerName 状態 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>2 Session2        juneb-srv8320   Disconnected  Microsoft.PowerShell          None 4 Session3        juneb-srv8320   Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">2 Session2 juneb srv8320 切断 Microsoft.PowerShell None 4 Session3 juneb srv8320 切断 Microsoft.PowerShell なし</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The following command connects to Session2.</source>
+          <target state="translated">次のコマンドは、Session2 に接続します。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The PSSession is now open and available.</source>
+          <target state="translated">PSSession が開かれ、使用できます。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Connect-PSSession -ComputerName Server02 -Name Session2</source>
+          <target state="translated">PS c: &gt; 接続 PSSession の ComputerName Server02-Session2 という名前を</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名 ComputerName 状態 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>2 Session2        juneb-srv8320   Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">2 Session2 juneb srv8320 Opened を Microsoft.PowerShell 利用可能</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>HOW TO GET THE RESULTS</source>
+          <target state="translated">結果を取得するには、方法</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To get the results of commands that ran in a disconnected PSSession, use the Receive-PSSession cmdlet.</source>
+          <target state="translated">切断された PSSession で実行されたコマンドの結果を取得するには、Receive-pssession コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>You can use Receive-PSSession in addition to, or instead of, using the Connect-PSSession cmdlet.</source>
+          <target state="translated">Connect-pssession コマンドレットを使用して、PSSession に追加、またはの代わりに、使用できます。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If the session is already reconnected, Receive-PSSession gets the results of commands that ran when the session was disconnected.</source>
+          <target state="translated">セッションが再接続される既に Receive-pssession は、セッションが切断されたときに実行されたコマンドの結果を取得します。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If the PSSession is still disconnected, Receive-PSSession connects to it and then gets the results of commands that ran while it was disconnected.</source>
+          <target state="translated">PSSession が切断されても、Receive-pssession に接続され、切断された状態で実行したコマンドの結果を取得します。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession can return the results in a job (asynchronously) or to the host program (synchronously).</source>
+          <target state="translated">Receive-pssession は、ジョブの結果を (非同期的に) 返すことができますまたはホスト プログラム (同期)。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Use the OutTarget parameter to select Job or Host.</source>
+          <target state="translated">OutTarget パラメーターを使用すると、ジョブまたはホストを選択できます。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Host is the default value.</source>
+          <target state="translated">ホストは、既定値です。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>However, if the command that is being received was started in the current session as a job, it is returned as a job by default.</source>
+          <target state="translated">ただし、受信されているコマンドが開始されたジョブとして現在のセッションで、それが返されますジョブとして既定では。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The following command uses the Receive-PSSession cmdlet to connect to the PSSession on the Server02 computer and get the results of the Get-WinEvent command that ran in the Session3 session.</source>
+          <target state="translated">次のコマンドでは、Receive-pssession コマンドレットを使用して、Server02 コンピューター上の PSSession に接続して Session3 セッションで実行された Get-winevent コマンドの結果を取得します。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The command uses the OutTarget parameter to get the results in a job.</source>
+          <target state="translated">コマンドでは、OutTarget パラメーターを使用して、ジョブの結果を取得します。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Receive-PSSession  -ComputerName Server02 -Name Session3 -OutTarget Job</source>
+          <target state="translated">PS c: &gt; Receive-pssession-computername Server02-Session3 という名前のジョブを OutTarget</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Id     Name            PSJobTypeName   State         HasMoreData     Location</source>
+          <target state="translated">Id 名 PSJobTypeName 状態 HasMoreData 場所</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>3      Job3            RemoteJob       Running       True            Server02</source>
+          <target state="translated">True Server02 を実行している 3 Job3 RemoteJob</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To get the results of the job, use the Receive-Job cmdlet.</source>
+          <target state="translated">ジョブの結果を取得するには、Receive-job コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; Get-Job | Receive-Job -Keep</source>
+          <target state="translated">PS C:\ps-test &gt; Get-job |表示されるジョブの保存</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>ProviderName: PowerShell</source>
+          <target state="translated">プロバイダー名: PowerShell</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>TimeCreated             Id LevelDisplayName Message     PSComputerName</source>
+          <target state="translated">TimeCreated Id LevelDisplayName メッセージ PSComputerName</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>5/14/2012 7:26:04 PM   400 Information      Engine stat Server02 5/14/2012 7:26:03 PM   600 Information      Provider "W Server02 5/14/2012 7:26:03 PM   600 Information      Provider "C Server02 5/14/2012 7:26:03 PM   600 Information      Provider "V Server02</source>
+          <target state="translated">2012 5 月 14 日 7時 26分: 04 PM 400 情報エンジン stat Server02 2012 5 月 14 日午後 7時 26分: 03 600 情報プロバイダー"W Server02 2012 5 月 14 日午後 7時 26分: 03 600 情報プロバイダー"C Server02 2012 5 月 14 日午後 7時 26分: 03 600 情報プロバイダー"V Server02</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>STATE AND AVAILABILITY</source>
+          <target state="translated">状態と可用性</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The State and Availability properties of a disconnected PSSession tell you whether the session is available for you to reconnect to it.</source>
+          <target state="translated">切断された PSSession の状態および可用性のプロパティは、セッションが再接続するために使用できるかどうかを確認します。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>When a PSSession is connected to the current session, its state is Opened and its availability is Available.</source>
+          <target state="translated">PSSession が現在のセッションに接続されている場合は、状態が開かれ、その可用性は使用可能です。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When you disconnect from the PSSession, the PSSession state is Disconnected and its Availability is none.</source>
+          <target state="translated">PSSession から切断すると、PSSession 状態は Disconnected であり、可用性は none です。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>However, the value of the State property is relative to the current session.</source>
+          <target state="translated">ただし、State プロパティの値は、現在のセッションに対して相対的です。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Therefore, a value of Disconnected means that the PSSession is not connected to the current session.</source>
+          <target state="translated">そのため、値が切断されているは、PSSession が現在のセッションに接続されていないことを意味します。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>However, it does not mean that the PSSession is disconnected from all sessions.</source>
+          <target state="translated">ただし、PSSession がすべてのセッションから切断されていることを意味するわけではありません。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>It might be connected to a different session.</source>
+          <target state="translated">別のセッションに接続されている可能性があるためです。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>To determine whether you can connect or reconnect to the PSSession, use the Availability property.</source>
+          <target state="translated">接続または PSSession に再接続することができるかどうかを確認するのには、可用性プロパティを使用します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>An Availability value of None indicates that you can connect to the session.</source>
+          <target state="translated">[なし] の可用性の値は、セッションに接続できることを示します。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A value of Busy indicates that you cannot connect to the PSSession because it is connected to another session.</source>
+          <target state="translated">時間の値はするが別のセッションに接続されているため、PSSession に接続できないことを示します。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The following example is run in two sessions (Windows PowerShell console windows) on the same computer.</source>
+          <target state="translated">次の例は、同じコンピューターに 2 つのセッション (Windows PowerShell コンソール ウィンドウ) で実行されます。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Note the changing values of the State and Availability properties in each session as the PSSession is disconnected and reconnected.</source>
+          <target state="translated">PSSession を切断して再接続するように各セッションでの状態および可用性のプロパティの値が変更を注意してください。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Session 1:</source>
+          <target state="translated">セッション 1:</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; New-PSSession -ComputerName Server30 -Name Test</source>
+          <target state="translated">PS c: &gt; 新しい PSSession の ComputerName Server30-テストの名前</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名 ComputerName 状態 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>1  Test       Server30        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">1 テスト Server30 が利用可能な Microsoft.PowerShell を開く</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Session 2:</source>
+          <target state="translated">セッション 2:</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server30 -Name Test</source>
+          <target state="translated">PS c: &gt; Get-pssession-computername Server30-テストの名前</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名 ComputerName 状態 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>1 Test        Server30        Disconnected  Microsoft.PowerShell          Busy</source>
+          <target state="translated">1 テスト Server30 Microsoft.PowerShell ビジー状態の切断</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Session 1</source>
+          <target state="translated">セッション 1</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server30 -Name Test | Disconnect-PSSession</source>
+          <target state="translated">PS c: &gt; Get-pssession-computername Server30-テストという名前を |Disconnect-pssession</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名 ComputerName 状態 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>1 Test       Server30        Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">1 テスト Server30 切断 Microsoft.PowerShell なし</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Session 2</source>
+          <target state="translated">セッション 2</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server30</source>
+          <target state="translated">PS c: &gt; Get-pssession-computername Server30</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名 ComputerName 状態 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>1 Test       Server30        Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">1 テスト Server30 切断 Microsoft.PowerShell なし</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Session 2</source>
+          <target state="translated">セッション 2</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Connect-PSSession -ComputerName Server01 -Name Test</source>
+          <target state="translated">PS c: &gt; 接続 PSSession の ComputerName Server01 の Test 名前を付けます</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名 ComputerName 状態 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>3 Test        Server30        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">3 つのテスト Server30 開いた Microsoft.PowerShell 利用可能です</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Session 1</source>
+          <target state="translated">セッション 1</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server30</source>
+          <target state="translated">PS c: &gt; Get-pssession-computername Server30</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名 ComputerName 状態 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>1 Test       Server30        Disconnected  Microsoft.PowerShell          Busy</source>
+          <target state="translated">1 テスト Server30 Microsoft.PowerShell ビジー状態の切断</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>IDLE TIMEOUT</source>
+          <target state="translated">アイドル タイムアウト</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Disconnected sessions are maintained on the remote computer until you delete them, such as by using the Remove-PSSession cmdlet, or they time out.</source>
+          <target state="translated">削除するまでなど、Remove-pssession コマンドレット、またはこれらを使用して、タイムアウト、切断されたセッションがリモート コンピューターに保持されます。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The IdleTimeout property of a PSSession determines how long a disconnected session is maintained before it is deleted.</source>
+          <target state="translated">PSSession のアイドル タイムアウト プロパティは、期間を決定、切断されたセッションが削除されるまで保持されます。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>PSSessions are idle when the "heartbeat thread" receives no response.</source>
+          <target state="translated">「ハートビート スレッド」応答を受信しない場合は、Pssession がアイドル状態です。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Disconnecting a session makes it idle and starts the Idle Timeout clock, even if commands are still running in the disconnected session.</source>
+          <target state="translated">セッションを切断すると、アイドル状態になり、切断されたセッションでコマンドが実行されている場合でもにアイドル タイムアウト クロックを開始します。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell considers disconnected sessions to be active, but idle.</source>
+          <target state="translated">Windows PowerShell では、切断されたセッションがアクティブであるがアイドル状態には検討します。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>When creating and disconnecting sessions, verify that the idle timeout in the PSSession is long enough to maintain the session for your needs, but not so long that it consumes unnecessary resources on the remote computer.</source>
+          <target state="translated">作成と、セッションの切断は、PSSession のアイドル タイムアウトがニーズに対して、セッションの管理があまり長いを十分に長いことを確認するときに、リモート コンピューター上の不要なリソースを消費します。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The IdleTimeoutMs property of the session configuration determines the default idle timeout of sessions that use the session configuration.</source>
+          <target state="translated">セッション構成の IdleTimeoutMs プロパティは、セッション構成を使用するセッションの既定のアイドル タイムアウトを指定します。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>You can override the default value, but the value that you use cannot exceed the MaxIdleTimeoutMs property of the session configuration.</source>
+          <target state="translated">既定値をオーバーライドすることができますが、使用する値は、セッション構成の MaxIdleTimeoutMs プロパティを超えることはできません。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>To find the value of the IdleTimeoutMs and MaxIdleTimeoutMs values of a session configuration, use the following command format.</source>
+          <target state="translated">セッション構成の IdleTimeoutMs と MaxIdleTimeoutMs の値の値を検索するには、次のコマンド形式を使用します。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration | Format-Table Name, IdleTimeoutMs, MaxIdleTimeoutMs</source>
+          <target state="translated">Get-pssessionconfiguration |形式のテーブル名、IdleTimeoutMs、MaxIdleTimeoutMs</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>You can override the default value in the session configuration and set the idle timeout of a PSSession when you create a PSSession and when you disconnect.</source>
+          <target state="translated">セッション構成で既定値を上書きし、PSSession および接続を切断するときに作成する場合は、PSSession のアイドル タイムアウトを設定できます。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>If you are a member of the Administrators group on the remote computer, you can also create and change the IdleTimeoutMs and MaxIdleTimeoutMs properties of session configurations.</source>
+          <target state="translated">リモート コンピューターの Administrators グループのメンバーである場合も作成し、セッション構成の IdleTimeoutMs と MaxIdleTimeoutMs プロパティを変更します。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>NOTES:</source>
+          <target state="translated">注:</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The idle timeout value of session configurations and session options is in milliseconds.</source>
+          <target state="translated">セッション構成とオプションのセッションのアイドル タイムアウト値はミリ秒です。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The idle timeout value of sessions and session configuration options is in seconds.</source>
+          <target state="translated">セッションとセッション構成オプションのアイドル タイムアウト値は秒です。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>You can set the idle timeout of a PSSession when you create the PSSession (New-PSSession, Invoke-Command) and when you disconnect from it (Disconnect-PSSession).</source>
+          <target state="translated">PSSession (New-pssession、Invoke-command コマンドレット) を作成して (Disconnect-pssession) から切断されている場合は、PSSession のアイドル タイムアウトを設定できます。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>However, you cannot change the IdleTimeout value when you connect to the PSSession (Connect-PSSession) or get results (Receive-PSSession).</source>
+          <target state="translated">ただし、PSSession (Connect-pssession) に接続するか、結果 (PSSession) を取得する場合は、アイドル タイムアウト値を変更できません。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The Connect-PSSession and Receive-PSSession cmdlets have a SessionOption parameter that takes a SessionOption object, such as one returned by the New-PSSessionOption cmdlet.</source>
+          <target state="translated">Connect-pssession と Receive-pssession コマンドレットには、New-pssessionoption コマンドレットから返されるよう、SessionOption オブジェクトを受け取る SessionOption パラメーターが含まれています。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>However, the IdleTimeout value in SessionOption object and the IdleTimeout value in the $PSSessionOption preference variable do not change the value of the IdleTimeout of the PSSession in a Connect-PSSession or Receive-PSSession command.</source>
+          <target state="translated">ただし、SessionOption オブジェクトの IdleTimeout の値は、$PSSessionOption ユーザー設定変数の IdleTimeout の値は、Connect-pssession または Receive-pssession コマンドで PSSession のアイドル タイムアウトの値を変更しないでください。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>-- To create a PSSession with a particular idle timeout value, create a $PSSessionOption preference variable.</source>
+          <target state="translated">--特定のアイドル タイムアウト値を持つ PSSession を作成するには、$PSSessionOption ユーザー設定変数を作成します。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Set the value of the IdleTimeout property to the desired value (in milliseconds).</source>
+          <target state="translated">IdleTimeout プロパティの値をミリ秒単位で目的の値に設定します。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>When you create PSSessions, the values in $PSSessionOption variable take precedence over the values in the session configuration.</source>
+          <target state="translated">Pssession を作成するときに、$PSSessionOption 変数の値が、セッション構成の値よりも優先されます。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>For example, this command sets an idle timeout of 48 hours.</source>
+          <target state="translated">たとえば、このコマンドは、48 時間のアイドル状態のタイムアウトを設定します。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $PSSessionOption = New-PSSessionOption -IdleTimeoutMSec 172800000</source>
+          <target state="translated">PS c: &gt; $PSSessionOption = 新しい PSSessionOption IdleTimeoutMSec 172800000</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>-- To create a PSSession with a particular idle timeout value, use the IdleTimeoutMSec parameter of the New-PSSessionOption cmdlet.</source>
+          <target state="translated">--特定のアイドル タイムアウト値を持つ PSSession を作成するには、New-pssessionoption コマンドレットの IdleTimeoutMSec パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Then, use the session option in the value of the SessionOption parameter of the New-PSSession or Invoke-Command cmdlets.</source>
+          <target state="translated">次に、New-pssession または Invoke-command コマンドレットの SessionOption パラメーターの値でセッション オプションを使用します。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The values set when creating the session take precedence over the values set in the $PSSessionOption preference variable and the session configuration.</source>
+          <target state="translated">セッションを作成するときに設定されている値は、$PSSessionOption ユーザー設定変数およびセッション構成で設定された値よりも優先されます。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSSessionOption -IdleTimeoutMSec 172800000 PS C:&gt; New-PSSession -SessionOption $o</source>
+          <target state="translated">PS c: &gt; $o = 新しい PSSessionOption IdleTimeoutMSec 172800000 PS c: &gt; 新しい PSSession SessionOption $o</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>-- To change a the idle timeout of a PSSession when disconnecting, use the IdleTimeoutSec parameter of the Disconnect-PSSession cmdlet.</source>
+          <target state="translated">--変更するにはを切断時の PSSession のアイドル タイムアウトが Disconnect-pssession コマンドレットの IdleTimeoutSec パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Disconnect-PSSession -IdleTimeoutSec 172800</source>
+          <target state="translated">PS c: &gt; Disconnect-pssession IdleTimeoutSec 172800</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>-- To create a session configuration with a particular idle timeout and maximum idle timeout, use the IdleTimeoutSec and MaxIdleTimeoutSec parameters of the New-PSTransportOption cmdlet.</source>
+          <target state="translated">--特定のアイドル タイムアウトの最大アイドル タイムアウトとセッション構成を作成するには、New-pstransportoption コマンドレットの IdleTimeoutSec と MaxIdleTimeoutSec パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Then, use the transport option in the value of the TransportOption parameter of Register-PSSessionConfiguration.</source>
+          <target state="translated">次に、Register-pssessionconfiguration の TransportOption パラメーターの値で、トランスポート オプションを使用します。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSTransportOption -IdleTimeoutSec 172800 -MaxIdleTimeoutSec 259200 PS C:&gt; Register-PSSessionConfiguration -Name Test -TransportOption $o</source>
+          <target state="translated">PS c: &gt; $o = 新しい PSTransportOption IdleTimeoutSec 172800 MaxIdleTimeoutSec 259200 PS c: &gt; Register-pssessionconfiguration-テスト TransportOption $o という名前を</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>-- To change the default idle timeout and maximum idle timeout of a session configuration, use the IdleTimeoutSec and MaxIdleTimeoutSec parameters of the New-PSTransportOption cmdlet.</source>
+          <target state="translated">--既定のアイドル タイムアウトとセッション構成のアイドル タイムアウトの最大値を変更するには、New-pstransportoption コマンドレットの IdleTimeoutSec と MaxIdleTimeoutSec のパラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Then, use the transport option in the value of the TransportOption parameter of Set-PSSessionConfiguration.</source>
+          <target state="translated">次に、Set-pssessionconfiguration の TransportOption パラメーターの値で、トランスポート オプションを使用します。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSTransportOption -IdleTimeoutSec 172800 -MaxIdleTimeoutSec 259200 PS C:&gt; Set-PSSessionConfiguration -Name Test -TransportOption $o</source>
+          <target state="translated">PS c: &gt; $o = 新しい PSTransportOption IdleTimeoutSec 172800 MaxIdleTimeoutSec 259200 PS c: &gt; Set-pssessionconfiguration-テスト TransportOption $o という名前を</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>OUTPUT BUFFERING MODE</source>
+          <target state="translated">出力バッファー モード</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The output buffering mode of a PSSession determines how command output is managed when the output buffer of the PSSession is full.</source>
+          <target state="translated">出力バッファー PSSession のモードでは、PSSession の出力バッファーがいっぱいになったときにコマンドの出力を管理する方法を決定します。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>In a disconnected session, the output buffering mode effectively determines whether the command continues to run while the session is disconnected.</source>
+          <target state="translated">切断されたセッションでは、出力バッファー モードを効果的には、セッションが切断されている間に実行するコマンドが続くかどうかを決定します。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Valid values:</source>
+          <target state="translated">有効な値 :</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>-- Block: When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated">-ブロック: 出力バッファーがいっぱいの場合、バッファーが空くまでに実行が中断します。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>-- Drop:  When the output buffer is full, execution continues.</source>
+          <target state="translated">--を削除します。 出力バッファーがいっぱいの場合には、実行が継続します。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>As new output is generated, the oldest output is discarded.</source>
+          <target state="translated">新しい出力が生成される場合、最も古い出力が破棄されます。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Block, the default value, preserves data, but might interrupt the command</source>
+          <target state="translated">ブロックでは、既定値、データの保持、コマンドを中断する可能性がありますが、</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>A value of Drop allows the command to complete, although data might be lost.</source>
+          <target state="translated">ドロップダウンの値は、データが失われる可能性がありますが、完了するにはコマンドです。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>When using the Drop value, redirect the command output to a file on disk.</source>
+          <target state="translated">ドロップの値を使用する場合は、ディスク上のファイルをコマンドの出力をリダイレクトします。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>This value is recommended for disconnected sessions.</source>
+          <target state="translated">切断されたセッションには、この値を使用することをお勧めします。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The OutputBufferingMode property of the session configuration determines the default output buffering mode of sessions that use the session configuration.</source>
+          <target state="translated">セッション構成の OutputBufferingMode プロパティは、バッファー モードのセッション構成を使用するセッションの既定の出力を決定します。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>To find the value of the OutputBufferingMode of a session configuration, use the following command formats.</source>
+          <target state="translated">セッション構成の OutputBufferingMode の値を検索するには、次のコマンド形式を使用します。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>(Get-PSSessionConfiguration <ph id="ph1">&lt;ConfigurationName&gt;</ph>).OutputBufferingMode</source>
+          <target state="translated">(Get-pssessionconfiguration <ph id="ph1">&lt;ConfigurationName&gt;</ph>)。OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>-or-</source>
+          <target state="translated">または</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration | Format-Table Name, OutputBufferingMode</source>
+          <target state="translated">Get-pssessionconfiguration |形式のテーブル名、OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>You can override the default value in the session configuration and set the output buffering mode of a PSSession when you create a PSSession, when you disconnect, and when you reconnect.</source>
+          <target state="translated">セッション構成で既定値を上書きし、切断すると、PSSession を作成して再接続すると、PSSession の出力バッファー モードを設定できます。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>If you are a member of the Administrators group on the remote computer, you can also create and change the output buffering mode of session configurations.</source>
+          <target state="translated">リモート コンピューターの Administrators グループのメンバーである場合も作成し、出力バッファー モードのセッション構成を変更します。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>-- To create a PSSession with an output buffering mode of Drop, create a $PSSessionOption preference variable in which the value of the OutputBufferingMode property is Drop.</source>
+          <target state="translated">--出力バッファー モードのドロップを使用して、PSSession を作成するには、OutputBufferingMode プロパティの値がドロップは、$PSSessionOption ユーザー設定変数を作成します。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>When you create PSSessions, the values in $PSSessionOption variable take precedence over the values in the session configuration.</source>
+          <target state="translated">Pssession を作成するときに、$PSSessionOption 変数の値が、セッション構成の値よりも優先されます。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $PSSessionOption = New-PSSessionOption -OutputBufferingMode Drop</source>
+          <target state="translated">PS c: &gt; $PSSessionOption = 新しい PSSessionOption-OutputBufferingMode ドロップ</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>-- To create a PSSession with an output buffering mode of Drop, use the OutputBufferingMode parameter of the New-PSSessionOption cmdlet to create a session option with a value of Drop.</source>
+          <target state="translated">--のドロップの出力バッファー モードを使用して、PSSession を作成するのにには、ドロップダウンの値を持つセッション オプションを作成するのに New-pssessionoption コマンドレットの OutputBufferingMode パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Then, use the session option in the value of the SessionOption parameter of the New-PSSession or Invoke-Command cmdlets.</source>
+          <target state="translated">次に、New-pssession または Invoke-command コマンドレットの SessionOption パラメーターの値でセッション オプションを使用します。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The values set when creating the session take precedence over the values set in the $PSSessionOption preference variable and the session configuration.</source>
+          <target state="translated">セッションを作成するときに設定されている値は、$PSSessionOption ユーザー設定変数およびセッション構成で設定された値よりも優先されます。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSSessionOption -OutputBufferingMode Drop PS C:&gt; New-PSSession -SessionOption $o</source>
+          <target state="translated">PS c: &gt; $o = 新しい PSSessionOption-OutputBufferingMode ドロップ PS c: &gt; 新しい PSSession SessionOption $o</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>-- To change a the output buffering mode of a PSSession when disconnecting, use the OutputBufferingMode parameter of the Disconnect-PSSession cmdlet.</source>
+          <target state="translated">--変更するには、PSSession を切断するときの出力バッファー モードが Disconnect-pssession コマンドレットの OutputBufferingMode パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Disconnect-PSSession -OutputBufferingMode Drop</source>
+          <target state="translated">PS c: &gt; Disconnect-pssession-OutputBufferingMode ドロップ</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>-- To change a the output buffering mode of a PSSession when reconnecting, use the OutputBufferingMode parameter of the New-PSSessionOption cmdlet to create a session option with a value of Drop.</source>
+          <target state="translated">-変更するには、再接続するときに、PSSession の出力バッファー モードでは、New-pssessionoption コマンドレットの OutputBufferingMode パラメーターを使用して、ドロップダウンの値を持つセッション オプションを作成します。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Then, use the session option in the value of the SessionOption parameter of Connect-PSSession or Receive-PSSession.</source>
+          <target state="translated">Connect-pssession または Receive-pssession の SessionOption パラメーターの値をセッション オプションを使用します。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSSessionOption -OutputBufferingMode Drop PS C:&gt; Connect-PSSession -Cn Server01 -Name Test -SessionOption $o</source>
+          <target state="translated">PS c: &gt; $o = 新しい PSSessionOption-OutputBufferingMode ドロップ PS c: &gt; 接続 PSSession-Cn Server01-テスト SessionOption $o という名前を</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>-- To create a session configuration with a default output buffering mode of Drop, use the OutputBufferingMode parameter of the New-PSTransportOption cmdlet to create a transport option object with a value of Drop.</source>
+          <target state="translated">--ドロップの既定の出力バッファー モードでは、セッション構成を作成するのにには、ドロップダウンの値を持つトランスポート オプション オブジェクトを作成するのに New-pstransportoption コマンドレットの OutputBufferingMode パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Then, use the transport option in the value of the TransportOption parameter of Register-PSSessionConfiguration.</source>
+          <target state="translated">次に、Register-pssessionconfiguration の TransportOption パラメーターの値で、トランスポート オプションを使用します。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSTransportOption -OutputBufferingMode Drop PS C:&gt; Register-PSSessionConfiguration -Name Test -TransportOption $o</source>
+          <target state="translated">PS c: &gt; $o = 新しい PSTransportOption-OutputBufferingMode ドロップ PS c: &gt; Register-pssessionconfiguration-テスト TransportOption $o という名前を</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>-- To change the default output buffering mode of a session configuration, use the OutputBufferingMode parameter of the New-PSTransportOption cmdlet to create a transport option with a value of Drop.</source>
+          <target state="translated">--セッション構成の既定の出力バッファー モードを変更するのにには、ドロップダウンの値を持つトランスポート オプションを作成するのに New-pstransportoption コマンドレットの OutputBufferingMode パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Then, use the Transport option in the value of the SessionOption parameter of Set-PSSessionConfiguration.</source>
+          <target state="translated">Set-pssessionconfiguration の SessionOption パラメーターの値をトランスポート オプションを使用します。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSTransportOption -OutputBufferingMode Drop PS C:&gt; Set-PSSessionConfiguration -Name Test -TransportOption $o</source>
+          <target state="translated">PS c: &gt; $o = 新しい PSTransportOption-OutputBufferingMode ドロップ PS c: &gt; Set-pssessionconfiguration-テスト TransportOption $o という名前を</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>DISCONNECTING LOOPBACK SESSIONS</source>
+          <target state="translated">ループバック セッションを切断します。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>"Loopback sessions" or "local sessions" are PSSessions that originate and terminate on the same computer.</source>
+          <target state="translated">「ループバック セッション」または「ローカル セッション」は、Pssession を発信され、同じコンピューター上の終了です。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Like other PSSessions, active loopback sessions are maintained on the computer on the remote end of the connection (the local computer), so you can disconnect from and reconnect to loopback sessions.</source>
+          <target state="translated">他の Pssession のセッションがリモート側の接続 (ローカル コンピューター) 上のコンピューターに保持されるアクティブなループバックなどをから切断をループバック セッションに再接続します。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>By default, loopback sessions are created with a network security token that does not permit commands run in the session to access other computers.</source>
+          <target state="translated">既定では、ループバック セッションは、その他のコンピューターにアクセスする、セッションで実行するコマンドを許可しないネットワークのセキュリティ トークンを使用して作成されます。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>You can reconnect to loopback sessions that have a network security token from any session on the local computer or a remote computer.</source>
+          <target state="translated">ローカル コンピューターまたはリモート コンピューター上のセッションからネットワーク セキュリティ トークンを持っているループバック セッションに再接続することができます。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>However, if you use the EnableNetworkAccess parameter of the New-PSSession, Enter-PSSession, or Invoke-Command cmdlet, the loopback session is created with an interactive security token.</source>
+          <target state="translated">ただし、新しい PSSession の EnableNetworkAccess パラメーターを使用する場合 Enter-pssession、または Invoke-command コマンドレットでは、ループバック セッションは対話型セキュリティ トークンを使用して作成されています。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The interactive token enables commands that run in the loopback session to get data from other computers.</source>
+          <target state="translated">対話型トークンは、他のコンピューターからデータを取得、ループバック セッションで実行するコマンドを使用できます。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>You can disconnect loopback sessions with interactive tokens and then reconnect to them from the same session or a different session on the same computer.</source>
+          <target state="translated">対話型トークンでループバック セッションを切断してから、同じセッションまたは同じコンピューター上の別のセッションに再接続してできます。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>However, to prevent malicious access, you can reconnect to loopback sessions with interactive tokens only from the computer on which they were created.</source>
+          <target state="translated">ただし、悪意のあるアクセスを防ぐために作成されたコンピューターからのみに対話型トークンをループバック セッションに再接続できます。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>WAITING FOR JOBS IN DISCONNECTED SESSIONS</source>
+          <target state="translated">切断されたセッションでジョブを待機しています。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The Wait-Job cmdlet waits until a job completes and then returns to the command prompt or the next command.</source>
+          <target state="translated">Wait-job コマンドレットは、ジョブが完了し、そのコマンド プロンプトまたは次のコマンドまでに待機します。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>By default, Wait-Job returns if the session in which a job is running is disconnected.</source>
+          <target state="translated">既定では、Wait-job は、ジョブが実行されているセッションが切断されているかどうかを返します。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>To direct the Wait-Job cmdlet to wait until the session is reconnected (in the Opened state), use the Force parameter.</source>
+          <target state="translated">(Opened 状態) でセッションが再接続されるまでしばらく待たなければ Wait-job コマンドレットを指示するには、Force パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>For more information, see Wait-Job.</source>
+          <target state="translated">詳細については、Wait-job ジョブを参照してください。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>ROBUST SESSIONS AND UNINTENTIONAL DISCONNECTION</source>
+          <target state="translated">堅牢なセッションと切断の意図的でないです。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Occasionally, a PSSession might be disconnected unintentionally due to a computer failure or network outage.</source>
+          <target state="translated">場合によっては、PSSession は、コンピューターの障害やネットワークの障害によって意図せず切断される可能性があります。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell attempts to recover the PSSession, but its success depends upon the severity and duration of the cause.</source>
+          <target state="translated">Windows PowerShell は、PSSession を回復しようとしていますが、その成功は、重要度と原因の期間によって異なります。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>The state of an unintentionally disconnected PSSession might be Broken or Closed, but it might also be Disconnected.</source>
+          <target state="translated">破損または終了を意図せず切断された PSSession の状態として使用することがありますが、可能性がありますも切断します。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>If the value of State is Disconnected, you can use the same techniques to manage the PSSession as you would if the session were disconnected intentionally.</source>
+          <target state="translated">状態の値が切断されている場合は、セッションは意図的に切断された場合と同様に、PSSession を管理する同じ手法を使用できます。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>For example, you can use the Connect-PSSession cmdlet to reconnect to the session and the Receive-PSSession cmdlet to get results of commands that ran while the session was disconnected.</source>
+          <target state="translated">たとえば、セッションが切断された状態で実行したコマンドの結果を取得する Receive-pssession コマンドレットやセッションに再接続する Connect-pssession コマンドレットを使用することができます。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>If you close (exit) the session in which a PSSession was created while commands are running in the PSSession, Windows PowerShell maintains the PSSession in the Disconnected state on the remote computer.</source>
+          <target state="translated">(終了) に、PSSession が作成されたコマンドは、PSSession で実行中にセッションを閉じると、Windows PowerShell は、リモート コンピューター上の非接続状態で PSSession を保持します。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>If you close (exit) the session in which a PSSession was created, but no commands are running in the PSSession, Windows PowerShell does not attempt to maintain the PSSession.</source>
+          <target state="translated">(終了) に、作成された PSSession が、PSSession でコマンドが実行されていないセッションを閉じるが Windows PowerShell は、PSSession を維持するために試行されません。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>KEYWORDS</source>
+          <target state="translated">キーワード</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>about_Disconnected_Sessions</source>
+          <target state="translated">about_Disconnected_Sessions</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">関連項目</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>about_Jobs about_Remote about_Remote_Variables about_PSSessions about_Session_Configurations Disconnect-PSSession Connect-PSSession Get-PSSession Receive-PSSession Invoke-Command</source>
+          <target state="translated">about_Jobs about_Remote about_Remote_Variables about_PSSessions about_Session_Configurations Disconnect-pssession Connect-pssession Get-pssession Receive-pssession Invoke-command</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

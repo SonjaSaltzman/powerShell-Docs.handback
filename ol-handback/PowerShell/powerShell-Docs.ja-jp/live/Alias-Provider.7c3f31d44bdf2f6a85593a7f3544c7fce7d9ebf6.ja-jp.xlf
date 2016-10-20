@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">971130c1ff3b8c3c0fbcf47526c3b6cdbfc37abb</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Providers\Alias-Provider.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fb1aff969f2d6cd864b0bdd0151c8f70c7081472</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">35898f81a3f912fec844bb822971e7ef86c41dbb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Alias Provider</source>
+          <target state="translated">エイリアス プロバイダー</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Alias Provider</source>
+          <target state="translated">エイリアス プロバイダー</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PROVIDER NAME</source>
+          <target state="translated">プロバイダー名</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Alias</source>
+          <target state="translated">エイリアス</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>DRIVES</source>
+          <target state="translated">ドライブ</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Alias:</source>
+          <target state="translated">エイリアス:</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Provides access to the Windows PowerShell aliases and the values that they represent.</source>
+          <target state="translated">Windows PowerShell エイリアスとそれが表す値へのアクセスを提供します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DETAILED DESCRIPTION</source>
+          <target state="translated">詳細説明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Alias provider lets you get, add, change, clear, and delete aliases in Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell Alias プロバイダーでは、Windows PowerShell のエイリアスを取得、追加、変更、消去、削除できます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An alias is an alternate name for a cmdlet, function, or executable file.</source>
+          <target state="translated">エイリアスはコマンドレット、関数、実行可能ファイルの別名です。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell includes a set of built<ph id="ph1">\-</ph>in aliases.</source>
+          <target state="translated">Windows PowerShell には、セットが含まれています。 組み込み<ph id="ph1">\-</ph>エイリアスにします。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>And, you can add your own aliases to the current session and to your Windows PowerShell profile.</source>
+          <target state="translated">また、独自のエイリアスを現在のセッションと Windows PowerShell プロファイルに追加できます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The Alias provider is a flat namespace that contains only the alias objects.</source>
+          <target state="translated">Alias プロバイダーはエイリアス オブジェクトのみが含まれるフラットな名前空間です。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The aliases have no child items.</source>
+          <target state="translated">エイリアスに子項目はありません。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Each alias is an instance of the System.Management.Automation.AliasInfo class.</source>
+          <target state="translated">各エイリアスは System.Management.Automation.AliasInfo クラスのインスタンスです。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Alias provider exposes its data store in the Alias: drive.</source>
+          <target state="translated">Alias プロバイダーは Alias: ドライブでそのデータ ストアを公開します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To work with aliases, you can change your location to the Alias: drive by using the following command:</source>
+          <target state="translated">エイリアスを使用するには、次のコマンドを利用し、場所を Alias: ドライブに変更します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set<ph id="ph1">\-</ph>Location &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///31d25e13-f05e-48ad-ae8d-9fd097ca18e8)</ept> alias:</source>
+          <target state="translated"><bpt id="p1">[</bpt>設定<ph id="ph1">\-</ph>場所 #91; m2 &amp;#93;<ept id="p1">](assetId:///31d25e13-f05e-48ad-ae8d-9fd097ca18e8)</ept> エイリアス。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Or, you can work from any other Windows PowerShell drive.</source>
+          <target state="translated">あるいは、他の Windows PowerShell ドライブから使用できます。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To reference an alias from another location, use the Alias: drive name in the path.</source>
+          <target state="translated">別の場所からエイリアスを参照するには、パスに Alias: ドライブ名を使用します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell includes a set of cmdlets that are designed to view and to change aliases:</source>
+          <target state="translated">Windows PowerShell には、エイリアスを表示したり、変更したりするための一連のコマンドレットがあります。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Export<ph id="ph1">\-</ph>Alias</source>
+          <target state="translated">エクスポート<ph id="ph1">\-</ph>エイリアス</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Alias</source>
+          <target state="translated">取得<ph id="ph1">\-</ph>エイリアス</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Import<ph id="ph1">\-</ph>Alias</source>
+          <target state="translated">インポート<ph id="ph1">\-</ph>エイリアス</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>New<ph id="ph1">\-</ph>Alias</source>
+          <target state="translated">新しい<ph id="ph1">\-</ph>エイリアス</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Set<ph id="ph1">\-</ph>Alias</source>
+          <target state="translated">設定<ph id="ph1">\-</ph>エイリアス</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When you use these cmdlets, you do not need to specify the Alias: drive in the name.</source>
+          <target state="translated">これらのコマンドレットを使用するとき、名前に Alias: ドライブを指定する必要はありません。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The Alias provider supports all the cmdlets that have the Item noun except for the <bpt id="p1">[</bpt>Invoke<ph id="ph1">\-</ph>Item &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///38a9887b-ce1a-4bde-be4e-98012efae204)</ept> cmdlet.</source>
+          <target state="translated">Alias プロバイダーを除く名詞「Item」を含むすべてのコマンドレットをサポートしている、 <bpt id="p1">[</bpt>Invoke<ph id="ph1">\-</ph>アイテム #91; m2 &amp;#93;<ept id="p1">](assetId:///38a9887b-ce1a-4bde-be4e-98012efae204)</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>And, it supports the <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///86d8b4af-af2c-4a27-9519-2c9fd420be3d)</ept> and <bpt id="p2">[</bpt>Set<ph id="ph2">\-</ph>Content &amp;#91;m2&amp;#93;<ept id="p2">](assetId:///6fff9b86-86df-4440-b7b7-8124b22088fc)</ept> cmdlets.</source>
+          <target state="translated">サポートして、 <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>コンテンツ #91; m2 &amp;#93;<ept id="p1">](assetId:///86d8b4af-af2c-4a27-9519-2c9fd420be3d)</ept> と <bpt id="p2">[</bpt>設定<ph id="ph2">\-</ph>コンテンツ #91; m2 &amp;#93;<ept id="p2">](assetId:///6fff9b86-86df-4440-b7b7-8124b22088fc)</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The Alias provider does not support the cmdlets that have the ItemProperty noun.</source>
+          <target state="translated">Alias プロバイダーは名詞「ItemProperty」を含むコマンドレットをサポートしません。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>And, the Alias provider does not support the Filter parameter in any cmdlet.</source>
+          <target state="translated">また、Alias プロバイダーはあらゆるコマンドレットで Filter パラメーターをサポートしません。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>All changes to the aliases affect the current session only.</source>
+          <target state="translated">エイリアスを変更した場合、現在のセッションのみが影響を受けます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To save the changes, add the changes to the Windows PowerShell profile.</source>
+          <target state="translated">変更を保存するには、それを Windows PowerShell プロファイルに追加します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Or, use the <bpt id="p1">[</bpt>Export<ph id="ph1">\-</ph>Alias &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///ea3f16e3-e8dc-48e7-9ae7-96808b8a941e)</ept> and <bpt id="p2">[</bpt>Import<ph id="ph2">\-</ph>Alias &amp;#91;m2&amp;#93;<ept id="p2">](assetId:///b8b08aac-9069-43cb-a224-1cf8a663aad4)</ept> cmdlets.</source>
+          <target state="translated">または、使用して、 <bpt id="p1">[</bpt>エクスポート<ph id="ph1">\-</ph>エイリアス #91; m2 &amp;#93;<ept id="p1">](assetId:///ea3f16e3-e8dc-48e7-9ae7-96808b8a941e)</ept> と <bpt id="p2">[</bpt>インポート<ph id="ph2">\-</ph>エイリアス #91; m2 &amp;#93;<ept id="p2">](assetId:///b8b08aac-9069-43cb-a224-1cf8a663aad4)</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>CAPABILITIES</source>
+          <target state="translated">機能</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>ShouldProcess</source>
+          <target state="translated">ShouldProcess</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Getting to the Alias: Drive</source>
+          <target state="translated">Alias: ドライブ</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This command changes the current location to the Alias: drive.</source>
+          <target state="translated">このコマンドは現在の場所を Alias: ドライブに変更します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can use this command from any drive in Windows PowerShell.</source>
+          <target state="translated">このコマンドは Windows PowerShell のあらゆるドライブから実行できます。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To return to a file system drive, type the drive name.</source>
+          <target state="translated">ファイル システム ドライブに戻るには、ドライブ名を入力します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, type "set<ph id="ph1">\-</ph>location c:".</source>
+          <target state="translated">たとえば、「"設定<ph id="ph1">\-</ph>場所 c:"です。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Getting Aliases</source>
+          <target state="translated">エイリアスの取得</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This command gets a list of all the aliases in the current session.</source>
+          <target state="translated">このコマンドは現在のセッションのすべてのエイリアスの一覧を取得します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can use this command in any Windows PowerShell drive.</source>
+          <target state="translated">このコマンドはすべての Windows PowerShell ドライブで使用できます。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This command gets the "ls" alias.</source>
+          <target state="translated">このコマンドはエイリアス「ls」を取得します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Because it includes the path, you can use it in any Windows PowerShell drive.</source>
+          <target state="translated">パスが含まれているため、すべての Windows PowerShell ドライブで使用できます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you are in the Alias: drive, you can omit the drive name from the path.</source>
+          <target state="translated">Alias: ドライブにいる場合、パスからドライブ名を省略できます。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">例 3</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This command gets a list of the aliases that are associated with the Get<ph id="ph1">\-</ph>ChildItem cmdlet.</source>
+          <target state="translated">このコマンドは、Get と関連付けられているエイリアスの一覧を取得<ph id="ph1">\-</ph>渡すコマンドレットです。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>It uses the Definition property, which stores the cmdlet name.</source>
+          <target state="translated">コマンドレット名を格納する Definition プロパティを使用します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>When the aliased item is an executable file, the Definition contains the fully qualified path of the file.</source>
+          <target state="translated">エイリアス項目が実行可能ファイルのとき、Definition にはファイルの完全修飾パスが含まれます。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 4</source>
+          <target state="translated">例 4</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This command gets the list of all the aliases when the current location is the Alias: drive.</source>
+          <target state="translated">このコマンドは現在の場所が Alias: ドライブであるすべてのエイリアスの一覧を取得します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>It uses a wildcard character <ph id="ph1">\(\*\)</ph> to indicate all the contents of the current location.</source>
+          <target state="translated">ワイルドカード文字を使用して <ph id="ph1">\(\*\)</ph> を現在の場所のすべての内容を示します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In the Alias: drive, a dot <ph id="ph1">\(</ph>.<ph id="ph2">\)</ph>, which represents the current location, and a wildcard character <ph id="ph3">\(\*\)</ph>, which represents all items in the current location, have the same effect.</source>
+          <target state="translated">エイリアスでは、: ドライブのドット <ph id="ph1">\(</ph>.<ph id="ph2">\)</ph>, 、現在の場所、およびワイルドカード文字を表す <ph id="ph3">\(\*\)</ph>, 、現在の場所のすべての項目を表す、同じ効果があります。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For example, "get<ph id="ph1">\-</ph>item <ph id="ph2">\-</ph>path ."</source>
+          <target state="translated">たとえば、"get<ph id="ph1">\-</ph>項目 <ph id="ph2">\-</ph>パスです"。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>or "get<ph id="ph1">\-</ph>item <ph id="ph2">\*</ph>" produce the same result.</source>
+          <target state="translated">または"取得<ph id="ph1">\-</ph>項目 <ph id="ph2">\*</ph>"結果は同じです。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Creating a New Alias</source>
+          <target state="translated">新しいエイリアスの作成</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This command creates the "serv" alias for the Get<ph id="ph1">\-</ph>Service cmdlet.</source>
+          <target state="translated">このコマンドは、Get コマンドのエイリアス「serv」を作成<ph id="ph1">\-</ph>サービス コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Because the current location is in the Alias: drive, the value of the Path parameter is a dot <ph id="ph1">\(</ph>.<ph id="ph2">\)</ph>.</source>
+          <target state="translated">現在の場所は Alias: ドライブ、Path パラメーターの値は、ドット <ph id="ph1">\(</ph>.<ph id="ph2">\)</ph>します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The dot represents the current location.</source>
+          <target state="translated">ドットは現在の場所を表します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This command also uses the Options dynamic parameter to set the AllScope and Constant options on the alias.</source>
+          <target state="translated">このコマンドはまた、Options 動的パラメーターを使用し、エイリアスに AllScope オプションと Constant オプションを設定します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The Options parameter is available in the New<ph id="ph1">\-</ph>Item cmdlet only when you are in the Alias: drive.</source>
+          <target state="translated">オプション パラメーターは、新規<ph id="ph1">\-</ph>コマンドレット、エイリアスがいる場合のみ: ドライブです。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If you are in the Alias: drive, you can omit the drive name from the path.</source>
+          <target state="translated">Alias: ドライブにいる場合、パスからドライブ名を省略できます。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can create an alias for any item that invokes a command.</source>
+          <target state="translated">コマンドを呼び出す項目にエイリアスを作成できます。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This command creates the "np" alias for Notepad.exe.</source>
+          <target state="translated">このコマンドは Notepad.exe にエイリアス「np」を作成します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">例 3</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You can create an alias for any function.</source>
+          <target state="translated">あらゆる関数にエイリアスを作成できます。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>You can use this feature to create an alias that includes both a cmdlet and its parameters.</source>
+          <target state="translated">この機能を利用し、コマンドレットとそのパラメーターの両方を含むエイリアスを作成できます。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The first command creates the CD32 function, which changes the current directory to the System32 directory.</source>
+          <target state="translated">最初のコマンドは CD32 関数を作成します。この関数は現在のディレクトリを System32 ディレクトリに変更します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The second command creates the "go" alias for the CD32 function.</source>
+          <target state="translated">2 番目のコマンドは CD32 関数にエイリアス「go」を作成します。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The semi<ph id="ph1">\-</ph>colon <ph id="ph2">\(</ph>;<ph id="ph3">\)</ph> is the command separator.</source>
+          <target state="translated">Semi<ph id="ph1">\-</ph>コロン <ph id="ph2">\(</ph>;<ph id="ph3">\)</ph> コマンドの区切り記号です。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>When the command is complete, you can use either "CD32" or "go" to invoke the function.</source>
+          <target state="translated">コマンドが完了すると、「CD32」と「go」のいずれかを使用してこの関数を呼び出すことができます。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Displaying the Properties and Methods of Aliases</source>
+          <target state="translated">エイリアスのプロパティとメソッドの表示</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This command uses the Get<ph id="ph1">\-</ph>Item cmdlet to get all aliases.</source>
+          <target state="translated">このコマンドは、Get を使用して<ph id="ph1">\-</ph>コマンドレットすべてのエイリアスを取得します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The pipeline operator <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> sends the results to the Get<ph id="ph3">\-</ph>Member cmdlet, which displays the methods and properties of the object.</source>
+          <target state="translated">パイプライン演算子 <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> 結果を Get に送信<ph id="ph3">\-</ph>メンバー コマンドレットは、メソッドとオブジェクトのプロパティが表示されます。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When you pipe a collection of objects to Get<ph id="ph1">\-</ph>Member, such as the collection of aliases in the Alias: drive, Get<ph id="ph2">\-</ph>Member evaluates each object in the collection separately.</source>
+          <target state="translated">取得するオブジェクトのコレクションをパイプする<ph id="ph1">\-</ph>エイリアスでは、エイリアスのコレクションなどのメンバー: ドライブの Get<ph id="ph2">\-</ph>メンバーは、コレクション内の各オブジェクトを個別に評価します。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Then, Get<ph id="ph1">\-</ph>Member returns information about each object type that it finds.</source>
+          <target state="translated">次に、取得<ph id="ph1">\-</ph>メンバーが検出された各オブジェクトの種類に関する情報を返します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If all the objects are of the same type, it returns information about the single object type.</source>
+          <target state="translated">すべてのオブジェクトが同じ種類の場合、その 1 つのオブジェクト タイプに関する情報が返されます。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>In this case, all the aliases are AliasInfo objects.</source>
+          <target state="translated">この場合、すべてのエイリアスが AliasInfo オブジェクトです。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To get information about the collection of AliasInfo objects, use the InputObject parameter of Get<ph id="ph1">\-</ph>Member.</source>
+          <target state="translated">AliasInfo オブジェクトのコレクションに関する情報を取得するには、Get の InputObject パラメーターを使用<ph id="ph1">\-</ph>メンバーです。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For example, use the following command:</source>
+          <target state="translated">たとえば、次のコマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Member <ph id="ph2">\-</ph>InputObject <ph id="ph3">\(</ph>Get<ph id="ph4">\-</ph>Item alias:</source>
+          <target state="translated">取得<ph id="ph1">\-</ph>メンバー <ph id="ph2">\-</ph>InputObject <ph id="ph3">\(</ph>取得<ph id="ph4">\-</ph>項目エイリアス。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>When you use InputObject, Get<ph id="ph1">\-</ph>Member evaluates the collection, not the objects in the collection.</source>
+          <target state="translated">InputObject を使用すると取得<ph id="ph1">\-</ph>メンバーは、コレクション内のオブジェクトではなくのコレクションを評価します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This command lists the values of the properties of the "dir" alias.</source>
+          <target state="translated">このコマンドはエイリアス「dir」のプロパティの値を一覧表示します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>It uses the Get<ph id="ph1">\-</ph>Item cmdlet to get an object that represents the "dir" alias.</source>
+          <target state="translated">Get を使用して<ph id="ph1">\-</ph>コマンドレット"dir"エイリアスを表すオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The pipeline operator <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> sends the results to the Format<ph id="ph3">\-</ph>List command.</source>
+          <target state="translated">パイプライン演算子 <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> 形式に、その結果を送信<ph id="ph3">\-</ph>コマンドを一覧表示します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The Format<ph id="ph1">\-</ph>List command uses the Property parameter with a wildcard character <ph id="ph2">\(\*\)</ph> to format and display the values of all the "dir" alias properties.</source>
+          <target state="translated">形式<ph id="ph1">\-</ph>List コマンドとワイルドカード文字は Property パラメーターを使用する <ph id="ph2">\(\*\)</ph> 書式を設定し、すべての"dir"エイリアス プロパティの値を表示します。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Changing the Properties of an Alias</source>
+          <target state="translated">エイリアスのプロパティの変更</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can use the Set<ph id="ph1">\-</ph>Item cmdlet with the Options dynamic parameter to change the value of the Options property of an alias.</source>
+          <target state="translated">セットを使用する<ph id="ph1">\-</ph>コマンドレットと Options 動的パラメーター エイリアスの Options プロパティの値を変更します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This command sets the AllScope and ReadOnly options for the "dir" alias.</source>
+          <target state="translated">このコマンドはエイリアス「dir」の AllScope オプションと ReadOnly オプションを設定します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The command uses the Options dynamic parameter of the Set<ph id="ph1">\-</ph>Item cmdlet.</source>
+          <target state="translated">コマンド セットの Options 動的パラメーターを使用して<ph id="ph1">\-</ph>コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The Options parameter is available in Set<ph id="ph1">\-</ph>Item only when you use it with the Alias or Function provider.</source>
+          <target state="translated">オプション パラメーターはセットで使用できる<ph id="ph1">\-</ph>項目のエイリアスまたは関数のプロバイダーで使用する場合のみです。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This command uses the Set<ph id="ph1">\-</ph>Item cmdlet to change the "gp" alias so that it represents the Get<ph id="ph2">\-</ph>Process cmdlet instead of the Get<ph id="ph3">\-</ph>ItemProperty cmdlet.</source>
+          <target state="translated">このコマンド セットを使用して<ph id="ph1">\-</ph>項目コマンドレットでは、Get を表すようにエイリアス「gp」変更を<ph id="ph2">\-</ph>Get ではなくコマンドレット<ph id="ph3">\-</ph>ItemProperty コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The Force parameter is required because the value of the Options property of the "gp" alias is set to ReadOnly.</source>
+          <target state="translated">「gp」エイリアスの Options プロパティの値が ReadOnly に設定されているため、Force パラメーターが必要になります。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Because the command is submitted from within the Alias: drive, the drive is not specified in the path.</source>
+          <target state="translated">コマンドは Alias: ドライブ内から実行されるため、ドライブはパスに指定されません。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The change affects the four properties that define the association between the alias and the command.</source>
+          <target state="translated">この変更は、エイリアスとコマンドの関係を定義する 4 つのプロパティに影響を与えます。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To view the effect of the change, type the following command:</source>
+          <target state="translated">変更の結果を表示するには、次のコマンドを入力します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>get<ph id="ph1">\-</ph>item <ph id="ph2">\-</ph>path gp &amp;#124; format<ph id="ph3">\-</ph>list <ph id="ph4">\-</ph>property</source>
+          <target state="translated">取得<ph id="ph1">\-</ph>項目 <ph id="ph2">\-</ph>-path gp &amp;#124; 形式<ph id="ph3">\-</ph>リスト <ph id="ph4">\-</ph>プロパティ</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">例 3</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This command uses the Rename<ph id="ph1">\-</ph>Item cmdlet to change the "popd" alias to "pop".</source>
+          <target state="translated">このコマンドは、名前の変更を使用して<ph id="ph1">\-</ph>を「pop」"popd"エイリアスを変更するコマンドレットです。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Copying an Alias</source>
+          <target state="translated">エイリアスのコピー</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This command copies the pushd alias so that a new push alias is created for the Push<ph id="ph1">\-</ph>Location cmdlet.</source>
+          <target state="translated">このコマンドは、コピー、pushd エイリアス、プッシュの場合は新しい push エイリアスが作成されるよう<ph id="ph1">\-</ph>場所コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>When the new alias is created, its Description property has a null value.</source>
+          <target state="translated">新しいエイリアスが作成されると、Description プロパティに null 値が与えられます。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>And, its Option property has a value of None.</source>
+          <target state="translated">また、その Option プロパティの値が None になります。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If the command is issued from within the Alias: drive, you can omit the drive name from the value of the Path parameter.</source>
+          <target state="translated">コマンドを Alias: ドライブ内から実行する場合、Path パラメーターの値からドライブ名を省略できます。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Deleting an Alias</source>
+          <target state="translated">エイリアスの削除</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This command deletes the serv alias from the current session.</source>
+          <target state="translated">このコマンドは現在のセッションから serv エイリアスを削除します。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>You can use this command in any Windows PowerShell drive.</source>
+          <target state="translated">このコマンドはすべての Windows PowerShell ドライブで使用できます。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>If you are in the Alias: drive, you can omit the drive name from the path.</source>
+          <target state="translated">Alias: ドライブにいる場合、パスからドライブ名を省略できます。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This command deletes aliases that begin with "s".</source>
+          <target state="translated">このコマンドは「s」で始まるエイリアスを削除します。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>It does not delete read<ph id="ph1">\-</ph>only aliases.</source>
+          <target state="translated">読み取りは削除されません<ph id="ph1">\-</ph>エイリアスのみです。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">例 3</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This command deletes all aliases from the current session, except those with a value of Constant for their Options property.</source>
+          <target state="translated">このコマンドは現在のセッションからすべてのエイリアスを削除します。Options プロパティの値が Constant になっているものは除きます。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Without the Force parameter, the command does not delete aliases whose Options property has a value of ReadOnly.</source>
+          <target state="translated">Force パラメーターがない場合、このコマンドでは Options プロパティの値が ReadOnly のエイリアスは削除されません。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>DYNAMIC PARAMETERS</source>
+          <target state="translated">動的パラメーター</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Dynamic parameters are cmdlet parameters that are added by a Windows PowerShell provider and are available only when the cmdlet is being used in the provider<ph id="ph1">\-</ph>enabled drive.</source>
+          <target state="translated">動的パラメーターは、コマンドレットは、プロバイダーで使用されている場合にのみ、Windows PowerShell プロバイダーと使用可能ですが追加されるコマンドレット パラメーター<ph id="ph1">\-</ph>ドライブを有効にします。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Options <ph id="ph1">\&lt;</ph>System.Management.Automation.ScopedItemOptions</source>
+          <target state="translated">オプション <ph id="ph1">\&lt;</ph>System.Management.Automation.ScopedItemOptions</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Determines the value of the Options property of an alias.</source>
+          <target state="translated">エイリアスの Options プロパティの値を決定します。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">値</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>No options.</source>
+          <target state="translated">オプションはありません。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This value is the default.</source>
+          <target state="translated">この値は既定値です。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Constant</source>
+          <target state="translated">Constant</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The alias cannot be deleted and its properties cannot be changed.</source>
+          <target state="translated">エイリアスは削除できず、そのプロパティは変更できません。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Constant is available only when you create an alias.</source>
+          <target state="translated">Constant はエイリアスを作成したときにのみ利用できます。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>You cannot change the option of an existing alias to Constant.</source>
+          <target state="translated">既存エイリアスのオプションを Constant に変更することはできません。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Private</source>
+          <target state="translated">Kirkland</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The alias is visible only in the current scope, not in the child scopes.</source>
+          <target state="translated">エイリアスは現在の範囲でのみ表示されます。子の範囲では表示されません。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>ReadOnly</source>
+          <target state="translated">ReadOnly</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The properties of the alias cannot be changed except by using the Force parameter.</source>
+          <target state="translated">Force パラメーターの使用時を除き、エイリアスのパラメーターは変更できません。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">[</bpt>Remove<ph id="ph1">\-</ph>Item &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///f98b4219-60df-408b-bdc8-994f920fc7bd)</ept> to delete the alias.</source>
+          <target state="translated">使用する <bpt id="p1">[</bpt>削除<ph id="ph1">\-</ph>アイテム #91; m2 &amp;#93;<ept id="p1">](assetId:///f98b4219-60df-408b-bdc8-994f920fc7bd)</ept> 、エイリアスを削除します。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>AllScope</source>
+          <target state="translated">AllScope</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The alias is copied to any new scopes that are created.</source>
+          <target state="translated">エイリアスは、新たに作成されるすべてのスコープにコピーされます。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>New<ph id="ph1">\-</ph>Item &amp;#91;m2&amp;#93;</source>
+          <target state="translated">新しい<ph id="ph1">\-</ph>アイテム #91; m2 &amp; #93 です。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Set<ph id="ph1">\-</ph>Item &amp;#91;m2&amp;#93;</source>
+          <target state="translated">設定<ph id="ph1">\-</ph>アイテム #91; m2 &amp; #93 です。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">参照</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Aliases &amp;#91;m2&amp;#93;</source>
+          <target state="translated">に関する<ph id="ph1">\_</ph>エイリアス #91; m2 &amp; #93 です。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Providers</source>
+          <target state="translated">に関する<ph id="ph1">\_</ph>プロバイダー</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b887b04a42e3ed4a34c3149eb926434b2812073</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\ConvertFrom-String.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc139ae602e803d12e36303954502ffa7ba98dd3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12eb81c1f67bac207762a69fe821c7b8403f44b5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-String</source>
+          <target state="translated">ConvertFrom 문자열</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-String</source>
+          <target state="translated">ConvertFrom 문자열</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Extracts and parses structured objects from string content.</source>
+          <target state="translated">추출 하 고 문자열 내용에서 구조화 된 개체를 구문 분석 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ByDelimiter (Default)</source>
+          <target state="translated">ByDelimiter (기본값)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>TemplateParsing</source>
+          <target state="translated">TemplateParsing</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ConvertFrom-String<ept id="p1">**</ept> cmdlet extracts and parses structured objects from string content.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>ConvertFrom 문자열<ept id="p1">**</ept> cmdlet 추출 하 고 문자열 내용에서 구조화 된 개체를 구문 분석 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This cmdlet generates an object by parsing text from a traditional text stream.</source>
+          <target state="translated">이 cmdlet는 기존 텍스트 스트림에서 텍스트를 구문 분석 하 여 개체를 생성합니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For each string in the pipeline, the cmdlet splits the input by either a delimiter or a parse expression, and then assigns property names to each of the resulting split elements.</source>
+          <target state="translated">파이프라인의 각 문자열에 대 한 cmdlet 구분 기호 또는 구문 분석 식 중 하나는 입력을 분할 하 고 그런 다음 각 요소를 분할 후에 속성 이름에 할당 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can provide these property names; if you do not, they are automatically generated for you.</source>
+          <target state="translated">이러한 속성 이름은;를 제공할 수 있습니다. 그렇지 않으면 사용자에 대 한 자동으로 생성 됩니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The cmdlet's default parameter set, <bpt id="p1">*</bpt>ByDelimiter<ept id="p1">*</ept>, splits exactly on the regular expression delimiter.</source>
+          <target state="translated">Cmdlet의 기본 매개 변수 설정 <bpt id="p1">*</bpt>ByDelimiter<ept id="p1">*</ept>, 정규식 구분 기호에 정확 하 게 분할 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It does not perform quote matching or delimiter escaping as the Import-Csv cmdlet does.</source>
+          <target state="translated">일치 하는 따옴표 또는 Import-csv cmdlet 처럼 구분 기호 이스케이프를 수행 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The cmdlet's alternate parameter set, <bpt id="p1">*</bpt>TemplateParsing<ept id="p1">*</ept>, generates elements from the groups that are captured by a regular expression.</source>
+          <target state="translated">Cmdlet의 대체 매개 변수 설정 <bpt id="p1">*</bpt>TemplateParsing<ept id="p1">*</ept>, 정규식에 의해 캡처되는 그룹의 요소를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports two modes: basic delimited parsing, and automatically-generated, example-driven parsing.</source>
+          <target state="translated">이 cmdlet은 두 가지 모드를 지원: basic 구분 구문 분석 하 고 자동으로 생성, 예제 기반 구문 분석 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Delimited parsing, by default, splits the input at white space, and assigns property names to the resulting groups.</source>
+          <target state="translated">기본적으로 구분 구문 분석에서는 입력을 공백으로 분할하고 결과 그룹에 속성 이름을 할당합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can customize the delimiter by piping the <bpt id="p1">**</bpt>ConvertFrom-String<ept id="p1">**</ept> results into one of the Format-<bpt id="p2">*</bpt> cmdlets, or you can use the <ept id="p2">*</ept>Delimiter* parameter.</source>
+          <target state="translated">파이핑 하 여 구분 기호를 사용자 지정할 수는 <bpt id="p1">**</bpt>ConvertFrom 문자열<ept id="p1">**</ept> 형식-중 하나에 결과<bpt id="p2">*</bpt> cmdlet 하거나 사용할 수 있습니다는 <ept id="p2">*</ept>구분 기호 매개 합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The cmdlet also supports automatically-generated, example-driven parsing based on the <bpt id="p1">**</bpt>FlashExtract<ept id="p1">**</ept> research work by Microsoft Researchhttp://research.microsoft.com/.</source>
+          <target state="translated">자동으로 생성 된 예제 기반 구문 분석에 따라 cmdlet도 지원는 <bpt id="p1">**</bpt>FlashExtract<ept id="p1">**</ept> Microsoft Researchhttp://research.microsoft.com/ 하 여 작업을 조사 합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Example 1: Generate an object with default property names</source>
+          <target state="translated">예제 1: 기본 속성 이름이 포함 된 개체를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command generates an object with default property names, P1 and P2.</source>
+          <target state="translated">이 명령은 P1 및 P2 기본 속성 이름이 포함 된 개체를 생성합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The results are P1=Hello and P2=World.</source>
+          <target state="translated">결과 P1 = Hello 및 P2 = 세계입니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Generate an object with default property names using a delimiter</source>
+          <target state="translated">구분 기호를 사용 하 여 기본 속성 이름이 포함 된 개체를 생성 하는 예 2:</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command generates an object with P1=He and P2=o World, by specifying the ll in Hello  as the delimiter.</source>
+          <target state="translated">이 명령은 p 1은 개체를 생성 합니다. 그 및 P2 = 구분 기호로 Hello에는 ll를 지정 하 여 세계, o =.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 3: Use an expression as the value of the TemplateContent parameter</source>
+          <target state="translated">예제 3: 식을 TemplateContent 매개 변수 값으로 사용</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command uses an expression as the value of the <bpt id="p1">*</bpt>TemplateContent<ept id="p1">*</ept> parameter to instruct Windows PowerShell that the string that is used on the pipeline to <bpt id="p2">**</bpt>ConvertFrom-String<ept id="p2">**</ept> has a property of <bpt id="p3">**</bpt>Name<ept id="p3">**</ept>.</source>
+          <target state="translated">이 명령은 식의 값으로 사용 하 여는 <bpt id="p1">*</bpt>TemplateContent<ept id="p1">*</ept> 매개 변수를 Windows PowerShell 하는 파이프라인에서 사용 되는 문자열 <bpt id="p2">**</bpt>ConvertFrom 문자열<ept id="p2">**</ept> 의 속성이 <bpt id="p3">**</bpt>이름<ept id="p3">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can also save the expression in a variable, then use the variable as the value of the <bpt id="p1">*</bpt>TemplateContent<ept id="p1">*</ept> parameter, as shown here.</source>
+          <target state="translated">변수에 식을 저장 다음의 값으로 변수를 사용할 수도 있습니다는 <bpt id="p1">*</bpt>TemplateContent<ept id="p1">*</ept> 매개 변수를 다음과 같이 합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Example 4: Generate an object that contains two properties</source>
+          <target state="translated">예 4: 두 개의 속성을 포함 하는 개체를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command generates an object that contains two properties, FirstWord and SecondWord.</source>
+          <target state="translated">이 명령은 FirstWord와 SecondWord 속성을 포함 하는 개체를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The results are FirstWord=Hello and SecondWord=World.</source>
+          <target state="translated">결과 FirstWord = Hello 및 SecondWord 세계 =.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example 5: Generate two objects of different object types</source>
+          <target state="translated">예제 5: 서로 다른 개체 형식의 두 개체를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This command generates an object with default property names P1 and P2, but property types String and Integer are identified.</source>
+          <target state="translated">이 명령은 P1 및 P2, 기본 속성 이름이 포함 된 개체를 생성 되지만 문자열과 정수 속성 유형을 식별 합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The results are P1=123 and P2=456.</source>
+          <target state="translated">결과 P1 = 123 및 P2 = 456 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The second property is an integer, not a string.</source>
+          <target state="translated">두 번째 속성은 정수, 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-Delimiter</source>
+          <target state="translated">구분 기호</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specifies a regular expression that identifies the boundary between elements.</source>
+          <target state="translated">요소 간의 경계를 식별 하는 정규식을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Elements that are created by the split become properties in the resulting object.</source>
+          <target state="translated">분할에서 생성 된 요소를 결과 개체의 속성이 됩니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The delimiter is ultimately used in a call to <bpt id="p1">**</bpt>System.Text.RegularExpressions.RegularExpression.Split()<ept id="p1">**</ept>.</source>
+          <target state="translated">구분 기호에 대 한 호출에 사용 되는 궁극적으로 <bpt id="p1">**</bpt>System.Text.RegularExpressions.RegularExpression.Split()<ept id="p1">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-IncludeExtent</source>
+          <target state="translated">-IncludeExtent</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet includes an extent text property that is removed by default.</source>
+          <target state="translated">이 cmdlet이 기본적으로 제거 하는 익스텐트 텍스트 속성을 포함 함을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specifies strings received from the pipeline, or a variable that contains a string object.</source>
+          <target state="translated">파이프라인 또는 string 개체를 포함 하는 변수에서 받은 문자열을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-PropertyNames</source>
+          <target state="translated">-PropertyNames</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Specifies and array of property names to which to assign split values in the resulting object.</source>
+          <target state="translated">지정 하 고 결과 개체에 대 한 분할 값을 할당 하는 속성 이름의 배열입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Every line of text that you split or parse generates elements that represent property values.</source>
+          <target state="translated">분할 또는 구문 분석 하는 텍스트 줄 마다 속성 값을 나타내는 요소를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If the element is the result of a capture group, and that capture group is named (for example, (?<ph id="ph1">\&lt;</ph>name<ph id="ph2">\&gt;</ph>) or (?'name') ), then the name of that capture group is assigned to the property.</source>
+          <target state="translated">요소는 캡처 그룹의 결과 및 해당 캡처 그룹 이라고 하는 경우 (예를 들어 (?<ph id="ph1">\&lt;</ph>이름<ph id="ph2">\&gt;</ph>) 또는 (?' 이름 ')), 다음 해당 캡처 그룹의 이름 속성에 할당 됩니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you provide any elements in the <bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept> array, those names are assigned to properties that have not yet been named.</source>
+          <target state="translated">에 요소를 제공 하는 경우는 <bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept> 배열에 이러한 이름은 속성 이름이 아닌 아직에 할당 됩니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If you provide more property names than there are fields, Windows PowerShell ignores the extra property names.</source>
+          <target state="translated">필드가 있는 것 보다 더 많은 속성 이름을 제공 하면 Windows PowerShell 추가 속성 이름을 무시 합니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you do not specify enough property names to name all fields, Windows PowerShellautomatically assigns numerical property names to any properties that are not named: P1, P2, etc.</source>
+          <target state="translated">Windows PowerShellautomatically 숫자 속성 이름을 이름이 지정 되지 않은 모든 속성에 할당 충분 한 속성 이름이 모든 필드의 이름을 지정 하지 않으면,: P1, P2, 등입니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-TemplateContent</source>
+          <target state="translated">-TemplateContent</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Specifies an expression, or an expression saved as a variable, that describes the properties to which this cmdlet assigns strings.</source>
+          <target state="translated">식 또는이 cmdlet을 문자열을 할당 하는 속성을 설명 하는 변수로 저장 하는 식을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The syntax of a template field specification is the following: {<ph id="ph1">\[</ph>optional-typecast<ph id="ph2">\]</ph>name(sequence-spec, for example <bpt id="p1">*</bpt>):example-value}. An example is {PersonInfo<ept id="p1">*</ept>:{Name:Patti Fuller}.</source>
+          <target state="translated">서식 파일 필드를 지정 하는 구문은 다음: {<ph id="ph1">\[</ph>선택적 유형 변환이<ph id="ph2">\]</ph>name(sequence-spec, for example <bpt id="p1">*</bpt>):example-값}. 예를 들어 {PersonInfo<ept id="p1">*</ept>: {이름: Patti Fuller}.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-TemplateFile</source>
+          <target state="translated">-TemplateFile</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies a file, as an array, that contains a template for the desired parsing of the string.</source>
+          <target state="translated">문자열의 원하는 구문 분석에 대 한 템플릿을 포함 하는 배열로 파일을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In the template file, properties and their values are enclosed in brackets, as shown in the following example.</source>
+          <target state="translated">템플릿 파일에 속성 및 해당 값은 대괄호로 다음 예와에서 같이 합니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If a property, such as the Name property and its associated other properties, appears multiple times, you can add an asterisk (*) to indicate that this results in multiple records.</source>
+          <target state="translated">예: Name 속성 및 연결 된 속성이 다른 속성을 여러 번 표시를 결과에 여러 개의 레코드를 나타내기 위해 별표 (*)를 추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This avoids extracting multiple properties into a single record.</source>
+          <target state="translated">이렇게 하면 단일 레코드에 여러 속성을 추출 합니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>{Name*:David Chew}</source>
+          <target state="translated">{Name*:David 말라는}</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>{City:Redmond}, {State:WA}</source>
+          <target state="translated">{도시: Redmond} {상태: WA}</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>{Name*:Evan Narvaez}</source>
+          <target state="translated">{Name*:Evan Narvaez}</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>{City:Issaquah}, {State:WA}</source>
+          <target state="translated">{도시: Issaquah} {상태: WA}</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-UpdateTemplate</source>
+          <target state="translated">-UpdateTemplate</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet saves the results of a learning algorithm into a comment in the template file.</source>
+          <target state="translated">이 cmdlet은 템플릿 파일에 주석으로 학습 알고리즘의 결과 저장을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This makes the algorithm learning process faster.</source>
+          <target state="translated">이렇게 하면 프로세스를 더 빠르게 학습 하는 알고리즘입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To use this parameter, you must also specify a template file with the <bpt id="p1">*</bpt>TemplateFile<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">이 매개 변수를 사용 하려면 또한와 템플릿 파일을 지정 해야는 <bpt id="p1">*</bpt>TemplateFile<ept id="p1">*</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-String: Example-based text parsing</source>
+          <target state="translated">ConvertFrom-문자열: 예제를 기반으로 텍스트 구문 분석</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-StringData</source>
+          <target state="translated">ConvertFrom-StringData</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-Csv</source>
+          <target state="translated">ConvertFrom-Csv</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>ConvertTo-Xml</source>
+          <target state="translated">ConvertTo-Xml</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">55980d78a3b0e41d2f0e00cadabde389d0e2b973</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\Test-ModuleManifest.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67d96d133425b1cc0a81395cbb80853a01529893</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e05e66196b1377c9349734dd4058dddf91608e8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Test-ModuleManifest</source>
+          <target state="translated">Test-ModuleManifest</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Test-ModuleManifest</source>
+          <target state="translated">Test-ModuleManifest</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Verifies that a module manifest file accurately describes the contents of a module.</source>
+          <target state="translated">Проверяет, точно ли описывает файл манифеста модуля его содержимое.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Test-ModuleManifest cmdlet verifies that the files that are listed in the module manifest (.psd1) file actually exist in the specified paths.</source>
+          <target state="translated">Командлет Test-ModuleManifest проверяет, действительно ли файлы, указанные в файле манифеста модуля (PSD1), существуют по указанным путям.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This cmdlet is designed to help module authors test their manifest files.</source>
+          <target state="translated">Этот командлет помогает разработчикам модулей тестировать файлы манифестов.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Module users can also use this cmdlet in scripts and commands to detect errors before running scripts that depend on the module.</source>
+          <target state="translated">Пользователи модуля также могут использовать этот командлет в сценариях и командах для выявления ошибок до выполнения сценариев, зависящих от модуля.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Test-ModuleManifest cmdlet returns an object that represents the module (the same type of object that Get-Module returns).</source>
+          <target state="translated">Командлет Test-ModuleManifest возвращает объект, представляющий модуль (такого же типа, что и объект, возвращаемый командлетом Get-Module).</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If any files are not in the locations specified in the manifest, the cmdlet also generates an error for each missing file.</source>
+          <target state="translated">Если какой-либо файл отсутствует в местоположении, указанном в манифесте, выдается ошибка для каждого отсутствующего файла.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- ПРИМЕР 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This command tests the TestModule.psd1 module manifest.</source>
+          <target state="translated">Эта команда проверяет манифест модуля TestModule.psd1.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This command uses a pipeline operator (|) to send a path string to Test-ModuleManifest.</source>
+          <target state="translated">Эта команда передает строку пути в командлет Test-ModuleManifest с помощью оператора конвейера (|).</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The command output shows that the test failed, because the TestTypes.ps1xml file, which was listed in the manifest, was not found.</source>
+          <target state="translated">В выходных данных команды видно, что тест закончился ошибкой, так как не найден файл TestTypes.ps1xml, указанный в манифесте.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This function is like Test-ModuleManifest, but it returns a Boolean value;  it returns "True" if the manifest passed the test and "False" otherwise.</source>
+          <target state="translated">Эта функция аналогична Test-ModuleManifest, но возвращает логическое значение: True в случае успешного теста и False в противном случае.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The function uses the Get-ChildItem cmdlet (alias = dir) to get the module manifest specified by the $path variable.</source>
+          <target state="translated">Функция использует командлет Get-ChildItem (псевдоним dir) для получения манифеста модуля, указанного в переменной $path.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to pass the file object to the Test-ModuleManifest cmdlet.</source>
+          <target state="translated">Объект файла передается в командлет Test-ModuleManifest с помощью оператора конвейера (|).</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The Test-ModuleManifest command uses the ErrorAction common parameter with a value of SilentlyContinue to suppress the display of any errors that the command generates.</source>
+          <target state="translated">Команда Test-ModuleManifest использует общий параметр ErrorAction со значением SilentlyContinue для блокирования вывода сообщений об ошибках, создаваемых командой.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It also saves the PSModuleInfo object that Test-ModuleManifest returns in the $a variable, so the object is not displayed.</source>
+          <target state="translated">Кроме того, команда сохраняет в переменной $a объект PSModuleInfo, возвращенный командлетом Test-ModuleManifest, поэтому этот объект не выводится.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Then, in a separate command (the semi-colon <ph id="ph1">\[</ph>;<ph id="ph2">\]</ph> is the command separator), it displays the value of the $?</source>
+          <target state="translated">Затем в отдельную команду (точка с запятой <ph id="ph1">\[</ph>;<ph id="ph2">\]</ph> служит разделителем команд), он отображает значение $?</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>automatic variable, which returns "True" if the previous command generated no error and "False" otherwise.</source>
+          <target state="translated">автоматическую переменную, которая возвращает «True», если предыдущая команда не создала ошибок, значение «False» в противном случае.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can use this function in conditional statements, such as those that might precede an Import-Module command or a command that uses the module.</source>
+          <target state="translated">Эту функцию можно использовать в условных операторах, например операторах перед командой Import-Module или командой, использующей модуль.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the module manifest file.</source>
+          <target state="translated">Указывает путь к файлу манифеста модуля.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Enter a path (optional) and the name of the module manifest file with the .psd1 file name extension.</source>
+          <target state="translated">Укажите путь (необязательно) и имя файла манифеста модуля с расширением PSD1.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The default location is the current directory.</source>
+          <target state="translated">Местоположением по умолчанию является текущий каталог.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Wildcards are supported, but must resolve to a single module manifest file.</source>
+          <target state="translated">Подстановочные знаки поддерживаются, но должны указывать на единственный файл манифеста модуля.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">Это обязательный параметр.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The parameter name ("Path") is optional.</source>
+          <target state="translated">Имя параметра (Path) указывать необязательно.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can also pipe a path to Test-ModuleManifest.</source>
+          <target state="translated">Путь можно также передать в командлет Test-ModuleManifest по конвейеру.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can pipe the path to a module manifest to Test-ModuleManifest.</source>
+          <target state="translated">Путь к манифесту модуля можно передать в командлет Test-ModuleManifest по конвейеру.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSModuleInfo</source>
+          <target state="translated">System.Management.Automation.PSModuleInfo</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Test-ModuleManifest returns a PSModuleInfo object that represents the module.</source>
+          <target state="translated">Командлет Test-ModuleManifest возвращает объект PSModuleInfo, представляющий модуль.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It returns this object even if the manifest has errors.</source>
+          <target state="translated">Объект возвращается даже при наличии ошибок в манифесте.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Export-ModuleMember</source>
+          <target state="translated">Export-ModuleMember</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Get-Module</source>
+          <target state="translated">Get-Module</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>New-ModuleManifest</source>
+          <target state="translated">Новый ModuleManifest</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Remove-Module</source>
+          <target state="translated">Remove-Module</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>about_Modules</source>
+          <target state="translated">about_Modules</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

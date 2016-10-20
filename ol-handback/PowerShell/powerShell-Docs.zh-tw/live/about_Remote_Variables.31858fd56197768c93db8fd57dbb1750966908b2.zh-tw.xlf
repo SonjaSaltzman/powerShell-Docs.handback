@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">477874c51ec09ba56665f31384a1a160efa7d779</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_Remote_Variables.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e4888484ef48fa3457d8a44a5220d2e40ad5f8a8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8ad9b6eb18384ec92717366d69648e4c1b283fd2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Remote_Variables</source>
+          <target state="translated">about_Remote_Variables</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Remote Variables</source>
+          <target state="translated">遠端變數</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Remote_Variables</source>
+          <target state="translated">about_Remote_Variables</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>TOPIC</source>
+          <target state="translated">主題</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>about_Remote_Variables</source>
+          <target state="translated">about_Remote_Variables</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">簡短描述</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Explains how to use local and remote variables in remote commands.</source>
+          <target state="translated">說明如何在遠端命令中使用區域和遠端變數。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">詳細描述</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can use variables in commands that you run on remote computers.</source>
+          <target state="translated">您可以在遠端電腦執行的命令中使用變數。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Simply assign a value to the variable and then use the variable in place of the value.</source>
+          <target state="translated">只要將值指派給變數，然後使用該變數來取代值。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>By default, the variables in remote commands are assumed to be defined in the session in which the command runs.</source>
+          <target state="translated">根據預設，遠端命令中的變數會假設在此命令會執行的工作階段中定義。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can also use variables that are defined in the local session, but you must identify them as local variables in the command.</source>
+          <target state="translated">您也可以使用本機工作階段中所定義的變數，但您必須將它們識別為命令中的本機變數。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>USING REMOTE VARIABLES</source>
+          <target state="translated">使用遠端變數</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell assumes that the variables used in remote commands  are defined in the session in which the command runs.</source>
+          <target state="translated">Windows PowerShell 假設遠端命令中使用的變數，此命令會執行的工作階段中定義。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In the following example, the $ps variable is defined in the temporary  session in which the Get-WinEvent command runs.</source>
+          <target state="translated">在下列範例中，$ps 變數被定義於 Get-winevent 命令執行所在的暫時工作階段。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;Invoke-Command -ComputerName S1 -ScriptBlock {$ps = "Windows PowerShell"; Get-WinEvent -LogName $ps}</source>
+          <target state="translated">PS C: &gt; Invoke-command-ComputerName S1-ScriptBlock {$ps ="Windows PowerShell";Get-winevent LogName $ps}</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Similarly, when the command runs in a persistent session (PSSession), the remote variable must be defined in the same PSSession.</source>
+          <target state="translated">同樣地，當命令執行的持續性的工作階段 (PSSession) 中，遠端變數必須定義在相同的 PSSession。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$s = New-PSSession -ComputerName S1</source>
+          <target state="translated">PS C: &gt; $s = New-pssession-ComputerName S1</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;Invoke-Command -ComputerName S1 -ScriptBlock {$ps = "Windows PowerShell"}</source>
+          <target state="translated">PS C: &gt; Invoke-command-ComputerName S1-ScriptBlock {$ps ="Windows PowerShell"}</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;Invoke-Command -Sessions $s -ScriptBlock {Get-WinEvent -LogName $ps}</source>
+          <target state="translated">PS C: &gt; Invoke-command-工作階段 $s ScriptBlock {Get-winevent-LogName $ps}</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>USING LOCAL VARIABLES</source>
+          <target state="translated">使用本機變數</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can also use local variables in remote commands, but you must indicate that the variable is defined in the local session.</source>
+          <target state="translated">您也可以在遠端命令中，使用本機變數，但會在本機工作階段中定義變數，您必須指定。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can use the Using scope modifier to identify a local variable in a remote command.</source>
+          <target state="translated">從 Windows PowerShell 3.0 開始，您可以使用 Using 範圍修飾符來識別遠端命令中的區域變數。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The syntax of Using is as follows:</source>
+          <target state="translated">使用的語法如下所示︰</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The syntax is: $Using:</source>
+          <target state="translated">語法是︰ $Using:</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the following example, the $ps variable is created in the local session, but is used in the session in which the command runs.</source>
+          <target state="translated">在下列範例中，$ps 變數會在本機工作階段，但使用此命令會執行的工作階段中。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The Using scope modifier identifies $ps as a local variable.</source>
+          <target state="translated">Using 範圍修飾符識別 $ps 成本機變數。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$ps = "Windows PowerShell" PS C:&gt;Invoke-Command -ComputerName S1 -ScriptBlock {Get-WinEvent -LogName $Using:ps}</source>
+          <target state="translated">PS C: &gt; $ps ="Windows PowerShell"PS c: &gt; Invoke-command-ComputerName S1-ScriptBlock {Get-winevent LogName $Using: ps}</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can also use the Using scope modifier in PSSessions.</source>
+          <target state="translated">您也可以使用 Using 範圍修飾符在 Pssession 中。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$s = New-PSSession -ComputerName S1</source>
+          <target state="translated">PS C: &gt; $s = New-pssession-ComputerName S1</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$ps = "Windows PowerShell"</source>
+          <target state="translated">PS C: &gt; $ps ="Windows PowerShell"</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;Invoke-Command -Sessions $s -ScriptBlock {Get-WinEvent -LogName $Using:ps}</source>
+          <target state="translated">PS C: &gt; Invoke-command-工作階段 $s ScriptBlock {Get-winevent LogName $Using: ps}</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>USING LOCAL VARIABLES IN WINDOWS POWERSHELL 2.0</source>
+          <target state="translated">使用 WINDOWS POWERSHELL 2.0 中的區域變數</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can use local variables in a remote command by defining parameters for the remote command and using the ArgumentList parameter of the Invoke-Command cmdlet to specify the local variable as the parameter value.</source>
+          <target state="translated">您可以使用遠端命令中的本機變數定義遠端命令的參數，並使用 Invoke-command cmdlet 的 ArgumentList 參數來指定本機變數當做參數值。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command format is valid on Windows PowerShell 2.0 and later versions of Windows PowerShell.</source>
+          <target state="translated">此命令格式是在 Windows PowerShell 2.0 和更新版本的 Windows PowerShell 中有效。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-- Use the param keyword to define parameters for the remote command.</source>
+          <target state="translated">-使用 param 關鍵字來定義遠端命令的參數。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The parameter names are placeholders that do not need to match the name of the local variable.</source>
+          <target state="translated">參數名稱是不需要符合的本機變數名稱的預留位置。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-- Use the parameters defined by the param keyword in the command.</source>
+          <target state="translated">-使用 param 關鍵字，在命令中所定義的參數。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-- Use the ArgumentList parameter of the Invoke-Command cmdlet to specify the local variable as the parameter value.</source>
+          <target state="translated">-使用 Invoke-command cmdlet 的 ArgumentList 參數來指定本機變數當做參數值。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, the following commands define the $ps variable in the local session and then use it in a remote command.</source>
+          <target state="translated">例如，下列命令在本機工作階段中定義 $ps 變數，然後依遠端命令中。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The command uses $log as the parameter name and the local variable, $ps, as its value.</source>
+          <target state="translated">此命令會使用 $log 做為參數名稱和區域變數 $ps，做為其值。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt;$ps = "Windows PowerShell"</source>
+          <target state="translated">C:\PS&amp;GT; &gt; $ps ="Windows PowerShell"</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt;Invoke-Command -ComputerName S1 -ScriptBlock {param($log) Get-WinEvent -logname $log} -ArgumentList $ps</source>
+          <target state="translated">C:\PS&amp;GT; &gt; Invoke-command-ComputerName S1-ScriptBlock {param($log) Get-winevent logname $log}-ArgumentList $ps</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>KEYWORDS</source>
+          <target state="translated">關鍵字</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>about_Using</source>
+          <target state="translated">about_Using</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">另請參閱</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>about_Remote about_PSSessions about_Scopes Enter-PSSession Invoke-Command New-PSSession</source>
+          <target state="translated">about_Remote about_PSSessions about_Scopes Enter-pssession Invoke-command New-pssession</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

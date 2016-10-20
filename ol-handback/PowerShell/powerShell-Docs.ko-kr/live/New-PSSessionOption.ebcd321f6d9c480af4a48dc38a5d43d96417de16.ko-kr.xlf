@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1b5e5fce398014bb40db24f0f28f3297907e698</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\New-PSSessionOption.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8898dc83c68b5b39e83b6ff8a26fa78c95d9f0af</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ff605083e78199db80cbe1721544b9ebe9c4454</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates an object that contains advanced options for a PSSession.</source>
+          <target state="translated">PSSession에 대한 고급 옵션을 포함하는 개체를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> cmdlet creates an object that contains advanced options for a user-managed session (<bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>).</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> cmdlet은 사용자 관리 세션에 대 한 고급 옵션을 포함 하는 개체를 만듭니다 (<bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>).</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the object as the value of the <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> parameter of cmdlets that create a <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, such as New-PSSession, Enter-PSSession, and Invoke-Command.</source>
+          <target state="translated">값으로 개체를 사용할 수는 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 을 만드는 cmdlet의 매개 변수는 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, Invoke-command New-pssession, Enter-pssession 등입니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Without parameters, <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> generates an object that contains the default values for all of the options.</source>
+          <target state="translated">매개 변수 없이 <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> 모든 옵션에 대 한 기본 값을 포함 하는 개체를 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Because all of the properties can be edited, you can use the resulting object as a template, and create standard option objects for your enterprise.</source>
+          <target state="translated">모든 속성을 편집할 수 있으므로 결과 개체를 템플릿으로 사용하고 엔터프라이즈에 대한 표준 옵션 개체를 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can also save a session option object in the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable.</source>
+          <target state="translated">세션 옵션 개체를 저장할 수도 있습니다는 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 기본 설정 변수입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The values of this variable establish new default values for the session options.</source>
+          <target state="translated">이 변수 값은 세션 옵션에 대한 새 기본값을 설정합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>They effective when no session options are set for the session and they take precedence over options set in the session configuration, but you can override them by specifying session options or a session option object in a cmdlet that creates a session.</source>
+          <target state="translated">세션에 대해 설정된 세션 옵션이 없을 경우 적용되며 세션 구성에서 설정된 옵션보다 우선하지만 세션을 만드는 cmdlet에서 세션 옵션 또는 세션 옵션 개체를 지정하여 재정의할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">에 대 한 자세한 내용은 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 기본 설정 변수 참조 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you use a session option object in a cmdlet that creates a session, the session option values take precedence over default values for sessions set in the $PSSessionOption preference variable and in the session configuration.</source>
+          <target state="translated">세션 옵션 개체를 사용 하 여 세션을 만드는 cmdlet의 경우 세션 옵션 값 우선 기본값 $PSSessionOption 기본 설정 변수 및 세션 구성에서 설정 하는 세션에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>However, they do not take precedence over maximum values, quotas or limits set in the session configuration.</source>
+          <target state="translated">그러나 이러한 값은 세션 구성에 설정된 최대값, 할당량 또는 제한보다 우선하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">세션 구성에 대한 자세한 내용은 about_Session_Configurations(http://go.microsoft.com/fwlink/?LinkID=145152)를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Example 1: Create a default session option</source>
+          <target state="translated">예제 1: 기본 세션 옵션 만들기</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command creates a session option object that has all of the default values.</source>
+          <target state="translated">이 명령은 모든 기본 값이 있는 세션 옵션 개체를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Example 2: Configure a session by using a session option object</source>
+          <target state="translated">세션 옵션 개체를 사용 하 여 세션을 구성 하는 예 2:</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This example shows how to use a session option object to configure a session.</source>
+          <target state="translated">이 예제에서는 세션 옵션 개체를 사용하여 세션을 구성하는 방법을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The first command creates a new session option object and saves it in the value of the $pso variable.</source>
+          <target state="translated">첫 번째 명령은 새 세션 옵션 개체를 만들고 $pso 변수의 값에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-PSSession cmdlet to create a session on the Server01 remote computer.</source>
+          <target state="translated">두 번째 명령은 New-pssession cmdlet를 사용 하 여 Server01 원격 컴퓨터에서 세션을 만들려고 합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command uses the session option object in the value of the $pso variable as the value of the <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter of the command.</source>
+          <target state="translated">명령을 사용 하 여 세션 옵션 개체 $pso 변수의 값에서의 값으로는 <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> 명령의 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 3: Start an interactive session</source>
+          <target state="translated">대화형 세션을 시작 하는 예제 3:</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command uses the Enter-PSSession cmdlet to start an interactive session with the Server01 computer.</source>
+          <target state="translated">이 명령은 Enter-pssession cmdlet을 사용 하 여 Server01 컴퓨터와 대화형 세션을 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter is a <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> command that has the <bpt id="p3">*</bpt>NoEncryption<ept id="p3">*</ept> and <bpt id="p4">*</bpt>NoCompression<ept id="p4">*</ept> parameters.</source>
+          <target state="translated">값은 <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> 매개 변수는는 <bpt id="p2">**</bpt>New-pssessionoption<ept id="p2">**</ept> 있는 명령을 <bpt id="p3">*</bpt>NoEncryption<ept id="p3">*</ept> 및 <bpt id="p4">*</bpt>NoCompression<ept id="p4">*</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> command is enclosed in parentheses to make sure that it runs before the <bpt id="p2">**</bpt>Enter-PSSession<ept id="p2">**</ept> command.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> 명령 전에 실행 되도록 괄호로 묶인는 <bpt id="p2">**</bpt>Enter-pssession<ept id="p2">**</ept> 명령입니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Example 4: Modify a session option object</source>
+          <target state="translated">예 4: 세션 옵션 개체를 수정 합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that you can modify the session option object.</source>
+          <target state="translated">이 예제에서는 세션 옵션 개체를 수정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>All properties have read/write values.</source>
+          <target state="translated">모든 속성에 읽기/쓰기 값이 있습니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use this method to create a standard session object for your enterprise, and then create customized versions of it for particular uses.</source>
+          <target state="translated">이 메서드를 사용하여 엔터프라이즈에 대한 표준 세션 개체를 만든 다음 특정 사용을 위해 이 개체의 사용자 지정 버전을 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Example 5: Create a preference variable</source>
+          <target state="translated">예제 5: 기본 설정 변수를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command creates a $PSSessionOption preference variable.</source>
+          <target state="translated">이 명령은 $PSSessionOption 기본 설정 변수를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When the $PSSessionOption preference variable occurs in the session, it establishes default values for options in the sessions that are created by using the <bpt id="p1">**</bpt>New-PSSession<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Enter-PSSession<ept id="p2">**</ept>, and Invoke-Command cmdlets.</source>
+          <target state="translated">사용 하 여 만들어진 세션의 옵션에 대 한 기본값 설정 $PSSessionOption 기본 설정 변수를 세션에서 발생 하는 경우는 <bpt id="p1">**</bpt>New-pssession<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Enter-pssession<ept id="p2">**</ept>, 및 Invoke-command cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To make the $PSSessionOption variable available in all sessions, add it to your Windows PowerShell session and to your Windows PowerShell profile.</source>
+          <target state="translated">$PSSessionOption 변수를 모든 세션에서 사용할 수 있도록 추가 Windows PowerShell 세션 및 Windows PowerShell 프로필.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information about the $PSSessionOption preference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">$PSSessionOption 기본 설정 변수에 대 한 자세한 내용은 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248)을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For more information about profiles, see about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</source>
+          <target state="translated">프로필에 대 한 자세한 내용은 about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729)를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Example 6: Fulfill the requirements for a remote session configuration</source>
+          <target state="translated">예제 6: 원격 세션 구성에 대 한 요구 사항을 충족합니다</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This example shows how to use a <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> object to fulfill the requirements for a remote session configuration.</source>
+          <target state="translated">사용 하는 방법을 보여 주는이 예제는 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 개체는 원격 세션 구성에 대 한 요구 사항을 충족 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> cmdlet to create a session option object that has the <bpt id="p2">**</bpt>SkipCNCheck<ept id="p2">**</ept> property.</source>
+          <target state="translated">첫 번째 명령은 <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> 있는 세션 옵션 개체를 만드는 cmdlet의 <bpt id="p2">**</bpt>SkipCNCheck<ept id="p2">**</ept> 속성입니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command saves the resulting session object in the $skipCN variable.</source>
+          <target state="translated">이 명령은 결과 세션 개체를 $skipCN 변수에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-PSSession cmdlet to create a new session on a remote computer.</source>
+          <target state="translated">두 번째 명령은 New-pssession cmdlet를 사용 하 여 원격 컴퓨터에서 새 세션을 만들려고 합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The $skipCN check variable is used in the value of the <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">$SkipCN check 변수가 값에 사용 되는 <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Because the computer is identified by its IP address, the value of the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter does not match any of the common names in the certificate that is used for Secure Sockets Layer (SSL).</source>
+          <target state="translated">컴퓨터의 IP를 통해 식별 되기 때문에 주소의 값은 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> 매개 변수 하나에 대 한 SSL Secure Sockets Layer ()에 사용 되는 인증서의 일반 이름과 일치 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>As a result, the <bpt id="p1">**</bpt>SkipCNCheck<ept id="p1">**</ept> option is required.</source>
+          <target state="translated">결과적으로 <bpt id="p1">**</bpt>SkipCNCheck<ept id="p1">**</ept> 옵션을 지정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Example 7: Make arguments available to a remote session</source>
+          <target state="translated">예제 7: 인수는 원격 세션에 사용할 수 있도록</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">*</bpt>ApplicationArguments<ept id="p1">*</ept> parameter of the <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> cmdlet to make additional data available to the remote session.</source>
+          <target state="translated">사용 하는 방법을 보여 주는이 예제는 <bpt id="p1">*</bpt>ApplicationArguments<ept id="p1">*</ept> 의 매개 변수는 <bpt id="p2">**</bpt>New-pssessionoption<ept id="p2">**</ept> cmdlet 추가 데이터를 원격 세션에서 사용할 수 있도록 합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The first command creates a hash table with two keys, Team and Use.</source>
+          <target state="translated">첫 번째 명령은 두 키 Team과 Use가 있는 해시 테이블을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The command saves the hash table in the $team variable.</source>
+          <target state="translated">이 명령은 해시 테이블을 $team 변수에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For more information about hash tables, see about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175).</source>
+          <target state="translated">해시 테이블에 대 한 자세한 내용은 about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175)를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">*</bpt>ApplicationArguments<ept id="p1">*</ept> parameter of the <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> cmdlet to create a session option object that contains the data in the $team variable.</source>
+          <target state="translated">두 번째 명령은 <bpt id="p1">*</bpt>ApplicationArguments<ept id="p1">*</ept> 의 매개 변수는 <bpt id="p2">**</bpt>New-pssessionoption<ept id="p2">**</ept> cmdlet $team 변수에 데이터를 포함 하 여 세션 옵션 개체를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The command saves the session option object in the $teamOption variable.</source>
+          <target state="translated">이 명령은 세션 옵션 개체를 $teamOption 변수에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> creates the session option object, it automatically converts the hash table in the value of the <bpt id="p2">*</bpt>ApplicationArguments<ept id="p2">*</ept> parameter to a primitive dictionary so the data can be reliably transmitted to the remote session.</source>
+          <target state="translated">때 <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> 세션 옵션 개체를 만듭니다 해시 테이블의 값을 자동으로 변환 된 <bpt id="p2">*</bpt>ApplicationArguments<ept id="p2">*</ept> 원격 세션에 데이터를 안정적으로 전송할 수 있도록 기본 사전으로 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The third command uses the New-PSSession cmdlet to start a session on the Server01 computer.</source>
+          <target state="translated">세 번째 명령은 New-pssession cmdlet을 사용 하 여 Server01 컴퓨터에서 세션을 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter to include the options in the $teamOption variable.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> $teamOption 변수의 옵션을 포함 하도록 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The fourth command demonstrates that the data in the $team variable is available to commands in the remote session.</source>
+          <target state="translated">네 번째 명령은 원격 세션의 명령에서 $team 변수의 데이터를 사용할 수 있음을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The data appears in the <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> property of the $PSSenderInfo automatic variable.</source>
+          <target state="translated">에 데이터가 표시 되는 <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> $PSSenderInfo 자동 변수의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The fifth command shows how the data might be used.</source>
+          <target state="translated">다섯 번째 명령은 데이터를 사용하는 방법을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The command uses the Invoke-Command cmdlet to run a script only when the value of the <bpt id="p1">**</bpt>Use<ept id="p1">**</ept> property is not Testing.</source>
+          <target state="translated">이 명령은 Invoke-command cmdlet를 사용 하 여 스크립트를 실행 하려면 경우에만 값은 <bpt id="p1">**</bpt>사용<ept id="p1">**</ept> 속성을 테스트 하지 않고 합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When the value of <bpt id="p1">**</bpt>Use<ept id="p1">**</ept> is Testing, the command returns Just testing.</source>
+          <target state="translated">때의 값 <bpt id="p1">**</bpt>사용<ept id="p1">**</ept> 테스트 하 고만 테스트 명령을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-ApplicationArguments</source>
+          <target state="translated">-ApplicationArguments</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specifies a primitive dictionary that is sent to the remote session.</source>
+          <target state="translated">원격 세션으로 전송되는 기본 사전을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Commands and scripts in the remote session, including startup scripts in the session configuration, can find this dictionary in the <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> property of the $PSSenderInfo automatic variable.</source>
+          <target state="translated">세션 구성에서 시작 스크립트를 비롯 하 여 원격 세션의 명령과 스크립트에서이 사전을 확인할 수는 <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> $PSSenderInfo 자동 변수의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to send data to the remote session.</source>
+          <target state="translated">이 매개 변수를 사용하여 데이터를 원격 세션으로 보낼 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A primitive dictionary is like a hash table, but it contains keys that are case-insensitive strings and values that can be serialized and deserialized during Windows PowerShell remoting handshakes.</source>
+          <target state="translated">기본 사전은 해시 테이블과 같지만 Windows PowerShell 원격 핸드셰이크 중 직렬화 및 역직렬화될 수 있는 대/소문자를 구분하지 않는 문자열과 값인 키를 포함합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If you enter a hash table for the value of this parameter, Windows PowerShell converts it to a primitive dictionary.</source>
+          <target state="translated">이 매개 변수 값으로 해시 테이블을 입력할 경우 Windows PowerShell에서 기본 사전으로 변환합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175), about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152), and about_Automatic_Variables (http://go.microsoft.com/fwlink/?LinkID=113212).</source>
+          <target state="translated">자세한 내용은 about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175), about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152) 및 about_Automatic_Variables (http://go.microsoft.com/fwlink/?LinkID=113212)를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-CancelTimeout</source>
+          <target state="translated">-CancelTimeout</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Determines how long Windows PowerShell waits for a cancel operation (CTRL + C) to finish before ending it.</source>
+          <target state="translated">Windows PowerShell 작업 취소 (CTRL + C) 종료 완료를 기다리는 기간을 결정 합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">값을 밀리초 단위로 입력하세요.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The default value is 60000 (one minute).</source>
+          <target state="translated">기본값은 60000(1분)입니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) means no time-out; the command continues indefinitely.</source>
+          <target state="translated">값이 0이면 시간 제한이 없으며 명령이 무기한 계속됩니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-Culture</source>
+          <target state="translated">Culture</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Specifies the culture to use for the session.</source>
+          <target state="translated">세션에 사용할 문화권을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Enter a culture name in <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> format, such as ja-jP, a variable that contains a <bpt id="p1">**</bpt>CultureInfo<ept id="p1">**</ept> object, or a command that gets a <bpt id="p2">**</bpt>CultureInfo<ept id="p2">**</ept> object, such as Get-Culture.</source>
+          <target state="translated">문화권 이름 입력 <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> 예: Ja-jp를 포함 하는 변수 형식을 <bpt id="p1">**</bpt>CultureInfo<ept id="p1">**</ept> 개체 또는 가져오는 명령은 <bpt id="p2">**</bpt>CultureInfo<ept id="p2">**</ept> Get-culture 같은 개체입니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The default value is $Null, and the culture that is set in the operating system is used in the session.</source>
+          <target state="translated">기본값은 $Null, 및 운영 체제에서 설정 된 문화권이 세션에 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-IdleTimeout</source>
+          <target state="translated">-IdleTimeout</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Determines how long the session stays open if the remote computer does not receive any communication from the local computer.</source>
+          <target state="translated">기간 세션이 열려 있는 원격 컴퓨터의 로컬 컴퓨터에서 모든 통신을 받지 않을 경우를 결정 합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This includes the heartbeat signal.</source>
+          <target state="translated">하트 비트 신호를 포함 됩니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the session closes.</source>
+          <target state="translated">간격이 만료되면 세션이 닫힙니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The idle time-out value is of significant importance if you intend to disconnect and reconnect to a session.</source>
+          <target state="translated">유휴 시간 제한 값은 연결을 끊고 세션에 다시 연결 하려는 경우 중요 합니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>You can reconnect only if the session has not timed out.</source>
+          <target state="translated">세션이 시간 초과되지 않은 경우에만 다시 연결할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">값을 밀리초 단위로 입력하세요.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The minimum value is 60000 (1 minute).</source>
+          <target state="translated">최소값은 60000(1분)입니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The maximum is the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutms<ept id="p1">**</ept> property of the session configuration.</source>
+          <target state="translated">최대값은의 값은 <bpt id="p1">**</bpt>MaxIdleTimeoutms<ept id="p1">**</ept> 세션 구성의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The default value, -1, does not set an idle time-out.</source>
+          <target state="translated">기본값-1, 유휴 제한 시간을 설정 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The session uses the idle time-out that is set in the session options, if any.</source>
+          <target state="translated">세션이 있는 경우 세션 옵션에 설정 된 유휴 시간 제한을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If none is set (-1), the session uses the value of the <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> property of the session configuration or the WSMan shell time-out value (<ph id="ph1">`WSMan:\\\&lt;ComputerName\&gt;\Shell\IdleTimeout`</ph>), whichever is shortest.</source>
+          <target state="translated">세션의 값을 사용 (-1)을 설정 하지 않은 경우는 <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> 세션 구성 이나 WSMan 셸 시간 제한 값의 속성 (<ph id="ph1">`WSMan:\\\&lt;ComputerName\&gt;\Shell\IdleTimeout`</ph>), 중 가장 짧은 것입니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If the idle timeout set in the session options exceeds the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property of the session configuration, the command to create a session fails.</source>
+          <target state="translated">세션 옵션에서 설정 된 유휴 시간 값을 초과 하는 경우는 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 실패 세션을 생성 하는 명령이 세션 구성의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> value of the default <bpt id="p2">**</bpt>Microsoft.PowerShell<ept id="p2">**</ept> session configuration is 7200000 milliseconds (2 hours).</source>
+          <target state="translated"> <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> 기본값이 <bpt id="p2">**</bpt>Microsoft.PowerShell<ept id="p2">**</ept> 세션 구성을 7200000 밀리초 (2 시간).</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Its <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> value is 2147483647 milliseconds (<ph id="ph1">\&gt;</ph>24 days).</source>
+          <target state="translated">해당 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 값은 2147483647 밀리초 (<ph id="ph1">\&gt;</ph>24 일)입니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The default value of the WSMan shell idle time-out (<ph id="ph1">`WSMan:\\\&lt;ComputerName\&gt;\Shell\IdleTimeout`</ph>) is 7200000 milliseconds (2 hours).</source>
+          <target state="translated">WSMan 셸 유휴 시간 제한의 기본값 (<ph id="ph1">`WSMan:\\\&lt;ComputerName\&gt;\Shell\IdleTimeout`</ph>)은 7200000 밀리초 (2 시간).</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The idle time-out value of a session can also be changed when disconnecting from a session or reconnecting to a session.</source>
+          <target state="translated">세션에서 연결 끊기 또는 세션에 다시 연결할 때 세션의 유휴 시간 제한 값을 변경할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For more information, see Disconnect-PSSession and Connect-PSSession.</source>
+          <target state="translated">자세한 내용은 Disconnect-pssession 및 Connect-pssession를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, the default value of the <bpt id="p1">*</bpt>IdleTimeout<ept id="p1">*</ept> parameter is 240000 (4 minutes).</source>
+          <target state="translated">Windows PowerShell 2.0에서의 기본값은 <bpt id="p1">*</bpt>IdleTimeout<ept id="p1">*</ept> 매개 변수는 240000 (4 분)입니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-IncludePortInSPN</source>
+          <target state="translated">-IncludePortInSPN</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Includes the port number in the Service Principal Name (SPN) used for Kerberos authentication, for example, <ph id="ph1">`HTTP/\&lt;ComputerName\&gt;:5985`</ph>.</source>
+          <target state="translated">에 주 SPN (서비스 이름) Kerberos 인증에 사용 되는 포트 번호를 포함 <ph id="ph1">`HTTP/\&lt;ComputerName\&gt;:5985`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This option allows a client that uses a non-default SPN to authenticate against a remote computer that uses Kerberos authentication.</source>
+          <target state="translated">이 옵션은 기본값이 아닌 SPN을 사용하는 클라이언트가 Kerberos 인증을 사용하는 원격 컴퓨터에 인증할 수 있도록 합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The option is designed for enterprises where multiple services that support Kerberos authentication are running under different user accounts.</source>
+          <target state="translated">Kerberos 인증을 지원하는 여러 서비스가 서로 다른 사용자 계정으로 실행되는 엔터프라이즈를 위한 옵션입니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>For example, an IIS application that allows for Kerberos authentication can require the default SPN to be registered to a user account that differs from the computer account.</source>
+          <target state="translated">예를 들어 Kerberos 인증을 허용 하는 IIS 응용 프로그램에는 기본 SPN을 등록 하 여 컴퓨터 계정과 다른 사용자 계정에 필요할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>In such cases, Windows PowerShell remoting cannot use Kerberos to authenticate because it requires an SPN that is registered to the computer account.</source>
+          <target state="translated">이 경우 Windows PowerShell 원격에서 컴퓨터 계정에 등록된 SPN이 필요하므로 Kerberos를 사용하여 인증할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To resolve this problem, administrators can create different SPNs, such as by using Setspn.exe, that are registered to different user accounts and can distinguish between them by including the port number in the SPN.</source>
+          <target state="translated">이 문제를 해결 하려면 관리자 Setspn.exe를 사용 하 여 다른 사용자 계정에 등록 하 고이 SPN에 포트 번호를 포함 하 여 서로 구분할 수와 같은 여러 개의 Spn을 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>For more information about SetSPN.exe, see SetSPN Overviewhttp://go.microsoft.com/fwlink/?LinkID=189413 (http://go.microsoft.com/fwlink/?LinkID=189413).</source>
+          <target state="translated">SetSPN.exe에 대 한 자세한 내용은 SetSPN Overviewhttp://go.microsoft.com/fwlink/?LinkID=189413 (http://go.microsoft.com/fwlink/?LinkID=189413)을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입 되었습니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-MaxConnectionRetryCount</source>
+          <target state="translated">-MaxConnectionRetryCount</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Specifies the number of times that PowerShell attempts to make a connection to a target machine if the current attempt fails due to network issues.</source>
+          <target state="translated">PowerShell 네트워크 문제로 인해 현재 시도가 실패 한 경우 대상 컴퓨터에 대 한 연결을 시도 하는 횟수를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">기본값은 5입니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This parameter was added for PowerShell version 5.0.</source>
+          <target state="translated">이 매개 변수는 PowerShell 버전 5.0에 대 한 추가 되었습니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>-MaximumReceivedDataSizePerCommand</source>
+          <target state="translated">-MaximumReceivedDataSizePerCommand</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of bytes that the local computer can receive from the remote computer in a single command.</source>
+          <target state="translated">로컬 컴퓨터가 단일 명령으로 원격 컴퓨터에서 수신할 수 있는 최대 바이트 수를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Enter a value in bytes.</source>
+          <target state="translated">값을 바이트 단위로 입력합니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>By default, there is no data size limit.</source>
+          <target state="translated">기본적으로 데이터 크기 제한은 없습니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>This option is designed to protect the resources on the client computer.</source>
+          <target state="translated">이 옵션은 클라이언트 컴퓨터의 리소스를 보호하는 데 사용됩니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-MaximumReceivedObjectSize</source>
+          <target state="translated">-MaximumReceivedObjectSize</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum size of an object that the local computer can receive from the remote computer.</source>
+          <target state="translated">로컬 컴퓨터가 원격 컴퓨터에서 수신할 수 있는 개체의 최대 크기를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This option is designed to protect the resources on the client computer.</source>
+          <target state="translated">이 옵션은 클라이언트 컴퓨터의 리소스를 보호하는 데 사용됩니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Enter a value in bytes.</source>
+          <target state="translated">값을 바이트 단위로 입력합니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, if you omit this parameter, there is no object size limit.</source>
+          <target state="translated">Windows PowerShell 2.0에서 이 매개 변수를 생략하면 개체 크기 제한이 없습니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, if you omit this parameter, the default value is 200 MB.</source>
+          <target state="translated">Windows PowerShell 3.0부터 이 매개 변수를 생략할 경우 기본값은 200MB입니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>-MaximumRedirection</source>
+          <target state="translated">-MaximumRedirection</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Determines how many times Windows PowerShell redirects a connection to an alternate Uniform Resource Identifier (URI) before the connection fails.</source>
+          <target state="translated">연결이 실패하기 전에 Windows PowerShell에서 연결을 대체 URI(Uniform Resource Identifier)로 리디렉션하는 횟수를 결정합니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">기본값은 5입니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) prevents all redirection.</source>
+          <target state="translated">값 0은 모든 리디렉션을 차단합니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This option is used in the session only when the <bpt id="p1">*</bpt>AllowRedirection<ept id="p1">*</ept> parameter is used in the command that creates the session.</source>
+          <target state="translated">세션에서이 옵션은 사용 하는 경우에만 <bpt id="p1">*</bpt>AllowRedirection<ept id="p1">*</ept> 세션을 만드는 명령에 매개 변수를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-NoCompression</source>
+          <target state="translated">-NoCompression</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Turns off packet compression in the session.</source>
+          <target state="translated">세션에서 패킷 압축을 해제합니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Compression uses more processor cycles, but it makes transmission faster.</source>
+          <target state="translated">압축하면 프로세서 주기가 더 많이 사용되지만 전송 속도가 빨라집니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>-NoEncryption</source>
+          <target state="translated">-NoEncryption</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Turns off data encryption.</source>
+          <target state="translated">데이터 암호화를 해제합니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>-NoMachineProfile</source>
+          <target state="translated">-NoMachineProfile</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Prevents loading the user's Windows user profile.</source>
+          <target state="translated">사용자의 Windows 사용자 프로필이 로드되지 않도록 합니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>As a result, the session might be created faster, but user-specific registry settings, items such as environment variables, and certificates are not available in the session.</source>
+          <target state="translated">따라서 세션을 더 빨리 만들 수 있지만 사용자별 레지스트리 설정, 환경 변수와 같은 항목 및 인증서를 세션에서 사용할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-OpenTimeout</source>
+          <target state="translated">-OpenTimeout</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Determines how long the client computer waits for the session connection to be established.</source>
+          <target state="translated">클라이언트 컴퓨터가 세션 연결이 설정될 때까지 기다리는 기간을 결정합니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the command to establish the connection fails.</source>
+          <target state="translated">간격이 만료되면 연결 설정 명령이 실패합니다.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">값을 밀리초 단위로 입력하세요.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The default value is 180000 (3 minutes).</source>
+          <target state="translated">기본값은 180000(3분)입니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) means no time-out; the command continues indefinitely.</source>
+          <target state="translated">값이 0이면 시간 제한이 없으며 명령이 무기한 계속됩니다.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>-OperationTimeout</source>
+          <target state="translated">-OperationTimeout</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Determines the maximum time that any operation in the session can run.</source>
+          <target state="translated">세션의 작업이 실행될 수 있는 최대 시간을 결정합니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the operation fails.</source>
+          <target state="translated">간격이 만료되면 작업이 실패합니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">값을 밀리초 단위로 입력하세요.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The default value is 180000 (3 minutes).</source>
+          <target state="translated">기본값은 180000(3분)입니다.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) means no time-out; the operation continues indefinitely.</source>
+          <target state="translated">값이 0이면 시간 제한이 없으며 작업이 무기한 계속됩니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>-OutputBufferingMode</source>
+          <target state="translated">-OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Determines how command output is managed in disconnected sessions when the output buffer becomes full.</source>
+          <target state="translated">출력 버퍼가 가득 찰 경우 연결이 끊긴 세션에서 명령 출력을 관리하는 방법을 결정합니다.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>If the output buffering mode is not set in the session or in the session configuration, the default value is <bpt id="p1">**</bpt>Block<ept id="p1">**</ept>.</source>
+          <target state="translated">출력 버퍼링 모드 세션에서 설정 되지 않은 경우 기본값은 세션 구성에 <bpt id="p1">**</bpt>블록<ept id="p1">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Users can also change the output buffering mode when disconnecting the session.</source>
+          <target state="translated">사용자가 세션에서 연결을 끊을 때 출력 버퍼링 모드를 변경할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, the value of the <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> of the session option object is None.</source>
+          <target state="translated">값이 매개이 변수를 생략 하면는 <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> 세션 옵션 개체 None입니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>A value of Block or Drop overrides the output buffering mode transport option set in the session configuration.</source>
+          <target state="translated">블록 또는 Drop 값 출력 버퍼링 모드 전송 옵션은 세션 구성에서 설정 보다 우선 합니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">이 매개 변수에 허용되는 값은 다음과 같습니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Block.</source>
+          <target state="translated">블록입니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated">출력 버퍼가 가득 찰 경우 버퍼를 지울 때까지 실행이 일시 중단됩니다.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Drop.</source>
+          <target state="translated">삭제 합니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>When the output buffer is full, execution continues.</source>
+          <target state="translated">출력 버퍼가 가득 차도 실행이 계속됩니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>As new output is saved, the oldest output is discarded.</source>
+          <target state="translated">새 출력이 저장되면 가장 오래된 출력을 버립니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>None.</source>
+          <target state="translated">없음</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>No output buffering mode is specified.</source>
+          <target state="translated">출력 버퍼링 모드를 지정하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>For more information about the output buffering mode transport option, see New-PSTransportOption.</source>
+          <target state="translated">출력 버퍼링 모드 전송 옵션에 대 한 자세한 내용은 New-pstransportoption를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입 되었습니다.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>-ProxyAccessType</source>
+          <target state="translated">-ProxyAccessType</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Determines which mechanism is used to resolve the host name.</source>
+          <target state="translated">호스트 이름을 확인하는 데 사용되는 메커니즘을 결정합니다.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">이 매개 변수에 허용되는 값은 다음과 같습니다.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>IEConfig</source>
+          <target state="translated">IEConfig</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>WinHttpConfig</source>
+          <target state="translated">WinHttpConfig</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>AutoDetect</source>
+          <target state="translated">자동 검색</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>NoProxyServer</source>
+          <target state="translated">NoProxyServer</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">없음</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The default value is None.</source>
+          <target state="translated">기본값은 None입니다.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see the description of the System.Management.Automation.Remoting.ProxyAccessTypehttp://go.microsoft.com/fwlink/?LinkId=144756 (http://go.microsoft.com/fwlink/?LinkId=144756) enumeration in the Microsoft Developer Network (MSDN) library.</source>
+          <target state="translated">이 매개 변수 값에 대 한 정보를 Microsoft MSDN (Developer Network) 라이브러리의 System.Management.Automation.Remoting.ProxyAccessTypehttp://go.microsoft.com/fwlink/?LinkId=144756 (http://go.microsoft.com/fwlink/?LinkId=144756) 열거형에 대 한 설명을 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>-ProxyAuthentication</source>
+          <target state="translated">-ProxyAuthentication</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Specifies the authentication method that is used for proxy resolution.</source>
+          <target state="translated">프록시 확인에 사용되는 인증 방법을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are: Basic,  Digest, and Negotiate.</source>
+          <target state="translated">이 매개 변수에 대해 허용 가능한 값은: 기본, 다이제스트 및 협상 합니다.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The default value is Negotiate.</source>
+          <target state="translated">기본값은 협상 합니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see the description of the System.Management.Automation.Runspaces.AuthenticationMechanismhttp://go.microsoft.com/fwlink/?LinkID=144382 enumeration (http://go.microsoft.com/fwlink/?LinkID=144382) in the MSDN library.</source>
+          <target state="translated">이 매개 변수 값에 대 한 정보를 MSDN library에서 System.Management.Automation.Runspaces.AuthenticationMechanismhttp://go.microsoft.com/fwlink/?LinkID=144382 열거형 (http://go.microsoft.com/fwlink/?LinkID=144382)에 대 한 설명을 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>-ProxyCredential</source>
+          <target state="translated">-ProxyCredential</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Specifies the credentials to use for proxy authentication.</source>
+          <target state="translated">프록시 인증에 사용할 자격 증명을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object or a command that gets a <bpt id="p2">**</bpt>PSCredential<ept id="p2">**</ept> object, such as a Get-Credential command.</source>
+          <target state="translated">포함 된 변수를 입력 한 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> 개체 또는 가져오는 명령은 <bpt id="p2">**</bpt>PSCredential<ept id="p2">**</ept> 예: Get-credential 명령 개체입니다.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>If this option is not set, no credentials are specified.</source>
+          <target state="translated">이 옵션을 설정하지 않으면 자격 증명이 지정되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>-SkipCACheck</source>
+          <target state="translated">-SkipCACheck</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Specifies that when it connects over HTTPS, the client does not validate that the server certificate is signed by a trusted certification authority (CA).</source>
+          <target state="translated">HTTPS를 통해 연결할 때 클라이언트를 확인 하지 않습니다 서버 인증서가 신뢰할 수 있는 인증 기관 (CA)에서 서명를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Use this option only when the remote computer is trusted by using another mechanism, such as when the remote computer is part of a network that is physically secure and isolated or when the remote computer is listed as a trusted host in a WinRM configuration.</source>
+          <target state="translated">이 옵션은 원격 컴퓨터가 물리적으로 안전하고 격리된 네트워크에 속해 있거나 원격 컴퓨터가 WinRM 구성에 신뢰할 수 있는 호스트로 나열되어 있는 경우와 같이 원격 컴퓨터를 다른 메커니즘으로 신뢰할 수 있는 경우에만 사용합니다.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>-SkipCNCheck</source>
+          <target state="translated">-SkipCNCheck</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Specifies that the certificate common name (CN) of the server does not have to match the host name of the server.</source>
+          <target state="translated">서버 인증서 일반 이름 (CN) 서버의 호스트 이름과 일치 하도록 없는지를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>This option is used only in remote operations that use the HTTPS protocol.</source>
+          <target state="translated">이 옵션은 HTTPS 프로토콜을 사용하는 원격 작업에서만 사용됩니다.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Use this option only for trusted computers.</source>
+          <target state="translated">신뢰할 수 있는 컴퓨터에 대해서만 이 옵션을 사용합니다.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>-SkipRevocationCheck</source>
+          <target state="translated">-SkipRevocationCheck</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Does not validate the revocation status of the server certificate.</source>
+          <target state="translated">서버 인증서의 해지 상태를 확인하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>-UICulture</source>
+          <target state="translated">-UICulture</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Specifies the UI culture to use for the session.</source>
+          <target state="translated">세션에 사용할 UI 문화권을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Enter a culture name in <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> format, such as ja-jP, a variable that contains a <bpt id="p1">**</bpt>CultureInfo<ept id="p1">**</ept> object, or a command that gets a <bpt id="p2">**</bpt>CultureInfo<ept id="p2">**</ept> object, such as <bpt id="p3">**</bpt>Get-Culture<ept id="p3">**</ept>.</source>
+          <target state="translated">문화권 이름에 <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> 예: Ja-jp를 포함 하는 변수 형식을 <bpt id="p1">**</bpt>CultureInfo<ept id="p1">**</ept> 개체 또는 가져오는 명령은 <bpt id="p2">**</bpt>CultureInfo<ept id="p2">**</ept> 와 같은 개체를 <bpt id="p3">**</bpt>Get-culture<ept id="p3">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The default value is $Null, and the UI culture that is set in the operating system when the session is created is used in the session.</source>
+          <target state="translated">기본값은 $Null, 및 세션에서 세션을 만들 때 운영 체제에서 설정 된 UI 문화권이 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>-UseUTF16</source>
+          <target state="translated">-UseUTF16</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet encodes the request in UTF16 format instead of UTF8 format.</source>
+          <target state="translated">이 cmdlet에서 요청에 UTF8 형식 대신 UTF16 형식 인코딩 함을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">없음</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">이 cmdlet에 입력을 파이프할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Remoting.PSSessionOption</source>
+          <target state="translated">System.Management.Automation.Remoting.PSSessionOption</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter is not used in a command to create a <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, the session options are determined by the property values of the $PSSessionOption preference variable, if it is set.</source>
+          <target state="translated">하는 경우는 <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> 매개 변수를 만드는 명령에서 사용 하지는 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, 세션 옵션으로 설정 되어 있으면 $PSSessionOption 기본 설정 변수의 속성 값에 의해 결정 됩니다.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>For more information about the $PSSessionOption variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">$PSSessionOption 변수에 대 한 자세한 내용은 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248)을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The properties of a session configuration object vary with the options set for the session configuration and the values of those options.</source>
+          <target state="translated">세션 구성 개체의 속성은 세션 구성에 대해 설정된 옵션과 해당 옵션 값에 따라 달라집니다.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Also, session configurations that use a session configuration file have additional properties.</source>
+          <target state="translated">또한 세션 구성 파일을 사용하는 세션 구성에는 추가 속성이 있습니다.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c207089f2e7aac251da9f7369bc2c1c70a0c6ab</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Out-GridView.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7efab418877eb800382e955cd294cb252e843083</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c66a02a742b7335053e74b2939d43516c9d70b7c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Out-GridView</source>
+          <target state="translated">Out-GridView</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Out-GridView</source>
+          <target state="translated">Out-GridView</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Sends output to an interactive table in a separate window.</source>
+          <target state="translated">將輸出傳送到另一個視窗中的互動式表格。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>PassThru (Default)</source>
+          <target state="translated">PassThru （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Wait</source>
+          <target state="translated">Wait</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>OutputMode</source>
+          <target state="translated">OutputMode</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept> cmdlet sends the output from a command to a grid view window where the output is displayed in an interactive table.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept> 指令程式命令的輸出傳送至其中的輸出會顯示在互動式資料表資料格檢視視窗。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Because this cmdlet requires a user interface, it does not work on Server Core installations of Windows Server.</source>
+          <target state="translated">因為此 Cmdlet 需要使用者介面，它無法在 Windows Server 的 Server Core 安裝上使用。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use the following features of the table to examine your data:</source>
+          <target state="translated">您可以使用下列表格功能來檢查您的資料：</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Hide, Show, and Reorder Columns: To hide, show, or reorder a column, right-click a column header and then click "Select Columns."</source>
+          <target state="translated">隱藏、 顯示和重新排列資料行︰ 若要隱藏，顯示，或重新排列資料行，以滑鼠右鍵按一下資料行標頭，然後按一下 「 選取資料行 」。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Sort.</source>
+          <target state="translated">排序。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To sort the data, click a column header.</source>
+          <target state="translated">若要排序資料，請按一下欄標題。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Click again to toggle from ascending to descending order.</source>
+          <target state="translated">再按一次即可從遞增順序切換成遞減順序。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Quick Filter.</source>
+          <target state="translated">快速篩選器。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Use the "Filter" box at the top of the window to search the text in the table.</source>
+          <target state="translated">使用視窗頂端的 [篩選] 方塊來搜尋表格中的文字。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can search for text in a particular column, search for literals, and search for multiple words.</source>
+          <target state="translated">您可以搜尋特定欄位中的文字、搜尋常值，以及搜尋多個文字。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Criteria Filter.</source>
+          <target state="translated">準則篩選器。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Use the "Add criteria" drop-down menu to create rules to filter the data.</source>
+          <target state="translated">使用 [新增條件] 下拉式功能表來建立篩選資料的規則。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This is very useful for very large data sets, such as event logs.</source>
+          <target state="translated">這對非常大型的資料集 (例如事件記錄檔) 來說非常有用。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Copy and paste.</source>
+          <target state="translated">複製並貼上。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To copy rows of data from Out-GridView, press CTRL+C (copy).</source>
+          <target state="translated">若要從 Out-GridView 複製資料列，請按 CTRL+C (複製)。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can paste the data into any text or spreadsheet program.</source>
+          <target state="translated">您可以將資料貼到任何文字或試算表程式中。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For instructions for using these features, type "Get-Help Out-GridView -Full" and see "How to Use the Grid View Window Features" in the NOTES section.</source>
+          <target state="translated">如需使用這些功能的指示，請輸入"Get-Help Out-GridView -Full" 及參閱＜附註＞一節中的＜如何使用資料格檢視視窗功能＞。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 範例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This command gets the processes running on the local computer and sends them to a grid view window.</source>
+          <target state="translated">這個命令會取得在本機電腦上執行的處理程序，並將它們傳送到資料格檢視視窗。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command also gets the processes running on the local computer and sends them to a grid view window.</source>
+          <target state="translated">這個命令也會取得在本機電腦上執行的處理程序，並將它們傳送到資料格檢視視窗。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-Process cmdlet to get the processes on the computer and then saves the process objects in the $p variable.</source>
+          <target state="translated">第一個命令使用 Get-process cmdlet 取得電腦上的處理程序，然後將處理程序物件儲存在 $p 變數中。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The second command uses a pipeline operator to send the $p variable to <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept>.</source>
+          <target state="translated">第二個命令使用管線運算子將 $p 變數 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command displays a formatted table in a grid view window.</source>
+          <target state="translated">這個命令會在資料格檢視視窗中顯示格式化的表格。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It uses the Get-Process cmdlet to get the processes on the computer.</source>
+          <target state="translated">它使用 Get-process cmdlet 取得電腦上的處理程序。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Then, it uses a pipeline operator (|) to send the process objects to the Select-Object cmdlet.</source>
+          <target state="translated">然後，它可以使用管線運算子 (|) 將處理程序物件傳送至 Select-object 指令程式。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept> to select the Name, WorkingSet, and PeakWorkingSet properties to be displayed in the table.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>屬性<ept id="p1">**</ept> 參數 <bpt id="p2">**</bpt>Select-object<ept id="p2">**</ept> 來選取要顯示在資料表中的名稱、 WorkingSet 及 PeakWorkingSet 屬性。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Another pipeline operator sends the filtered objects to the Sort-Object cmdlet, which sorts them in descending order by the value of the WorkingSet property.</source>
+          <target state="translated">另一個管線運算子會傳送 Sort-object 指令程式，以遞減順序排序 WorkingSet 屬性的值已篩選的物件。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The final part of the command uses a pipeline operator (|) to send the formatted table to <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept>.</source>
+          <target state="translated">命令的最後一個部分用於管線運算子 (|) 將格式化的表格 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can now use the features of the grid view to search, sort, and filter the data.</source>
+          <target state="translated">您現在已經可以使用資料格檢視的功能來搜尋、排序及篩選資料。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This command saves its output in a variable and sends it to <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept>.</source>
+          <target state="translated">此命令會將其輸出儲存在變數中，並將它傳送至 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-ChildItem cmdlet to get the files in the Windows PowerShell installation directory and its subdirectories.</source>
+          <target state="translated">命令使用 Get-childitem cmdlet 取得 Windows PowerShell 安裝目錄及其子目錄中的檔案。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The path to the installation directory is saved in the $pshome automatic variable.</source>
+          <target state="translated">安裝目錄的路徑儲存在 $pshome 自動變數中。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The command uses the assignment operator (=) to save the output in the $a variable and the pipeline operator (|) to send the output to <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept>.</source>
+          <target state="translated">命令使用指派運算子 （=） 將輸出儲存在 $a 變數並使用管線運算子 (|) 將輸出傳送至 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The parentheses in the command establish the order of operations.</source>
+          <target state="translated">命令中的括號會確立操作的順序。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>As a result, the output from the Get-ChildItem command is saved in the $a variable before it is sent to <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept>.</source>
+          <target state="translated">如此一來，Get-childitem 命令的輸出會儲存在 $a 變數傳送至之前 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This command displays the processes that are running on the Server01 computer in a grid view window.</source>
+          <target state="translated">這個命令會在資料格檢視視窗中顯示在 Server01 電腦上執行的處理程序。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The command uses "ogv," which is the built-in alias for the <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept> cmdlet, it uses the <bpt id="p2">**</bpt>Title<ept id="p2">**</ept> parameter to specify the window title.</source>
+          <target state="translated">此命令會使用"ogv 是內建的別名 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept> 指令程式，它會使用 <bpt id="p2">**</bpt>標題<ept id="p2">**</ept> 參數來指定視窗標題。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This example shows the correct format for sending data collected from remote computers to the <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">此範例顯示正確的格式，從遠端電腦收集資料的傳送 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The command uses the Invoke-Command cmdlet to run a Get-Culture command on three remote computers.</source>
+          <target state="translated">命令使用 Invoke-command cmdlet 在三部遠端電腦上執行 Get-culture 命令。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator to send the data that is returned to the <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">它使用管線運算子將資料傳回給傳送 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Notice that the script block that contains the commands that are run remotely does not include the <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept> command.</source>
+          <target state="translated">請注意，指令碼區塊，其中包含從遠端執行的命令不包含 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept> 命令。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If it did, the command would fail when it tried to open a grid view window on each of the remote computers.</source>
+          <target state="translated">如果有包含，當此命令嘗試在每一部遠端電腦上開啟資料格檢視視窗時，將會失敗。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This command lets you select multiple processes from the <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept> window.</source>
+          <target state="translated">此命令可讓您選取多個處理序從 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept> 視窗。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The processes that you select are passed to the <bpt id="p1">**</bpt>Export-Csv<ept id="p1">**</ept> command and written to the ProcessLog.csv file.</source>
+          <target state="translated">您選取的處理程序會傳遞至 <bpt id="p1">**</bpt>Export-csv<ept id="p1">**</ept> 命令並寫入 ProcessLog.csv 檔案。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Out-GridView<ept id="p2">**</ept>, which lets you send multiple items down the pipeline.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> 參數 <bpt id="p2">**</bpt>Out-gridview<ept id="p2">**</ept>, ，可讓您傳送到管線的多個項目。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter is equivalent to using the <bpt id="p2">**</bpt>Multiple<ept id="p2">**</ept> value of the <bpt id="p3">**</bpt>OutputMode<ept id="p3">**</ept> parameter.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> 參數相當於使用 <bpt id="p2">**</bpt>多<ept id="p2">**</ept> 值 <bpt id="p3">**</bpt>OutputMode<ept id="p3">**</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 8 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 8 --------------------------</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This command shows how to use the <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Out-GridView<ept id="p2">**</ept> to create a Windows shortcut to the <bpt id="p3">**</bpt>Out-GridView<ept id="p3">**</ept> window.</source>
+          <target state="translated">此命令會顯示如何使用 <bpt id="p1">**</bpt>等候<ept id="p1">**</ept> 參數 <bpt id="p2">**</bpt>Out-gridview<ept id="p2">**</ept> ，建立 Windows 捷徑 <bpt id="p3">**</bpt>Out-gridview<ept id="p3">**</ept> 視窗。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Without the <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter, Windows PowerShell would exit as soon as the <bpt id="p2">**</bpt>Out-GridView<ept id="p2">**</ept> window opened, which would close the <bpt id="p3">**</bpt>Out-GridView<ept id="p3">**</ept> window almost immediately.</source>
+          <target state="translated">不含 <bpt id="p1">**</bpt>等候<ept id="p1">**</ept> 參數，Windows PowerShell 會結束儘速 <bpt id="p2">**</bpt>Out-gridview<ept id="p2">**</ept> 視窗已開啟，即可關閉 <bpt id="p3">**</bpt>Out-gridview<ept id="p3">**</ept> 幾乎立即。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Accepts input for <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept>.</source>
+          <target state="translated">接受輸入 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> parameter to send a collection (more than one) of objects to <bpt id="p2">**</bpt>Out-GridView<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Out-GridView<ept id="p3">**</ept> treats the collection as one collection object, and it displays one row that represents the collection.</source>
+          <target state="translated">當您使用 <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> 參數來傳送 （一個以上） 的集合物件 <bpt id="p2">**</bpt>Out-gridview<ept id="p2">**</ept>, ，<bpt id="p3">**</bpt>Out-gridview<ept id="p3">**</ept> 集合視為一個集合物件，並顯示一個資料列，表示集合。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To display the each object in the collection, use a pipeline operator (|) to send objects to <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept>.</source>
+          <target state="translated">若要顯示集合中的每個物件，使用管線運算子 (|) 將物件傳送至 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Title</source>
+          <target state="translated">標題</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specifies the text that appears in the title bar of the <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept> window.</source>
+          <target state="translated">指定的標題列中顯示的文字 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept> 視窗。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>By default, the title bar displays the command that invokes <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept>.</source>
+          <target state="translated">根據預設，標題列會顯示叫用的命令 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-OutputMode</source>
+          <target state="translated">-OutputMode</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Send items from the interactive window down the pipeline as input to other commands.</source>
+          <target state="translated">將項目從互動式視窗沿著管線向下傳送，以做為其他命令的輸入。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">根據預設，此 Cmdlet 不會產生任何輸出。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To send items from the interactive window down the pipeline, click to select the items and then click OK.</source>
+          <target state="translated">若要從互動式視窗將項目沿著管線向下傳送，請按一下項目來進行選取，然後按一下 [確定]。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The values of this parameter determine how many items you can send down the pipeline.</source>
+          <target state="translated">這個參數的值會決定您可以沿著管線向下傳送的項目數。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept>:  No items.</source>
+          <target state="translated"><bpt id="p1">**</bpt>無<ept id="p1">**</ept>︰ 沒有項目。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This is the default value.</source>
+          <target state="translated">這是預設值。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Single<ept id="p1">**</ept>:  Zero items or one item.</source>
+          <target state="translated"><bpt id="p1">**</bpt>單一<ept id="p1">**</ept>︰ 項目或一個項目則為零。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Use this value when the next command can take only one input object.</source>
+          <target state="translated">如果下一個命令只能接受一個輸入物件，請使用這個值。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Multiple<ept id="p1">**</ept>:  Zero, one, or many items.</source>
+          <target state="translated"><bpt id="p1">**</bpt>多個<ept id="p1">**</ept>︰ 零個、 一個或多個項目。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Use this value when the next command can take multiple input objects.</source>
+          <target state="translated">如果下一個命令可以接受多個輸入物件，請使用這個值。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This value is equivalent to the <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">此值相當於 <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Sends items from the interactive window down the pipeline as input to other commands.</source>
+          <target state="translated">將項目從互動式視窗沿著管線向下傳送，以做為其他命令的輸入。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">根據預設，此 Cmdlet 不會產生任何輸出。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This parameter is equivalent to using the <bpt id="p1">**</bpt>Multiple<ept id="p1">**</ept> value of the <bpt id="p2">**</bpt>OutputMode<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">此參數相當於使用 <bpt id="p1">**</bpt>多<ept id="p1">**</ept> 值 <bpt id="p2">**</bpt>OutputMode<ept id="p2">**</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>To send items from the interactive window down the pipeline, click to select the items and then click OK.</source>
+          <target state="translated">若要從互動式視窗將項目沿著管線向下傳送，請按一下項目來進行選取，然後按一下 [確定]。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Shift-click and Ctrl-click are supported.</source>
+          <target state="translated">支援按住 Shift 鍵並按一下滑鼠左鍵及按住 Ctrl 鍵並按一下滑鼠左鍵來進行選取。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-Wait</source>
+          <target state="translated">-Wait</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Suppresses the command prompt and prevents Windows PowerShell from closing until the  <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept> window is closed.</source>
+          <target state="translated">抑制命令提示字元，並防止關閉之前的 Windows PowerShell  <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept> ] 視窗已關閉。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>By default, the command prompt returns when the Out-GridView window opens.</source>
+          <target state="translated">預設在 Out-GridView 視窗開啟時，就會恢復顯示命令提示字元。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This feature lets you use the <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept> cmdlets in Windows shortcuts.</source>
+          <target state="translated">這項功能可讓您使用 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept> Windows 捷徑中的 cmdlet。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept> is used in a shortcut without the <bpt id="p2">**</bpt>Wait<ept id="p2">**</ept> parameter, the <bpt id="p3">**</bpt>Out-GridView<ept id="p3">**</ept> window appears only momentarily before Windows PowerShell closes.</source>
+          <target state="translated">當 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept> 中的捷徑，而不使用 <bpt id="p2">**</bpt>等候<ept id="p2">**</ept> 參數， <bpt id="p3">**</bpt>Out-gridview<ept id="p3">**</ept> 視窗只會短暫出現 Windows PowerShell 關閉之前。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此參數是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You can send any object to <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept>.</source>
+          <target state="translated">您可以傳送任何物件至 <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">無</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept> does not return any objects.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept> 不會傳回任何物件。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, the <bpt id="p1">**</bpt>Out-GridView<ept id="p1">**</ept> cmdlet is installed by default on client versions of Windows, but is an optional feature on Server versions of Windows.</source>
+          <target state="translated">在 Windows PowerShell 2.0， <bpt id="p1">**</bpt>Out-gridview<ept id="p1">**</ept> 指令程式在用戶端版本的 Windows，預設會安裝，但在伺服器版本的 Windows 選擇性功能。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 3.0, it is installed on all systems by default.</source>
+          <target state="translated">在 Windows PowerShell 3.0 中，它預設會安裝在所有系統上。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>However, if you turn off or remove the Windows PowerShell ISE feature, the Out-GridView cmdlet is also turned off or removed.</source>
+          <target state="translated">不過，如果您關閉或移除 Windows PowerShell ISE 功能，Out-gridview cmdlet 是也已關閉或移除。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>You cannot use a remote command to open a grid view window on another computer.</source>
+          <target state="translated">您無法使用遠端命令在另一部電腦上開啟資料格檢視視窗。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The command output that you send to Out-GridView cannot be formatted, such as by using the Format-Table or Format-Wide cmdlets.</source>
+          <target state="translated">您傳送給 Out-gridview 的命令輸出無法格式化，例如所使用的格式化表格或 Format-wide cmdlet。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>To select properties, use the Select-Object cmdlet.</source>
+          <target state="translated">若要選取屬性，請使用 Select-object 指令程式。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Deserialized output from remote commands might not be formatted correctly in the grid view window.</source>
+          <target state="translated">來自遠端命令的已還原序列化輸出在資料格檢視中可能無法正確格式化。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>KEYBOARD SHORTCUTS FOR OUT-GRIDVIEW</source>
+          <target state="translated">OUT-GRIDVIEW 的鍵盤快速鍵</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>By using the following keyboard shortcuts, you can perform many tasks quickly.</source>
+          <target state="translated">藉由使用下列鍵盤快速鍵，您可以快速執行許多工作。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Use this key:     To perform this action:</source>
+          <target state="translated">使用此金鑰︰ 若要執行此動作︰</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>TAB               Moves the cursor from the Filter box to the Add criteria menu to the table and back.</source>
+          <target state="translated">TAB 鍵               將游標從 [篩選] 方塊移到 [新增條件] 功能表，再移到表格，然後返回。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>UP ARROW          Move up one row.</source>
+          <target state="translated">向上鍵          向上移動一列。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Will move to column headers.</source>
+          <target state="translated">將會移到欄標題。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>DOWN ARROW        Move down one row.</source>
+          <target state="translated">向下鍵        向下移動一列。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>LEFT ARROW        In column header row, move left one column.</source>
+          <target state="translated">向左鍵        在欄標題列中，向左移動一欄。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>RIGHT ARROW       In column header row, move right one column.</source>
+          <target state="translated">向右鍵        在欄標題列中，向右移動一欄。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>CONTEXT MENU KEY  In column header row, displays the "Select Columns" option.</source>
+          <target state="translated">操作功能表鍵  在欄標題列中，顯示 [選取欄位] 選項。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>ENTER or SPACEBAR In column header row, sort column data (toggle A-Z, Z-A).</source>
+          <target state="translated">ENTER 鍵或空格鍵 在欄標題列中，排序欄位資料 (切換 A 到 Z、Z 到 A)。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>HOW TO USE THE GRID VIEW WINDOW FEATURES</source>
+          <target state="translated">如何使用資料格檢視視窗功能</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The following topics explain how to use the features of the window that Out-GridView displays.</source>
+          <target state="translated">下列主題說明如何使用 Out-GridView 顯示之視窗的功能。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>How to Hide, Show, and Reorder Columns</source>
+          <target state="translated">如何隱藏、顯示及重新排列欄位</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>To hide or show a column:</source>
+          <target state="translated">隱藏或顯示欄位：</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Right click any column header and click "Select Columns".</source>
+          <target state="translated">在任何欄標題上按一下滑鼠右鍵，然後按一下 [選取欄位]。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>In the "Select Columns" dialog box, use the arrow keys to move the columns between the "Selected columns" to the "Available columns" boxes.</source>
+          <target state="translated">在 [選取欄位] 對話方塊中，使用方向鍵將欄位在 [選取的欄位] 與 [可用的欄位] 方塊之間移動。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Only columns in the "Selected Columns" box appear in the grid view window.</source>
+          <target state="translated">只有在 [選取的欄位] 方塊中的欄位會顯示在資料格檢視視窗中。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>To reorder columns:</source>
+          <target state="translated">重新排列欄位：</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Drag and drop the column into the desired location.</source>
+          <target state="translated">拖放到想要的位置中的資料行。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>or-</source>
+          <target state="translated">或-</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Right click any column header and click "Select Columns".</source>
+          <target state="translated">在任何欄標題上按一下滑鼠右鍵，然後按一下 [選取欄位]。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>In the "Select Columns" dialog box, use the "Move up" and "Move down" buttons to reorder the columns.</source>
+          <target state="translated">在 [選取欄位] 對話方塊中，使用 [上移] 和 [下移] 按鈕來重新排列欄位。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Columns at the top of the list appear to the left of columns at the bottom of the list in the grid view window.</source>
+          <target state="translated">清單頂端的欄位在資料格檢視視窗中會顯示在清單底部欄位的左邊。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>How to Sort Table Data</source>
+          <target state="translated">如何排序表格資料</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To sort the data, click a column header.</source>
+          <target state="translated">若要排序資料，請按一下欄標題。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>To change the sort order, click the column header again.</source>
+          <target state="translated">若要變更排序次序，再按一下資料行標頭。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Each time you click the same header, the sort order toggles between ascending to descending order.</source>
+          <target state="translated">每次按一下相同的標題，排序順序就會在遞增順序與遞減順序之間切換。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The current order is indicated by a triangle in the column header.</source>
+          <target state="translated">欄標題中的三角形表示目前的順序。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>How to Select Table Data</source>
+          <target state="translated">如何選取表格資料</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>To select a row, click the row or use the up or down arrow to navigate to the row.</source>
+          <target state="translated">若要選取一個資料列，按一下資料列或使用向上或向下鍵來瀏覽至 [資料列。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>To select all rows (except for the header row), press CTRL+A.</source>
+          <target state="translated">若要選取所有資料列 （除了的標頭資料列），請按 CTRL + A。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>To select consecutive rows, press and hold the SHIFT key while clicking the rows or using the arrow keys.</source>
+          <target state="translated">若要選取連續的資料列，按一下資料列，或使用方向鍵時按住 SHIFT 鍵。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>To select nonconsecutive rows, press the CTRL key and click to add a row to the selection.</source>
+          <target state="translated">若要選取非連續的資料列，請按住 CTRL 鍵，按一下以加入至選取的資料列。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>You cannot select columns, and you cannot select the entire column header row.</source>
+          <target state="translated">您無法選取欄位，也無法選取整個欄標題列。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>How to Copy Rows</source>
+          <target state="translated">如何複製列</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>To copy one or more rows from the table, select the rows and then press CTRL+C.</source>
+          <target state="translated">若要從資料表複製一或多個資料列，選取資料列，然後按 CTRL + C。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>You can paste the data into any text or spreadsheet program.</source>
+          <target state="translated">您可以將資料貼到任何文字或試算表程式中。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>You cannot copy columns or parts of rows and you cannot copy the column header row.</source>
+          <target state="translated">您無法複製欄位或或列的部分，也無法複製欄標題列。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>How to Search in the Table  (Quick Filter)</source>
+          <target state="translated">如何在表格中搜尋 (快速篩選)</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Use the "Filter" box to search for data in the table.</source>
+          <target state="translated">使用 [篩選] 方塊來搜尋表格中的資料。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>When you type in the box, only items that include the typed text appear in the table.</source>
+          <target state="translated">在方塊中輸入時，只有包含輸入之文字的項目才會顯示在表格中。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Search for text.</source>
+          <target state="translated">搜尋的文字。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>To search for text in the table, in the "Filter" box, type the text to find.</source>
+          <target state="translated">若要搜尋表格中的文字，請在 [篩選] 方塊中，輸入要尋找的文字。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Search for multiple words.</source>
+          <target state="translated">搜尋多個字。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>To search for multiple words in the table, type the words separated by spaces.</source>
+          <target state="translated">若要搜尋表格中的多個字，請輸入文字並以空格分隔。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Out-GridView displays rows that include all of the words (logical AND).</source>
+          <target state="translated">Out-GridView 會顯示包含所有文字 (邏輯 AND) 的列。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Search for literal phrases.</source>
+          <target state="translated">搜尋片語。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>To search for phrases that include spaces or special characters, enclose the phrase in quotation marks.</source>
+          <target state="translated">若要搜尋包含空格或特殊字元的片語，請以引號括住該片語。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Out-GridView displays rows that include an exact match for the phrase.</source>
+          <target state="translated">Out-GridView 會顯示包含與該片語完全相符之項目的列。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Search in columns.</source>
+          <target state="translated">搜尋資料行中。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>To search for text in one or more columns, use the following format:</source>
+          <target state="translated">若要在一個或多個欄位中搜尋文字，請使用下列格式：</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>column<ph id="ph1">\&gt;</ph>:<ph id="ph2">\&lt;</ph>text<ph id="ph3">\&gt;</ph> <ph id="ph4">\[\&lt;</ph>column<ph id="ph5">\&gt;</ph>:<ph id="ph6">\&lt;</ph>text<ph id="ph7">\&gt;\]</ph> ...</source>
+          <target state="translated">資料行<ph id="ph1">\&gt;</ph>:<ph id="ph2">\&lt;</ph>文字<ph id="ph3">\&gt;</ph> <ph id="ph4">\[\&lt;</ph>資料行<ph id="ph5">\&gt;</ph>:<ph id="ph6">\&lt;</ph>文字<ph id="ph7">\&gt;\]</ph> ...</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>For example, to find "Net" in the DisplayName column, in the "Filter" box, type:</source>
+          <target state="translated">例如，若要在 DisplayName 欄位中尋找 "Net"，請在 [篩選] 方塊中，輸入：</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>displayname:net</source>
+          <target state="translated">displayname:net</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>To find rows with "Net" in the DisplayName and Name columns, in the "Filter" box, type:</source>
+          <target state="translated">若要在 DisplayName 和 Name 欄位中尋找 "Net"，請在 [篩選] 方塊中，輸入：</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>displayname:net  name:net</source>
+          <target state="translated">displayname:net  name:net</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Turn off search.</source>
+          <target state="translated">關閉搜尋。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>To display the entire table again, click the red X button in the top right corner of the "Filter" box or delete the text from the Filter box.</source>
+          <target state="translated">若要重新顯示整個表格，請按一下 [篩選] 方塊右上角的紅色 [X] 按鈕，或刪除 [篩選] 方塊中的文字。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Use Criteria to Filter the Table</source>
+          <target state="translated">使用條件來篩選表格</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>You can use rules or "criteria" to determine which items are displayed in the table.</source>
+          <target state="translated">您可以使用規則或「條件」來決定要讓哪些項目顯示在表格中。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Items appear only when they satisfy all of the criteria that you establish.</source>
+          <target state="translated">只有當項目滿足您所建立的全部條件時，才會顯示該項目。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The available criteria are determined by the properties of the objects displayed in the grid view window and the .NET Framework types of those properties.</source>
+          <target state="translated">可用的條件取決於資料格檢視視窗中所顯示之物件的屬性，以及這些屬性的 .NET Framework 類別。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Each criterion has the following format:</source>
+          <target state="translated">每個條件都具有下列格式：</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>column<ph id="ph1">\&gt;</ph> <ph id="ph2">\&lt;</ph>operator<ph id="ph3">\&gt;</ph> <ph id="ph4">\&lt;</ph>value</source>
+          <target state="translated">資料行<ph id="ph1">\&gt;</ph> <ph id="ph2">\&lt;</ph>運算子<ph id="ph3">\&gt;</ph> <ph id="ph4">\&lt;</ph>值</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Criteria for different properties are connected by AND.</source>
+          <target state="translated">不同屬性的條件是以 AND 連接。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Criteria for the same property are connected by OR.</source>
+          <target state="translated">相同屬性的條件是以 OR 連接。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>You cannot change the logical connectors.</source>
+          <target state="translated">您無法變更邏輯連接子。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The criteria only affects the display.</source>
+          <target state="translated">條件只會影響顯示。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>It does not delete items from the table.</source>
+          <target state="translated">它不會將項目從表格中刪除。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>How to Add Criteria</source>
+          <target state="translated">如何新增條件</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>To display the "Add criteria" menu button, in the upper right corner of the window, click the "Expand" arrow.</source>
+          <target state="translated">若要顯示 [新增條件] 功能表按鈕，請按一下視窗右上角的 [展開] 箭號。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Click the "Add Criteria" menu button.</source>
+          <target state="translated">按一下 [新增條件] 功能表按鈕。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Click to select columns (properties).</source>
+          <target state="translated">按一下來選取欄位 (屬性)。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>You can select one or many properties.</source>
+          <target state="translated">您可以選取一個或多個屬性。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>When you are finished selecting properties, click the Add button.</source>
+          <target state="translated">選取完屬性之後，請按一下 [新增] 按鈕。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>To cancel the additions, click Cancel.</source>
+          <target state="translated">若要取消新增，請按一下 [取消]。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>To add more criteria, click the Add Criteria button again.</source>
+          <target state="translated">若要新增更多條件，請再按一下 [新增條件] 按鈕。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>How to Edit a Criterion</source>
+          <target state="translated">如何編輯條件</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>To change an operator, click the blue operator value, and then click to select a different</source>
+          <target state="translated">若要變更運算子，[藍色運算子值，然後選取不同</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>operator from the drop-down list.</source>
+          <target state="translated">運算子。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>To enter or change a value, type a value in the value box.</source>
+          <target state="translated">若要輸入或變更的值，請在 [值] 方塊中輸入的值。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>If you enter a value that is not valid, a circular X icon appears.</source>
+          <target state="translated">如果輸入的值無效，就會顯示圓形的 X 圖示。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>To remove it, change the value.</source>
+          <target state="translated">若要將它移除，請變更該值。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>To create an OR statement, add a criteria with the same property.</source>
+          <target state="translated">若要建立 OR 陳述式，加入具有相同屬性的準則。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>How to Delete Criteria</source>
+          <target state="translated">如何刪除條件</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>To delete selected criteria, click the red X beside each criterion.</source>
+          <target state="translated">若要刪除所選的準則，請按一下每個條件旁邊的紅色 X。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>To delete all criteria, click the "Clear All" button.</source>
+          <target state="translated">若要刪除所有的條件，請按一下 [全部清除] 按鈕。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f0e3318a53a2683ff87796d484ca8339c42f628</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Resume-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">78517545b7ffe0c049574284ee9f272b1f29b255</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">717775a2bdba5b6fab4b4d9525aa71134e906b8d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Restarts a suspended job</source>
+          <target state="translated">重新啟動暫停的工作</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SessionIdParameterSet (Default)</source>
+          <target state="translated">SessionIdParameterSet （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>JobParameterSet</source>
+          <target state="translated">JobParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>StateParameterSet</source>
+          <target state="translated">StateParameterSet</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>FilterParameterSet</source>
+          <target state="translated">FilterParameterSet</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet resumes a workflow job that was suspended, such as by using the Suspend-Job cmdlet or the about_Suspend-Workflow activity.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept> cmdlet 會繼續已暫停，例如工作流程工作暫停工作 cmdlet 或 About_suspend-workflow 活動使用。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When a workflow job is resumed, the job engine reconstructs the state, metadata, and output from saved resources, such as checkpoints, so the job is restarted without any loss of state or data.</source>
+          <target state="translated">繼續工作流程工作時，工作引擎會從儲存的資源 (例如檢查點) 重建狀態、中繼資料及輸出，工作就可以在沒有遺失任何狀態或資料的情況下重新啟動。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The job state is changed from <bpt id="p1">**</bpt>Suspended<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Running<ept id="p2">**</ept>.</source>
+          <target state="translated">工作狀態會從變更 <bpt id="p1">**</bpt>Suspended<ept id="p1">**</ept> 到 <bpt id="p2">**</bpt>執行<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use the parameters of <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> to select jobs by name, ID, instance ID or pipe a job object, such as one returned by the Get-Job cmdlet, to <bpt id="p2">**</bpt>Resume-Job<ept id="p2">**</ept>.</source>
+          <target state="translated">使用的參數 <bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept> ] 選取作業的名稱、 ID、 執行個體識別碼，或使用管線將工作物件，例如由 Get-job cmdlet，為 <bpt id="p2">**</bpt>Resume-job<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can also use a property filter to select a job to be resumed.</source>
+          <target state="translated">您也可以使用屬性篩選來選取要繼續的工作。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> returns immediately, even though all jobs might not yet be resumed.</source>
+          <target state="translated">根據預設， <bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept> 會立即傳回，即使所有工作可能尚未都繼續。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To suppress the command prompt until all specified jobs are resumed, use the <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">若要抑制命令提示字元，直到所有指定的作業就會繼續，請使用 <bpt id="p1">**</bpt>等候<ept id="p1">**</ept> 參數。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet works only on custom job types, such as workflow jobs.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept> cmdlet 只能使用於自訂工作類型，例如工作流程工作。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those that are started by using the Start-Job cmdlet.</source>
+          <target state="translated">它不會無法在標準背景工作，例如使用 Start-job cmdlet 上。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you submit a job of an unsupported type, <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> generates a terminating error and stops running.</source>
+          <target state="translated">如果您送出作業不支援的類型， <bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept> 會產生終止錯誤並停止執行。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To identify a workflow job, look for a value of <bpt id="p1">**</bpt>PSWorkflowJob<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>PSJobTypeName<ept id="p2">**</ept> property of the job.</source>
+          <target state="translated">若要識別工作流程工作，尋找值 <bpt id="p1">**</bpt>PSWorkflowJob<ept id="p1">**</ept> 中 <bpt id="p2">**</bpt>PSJobTypeName<ept id="p2">**</ept> 工作的屬性。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To determine whether a particular custom job type supports the <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet, see the help topics for the custom job type.</source>
+          <target state="translated">若要判斷特定自訂工作類型是否支援 <bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept> 指令程式，請參閱自訂工作類型的說明主題。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>NOTE: Before using a Job cmdlet on a custom job type, import the module that supports the custom job type, either by using the Import-Module cmdlet or getting or using a cmdlet in the module.</source>
+          <target state="translated">注意︰ 之前自訂工作類型上使用 Job cmdlet，匯入支援自訂工作類型，藉由使用 Import-module cmdlet，或取得或使用模組中 cmdlet 的模組。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This cmdlet is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此 Cmdlet 是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Example 1: Resume a job by ID</source>
+          <target state="translated">範例 1︰ 繼續依識別碼的工作</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The commands in this example verify that the job is a suspended workflow job and then resume the job.</source>
+          <target state="translated">此範例中的命令會確認工作是否為暫停的工作流程工作，然後繼續該工作。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Example 2: Resume a job by name</source>
+          <target state="translated">範例 2︰ 依名稱繼續工作</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to resume several workflow jobs on the local computer.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>名稱<ept id="p1">**</ept> 參數繼續本機電腦上的數個工作流程工作。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example 3: Use custom property values</source>
+          <target state="translated">範例 3︰ 使用自訂屬性值</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This command uses the value of a custom property to identify the workflow job to resume.</source>
+          <target state="translated">此命令使用自訂屬性的值來識別工作流程工作以繼續工作。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> parameter to identify the workflow job by its <bpt id="p2">**</bpt>CustomID<ept id="p2">**</ept> property.</source>
+          <target state="translated">它會使用 <bpt id="p1">**</bpt>篩選<ept id="p1">**</ept> 參數來識別工作流程工作，由其 <bpt id="p2">**</bpt>CustomID<ept id="p2">**</ept> 屬性。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It also uses the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> parameter to verify that the workflow job is suspended, before it tries to resume it.</source>
+          <target state="translated">它也會使用 <bpt id="p1">**</bpt>狀態<ept id="p1">**</ept> 參數確認暫停工作流程工作，然後再嘗試繼續播放。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Example 4: Resume all suspended jobs on a remote computer</source>
+          <target state="translated">範例 4︰ 繼續遠端電腦上的所有已暫停的工作</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This command resumes all suspended jobs on the Srv01 remote computer.</source>
+          <target state="translated">此命令會繼續 Srv01 遠端電腦上所有已暫停的工作。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The command uses the Invoke-Command cmdlet to run a command on the Srv01 computer.</source>
+          <target state="translated">命令使用 Invoke-command cmdlet 在 Srv01 電腦上執行命令。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The remote command uses the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> parameter of the Get-Job cmdlet to get all suspended jobs on the computer.</source>
+          <target state="translated">遠端命令使用 <bpt id="p1">**</bpt>狀態<ept id="p1">**</ept> Get-job cmdlet 取得電腦上所有擱置的工作的參數。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A pipeline operator (|) sends the suspended jobs to the <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet, which resumes them.</source>
+          <target state="translated">管線運算子 (|) 會傳送至已暫停的工作 <bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept> 指令程式，以繼續工作。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Example 4: Wait for jobs to resume</source>
+          <target state="translated">範例 4︰ 等待工作繼續執行，</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter to direct Resume-Job to return only after all specified jobs are resumed.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>等候<ept id="p1">**</ept> 參數，指示 Resume-job 傳回僅在所有指定工作都繼續。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter is especially useful in scripts that assume that jobs are resumed before the script continues.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>等待<ept id="p1">**</ept> 參數是在假設指令碼繼續之前，就會繼續作業的指令碼中特別有用。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Example 5: Resume a Workflow that Suspends Itself</source>
+          <target state="translated">範例 5︰ 繼續自行暫停的工作流程</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The Resume-Job cmdlet lets you resume a workflow job that was suspend by using the <bpt id="p1">**</bpt>Suspend-Workflow<ept id="p1">**</ept> activity.</source>
+          <target state="translated">Resume-job cmdlet 可讓您繼續的工作流程工作暫停使用 <bpt id="p1">**</bpt>暫止工作流程<ept id="p1">**</ept> 活動。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This activity suspends a workflow from within a workflow.</source>
+          <target state="translated">此活動會從工作流程內暫停工作流程。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>It is valid only in workflows.</source>
+          <target state="translated">它只在工作流程中有效。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For information about the Suspend-Workflow, see about_Suspend-Workflow.</source>
+          <target state="translated">暫止工作流程的相關資訊，請參閱 About_suspend-workflow。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">篩選器</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Resumes only jobs that satisfy all of the conditions established in the associated hash table.</source>
+          <target state="translated">只繼續符合在相關聯雜湊表中建立之所有條件的工作。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Enter a hash table where the keys are job properties and the values are job property values.</source>
+          <target state="translated">輸入索引鍵為工作屬性且值為工作屬性值的雜湊表。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">識別碼</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Resumes the jobs with the specified IDs.</source>
+          <target state="translated">繼續具有指定識別碼的工作。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The ID is an integer that uniquely identifies the job within the current session.</source>
+          <target state="translated">識別碼是整數，可唯一識別目前工作階段中的工作。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It is easier to remember and to type than the instance ID, but it is unique only within the current session.</source>
+          <target state="translated">與執行個體識別碼相比，它比較容易記住並輸入，但是它只有在目前的工作階段內是唯一的。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can type one or more IDs (separated by commas).</source>
+          <target state="translated">您可以輸入一個或多個識別碼 (以逗號分隔)。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To find the ID of a job, use the Get-Job cmdlet.</source>
+          <target state="translated">若要尋找工作識別碼，請使用 Get-job cmdlet。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-執行個體識別碼</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Resumes jobs with the specified instance IDs.</source>
+          <target state="translated">繼續具有指定執行個體識別碼的工作。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The default is all jobs.</source>
+          <target state="translated">預設為所有工作。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An instance ID is a GUID that uniquely identifies the job on the computer.</source>
+          <target state="translated">執行個體識別碼是 GUID，可唯一識別電腦上的工作。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a job, use the Get-Job cmdlet.</source>
+          <target state="translated">若要尋找工作的執行個體識別碼，請使用 Get-Job Cmdlet。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-Job</source>
+          <target state="translated">作業</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specifies the jobs to be resumed.</source>
+          <target state="translated">指定要繼續的工作。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the jobs or a command that gets the jobs.</source>
+          <target state="translated">輸入包含工作的變數，或輸入可取得工作的命令。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can also pipe jobs to the <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">您也可以使用管線作業 <bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Resumes jobs with the specified friendly names.</source>
+          <target state="translated">繼續具有指定好記名稱的工作。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Enter one or more job names.</source>
+          <target state="translated">輸入一或多個工作名稱。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Wildcards are supported.</source>
+          <target state="translated">支援萬用字元。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-State</source>
+          <target state="translated">狀態</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Resumes only those jobs in the specified state.</source>
+          <target state="translated">只繼續指定狀態的工作。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Valid values are NotStarted, Running, Completed, Failed, Stopped, Blocked, Suspended, Disconnected, Suspending, and Stopping, but <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> resumes only jobs in the <bpt id="p2">**</bpt>Suspended<ept id="p2">**</ept> state.</source>
+          <target state="translated">有效值為 NotStarted、 執行、 已完成、 失敗、 已停止、 已封鎖、 已擱置、 已中斷連接，暫停，並停止，但 <bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept> 只繼續工作中的 <bpt id="p2">**</bpt>暫止<ept id="p2">**</ept> 狀態。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For more information about job states, see "JobState Enumeration" in MSDN at http://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx</source>
+          <target state="translated">工作狀態的詳細資訊，請參閱 MSDN 中的 &lt; JobState 列舉 &gt;，網址 http://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate (vs.85</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-Wait</source>
+          <target state="translated">-Wait</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Suspends the command prompt until all specified jobs are resumed.</source>
+          <target state="translated">暫停命令提示字元，直到所有指定工作都繼續為止。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>By default, Resume-Job returns immediately.</source>
+          <target state="translated">依照預設，Resume-Job 會立即傳回。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">會提示您進行確認，然後再執行此指令程式。會提示您進行確認，然後再執行此指令程式。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">顯示執行 Cmdlet 後會發生的情況。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">無法執行此指令程式。顯示執行此指令程式會發生什麼事。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">未執行 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Job</source>
+          <target state="translated">System.Management.Automation.Job</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You can pipe all types of jobs to <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">您可以透過管道傳送所有類型的工作，以 <bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>However, if <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> gets a job of an unsupported type, it throws a terminating error.</source>
+          <target state="translated">不過，如果 <bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept> 取得作業的不受支援的型別，則會擲回終止錯誤。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>None or System.Management.Automation.Job</source>
+          <target state="translated">無或 System.Management.Automation.Job</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter, <bpt id="p2">**</bpt>Resume-Job<ept id="p2">**</ept> returns the jobs that it tried to resume.</source>
+          <target state="translated">如果您使用 <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> 參數， <bpt id="p2">**</bpt>Resume-job<ept id="p2">**</ept> 傳回它嘗試繼續的工作。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">否則，此 Cmdlet 不會產生任何輸出。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> can only resume jobs that are suspended.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept> 只能繼續擱置的工作。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If you submit a job in a different state, <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> runs the resume operation on the job, but generates a warning to notify you that the job could not be resumed.</source>
+          <target state="translated">如果您送出作業，以在不同的狀態， <bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept> 執行工作，在繼續作業，但是會產生警告，以通知您無法繼續作業。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To suppress the warning, use the <bpt id="p1">**</bpt>WarningAction<ept id="p1">**</ept> common parameter with a value of <bpt id="p2">**</bpt>SilentlyContinue<ept id="p2">**</ept>.</source>
+          <target state="translated">若要隱藏警告，請使用 <bpt id="p1">**</bpt>WarningAction<ept id="p1">**</ept> 一般參數值是 <bpt id="p2">**</bpt>SilentlyContinue<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>If a job is not of a type that supports resuming, such as a workflow job (PSWorkflowJob), <bpt id="p1">**</bpt>Resume-Job<ept id="p1">**</ept> throws a terminating error.</source>
+          <target state="translated">如果工作不支援繼續時，工作流程工作 (PSWorkflowJob）)，例如型別的 <bpt id="p1">**</bpt>Resume-job<ept id="p1">**</ept> 擲回終止錯誤。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The mechanism and location for saving a suspended job might vary depending on the job type.</source>
+          <target state="translated">用於儲存暫停工作的機制與位置可能會視工作類型不同而改變。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For example, suspended workflow jobs are saved in a flat file store by default, but can also be saved in a SQL database.</source>
+          <target state="translated">例如，暫停的工作流程工作是預設儲存在一般檔案存放區，但是也可以儲存在 SQL 資料庫中。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>When you resume a job, the job state changes from <bpt id="p1">**</bpt>Suspended<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Running<ept id="p2">**</ept>.</source>
+          <target state="translated">當您繼續工作時，工作狀態會變更從 <bpt id="p1">**</bpt>Suspended<ept id="p1">**</ept> 到 <bpt id="p2">**</bpt>執行<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To find the jobs that are running, including those that were resumed by this cmdlet, use the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> parameter of the Get-Job cmdlet to get jobs in the <bpt id="p2">**</bpt>Running<ept id="p2">**</ept> state.</source>
+          <target state="translated">若要尋找正在執行的工作，包括已繼續執行這個指令程式，使用 <bpt id="p1">**</bpt>狀態<ept id="p1">**</ept> Get-job cmdlet 取得工作的參數 <bpt id="p2">**</bpt>執行<ept id="p2">**</ept> 狀態。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Some job types have options or properties that prevent Windows PowerShell from suspending the job.</source>
+          <target state="translated">部分工作類型具有可防止 Windows PowerShell 暫停工作的選項或屬性。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If attempts to suspend the job fail, verify that the job options and properties allow suspending.</source>
+          <target state="translated">如果嘗試暫停工作失敗，請確認工作選項與屬性是否允許暫停。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">取得工作</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">接收工作</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">移除工作</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">啟動工作</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">停止工作</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">等候工作</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

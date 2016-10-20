@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f8ff15054044c5f462481227d66e11c851d386c5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\About\about_Transactions.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">999028bcde1cda140e7eac95145a0cc5bcc791b6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac846c5c95f4aaa3f33229c0c736b5993735c5dd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Transactions</source>
+          <target state="translated">about_Transactions</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Transactions</source>
+          <target state="translated">トランザクションについて</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Transactions</source>
+          <target state="translated">about_Transactions</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Transactions</source>
+          <target state="translated">about_Transactions</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Describes how to manage transacted operations in Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell でのトランザクションの操作を管理する方法について説明します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">詳細説明</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Transactions are supported in Windows PowerShell beginning in Windows PowerShell 2.0.</source>
+          <target state="translated">Windows PowerShell 2.0 では以降の Windows PowerShell では、トランザクションがサポートされています。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This feature enables you to start a transaction, to indicate which commands are part of the transaction, and to commit or roll back a transaction.</source>
+          <target state="translated">この機能では、どのコマンドが、トランザクションの一部であることを示すおよびコミットまたはトランザクションをロールバックするトランザクションを開始することができます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>ABOUT TRANSACTIONS</source>
+          <target state="translated">トランザクションについて</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell, a transaction is a set of one or more commands that are managed as a logical unit.</source>
+          <target state="translated">Windows PowerShell では、トランザクションは、一連の論理単位として管理されている 1 つまたは複数のコマンドをします。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A transaction can be completed ("committed"), which changes data affected by the transaction.</source>
+          <target state="translated">トランザクションは、完了 (コミット)、トランザクションによって影響を受けるデータが変更できます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Or, a transaction can be completely undone ("rolled back") so that the affected data is not changed by the transaction.</source>
+          <target state="translated">または、トランザクションは完全に元に戻す (ロールバック) できますのトランザクションによって影響を受けるデータが変更しないようにします。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Because the commands in a transaction are managed as a unit, either all commands are committed, or all commands are rolled back.</source>
+          <target state="translated">トランザクション内のコマンドは単位として管理されるためすべてのコマンドは、コミットまたはすべてのコマンドはロールバックされます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Transactions are widely used in data processing, most notably in database operations and for financial transactions.</source>
+          <target state="translated">トランザクションは、データの処理、金融取引、データベース操作で最も顕著なで広く使用されます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Transactions are most often used when the worst-case scenario for a set of commands is not that they all fail, but that some commands succeed while others fail, leaving the system in a damaged, false, or uninterpretable state that is difficult to repair.</source>
+          <target state="translated">トランザクションには、コマンドのセットの最悪のシナリオが、すべてが失敗するが、いくつかのコマンドが成功する他のユーザーが失敗するときに、システムの状態が破損している、false の場合、または uninterpretable をことは困難を修復する場合に最もよく使用されます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>TRANSACTION CMDLETS</source>
+          <target state="translated">トランザクションのコマンドレット</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell includes several cmdlets designed for managing transactions.</source>
+          <target state="translated">Windows PowerShell には、トランザクションを管理するために設計されたいくつかのコマンドレットが含まれています。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Cmdlet                 Description</source>
+          <target state="translated">コマンドレットの説明</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Start-Transaction      Starts a new transaction.</source>
+          <target state="translated">開始トランザクションの開始、新しいトランザクション。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Use-Transaction        Adds a command or expression to the transaction.</source>
+          <target state="translated">使用するトランザクションを追加するコマンドまたは式をトランザクションにします。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The command must use transaction-enabled objects.</source>
+          <target state="translated">コマンドには、トランザクションが有効なオブジェクトを使用する必要があります。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Undo-Transaction       Rolls back the transaction so that no data is changed by the transaction.</source>
+          <target state="translated">元に戻すトランザクションのロールバックは、トランザクションをバックアップして、トランザクションによってデータが変更されることはないようにします。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Complete-Transaction   Commits the transaction.</source>
+          <target state="translated">完了トランザクションがコミットされるトランザクションです。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The data affected by the transaction is changed.</source>
+          <target state="translated">トランザクションによって影響を受けるデータが変更されます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Get-Transaction        Gets information about the active transaction.</source>
+          <target state="translated">アクティブなトランザクションに関する情報を取得トランザクションを取得します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For a list of transaction cmdlets, type:</source>
+          <target state="translated">トランザクションのコマンドレットの一覧は、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>get-command *transaction</source>
+          <target state="translated">get コマンド * トランザクション</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For detailed information about the cmdlets, type:</source>
+          <target state="translated">コマンドレットの詳細については、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>get-help &lt;cmdlet-name&gt; -detailed</source>
+          <target state="translated">get-help &lt; コマンドレット名 &gt; - 詳細</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>get-help use-transaction -detailed</source>
+          <target state="translated">get-help を使用するトランザクションの詳細</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>TRANSACTION-ENABLED ELEMENTS</source>
+          <target state="translated">トランザクションが有効な要素</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To participate in a transaction, both the cmdlet and the provider must support transactions.</source>
+          <target state="translated">トランザクションに参加するには、コマンドレットとプロバイダーの両方がトランザクションをサポートする必要があります。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This feature is built in to the objects that are affected by the transaction.</source>
+          <target state="translated">この機能は、トランザクションの影響を受けるオブジェクトに組み込まれています。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Registry provider supports transactions in Windows Vista.</source>
+          <target state="translated">Windows PowerShell レジストリ プロバイダーは、Windows Vista でのトランザクションをサポートします。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The TransactedString object (Microsoft.PowerShell.Commands.Management.TransactedString) works with any operating system that runs Windows PowerShell.</source>
+          <target state="translated">TransactedString オブジェクト (Microsoft.PowerShell.Commands.Management.TransactedString) は、Windows PowerShell を実行している任意のオペレーティング システムで動作します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Other Windows PowerShell providers can support transactions.</source>
+          <target state="translated">その他の Windows PowerShell プロバイダーは、トランザクションをサポートできます。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To find the Windows PowerShell providers in your session that support transactions, use the following command to find the "Transactions" value in the Capabilities property of providers:</source>
+          <target state="translated">トランザクションをサポートしているセッションで Windows PowerShell プロバイダーを検索するには、次のコマンドを使用して、プロバイダーの機能プロパティに「トランザクション」値を求めます。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>get-psprovider | where {$_.Capabilities -like "transactions"}</source>
+          <target state="translated">get-psprovider と |ここで {$_ です。機能-などの「トランザクション」}</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information about a provider, see the Help for the provider.</source>
+          <target state="translated">詳細については、プロバイダー、プロバイダーのヘルプを参照してください。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To get provider Help, type:</source>
+          <target state="translated">プロバイダーのヘルプを取得するには、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>get-help &lt;provider-name&gt;</source>
+          <target state="translated">get-help &lt; プロバイダー名 &gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For example, to get Help for the Registry provider, type:</source>
+          <target state="translated">たとえば、Registry プロバイダーのヘルプを取得するには、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>get-help registry</source>
+          <target state="translated">レジストリのヘルプを表示</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>THE USETRANSACTION PARAMETER</source>
+          <target state="translated">USETRANSACTION パラメーター</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Cmdlets that can support transactions have a UseTransaction parameter.</source>
+          <target state="translated">トランザクションをサポートするコマンドレットには、UseTransaction パラメーターが含まれています。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This parameter includes the command in the active transaction.</source>
+          <target state="translated">このパラメーターは、アクティブなトランザクションにコマンドを含めます。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can use the full parameter name or its alias, "usetx".</source>
+          <target state="translated">完全なパラメーター名またはそのエイリアス、"usetx"を使用することができます。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The parameter can be used only when the session contains an active transaction.</source>
+          <target state="translated">パラメーターは、セッションにアクティブなトランザクションが含まれている場合にのみ使用できます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you enter a command with the UseTransaction parameter when there is no active transaction, the command fails.</source>
+          <target state="translated">UseTransaction パラメーターを使用したコマンドを入力すると、アクティブなトランザクションがない場合に、コマンドは失敗します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To find cmdlets with the UseTransaction parameter, type:</source>
+          <target state="translated">UseTransaction パラメーターを持つコマンドレットを見つけるには、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>get-help * -parameter UseTransaction</source>
+          <target state="translated">ヘルプを表示 *-UseTransaction パラメーター</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell core, all of the cmdlets designed to work with Windows PowerShell providers support transactions.</source>
+          <target state="translated">Windows PowerShell コアですべてのコマンドレットに作られた Windows PowerShell プロバイダー トランザクションをサポートします。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>As a result, you can use the provider cmdlets to manage transactions.</source>
+          <target state="translated">その結果、プロバイダー コマンドレットを使用すると、トランザクションを管理します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For more information about Windows PowerShell providers, see about_Providers.</source>
+          <target state="translated">Windows PowerShell プロバイダーの詳細については、「about_providers」を参照してください。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>THE TRANSACTION OBJECT</source>
+          <target state="translated">トランザクション オブジェクト</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Transactions are represented in Windows PowerShell by a transaction object, System.Management.Automation.Transaction.</source>
+          <target state="translated">トランザクションは、Windows PowerShell のトランザクション オブジェクト、System.Management.Automation.Transaction で表されます。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The object has the following properties:</source>
+          <target state="translated">オブジェクトには、次のプロパティがあります。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>RollbackPreference: Contains the rollback preference set for the current transaction.</source>
+          <target state="translated">RollbackPreference:、現在のトランザクションのロールバック設定が含まれています。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can set the rollback preference when you use Start-Transaction to start the transaction.</source>
+          <target state="translated">Start-transaction を使用して、トランザクションを開始する場合は、ロールバック設定を設定できます。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The rollback preference determines the conditions under which the transaction is rolled back automatically.</source>
+          <target state="translated">ロールバック設定では、対象、トランザクションは自動的にロールバックの条件を決定します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Valid values are Error, TerminatingError, and Never.</source>
+          <target state="translated">有効な値は、Error、terminatingerror と、およびなしです。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default value is Error.</source>
+          <target state="translated">既定値はエラーです。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Status: Contains the current status of the transaction.</source>
+          <target state="translated">状態:、トランザクションの現在の状態が含まれています。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Valid values are Active, Committed, and RolledBack.</source>
+          <target state="translated">有効な値には、アクティブ、コミット済み、ロールバックができます。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>SubscriberCount: Contains the number of subscribers to the transaction.</source>
+          <target state="translated">SubscriberCount:、トランザクションに登録者数が含まれています。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A subscriber is added to a transaction when you start a transaction while another transaction is in progress.</source>
+          <target state="translated">サブスクライバーは、別のトランザクションが進行中のトランザクションを開始するときに、トランザクションに追加されます。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The subscriber count is decremented when a subscriber commits the transaction.</source>
+          <target state="translated">サブスクライバーのトランザクションをコミットするときに、サブスクライバーの数は減少します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>ACTIVE TRANSACTIONS</source>
+          <target state="translated">アクティブなトランザクション</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell, only one transaction is active at a time, and you can manage only the active transaction.</source>
+          <target state="translated">Windows PowerShell で、一度に 1 つだけのトランザクションがアクティブとアクティブなトランザクションだけを管理することができます。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Multiple transactions can be in progress in the same session at the same time, but only the most-recently started transaction is active.</source>
+          <target state="translated">同時に同じセッションで複数のトランザクションが進行中であることができますが、最近開始したトランザクションのみがアクティブです。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>As a result, you cannot specify a particular transaction when using the transaction cmdlets.</source>
+          <target state="translated">その結果、トランザクションのコマンドレットを使用する場合は、特定のトランザクションを指定できません。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Commands always apply to the active transaction.</source>
+          <target state="translated">コマンドは、アクティブなトランザクションを常に適用されます。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This is most evident in the behavior of the Get-Transaction cmdlet.</source>
+          <target state="translated">これは、Get-transaction コマンドレットの動作で最も顕著です。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>When you enter a Get-Transaction command, Get-Transaction always gets only one transaction object.</source>
+          <target state="translated">Get-transaction コマンドを入力すると、Get-transaction は常に 1 つのトランザクション オブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This object is the object that represents the active transaction.</source>
+          <target state="translated">このオブジェクトは、アクティブなトランザクションを表すオブジェクトです。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To manage a different transaction, you must first finish the active transaction, either by committing it or rolling it back.</source>
+          <target state="translated">別のトランザクションを管理するには、アクティブなトランザクションをコミットまたはロールバックを実行するかを最初に終了しなければなりません。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>When you do this, the previous transaction becomes active automatically.</source>
+          <target state="translated">こうすると、前のトランザクションが自動的にアクティブです。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Transactions become active in the reverse of order of which they are started, so that the most recently started transaction is always active.</source>
+          <target state="translated">トランザクションが起動する順序の逆方向にアクティブになる、トランザクションがアクティブでは常に最も最近起動ようにします。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>SUBSCRIBERS AND INDEPENDENT TRANSACTIONS</source>
+          <target state="translated">サブスクライバーとの独立したトランザクション</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If you start a transaction while another transaction is in progress, by default, Windows PowerShell does not start a new transaction.</source>
+          <target state="translated">別のトランザクションの進行中は、既定では、トランザクションを開始する場合、Windows PowerShell は新しいトランザクションを開始できません。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Instead, it adds a "subscriber" to the current transaction.</source>
+          <target state="translated">代わりに、現在のトランザクションを"subscriber"を追加します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When a transaction has multiple subscribers, a single Undo-Transaction command at any point rolls back the entire transaction for all subscribers.</source>
+          <target state="translated">トランザクションに複数のサブスクライバーがある場合は、任意の時点に 1 つの Undo-transaction コマンドをロールバックすべてのサブスクライバーに対してトランザクション全体です。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>However, to commit the transaction, you must enter a Complete-Transaction command for every subscriber.</source>
+          <target state="translated">ただし、トランザクションをコミットするには、すべてのサブスクライバーに対して Complete-transaction コマンドを入力する必要があります。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To find the number of subscribers to a transaction, check the SubscriberCount property of the transaction object.</source>
+          <target state="translated">トランザクションにサブスクライバーの数を確認するには、トランザクション オブジェクトの SubscriberCount プロパティを確認します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For example, the following command uses the Get-Transaction cmdlet to get the value of the SubscriberCount property of the active transaction:</source>
+          <target state="translated">たとえば、次のコマンドは、アクティブなトランザクションの SubscriberCount プロパティの値を取得するのに Get-transaction コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>(Get-Transaction).SubscriberCount</source>
+          <target state="translated">(Get-transaction)。SubscriberCount</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Adding a subscriber is the default behavior because most transactions that are started while another transaction is in progress are related to the original transaction.</source>
+          <target state="translated">サブスクライバーを追加すると、別のトランザクションの実行中に開始されるほとんどのトランザクションが元のトランザクションに関連するために、既定の動作です。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>In the typical model, a script that contains a transaction calls a helper script that contains its own transaction.</source>
+          <target state="translated">一般的なモデルでは、トランザクションを含むスクリプトは、独自のトランザクションを含むヘルパー スクリプトを呼び出します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Because the transactions are related, they should be rolled back or committed as a unit.</source>
+          <target state="translated">トランザクションが関連しているためは、ロールバックまたは、単位としてコミットする必要があります。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>However, you can start a transaction that is independent of the current transaction by using the Independent parameter of the Start-Transaction cmdlet.</source>
+          <target state="translated">ただし、Start-transaction コマンドレットの独立したパラメーターを使用して、現在のトランザクションから独立したトランザクションを開始できます。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>When you start an independent transaction, Start-Transaction creates a new transaction object, and the new transaction becomes the active transaction.</source>
+          <target state="translated">独立したトランザクションを開始するとは、Start-transaction は新しいトランザクション オブジェクトを作成され、新しいトランザクションは、アクティブなトランザクションになります。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The independent transaction can be committed or rolled back without affecting the original transaction.</source>
+          <target state="translated">独立したトランザクションをコミットまたは元のトランザクションの影響を与えずにロールバックします。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>When the independent transaction is finished (committed or rolled back), the original transaction becomes the active transaction again.</source>
+          <target state="translated">(コミットまたはロールバック奥)、独立したトランザクションが完了したら、元のトランザクションがアクティブなトランザクションをもう一度になります。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>CHANGING DATA</source>
+          <target state="translated">データの変更</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>When you use transactions to change data, the data that is affected by the transaction is not changed until you commit the transaction.</source>
+          <target state="translated">トランザクションを使用してデータを変更するときに、トランザクションをコミットするまでに、トランザクションによって影響を受けたデータは変更されません。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>However, the same data can be changed by commands that are not part of the transaction.</source>
+          <target state="translated">ただし、トランザクションの一部ではないコマンドによって、同じデータを変更できます。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Keep this in mind when you are using transactions to manage shared data.</source>
+          <target state="translated">共有データを管理するトランザクションを使用している場合は、この点に留意してください。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Typically, databases have mechanisms that lock the data while you are working on it, preventing other users, and other commands, scripts, and functions, from changing it.</source>
+          <target state="translated">通常、データベースは、他のユーザーとその他のコマンド、スクリプト、および関数を変更することを妨げてので、作業中のデータをロック メカニズムを持っています。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>However, the lock is a feature of the database.</source>
+          <target state="translated">ただし、ロックは、データベースの機能です。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>It is not related to transactions.</source>
+          <target state="translated">トランザクションには関係ありません。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>If you are working in a transaction-enabled file system or other data store, the data can be changed while the transaction is in progress.</source>
+          <target state="translated">トランザクションが有効なファイル システムまたはその他のデータ ストアで作業している場合は、トランザクションが進行中は、データを変更できます。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The examples in this section use the Windows PowerShell Registry provider and assume that you are familiar with it.</source>
+          <target state="translated">このセクションの例では、Windows PowerShell レジストリ プロバイダーを使用し、関連付けについて理解するいると仮定します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>For information about the Registry provider, type "get-help registry".</source>
+          <target state="translated">レジストリ プロバイダーについては、「get-help レジストリ」を入力します。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1: COMMITTING A TRANSACTION</source>
+          <target state="translated">例 1: トランザクションをコミットします。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To create a transaction, use the Start-Transaction cmdlet.</source>
+          <target state="translated">トランザクションを作成するには、Start-transaction コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The following command starts a transaction with the default settings.</source>
+          <target state="translated">次のコマンドは、既定の設定で、トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>start-transaction</source>
+          <target state="translated">トランザクションの開始</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>To include commands in the transaction, use the UseTransaction parameter of the cmdlet.</source>
+          <target state="translated">トランザクションにコマンドを含めるには、コマンドレットの UseTransaction パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>By default, commands are not included in the transaction,</source>
+          <target state="translated">既定では、コマンドが含まれていないトランザクション内で</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For example, the following command, which sets the current location in the Software key of the HKCU: drive, is not included in the transaction.</source>
+          <target state="translated">たとえば、次のコマンドを HKCU のソフトウェア キーに現在の場所を設定する: ドライブは、トランザクションには含まれません。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>cd hkcu:\Software</source>
+          <target state="translated">cd u:\software</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The following command, which creates the MyCompany key, uses the UseTransaction parameter of the New-Item cmdlet to include the command in the active transaction.</source>
+          <target state="translated">MyCompany キーを作成するには、次のコマンドでは、New-item コマンドレットの UseTransaction パラメーターを使用して、アクティブなトランザクションにコマンドが含まれます。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>new-item MyCompany -UseTransaction</source>
+          <target state="translated">新しい項目の MyCompany UseTransaction</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The command returns an object that represents the new key, but because the command is part of the transaction, the registry is not yet changed.</source>
+          <target state="translated">コマンドは、新しいキーを表すオブジェクトを返しますが、レジストリが変更していないコマンドは、トランザクションの一部であるためです。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Hive: HKEY_CURRENT_USER\Software</source>
+          <target state="translated">Hive: hkey_current_user</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>SKC  VC Name                           Property</source>
+          <target state="translated">SKC VC Name プロパティ</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>0   0 MyCompany                      {}</source>
+          <target state="translated">0 0 MyCompany {}</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>To commit the transaction, use the Complete-Transaction cmdlet.</source>
+          <target state="translated">トランザクションをコミットするには、Complete-transaction コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Because it always affects the active transaction, you cannot specify the transaction.</source>
+          <target state="translated">常にアクティブなトランザクションの影響を与える、ために、トランザクションを指定することはできません。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>complete-transaction</source>
+          <target state="translated">完了トランザクション</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>As a result, the MyCompany key is added to the registry.</source>
+          <target state="translated">その結果、MyCompany キーは、レジストリに追加されます。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>dir m*</source>
+          <target state="translated">dir m *</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Hive: HKEY_CURRENT_USER\software</source>
+          <target state="translated">Hive: hkey_current_user</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>SKC  VC Name                           Property</source>
+          <target state="translated">SKC VC Name プロパティ</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>83   1 Microsoft                      {(default)} 0   0 MyCompany                      {}</source>
+          <target state="translated">83 1 Microsoft {(既定)} 0 0 MyCompany {}</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2: ROLLING BACK A TRANSACTION</source>
+          <target state="translated">例 2: トランザクションのロールバック</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>To create a transaction, use the Start-Transaction cmdlet.</source>
+          <target state="translated">トランザクションを作成するには、Start-transaction コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The following command starts a transaction with the default settings.</source>
+          <target state="translated">次のコマンドは、既定の設定で、トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>start-transaction</source>
+          <target state="translated">トランザクションの開始</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The following command, which creates the MyOtherCompany key, uses the UseTransaction parameter of the New-Item cmdlet to include the command in the active transaction.</source>
+          <target state="translated">MyOtherCompany キーを作成するには、次のコマンドでは、New-item コマンドレットの UseTransaction パラメーターを使用して、アクティブなトランザクションに、コマンドが含まれています。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>new-item MyOtherCompany -UseTransaction</source>
+          <target state="translated">新しい項目の MyOtherCompany UseTransaction</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The command returns an object that represents the new key, but because the command is part of the transaction, the registry is not yet changed.</source>
+          <target state="translated">コマンドは、新しいキーを表すオブジェクトを返しますが、レジストリが変更していないコマンドは、トランザクションの一部であるためです。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Hive: HKEY_CURRENT_USER\Software</source>
+          <target state="translated">Hive: hkey_current_user</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>SKC  VC Name                           Property</source>
+          <target state="translated">SKC VC Name プロパティ</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>0   0 MyOtherCompany                 {}</source>
+          <target state="translated">0 0 MyOtherCompany {}</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>To roll back the transaction, use the Undo-Transaction cmdlet.</source>
+          <target state="translated">トランザクションをロールバックするには、Undo-transaction コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Because it always affects the active transaction, you do not specify the transaction.</source>
+          <target state="translated">常にアクティブなトランザクションの影響を与える、ために、トランザクションは指定しません。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Undo-transaction</source>
+          <target state="translated">元に戻す操作</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The result is that the MyOtherCompany key is not added to the registry.</source>
+          <target state="translated">MyOtherCompany キーがレジストリに追加されていないことになります。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>dir m*</source>
+          <target state="translated">dir m *</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Hive: HKEY_CURRENT_USER\software</source>
+          <target state="translated">Hive: hkey_current_user</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>SKC  VC Name                           Property</source>
+          <target state="translated">SKC VC Name プロパティ</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>83   1 Microsoft                      {(default)} 0   0 MyCompany                      {}</source>
+          <target state="translated">83 1 Microsoft {(既定)} 0 0 MyCompany {}</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3: PREVIEWING A TRANSACTION</source>
+          <target state="translated">例 3: トランザクションをプレビューします。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Typically, the commands used in a transaction change data.</source>
+          <target state="translated">通常、トランザクションで使用されるコマンドは、データを変更します。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>However, the commands that get data are useful in a transaction, too, because they get data inside of the transaction.</source>
+          <target state="translated">ただし、データを取得するコマンドは、トランザクション内のデータを取得するため、トランザクションに便利です。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>This provides a preview of the changes that committing the transaction would cause.</source>
+          <target state="translated">これは、トランザクションをコミットすると、変更のプレビューを提供します。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The following example shows how to use the Get-ChildItem command (the alias is "dir") to preview the changes in a transaction.</source>
+          <target state="translated">次の例では、(エイリアスは"dir")、Get-childitem コマンドを使用して、トランザクションで変更をプレビューする方法を示します。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The following command starts a transaction.</source>
+          <target state="translated">次のコマンドは、トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>start-transaction</source>
+          <target state="translated">トランザクションの開始</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The following command uses the New-ItemProperty cmdlet to add the MyKey registry entry to the MyCompany key.</source>
+          <target state="translated">次のコマンドでは、New-itemproperty コマンドレットを使用して、MyCompany キーに MyKey レジストリ エントリを追加します。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The command uses the UseTransaction parameter to include the command in the transaction.</source>
+          <target state="translated">コマンドでは、トランザクションにコマンドを含める UseTransaction パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>new-itemproperty -path MyCompany -Name MyKey -value 123 -UseTransaction</source>
+          <target state="translated">新しい itemproperty-パス MyCompany-名前 MyKey-値の 123 - UseTransaction</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The command returns an object representing the new registry entry, but the registry entry is not changed.</source>
+          <target state="translated">コマンドは、新しいレジストリ エントリを表すオブジェクトを返しますが、レジストリ エントリは変更されません。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>MyKey</source>
+          <target state="translated">MyKey</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>123</source>
+          <target state="translated">123</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>To get the items that are currently in the registry, use a Get-ChildItem command ("dir") without the UseTransaction parameter.</source>
+          <target state="translated">現在、レジストリ内にある項目を取得するには、UseTransaction パラメーターを指定せず、Get-childitem コマンド ("dir") を使用します。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The following command gets items that begin with "M."</source>
+          <target state="translated">次のコマンドは、"M"で始まるアイテムを取得します。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>dir m*</source>
+          <target state="translated">dir m *</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The result shows that no entries have yet been added to the MyCompany key.</source>
+          <target state="translated">エントリがまだ追加されていないことが MyCompany キーに結果を示しています。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Hive: HKEY_CURRENT_USER\Software</source>
+          <target state="translated">Hive: hkey_current_user</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>SKC  VC Name                           Property</source>
+          <target state="translated">SKC VC Name プロパティ</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>83   1 Microsoft                      {(default)} 0   0 MyCompany                      {}</source>
+          <target state="translated">83 1 Microsoft {(既定)} 0 0 MyCompany {}</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>To preview the effect of committing the transaction, enter a Get-ChildItem ("dir") command with the UseTransaction parameter.</source>
+          <target state="translated">トランザクションのコミットの効果をプレビューするには、UseTransaction パラメーターを持つ Get-childitem ("dir") コマンドを入力します。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>This command has a view of the data from within the transaction.</source>
+          <target state="translated">このコマンドでは、トランザクション内からのデータのビューがあります。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>dir m* -useTransaction</source>
+          <target state="translated">dir m * useTransaction-</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The result shows that, if the transaction is committed, the MyKey entry will be added to the MyCompany key.</source>
+          <target state="translated">トランザクションがコミットされた場合、MyKey エントリは MyCompany キーに追加すること、結果を示しています。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Hive: HKEY_CURRENT_USER\Software</source>
+          <target state="translated">Hive: hkey_current_user</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>SKC  VC Name                           Property</source>
+          <target state="translated">SKC VC Name プロパティ</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>83   1 Microsoft                      {(default)} 0   1 MyCompany                      {MyKey}</source>
+          <target state="translated">83 1 Microsoft {(既定)} 0 1 MyCompany {MyKey}</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 4: COMBINING TRANSACTED AND NON-TRANSACTED COMMANDS</source>
+          <target state="translated">例 4: トランザクションと非トランザクションのコマンドを結合します。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>You can enter non-transacted commands during a transaction.</source>
+          <target state="translated">トランザクション中には、非トランザクションのコマンドを入力することができます。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The non-transacted commands affect the data immediately, but they do not affect the transaction.</source>
+          <target state="translated">非トランザクションのコマンドは、データをすぐに、影響が、トランザクションには影響しません。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The following command starts a transaction in the HKCU:\Software registry key.</source>
+          <target state="translated">次のコマンドは、hkc u:\software レジストリ キーで、トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>start-transaction</source>
+          <target state="translated">トランザクションの開始</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The next three commands use the New-Item cmdlet to add keys to the registry.</source>
+          <target state="translated">次の 3 つのコマンドでは、New-item コマンドレットを使用して、レジストリにキーを追加します。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The first and third commands use the UseTransaction parameter to include the commands in the transaction.</source>
+          <target state="translated">最初と 3 番目のコマンドでは、UseTransaction パラメーターを使用して、トランザクションにコマンドを含めます。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The second command omits the parameter.</source>
+          <target state="translated">2 番目のコマンドは、パラメーターを省略します。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Because the second command is not included in the transaction, it is effective immediately.</source>
+          <target state="translated">2 番目のコマンドは、トランザクションに含まれていない、ためことがすぐに有効です。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>new-item MyCompany1 -UseTransaction</source>
+          <target state="translated">新しい項目の MyCompany1 UseTransaction</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>new-item MyCompany2</source>
+          <target state="translated">新しい項目 MyCompany2</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>new-item MyCompany3 -UseTransaction</source>
+          <target state="translated">新しい項目の MyCompany3 UseTransaction</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>To view the current state of the registry, use a Get-ChildItem ("dir") command without the UseTransaction parameter.</source>
+          <target state="translated">レジストリの現在の状態を表示するには、UseTransaction パラメーターがない場合 ("dir")、Get-childitem コマンドを使用します。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>This command gets items that begin with "M."</source>
+          <target state="translated">このコマンドは、"M"で始まるアイテムを取得します。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>dir m*</source>
+          <target state="translated">dir m *</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The result shows that the MyCompany2 key is added to the registry, but the MyCompany1 and MyCompany3 keys, which are part of the transaction, are not added.</source>
+          <target state="translated">MyCompany2 キーがレジストリに追加された、トランザクションの一部である、MyCompany1 と MyCompany3 キーは追加されませんが、結果を示しています。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Hive: HKEY_CURRENT_USER\Software</source>
+          <target state="translated">Hive: hkey_current_user</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>SKC  VC Name                           Property</source>
+          <target state="translated">SKC VC Name プロパティ</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>83   1 Microsoft                      {(default)} 0    0 MyCompany2                     {}</source>
+          <target state="translated">83 1 Microsoft {(既定)} 0 0 MyCompany2 {}</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The following command commits the transaction.</source>
+          <target state="translated">次のコマンドは、トランザクションをコミットします。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>complete-transaction</source>
+          <target state="translated">完了トランザクション</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Now, the keys that were added as part of the transaction appear in the registry.</source>
+          <target state="translated">これで、トランザクションの一部として追加されたキーは、レジストリに表示されます。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>dir m*</source>
+          <target state="translated">dir m *</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Hive: HKEY_CURRENT_USER\Software</source>
+          <target state="translated">Hive: hkey_current_user</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>SKC  VC Name                           Property</source>
+          <target state="translated">SKC VC Name プロパティ</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>83   1 Microsoft                      {(default)} 0    0 MyCompany1                     {} 0    0 MyCompany2                     {} 0    0 MyCompany3                     {}</source>
+          <target state="translated">83 1 Microsoft {(既定)} 0 0 MyCompany1 {} 0 0 MyCompany2 {} 0 0 MyCompany3 {}</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 5: USING AUTOMATIC ROLLBACK</source>
+          <target state="translated">例 5: を使用して自動的にロールバック</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>When a command in a transaction generates an error of any kind, the transaction is automatically rolled back.</source>
+          <target state="translated">トランザクション内のコマンドは、任意の種類のエラーを生成するとき、トランザクションは自動的にロールバックします。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>This default behavior is designed for scripts that run transactions.</source>
+          <target state="translated">この既定の動作はトランザクションを実行するスクリプトとして設計されています。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Scripts are typically well tested and include error-handling logic, so errors are not expected and should terminate the transaction.</source>
+          <target state="translated">スクリプトでは、通常を十分にテストされ、エラー処理ロジックを含めるため、エラーが予期されていないと、トランザクションを終了する必要があります。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The first command starts a transaction in the HKCU:\Software registry key.</source>
+          <target state="translated">最初のコマンドは、hkc u:\software レジストリ キーで、トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>start-transaction</source>
+          <target state="translated">トランザクションの開始</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The following command uses the New-Item cmdlet to add the MyCompany key to the registry.</source>
+          <target state="translated">次のコマンドでは、New-item コマンドレットを使用して、MyCompany キーをレジストリに追加します。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The command uses the UseTransaction parameter (the alias is "usetx") to include the command in the transaction.</source>
+          <target state="translated">コマンドは、トランザクションにコマンドを含める (エイリアスは"usetx") UseTransaction パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>New-Item MyCompany -UseTX</source>
+          <target state="translated">新しい項目の MyCompany UseTX</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Because the MyCompany key already exists in the registry, the command fails, and the transaction is rolled back.</source>
+          <target state="translated">レジストリの MyCompany キーが既に存在するためのコマンドは、失敗し、トランザクションがロールバックします。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>New-Item : A key at this path already exists At line:1 char:9</source>
+          <target state="translated">新しい項目: このパスにあるキーは既に行: 1 文字: 9 に存在します。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>new-item &lt;&lt;&lt;&lt;  MyCompany -usetx</source>
+          <target state="translated">新しい項目 &lt;&lt;&lt;&lt; MyCompany usetx</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>A Get-Transaction command confirms that the transaction has been rolled back and that the SubscriberCount is 0.</source>
+          <target state="translated">Get-transaction コマンドは、トランザクションはロールバックされていることと、SubscriberCount が 0 であることを確認します。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>RollbackPreference   SubscriberCount   Status</source>
+          <target state="translated">RollbackPreference SubscriberCount ステータス</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Error                0                 RolledBack</source>
+          <target state="translated">エラー 0 RolledBack</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 6: CHANGING THE ROLLBACK PREFERENCE</source>
+          <target state="translated">例 6: ロールバック設定を変更します。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>If you want the transaction to be more error tolerant, you can use the RollbackPreference parameter of Start-Transaction to change the preference.</source>
+          <target state="translated">複数のエラーが許容するトランザクションを設定する場合は、設定を変更する Start-transaction の RollbackPreference パラメーターを使用できます。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The following command starts a transaction with a rollback preference of "Never".</source>
+          <target state="translated">次のコマンドは、"Never"のロールバック設定して、トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>start-transaction -rollbackpreference Never</source>
+          <target state="translated">開始トランザクション rollbackpreference ことはありません。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>In this case, when the command fails, the transaction is not automatically rolled back.</source>
+          <target state="translated">この場合は、コマンドが失敗した場合、トランザクションは自動的にロールバックされません。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>New-Item MyCompany -UseTX</source>
+          <target state="translated">新しい項目の MyCompany UseTX</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>New-Item : A key at this path already exists At line:1 char:9</source>
+          <target state="translated">新しい項目: このパスにあるキーは既に行: 1 文字: 9 に存在します。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>new-item &lt;&lt;&lt;&lt;  MyCompany -usetx</source>
+          <target state="translated">新しい項目 &lt;&lt;&lt;&lt; MyCompany usetx</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Because the transaction is still active, you can resubmit the command as part of the transaction.</source>
+          <target state="translated">トランザクションはまだアクティブであるため、トランザクションの一部としてコマンドを再送信できます。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>New-Item MyOtherCompany -UseTX</source>
+          <target state="translated">新しい項目 MyOtherCompany UseTX</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 7: USING THE USE-TRANSACTION CMDLET</source>
+          <target state="translated">例 7: USE-TRANSACTION コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The Use-Transaction cmdlet enables you to do direct scripting against transaction-enabled Microsoft .NET Framework  objects.</source>
+          <target state="translated">Use-transaction コマンドレットでは、ようににダイレクトするトランザクションが有効な Microsoft .NET Framework のオブジェクトに対してスクリプトを作成することができます。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Use-Transaction takes a script block that can only contain commands and expressions that use transaction-enabled .NET Framework objects, such as instances of the Microsoft.PowerShell.Commands.Management.TransactedString class.</source>
+          <target state="translated">使用するトランザクションには、コマンドとトランザクションが有効な .NET Framework などのオブジェクト、Microsoft.PowerShell.Commands.Management.TransactedString クラスのインスタンスを使用して式のみを含めることができるスクリプト ブロックが取得されます。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The following command starts a transaction.</source>
+          <target state="translated">次のコマンドは、トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>start-transaction</source>
+          <target state="translated">トランザクションの開始</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>The following New-Object command creates an instance of the TransactedString class and saves it in the $t variable.</source>
+          <target state="translated">新規オブジェクトの次のコマンドは、TransactedString クラスのインスタンスを作成し、$t 変数に保存します。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>$t = New-Object Microsoft.PowerShell.Commands.Management.TransactedString</source>
+          <target state="translated">$t = New-object は、Microsoft.PowerShell.Commands.Management.TransactedString</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>The following command uses the Append method of the TransactedString object to add text to the string.</source>
+          <target state="translated">次のコマンドでは、TransactedString オブジェクトの Append メソッドを使用して、テキスト文字列を追加します。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Because the command is not part of the transaction, the change is effective immediately.</source>
+          <target state="translated">コマンドがトランザクションの一部ではないため、変更がすぐに有効です。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>$t.append("Windows")</source>
+          <target state="translated">$t.append("Windows")</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The following command uses the same Append method to add text, but it adds the text as part of the transaction.</source>
+          <target state="translated">次のコマンドでは、同じ Append メソッドを使用して、テキストを追加しますが、トランザクションの一部としてテキストを追加します。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The command is enclosed in braces, and it is set as the value of the ScriptBlock parameter of Use-Transaction.</source>
+          <target state="translated">コマンドが中かっこで囲まれたし、使用するトランザクションの ScriptBlock パラメーターの値として設定されています。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>The UseTransaction parameter (UseTx) is required.</source>
+          <target state="translated">UseTransaction パラメーター (UseTx) が必要です。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>use-transaction {$t.append(" PowerShell")} -usetx</source>
+          <target state="translated">use-transaction {$t.append ("PowerShell")} usetx</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>To see the current content of the transacted string in $t, use the ToString method of the TransactedString object.</source>
+          <target state="translated">$T 内のトランザクション処理された文字列の現在の内容を表示するには、TransactedString オブジェクトの ToString メソッドを使用します。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>$t.tostring()</source>
+          <target state="translated">$t.tostring()</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The output shows that only the non-transacted changes are effective.</source>
+          <target state="translated">出力は、非トランザクションの変更のみが有効にするかを示しています。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Windows</source>
+          <target state="translated">Windows</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>To see the current content of the transacted string in $t from within the transaction, embed the expression in a Use-Transaction command.</source>
+          <target state="translated">トランザクション内から $t 内のトランザクション処理された文字列の現在の内容を表示するには、Use-transaction コマンドで式を埋め込みます。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>use-transaction {$s.tostring()} -usetx</source>
+          <target state="translated">use-transaction {$s.tostring()} usetx</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The output shows the transaction view.</source>
+          <target state="translated">出力では、トランザクションについて表示されます。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell</source>
+          <target state="translated">Windows PowerShell</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>The following command commits the transaction.</source>
+          <target state="translated">次のコマンドは、トランザクションをコミットします。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>complete-transaction</source>
+          <target state="translated">完了トランザクション</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>To see the final string:</source>
+          <target state="translated">最終的な文字列を参照してください。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>$t.tostring()</source>
+          <target state="translated">$t.tostring()</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell</source>
+          <target state="translated">Windows PowerShell</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 7: MANAGING MULTI-SUBSCRIBER TRANSACTIONS</source>
+          <target state="translated">例 7: マルチサブスクライバー トランザクションを管理します。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>When you start a transaction while another transaction is in progress, Windows PowerShell does not create a second transaction by default.</source>
+          <target state="translated">別のトランザクションが進行中のトランザクションを開始するときに Windows PowerShell は既定で 2 番目のトランザクションを作成できません。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Instead, it adds a subscriber to the current transaction.</source>
+          <target state="translated">代わりに、現在のトランザクションにサブスクライバーを追加します。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>This example shows how to view and manage a multi-subscriber transaction.</source>
+          <target state="translated">この例では、表示し、マルチサブスクライバー トランザクションを管理する方法を示します。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Begin by starting a transaction in the HKCU:\Software key.</source>
+          <target state="translated">まず、u:\software キーで、トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>start-transaction</source>
+          <target state="translated">トランザクションの開始</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The following command uses the Get-Transaction command to get the active transaction.</source>
+          <target state="translated">次のコマンドでは、Get-transaction コマンドを使用して、アクティブなトランザクションを取得します。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>get-transaction</source>
+          <target state="translated">get トランザクション</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>The result shows the object that represents the active transaction.</source>
+          <target state="translated">結果は、アクティブなトランザクションを表すオブジェクトを示します。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>RollbackPreference   SubscriberCount   Status</source>
+          <target state="translated">RollbackPreference SubscriberCount ステータス</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Error                1                 Active</source>
+          <target state="translated">エラー 1 のアクティブ</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The following command adds the MyCompany key to the registry.</source>
+          <target state="translated">次のコマンドは、MyCompany キーをレジストリに追加します。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The command  uses the UseTransaction parameter to include the command in the transaction.</source>
+          <target state="translated">コマンドでは、トランザクションにコマンドを含める UseTransaction パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>new-item MyCompany -UseTransaction</source>
+          <target state="translated">新しい項目の MyCompany UseTransaction</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>The following command uses the Start-Transaction command to start a transaction.</source>
+          <target state="translated">次のコマンドでは、Start-transaction コマンドを使用して、トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Although this command is typed at the command prompt, this scenario is more likely to happen when you run a script that contains a transaction.</source>
+          <target state="translated">コマンド プロンプトで次のコマンドを入力すると、このシナリオは、トランザクションを含むスクリプトを実行する場合に発生する可能性が高くなります。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>start-transaction</source>
+          <target state="translated">トランザクションの開始</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>A Get-Transaction command shows that the subscriber count on the transaction object is incremented.</source>
+          <target state="translated">Get-transaction コマンドは、トランザクション オブジェクトのサブスクライバーの数を増分することを示しています。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>The value is now 2.</source>
+          <target state="translated">値は、ここでは 2 です。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>RollbackPreference   SubscriberCount   Status</source>
+          <target state="translated">RollbackPreference SubscriberCount ステータス</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Error                2                 Active</source>
+          <target state="translated">エラー 2 アクティブ</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>The next command uses the New-ItemProperty cmdlet to add the MyKey registry entry to the MyCompany key.</source>
+          <target state="translated">次のコマンドでは、New-itemproperty コマンドレットを使用して、MyCompany キーに MyKey レジストリ エントリを追加します。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>It uses the UseTransaction parameter to include the command in the transaction.</source>
+          <target state="translated">UseTransaction パラメーターを使用して、トランザクションにコマンドを含める。</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>new-itemproperty -path MyCompany -name MyKey -UseTransaction</source>
+          <target state="translated">新しい itemproperty-パス MyCompany-MyKey UseTransaction という名前を</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>The MyCompany key does not exist in the registry, but this command succeeds because the two commands are part of the same transaction.</source>
+          <target state="translated">MyCompany キーがレジストリに存在しませんが、2 つのコマンドが同じトランザクションの一部であるために、このコマンドは成功します。</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>The following command commits the transaction.</source>
+          <target state="translated">次のコマンドは、トランザクションをコミットします。</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>If it rolled back the transaction, the transaction would be rolled back for all the subscribers.</source>
+          <target state="translated">トランザクションをロールバックしている場合、トランザクションはロールバックされますのすべてのサブスクライバー。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>complete-transaction</source>
+          <target state="translated">完了トランザクション</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>A Get-Transaction command shows that the subscriber count on the transaction object is 1, but the value of Status is still Active (not Committed).</source>
+          <target state="translated">Get-transaction コマンドは、トランザクション オブジェクトのサブスクライバーの数は 1、状態の値がまだアクティブな (コミットされていない) ことは示されます。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>RollbackPreference   SubscriberCount   Status</source>
+          <target state="translated">RollbackPreference SubscriberCount ステータス</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>Error                1                 Active</source>
+          <target state="translated">エラー 1 のアクティブ</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>To finish committing the transaction, enter a second Complete- Transaction command.</source>
+          <target state="translated">トランザクションのコミットを完了するには、2 番目の Complete-transaction コマンドを入力します。</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>To commit a multi-subscriber transaction, you must enter one Complete-Transaction command for each Start-Transaction command.</source>
+          <target state="translated">マルチサブスクライバー トランザクションをコミットするには、各 Start-transaction コマンドに対して 1 つの Complete-transaction コマンドを入力してください。</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>complete-transaction</source>
+          <target state="translated">完了トランザクション</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>Another Get-Transaction command shows that the transaction has been committed.</source>
+          <target state="translated">別の Get-transaction コマンドは、トランザクションがコミットされたことを示しています。</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>RollbackPreference   SubscriberCount   Status</source>
+          <target state="translated">RollbackPreference SubscriberCount ステータス</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>Error                0                 Committed</source>
+          <target state="translated">コミットされた 0 エラー</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 8: MANAGING INDEPENDENT TRANSACTIONS</source>
+          <target state="translated">例 8: の独立したトランザクションを管理します。</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>When you start a transaction while another transaction is in progress, you can use the Independent parameter of Start-Transaction to make the new transaction independent of the original transaction.</source>
+          <target state="translated">別のトランザクションが進行中のトランザクションを開始するときに、新しいトランザクションを元のトランザクションの独立させるのには、Start-transaction の Independent パラメーターを使用できます。</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>When you do, Start-Transaction creates a new transaction object and makes the new transaction the active transaction.</source>
+          <target state="translated">操作を実行すると、Start-transaction は新しいトランザクション オブジェクトを作成し、新しいトランザクションは、アクティブなトランザクションです。</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>Begin by starting a transaction in the HKCU:\Software key.</source>
+          <target state="translated">まず、u:\software キーで、トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>start-transaction</source>
+          <target state="translated">トランザクションの開始</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>The following command uses the Get-Transaction command to get the active transaction.</source>
+          <target state="translated">次のコマンドでは、Get-transaction コマンドを使用して、アクティブなトランザクションを取得します。</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>get-transaction</source>
+          <target state="translated">get トランザクション</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>The result shows the object that represents the active transaction.</source>
+          <target state="translated">結果は、アクティブなトランザクションを表すオブジェクトを示します。</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>RollbackPreference   SubscriberCount   Status</source>
+          <target state="translated">RollbackPreference SubscriberCount ステータス</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>Error                1                 Active</source>
+          <target state="translated">エラー 1 のアクティブ</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>The following command adds the MyCompany registry key as part of the transaction.</source>
+          <target state="translated">次のコマンドは、トランザクションの一部として、MyCompany レジストリ キーを追加します。</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>It uses the UseTransaction parameter (UseTx) to include the command in the active transaction.</source>
+          <target state="translated">UseTransaction パラメーター (UseTx) を使用し、アクティブなトランザクションにコマンドが含まれます。</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>new-item MyCompany -use</source>
+          <target state="translated">新しい項目の MyCompany の使用</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>The following command starts a new transaction.</source>
+          <target state="translated">次のコマンドは、新しいトランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>The command uses the Independent parameter to indicate that this transaction is not a subscriber to the active transaction.</source>
+          <target state="translated">コマンドは、このトランザクションがアクティブなトランザクションをサブスクライバーでないことを示すために、独立したパラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>start-transaction -independent</source>
+          <target state="translated">トランザクションの開始に依存しません。</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>When you create an independent transaction, the new (most-recently created) transaction becomes the active transaction.</source>
+          <target state="translated">独立したトランザクションを作成するときに、アクティブなトランザクションが新しい (最近作成した) トランザクションになります。</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>You can use a Get-Transaction command to get the active transaction.</source>
+          <target state="translated">アクティブなトランザクションを取得するのに Get-transaction コマンドを使用することができます。</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>get-transaction</source>
+          <target state="translated">get トランザクション</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>Note that the SubscriberCount of the transaction is 1, indicating that there are no other subscribers and that the transaction is new.</source>
+          <target state="translated">トランザクションの SubscriberCount は 1、あることを示す他のサブスクライバーがないと、トランザクションが変更されました。</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>RollbackPreference   SubscriberCount   Status</source>
+          <target state="translated">RollbackPreference SubscriberCount ステータス</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>Error                1                 Active</source>
+          <target state="translated">エラー 1 のアクティブ</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>The new transaction must be finished (either committed or rolled back) before you can manage the original transaction.</source>
+          <target state="translated">元のトランザクションを管理するために、新しいトランザクションが (コミットまたはロールバック奥) を完了する必要があります。</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>The following command adds the MyOtherCompany key to the registry.</source>
+          <target state="translated">次のコマンドは、MyOtherCompany キーをレジストリに追加します。</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>It uses the UseTransaction parameter (UseTx) to include the command in the active transaction.</source>
+          <target state="translated">UseTransaction パラメーター (UseTx) を使用し、アクティブなトランザクションにコマンドが含まれます。</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>new-item MyOtherCompany -usetx</source>
+          <target state="translated">新しい項目の MyOtherCompany usetx</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>Now, roll back the transaction.</source>
+          <target state="translated">これで、トランザクションをロールバックします。</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>If there were a single transaction with two subscribers, rolling back the transaction would roll back the entire transaction for all the subscribers.</source>
+          <target state="translated">2 つのサブスクライバーに 1 つのトランザクションがある場合、トランザクションのロールバックはトランザクションをロールバックして全体のすべてのサブスクライバー。</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>However, because these transactions are independent, rolling back the newest transaction cancels the registry changes and makes the original transaction the active transaction.</source>
+          <target state="translated">ただし、これらのトランザクションは独立してため、ロールバック最新のトランザクション レジストリの変更をキャンセル、元のトランザクション、アクティブなトランザクションします。</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>undo-transaction</source>
+          <target state="translated">元に戻す操作</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>A Get-Transaction command confirms that the original transaction is still active in the session.</source>
+          <target state="translated">Get-transaction コマンドは、元のトランザクションがまだセッションでアクティブであることを確認します。</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>get-transaction</source>
+          <target state="translated">get トランザクション</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>RollbackPreference   SubscriberCount   Status</source>
+          <target state="translated">RollbackPreference SubscriberCount ステータス</target>       </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>Error                1                 Active</source>
+          <target state="translated">エラー 1 のアクティブ</target>       </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>The following command commits the active transaction.</source>
+          <target state="translated">次のコマンドでは、アクティブなトランザクションをコミットします。</target>       </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>complete-transaction</source>
+          <target state="translated">完了トランザクション</target>       </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>A Get-ChildItem command shows that the registry has been changed.</source>
+          <target state="translated">Get-childitem コマンドでは、レジストリが変更されたことを示します。</target>       </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>dir m*</source>
+          <target state="translated">dir m *</target>       </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>Hive: HKEY_CURRENT_USER\Software</source>
+          <target state="translated">Hive: hkey_current_user</target>       </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>SKC  VC Name                           Property</source>
+          <target state="translated">SKC VC Name プロパティ</target>       </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>83   1 Microsoft                      {(default)} 0   0 MyCompany                      {}</source>
+          <target state="translated">83 1 Microsoft {(既定)} 0 0 MyCompany {}</target>       </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">関連項目</target>       </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>Start-Transaction Get-Transaction Complete-Transaction Undo-Transaction Use-Transaction Registry (provider) about_Providers Get-PSProvider Get-ChildItem</source>
+          <target state="translated">Start-transaction Get-transaction Complete-transaction 元に戻す操作を使用してトランザクション レジストリ (プロバイダー) about_Providers Get-psprovider Get-childitem</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

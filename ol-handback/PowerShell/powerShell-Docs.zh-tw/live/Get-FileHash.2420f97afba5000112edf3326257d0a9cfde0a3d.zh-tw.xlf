@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fb00f872a8d33a2c0613a45e378338b4a0ba88f5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Get-FileHash.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2e40b64b9b6cc9fa463ad9f5a4c4e544c67febd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5c1852ed0b554de42f88167f3ac519e97781b83</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-FileHash</source>
+          <target state="translated">Get-filehash</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-FileHash</source>
+          <target state="translated">Get-filehash</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Computes the hash value for a file by using a specified hash algorithm.</source>
+          <target state="translated">使用指定的雜湊演算法來計算檔案的雜湊值。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Path (Default)</source>
+          <target state="translated">路徑 （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LiteralPath</source>
+          <target state="translated">常值路徑</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Stream</source>
+          <target state="translated">資料流</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-FileHash<ept id="p1">**</ept> cmdlet computes the hash value for a file by using a specified hash algorithm.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-filehash<ept id="p1">**</ept> 指令程式是使用指定的雜湊演算法來計算檔案的雜湊值。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A hash value is a unique value that corresponds to the content of the file.</source>
+          <target state="translated">雜湊值是對應至檔案內容的唯一值。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Rather than identifying the contents of a file by its file name, extension, or other designation, a hash assigns a unique value to the contents of a file.</source>
+          <target state="translated">雜湊會指派唯一值至檔案內容，而非依檔案名稱、副檔名或其他指定項目來識別檔案的內容。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>File names and extensions can be changed without altering the content of the file, and without changing the hash value.</source>
+          <target state="translated">您可以在不修改檔案內容的情況下變更檔案名稱與副檔名，這樣不會變更雜湊值。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Similarly, the file's content can be changed without changing the name or extension.</source>
+          <target state="translated">同樣地，可以變更檔案的內容，而不需要變更名稱或副檔名。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>However, changing even a single character in the contents of a file changes the hash value of the file.</source>
+          <target state="translated">不過，即使只變更檔案內容中的一個字元，也會造成檔案的雜湊值變更。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The purpose of hash values is to provide a cryptographically-secure way to verify that the contents of a file have not been changed.</source>
+          <target state="translated">雜湊值的目的是提供以密碼編譯的安全方式來確認檔案內容未經變更。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>While some hash algorithms, including MD5 and SHA1, are no longer considered secure against attack, the goal of a secure hash algorithm is to render it impossible to change the contents of a file-either by accident, or by malicious or unauthorized attempt-and maintain the same hash value.</source>
+          <target state="translated">雖然某些雜湊演算法包括 MD5 和 SHA1，不再被視為安全地抵禦攻擊，安全雜湊演算法的目標是將其轉譯不可能不小心或惡意或未經授權嘗試變更的檔案-可能是內容-和維護相同的雜湊值。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can also use hash values to determine if two different files have exactly the same content.</source>
+          <target state="translated">您也可以使用雜湊值來判斷兩個檔案是否具有完全相同的內容。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the hash values of two files are identical, the contents of the files are also identical.</source>
+          <target state="translated">若兩個檔案的雜湊值完全相同，則檔案的內容也完全相同。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">**</bpt>Get-FileHash<ept id="p1">**</ept> cmdlet uses the SHA256 algorithm, although any hash algorithm that is supported by the target operating system can be used.</source>
+          <target state="translated">根據預設， <bpt id="p1">**</bpt>Get-filehash<ept id="p1">**</ept> 指令程式會使用 SHA256 演算法，不過您也可以使用任何雜湊演算法所支援的目標作業系統。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1: Compute the hash value for a PowerShell.exe file</source>
+          <target state="translated">範例 1︰ 計算 PowerShell.exe 檔案的雜湊值</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Get-FileHash<ept id="p1">**</ept> cmdlet to compute the hash value for the Powershell.exe file.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>Get-filehash<ept id="p1">**</ept> 指令程式可計算的 Powershell.exe 檔案的雜湊值。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The hash algorithm used is the default, SHA256.</source>
+          <target state="translated">使用的雜湊演算法是預設的 SHA256。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The output is piped to the Format-List cmdlet to format the output as a list.</source>
+          <target state="translated">輸出會被輸送到 Format-list cmdlet 將輸出格式化為清單。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 2: Compute the has value for an ISO file</source>
+          <target state="translated">範例 2︰ 計算值的 ISO 檔案</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Get-FileHash<ept id="p1">**</ept> cmdlet and the SHA384 algorithm to compute the hash value for an ISO file that an administrator has downloaded from the Internet.</source>
+          <target state="translated">此命令會使用 <bpt id="p1">**</bpt>Get-filehash<ept id="p1">**</ept> cmdlet 與 SHA384 演算法來計算雜湊值之系統管理員已從網際網路下載的 ISO 檔案。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The output is piped to the Format-List cmdlet to format the output as a list.</source>
+          <target state="translated">輸出會被輸送到 Format-list cmdlet 將輸出格式化為清單。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-Algorithm</source>
+          <target state="translated">-演算法</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Specifies the cryptographic hash function to use for computing the hash value of the contents of the specified file.</source>
+          <target state="translated">指定要用於計算所指定檔案之內容雜湊值的密碼編譯雜湊函式。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A cryptographic hash function includes the property that it is not possible to find two distinct inputs that generate the same hash values.</source>
+          <target state="translated">密碼編譯雜湊函式包含不可能用來尋找會產生相同雜湊值之兩個不同輸入的屬性。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Hash functions are commonly used with digital signatures and for data integrity.</source>
+          <target state="translated">雜湊函式經常被用於數位簽章與資料完整性用途。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此參數接受的值包括：</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>SHA1</source>
+          <target state="translated">SHA1</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>SHA256</source>
+          <target state="translated">SHA256</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>SHA384</source>
+          <target state="translated">SHA384</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>SHA512</source>
+          <target state="translated">SHA512</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>MACTripleDES</source>
+          <target state="translated">MACTripleDES</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>MD5</source>
+          <target state="translated">MD5</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>RIPEMD160</source>
+          <target state="translated">RIPEMD160</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If no value is specified, or if the parameter is omitted, the default value is SHA256.</source>
+          <target state="translated">若未指定值，或省略參數，則預設值是 SHA256。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For security reasons, MD5 and SHA1, which are no longer considered secure, should only be used for simple change validation, and should not be used to generate hash values for files that require protection from attack or tampering.</source>
+          <target state="translated">基於安全性理由，MD5 與 SHA1 (不再被視為安全) 只應該用於簡單的變更驗證，而不應該用於為需要保護以避免受攻擊或遭竄改的檔案產生雜湊值。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-InputStream</source>
+          <target state="translated">-InputStream</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Specifies the input stream.</source>
+          <target state="translated">指定輸入資料流。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Specifies the path to a file as an array.</source>
+          <target state="translated">指定檔案的路徑做為陣列。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Unlike the <bpt id="p1">*</bpt>Path<ept id="p1">*</ept> parameter, the value of the <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">不同於 <bpt id="p1">*</bpt>路徑<ept id="p1">*</ept> 參數、 值 <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> 完全依照其輸入，使用參數。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcard characters.</source>
+          <target state="translated">沒有字元會被視為萬用字元。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose the path in single quotation marks.</source>
+          <target state="translated">如果路徑包含逸出字元，請將路徑括在單引號中。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Single quotation marks instruct Windows PowerShell not to interpret characters as escape sequences.</source>
+          <target state="translated">單引號指示 Windows PowerShell 不要將字元視為逸出序列。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Specifies the path to one or more files as an array.</source>
+          <target state="translated">指定一或多個檔案的路徑做為陣列。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You can pipe a string to the <bpt id="p1">**</bpt>Get-FileHash<ept id="p1">**</ept> cmdlet that contains a path to one or more files.</source>
+          <target state="translated">您可以使用管線將字串 <bpt id="p1">**</bpt>Get-filehash<ept id="p1">**</ept> 指令程式，其中包含一或多個檔案的路徑。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Microsoft.Powershell.Utility.FileHash</source>
+          <target state="translated">Microsoft.Powershell.Utility.FileHash</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-FileHash<ept id="p1">**</ept> returns an object that represents the path to the specified file, the value of the computed hash, and the algorithm used to compute the hash.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-filehash<ept id="p1">**</ept> 傳回物件，表示指定的檔案、 計算雜湊，以及用來計算雜湊演算法的值的路徑。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Format-List</source>
+          <target state="translated">Format-List</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

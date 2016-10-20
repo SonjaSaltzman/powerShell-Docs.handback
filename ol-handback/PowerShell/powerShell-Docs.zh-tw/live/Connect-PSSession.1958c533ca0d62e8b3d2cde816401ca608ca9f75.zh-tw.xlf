@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">434e928f77a391492a441937643892b729ace7ac</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\Connect-PSSession.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">883fd15c94dbafc3317cebdb7961a304c67f4d30</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c3ede7a79f6ff80a560ac43700e9e76dd41d76ec</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession</source>
+          <target state="translated">Connect-PSSession</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession</source>
+          <target state="translated">Connect-PSSession</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Reconnects to disconnected sessions</source>
+          <target state="translated">重新連線至已中斷連線的工作階段</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Name (Default)</source>
+          <target state="translated">名稱 （預設值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Session</source>
+          <target state="translated">工作階段</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ComputerName</source>
+          <target state="translated">ComputerName</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>ComputerNameGuid</source>
+          <target state="translated">ComputerNameGuid</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>ConnectionUri</source>
+          <target state="translated">ConnectionUri</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>ConnectionUriGuid</source>
+          <target state="translated">ConnectionUriGuid</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>InstanceId</source>
+          <target state="translated">執行個體識別碼</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <target state="translated">Id</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cmdlet reconnects to user-managed Windows PowerShell sessions ("PSSessions") that were disconnected.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> cmdlet 重新連線至使用者管理 Windows PowerShell 工作階段 ("PSSessions") 已中斷連線。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It works on sessions that are disconnected intentionally, such as by using the Disconnect-PSSession cmdlet or the <bpt id="p1">**</bpt>InDisconnectedSession<ept id="p1">**</ept> parameter of the Invoke-Command cmdlet, and those that were disconnected unintentionally, such as by a temporary network outage.</source>
+          <target state="translated">它可用於刻意中斷連線，例如，使用 Disconnect-pssession 指令程式的工作階段或 <bpt id="p1">**</bpt>InDisconnectedSession<ept id="p1">**</ept> 參數叫用命令的指令程式，以及已中斷連線會在無意中，例如暫時網路中斷。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> can connect to any disconnected session that was started by the same user, including those that were started by or disconnected from other sessions on other computers.</source>
+          <target state="translated"><bpt id="p1">**</bpt>連線 PSSession<ept id="p1">**</ept> 可以連接到任何中斷連線工作階段啟動相同的使用者，包括啟動或從其他電腦上的其他工作階段中斷連線。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>However, <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cannot connect to broken or closed sessions, or interactive sessions started by using the Enter-PSSession cmdlet.</source>
+          <target state="translated">不過， <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 無法連接到已中斷或已關閉工作階段或使用 Enter-pssession cmdlet 啟動互動式工作階段。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Also you cannot connect sessions to sessions started by other users, unless you can provide the credentials of the user who created the session.</source>
+          <target state="translated">您也無法連線其他使用者啟動的工作階段，除非您可以提供建立工作階段之使用者的認證。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information about the Disconnected Sessions feature, see about_Remote_Disconnected_Sessions.</source>
+          <target state="translated">如需中斷連線工作階段功能的詳細資訊，請參閱 about_Remote_Disconnected_Sessions。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This cmdlet is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此 Cmdlet 是在 Windows PowerShell 3.0 引進。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Example 1</source>
+          <target state="translated">範例 1</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This command reconnects to the ITTask session on the Server01 computer.</source>
+          <target state="translated">此命令重新連線至 Server01 電腦上的 ITTask 工作階段。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The output shows that the command was successful.</source>
+          <target state="translated">輸出顯示命令成功。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>State<ept id="p1">**</ept> of the session is <bpt id="p2">**</bpt>Opened<ept id="p2">**</ept> and the <bpt id="p3">**</bpt>Availability<ept id="p3">**</ept> is <bpt id="p4">**</bpt>Available<ept id="p4">**</ept>, indicating that you can run commands in the session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>狀態<ept id="p1">**</ept> 工作階段是 <bpt id="p2">**</bpt>Opened<ept id="p2">**</ept> 和 <bpt id="p3">**</bpt>可用性<ept id="p3">**</ept> 是 <bpt id="p4">**</bpt>可用<ept id="p4">**</ept>, ，表示您可以在工作階段中執行命令。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 2</source>
+          <target state="translated">範例 2</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of disconnecting and then reconnecting to a session.</source>
+          <target state="translated">此範例顯示中斷連線再重新連線工作階段的作用。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-PSSession cmdlet.</source>
+          <target state="translated">第一個命令使用 Get-pssession cmdlet。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Without the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter, the command gets only sessions that were created in the current session.</source>
+          <target state="translated">不含 <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> 參數，此命令會取得目前工作階段中所建立的工作階段。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The output shows that the command gets the Backups session on the local computer.</source>
+          <target state="translated">輸出顯示命令取得本機電腦上的 Backups 工作階段。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>State<ept id="p1">**</ept> of the session is <bpt id="p2">**</bpt>Opened<ept id="p2">**</ept> and the <bpt id="p3">**</bpt>Availability<ept id="p3">**</ept> is <bpt id="p4">**</bpt>Available<ept id="p4">**</ept>.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>狀態<ept id="p1">**</ept> 工作階段是 <bpt id="p2">**</bpt>Opened<ept id="p2">**</ept> 和 <bpt id="p3">**</bpt>可用性<ept id="p3">**</ept> 是 <bpt id="p4">**</bpt>可用<ept id="p4">**</ept>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Get-PSSession<ept id="p1">**</ept> cmdlet to get the PSSessions that were created in the current session and the Disconnect-PSSession cmdlet to disconnect the sessions.</source>
+          <target state="translated">第二個命令會使用 <bpt id="p1">**</bpt>Get-pssession<ept id="p1">**</ept> cmdlet 來取得目前工作階段和 Disconnect-pssession cmdlet 中斷連線工作階段中所建立的 Pssession。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The output shows that the Backups session was disconnected.</source>
+          <target state="translated">輸出顯示 Backups 工作階段已中斷連線。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>State<ept id="p1">**</ept> of the session is <bpt id="p2">**</bpt>Disconnected<ept id="p2">**</ept> and the <bpt id="p3">**</bpt>Availability<ept id="p3">**</ept> is <bpt id="p4">**</bpt>None<ept id="p4">**</ept>.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>狀態<ept id="p1">**</ept> 工作階段是 <bpt id="p2">**</bpt>已中斷連接<ept id="p2">**</ept> 和 <bpt id="p3">**</bpt>可用性<ept id="p3">**</ept> 是 <bpt id="p4">**</bpt>無<ept id="p4">**</ept>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Get-PSSession<ept id="p1">**</ept> cmdlet to get the PSSessions that were created in the current session and the <bpt id="p2">**</bpt>Connect-PSSession<ept id="p2">**</ept> cmdlet to reconnect the sessions.</source>
+          <target state="translated">第三個命令會使用 <bpt id="p1">**</bpt>Get-pssession<ept id="p1">**</ept> cmdlet 來取得目前工作階段中所建立的 Pssession 和 <bpt id="p2">**</bpt>Connect-pssession<ept id="p2">**</ept> cmdlet 重新連線工作階段。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The output shows that the Backups session was reconnected.</source>
+          <target state="translated">輸出顯示 Backups 工作階段已重新連線。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>State<ept id="p1">**</ept> of the session is <bpt id="p2">**</bpt>Opened<ept id="p2">**</ept> and the <bpt id="p3">**</bpt>Availability<ept id="p3">**</ept> is <bpt id="p4">**</bpt>Available<ept id="p4">**</ept>.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>狀態<ept id="p1">**</ept> 工作階段是 <bpt id="p2">**</bpt>Opened<ept id="p2">**</ept> 和 <bpt id="p3">**</bpt>可用性<ept id="p3">**</ept> 是 <bpt id="p4">**</bpt>可用<ept id="p4">**</ept>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cmdlet on a session that is not disconnected, the command has no effect on the session and it does not generate any errors.</source>
+          <target state="translated">如果您使用 <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 未中斷連線的工作階段的 cmdlet，命令對於工作階段沒有作用且不會產生任何錯誤。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Example 3</source>
+          <target state="translated">範例 3</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This series of commands shows how the <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cmdlet might be used in an enterprise scenario.</source>
+          <target state="translated">這一系列命令示範如何 <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 指令程式可用於企業案例。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In this case, a system administrator starts a long-running job in a session on a remote computer.</source>
+          <target state="translated">在此案例中，系統管理員在遠端電腦工作階段中啟動長時間執行的工作。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>After starting the job, the administrator disconnects from the session and goes home.</source>
+          <target state="translated">啟動工作之後，系統管理員從工作階段中斷連線，之後就回家了。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Later that evening, the administrator logs on to her home computer and verifies that the job ran to completion.</source>
+          <target state="translated">之後，當晚系統管理員登入家用電腦，並確認工作執行完畢。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-AllowRedirection</source>
+          <target state="translated">-AllowRedirection</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Allows redirection of this connection to an alternate Uniform Resource Identifier (URI).</source>
+          <target state="translated">允許重新導向此連線至替代「統一資源識別項 (URI)」。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>ConnectionURI<ept id="p1">**</ept> parameter, the remote destination can return an instruction to redirect to a different URI.</source>
+          <target state="translated">當您使用 <bpt id="p1">**</bpt>ConnectionURI<ept id="p1">**</ept> 參數，遠端目的地可傳回重新導向至不同 URI 的指示。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell does not redirect connections, but you can use this parameter to allow it to redirect the connection.</source>
+          <target state="translated">根據預設，Windows PowerShell 不會重新導向連線，但是您可以使用此參數允許它重新導向連線。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can also limit the number of times the connection is redirected by changing the <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> session option value.</source>
+          <target state="translated">您也可以限制連線重新導向的變更次數 <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> 工作階段選項值。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Use the  <bpt id="p1">**</bpt>MaximumRedirection<ept id="p1">**</ept> parameter of the New-PSSessionOption cmdlet or set the <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> property of the <bpt id="p3">**</bpt>$PSSessionOption<ept id="p3">**</ept> preference variable.</source>
+          <target state="translated">使用  <bpt id="p1">**</bpt>MaximumRedirection<ept id="p1">**</ept> New-pssessionoption cmdlet 或設定參數的 <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> 屬性 <bpt id="p3">**</bpt>$PSSessionOption<ept id="p3">**</ept> 喜好設定變數。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">預設值為 5。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-ApplicationName</source>
+          <target state="translated">-ApplicationName</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Connects only to sessions that use the specified application.</source>
+          <target state="translated">只連線使用指定應用程式的工作階段。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Enter the application name segment of the connection URI.</source>
+          <target state="translated">輸入連線 URI 的應用程式名稱區段。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For example, in the following connection URI, the application name is WSMan: <ph id="ph1">`http://localhost:5985/WSMAN`</ph>.</source>
+          <target state="translated">例如，下列連線 URI，在應用程式名稱是 WSMan: <ph id="ph1">`http://localhost:5985/WSMAN`</ph>。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The application name of a session is stored in the <bpt id="p1">**</bpt>Runspace.ConnectionInfo.AppName<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">工作階段的應用程式名稱會儲存在 <bpt id="p1">**</bpt>Runspace.ConnectionInfo.AppName<ept id="p1">**</ept> 工作階段的屬性。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The value of this parameter is used to select and filter sessions.</source>
+          <target state="translated">此參數的值可用來選取與篩選工作階段。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>It does not change the application that the session uses.</source>
+          <target state="translated">它不會變更工作階段使用的應用程式。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-Authentication</source>
+          <target state="translated">-驗證</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specifies the mechanism that is used to authenticate the user's credentials in the command to reconnect to the disconnected session.</source>
+          <target state="translated">指定重新連線至已中斷連線工作階段的命令中，用來驗證使用者認證的機制。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>Default<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Basic<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Credssp<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Digest<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Kerberos<ept id="p5">**</ept>, <bpt id="p6">**</bpt>Negotiate<ept id="p6">**</ept>, and <bpt id="p7">**</bpt>NegotiateWithImplicitCredential<ept id="p7">**</ept>.</source>
+          <target state="translated">有效值為 <bpt id="p1">**</bpt>預設<ept id="p1">**</ept>, ，<bpt id="p2">**</bpt>基本<ept id="p2">**</ept>, ，<bpt id="p3">**</bpt>Credssp<ept id="p3">**</ept>, ，<bpt id="p4">**</bpt>摘要式<ept id="p4">**</ept>, ，<bpt id="p5">**</bpt>Kerberos<ept id="p5">**</ept>, ，<bpt id="p6">**</bpt>交涉<ept id="p6">**</ept>, ，和 <bpt id="p7">**</bpt>NegotiateWithImplicitCredential<ept id="p7">**</ept>。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>Default<ept id="p1">**</ept>.</source>
+          <target state="translated">預設值是 <bpt id="p1">**</bpt>預設<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see "AuthenticationMechanism enumeration" in MSDN.</source>
+          <target state="translated">如需此參數值的資訊，請參閱 MSDN 中的＜AuthenticationMechanism 列舉＞。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>CAUTION: Credential Security Support Provider (CredSSP) authentication, in which the user's credentials are passed to a remote computer to be authenticated, is designed for commands that require authentication on more than one resource, such as accessing a remote network share.</source>
+          <target state="translated">注意︰ 認證安全性支援提供者 (CredSSP) 驗證，在當使用者的認證傳遞到遠端電腦進行驗證，被設計用於需要驗證多個資源，例如存取遠端網路共用上的命令。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This mechanism increases the security risk of the remote operation.</source>
+          <target state="translated">此機制會使得遠端作業的安全性風險變高。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If the remote computer is compromised, the credentials that are passed to it can be used to control the network session.</source>
+          <target state="translated">若遠端電腦遭到入侵，傳遞給它的認證便可用來控制網路工作階段。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-CertificateThumbprint</source>
+          <target state="translated">-CertificateThumbprint</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Specifies the digital public key certificate (X509) of a user account that has permission to connect to the disconnected session.</source>
+          <target state="translated">指定具有連線至已中斷連線工作階段權限之使用者帳戶的數位公開金鑰憑證 (X509)。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Enter the certificate thumbprint of the certificate.</source>
+          <target state="translated">請輸入憑證的憑證指紋。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Certificates are used in client certificate-based authentication.</source>
+          <target state="translated">憑證將用於用戶端憑證式驗證。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>They can be mapped only to local user accounts; they do not work with domain accounts.</source>
+          <target state="translated">這些憑證只能對應至本機使用者帳戶，無法用於網域帳戶。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To get a certificate thumbprint, use a <bpt id="p1">**</bpt>Get-Item<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Get-ChildItem<ept id="p2">**</ept> command in the Windows PowerShell Cert: drive.</source>
+          <target state="translated">若要取得憑證指紋，請使用 <bpt id="p1">**</bpt>Get-item<ept id="p1">**</ept> 或 <bpt id="p2">**</bpt>Get-childitem<ept id="p2">**</ept> 命令在 Windows PowerShell Cert︰ 磁碟機。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Specifies the computers on which the disconnected sessions are stored.</source>
+          <target state="translated">指定儲存中斷連線工作階段的電腦。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Sessions are stored on the computer that is at the "server-side" or receiving end of a connection.</source>
+          <target state="translated">工作階段會儲存在「伺服器端」或連線接收端的電腦。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">預設是本機電腦。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an IP address, or a fully qualified domain name of one computer.</source>
+          <target state="translated">輸入電腦的 NetBIOS 名稱、IP 位址或完整網域名稱。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Wildcards are not permitted.</source>
+          <target state="translated">不允許使用萬用字元。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, "localhost", or a dot (.)</source>
+          <target state="translated">若要指定本機電腦，請輸入電腦名稱、"localhost" 或句點 (.)</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-ConfigurationName</source>
+          <target state="translated">-ConfigurationName</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Connects only to sessions that use the specified session configuration.</source>
+          <target state="translated">只連線使用指定工作階段設定的工作階段。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Enter a configuration name or the fully qualified resource URI for a session configuration.</source>
+          <target state="translated">輸入工作階段設定的設定名稱或完整資源 URI。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If you specify only the configuration name, the following schema URI is prepended:  http://schemas.microsoft.com/powershell.</source>
+          <target state="translated">如果您指定組態名稱，下列結構描述 URI 前面加上︰ http://schemas.microsoft.com/powershell。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The configuration name of a session is stored in the <bpt id="p1">**</bpt>ConfigurationName<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">工作階段的組態名稱儲存在 <bpt id="p1">**</bpt>ConfigurationName<ept id="p1">**</ept> 工作階段的屬性。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The value of this parameter is used to select and filter sessions.</source>
+          <target state="translated">此參數的值可用來選取與篩選工作階段。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>It does not change the session configuration that the session uses.</source>
+          <target state="translated">它不會變更工作階段使用的工作階段設定。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations .</source>
+          <target state="translated">如需工作階段設定的詳細資訊，請參閱 about_Session_Configurations。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">會提示您進行確認，然後再執行此指令程式。會提示您進行確認，然後再執行此指令程式。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-ConnectionUri</source>
+          <target state="translated">-ConnectionUri</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Specifies the Uniform Resource Identifiers (URIs) of the connection endpoints for the disconnected sessions.</source>
+          <target state="translated">指定中斷連線工作階段連線端點的「統一資源識別項 (URI)」。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The URI must be fully qualified.</source>
+          <target state="translated">此 URI 必須是完整的 URI。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The format of this string is as follows:</source>
+          <target state="translated">這個字串的格式如下所示：</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The default value is as follows:</source>
+          <target state="translated">預設值如下：</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>If you do not specify a connection URI, you can use the <bpt id="p1">**</bpt>UseSSL<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Port<ept id="p2">**</ept>  parameters to specify the connection URI values.</source>
+          <target state="translated">如果未指定連線 URI，您可以使用 <bpt id="p1">**</bpt>UseSSL<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>連接埠<ept id="p2">**</ept>  參數來指定連線 URI 值。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Valid values for the <bpt id="p1">**</bpt>Transport<ept id="p1">**</ept> segment of the URI are HTTP and HTTPS.</source>
+          <target state="translated">有效值為 <bpt id="p1">**</bpt>傳輸<ept id="p1">**</ept> URI 區段為 HTTP 和 HTTPS。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If you specify a connection URI with a Transport segment, but do not specify a port, the session is created with standards ports: 80 for HTTP and 443 for HTTPS.</source>
+          <target state="translated">如果您指定連線 URI 含傳輸區段，但未指定連接埠，以標準連接埠建立工作階段︰ 80 的 HTTP 和 HTTPS 為 443。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To use the default ports for Windows PowerShell remoting, specify port 5985 for HTTP or 5986 for HTTPS.</source>
+          <target state="translated">若要使用預設連接埠於 Windows PowerShell 遠端功能，請為 HTTP 指定連接埠 5985，或是為 HTTPS 指定連接埠 5986。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>If the destination computer redirects the connection to a different URI, Windows PowerShell prevents the redirection unless you use the <bpt id="p1">**</bpt>AllowRedirection<ept id="p1">**</ept> parameter in the command.</source>
+          <target state="translated">除非您使用 Windows PowerShell 如果目的地電腦會將連線重新導向至不同的 URI，可以避免重新導向 <bpt id="p1">**</bpt>AllowRedirection<ept id="p1">**</ept> 命令中的參數。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to connect to the disconnected session.</source>
+          <target state="translated">指定具有連線至已中斷連線工作階段權限的使用者帳戶。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">預設為目前使用者。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01".</source>
+          <target state="translated">輸入使用者名稱，例如 "User01" 或 "Domain01\User01"。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Or, enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">或者，輸入 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> 物件，例如 Get-credential cmdlet 產生的物件。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If you type a user name, you will be prompted for a password.</source>
+          <target state="translated">若您輸入使用者名稱，將會提示您輸入密碼。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">識別碼</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Specifies the IDs of the disconnected sessions.</source>
+          <target state="translated">指定已中斷連線工作階段的識別碼。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The ID parameter works only when the disconnected session was previously connected to the current session.</source>
+          <target state="translated">只有當已中斷連線工作階段先前連線至目前工作階段，此識別碼參數才能運作。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This parameter is valid, but not effective, when the session is stored on the local computer, but was not connected to the current session.</source>
+          <target state="translated">當工作階段儲存在本機電腦，但是未連線目前工作階段，則此參數有效，但沒有作用。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-執行個體識別碼</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Specifies the instance IDs of the disconnected sessions.</source>
+          <target state="translated">指定已中斷連線工作階段的執行個體識別碼。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The instance ID is a GUID that uniquely identifies a PSSession on a local or remote computer.</source>
+          <target state="translated">執行個體識別碼是 GUID，可唯一識別本機或遠端電腦上的 PSSession。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The instance ID is stored in the <bpt id="p1">**</bpt>InstanceID<ept id="p1">**</ept> property of the PSSession.</source>
+          <target state="translated">執行個體識別碼儲存在 <bpt id="p1">**</bpt>InstanceID<ept id="p1">**</ept> PSSession 的屬性。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Specifies the friendly names of the disconnected sessions.</source>
+          <target state="translated">指定已中斷連線工作階段的好記名稱。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-Port</source>
+          <target state="translated">連接埠</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Specifies the network port on the remote computer that is used to reconnect to the session.</source>
+          <target state="translated">指定遠端電腦上用來重新連線至工作階段的網路連接埠。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>To connect to a remote computer, the remote computer must be listening on the port that the connection uses.</source>
+          <target state="translated">若要連線到遠端電腦，遠端電腦必須接聽連線使用的連接埠。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The default ports are 5985 (the WinRM port for HTTP) and 5986 (the WinRM port for HTTPS).</source>
+          <target state="translated">預設連接埠是 5985 (用於 HTTP 的 WinRM 連接埠) 和 5986 (用於 HTTPS 的 WinRM 連接埠)。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Before using an alternate port, you must configure the WinRM listener on the remote computer to listen at that port.</source>
+          <target state="translated">使用替代連接埠之前，必須先將遠端電腦上的 WinRM 接聽程式設定為在該連接埠進行接聽。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>To configure the listener, type the following two commands at the Windows PowerShell prompt:</source>
+          <target state="translated">若要設定接聽程式，請在 Windows PowerShell 提示字元中輸入下列兩個命令：</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Do not use the <bpt id="p1">**</bpt>Port<ept id="p1">**</ept> parameter unless you must.</source>
+          <target state="translated">請勿使用 <bpt id="p1">**</bpt>連接埠<ept id="p1">**</ept> 參數除非必要，否則。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The port that is set in the command applies to all computers or sessions on which the command runs.</source>
+          <target state="translated">在命令中設定的連接埠，將套用於執行命令所在的所有電腦或工作階段。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>An alternate port setting might prevent the command from running on all computers.</source>
+          <target state="translated">替代的連接埠設定可能使得命令無法在全部電腦上執行。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">工作階段</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Specifies the disconnected sessions.</source>
+          <target state="translated">指定已中斷連線的工作階段。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the PSSessions or a command that creates or gets the PSSessions, such as a Get-PSSession command.</source>
+          <target state="translated">輸入包含 Pssession 或命令會建立或取得 Pssession，例如 Get-pssession 命令的變數。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>-SessionOption</source>
+          <target state="translated">-SessionOption</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Sets advanced options for the session.</source>
+          <target state="translated">設定工作階段的進階選項。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> object, such as one that you create by using the New-PSSessionOption cmdlet, or a hash table in which the keys are session option names and the values are session option values.</source>
+          <target state="translated">輸入 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 物件，例如您使用 New-pssessionoption cmdlet 建立的其中一個或雜湊表中的索引鍵是工作階段選項名稱和工作階段選項值。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The default values for the options are determined by the value of the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, if it is set.</source>
+          <target state="translated">選項的預設值由值 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 喜好設定變數，如果設定。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Otherwise, the default values are established by options set in the session configuration.</source>
+          <target state="translated">否則，將以工作階段設定中設定的選項建立預設值。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The session option values take precedence over default values for sessions set in the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable and in the session configuration.</source>
+          <target state="translated">工作階段選項值優先順序高於預設值的工作階段設定中設定的 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 喜好設定變數和工作階段設定。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>However, they do not take precedence over maximum values, quotas or limits set in the session configuration.</source>
+          <target state="translated">不過，它們的優先順序不會高於工作階段設定中設定的最大值、配額或限制。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>For a description of the session options, including the default values, see New-PSSessionOption.</source>
+          <target state="translated">說明的工作階段選項，包括預設值，請參閱 New-pssessionoption。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For information about the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">如需有關資訊 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 喜好設定變數，請參閱 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248)。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">如需工作階段設定的詳細資訊，請參閱 about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152)。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>-ThrottleLimit</source>
+          <target state="translated">-ThrottleLimit</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of concurrent connections that can be established to run this command.</source>
+          <target state="translated">指定為執行此命令可建立的最大同時連線數。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter or enter a value of 0, the default value, 32, is used.</source>
+          <target state="translated">若省略此參數，或輸入值為 0，則會使用預設值 32。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The throttle limit applies only to the current command, not to the session or to the computer.</source>
+          <target state="translated">節流限制僅適用於目前命令，不適用於工作階段或電腦。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>-UseSSL</source>
+          <target state="translated">-UseSSL</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Uses the Secure Sockets Layer (SSL) protocol to connect to the disconnected session.</source>
+          <target state="translated">使用安全通訊端層 (SSL) 通訊協定，連線至已中斷連線的工作階段。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>By default, SSL is not used.</source>
+          <target state="translated">預設不會使用 SSL。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>WS-Management encrypts all Windows PowerShell content transmitted over the network.</source>
+          <target state="translated">WS-Management 會加密透過網路傳輸的所有 Windows PowerShell 內容。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>UseSSL<ept id="p1">**</ept> is an additional protection that sends the data across an HTTPS connection instead of an HTTP connection.</source>
+          <target state="translated"><bpt id="p1">**</bpt>UseSSL<ept id="p1">**</ept> 是額外的保護，可透過 HTTPS 連線取代 HTTP 連線傳送資料。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>If you use this parameter, but SSL is not available on the port used for the command, the command fails.</source>
+          <target state="translated">若您使用此參數，但是命令所用的連接埠上無法使用 SSL，則命令會失敗。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">顯示執行 Cmdlet 後會發生的情況。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">無法執行此指令程式。顯示執行此指令程式會發生什麼事。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">未執行 Cmdlet。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>You can pipe a session (PSSession) to the <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">您可以使用工作階段 (PSSession) 管線傳送至 <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 指令程式。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> returns an object that represents the session to which it reconnected.</source>
+          <target state="translated"><bpt id="p1">**</bpt>連線 PSSession<ept id="p1">**</ept> 傳回物件，代表要重新連線工作階段。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> reconnects only to sessions that are disconnected, that is, sessions that have a value of <bpt id="p2">**</bpt>Disconnected<ept id="p2">**</ept> for  the <bpt id="p3">**</bpt>State<ept id="p3">**</ept> property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>連線 PSSession<ept id="p1">**</ept> 僅重新連線至工作階段中斷連線，也就是工作階段中的值為 <bpt id="p2">**</bpt>已中斷連接<ept id="p2">**</ept> 的 <bpt id="p3">**</bpt>狀態<ept id="p3">**</ept> 屬性。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Only sessions that are connected to (terminate at) computers running Windows PowerShell 3.0 or later can be disconnected and reconnected.</source>
+          <target state="translated">只有連線 (或終止於) 執行 Windows PowerShell 3.0 或更新版本電腦的工作階段，才能中斷連線或重新連線。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cmdlet on a session that is not disconnected, the command has no effect on the session and it does not generate errors.</source>
+          <target state="translated">如果您使用 <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 未中斷連線的工作階段的 cmdlet，命令對於工作階段沒有作用且不會產生錯誤。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Disconnected loopback sessions with interactive tokens (those created with the <bpt id="p1">**</bpt>EnableNetworkAccess<ept id="p1">**</ept> parameter) can be reconnected only from the computer on which the session was created.</source>
+          <target state="translated">中斷連線回送工作階段具有互動式權杖 (使用 <bpt id="p1">**</bpt>EnableNetworkAccess<ept id="p1">**</ept> 參數) 只會從工作階段建立所在的電腦重新連線。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>This restriction protects the computer from malicious access.</source>
+          <target state="translated">此限制可防止電腦遭受惡意存取。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property of a PSSession is relative to the current session.</source>
+          <target state="translated">值 <bpt id="p1">**</bpt>狀態<ept id="p1">**</ept> PSSession 屬性是相對於目前工作階段。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Therefore, a value of <bpt id="p1">**</bpt>Disconnected<ept id="p1">**</ept> means that the PSSession is not connected to the current session.</source>
+          <target state="translated">因此，值為 <bpt id="p1">**</bpt>已中斷連接<ept id="p1">**</ept> 表示 PSSession 並未連線至目前的工作階段。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>However, it does not mean that the PSSession is disconnected from all sessions.</source>
+          <target state="translated">不過，它並不表示 PSSession 中斷所有工作階段的連線。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>It might be connected to a different session.</source>
+          <target state="translated">它可能連線不同的工作階段。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>To determine whether you can connect or reconnect to the session, use the <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> property.</source>
+          <target state="translated">若要判斷是否可以連線或重新連線工作階段，請使用 <bpt id="p1">**</bpt>可用性<ept id="p1">**</ept> 屬性。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> value of <bpt id="p2">**</bpt>None<ept id="p2">**</ept> indicates that you can connect to the session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>可用性<ept id="p1">**</ept> 值 <bpt id="p2">**</bpt>無<ept id="p2">**</ept> 表示您可以連線到工作階段。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>A value of <bpt id="p1">**</bpt>Busy<ept id="p1">**</ept> indicates that you cannot connect to the PSSession because it is connected to another session.</source>
+          <target state="translated">值為 <bpt id="p1">**</bpt>忙碌<ept id="p1">**</ept> 表示您無法連線到 PSSession 因為它連線到另一個工作階段。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>For more information about the values of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property of sessions, see "RunspaceState Enumeration" in MSDN at http://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspacestate(v=VS.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspacestate(v=VS.85).aspx.</source>
+          <target state="translated">如需有關值 <bpt id="p1">**</bpt>狀態<ept id="p1">**</ept> 屬性的工作階段，查看 &lt; RunspaceState 列舉 &gt; msdn http://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspacestate (v=VS.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspacestate (vs.85。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>For more information about the values of the <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> property of sessions, see RunspaceAvailability Enumeration at http://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspaceavailability(v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspaceavailability(v=vs.85).aspx.</source>
+          <target state="translated">如需有關值 <bpt id="p1">**</bpt>可用性<ept id="p1">**</ept> 屬性的工作階段，請參閱 RunspaceAvailability 列舉，網址 http://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspaceavailability (v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.runspaceavailability (vs.85。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>You cannot change the idle timeout value of a PSSession when you connect to the PSSession.</source>
+          <target state="translated">連線 PSSession 時，無法變更 PSSession 的閒置逾時值。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Connect-PSSession<ept id="p2">**</ept> takes a <bpt id="p3">**</bpt>SessionOption<ept id="p3">**</ept> object that has an <bpt id="p4">**</bpt>IdleTimeout<ept id="p4">**</ept> value.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 參數 <bpt id="p2">**</bpt>Connect-pssession<ept id="p2">**</ept> 採用 <bpt id="p3">**</bpt>SessionOption<ept id="p3">**</ept> 物件具有 <bpt id="p4">**</bpt>IdleTimeout<ept id="p4">**</ept> 值。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>However, the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> value of the <bpt id="p2">**</bpt>SessionOption<ept id="p2">**</ept> object and the <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> value of the <bpt id="p4">**</bpt>$PSSessionOption<ept id="p4">**</ept> variable are ignored when connecting to a PSSession.</source>
+          <target state="translated">不過， <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> 值 <bpt id="p2">**</bpt>SessionOption<ept id="p2">**</ept> 物件和 <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> 值 <bpt id="p4">**</bpt>$PSSessionOption<ept id="p4">**</ept> 連線至 PSSession 時，變數都會被忽略。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>You can set and change the idle timeout of a PSSession when you create the PSSession (by using the New-PSSession or Invoke-Command cmdlets) and when you disconnect from the PSSession.</source>
+          <target state="translated">您可以設定，以及變更 PSSession 的閒置逾時，當您建立 PSSession （藉由使用 New-pssession 或 Invoke-command cmdlet），以及當您從 PSSession 中斷連線。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> property of  a PSSession is critical to disconnected sessions, because it determines how long a disconnected session is maintained on the remote computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> PSSession 屬性重要中斷連線工作階段，因為它會決定多久中斷連線工作階段維護遠端電腦上。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Disconnected sessions are considered to be idle from the moment that they are disconnected, even if commands are running in the disconnected session.</source>
+          <target state="translated">已中斷連線的工作階段一被中斷連線，便被視為閒置，即使命令仍然在已中斷連線的工作階段中執行也是如此。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession</source>
+          <target state="translated">Connect-PSSession</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Disconnect-PSSession</source>
+          <target state="translated">Disconnect-PSSession</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Exit-PSSession</source>
+          <target state="translated">Exit-PSSession</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Get-PSSession</source>
+          <target state="translated">Get-pssession</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration</source>
+          <target state="translated">Get-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession</source>
+          <target state="translated">Receive-PSSession</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Remove-PSSession</source>
+          <target state="translated">Remove-PSSession</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>about_PSSessions</source>
+          <target state="translated">about_PSSessions</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>about_Remote</source>
+          <target state="translated">about_Remote</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Sessions</source>
+          <target state="translated">about_Remote_Disconnected_Sessions</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

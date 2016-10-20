@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">542a5b9bfd6b4574eeee1eb3276f6f5f7e80019b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Providers\FileSystem-Provider.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ded73b48f24256343dc76d294b54d43c6281156c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e4d1d18b445258f32673598af3b6c87acf5ede09</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>FileSystem Provider</source>
+          <target state="translated">파일 시스템 공급자</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>FileSystem Provider</source>
+          <target state="translated">파일 시스템 공급자</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PROVIDER NAME</source>
+          <target state="translated">공급자 이름</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>FileSystem</source>
+          <target state="translated">파일 시스템</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>DRIVES</source>
+          <target state="translated">드라이브</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>C, D</source>
+          <target state="translated">C, D</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">간단한 설명</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Provides access to files and directories.</source>
+          <target state="translated">파일 및 디렉터리에 대한 액세스를 제공합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DETAILED DESCRIPTION</source>
+          <target state="translated">자세한 설명</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell FileSystem provider lets you get, add, change, clear, and delete files and directories in Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell 파일 시스템 공급자를 통해 Windows PowerShell에서 파일 및 디렉터리를 가져오고 추가, 변경 및 삭제할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The FileSystem provider exposes Windows PowerShell drives that correspond to the logical drives on your computer, including drives that are mapped to network shares.</source>
+          <target state="translated">파일 시스템 공급자는 네트워크 공유에 매핑된 드라이브를 포함하여 컴퓨터에 있는 논리 드라이브에 해당하는 Windows PowerShell 드라이브를 공개합니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This lets you reference these drives from within Windows PowerShell.</source>
+          <target state="translated">이렇게 하면 Windows PowerShell 내에서 이러한 드라이브를 참조할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The FileSystem provider lets you refer to files and folders in Windows PowerShell in the same way that you refer to them in Windows.</source>
+          <target state="translated">파일 시스템 공급자를 사용하면 Windows에서 파일 및 폴더를 참조하는 것과 같은 방식으로 Windows PowerShell에서도 참조할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To refer to a drive, specify the drive name followed by a colon.</source>
+          <target state="translated">드라이브를 참조하려면 드라이브 이름 다음에 콜론을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Like most of Windows PowerShell, the FileSystem provider is not case<ph id="ph1">\-</ph>sensitive.</source>
+          <target state="translated">대부분의 Windows PowerShell, 같은 파일 시스템 공급자는 case<ph id="ph1">\-</ph>중요 합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, to get the files and folders on the C drive, you refer to the "C:" drive or the "c:" drive.</source>
+          <target state="translated">예를 들어 C 드라이브의 파일 및 폴더를 가져오려면 "C:" 드라이브 또는 "c:" 드라이브를 참조합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A fully qualified name includes the drive name, followed by a colon, any directory and subdirectory names, and the file name <ph id="ph1">\(</ph>when applicable<ph id="ph2">\)</ph>.</source>
+          <target state="translated">정규화 된 이름에는 드라이브 이름, 콜론, 디렉터리 및 하위 디렉터리 이름 및 파일 이름을 포함 됩니다. <ph id="ph1">\(</ph>해당 하는 경우<ph id="ph2">\)</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Each element of the fully qualified name must be separated either by a backslash <ph id="ph1">\(\\\)</ph> or a forward slash <ph id="ph2">\(\/\)</ph>.</source>
+          <target state="translated">각 요소의 정규화 된 이름 구분 해야 하거나 백슬래시 <ph id="ph1">\(\\\)</ph> 또는 슬래시 <ph id="ph2">\(\/\)</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following example shows the fully qualified name for the Shell.dll file in the System32 subdirectory of the Windows directory on the C drive:</source>
+          <target state="translated">다음 예에서는 C 드라이브에 있는 Windows 디렉터리의 System32 하위 디렉터리에 있는 Shell.dll 파일의 정규화된 이름을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>C:<ph id="ph1">\\</ph>Windows<ph id="ph2">\\</ph>System32<ph id="ph3">\\</ph>shell.dll</source>
+          <target state="translated">C:<ph id="ph1">\\</ph>Windows<ph id="ph2">\\</ph>System32<ph id="ph3">\\</ph>shell.dll</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If any element in the fully qualified name includes spaces, you must enclose the name in quotation marks.</source>
+          <target state="translated">정규화된 이름의 요소에 공백이 포함된 경우에는 이름을 큰따옴표로 묶어야 합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For example,</source>
+          <target state="translated">예:</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>"C:<ph id="ph1">\\</ph>Program Files<ph id="ph2">\\</ph>Internet Explorer<ph id="ph3">\\</ph>iexplore.exe"</source>
+          <target state="translated">"C:<ph id="ph1">\\</ph>프로그램 파일<ph id="ph2">\\</ph>Internet Explorer<ph id="ph3">\\</ph>iexplore.exe"</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The current location in the file system is represented by a dot or period character <ph id="ph1">\(</ph>.</source>
+          <target state="translated">점 또는 마침표 문자는 파일 시스템의 현재 위치를 나타내는 <ph id="ph1">\(</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, the current location is the C:<ph id="ph1">\\</ph>Windows<ph id="ph2">\\</ph>System32 directory, then you can refer to the Shell.dll file in that directory as the following:</source>
+          <target state="translated">예를 들어 현재 위치가 c:<ph id="ph1">\\</ph>Windows<ph id="ph2">\\</ph>System32 디렉터리 있다면 다음과 같이 해당 디렉터리에 있는 Shell.dll 파일을 참조할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>.<ph id="ph1">\\</ph>Shell.dll</source>
+          <target state="translated">.<ph id="ph1">\\</ph>Shell.dll</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To use the FileSystem provider to view and manage files and folders, use the provider cmdlets, such as <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> <ph id="ph2">\(</ph>"dir", "ls"<ph id="ph3">\)</ph> and <bpt id="p2">[</bpt>Set<ph id="ph4">\-</ph>Location<ept id="p2">](assetId:///d7f353cd-ebd7-462a-bd57-1498dc8b88a6)</ept> <ph id="ph5">\(</ph>"cd"<ph id="ph6">\)</ph>.</source>
+          <target state="translated">보고 파일 및 폴더를 관리 하는 파일 시스템 공급자를 사용 하려면 공급자 cmdlet을 사용 예: <bpt id="p1">[</bpt>가져오기<ph id="ph1">\-</ph>ChildItem<ept id="p1">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> <ph id="ph2">\(</ph>"dir", "ls"<ph id="ph3">\)</ph> 및 <bpt id="p2">[</bpt>설정<ph id="ph4">\-</ph>위치<ept id="p2">](assetId:///d7f353cd-ebd7-462a-bd57-1498dc8b88a6)</ept> <ph id="ph5">\(</ph>"cd"<ph id="ph6">\)</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell also includes a "mkdir" function <ph id="ph1">\(</ph>alias <ph id="ph2">\=</ph> "md"<ph id="ph3">\)</ph> that uses the <bpt id="p1">[</bpt>New<ph id="ph4">\-</ph>Item<ept id="p1">](assetId:///67038d02-6598-49c6-b5bd-77b59d445abe)</ept> cmdlet to create a new directory.</source>
+          <target state="translated">Windows PowerShell에도 "mkdir" 함수 <ph id="ph1">\(</ph>별칭 <ph id="ph2">\=</ph> "md"<ph id="ph3">\)</ph> 를 사용 하는 <bpt id="p1">[</bpt>새로<ph id="ph4">\-</ph>항목<ept id="p1">](assetId:///67038d02-6598-49c6-b5bd-77b59d445abe)</ept> cmdlet을 새 디렉터리를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can get customized help topics for provider cmdlets that explain how those cmdlets behave in a file system drive.</source>
+          <target state="translated">Windows PowerShell 3.0부터는 이러한 cmdlet이 파일 시스템 드라이브에서 동작하는 방식을 설명하는 공급자 cmdlet에 대한 사용자 지정된 도움말 항목을 볼 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To get the help topics that are customized for the file system drive, run a <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Help<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> command in a file system drive or use the Path parameter of <bpt id="p2">[</bpt>Get<ph id="ph2">\-</ph>Help<ept id="p2">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> to specify a file system drive.</source>
+          <target state="translated">파일 시스템 드라이브에 대 한 사용자 지정 된 도움말 항목을 가져오려면 실행 한 <bpt id="p1">[</bpt>가져오기<ph id="ph1">\-</ph>도움말<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> 파일 시스템 드라이브에서 명령 또는의 Path 매개 변수를 사용 하 여 <bpt id="p2">[</bpt>가져오기<ph id="ph2">\-</ph>도움말<ept id="p2">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> 파일 시스템 드라이브를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example,</source>
+          <target state="translated">예:</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>PS C:<ph id="ph1">\\\&gt;</ph> <bpt id="p1">[</bpt>Get<ph id="ph2">\-</ph>Help<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> get<ph id="ph3">\-</ph>childitem</source>
+          <target state="translated">PS c:<ph id="ph1">\\\&gt;</ph> <bpt id="p1">[</bpt>가져오기<ph id="ph2">\-</ph>도움말<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> 가져오기<ph id="ph3">\-</ph>childitem</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>PS HKLM:<ph id="ph1">\\\&gt;</ph> <bpt id="p1">[</bpt>Get<ph id="ph2">\-</ph>Help<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept><bpt id="p2">[</bpt>Get<ph id="ph3">\-</ph>ChildItem<ept id="p2">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> <ph id="ph4">\-</ph>path c:</source>
+          <target state="translated">PS HKLM:<ph id="ph1">\\\&gt;</ph> <bpt id="p1">[</bpt>가져오기<ph id="ph2">\-</ph>도움말<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept><bpt id="p2">[</bpt>가져오기<ph id="ph3">\-</ph>ChildItem<ept id="p2">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> <ph id="ph4">\-</ph>path c:</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Also, beginning in Windows PowerShell 3.0, the FileSystem provider supports credentials for the <bpt id="p1">[</bpt>New<ph id="ph1">\-</ph>PSDrive<ept id="p1">](assetId:///a90ffe5f-a576-4c4a-b392-822bcec17ffd)</ept> cmdlet.</source>
+          <target state="translated">또한 Windows PowerShell 3.0부터, 파일 시스템 공급자 지원에 대 한 자격 증명은 <bpt id="p1">[</bpt>새로<ph id="ph1">\-</ph>PSDrive<ept id="p1">](assetId:///a90ffe5f-a576-4c4a-b392-822bcec17ffd)</ept> cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For more information, see the help topic for the <bpt id="p1">[</bpt>New<ph id="ph1">\-</ph>PSDrive<ept id="p1">](assetId:///a90ffe5f-a576-4c4a-b392-822bcec17ffd)</ept> cmdlet.</source>
+          <target state="translated">자세한 내용은 도움말 항목에 대 한 참조는 <bpt id="p1">[</bpt>새로<ph id="ph1">\-</ph>PSDrive<ept id="p1">](assetId:///a90ffe5f-a576-4c4a-b392-822bcec17ffd)</ept> cmdlet.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>CAPABILITIES</source>
+          <target state="translated">기능</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Filter, ShouldProcess</source>
+          <target state="translated">Filter, ShouldProcess</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Splitting a Large File</source>
+          <target state="translated">큰 파일 분할</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">예제 1</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>By default, the Get<ph id="ph1">\-</ph>Content cmdlet uses the end<ph id="ph2">\-</ph>of<ph id="ph3">\-</ph>line character as its delimiter, so it gets a file as a collection of strings, with each line as one string in the file.</source>
+          <target state="translated">기본적으로 Get<ph id="ph1">\-</ph>cmdlet 끝을 사용 하 여 콘텐츠<ph id="ph2">\-</ph>의<ph id="ph3">\-</ph>각 줄을 파일에 하나의 문자열로 포함 되는 문자열 컬렉션으로 파일을 가져와서 하므로 구분 기호로 사용 줄 문자입니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can use the Delimiter parameter to specify an alternate delimiter.</source>
+          <target state="translated">Delimiter 매개 변수를 사용하여 대체 구분 기호를 지정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you set it to the characters that denote the end of a section or the beginning of the next section, you can split the file into logical parts.</source>
+          <target state="translated">이를 섹션의 끝 또는 다음 섹션의 시작을 나타내는 문자로 설정하면 파일을 논리적 부분으로 분할할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The first command gets the Employees.txt file and splits it into sections, each of which ends with the words "End of Employee Record" and it saves it in the $e variable.</source>
+          <target state="translated">첫 번째 명령은 Employees.txt 파일을 가져온 후 각 섹션이 "End of Employee Record"로 끝나는 섹션으로 분할하고 $e 변수에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second command uses array notation to get the first item in the collection in $e.</source>
+          <target state="translated">두 번째 명령은 배열 표기법을 사용 하 여 $e에서 컬렉션의 첫 번째 항목을 가져올 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It uses an index of 0, because Windows PowerShell arrays are zero<ph id="ph1">\-</ph>based.</source>
+          <target state="translated">Windows PowerShell 배열은 0 하므로 인덱스 0 사용 하 여<ph id="ph1">\-</ph>기반으로 합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information about arrays, see about<ph id="ph1">\_</ph>Arrays.</source>
+          <target state="translated">배열에 대 한 자세한 정보에 대 한 자세한 내용은<ph id="ph1">\_</ph>배열입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Navigating the File System</source>
+          <target state="translated">파일 시스템 탐색</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">예제 1</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This command gets the current location:</source>
+          <target state="translated">이 명령은 현재 위치를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The Get<ph id="ph1">\-</ph>Location cmdlet includes the functionality of commands like the cd command in the Windows Command Prompt and the pwd command in UNIX.</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>위치 cmdlet UNIX의 pwd 명령과 Windows 명령 프롬프트에서 cd 명령 같은 명령의 기능을 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For more information, type:</source>
+          <target state="translated">더 자세한 내용을 보려면 다음을 입력하십시오.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>get<ph id="ph1">\-</ph>help get<ph id="ph2">\-</ph>location</source>
+          <target state="translated">가져오기<ph id="ph1">\-</ph>도움말 get<ph id="ph2">\-</ph>위치</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">예제 2</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This command sets the current location:</source>
+          <target state="translated">이 명령은 현재 위치를 설정합니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Getting File and Directory Information</source>
+          <target state="translated">파일 및 디렉터리 정보 가져오기</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">예제 1</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This command gets all the files and directories in the current directory:</source>
+          <target state="translated">이 명령은 현재 디렉터리에 있는 모든 파일 및 디렉터리를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>By default, the Get<ph id="ph1">\-</ph>ChildItem cmdlet does not recurse.</source>
+          <target state="translated">기본적으로 Get<ph id="ph1">\-</ph>ChildItem cmdlet은 재귀 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If files and folders are present in the current directory when you run this command, a System.IO.FileInfo object and a System.IO.DirectoryInfo object are returned.</source>
+          <target state="translated">이 명령을 실행할 때 현재 디렉터리에 파일과 폴더가 있는 경우 System.IO.FileInfo 개체와 System.IO.DirectoryInfo 개체가 반환됩니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">예제 2</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This command gets all the files in the current directory:</source>
+          <target state="translated">이 명령은 현재 디렉터리의 모든 파일을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The command uses the Get<ph id="ph1">\-</ph>ChildItem cmdlet to get all files and directories.</source>
+          <target state="translated">Get을 사용 하 여<ph id="ph1">\-</ph>모든 파일 및 디렉터리를 가져오려는 ChildItem cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It pipes the results to the Where<ph id="ph1">\-</ph>Object cmdlet, which selects only the objects that are not <ph id="ph2">\(\!\)</ph> containers.</source>
+          <target state="translated">Where 결과 파이프<ph id="ph1">\-</ph>cmdlet 없는 개체만 선택 <ph id="ph2">\(\!\)</ph> 컨테이너입니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">예제 3</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The command uses the Get<ph id="ph1">\-</ph>ChildItem cmdlet to get all files and directories.</source>
+          <target state="translated">Get을 사용 하 여<ph id="ph1">\-</ph>모든 파일 및 디렉터리를 가져오려는 ChildItem cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>It pipes the results to Where<ph id="ph1">\-</ph>Object, which select only the objects that are containers.</source>
+          <target state="translated">결과를 Where 파이프<ph id="ph1">\-</ph>개체는 컨테이너 개체만 선택 합니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 4</source>
+          <target state="translated">예제 4</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This command displays the properties of a directory:</source>
+          <target state="translated">이 명령은 디렉터리의 속성을 표시합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The command uses the Path parameter of the Get<ph id="ph1">\-</ph>Item cmdlet to get the C:<ph id="ph2">\\</ph>ps<ph id="ph3">\-</ph>test directory.</source>
+          <target state="translated">이 명령은 Get의 Path 매개 변수를 사용 하 여<ph id="ph1">\-</ph>c: 드라이브를 가져오려는 항목 cmdlet<ph id="ph2">\\</ph>ps<ph id="ph3">\-</ph>테스트 디렉터리입니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>It pipes the directory object to the Format<ph id="ph1">\-</ph>List cmdlet, which displays all <ph id="ph2">\(\*\)</ph> the properties and values of the directory in a list.</source>
+          <target state="translated">디렉터리 개체 형식으로 파이프<ph id="ph1">\-</ph>모두 표시 하는 목록 cmdlet으로 <ph id="ph2">\(\*\)</ph> 속성 및 목록에 있는 디렉터리의 값입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 5</source>
+          <target state="translated">예 5</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This command displays the properties of a file:</source>
+          <target state="translated">이 명령은 파일의 속성을 표시합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The command uses the Path parameter of the Get<ph id="ph1">\-</ph>Item cmdlet to get the test.txt file.</source>
+          <target state="translated">명령은 Get의 Path 매개 변수를 사용 하 여<ph id="ph1">\-</ph>항목 cmdlet test.txt 파일을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>It pipes the file object to the Format<ph id="ph1">\-</ph>List cmdlet, which displays all <ph id="ph2">\(\*\)</ph> the properties and values of the file in a list.</source>
+          <target state="translated">형식으로 파일 개체를 파이프<ph id="ph1">\-</ph>모두 표시 하는 목록 cmdlet으로 <ph id="ph2">\(\*\)</ph> 속성 및 목록에 있는 파일의 값입니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Copying Files and Directories</source>
+          <target state="translated">파일 및 디렉터리 복사</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">예제 1</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This command copies the A.txt file from the C:<ph id="ph1">\\</ph>A directory to the C:<ph id="ph2">\\</ph>A<ph id="ph3">\\</ph>Bb directory:</source>
+          <target state="translated">이 명령은 c: 드라이브에서 A.txt 파일을 복사<ph id="ph1">\\</ph>디렉터리를 c:<ph id="ph2">\\</ph>A<ph id="ph3">\\</ph>Bb 디렉터리:</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>It overwrites files in the destination directory without prompting for confirmation.</source>
+          <target state="translated">이 명령은 확인 메시지 없이 대상 디렉터리의 파일을 덮어씁니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">예제 2</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This command copies all the files in the C:<ph id="ph1">\\</ph>A<ph id="ph2">\\</ph>Bb directory that have the .txt file name extension to the C:<ph id="ph3">\\</ph>A<ph id="ph4">\\</ph>Cc<ph id="ph5">\\</ph>Ccc<ph id="ph6">\\</ph> directory:</source>
+          <target state="translated">이 명령은 c: 모든 파일을 복사<ph id="ph1">\\</ph>A<ph id="ph2">\\</ph>Bb 디렉터리의 c:.txt 파일 이름 확장명을 가진<ph id="ph3">\\</ph>A<ph id="ph4">\\</ph>Cc<ph id="ph5">\\</ph>Ccc<ph id="ph6">\\</ph> 디렉터리:</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>It uses the original names of the files.</source>
+          <target state="translated">이 명령은 파일의 원래 이름을 사용합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The command overwrites the existing files in the destination directory without prompting for confirmation.</source>
+          <target state="translated">따라서 확인 메시지 없이 대상 디렉터리의 기존 파일을 덮어씁니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">예제 3</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Copies all the directories and files in the C:<ph id="ph1">\\</ph>a directory to the C:<ph id="ph2">\\</ph>c directory.</source>
+          <target state="translated">C: 드라이브의 모든 디렉터리와 파일을 복사<ph id="ph1">\\</ph>디렉터리를 c:<ph id="ph2">\\</ph>c 디렉터리입니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If any of the directories to copy already exist in the destination directory, the command will fail unless you specify the Force parameter.</source>
+          <target state="translated">복사할 디렉터리가 대상 디렉터리에 이미 있는 경우에는 Force 매개 변수를 사용하지 않은 한 명령이 실패합니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Moving Files and Directories</source>
+          <target state="translated">파일 및 디렉터리 이동</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">예제 1</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This command moves the C.txt file in the C:<ph id="ph1">\\</ph>A directory to the C:<ph id="ph2">\\</ph>A<ph id="ph3">\\</ph>Aa directory:</source>
+          <target state="translated">이 명령은 c: C.txt 파일을 이동<ph id="ph1">\\</ph>디렉터리를 c:<ph id="ph2">\\</ph>A<ph id="ph3">\\</ph>Aa 디렉터리:</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The command will not automatically overwrite an existing file that has the same name.</source>
+          <target state="translated">이 명령은 이름이 같은 기존 파일을 자동으로 덮어쓰지 않습니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To force the cmdlet to overwrite an existing file, specify the Force parameter.</source>
+          <target state="translated">cmdlet이 기존 파일을 덮어쓰도록 강제하려면 Force 매개 변수를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">예제 2</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This command moves the C:<ph id="ph1">\\</ph>A directory and all its contents to the C:<ph id="ph2">\\</ph>B directory:</source>
+          <target state="translated">이 명령은 c: 이동<ph id="ph1">\\</ph>디렉터리 및 모든 해당 콘텐츠는 c: 드라이브로<ph id="ph2">\\</ph>B 디렉터리:</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You cannot move a directory when that directory is the current location.</source>
+          <target state="translated">이동할 디렉터리가 현재 위치인 경우에는 해당 디렉터리를 이동할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Managing File Content</source>
+          <target state="translated">파일 내용 관리</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">예제 1</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This command appends the "test content" string to the Test.txt file:</source>
+          <target state="translated">이 명령은 Test.txt 파일에 "test content" 문자열을 추가합니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The existing content in the Test.txt file is not deleted.</source>
+          <target state="translated">Test.txt 파일의 기존 내용은 삭제되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">예제 2</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This command gets the contents of the Test.txt file and displays them in the console:</source>
+          <target state="translated">이 명령은 Test.txt 파일의 내용을 가져와서 콘솔에 표시합니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>You can pipe the contents of the file to another cmdlet.</source>
+          <target state="translated">파일 내용을 다른 cmdlet으로 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For example, the following command reads the contents of the Test.txt file and then supplies them as input to the ConvertTo<ph id="ph1">\-</ph>HTML cmdlet:</source>
+          <target state="translated">예를 들어 다음 명령은 Test.txt 파일의 내용을 읽고는 ConvertTo에 대 한 입력으로 제공 합니다<ph id="ph1">\-</ph>HTML cmdlet:</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>get<ph id="ph1">\-</ph>content <ph id="ph2">\-</ph>path test.txt &amp;#124; convertto<ph id="ph3">\-</ph>html</source>
+          <target state="translated">가져오기<ph id="ph1">\-</ph>콘텐츠 <ph id="ph2">\-</ph>path test.txt &amp;#124; convertto<ph id="ph3">\-</ph>html</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">예제 3</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This command replaces the contents of the Test.txt file with the "test content" string:</source>
+          <target state="translated">이 명령은 Test.txt 파일의 내용을 "test content" 문자열로 바꿉니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>It overwrites the contents of Test.txt.</source>
+          <target state="translated">또한 Test.txt의 내용을 덮어씁니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You can use the Value parameter of the New<ph id="ph1">\-</ph>Item cmdlet to add content to a file when you create it.</source>
+          <target state="translated">새로 만들기의 Value 매개 변수를 사용할 수<ph id="ph1">\-</ph>cmdlet를 만들 때 파일에 콘텐츠를 추가 합니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Managing Security Descriptors</source>
+          <target state="translated">보안 설명자 관리</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">예제 1</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>This command returns a System.Security.AccessControl.FileSecurity object:</source>
+          <target state="translated">이 명령은 System.Security.AccessControl.FileSecurity 개체를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For more information about this object, pipe the command to the Get<ph id="ph1">\-</ph>Member cmdlet.</source>
+          <target state="translated">이 개체에 대 한 자세한 내용은 Get 명령을 파이프<ph id="ph1">\-</ph>cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Or, see "FileSecurity Class" in the MSDN <ph id="ph1">\(</ph>Microsoft Developer Network<ph id="ph2">\)</ph> library at http:<ph id="ph3">\/\/</ph>go.microsoft.com<ph id="ph4">\/</ph>fwlink<ph id="ph5">\/</ph>?LinkId<ph id="ph6">\=</ph>145718.</source>
+          <target state="translated">MSDN의 "FileSecurity 클래스"를 참조 하십시오. 또는 <ph id="ph1">\(</ph>Microsoft Developer Network<ph id="ph2">\)</ph> http 라이브러리:<ph id="ph3">\/\/</ph>이 포트는 go.microsoft.com<ph id="ph4">\/</ph>fwlink<ph id="ph5">\/</ph>? LinkId<ph id="ph6">\=</ph>145718 합니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">예제 2</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This command returns a System.Security.AccessControl.DirectorySecurity object:</source>
+          <target state="translated">이 명령은 System.Security.AccessControl.DirectorySecurity 개체를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>For more information about this object, pipe the command to the Get<ph id="ph1">\-</ph>Member cmdlet.</source>
+          <target state="translated">이 개체에 대 한 자세한 내용은 Get 명령을 파이프<ph id="ph1">\-</ph>cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Or, see "DirectorySecurity Class" in the MSDN library at http:<ph id="ph1">\/\/</ph>go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>?LinkId<ph id="ph4">\=</ph>145736.</source>
+          <target state="translated">또는 http MSDN library의 "DirectorySecurity 클래스"를 참조 하세요:<ph id="ph1">\/\/</ph>이 포트는 go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>? LinkId<ph id="ph4">\=</ph>145736 합니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Creating Files and Directories</source>
+          <target state="translated">파일 및 디렉터리 만들기</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">예제 1</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This command creates the Logfiles directory on the C drive:</source>
+          <target state="translated">이 명령은 C: 드라이브에 Logfiles 디렉터리를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">예제 2</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This command creates the Log2.txt file in the C:<ph id="ph1">\\</ph>Logfiles directory and then adds the "test log" string to the file:</source>
+          <target state="translated">이 명령은 c: 드라이브에 Log2.txt 파일을 만듭니다<ph id="ph1">\\</ph>Logfiles 디렉터리 다음 파일에 "test log" 문자열을 추가 합니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">예제 3</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Creates a file called Log2.txt in the C:<ph id="ph1">\\</ph>logfiles directory and adds the string "test log" to the file.</source>
+          <target state="translated">C:에서 Log2.txt 라는 파일을 만들어<ph id="ph1">\\</ph>logfiles 디렉터리 및 파일에 "test log" 문자열을 추가 합니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Renaming Files and Directories</source>
+          <target state="translated">파일 및 디렉터리 이름 바꾸기</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">예제 1</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This command renames the A.txt file in the C:<ph id="ph1">\\</ph>A directory to B.txt:</source>
+          <target state="translated">이 명령은 c: 드라이브에 있는 A.txt 파일의 이름을 바꾸고<ph id="ph1">\\</ph>B.txt로 디렉터리:</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">예제 2</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This command renames the C:<ph id="ph1">\\</ph>A<ph id="ph2">\\</ph>Cc directory to C:<ph id="ph3">\\</ph>A<ph id="ph4">\\</ph>Dd:</source>
+          <target state="translated">이 명령은 c: 드라이브의 이름을 바꾸고<ph id="ph1">\\</ph>A<ph id="ph2">\\</ph>Cc 디렉터리를 c:<ph id="ph3">\\</ph>A<ph id="ph4">\\</ph>Dd:</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Deleting Files and Directories</source>
+          <target state="translated">파일 및 디렉터리 삭제</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">예제 1</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This command deletes the Test.txt file in the current directory:</source>
+          <target state="translated">이 명령은 현재 디렉터리에서 Test.txt 파일을 삭제합니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">예제 2</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This command deletes all the files in the current directory that have the .xml file name extension:</source>
+          <target state="translated">이 명령은 현재 디렉터리에서 파일 이름 확장명이 .xml인 모든 파일을 삭제합니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Starting a Program by Invoking an Associated File</source>
+          <target state="translated">연결된 파일을 호출하여 프로그램 시작</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">예제 1</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get<ph id="ph1">\-</ph>Service cmdlet to get information about local services.</source>
+          <target state="translated">Get을 사용 하 여 첫 번째 명령은<ph id="ph1">\-</ph>cmdlet 로컬 서비스에 대 한 정보를 얻을 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>It pipes the information to the Export<ph id="ph1">\-</ph>Csv cmdlet and then stores that information in the Services.csv file.</source>
+          <target state="translated">내보내기에 대 한 정보를 파이프<ph id="ph1">\-</ph>Csv cmdlet 다음 해당 정보를 Services.csv 파일에 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The second command uses Invoke<ph id="ph1">\-</ph>Item to open the Services.csv file in the program associated with the .csv extension:</source>
+          <target state="translated">두 번째 명령은 Invoke를 사용 하 여<ph id="ph1">\-</ph>.csv 확장명과 연결 된 프로그램에서 Services.csv 파일을 열어 항목:</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Getting Files and Folders with Specified Attributes</source>
+          <target state="translated">지정한 특성의 파일 및 폴더 가져오기</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">예제 1</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>This command gets system files in the current directory and its subdirectories.</source>
+          <target state="translated">이 명령은 현재 디렉터리 및 하위 디렉터리에 있는 시스템 파일을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>It uses the File parameter to get only files <ph id="ph1">\(</ph>not directories<ph id="ph2">\)</ph> and the System parameter to get only items with the System attribute.</source>
+          <target state="translated">파일만 가져오려면 File 매개 변수 사용 하 여 <ph id="ph1">\(</ph>디렉터리가 아니라<ph id="ph2">\)</ph> System 특성을 갖는 항목만 가져올 System 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>It uses the Recurse parameter to get the items in the current directory and all subdirectories.</source>
+          <target state="translated">Recurse 매개 변수를 사용하여 현재 디렉터리와 모든 하위 디렉터리의 항목을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">예제 2</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This command gets all files, including hidden files, in the current directory.</source>
+          <target state="translated">이 명령은 현재 디렉터리의 숨겨진 파일을 비롯한 모든 파일을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>It uses the Attributes parameter with two values, <ph id="ph1">\!</ph>Directory<ph id="ph2">\+</ph>Hidden, which gets hidden files, and <ph id="ph3">\!</ph>Directory, which gets all other files.</source>
+          <target state="translated">Attributes 매개 변수를 사용 하 여 두 값을 갖는 <ph id="ph1">\!</ph>디렉터리<ph id="ph2">\+</ph>숨겨진된 파일을 가져오는 Hidden 및 <ph id="ph3">\!</ph>디렉터리에 다른 모든 파일을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>"dir <ph id="ph1">\-</ph>att <ph id="ph2">\!</ph>d,<ph id="ph3">\!</ph>d<ph id="ph4">\+</ph>h" is the equivalent of this command.</source>
+          <target state="translated">"dir <ph id="ph1">\-</ph>att <ph id="ph2">\!</ph>d,<ph id="ph3">\!</ph>d<ph id="ph4">\+</ph>h"이 명령의 것과 같습니다.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">예제 3</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This command gets files in the current directory that are either compressed or encrypted.</source>
+          <target state="translated">이 명령은 압축 또는 암호화된 현재 디렉터리의 파일을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>It uses the Attributes parameter with two values, Compressed and Encrypted.</source>
+          <target state="translated">이 명령은 Compressed 및 Encrypted의 두 값을 갖는 Attributes 매개 변수를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The values are separated by a comma <ph id="ph1">\(</ph>,<ph id="ph2">\)</ph> which represents the OR operator.</source>
+          <target state="translated">값은 쉼표로 구분 하 여 <ph id="ph1">\(</ph>,<ph id="ph2">\)</ph> 을 OR 연산자를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>DYNAMIC PARAMETERS</source>
+          <target state="translated">동적 매개 변수</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Dynamic parameters are cmdlet parameters that are added by a Windows PowerShell provider and are available only when the cmdlet is being used in the provider<ph id="ph1">\-</ph>enabled drive.</source>
+          <target state="translated">동적 매개 변수는 cmdlet이 공급자에서 사용 되는 경우에 Windows PowerShell 공급자 및 사용할 수에 추가 된 cmdlet 매개 변수는<ph id="ph1">\-</ph>드라이브를 사용 하도록 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Encoding <ph id="ph1">\&lt;</ph>Microsoft.PowerShell.Commands.FileSystemCmdletProviderEncoding</source>
+          <target state="translated">인코딩 <ph id="ph1">\&lt;</ph>Microsoft.PowerShell.Commands.FileSystemCmdletProviderEncoding</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Specifies the file encoding.</source>
+          <target state="translated">파일 인코딩을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The default is ASCII.</source>
+          <target state="translated">기본값은 ASCII입니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">Value</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Unknown</source>
+          <target state="translated">Unknown</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The encoding type is unknown or invalid.</source>
+          <target state="translated">인코딩 유형을 알 수 없거나 잘못되었습니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The data can be treated as binary.</source>
+          <target state="translated">데이터가 Binary로 처리될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>String</source>
+          <target state="translated">문자열</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Uses the encoding type for a string.</source>
+          <target state="translated">문자열에 대한 인코딩 유형을 사용합니다.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Unicode</source>
+          <target state="translated">유니코드</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Encodes in UTF<ph id="ph1">\-</ph>16 format using the little<ph id="ph2">\-</ph>endian byte order.</source>
+          <target state="translated">U t F 인코딩합니다<ph id="ph1">\-</ph>의 작은 사용 하 여 16 형식<ph id="ph2">\-</ph>endian 바이트 순서입니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Byte</source>
+          <target state="translated">Byte</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Encodes a set of characters into a sequence of bytes.</source>
+          <target state="translated">문자 집합을 일련의 바이트로 인코딩합니다.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>BigEndianUnicode</source>
+          <target state="translated">BigEndianUnicode</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Encodes in UTF<ph id="ph1">\-</ph>16 format using the big<ph id="ph2">\-</ph>endian byte order.</source>
+          <target state="translated">U t F 인코딩합니다<ph id="ph1">\-</ph>큰를 사용 하는 16 형식<ph id="ph2">\-</ph>endian 바이트 순서입니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>UTF8</source>
+          <target state="translated">UTF8</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Encodes in UTF<ph id="ph1">\-</ph>8 format.</source>
+          <target state="translated">U t F 인코딩합니다<ph id="ph1">\-</ph>8 형식입니다.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>UTF7</source>
+          <target state="translated">UTF7</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Encodes in UTF<ph id="ph1">\-</ph>7 format.</source>
+          <target state="translated">U t F 인코딩합니다<ph id="ph1">\-</ph>7 형식입니다.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>ASCII</source>
+          <target state="translated">ASCII</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Uses the encoding for the ASCII <ph id="ph1">\(</ph>7<ph id="ph2">\-</ph>bit<ph id="ph3">\)</ph> character set.</source>
+          <target state="translated">ASCII 인코딩을 사용 하 여 <ph id="ph1">\(</ph>7<ph id="ph2">\-</ph>비트<ph id="ph3">\)</ph> 문자 집합입니다.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">지원되는 cmdlet:</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Add<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">추가<ph id="ph1">\-</ph>콘텐츠</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Set<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">설정<ph id="ph1">\-</ph>콘텐츠</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Delimiter <ph id="ph1">\&lt;</ph>System.String</source>
+          <target state="translated">구분 기호 <ph id="ph1">\&lt;</ph>System.String</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Specifies the delimiter that <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> uses to divide the file into objects while it reads.</source>
+          <target state="translated">구분 기호를 지정 하는 <bpt id="p1">[</bpt>가져오기<ph id="ph1">\-</ph>콘텐츠<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> 읽는 동안 파일을 개체로 나누는 데 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The default is "<ph id="ph1">\\</ph>n", the end<ph id="ph2">\-</ph>of<ph id="ph3">\-</ph>line character.</source>
+          <target state="translated">기본값은 "<ph id="ph1">\\</ph>n", 끝<ph id="ph2">\-</ph>의<ph id="ph3">\-</ph>줄 문자입니다.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Therefore, by default, when reading a text file, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> returns a collection of string objects, each of which ends with an end<ph id="ph2">\-</ph>of<ph id="ph3">\-</ph>line character.</source>
+          <target state="translated">따라서 기본적으로 텍스트 파일을 읽을 때 <bpt id="p1">[</bpt>가져오기<ph id="ph1">\-</ph>콘텐츠<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> 는 각각 엔드로 끝나는 문자열 개체의 컬렉션을 반환<ph id="ph2">\-</ph>의<ph id="ph3">\-</ph>줄 문자입니다.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>When you enter a delimiter that does not exist in the file, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> returns the entire file as a single, undelimited object.</source>
+          <target state="translated">파일에 존재 하지 않는 구분 기호를 입력 하는 경우 <bpt id="p1">[</bpt>가져오기<ph id="ph1">\-</ph>콘텐츠<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> 는 전체 파일을 단일 개체로 개체를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to split a large file into smaller files by specifying a file separator, such as "End of Example", as the delimiter.</source>
+          <target state="translated">이 매개 변수를 사용하여 "End of Example"과 같은 파일 구분 기호를 지정하여 큰 파일을 여러 개의 더 작은 파일로 분할할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The delimiter is preserved <ph id="ph1">\(</ph>not discarded<ph id="ph2">\)</ph> and becomes the last item in each file section.</source>
+          <target state="translated">구분 기호는 유지 <ph id="ph1">\(</ph>수도 록 폐기 되지<ph id="ph2">\)</ph> 및 각 파일 섹션의 마지막 항목이 됩니다.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Troubleshooting Note: Currently, when the value of the Delimiter parameter is an empty string, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> does not return anything.</source>
+          <target state="translated">문제 해결 참고: 현재 때 Delimiter 매개 변수의 값은 빈 문자열을 <bpt id="p1">[</bpt>가져오기<ph id="ph1">\-</ph>콘텐츠<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> 아무것도 반환 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>This is a known issue.</source>
+          <target state="translated">이것은 알려진 문제입니다.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>To force <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> to return the entire file as a single, undelimited string, enter a value that does not exist in the file.</source>
+          <target state="translated">강제로 <bpt id="p1">[</bpt>가져오기<ph id="ph1">\-</ph>콘텐츠<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> 문자열로 단일 전체 파일을 반환 하는 파일에 존재 하지 않는 값을 입력 합니다.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">지원되는 cmdlet:</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Wait <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">대기 <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Waits for content to be appended to the file.</source>
+          <target state="translated">내용이 파일에 추가되기를 기다립니다.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>If content is appended, it returns the appended content.</source>
+          <target state="translated">내용이 추가되면 추가된 내용을 반환합니다.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>If the content has changed, it returns the entire file.</source>
+          <target state="translated">내용이 변경된 경우에는 전체 파일을 반환합니다.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>When waiting, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> checks the file once each second until you interrupt it, such as by pressing CTRL<ph id="ph2">\+</ph>C.</source>
+          <target state="translated">기다리는 동안 <bpt id="p1">[</bpt>가져오기<ph id="ph1">\-</ph>콘텐츠<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> 한 번 매 초 마다 사용자가 중단할 때까지 같은 CTRL 키를 눌러 파일을 검사<ph id="ph2">\+</ph>3.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">지원되는 cmdlet:</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Attributes <ph id="ph1">\&lt;</ph>FlagsExpression<ph id="ph2">\[</ph>System.IO.FileAttributes</source>
+          <target state="translated">특성 <ph id="ph1">\&lt;</ph>FlagsExpression<ph id="ph2">\[</ph>System.IO.FileAttributes</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Gets files and folders with the specified attributes.</source>
+          <target state="translated">지정된 특성을 갖는 파일 및 폴더를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>This parameter supports all attributes and lets you specify complex combinations of attributes.</source>
+          <target state="translated">이 매개 변수는 모든 특성을 지원하며 복잡한 특성 조합을 지정할 수 있도록 합니다.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The Attributes parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Attributes 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The Attributes parameter supports the following attributes: Archive, Compressed, Device, Directory, Encrypted, Hidden, Normal, NotContentIndexed, Offline, ReadOnly, ReparsePoint, SparseFile, System, and Temporary.</source>
+          <target state="translated">Attributes 매개 변수는 다음 특성을 지원 합니다: 보관, 압축, 장치, 디렉터리, 암호화, Hidden, Normal, NotContentIndexed, 오프 라인, ReadOnly, ReparsePoint, SparseFile, 시스템 및 임시 합니다.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>For a description of these attributes, see the FileAttributes enumeration at http:<ph id="ph1">\/\/</ph>go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>?LinkId<ph id="ph4">\=</ph>201508.</source>
+          <target state="translated">이러한 특성에 대 한 http에서 FileAttributes 열거형을 참조:<ph id="ph1">\/\/</ph>이 포트는 go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>? LinkId<ph id="ph4">\=</ph>201508 합니다.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Use the following operators to combine attributes.</source>
+          <target state="translated">다음 연산자를 사용하여 특성을 결합할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>NOT</source>
+          <target state="translated">NOT</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>AND</source>
+          <target state="translated">및</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>, OR</source>
+          <target state="translated">또는</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>No spaces are permitted between an operator and its attribute.</source>
+          <target state="translated">연산자 및 해당 특성 사이에는 공백이 허용되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>However, spaces are permitted before commas.</source>
+          <target state="translated">그러나 쉼표 앞에는 공백이 허용됩니다.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">지원되는 cmdlet:</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Directory <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">디렉터리 <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Gets directories <ph id="ph1">\(</ph>folders<ph id="ph2">\)</ph>.</source>
+          <target state="translated">디렉터리를 가져옵니다 <ph id="ph1">\(</ph>폴더<ph id="ph2">\)</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>The Directory parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Directory 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>To get only directories, use the Directory parameter and omit the File parameter.</source>
+          <target state="translated">디렉터리만 가져오려면 Directory 매개 변수를 사용하고 File 매개 변수는 생략하세요.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>To exclude directories, use the File parameter and omit the Directory parameter, or use the Attributes parameter.</source>
+          <target state="translated">디렉터리를 제외하려면 File 매개 변수를 사용하고 Directory 매개 변수는 생략하거나 Attributes 매개 변수를 사용하세요.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">지원되는 cmdlet:</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>File <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">파일 <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Gets files.</source>
+          <target state="translated">파일을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The File parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">File 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>To get only files, use the File parameter and omit the Directory parameter.</source>
+          <target state="translated">파일만 가져오려면 File 매개 변수를 사용하고 Directory 매개 변수는 생략하세요.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>To exclude files, use the Directory parameter and omit the File parameter, or use the Attributes parameter.</source>
+          <target state="translated">파일을 제외하려면 Directory 매개 변수를 사용하고 File 매개 변수는 생략하거나 Attributes 매개 변수를 사용하세요.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">지원되는 cmdlet:</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Hidden <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">숨겨진 <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Gets only hidden files and directories <ph id="ph1">\(</ph>folders<ph id="ph2">\)</ph>.</source>
+          <target state="translated">숨겨진된 파일 및 디렉터리 가져옵니다 <ph id="ph1">\(</ph>폴더<ph id="ph2">\)</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> gets only non<ph id="ph2">\-</ph>hidden items.</source>
+          <target state="translated">기본적으로 <bpt id="p1">[</bpt>가져오기<ph id="ph1">\-</ph>ChildItem<ept id="p1">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> 아닌만 가져옵니다<ph id="ph2">\-</ph>숨겨진 항목이 있습니다.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The Hidden parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Hidden 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>To get only hidden items, use the Hidden parameter, its "h" or "ah" aliases, or the Hidden value of the Attributes parameter.</source>
+          <target state="translated">숨겨진 항목을 가져오려면 Hidden 매개 변수, 해당 "h" 또는 "ah" 별칭이나 Attributes 매개 변수의 Hidden 값을 사용합니다.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>To exclude hidden items, omit the Hidden parameter or use the Attributes parameter.</source>
+          <target state="translated">숨겨진 항목을 제외하려면 Hidden 매개 변수를 생략하거나 Attributes 매개 변수를 사용하세요.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">지원되는 cmdlet:</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>ReadOnly <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">읽기 전용 <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Gets only read<ph id="ph1">\-</ph>only files and directories <ph id="ph2">\(</ph>folders<ph id="ph3">\)</ph>.</source>
+          <target state="translated">읽을 수만 가져옵니다<ph id="ph1">\-</ph>파일 및 디렉터리 <ph id="ph2">\(</ph>폴더<ph id="ph3">\)</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The ReadOnly parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">ReadOnly 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>To get only read<ph id="ph1">\-</ph>only items, use the ReadOnly parameter, its "ar" alias, or the ReadOnly value of the Attributes parameter.</source>
+          <target state="translated">Get을 읽을 수만<ph id="ph1">\-</ph>ReadOnly 매개 변수, 해당 "ar" 별칭 또는 Attributes 매개 변수의 ReadOnly 값만 항목을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>To exclude read<ph id="ph1">\-</ph>only items, use the Attributes parameter.</source>
+          <target state="translated">읽기를 제외 하려면<ph id="ph1">\-</ph>항목만 특성 매개 변수를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">지원되는 cmdlet:</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>System <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">시스템 <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Gets only system files and directories <ph id="ph1">\(</ph>folders<ph id="ph2">\)</ph>.</source>
+          <target state="translated">시스템 파일 및 디렉터리 가져옵니다 <ph id="ph1">\(</ph>폴더<ph id="ph2">\)</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The System parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">System 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>To get only system files and folders, use the System parameter, its "as" alias, or the System value of the Attributes parameter.</source>
+          <target state="translated">시스템 파일 및 폴더만 가져오려면 System 매개 변수, 해당 "as" 별칭 또는 Attributes 매개 변수의 System 값을 사용합니다.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>To exclude system files and folders, use the Attributes parameter.</source>
+          <target state="translated">시스템 파일 및 폴더를 제외하려면 Attributes 매개 변수를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">지원되는 cmdlet:</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>NewerThan <ph id="ph1">\&lt;</ph>System.DateTime</source>
+          <target state="translated">NewerThan <ph id="ph1">\&lt;</ph>System.DateTime</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Returns "True" <ph id="ph1">\(</ph>$True<ph id="ph2">\)</ph> when the LastWriteTime value of a file is greater than the specified date.</source>
+          <target state="translated">"True" 반환 <ph id="ph1">\(</ph>$True<ph id="ph2">\)</ph> 파일의 LastWriteTime 값이 지정 된 날짜 보다 이후입니다.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Otherwise, it returns "False" <ph id="ph1">\(</ph>$False<ph id="ph2">\)</ph>.</source>
+          <target state="translated">그러지 않으면 "False" 반환 <ph id="ph1">\(</ph>$False<ph id="ph2">\)</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Enter a DateTime object, such as one that the <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Date<ept id="p1">](assetId:///277ba77f-f2be-44d7-8f15-23069faf0a4b)</ept> cmdlet returns, or a string that can be converted to a DateTime object, such as "August 10, 2011 2:00 PM".</source>
+          <target state="translated">같은 DateTime 개체를 입력 하는 <bpt id="p1">[</bpt>가져오기<ph id="ph1">\-</ph>날짜<ept id="p1">](assetId:///277ba77f-f2be-44d7-8f15-23069faf0a4b)</ept> cmdlet에서 반환 또는 "2011년 8월 10일 오후 2시" 등을 DateTime 개체로 변환 될 수 있는 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">지원되는 cmdlet:</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Test<ph id="ph1">\-</ph>Path</source>
+          <target state="translated">테스트<ph id="ph1">\-</ph>경로</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>OlderThan <ph id="ph1">\&lt;</ph>System.DateTime</source>
+          <target state="translated">OlderThan <ph id="ph1">\&lt;</ph>System.DateTime</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Returns "True" <ph id="ph1">\(</ph>$True<ph id="ph2">\)</ph> when the LastWriteTime value of a file is less than the specified date.</source>
+          <target state="translated">"True" 반환 <ph id="ph1">\(</ph>$True<ph id="ph2">\)</ph> 파일의 LastWriteTime 값이 지정된 된 날짜 보다 작습니다.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Otherwise, it returns "False" <ph id="ph1">\(</ph>$False<ph id="ph2">\)</ph>.</source>
+          <target state="translated">그러지 않으면 "False" 반환 <ph id="ph1">\(</ph>$False<ph id="ph2">\)</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Enter a DateTime object, such as one that the <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Date<ept id="p1">](assetId:///277ba77f-f2be-44d7-8f15-23069faf0a4b)</ept> cmdlet returns, or a string that can be converted to a DateTime object, such as "August 10, 2011 2:00 PM".</source>
+          <target state="translated">같은 DateTime 개체를 입력 하는 <bpt id="p1">[</bpt>가져오기<ph id="ph1">\-</ph>날짜<ept id="p1">](assetId:///277ba77f-f2be-44d7-8f15-23069faf0a4b)</ept> cmdlet에서 반환 또는 "2011년 8월 10일 오후 2시" 등을 DateTime 개체로 변환 될 수 있는 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">지원되는 cmdlet:</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Test<ph id="ph1">\-</ph>Path</source>
+          <target state="translated">테스트<ph id="ph1">\-</ph>경로</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Stream <ph id="ph1">\&lt;</ph>System.String</source>
+          <target state="translated">스트림 <ph id="ph1">\&lt;</ph>System.String</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Manages alternate data streams.</source>
+          <target state="translated">대체 데이터 스트림을 관리합니다.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Enter the stream name.</source>
+          <target state="translated">스트림 이름을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted only in <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Item for FileSystem<ept id="p1">](../Topic/Get-Item-for-FileSystem.md)</ept> and <bpt id="p2">[</bpt>Remove<ph id="ph2">\-</ph>Item for FileSystem<ept id="p2">](../Topic/Remove-Item-for-FileSystem.md)</ept> commands in a file system drive.</source>
+          <target state="translated">와일드 카드에만 허용 됩니다 <bpt id="p1">[</bpt>가져오기<ph id="ph1">\-</ph>파일 시스템에 대 한 항목<ept id="p1">](../Topic/Get-Item-for-FileSystem.md)</ept> 및 <bpt id="p2">[</bpt>제거<ph id="ph2">\-</ph>파일 시스템에 대 한 항목<ept id="p2">](../Topic/Remove-Item-for-FileSystem.md)</ept> 파일 시스템 드라이브에 명령 합니다.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">지원되는 cmdlet:</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Add<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">추가<ph id="ph1">\-</ph>콘텐츠</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Clear<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">지우기<ph id="ph1">\-</ph>콘텐츠</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Item</source>
+          <target state="translated">가져오기<ph id="ph1">\-</ph>항목</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Remove<ph id="ph1">\-</ph>Item</source>
+          <target state="translated">Remove<ph id="ph1">\-</ph>Item</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Set<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">설정<ph id="ph1">\-</ph>콘텐츠</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Raw <ph id="ph1">\&lt;</ph>SwitchParameter</source>
+          <target state="translated">원시 <ph id="ph1">\&lt;</ph>SwitchParameter</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Ignores newline characters.</source>
+          <target state="translated">줄 바꿈 문자를 무시합니다.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>Returns contents as a single item.</source>
+          <target state="translated">내용을 단일 항목으로 반환합니다.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">지원되는 cmdlet:</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">참고 항목</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Providers</source>
+          <target state="translated">에 대 한<ph id="ph1">\_</ph>공급자</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

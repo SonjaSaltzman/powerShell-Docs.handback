@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3bcf7052917de70243bb1bacaebaa935fab11f40</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Get-Command.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc8ea43a99d1fa9b777567ae9bb2b1dad72e6a1d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f50c1c35b1f8f6692ef2ce6ba5ce9c8073065a4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-Command</source>
+          <target state="translated">Get-Command</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-Command</source>
+          <target state="translated">Get-Command</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SYNOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets all commands.</source>
+          <target state="translated">Obtient toutes les commandes.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>CmdletSet (Default)</source>
+          <target state="translated">CmdletSet (valeur par défaut)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>AllCommandSet</source>
+          <target state="translated">AllCommandSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPTION</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet gets all commands that are installed on the computer, including cmdlets, aliases, functions, workflows, filters, scripts, and applications.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> Obtient toutes les commandes qui sont installés sur l’ordinateur, y compris les applets de commande, les alias, fonctions, workflows, filtres, scripts et applications.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets the commands from Windows PowerShell modules and snap-ins and commands that were imported from other sessions.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> Obtient les commandes des modules Windows PowerShell et les composants logiciel enfichables et les commandes qui ont été importés à partir d’autres sessions.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To get only commands that have been imported into the current session, use the <bpt id="p1">**</bpt>ListImported<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Pour obtenir uniquement les commandes qui ont été importés dans la session active, utilisez la <bpt id="p1">**</bpt>ListImported<ept id="p1">**</ept> paramètre.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Without parameters, a "<ph id="ph1">`Get-Command`</ph>" command gets all of the cmdlets, functions, workflows and aliases installed on the computer.</source>
+          <target state="translated">Sans paramètres, un «<ph id="ph1">`Get-Command`</ph>» commande Obtient toutes les applets de commande, fonctions, workflows et alias installés sur l’ordinateur.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A "<ph id="ph1">`Get-Command *`</ph>" command gets all types of commands, including all of the non-Windows-PowerShell files in the Path environment variable ($env:path), which it lists in the "Application" command type.</source>
+          <target state="translated">Un «<ph id="ph1">`Get-Command *`</ph>» commande Obtient tous les types de commandes, y compris tous les fichiers de Windows PowerShell dans la variable d’environnement Path ($env : chemin d’accès), qu’elle répertorie dans le type de commande « Application ».</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command that uses the exact name of the command (without wildcard characters) automatically imports the module that contains the command so you can use the command immediately.</source>
+          <target state="translated">Un <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> commande qui utilise le nom exact de la commande (sans caractères génériques) automatiquement importe le module qui contient la commande, vous pouvez utiliser la commande immédiatement.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To enable, disable, and configure automatic importing of modules, use the <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> preference variable.</source>
+          <target state="translated">Pour activer, désactiver et configurer l’importation automatique de modules, utilisez le <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> variable de préférence.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">Pour plus d’informations, consultez about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets its data directly from the command code, unlike Get-Help, which gets its information from help topics.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> obtient ses données directement depuis le code de la commande, contrairement à Get-Help, qui obtient ses informations à partir des rubriques d’aide.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets only commands in current session.</source>
+          <target state="translated">Dans Windows PowerShell 2.0, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> Obtient uniquement les commandes dans la session active.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It does not get commands from modules that are installed, but not imported.</source>
+          <target state="translated">Elle n'obtient pas de commandes des modules qui sont installés, mais pas importés.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To limit <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> in Windows PowerShell 3.0 and later to commands in the current session, use the <bpt id="p2">**</bpt>ListImported<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Pour limiter <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> dans Windows PowerShell 3.0 et versions ultérieures aux commandes dans la session active, utilisez la <bpt id="p2">**</bpt>ListImported<ept id="p2">**</ept> paramètre.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- EXEMPLE 1 -------------------------</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command gets the Windows PowerShell cmdlets, functions, and aliases that are installed on the computer.</source>
+          <target state="translated">Cette commande obtient les applets de commande, fonctions et alias Windows PowerShell installés sur l'ordinateur.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>ListImported<ept id="p1">**</ept> parameter to get only the commands in the current session.</source>
+          <target state="translated">Cette commande utilise le <bpt id="p1">**</bpt>ListImported<ept id="p1">**</ept> pour obtenir uniquement les commandes dans la session active.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command gets all of the cmdlets, sorts them alphabetically by the noun in the cmdlet name, and then displays them in noun-based groups.</source>
+          <target state="translated">Cette commande obtient toutes les applets de commande, les trie par ordre alphabétique en fonction du nom de l'applet de commande, et les affiche ensuite dans des groupes basés sur le nom.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This display can help you find the cmdlets for a task.</source>
+          <target state="translated">Cet affichage peut vous aider à trouver les applets de commande d'une tâche.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> parameter to get the commands in the Microsoft.PowerShell.Security and  PSScheduledJob modules.</source>
+          <target state="translated">Cette commande utilise le <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> pour obtenir les commandes dans les modules Microsoft.PowerShell.Security et PSScheduledJob.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command gets information about the <bpt id="p1">**</bpt>Get-AppLockerPolicy<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Cette commande Obtient des informations sur les <bpt id="p1">**</bpt>Get-AppLockerPolicy<ept id="p1">**</ept> applet de commande.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It also imports the <bpt id="p1">**</bpt>AppLocker<ept id="p1">**</ept> module, which adds all of the commands in the <bpt id="p2">**</bpt>AppLocker<ept id="p2">**</ept> module to the current session.</source>
+          <target state="translated">Il importe également les <bpt id="p1">**</bpt>AppLocker<ept id="p1">**</ept> module, qui ajoute toutes les commandes dans le <bpt id="p2">**</bpt>AppLocker<ept id="p2">**</ept> module à la session active.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When a module is imported automatically, the effect is the same as using the Import-Module cmdlet.</source>
+          <target state="translated">Lorsqu’un module est importé automatiquement, l’effet est identique à l’aide de l’applet de commande Import-Module.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The module can add commands, types and formatting files, and run scripts in the session.</source>
+          <target state="translated">Le module peut ajouter des commandes, des types et des fichiers de mise en forme, puis exécuter des scripts dans la session.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To enable, disable, and configuration automatic importing of modules, use the <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> preference variable.</source>
+          <target state="translated">Pour activer, désactiver et configurer l’importation automatique de modules, utilisent le <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> variable de préférence.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">Pour plus d’informations, consultez about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Syntax<ept id="p2">**</ept> parameters to get the syntax of the Get-ChildItem cmdlet when it is used in the Cert: drive.</source>
+          <target state="translated">Cette commande utilise le <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> et <bpt id="p2">**</bpt>syntaxe<ept id="p2">**</ept> paramètres pour obtenir la syntaxe de l’applet de commande Get-ChildItem lorsqu’il est utilisé dans le lecteur Cert : lecteur.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The Cert: drive is a Windows PowerShell drive that the Certificate Provider adds to the session.</source>
+          <target state="translated">Le lecteur Cert : le lecteur est un lecteur Windows PowerShell qui le fournisseur Certificate ajoute à la session.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When you compare the syntax displayed in the output with the syntax that is displayed when you omit the Args (ArgumentList) parameter, you'll see that the <bpt id="p1">**</bpt>Certificate provider<ept id="p1">**</ept> adds a dynamic parameter, <bpt id="p2">**</bpt>CodeSigningCert<ept id="p2">**</ept>, to the Get-ChildItem cmdlet.</source>
+          <target state="translated">Lorsque vous comparez la syntaxe affichée dans la sortie avec la syntaxe qui s’affiche lorsque vous omettez le paramètre Args (ArgumentList), vous verrez que le <bpt id="p1">**</bpt>fournisseur Certificate<ept id="p1">**</ept> ajoute un paramètre dynamique, <bpt id="p2">**</bpt>CodeSigningCert<ept id="p2">**</ept>, à l’applet de commande Get-ChildItem.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For more information about the Certificate provider, see Certificate Provider.</source>
+          <target state="translated">Pour plus d’informations sur le fournisseur de certificats, consultez le fournisseur de certificats.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-DynamicParameters<ept id="p1">**</ept> function in this example gets the dynamic parameters of a cmdlet.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>Get-DynamicParameters<ept id="p1">**</ept> fonction dans cet exemple obtient les paramètres dynamiques d’une applet de commande.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This is an alternative to the method used in the previous example.</source>
+          <target state="translated">Il s'agit d'une alternative à la méthode utilisée dans l'exemple précédent.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Dynamic parameter can be added to a cmdlet by another cmdlet or a provider.</source>
+          <target state="translated">Un paramètre dynamique peut être ajouté à une applet de commande par une autre applet de commande ou un fournisseur.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The command in the example uses the <bpt id="p1">**</bpt>Get-DynamicParameters<ept id="p1">**</ept> function to get the dynamic parameters that the Certificate provider adds to the Get-ChildItem cmdlet when it is used in the Cert: drive.</source>
+          <target state="translated">Dans l’exemple, la commande utilise le <bpt id="p1">**</bpt>Get-DynamicParameters<ept id="p1">**</ept> fonction permettant d’obtenir les paramètres dynamiques du fournisseur ajoute à l’applet de commande Get-ChildItem lorsqu’il est utilisé dans le lecteur Cert : lecteur.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 8 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 8 --------------------------</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This command gets all commands of all types on the local computer, including executable files in the paths of the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> environment variable ($env:path).</source>
+          <target state="translated">Cette commande Obtient toutes les commandes de tous les types sur l’ordinateur local, y compris les fichiers exécutables dans les chemins d’accès de la <bpt id="p1">**</bpt>chemin d’accès<ept id="p1">**</ept> variable d’environnement ($env : chemin d’accès).</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>It returns an <bpt id="p1">**</bpt>ApplicationInfo<ept id="p1">**</ept> object (System.Management.Automation.ApplicationInfo) for each file, not a <bpt id="p2">**</bpt>FileInfo<ept id="p2">**</ept> object (System.IO.FileInfo).</source>
+          <target state="translated">Elle retourne un <bpt id="p1">**</bpt>ApplicationInfo<ept id="p1">**</ept> (System.Management.Automation.ApplicationInfo) de l’objet pour chaque fichier, pas un <bpt id="p2">**</bpt>FileInfo<ept id="p2">**</ept> (System.IO.FileInfo) d’objet.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 9 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 9 --------------------------</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This command gets cmdlets that have a parameter whose name includes "Auth" and whose type is <bpt id="p1">**</bpt>AuthenticationMechanism<ept id="p1">**</ept>.</source>
+          <target state="translated">Cette commande Obtient les applets de commande qui ont un paramètre dont le nom contient « Auth » et dont le type est <bpt id="p1">**</bpt>AuthenticationMechanism<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can use a command like this one to find cmdlets that let you specify the method that is used to authenticate the user.</source>
+          <target state="translated">Vous pouvez vous servir d'une commande similaire à celle-ci pour rechercher les applets de commande qui vous permettent de spécifier la méthode utilisée pour authentifier l'utilisateur.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ParameterType<ept id="p1">**</ept> parameter distinguishes parameters that take an <bpt id="p2">**</bpt>AuthenticationMechanism<ept id="p2">**</ept> value from those that take an <bpt id="p3">**</bpt>AuthenticationLevel<ept id="p3">**</ept> parameter, even when they have similar names.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>ParameterType<ept id="p1">**</ept> paramètre distingue les paramètres qui acceptent une <bpt id="p2">**</bpt>AuthenticationMechanism<ept id="p2">**</ept> valeur de celles qui acceptent un <bpt id="p3">**</bpt>AuthenticationLevel<ept id="p3">**</ept> paramètre, même lorsqu’ils ont des noms semblables.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 10 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 10 --------------------------</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet with an alias.</source>
+          <target state="translated">Cet exemple montre comment utiliser le <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> applet de commande avec un alias.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Although it is typically used on cmdlets and functions, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> also gets scripts, functions, aliases, workflows, and executable files.</source>
+          <target state="translated">Bien qu’il est généralement utilisé sur les applets de commande et fonctions, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> obtient également les scripts, les fonctions, alias, les flux de travail et les fichiers exécutables.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The output of the command shows the special view of the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> property value for aliases.</source>
+          <target state="translated">La sortie de la commande affiche l’affichage spécial de la <bpt id="p1">**</bpt>nom<ept id="p1">**</ept> valeur de propriété d’alias.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The view shows the alias and the full command name.</source>
+          <target state="translated">L'affichage montre l'alias et le nom de commande complet.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 11 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 11 --------------------------</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This example uses the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> cmdlet to show all instances of the "Notepad" command on the local computer.</source>
+          <target state="translated">Cet exemple utilise le <bpt id="p1">**</bpt>toutes les<ept id="p1">**</ept> paramètre de la <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> applet de commande pour afficher toutes les instances de la commande « Notepad » sur l’ordinateur local.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter is useful when there is more than one command with the same name in the session.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>toutes les<ept id="p1">**</ept> paramètre est utile lorsqu’il existe plusieurs commandes portant le même nom dans la session.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, by default, when the session includes multiple commands with the same name, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets only the command that runs when you type the command name.</source>
+          <target state="translated">À compter de Windows PowerShell 3.0, par défaut, lorsque la session comprend plusieurs commandes portant le même nom, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> Obtient uniquement la commande qui s’exécute lorsque vous tapez le nom de la commande.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>With the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter, <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> gets all commands with the specified name and returns them in execution precedence order.</source>
+          <target state="translated">Avec la <bpt id="p1">**</bpt>tous les<ept id="p1">**</ept> paramètre <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> Obtient toutes les commandes portant le nom spécifié et les retourne dans l’ordre de priorité d’exécution.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To run a command other than the first one in the list, type the fully qualified path to the command.</source>
+          <target state="translated">Pour exécuter une autre commande que la première de la liste, tapez le chemin d'accès complet de la commande.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For more information about command precedence, see about_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214).</source>
+          <target state="translated">Pour plus d’informations sur la priorité des commandes, consultez about_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214).</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 12 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 12 --------------------------</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This command gets the name of the snap-in or module in which the Get-Date cmdlet originated.</source>
+          <target state="translated">Cette commande Obtient le nom du composant logiciel enfichable ou module d'où provenance l’applet de commande Get-Date.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> property of all commands.</source>
+          <target state="translated">La commande utilise le <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> propriété de toutes les commandes.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This command format works on commands in Windows PowerShell modules and snap-ins, even if they are not imported into the session.</source>
+          <target state="translated">Ce format de commande fonctionne pour les commandes des modules et des composants logiciels enfichables Windows PowerShell, même si elles ne sont pas importées dans la session.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 13 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 13 --------------------------</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This command gets the cmdlets and functions that have an output type and the type of objects that they return.</source>
+          <target state="translated">Cette commande obtient les applets de commande et les fonctions qui ont un type de sortie, ainsi que le type d'objet qu'elles retournent.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The first part of the command gets all cmdlets.</source>
+          <target state="translated">La première partie de la commande obtient toutes les applets de commande.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A pipeline operator (|) sends the cmdlets to the Where-Object cmdlet, which selects only the ones in which the <bpt id="p1">**</bpt>OutputType<ept id="p1">**</ept> property is populated.</source>
+          <target state="translated">Un opérateur de pipeline (|) envoie les applets de commande à l’applet de commande Where-Object, qui sélectionne uniquement celles dont le <bpt id="p1">**</bpt>OutputType<ept id="p1">**</ept> propriété est remplie.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Another pipeline operator sends the selected cmdlet objects to the Format-List cmdlet, which displays the name and output type of each cmdlet in a list.</source>
+          <target state="translated">Un autre pipeline opérateur envoie les objets de l’applet de commande sélectionnée à la cmdlet Format-List, qui affiche le nom et le type de chaque applet de commande dans une liste de sortie.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>OutputType<ept id="p1">**</ept> property of a <bpt id="p2">**</bpt>CommandInfo<ept id="p2">**</ept> object has a non-null value only when the cmdlet code defines the <bpt id="p3">**</bpt>OutputType<ept id="p3">**</ept> attribute for the cmdlet.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>OutputType<ept id="p1">**</ept> propriété d’un <bpt id="p2">**</bpt>CommandInfo<ept id="p2">**</ept> objet a une valeur non null uniquement lorsque le code de l’applet de commande définit les <bpt id="p3">**</bpt>OutputType<ept id="p3">**</ept> attribut pour l’applet de commande.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 14 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 14 --------------------------</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This command finds cmdlets that take net adapter objects as input.</source>
+          <target state="translated">Cette commande recherche les applets de commande qui acceptent des objets de carte réseau en entrée.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You can use this command format to find the cmdlets that accept the type of objects that any command returns.</source>
+          <target state="translated">Vous pouvez utiliser ce format de commande pour rechercher les applets de commande qui acceptent le type d'objet retourné par une commande.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>PSTypeNames<ept id="p1">**</ept> intrinsic property of all objects, which gets the types that describe the object.</source>
+          <target state="translated">La commande utilise le <bpt id="p1">**</bpt>PSTypeNames<ept id="p1">**</ept> propriétés intrinsèques de tous les objets, qui obtient les types qui décrivent l’objet.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To get the <bpt id="p1">**</bpt>PSTypeNames<ept id="p1">**</ept> property of a net adapter, and not the <bpt id="p2">**</bpt>PSTypeNames<ept id="p2">**</ept> property of a collection of net adapters, the command uses array notation to get the first net adapter that the cmdlet returns.</source>
+          <target state="translated">Pour obtenir le <bpt id="p1">**</bpt>PSTypeNames<ept id="p1">**</ept> Propriétés d’une carte réseau et non le <bpt id="p2">**</bpt>PSTypeNames<ept id="p2">**</ept> propriété d’une collection de cartes réseau, la commande utilise la notation de tableau pour obtenir la première carte réseau par l’applet de commande.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMÈTRES</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>-All</source>
+          <target state="translated">-Tout</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Gets all commands, including commands of the same type that have the same name.</source>
+          <target state="translated">Obtient toutes les commandes, y compris les commandes du même type ayant le même nom.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets only the commands that run when you type the command name.</source>
+          <target state="translated">Par défaut, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> Obtient uniquement les commandes qui s’exécutent lorsque vous tapez le nom de la commande.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For more information about the method that Windows PowerShell uses to select the command to run when multiple commands have the same name, see about_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214).</source>
+          <target state="translated">Pour plus d’informations sur la méthode utilisée par Windows PowerShell pour sélectionner la commande à exécuter quand plusieurs commandes ont le même nom, consultez about_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214).</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For information about module-qualified command names and running commands that do not run by default because of a name conflict, see about_Modules (http://go.microsoft.com/fwlink/?LinkID=144311).</source>
+          <target state="translated">Pour plus d’informations sur les commandes qualifiés des modules noms et l’exécution des commandes qui ne pas s’exécutent par défaut en raison d’un conflit de noms, consultez about_Modules (http://go.microsoft.com/fwlink/?LinkID=144311).</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre est introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, Get-Command gets all commands by default.</source>
+          <target state="translated">Dans Windows PowerShell 2.0, Get-Command obtient toutes les commandes par défaut.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets information about a cmdlet or function when it is used with the specified  parameters ("arguments").</source>
+          <target state="translated">Obtient des informations sur une applet de commande ou une fonction quand elle est utilisée avec les paramètres spécifiés (« arguments »).</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The alias for <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> is <bpt id="p2">**</bpt>Args<ept id="p2">**</ept>.</source>
+          <target state="translated">L’alias de <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> est <bpt id="p2">**</bpt>Args<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To detect dynamic parameters that are available only when certain other parameters are used, set the value of ArgumentList to the parameters that trigger the dynamic parameters.</source>
+          <target state="translated">Pour détecter les paramètres dynamiques disponibles uniquement quand certains autres paramètres sont utilisés, affectez la valeur d'ArgumentList aux paramètres qui déclenchent les paramètres dynamiques.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>To detect the dynamic parameters that a provider adds to a cmdlet, set the value of the <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> parameter to a path in the provider drive, such as "WSMan:", "HKLM:" or "Cert:".</source>
+          <target state="translated">Pour détecter les paramètres dynamiques qu’un fournisseur ajoute à une applet de commande, définissez la valeur de la <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> lecteur de paramètre à un chemin d’accès dans le fournisseur, tel que » WSMan : », « HKLM : » ou « Cert : ».</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>When the command is a Windows PowerShell provider cmdlet, enter only one path in each command; the provider cmdlets return only the dynamic parameters for the first path the value of <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept>.</source>
+          <target state="translated">Lorsque la commande est une applet de commande du fournisseur Windows PowerShell, entrez un seul chemin d’accès dans chaque commande. les applets de commande fournisseur retournent uniquement les paramètres dynamiques pour le premier chemin d’accès de la valeur de <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>For information about the provider cmdlets, see about_Providers (http://go.microsoft.com/fwlink/?LinkID=113250).</source>
+          <target state="translated">Pour plus d’informations sur les applets de commande du fournisseur, consultez about_Providers (http://go.microsoft.com/fwlink/?LinkID=113250).</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>-CommandType</source>
+          <target state="translated">CommandType-</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Gets only the specified types of commands.</source>
+          <target state="translated">Obtient uniquement les types de commande spécifiés.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Enter one or more command types.</source>
+          <target state="translated">Entrez un ou plusieurs types de commande.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Use <bpt id="p1">**</bpt>CommandType<ept id="p1">**</ept> or its alias, <bpt id="p2">**</bpt>Type<ept id="p2">**</ept>.</source>
+          <target state="translated">Utilisez <bpt id="p1">**</bpt>CommandType<ept id="p1">**</ept> ou son alias, <bpt id="p2">**</bpt>Type<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets all cmdlets, functions, and workflows, and aliases.</source>
+          <target state="translated">Par défaut, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> Obtient toutes les applets de commande, fonctions, workflows et des alias.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">Les valeurs valides sont :</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Alias<ept id="p1">**</ept>: Gets the aliases of all Windows PowerShell commands.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Alias<ept id="p1">**</ept>: Obtient les alias de toutes les commandes Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">Pour plus d'informations, consultez about_Aliases.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All<ept id="p1">**</ept>: Gets all command types.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Tous les<ept id="p1">**</ept>: Obtient tous les types de commande.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This parameter value is the equivalent of "Get-Command *".</source>
+          <target state="translated">Cette valeur de paramètre équivaut à « Get-Command * ».</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Application<ept id="p1">**</ept>: Gets non-Windows-PowerShell files in paths listed in the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> environment variable ($env:path), including .txt, .exe, and .dll files.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Application<ept id="p1">**</ept>: Obtient les fichiers de Windows PowerShell dans les chemins d’accès répertoriés dans le <bpt id="p2">**</bpt>chemin d’accès<ept id="p2">**</ept> variable d’environnement ($env : chemin d’accès), y compris les fichiers .dll, .exe et .txt.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> environment variable, see about_Environment_Variables.</source>
+          <target state="translated">Pour plus d’informations sur la <bpt id="p1">**</bpt>chemin d’accès<ept id="p1">**</ept> variable d’environnement, consultez about_Environment_Variables.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cmdlet<ept id="p1">**</ept>: Gets all cmdlets.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Applet de commande<ept id="p1">**</ept>: Obtient toutes les applets de commande.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ExternalScript<ept id="p1">**</ept>: Gets all .ps1 files in the paths listed in the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> environment variable ($env:path).</source>
+          <target state="translated"><bpt id="p1">**</bpt>ExternalScript<ept id="p1">**</ept>: Obtient tous les fichiers .ps1 dans les chemins d’accès répertoriés dans le <bpt id="p2">**</bpt>chemin d’accès<ept id="p2">**</ept> variable d’environnement ($env : chemin d’accès).</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Function<ept id="p2">**</ept>: Gets all Windows PowerShell advanced and simple functions and filters.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Filtre<ept id="p1">**</ept> et <bpt id="p2">**</bpt>fonction<ept id="p2">**</ept>: Obtient tous les avancées de Windows PowerShell et des fonctions simples et filtres.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Script<ept id="p1">**</ept>: Gets all script blocks.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Script<ept id="p1">**</ept>: Obtient tous les blocs de script.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>To get Windows PowerShell scripts (.ps1 files), use the <bpt id="p1">**</bpt>ExternalScript<ept id="p1">**</ept> value.</source>
+          <target state="translated">Pour obtenir des scripts Windows PowerShell (fichiers .ps1), utilisez la <bpt id="p1">**</bpt>ExternalScript<ept id="p1">**</ept> valeur.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Workflow<ept id="p1">**</ept>: Gets all workflows.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Flux de travail<ept id="p1">**</ept>: Obtient tous les workflows.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For more information about workflows, see Introducing Windows PowerShell Workflow.</source>
+          <target state="translated">Pour plus d’informations sur les flux de travail, consultez Présentation du Workflow Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-Module</source>
+          <target state="translated">-Module</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets the commands that came from the specified modules or snap-ins.</source>
+          <target state="translated">Obtient les commandes provenant des modules ou composants logiciels enfichables spécifiés.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Enter the names of modules or snap-ins, or enter snap-in or module objects.</source>
+          <target state="translated">Entrez les noms des modules ou des composants logiciels enfichables, ou entrez les objets de composant logiciel enfichable ou de module.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This parameter takes string values, but the value of this parameter can also be a <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> or <bpt id="p2">**</bpt>PSSnapinInfo<ept id="p2">**</ept> object, such as the objects that the Get-Module, Get-PSSnapin, and Import-PSSession cmdlets return.</source>
+          <target state="translated">Ce paramètre accepte les valeurs de chaîne, mais la valeur de ce paramètre peut également être un <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> ou <bpt id="p2">**</bpt>PSSnapinInfo<ept id="p2">**</ept> objet, tels que les objets qui retournent les applets de commande Import-PSSession, Get-PSSnapin et Get-Module.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>You can refer to this parameter by its name, <bpt id="p1">**</bpt>Module<ept id="p1">**</ept>, or by its alias, <bpt id="p2">**</bpt>PSSnapin<ept id="p2">**</ept>.</source>
+          <target state="translated">Vous pouvez faire référence à ce paramètre par son nom, <bpt id="p1">**</bpt>Module<ept id="p1">**</ept>, ou par son alias, <bpt id="p2">**</bpt>PSSnapin<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The parameter name that you choose has no effect on the command output.</source>
+          <target state="translated">Le nom de paramètre que vous choisissez n'a aucun effet sur la sortie de commande.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets only commands with the specified name.</source>
+          <target state="translated">Obtient uniquement les commandes ayant le nom spécifié.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Enter a name or name pattern.</source>
+          <target state="translated">Entrez un nom ou un modèle de nom.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Les caractères génériques sont autorisés.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>To get commands that have the same name, use the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Pour obtenir les commandes qui ont le même nom, utilisez la <bpt id="p1">**</bpt>tous les<ept id="p1">**</ept> paramètre.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>When two commands have the same name, by default, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets the command that runs when you type the command name.</source>
+          <target state="translated">Quand deux commandes ont le même nom, par défaut, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> Obtient la commande qui s’exécute lorsque vous tapez le nom de la commande.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-Noun</source>
+          <target state="translated">-Nom</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Gets commands (cmdlets, functions, workflows, and aliases) that have names that include the specified noun.</source>
+          <target state="translated">Obtient les commandes (applets de commande, fonctions, workflows et alias) dont les noms incluent le nom spécifié.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Enter one or more nouns or noun patterns.</source>
+          <target state="translated">Entrez un ou plusieurs noms ou modèles de noms.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Les caractères génériques sont autorisés.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>-Syntax</source>
+          <target state="translated">: Syntaxe</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Gets only specified data about the command.</source>
+          <target state="translated">Obtient uniquement les données spécifiées relatives à la commande.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>For aliases, gets the standard name.</source>
+          <target state="translated">Pour les alias, obtient le nom standard.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>For cmdlets, gets the syntax.</source>
+          <target state="translated">Pour les applets de commande, obtient la syntaxe.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>For functions and filters, gets the function definition.</source>
+          <target state="translated">Pour les fonctions et les filtres, obtient la définition de fonction.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For scripts and applications (files), gets the path and filename.</source>
+          <target state="translated">Des scripts et des applications (fichiers), obtient le chemin d’accès et le nom de fichier.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>-TotalCount</source>
+          <target state="translated">-TotalCount</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets the specified number of commands.</source>
+          <target state="translated">Obtient le nombre spécifié de commandes.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to limit the output of a command.</source>
+          <target state="translated">Vous pouvez utiliser ce paramètre pour limiter la sortie d'une commande.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>-Verb</source>
+          <target state="translated">-Verbe</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Gets commands (cmdlets, functions, workflows, and aliases) that have names that include the specified verb.</source>
+          <target state="translated">Obtient les commandes (applets de commande, fonctions, workflows et alias) dont les noms incluent le verbe spécifié.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Enter one or more verbs or verb patterns.</source>
+          <target state="translated">Entrez un ou plusieurs verbes ou modèles de verbes.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Les caractères génériques sont autorisés.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>-ListImported</source>
+          <target state="translated">-ListImported</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Gets only commands in the current session.</source>
+          <target state="translated">Obtient uniquement les commandes de la session active.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, by default, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets all installed commands, including, but not limited to, the commands in the current session.</source>
+          <target state="translated">À compter de Windows PowerShell 3.0, par défaut, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> Obtient toutes les commandes installées, y compris, mais sans limitation, les commandes dans la session active.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, it gets only commands in the current session.</source>
+          <target state="translated">Dans Windows PowerShell 2.0, il obtient uniquement les commandes dans la session active.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre est introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>-ParameterName</source>
+          <target state="translated">-ParameterName</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Gets commands in the session that have the specified parameters.</source>
+          <target state="translated">Obtient les commandes de session qui ont les paramètres spécifiés.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Enter parameter names and/or parameter aliases.</source>
+          <target state="translated">Entrez les noms de paramètres et/ou les alias de paramètres.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Wildcard are supported.</source>
+          <target state="translated">Les caractères génériques sont pris en charge.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ParameterName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ParameterType<ept id="p2">**</ept> parameters search only commands in the current session.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>ParameterName<ept id="p1">**</ept> et <bpt id="p2">**</bpt>ParameterType<ept id="p2">**</ept> paramètres recherchent uniquement les commandes dans la session active.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre est introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>-ParameterType</source>
+          <target state="translated">Type de paramètre :</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Gets commands in the session that have parameters of the specified type.</source>
+          <target state="translated">Obtient les commandes de session qui ont des paramètres du type spécifié.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Enter the full name or partial name of a parameter type.</source>
+          <target state="translated">Entrez le nom complet ou partiel d'un type de paramètre.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Wildcards are supported.</source>
+          <target state="translated">Les caractères génériques sont pris en charge.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ParameterName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ParameterType<ept id="p2">**</ept> parameters search only commands in the current session.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>ParameterName<ept id="p1">**</ept> et <bpt id="p2">**</bpt>ParameterType<ept id="p2">**</ept> paramètres recherchent uniquement les commandes dans la session active.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre est introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Cette applet de commande prend en charge les paramètres courants :-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction et - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Pour plus d’informations, consultez about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRÉES</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>You can pipe command names to <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept>.</source>
+          <target state="translated">Vous pouvez diriger des noms de commande à <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SORTIES</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.CommandInfo</source>
+          <target state="translated">System.Management.Automation.CommandInfo</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>All <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> output types are derived from this  class.</source>
+          <target state="translated">Tous les <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> types de sortie sont dérivées de cette classe.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The type of object that is returned depends on the type of command that Get-Command gets.</source>
+          <target state="translated">Le type d'objet retourné dépend du type de commande obtenu par Get-Command.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.AliasInfo</source>
+          <target state="translated">System.Management.Automation.AliasInfo</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Represents aliases.</source>
+          <target state="translated">Représente des alias.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.ApplicationInfo</source>
+          <target state="translated">System.Management.Automation.ApplicationInfo</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Represents or applications and files</source>
+          <target state="translated">Représente des applications et des fichiers</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.CmdletInfo</source>
+          <target state="translated">System.Management.Automation.CmdletInfo</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Represents cmdlets.</source>
+          <target state="translated">Représente des applets de commande.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.FunctionInfo</source>
+          <target state="translated">System.Management.Automation.FunctionInfo</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Represents functions and filters</source>
+          <target state="translated">Représente des fonctions et des filtres</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.WorkflowInfo</source>
+          <target state="translated">System.Management.Automation.WorkflowInfo</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTES DE PUBLICATION</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>When more than one command with the same name is available to the session, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> returns the command that runs when you type the command name.</source>
+          <target state="translated">Lorsque plusieurs commandes portant le même nom est disponible pour la session, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> retourne la commande qui s’exécute lorsque vous tapez le nom de la commande.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>To get commands with the same name (listed in execution order), use the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Pour obtenir les commandes portant le même nom (répertorié dans l’ordre d’exécution), utilisez la <bpt id="p1">**</bpt>tous les<ept id="p1">**</ept> paramètre.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Command_Precedence.</source>
+          <target state="translated">Pour plus d'informations, consultez about_Command_Precedence.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>When a module is imported automatically, the effect is the same as using the Import-Module cmdlet.</source>
+          <target state="translated">Lorsqu’un module est importé automatiquement, l’effet est identique à l’aide de l’applet de commande Import-Module.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The module can add commands, types and formatting files, and run scripts in the session.</source>
+          <target state="translated">Le module peut ajouter des commandes, des types et des fichiers de mise en forme, puis exécuter des scripts dans la session.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>To enable, disable, and configuration automatic importing of modules, use the <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> preference variable.</source>
+          <target state="translated">Pour activer, désactiver et configurer l’importation automatique de modules, utilisent le <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> variable de préférence.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">Pour plus d’informations, consultez about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LIENS CONNEXES</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Export-PSSession</source>
+          <target state="translated">Export-PSSession</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Get-Help</source>
+          <target state="translated">Get-Help</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Get-Member</source>
+          <target state="translated">Get-Member</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Get-PSDrive</source>
+          <target state="translated">Get-PSDrive</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Import-PSSession</source>
+          <target state="translated">Import-PSSession</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

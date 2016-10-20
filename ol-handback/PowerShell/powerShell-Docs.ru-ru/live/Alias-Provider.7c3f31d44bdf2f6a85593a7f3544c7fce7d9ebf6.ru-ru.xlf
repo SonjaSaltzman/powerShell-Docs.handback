@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">971130c1ff3b8c3c0fbcf47526c3b6cdbfc37abb</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Providers\Alias-Provider.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fb1aff969f2d6cd864b0bdd0151c8f70c7081472</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">35898f81a3f912fec844bb822971e7ef86c41dbb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Alias Provider</source>
+          <target state="translated">Alias Provider</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Alias Provider</source>
+          <target state="translated">Alias Provider</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PROVIDER NAME</source>
+          <target state="translated">ИМЯ ПОСТАВЩИКА</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Alias</source>
+          <target state="translated">Alias</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>DRIVES</source>
+          <target state="translated">ДИСКИ</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Alias:</source>
+          <target state="translated">Alias:</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">КРАТКОЕ ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Provides access to the Windows PowerShell aliases and the values that they represent.</source>
+          <target state="translated">Обеспечивает доступ к псевдонимам Windows PowerShell и представленным ими значениям.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DETAILED DESCRIPTION</source>
+          <target state="translated">ПОДРОБНОЕ ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Alias provider lets you get, add, change, clear, and delete aliases in Windows PowerShell.</source>
+          <target state="translated">Поставщик Windows PowerShell Alias позволяет извлекать, добавлять, изменять, очищать и удалять псевдонимы в Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An alias is an alternate name for a cmdlet, function, or executable file.</source>
+          <target state="translated">Псевдоним представляет собой альтернативное имя командлета, функции или исполняемого файла.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell includes a set of built<ph id="ph1">\-</ph>in aliases.</source>
+          <target state="translated">Windows PowerShell включает набор встроенных<ph id="ph1">\-</ph>в псевдонимы.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>And, you can add your own aliases to the current session and to your Windows PowerShell profile.</source>
+          <target state="translated">Кроме того, пользователь может добавлять собственные псевдонимы в текущий сеанс и свой профиль Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The Alias provider is a flat namespace that contains only the alias objects.</source>
+          <target state="translated">Поставщик Alias представляет собой плоское пространство имен, содержащее только объекты псевдонимов.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The aliases have no child items.</source>
+          <target state="translated">У псевдонимов нет дочерних элементов.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Each alias is an instance of the System.Management.Automation.AliasInfo class.</source>
+          <target state="translated">Каждый псевдоним является экземпляром класса System.Management.Automation.AliasInfo.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Alias provider exposes its data store in the Alias: drive.</source>
+          <target state="translated">Поставщик Alias отображает свое хранилище данных как диск Alias:.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To work with aliases, you can change your location to the Alias: drive by using the following command:</source>
+          <target state="translated">Для работы с псевдонимами можно изменить свое местоположение на диск Alias: с помощью следующей команды:</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set<ph id="ph1">\-</ph>Location &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///31d25e13-f05e-48ad-ae8d-9fd097ca18e8)</ept> alias:</source>
+          <target state="translated"><bpt id="p1">[</bpt>Задайте<ph id="ph1">\-</ph>Расположение &amp;#91; m2 &amp;#93;<ept id="p1">](assetId:///31d25e13-f05e-48ad-ae8d-9fd097ca18e8)</ept> псевдоним:</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Or, you can work from any other Windows PowerShell drive.</source>
+          <target state="translated">Можно также работать с любого другого диска Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To reference an alias from another location, use the Alias: drive name in the path.</source>
+          <target state="translated">Для ссылки на псевдоним из другого местоположения в пути следует использовать имя диска Alias:.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell includes a set of cmdlets that are designed to view and to change aliases:</source>
+          <target state="translated">Windows PowerShell включает набор командлетов, предназначенных для просмотра и изменения псевдонимов:</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Export<ph id="ph1">\-</ph>Alias</source>
+          <target state="translated">Экспорт<ph id="ph1">\-</ph>псевдоним</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Alias</source>
+          <target state="translated">Получить<ph id="ph1">\-</ph>псевдоним</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Import<ph id="ph1">\-</ph>Alias</source>
+          <target state="translated">Импорт<ph id="ph1">\-</ph>псевдоним</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>New<ph id="ph1">\-</ph>Alias</source>
+          <target state="translated">Новый<ph id="ph1">\-</ph>псевдоним</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Set<ph id="ph1">\-</ph>Alias</source>
+          <target state="translated">Задайте<ph id="ph1">\-</ph>псевдоним</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When you use these cmdlets, you do not need to specify the Alias: drive in the name.</source>
+          <target state="translated">При использовании этих командлетов не нужно указывать диск Alias: в имени.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The Alias provider supports all the cmdlets that have the Item noun except for the <bpt id="p1">[</bpt>Invoke<ph id="ph1">\-</ph>Item &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///38a9887b-ce1a-4bde-be4e-98012efae204)</ept> cmdlet.</source>
+          <target state="translated">Поставщик Alias поддерживает все командлеты, содержащие существительное Item за исключением <bpt id="p1">[</bpt>Invoke<ph id="ph1">\-</ph>элемент &amp;#91; m2 &amp;#93;<ept id="p1">](assetId:///38a9887b-ce1a-4bde-be4e-98012efae204)</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>And, it supports the <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///86d8b4af-af2c-4a27-9519-2c9fd420be3d)</ept> and <bpt id="p2">[</bpt>Set<ph id="ph2">\-</ph>Content &amp;#91;m2&amp;#93;<ept id="p2">](assetId:///6fff9b86-86df-4440-b7b7-8124b22088fc)</ept> cmdlets.</source>
+          <target state="translated">И он поддерживает <bpt id="p1">[</bpt>получить<ph id="ph1">\-</ph>содержимое &amp;#91; m2 &amp;#93;<ept id="p1">](assetId:///86d8b4af-af2c-4a27-9519-2c9fd420be3d)</ept> и <bpt id="p2">[</bpt>значение<ph id="ph2">\-</ph>содержимое &amp;#91; m2 &amp;#93;<ept id="p2">](assetId:///6fff9b86-86df-4440-b7b7-8124b22088fc)</ept> командлетов.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The Alias provider does not support the cmdlets that have the ItemProperty noun.</source>
+          <target state="translated">Поставщик Alias не поддерживает командлеты, содержащие существительное ItemProperty.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>And, the Alias provider does not support the Filter parameter in any cmdlet.</source>
+          <target state="translated">Кроме того, поставщик Alias не поддерживает параметр Filter в любых командлетах.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>All changes to the aliases affect the current session only.</source>
+          <target state="translated">Все изменения в псевдонимах влияют только на текущий сеанс.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To save the changes, add the changes to the Windows PowerShell profile.</source>
+          <target state="translated">Чтобы сохранить изменения, их следует добавить в профиль Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Or, use the <bpt id="p1">[</bpt>Export<ph id="ph1">\-</ph>Alias &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///ea3f16e3-e8dc-48e7-9ae7-96808b8a941e)</ept> and <bpt id="p2">[</bpt>Import<ph id="ph2">\-</ph>Alias &amp;#91;m2&amp;#93;<ept id="p2">](assetId:///b8b08aac-9069-43cb-a224-1cf8a663aad4)</ept> cmdlets.</source>
+          <target state="translated">Или используйте <bpt id="p1">[</bpt>Экспорт<ph id="ph1">\-</ph>псевдоним &amp;#91; m2 &amp;#93;<ept id="p1">](assetId:///ea3f16e3-e8dc-48e7-9ae7-96808b8a941e)</ept> и <bpt id="p2">[</bpt>импорта<ph id="ph2">\-</ph>псевдоним &amp;#91; m2 &amp;#93;<ept id="p2">](assetId:///b8b08aac-9069-43cb-a224-1cf8a663aad4)</ept> командлетов.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>CAPABILITIES</source>
+          <target state="translated">ВОЗМОЖНОСТИ</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>ShouldProcess</source>
+          <target state="translated">ShouldProcess</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Getting to the Alias: Drive</source>
+          <target state="translated">Обращение к диску Alias: диска</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">ПРИМЕР 1</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This command changes the current location to the Alias: drive.</source>
+          <target state="translated">Эта команда изменяет текущее местоположение на диск Alias:.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can use this command from any drive in Windows PowerShell.</source>
+          <target state="translated">Эту команду можно использовать с любого диска в оболочке Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To return to a file system drive, type the drive name.</source>
+          <target state="translated">Чтобы вернуться к диску файловой системы, введите имя диска.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, type "set<ph id="ph1">\-</ph>location c:".</source>
+          <target state="translated">Например, введите «задать<ph id="ph1">\-</ph>location c:».</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Getting Aliases</source>
+          <target state="translated">Получение псевдонимов</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">ПРИМЕР 1</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This command gets a list of all the aliases in the current session.</source>
+          <target state="translated">Эта команда возвращает список всех псевдонимов в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can use this command in any Windows PowerShell drive.</source>
+          <target state="translated">Эту команду можно использовать с любого диска Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">ПРИМЕР 2</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This command gets the "ls" alias.</source>
+          <target state="translated">Эта команда возвращает псевдоним "ls".</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Because it includes the path, you can use it in any Windows PowerShell drive.</source>
+          <target state="translated">Так как она содержит путь, ее можно использовать на любом диске Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you are in the Alias: drive, you can omit the drive name from the path.</source>
+          <target state="translated">При этом имя диска в пути можно не указывать.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">ПРИМЕР 3</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This command gets a list of the aliases that are associated with the Get<ph id="ph1">\-</ph>ChildItem cmdlet.</source>
+          <target state="translated">Эта команда возвращает список псевдонимов, которые связаны с Get<ph id="ph1">\-</ph>ChildItem командлета.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>It uses the Definition property, which stores the cmdlet name.</source>
+          <target state="translated">В ней используется свойство Definition для хранения имени командлета.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>When the aliased item is an executable file, the Definition contains the fully qualified path of the file.</source>
+          <target state="translated">Если элемент с псевдонимом является исполняемым файлом, свойство Definition содержит полный путь к файлу.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 4</source>
+          <target state="translated">ПРИМЕР 4</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This command gets the list of all the aliases when the current location is the Alias: drive.</source>
+          <target state="translated">Эта команда возвращает список всех псевдонимов, если текущим местоположением является диск Alias:.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>It uses a wildcard character <ph id="ph1">\(\*\)</ph> to indicate all the contents of the current location.</source>
+          <target state="translated">Он используется подстановочный знак <ph id="ph1">\(\*\)</ph> для указания содержимого текущего расположения.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In the Alias: drive, a dot <ph id="ph1">\(</ph>.<ph id="ph2">\)</ph>, which represents the current location, and a wildcard character <ph id="ph3">\(\*\)</ph>, which represents all items in the current location, have the same effect.</source>
+          <target state="translated">В псевдониме: диска точка <ph id="ph1">\(</ph>.<ph id="ph2">\)</ph>, который представляет текущее местоположение и подстановочный знак <ph id="ph3">\(\*\)</ph>, имеют тот же эффект, который представляет все элементы в текущем расположении.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For example, "get<ph id="ph1">\-</ph>item <ph id="ph2">\-</ph>path ."</source>
+          <target state="translated">Например «получить<ph id="ph1">\-</ph>элемент <ph id="ph2">\-</ph>путь.»</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>or "get<ph id="ph1">\-</ph>item <ph id="ph2">\*</ph>" produce the same result.</source>
+          <target state="translated">или «получить<ph id="ph1">\-</ph>элемент <ph id="ph2">\*</ph>» дают одинаковый результат.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Creating a New Alias</source>
+          <target state="translated">Создание нового псевдонима</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">ПРИМЕР 1</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This command creates the "serv" alias for the Get<ph id="ph1">\-</ph>Service cmdlet.</source>
+          <target state="translated">Эта команда создает псевдоним «serv» для получения<ph id="ph1">\-</ph>службы командлет.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Because the current location is in the Alias: drive, the value of the Path parameter is a dot <ph id="ph1">\(</ph>.<ph id="ph2">\)</ph>.</source>
+          <target state="translated">Так как текущее расположение находится в псевдониме: диск, значение параметра Path — точка <ph id="ph1">\(</ph>.<ph id="ph2">\)</ph>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The dot represents the current location.</source>
+          <target state="translated">Точка обозначает текущее местоположение.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This command also uses the Options dynamic parameter to set the AllScope and Constant options on the alias.</source>
+          <target state="translated">Эта команда также использует динамический параметр Options для установки параметров псевдонима AllScope и Constant.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The Options parameter is available in the New<ph id="ph1">\-</ph>Item cmdlet only when you are in the Alias: drive.</source>
+          <target state="translated">Параметр Options доступен в новое<ph id="ph1">\-</ph>командлет только в том случае, если вы находитесь в псевдоним: диск.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If you are in the Alias: drive, you can omit the drive name from the path.</source>
+          <target state="translated">При этом имя диска в пути можно не указывать.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">ПРИМЕР 2</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can create an alias for any item that invokes a command.</source>
+          <target state="translated">Псевдоним может быть создан для любого элемента, который вызывает команду.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This command creates the "np" alias for Notepad.exe.</source>
+          <target state="translated">Эта команда создает псевдоним "np" для Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">ПРИМЕР 3</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You can create an alias for any function.</source>
+          <target state="translated">Псевдоним может быть создан для любой функции.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>You can use this feature to create an alias that includes both a cmdlet and its parameters.</source>
+          <target state="translated">Эта возможность позволяет создать псевдоним, включающий как командлет, так и его параметры.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The first command creates the CD32 function, which changes the current directory to the System32 directory.</source>
+          <target state="translated">Первая команда создает функцию CD32, которая изменяет текущий каталог на каталог System32.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The second command creates the "go" alias for the CD32 function.</source>
+          <target state="translated">Вторая команда создает псевдоним "go" для функции CD32.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The semi<ph id="ph1">\-</ph>colon <ph id="ph2">\(</ph>;<ph id="ph3">\)</ph> is the command separator.</source>
+          <target state="translated">Полусоединения<ph id="ph1">\-</ph>двоеточие <ph id="ph2">\(</ph>;<ph id="ph3">\)</ph> служит разделителем команд.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>When the command is complete, you can use either "CD32" or "go" to invoke the function.</source>
+          <target state="translated">После завершения команды для вызова функции можно использовать "CD32" или команду "go".</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Displaying the Properties and Methods of Aliases</source>
+          <target state="translated">Отображение свойств и методов псевдонимов</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">ПРИМЕР 1</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This command uses the Get<ph id="ph1">\-</ph>Item cmdlet to get all aliases.</source>
+          <target state="translated">Эта команда использует Get<ph id="ph1">\-</ph>командлет для получения всех псевдонимов.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The pipeline operator <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> sends the results to the Get<ph id="ph3">\-</ph>Member cmdlet, which displays the methods and properties of the object.</source>
+          <target state="translated">Конвейерный оператор <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> отправляет результаты Get<ph id="ph3">\-</ph>член, который отображает методы и свойства объекта.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When you pipe a collection of objects to Get<ph id="ph1">\-</ph>Member, such as the collection of aliases in the Alias: drive, Get<ph id="ph2">\-</ph>Member evaluates each object in the collection separately.</source>
+          <target state="translated">При передаче по конвейеру коллекции объектов Get<ph id="ph1">\-</ph>члена, например коллекции псевдонимов в псевдониме: диска Get<ph id="ph2">\-</ph>член обрабатывает каждый объект в коллекции отдельно.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Then, Get<ph id="ph1">\-</ph>Member returns information about each object type that it finds.</source>
+          <target state="translated">Получите<ph id="ph1">\-</ph>член возвращает сведения о каждом типе объекта, он находит.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If all the objects are of the same type, it returns information about the single object type.</source>
+          <target state="translated">Если все объекты принадлежат одному типу, то командлет возвращает сведения о единственном типе объектов.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>In this case, all the aliases are AliasInfo objects.</source>
+          <target state="translated">В данном случае все псевдонимы являются объектами AliasInfo.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To get information about the collection of AliasInfo objects, use the InputObject parameter of Get<ph id="ph1">\-</ph>Member.</source>
+          <target state="translated">Чтобы получить сведения о коллекции объектов AliasInfo, используйте параметр InputObject командлета Get<ph id="ph1">\-</ph>член.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For example, use the following command:</source>
+          <target state="translated">Например, используйте следующую команду:</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Member <ph id="ph2">\-</ph>InputObject <ph id="ph3">\(</ph>Get<ph id="ph4">\-</ph>Item alias:</source>
+          <target state="translated">Получить<ph id="ph1">\-</ph>член <ph id="ph2">\-</ph>InputObject <ph id="ph3">\(</ph>получить<ph id="ph4">\-</ph>псевдоним элемента:</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>When you use InputObject, Get<ph id="ph1">\-</ph>Member evaluates the collection, not the objects in the collection.</source>
+          <target state="translated">При использовании InputObject, получить<ph id="ph1">\-</ph>Member анализирует всю коллекцию объектов в коллекции.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">ПРИМЕР 2</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This command lists the values of the properties of the "dir" alias.</source>
+          <target state="translated">Эта команда перечисляет значения свойств псевдонима "dir".</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>It uses the Get<ph id="ph1">\-</ph>Item cmdlet to get an object that represents the "dir" alias.</source>
+          <target state="translated">Она использует Get<ph id="ph1">\-</ph>элемента, чтобы получить объект, представляющий псевдоним «dir».</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The pipeline operator <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> sends the results to the Format<ph id="ph3">\-</ph>List command.</source>
+          <target state="translated">Конвейерный оператор <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> отправляет результаты в формате<ph id="ph3">\-</ph>список команд.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The Format<ph id="ph1">\-</ph>List command uses the Property parameter with a wildcard character <ph id="ph2">\(\*\)</ph> to format and display the values of all the "dir" alias properties.</source>
+          <target state="translated">Формат<ph id="ph1">\-</ph>команда List использует параметр Property с подстановочным знаком <ph id="ph2">\(\*\)</ph> для форматирования и отображения значений всех свойств псевдонима «dir».</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Changing the Properties of an Alias</source>
+          <target state="translated">Изменение свойств псевдонима</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">ПРИМЕР 1</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can use the Set<ph id="ph1">\-</ph>Item cmdlet with the Options dynamic parameter to change the value of the Options property of an alias.</source>
+          <target state="translated">Можно использовать набор<ph id="ph1">\-</ph>командлет с динамическим параметром Options для изменения значения свойства Options псевдонима.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This command sets the AllScope and ReadOnly options for the "dir" alias.</source>
+          <target state="translated">Эта команда устанавливает параметры AllScope и ReadOnly для псевдонима "dir".</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The command uses the Options dynamic parameter of the Set<ph id="ph1">\-</ph>Item cmdlet.</source>
+          <target state="translated">Команда использует динамический параметр Options набора<ph id="ph1">\-</ph>командлет.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The Options parameter is available in Set<ph id="ph1">\-</ph>Item only when you use it with the Alias or Function provider.</source>
+          <target state="translated">Параметр Options доступен в наборе<ph id="ph1">\-</ph>элемент только при использовании с поставщиком Alias или Function.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">ПРИМЕР 2</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This command uses the Set<ph id="ph1">\-</ph>Item cmdlet to change the "gp" alias so that it represents the Get<ph id="ph2">\-</ph>Process cmdlet instead of the Get<ph id="ph3">\-</ph>ItemProperty cmdlet.</source>
+          <target state="translated">Эта команда использует набор<ph id="ph1">\-</ph>командлет псевдоним изменение «групповой политики», чтобы они предоставляли Get<ph id="ph2">\-</ph>командлета Process вместо Get<ph id="ph3">\-</ph>командлет ItemProperty.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The Force parameter is required because the value of the Options property of the "gp" alias is set to ReadOnly.</source>
+          <target state="translated">Параметр Force является обязательным, поскольку для значения параметра Options псевдонима "gp" установлен режим ReadOnly.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Because the command is submitted from within the Alias: drive, the drive is not specified in the path.</source>
+          <target state="translated">Поскольку команда вводится из местоположения, которым является диск Alias:, то диск в пути не указывается.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The change affects the four properties that define the association between the alias and the command.</source>
+          <target state="translated">Это изменение затрагивает четыре свойства, которые определяют связь между псевдонимом и командой.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To view the effect of the change, type the following command:</source>
+          <target state="translated">Чтобы просмотреть результаты изменения, введите следующую команду:</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>get<ph id="ph1">\-</ph>item <ph id="ph2">\-</ph>path gp &amp;#124; format<ph id="ph3">\-</ph>list <ph id="ph4">\-</ph>property</source>
+          <target state="translated">получить<ph id="ph1">\-</ph>элемент <ph id="ph2">\-</ph>path gp &amp;#124; формат<ph id="ph3">\-</ph>списка <ph id="ph4">\-</ph>свойство</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">ПРИМЕР 3</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This command uses the Rename<ph id="ph1">\-</ph>Item cmdlet to change the "popd" alias to "pop".</source>
+          <target state="translated">Эта команда использует переименования<ph id="ph1">\-</ph>командлету элемента измените псевдоним «popd» на «pop».</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Copying an Alias</source>
+          <target state="translated">Копирование псевдонима</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">ПРИМЕР 1</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This command copies the pushd alias so that a new push alias is created for the Push<ph id="ph1">\-</ph>Location cmdlet.</source>
+          <target state="translated">Эта команда копирует pushd псевдоним для создания нового псевдонима push для принудительной отправки<ph id="ph1">\-</ph>командлета Location.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>When the new alias is created, its Description property has a null value.</source>
+          <target state="translated">При создании нового псевдонима его свойство Description имеет значение "Null".</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>And, its Option property has a value of None.</source>
+          <target state="translated">Его свойство Options имеет значение "None".</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If the command is issued from within the Alias: drive, you can omit the drive name from the value of the Path parameter.</source>
+          <target state="translated">Если команда вводится из местоположения, которым является диск Alias:, можно не указывать имя диска в значении параметра Path.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Deleting an Alias</source>
+          <target state="translated">Удаление псевдонима</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">ПРИМЕР 1</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This command deletes the serv alias from the current session.</source>
+          <target state="translated">Эта команда удаляет псевдоним "serv" из текущего сеанса.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>You can use this command in any Windows PowerShell drive.</source>
+          <target state="translated">Эту команду можно использовать с любого диска Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>If you are in the Alias: drive, you can omit the drive name from the path.</source>
+          <target state="translated">При этом имя диска в пути можно не указывать.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">ПРИМЕР 2</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This command deletes aliases that begin with "s".</source>
+          <target state="translated">Эта команда удаляет псевдонимы, начинающиеся со знака "s".</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>It does not delete read<ph id="ph1">\-</ph>only aliases.</source>
+          <target state="translated">Не удаляет чтения<ph id="ph1">\-</ph>только псевдонимы.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">ПРИМЕР 3</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This command deletes all aliases from the current session, except those with a value of Constant for their Options property.</source>
+          <target state="translated">Эта команда удаляет все псевдонимы из текущего сеанса, за исключением тех, которые содержат Constant в значении свойства Options.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Without the Force parameter, the command does not delete aliases whose Options property has a value of ReadOnly.</source>
+          <target state="translated">Если не задан параметр Force, команда не удаляет псевдонимы со значением ReadOnly свойства Options.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>DYNAMIC PARAMETERS</source>
+          <target state="translated">ДИНАМИЧЕСКИЕ ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Dynamic parameters are cmdlet parameters that are added by a Windows PowerShell provider and are available only when the cmdlet is being used in the provider<ph id="ph1">\-</ph>enabled drive.</source>
+          <target state="translated">Динамические параметры — это параметры командлета, добавленные поставщиком Windows PowerShell и доступны только в том случае, если командлет используется в поставщике<ph id="ph1">\-</ph>включен диска.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Options <ph id="ph1">\&lt;</ph>System.Management.Automation.ScopedItemOptions</source>
+          <target state="translated">Параметры <ph id="ph1">\&lt;</ph>System.Management.Automation.ScopedItemOptions</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Determines the value of the Options property of an alias.</source>
+          <target state="translated">Определяет значение свойства Options псевдонима.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">Значение</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Описание</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Нет</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>No options.</source>
+          <target state="translated">Без параметров.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This value is the default.</source>
+          <target state="translated">Это значение по умолчанию.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Constant</source>
+          <target state="translated">Constant</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The alias cannot be deleted and its properties cannot be changed.</source>
+          <target state="translated">Невозможно удалить псевдоним и изменить его свойства.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Constant is available only when you create an alias.</source>
+          <target state="translated">Значение "Constant" доступно только при создании псевдонима.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>You cannot change the option of an existing alias to Constant.</source>
+          <target state="translated">Невозможно присвоить значение "Constant" параметру существующего псевдонима.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Private</source>
+          <target state="translated">Private</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The alias is visible only in the current scope, not in the child scopes.</source>
+          <target state="translated">Псевдоним виден только в текущей области, но не в дочерних областях.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>ReadOnly</source>
+          <target state="translated">ReadOnly</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The properties of the alias cannot be changed except by using the Force parameter.</source>
+          <target state="translated">Свойства псевдонима изменить нельзя, если только не использовать параметр Force.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">[</bpt>Remove<ph id="ph1">\-</ph>Item &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///f98b4219-60df-408b-bdc8-994f920fc7bd)</ept> to delete the alias.</source>
+          <target state="translated">Можно использовать <bpt id="p1">[</bpt>Удалить<ph id="ph1">\-</ph>элемент &amp;#91; m2 &amp;#93;<ept id="p1">](assetId:///f98b4219-60df-408b-bdc8-994f920fc7bd)</ept> Удалить псевдоним.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>AllScope</source>
+          <target state="translated">AllScope</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The alias is copied to any new scopes that are created.</source>
+          <target state="translated">Псевдоним копируется во все новые создаваемые области.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">Поддержка командлетов:</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>New<ph id="ph1">\-</ph>Item &amp;#91;m2&amp;#93;</source>
+          <target state="translated">Новый<ph id="ph1">\-</ph>элемент &amp;#91; m2 &amp;#93;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Set<ph id="ph1">\-</ph>Item &amp;#91;m2&amp;#93;</source>
+          <target state="translated">Задайте<ph id="ph1">\-</ph>элемент &amp;#91; m2 &amp;#93;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">См. также</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Aliases &amp;#91;m2&amp;#93;</source>
+          <target state="translated">о<ph id="ph1">\_</ph>псевдонимы &amp;#91; m2 &amp;#93;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Providers</source>
+          <target state="translated">о<ph id="ph1">\_</ph>поставщиков</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

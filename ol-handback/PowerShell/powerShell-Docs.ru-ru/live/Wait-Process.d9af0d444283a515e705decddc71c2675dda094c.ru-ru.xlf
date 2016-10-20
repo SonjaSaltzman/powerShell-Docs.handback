@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7302e4a5f823496abbf8d284c85f6525c6567ad6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Management\Wait-Process.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c91a081669acc15150b0ad56d5226d114cd92309</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6568bbbe67a7c3e2576dc2611e3f538afa9f6b8f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Wait-Process</source>
+          <target state="translated">Wait-Process</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Wait-Process</source>
+          <target state="translated">Wait-Process</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Waits for the processes to be stopped before accepting more input.</source>
+          <target state="translated">Ожидает остановки процессов, прежде чем принимать дополнительный ввод.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Name (Default)</source>
+          <target state="translated">Имя (по умолчанию)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <target state="translated">Id</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>InputObject</source>
+          <target state="translated">InputObject</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Wait-Process cmdlet waits for one or more running processes to be stopped before accepting input.</source>
+          <target state="translated">Командлет Wait-Process ожидает остановки одного или нескольких процессов, прежде чем принимать ввод.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the Windows PowerShell console, this cmdlet suppresses the command prompt until the processes are stopped.</source>
+          <target state="translated">В консоли Windows PowerShell этот командлет отключает командую строку до остановки процесса.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can specify a process by process name or process ID (PID), or pipe a process object to Wait-Process.</source>
+          <target state="translated">Можно указать процесс по его имени или идентификатору (PID) или передать объект процесса в Wait-Process.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Wait-Process works only on processes running on the local computer.</source>
+          <target state="translated">Wait-Process работает только с процессами, запущенными на локальном компьютере.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- ПРИМЕР 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>These commands stop the Notepad process and then wait for the process to be stopped before proceeding with the next command.</source>
+          <target state="translated">Эти команды останавливают процесс Notepad и ожидают остановки процесса, прежде чем перейти к выполнению следующей команды.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-Process cmdlet to get the ID of the Notepad process.</source>
+          <target state="translated">Первая команда использует командлет Get-Process для получения идентификатора процесса Notepad.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It saves it in the $nid variable.</source>
+          <target state="translated">Он сохраняется в переменной $nid.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The second command uses the Stop-Process cmdlet to stop the process with the ID saved in $nid.</source>
+          <target state="translated">Вторая команда использует командлет Stop-Process для остановки процесса с идентификатором, сохраненным в $nid.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The third command uses the Wait-Process cmdlet to wait until the Notepad process is stopped.</source>
+          <target state="translated">Третья команда использует командлет Wait-Process для ожидания остановки процесса Notepad.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It uses the ID parameter of Wait-Process to identify the process.</source>
+          <target state="translated">Используется параметр ID командлет Wait-Process для определения процесса.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>These commands show three different methods of specifying a process to the Wait-Process cmdlet.</source>
+          <target state="translated">Эти команды представляют собой три разных способа указания процесса для командлета Wait-Process.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The first command gets the Notepad process and saves it in the $p variable.</source>
+          <target state="translated">Первая команда получает процесс Notepad и сохраняет его в переменной $p.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The second command uses the ID parameter, the third command uses the Name parameter, and the fourth command uses the InputObject parameter.</source>
+          <target state="translated">Вторая команда использует параметр ID, третья команда использует параметр Name, а четвертая — параметр InputObject.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>These commands have the same results and can be used interchangeably.</source>
+          <target state="translated">Эти команды приводят к одинаковому результату и могут быть взаимозаменяемыми.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command waits 30 seconds for the Outlook and Winword processes to stop.</source>
+          <target state="translated">Эта команда 30 секунд ожидает окончания процессов Outlook и Winword.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If both processes are not stopped, the cmdlet displays a non-terminating error and the command prompt.</source>
+          <target state="translated">Если оба процесса не остановлены, командлет отображает непрерывающую ошибку и командную строку.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specifies the process IDs of the processes.</source>
+          <target state="translated">Указывает идентификаторы процессов.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To specify multiple IDs, use commas to separate the IDs.</source>
+          <target state="translated">При указании нескольких идентификаторов разделяйте их запятыми.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To find the PID of a process, type "get-process".</source>
+          <target state="translated">Чтобы найти PID, введите "get-process".</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The parameter name ("Id") is optional.</source>
+          <target state="translated">Имя параметра (Id) является необязательным.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies the processes by submitting process objects.</source>
+          <target state="translated">Указывает процессы с помощью отправки объектов процессов.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the process objects, or type a command or expression that gets the process objects, such as a Get-Process command.</source>
+          <target state="translated">Введите переменную, содержащую объекты процессов, или введите команду или выражение, которые получают объекты процессов, например команду Get-Process.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Specifies the process names of the processes.</source>
+          <target state="translated">Указывает имя процессов.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To specify multiple names, use commas to separate the names.</source>
+          <target state="translated">При указании нескольких имен разделяйте их запятыми.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Wildcards are not supported.</source>
+          <target state="translated">Подстановочные знаки не поддерживаются.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-Timeout</source>
+          <target state="translated">-Время ожидания</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Determines the maximum time, in seconds, that Wait-Process waits for the specified processes to stop.</source>
+          <target state="translated">Определяет максимальное время в секундах, в течение которого Wait-Process ожидает остановки указанных процессов.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When this interval expires, the command displays a non-terminating error that lists the processes that are still running, and ends the wait.</source>
+          <target state="translated">По истечении указанного времени команда отображает не прерывающую ошибку со списком еще выполняющихся процессов и завершает ожидание.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>By default, there is no timeout.</source>
+          <target state="translated">По умолчанию время ожидания отсутствует.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>System.Diagnostics.Process</source>
+          <target state="translated">System.Diagnostics.Process</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can pipe a process object to Wait-Process.</source>
+          <target state="translated">Можно передать объект процесса в Wait-Process.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Нет</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not generate any output.</source>
+          <target state="translated">Этот командлет не формирует никаких выходных данных.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This cmdlet uses the WaitForExit method of the System.Diagnostics.Process class.</source>
+          <target state="translated">Этот командлет использует метод WaitForExit класса System.Diagnostics.Process.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For more information about this method, see the Microsoft .NET Framework SDK.</source>
+          <target state="translated">Дополнительные сведения об этом методе см. в пакете SDK для Microsoft .NET Framework.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Debug-Process</source>
+          <target state="translated">Debug-Process</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Get-Process</source>
+          <target state="translated">Get-Process</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Start-Process</source>
+          <target state="translated">Start-Process</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Stop-Process</source>
+          <target state="translated">Остановка процесса</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Wait-Process</source>
+          <target state="translated">Wait-Process</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

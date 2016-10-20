@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dba310710f010a48af2978935c94743beaabb0cd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Utility\Select-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">93c5675951d002b65720167e9dfad73dfac8ce92</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ddae2106b7934c2d58413c6bc9e489815a133a82</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Selects objects or object properties.</source>
+          <target state="translated">개체 또는 개체 속성을 선택합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DefaultParameter (Default)</source>
+          <target state="translated">DefaultParameter (기본값)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>IndexParameter</source>
+          <target state="translated">IndexParameter</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet selects specified properties of an object or set of objects.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> cmdlet는 개체의 지정 된 속성 또는 개체 집합을 선택 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It can also select unique objects, a specified number of objects, or objects in a specified position in an array.</source>
+          <target state="translated">또한 고유한 개체, 지정된 수의 개체 또는 배열에서 지정된 위치에 있는 개체를 선택할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To select objects from a collection, use the <bpt id="p1">**</bpt>First<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Last<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Unique<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Skip<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Index<ept id="p5">**</ept> parameters.</source>
+          <target state="translated">컬렉션에서 개체를 선택 하려면 사용 하 여는 <bpt id="p1">**</bpt>첫 번째<ept id="p1">**</ept>, <bpt id="p2">**</bpt>마지막<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Unique<ept id="p3">**</ept>, <bpt id="p4">**</bpt>건너뛰기<ept id="p4">**</ept>, 및 <bpt id="p5">**</bpt>인덱스<ept id="p5">**</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To select object properties, use the <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">개체 속성을 선택 하려면 사용 된 <bpt id="p1">**</bpt>속성<ept id="p1">**</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you select properties, Select-Object returns new objects that have only the specified properties.</source>
+          <target state="translated">속성을 선택하면 Select-Object는 지정된 속성만 갖는 새 개체를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, Select-Object includes an optimization feature that prevents commands from creating and processing objects that are not used.</source>
+          <target state="translated">Windows PowerShell 3.0부터는 명령이 사용되지 않는 개체를 만들거나 처리할 수 없도록 하는 최적화 기능이 Select-Object에 포함됩니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you include a <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> command with the <bpt id="p2">**</bpt>First<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Index<ept id="p3">**</ept> parameters in a command pipeline, Windows PowerShell stops the command that generates the objects as soon as the selected number of objects is generated, even when the command that generates the objects appears before the <bpt id="p4">**</bpt>Select-Object<ept id="p4">**</ept> command in the pipeline.</source>
+          <target state="translated">포함 하는 경우는 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 명령과 <bpt id="p2">**</bpt>첫 번째<ept id="p2">**</ept> 또는 <bpt id="p3">**</bpt>인덱스<ept id="p3">**</ept> 명령 파이프라인, Windows PowerShell에서 매개 변수 하기 전에 개체를 생성 하는 명령을 표시 하는 경우에 선택한 수의 개체가 생성 되는 즉시 개체를 생성 하는 명령을 중지는 <bpt id="p4">**</bpt>Select-object<ept id="p4">**</ept> 명령 파이프라인에 있습니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To turn off this optimizing behavior, use the <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">사용이 최적화 동작을 해제 하려면는 <bpt id="p1">**</bpt>대기<ept id="p1">**</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 예제 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This command creates objects that have the Name, ID, and working set (WS) properties of process objects.</source>
+          <target state="translated">이 명령은 프로세스 개체의 이름, ID 및 WS(작업 집합) 속성을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command gets information about the modules used by the processes on the computer.</source>
+          <target state="translated">이 명령은 컴퓨터의 프로세스에서 사용하는 모듈에 대한 정보를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It uses Get-Process cmdlet to get the process on the computer.</source>
+          <target state="translated">Get-process cmdlet를 사용 하 여 컴퓨터에서 프로세스를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet to create new objects with only the selected properties.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> cmdlet 선택한 속성의 새 개체를 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept> cmdlet to select the process names.</source>
+          <target state="translated">이 명령은 <bpt id="p1">**</bpt>속성<ept id="p1">**</ept> 의 매개 변수는 <bpt id="p2">**</bpt>Select-object<ept id="p2">**</ept> 프로세스 이름을 선택 하는 cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">**</bpt>Modules<ept id="p1">**</ept> property contains an <bpt id="p2">**</bpt>ModuleProcess<ept id="p2">**</ept> object that has many properties, the command uses the <bpt id="p3">**</bpt>ExpandProperty<ept id="p3">**</ept> parameter to get the properties of the objects in the <bpt id="p4">**</bpt>Modules<ept id="p4">**</ept> property of each process.</source>
+          <target state="translated">때문에 <bpt id="p1">**</bpt>모듈<ept id="p1">**</ept> 속성을 포함 한 <bpt id="p2">**</bpt>ModuleProcess<ept id="p2">**</ept> 명령 사용 하 여 여러 속성을 가진 개체를는 <bpt id="p3">**</bpt>ExpandProperty<ept id="p3">**</ept> 에 있는 개체의 속성을 가져오는 매개 변수는 <bpt id="p4">**</bpt>모듈<ept id="p4">**</ept> 각 프로세스의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The command uses the Format-List parameter to display the name and modules in of each process in a list.</source>
+          <target state="translated">이름 및 각 프로세스의 모듈 목록에 표시 하려면 Format-list 매개 변수를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command gets the five processes that are using the most memory.</source>
+          <target state="translated">이 명령은 가장 많은 메모리를 사용하는 다섯 개의 프로세스를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The Get-Process cmdlet gets the processes on the computer.</source>
+          <target state="translated">Get-process cmdlet는 컴퓨터에서 프로세스를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The Sort-Object cmdlet sorts the processes according to memory (working set) usage, and the Select-Object cmdlet selects only the last five members of the resulting array of objects.</source>
+          <target state="translated">Sort-object cmdlet 메모리 (작업 집합) 사용에 따라 프로세스를 정렬 하 고 Select-object cmdlet에는 개체의 배열의 마지막 다섯 개 멤버만 선택 합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter is not required in commands that include the <bpt id="p2">**</bpt>Sort-Object<ept id="p2">**</ept> cmdlet because <bpt id="p3">**</bpt>Sort-Object<ept id="p3">**</ept> processes all objects and then returns a collection.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>대기<ept id="p1">**</ept> 포함 하는 명령에 매개 변수가 필요 하지는 <bpt id="p2">**</bpt>Sort-object<ept id="p2">**</ept> cmdlet 때문에 <bpt id="p3">**</bpt>Sort-object<ept id="p3">**</ept> 모든 개체를 처리 하 고 다음 컬렉션을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> optimization is available only for commands that return objects individually as they are processed.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 최적화는 처리 하면서 개체를 개별적으로 반환 하는 명령에만 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This command gets the name and start day of the processes running on a computer.</source>
+          <target state="translated">이 명령은 컴퓨터에서 실행되는 프로세스의 이름과 시작 일을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Process cmdlet to get the processes on the computer.</source>
+          <target state="translated">이 명령은 Get-process cmdlet을 사용 하 여 컴퓨터의 프로세스를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It passes the processes to the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet, which creates objects that have only the <bpt id="p2">**</bpt>ProcessName<ept id="p2">**</ept> parameter and a calculated property named "Start Day."</source>
+          <target state="translated">프로세스를 전달 하기는 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 사용할 개체를 만듭니다 cmdlet는 <bpt id="p2">**</bpt>ProcessName<ept id="p2">**</ept> 매개 변수와 "Start Day." 라는 계산 된 속성</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The "Start Day" property is added by using a hash table with Name and Expression keys.</source>
+          <target state="translated">"Start Day" 속성은 Name과 Expression이라는 키가 있는 해시 테이블을 사용하여 추가됩니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The value of the Expression key is a script blocks that gets the StartTime property of each process and the DayofWeek property of the StartTime.</source>
+          <target state="translated">Expression 키의 값은 각 프로세스의 StartTime 속성과 StartTime의 DayofWeek 속성을 가져오는 스크립트 블록입니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This command uses the Unique parameter of Select-Object to get unique characters from an array of characters.</source>
+          <target state="translated">이 명령은 Select-Object의 Unique 매개 변수를 사용하여 문자 배열에서 고유 문자를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>These commands gets the first (newest) and last (oldest) events in the Windows Powershell event log.</source>
+          <target state="translated">이러한 명령은 Windows Powershell 이벤트 로그에서 첫 번째 최신 이벤트와 가장 오래된 마지막 이벤트를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-EventLog cmdlet to get all events in the Windows PowerShell log.</source>
+          <target state="translated">이 명령은 Get-eventlog cmdlet을 사용 하 여 Windows PowerShell 로그의 모든 이벤트를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>It saves them in the $a variable.</source>
+          <target state="translated">$a 변수에 저장합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The second command uses a pipeline operator (|) to send the events in $a to the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">두 번째 명령은 파이프라인 연산자 (|)를 사용 하 여 $에서은 이벤트를 전송 하는 하는 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> command uses the <bpt id="p2">**</bpt>Index<ept id="p2">**</ept> parameter to select events from the array of events in the $a variable.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 명령을 사용 하는 <bpt id="p2">**</bpt>인덱스<ept id="p2">**</ept> 매개 변수 $a 변수의 이벤트 배열에서 이벤트를 선택 합니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The index of the first event is 0.</source>
+          <target state="translated">첫 번째 이벤트의 인덱스는 0입니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The index of the last event is the number of items in $a minus 1.</source>
+          <target state="translated">마지막 이벤트의 인덱스는 $a의 항목 수에 1을 뺀 값입니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This command creates a new PSSession on each of the computers listed in the Servers.txt files, except for the first one.</source>
+          <target state="translated">이 명령은 Servers.txt 파일에 나열된 각 컴퓨터(첫 번째 컴퓨터는 제외)에 새 PSSession을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet to select all but the first computer in a list of computer names.</source>
+          <target state="translated">이 명령을 사용 하는 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> cmdlet을 모두 선택 하지만 첫 번째 컴퓨터 컴퓨터 이름 목록에 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The resulting list of computers is set as the value of the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter of the New-PSSession cmdlet.</source>
+          <target state="translated">결과 컴퓨터 목록은의 값으로 설정 되는 <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> New-pssession cmdlet의 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 8 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 8 --------------------------</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This command adds a "-ro" suffix to the base names of text files that have the read-only attribute and then displays the first five files so the user can see a sample of the effect.</source>
+          <target state="translated">이 명령은 읽기 전용 특성이 있는 텍스트 파일의 기본 이름에 "-ro" 접미사를 추가한 다음 처음 다섯 개 파일을 표시하여 사용자가 결과 샘플을 볼 수 있도록 합니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>ReadOnly<ept id="p1">**</ept> dynamic parameter of the Get-ChildItem for FileSystem cmdlet to get read-only files.</source>
+          <target state="translated">명령을 사용 하 여는 <bpt id="p1">**</bpt>ReadOnly<ept id="p1">**</ept> 동적 매개 변수는 Get-childitem의 파일 시스템 cmdlet에 대 한 읽기 전용 파일을 가져오도록 합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to send the files to the Rename-Item cmdlet, which renames the file.</source>
+          <target state="translated">파이프라인 연산자 (|) 파일을 Rename-item cmdlet으로 보내기 위해 파일 이름을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Rename-Item<ept id="p2">**</ept> to send the renamed files to the <bpt id="p3">**</bpt>Select-Object<ept id="p3">**</ept> cmdlet, which selects the first 5 for display.</source>
+          <target state="translated">사용 하 여는 <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> 의 매개 변수 <bpt id="p2">**</bpt>Rename-item<ept id="p2">**</ept> 로 이름이 바뀐된 파일을 보내려면는 <bpt id="p3">**</bpt>Select-object<ept id="p3">**</ept> cmdlet 디스플레이 대 한 첫 번째 5를 선택 합니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept> prevents Windows PowerShell from stopping the <bpt id="p3">**</bpt>Get-ChildItem<ept id="p3">**</ept> cmdlet after it gets the first five read-only text files.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>대기<ept id="p1">**</ept> 의 매개 변수 <bpt id="p2">**</bpt>Select-object<ept id="p2">**</ept> 중지에서 Windows PowerShell 방지는 <bpt id="p3">**</bpt>Get-childitem<ept id="p3">**</ept> 처음 다섯 개 읽기 전용 텍스트 파일을 가져온 후에 cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Without this parameter, only the first five read-only files would be renamed.</source>
+          <target state="translated">이 매개 변수를 사용하지 않으면 처음 다섯 개 읽기 전용 파일만 이름이 바뀝니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-ExcludeProperty</source>
+          <target state="translated">-ExcludeProperty</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Removes the specifies properties from the selection.</source>
+          <target state="translated">선택에서 특정 속성을 제거합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">와일드카드가 지원됩니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This parameter is effective only when the command also includes the <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">이 매개 변수는 명령에도 포함 되어 있는 경우에는 <bpt id="p1">**</bpt>속성<ept id="p1">**</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The value of the property parameter can be a calculated property, which is a hash table that specifies a name and calculates a value for the property display.</source>
+          <target state="translated">속성 매개 변수 값은 이름을 지정하고 속성 표시의 값을 계산하는 해시 테이블인 계산된 속성일 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Valid keys are:</source>
+          <target state="translated">유효한 키는 다음과 같습니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Name or Label <ph id="ph1">\&lt;</ph>string</source>
+          <target state="translated">이름 또는 레이블을 <ph id="ph1">\&lt;</ph>문자열</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Expression <ph id="ph1">\&lt;</ph>string<ph id="ph2">\&gt;</ph> or <ph id="ph3">\&lt;</ph>scriptblock</source>
+          <target state="translated">식 <ph id="ph1">\&lt;</ph>문자열<ph id="ph2">\&gt;</ph> 또는 <ph id="ph3">\&lt;</ph>scriptblock</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">자세한 내용은 예제를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-ExpandProperty</source>
+          <target state="translated">-ExpandProperty</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies a property to select, and indicates that an attempt should be made to expand that property.</source>
+          <target state="translated">선택할 속성을 지정하고 해당 속성을 확장하려고 시도해야 함을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted in the property name.</source>
+          <target state="translated">와일드카드는 속성 이름에서만 허용됩니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For example, if the specified property is an array, each value of the array is included in the output.</source>
+          <target state="translated">예를 들어 지정된 속성이 배열인 경우 배열의 각 값이 출력에 포함됩니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If the property contains an object, the properties of that object are displayed in the output.</source>
+          <target state="translated">속성에 개체가 포함된 경우 개체의 속성이 출력에 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-First</source>
+          <target state="translated">우선</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Specifies the number of objects to select from the beginning of an array of input objects.</source>
+          <target state="translated">입력 개체 배열의 시작에서 선택할 개체 수를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-Index</source>
+          <target state="translated">-인덱스</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Selects objects from an array based on their index values.</source>
+          <target state="translated">인덱스 값을 기준으로 배열에서 개체를 선택합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Enter the indexes in a comma-separated list.</source>
+          <target state="translated">인덱스를 쉼표로 구분된 목록으로 입력합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Indexes in an array begin with 0, where 0 represents the first value and (n-1) represents the last value.</source>
+          <target state="translated">배열의 인덱스는 0에서 시작하는데 여기서 0은 첫 번째 값을 나타내고 (n-1)은 마지막 값을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Specifies objects to send to the cmdlet through the pipeline.</source>
+          <target state="translated">파이프라인을 통해 cmdlet에 보낼 개체를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This parameter enables you to pipe objects to Select-Object.</source>
+          <target state="translated">이 매개 변수를 사용하면 개체를 Select-Object로 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When you use the InputObject parameter with Select-Object, instead of piping command results to Select-Object, the InputObject value-even if the value is a collection that is the result of a command, such as -InputObject (Get-Process)-is treated as a single object.</source>
+          <target state="translated">선택-개체와 함께 InputObject 매개 변수를 사용 하 여 파이핑 명령 결과를 Select-object 대신 때는 InputObject 값도 값이-InputObject (Get-process)와 같은 명령 결과인 컬렉션-단일 개체로 처리 됩니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Because InputObject cannot return individual properties from an array or collection of objects, it is recommended that if you use Select-Object to filter a collection of objects for those objects that have specific values in defined properties, you use Select-Object in the pipeline, as shown in the examples in this topic.</source>
+          <target state="translated">InputObject는 개체의 배열이나 컬렉션에서 개별 속성을 반환할 수 없으므로 Select-Object를 사용하여 개체 컬렉션에서 정의된 속성에 특정 값이 있는 개체를 필터링하려면 이 항목의 예제에 표시된 대로 파이프라인에서 Select-Object를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-Last</source>
+          <target state="translated">-마지막</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies the number of objects to select from the end of an array of input objects.</source>
+          <target state="translated">입력 개체 배열의 끝에서 선택할 개체 수를 지정합니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-Property</source>
+          <target state="translated">-속성</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Specifies the properties to select.</source>
+          <target state="translated">선택할 속성을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">와일드카드가 지원됩니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The value of the Property parameter can be a new calculated property.</source>
+          <target state="translated">Property 매개 변수 값은 새로 계산된 속성일 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To create a calculated, property, use a hash table.</source>
+          <target state="translated">계산된 속성을 만들려면 해시 테이블을 사용하세요.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Valid keys are:</source>
+          <target state="translated">유효한 키는 다음과 같습니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Name (or Label) <ph id="ph1">\&lt;</ph>string</source>
+          <target state="translated">이름 (또는 레이블) <ph id="ph1">\&lt;</ph>문자열</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Expression <ph id="ph1">\&lt;</ph>string<ph id="ph2">\&gt;</ph> or <ph id="ph3">\&lt;</ph>script block</source>
+          <target state="translated">식 <ph id="ph1">\&lt;</ph>문자열<ph id="ph2">\&gt;</ph> 또는 <ph id="ph3">\&lt;</ph>스크립트 블록</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-Skip</source>
+          <target state="translated">-건너뛰기</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Skips (does not select) the specified number of items.</source>
+          <target state="translated">지정된 개수의 항목을 선택하지 않고 건너뜁니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>By default, the Skip parameter counts from the beginning of the array or list of objects, but if the command uses the Last parameter, it counts from the end of the list or array.</source>
+          <target state="translated">Skip 매개 변수는 기본적으로 개체 목록 또는 배열의 처음부터 세기 시작하지만 명령에 Last 매개 변수가 사용된 경우 목록 또는 배열의 끝부터 세기 시작합니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Unlike the <bpt id="p1">**</bpt>Index<ept id="p1">**</ept> parameter, which starts counting at 0, the <bpt id="p2">**</bpt>Skip<ept id="p2">**</ept> parameter begins at 1.</source>
+          <target state="translated">와 달리는 <bpt id="p1">**</bpt>인덱스<ept id="p1">**</ept> 매개 변수를 0에서 계산을 시작 하는 <bpt id="p2">**</bpt>건너뛰기<ept id="p2">**</ept> 매개 변수는 1에서 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-Unique</source>
+          <target state="translated">고유</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Specifies that if a subset of the input objects has identical properties and values, only a single member of the subset will be selected.</source>
+          <target state="translated">입력 개체의 하위 집합 속성과 값이 동일한 경우 하위 집합의 멤버 하나만 선택되도록 지정합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This parameter is case-sensitive.</source>
+          <target state="translated">이 매개 변수는 대/소문자를 구분합니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>As a result, strings that differ only in character casing are considered to be unique.</source>
+          <target state="translated">따라서 문자의 대/소문자만 다른 문자열은 고유한 것으로 간주합니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-Wait</source>
+          <target state="translated">-Wait</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Turns off optimization.</source>
+          <target state="translated">최적화를 끕니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell runs commands in the order that they appear in the command pipeline and lets them generate all objects.</source>
+          <target state="translated">Windows PowerShell은 명령 파이프라인에 나타나는 순서대로 명령을 실행하고 모든 개체를 생성하도록 합니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>By default, if you include a <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> command with the <bpt id="p2">**</bpt>First<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Index<ept id="p3">**</ept> parameters in a command pipeline, Windows PowerShell stops the command that generates the objects as soon as the selected number of objects is generated.</source>
+          <target state="translated">기본적으로 포함 하는 경우는 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 명령과 <bpt id="p2">**</bpt>첫 번째<ept id="p2">**</ept> 또는 <bpt id="p3">**</bpt>인덱스<ept id="p3">**</ept> 명령 파이프라인에 대 한 매개 변수를 Windows PowerShell 선택한 수의 개체가 생성 되는 즉시 개체를 생성 하는 명령을 중지 합니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You can pipe any object to Select-Object.</source>
+          <target state="translated">임의의 개체를 Select-Object로 파이프할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You can also refer to the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet by its built-in alias, "select".</source>
+          <target state="translated">참조할 수 있습니다는 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> cmdlet에서 기본 제공 별칭인 "select"입니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">자세한 내용은 about_Aliases를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The optimization feature of <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> is available only for commands that write objects to the pipeline as they are processed.</source>
+          <target state="translated">최적화 기능은 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> 처리 하면서 개체를 파이프라인으로 작성 하는 명령에만 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>It has no effect on commands that buffer processed objects and write them as a collection.</source>
+          <target state="translated">처리된 개체를 버퍼링하고 컬렉션으로 작성하는 명령에는 적용되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Writing objects immediately is a cmdlet design best practice.</source>
+          <target state="translated">개체를 즉시 기록하는 것이 cmdlet 설계 모범 사례입니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For more information, see "Write Single Records to the Pipeline" in "Strongly Encouraged Development Guidelines" at http://go.microsoft.com/fwlink/?LinkId=223385http://go.microsoft.com/fwlink/?LinkId=223385</source>
+          <target state="translated">자세한 내용은 http://go.microsoft.com/fwlink/?LinkId=223385http://go.microsoft.com/fwlink/?LinkId=223385에서 "쓰기 단일 레코드 파이프라인에" 강력 하 게 권장 개발 지침 "에서 참조</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Group-Object</source>
+          <target state="translated">Group-Object</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Sort-Object</source>
+          <target state="translated">Sort-Object</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Where-Object</source>
+          <target state="translated">Where-Object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

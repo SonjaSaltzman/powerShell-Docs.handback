@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3477e1c213de5436e48d4a0ac4790675f11a2d5a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Utility\Add-Type.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ffcff4b17d50fd06b8fc92524b33b41f681634a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">19a9847c5552b076d1bbec6a9620b9f687c78dc1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Add-Type</source>
+          <target state="translated">Добавление типа</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Add-Type</source>
+          <target state="translated">Добавление типа</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Adds a Microsoft .NET Framework type (a class) to a Windows PowerShell session.</source>
+          <target state="translated">Добавляет тип Microsoft .NET Framework (класс) в сеанс Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>FromSource (Default)</source>
+          <target state="translated">FromSource (по умолчанию)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>FromMember</source>
+          <target state="translated">FromMember</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>FromPath</source>
+          <target state="translated">FromPath</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>FromLiteralPath</source>
+          <target state="translated">FromLiteralPath</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>FromAssemblyName</source>
+          <target state="translated">FromAssemblyName</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet lets you define a .NET Framework class in your Windows PowerShell session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> позволяет определить класс .NET Framework в сеансе Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can then instantiate objects (by using the New-Object cmdlet) and use the objects, just as you would use any .NET Framework object.</source>
+          <target state="translated">Затем можно создавать экземпляры объектов (с помощью командлета New-Object) и использовать объекты, так же, как любой объект .NET Framework.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you add an <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> command to your Windows PowerShell profile, the class is available in all Windows PowerShell sessions.</source>
+          <target state="translated">При добавлении <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> команду в профиль Windows PowerShell класс доступен во всех сеансах Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can specify the type by specifying an existing assembly or source code files, or you can specify the source code inline or saved in a variable.</source>
+          <target state="translated">Тип можно указать, указав существующую сборку или файлы исходного кода. Кроме того, можно указать встроенный или сохраненный в переменной исходный код.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can even specify only a method and <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> will define and generate the class.</source>
+          <target state="translated">Можно даже указать только метод и <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> определит и создаст класс.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can use this feature to make Platform Invoke (P/Invoke) calls to unmanaged functions in Windows PowerShell.</source>
+          <target state="translated">Этот компонент можно использовать для выполнения вызовов неуправляемого кода (P/Invoke) неуправляемых функций в Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you specify source code, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> compiles the specified source code and generates an in-memory assembly that contains the new .NET Framework types.</source>
+          <target state="translated">Если указать исходный код, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> компилирует указанный исходный код и создает сборку в памяти, типы .NET Framework.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can use the parameters of <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> to specify an alternate language and compiler (CSharp is the default), compiler options, assembly dependencies, the class namespace, the names of the type, and the resulting assembly.</source>
+          <target state="translated">Можно использовать параметры <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> Чтобы указать дополнительный язык и компилятор (по умолчанию — c#), параметры компилятора, зависимости сборки, пространства имен класса, имена типов и получившуюся сборку.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- ПРИМЕР 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>These commands add the BasicTest class to the session by specifying source code that is stored in a variable.</source>
+          <target state="translated">Эти команды добавляют класс BasicTest class в сеанс путем указания исходного кода, который хранится в переменной.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The type has a static method called Add and a non-static method called Multiply.</source>
+          <target state="translated">Тип имеет статический метод Add и нестатический метод Multiply.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The first command stores the source code for the class in the $source variable.</source>
+          <target state="translated">Первая команда сохраняет исходный код для класса в переменной $source.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the class to the session.</source>
+          <target state="translated">Вторая команда использует <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> чтобы добавить класс в сеанс.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Because it is using inline source code, the command uses the <bpt id="p1">**</bpt>TypeDefinition<ept id="p1">**</ept> parameter to specify the code in the $source variable.</source>
+          <target state="translated">Поскольку используется встроенный код, команда использует <bpt id="p1">**</bpt>TypeDefinition<ept id="p1">**</ept> можно указать в коде в переменной $source.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The remaining commands use the new class.</source>
+          <target state="translated">Остальные команды используют новый класс.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The third command calls the Add static method of the BasicTest class.</source>
+          <target state="translated">Третья команда вызывает статический метод Add класса BasicTest.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>It uses the double-colon characters (::) to specify a static member of the class.</source>
+          <target state="translated">Для указания статического члена класса используются два двоеточия (::).</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept> cmdlet to instantiate an instance of the BasicTest class.</source>
+          <target state="translated">Четвертая команда использует <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept> для создания экземпляра класса BasicTest.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It saves the new object in the $basicTestObject variable.</source>
+          <target state="translated">Она сохраняет новый объект в переменной $basicTestObject.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the Multiply method of $basicTestObject.</source>
+          <target state="translated">Пятая команда использует метод Multiply переменной $basicTestObject.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These commands use the Get-Member cmdlet to examine the objects that the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> and New-Object cmdlets created in the previous example.</source>
+          <target state="translated">Эти команды используют командлет Get-Member для проверки объектов, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> и командлеты New-Object, созданный в предыдущем примере.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet to get the type and members of the BasicTest class that <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> added to the session.</source>
+          <target state="translated">Первая команда использует <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> для получения типа и членов класса BasicTest класс, который <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> добавлен к сеансу.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> command reveals that it is a <bpt id="p2">**</bpt>System.RuntimeType<ept id="p2">**</ept> object, which is derived from the System.Object class.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> показывает, что это <bpt id="p2">**</bpt>System.RuntimeType<ept id="p2">**</ept> объекта, который является производным от класса System.Object.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Static<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept> cmdlet to get the static properties and methods of the BasicTest class.</source>
+          <target state="translated">Вторая команда использует <bpt id="p1">**</bpt>статических<ept id="p1">**</ept> параметр <bpt id="p2">**</bpt>Get-Member<ept id="p2">**</ept> для получения статических свойств и методов класса BasicTest.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The output shows that the Add method is included.</source>
+          <target state="translated">Выходные данные показывают, что метод Add включен.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet to get the members of the object stored in the $BasicTestObject variable.</source>
+          <target state="translated">Третья команда использует <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> для получения членов объекта, хранимый в переменной $BasicTestObject.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This was the object instance that was created by using the <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept> cmdlet with the $BasicType class.</source>
+          <target state="translated">Это был экземпляр объекта, который был создан с помощью <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept> командлет с классом $BasicType.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The output reveals that the value of the $BasicTestObject variable is an instance of the BasicTest class and that it includes a member called Multiply.</source>
+          <target state="translated">Выходные данные показывают, что значение переменной $BasicTestObject является экземпляром класса BasicTest и включает член с именем Multiply.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This command adds the classes from the Accessibility assembly to the current session.</source>
+          <target state="translated">Эта команда добавляет классы из сборки специальных возможностей в текущий сеанс.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> parameter to specify the name of the assembly.</source>
+          <target state="translated">Команда использует <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> параметр для указания имени сборки.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The wildcard character allows you to get the correct assembly even when you are not sure of the name or its spelling.</source>
+          <target state="translated">Подстановочный знак позволяет получить правильную сборку даже в том случае, если вы не уверены в правильности имени или его написании.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to generate objects that represent the classes that are added to the session, and it saves the objects in the $accType variable.</source>
+          <target state="translated">Команда использует <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> параметр для создания объектов, которые представляют классы, которые добавляются в сеанс, и она сохраняет объекты в переменной $accType.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This example uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the VBFromFile class that is defined in the Hello.vb file to the current session.</source>
+          <target state="translated">В этом примере используется <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> для добавления класса VBFromFile, который определен в файле Hello.vb в текущий сеанс.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The text of the Hello.vb file is shown in the command output.</source>
+          <target state="translated">Текст файла Hello.vb отображается в выходных данных команды.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the type defined in the Hello.vb file to the current session.</source>
+          <target state="translated">Первая команда использует <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> чтобы добавить тип, определенный в файле Hello.vb в текущий сеанс.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter to specify the source file.</source>
+          <target state="translated">Команда использует <bpt id="p1">**</bpt>путь<ept id="p1">**</ept> для указания исходного файла.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The second command calls the SayHello function as a static method of the VBFromFile class.</source>
+          <target state="translated">Вторая команда вызывает функцию SayHello как статический метод класса VBFromFile.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The commands in this example demonstrate how to call native Windows APIs in Windows PowerShell.</source>
+          <target state="translated">Команды в этом примере демонстрируют вызов встроенных API Windows в Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> uses the Platform Invoke (P/Invoke) mechanism to call a function in User32.dll from Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Добавление типа<ept id="p1">**</ept> использует механизм неуправляемого кода (P/Invoke) для вызова функции в библиотеке User32.dll из Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The first command stores the C# signature of the <bpt id="p1">**</bpt>ShowWindowAsync<ept id="p1">**</ept> function in the $signature variable.</source>
+          <target state="translated">Первая команда сохраняет подпись из <bpt id="p1">**</bpt>ShowWindowAsync<ept id="p1">**</ept> функции в переменной $signature.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>(For more information, see "ShowWindowAsync Function" in the MSDN library at http://go.microsoft.com/fwlink/?LinkId=143643.) To ensure that the resulting method will be visible in a Windows PowerShell session, the "public" keyword has been added to the standard signature.</source>
+          <target state="translated">(Дополнительные сведения см. в статье "Функция ShowWindowAsync" в библиотеке MSDN по адресу http://go.microsoft.com/fwlink/?LinkId=143643.) Чтобы гарантировать, что получившийся метод будет отображаться в сеансе Windows PowerShell, ключевое слово public будет добавлено в стандартную подпись.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add the ShowWindowAsync function to the Windows PowerShell session as a static method of a class that <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> creates.</source>
+          <target state="translated">Вторая команда использует <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> чтобы добавить функцию ShowWindowAsync в сеанс Windows PowerShell как статический метод класса, <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> создает.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> parameter to specify the method definition saved in the $signature variable.</source>
+          <target state="translated">Команда использует <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> можно указать определение метода, сохраненное в переменной $signature.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Namespace<ept id="p2">**</ept> parameters to specify a name and namespace for the class.</source>
+          <target state="translated">Команда использует <bpt id="p1">**</bpt>имя<ept id="p1">**</ept> и <bpt id="p2">**</bpt>имен<ept id="p2">**</ept> Параметры, чтобы указать имя и пространство имен для класса.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to generate an object that represents the types, and it saves the object in the $showWindowAsync variable.</source>
+          <target state="translated">Он использует <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> параметр, чтобы создать объект, представляющий типы и сохраняет объект в переменной $showWindowAsync.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The third and fourth commands use the new ShowWindowAsync static method.</source>
+          <target state="translated">Третья и четвертая команды используют новый статический метод ShowWindowAsync.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The method takes two parameters, the window handle, and an integer specifies how the window is to be shown.</source>
+          <target state="translated">Метод принимает два параметра: дескриптор окна и целое число, указывающее, как окно будет отображаться.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The third command calls ShowWindowAsync.</source>
+          <target state="translated">Третья команда вызывает метод ShowWindowAsync.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>It uses the Get-Process cmdlet with the $pid automatic variable to get the process that is hosting the current Windows PowerShell session.</source>
+          <target state="translated">Она использует командлет Get-Process с автоматической переменной $pid для получения процесса, на котором размещается текущий сеанс Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Then it uses the <bpt id="p1">**</bpt>MainWindowHandle<ept id="p1">**</ept> property of the current process and a value of "2", which represents the SW_MINIMIZE value.</source>
+          <target state="translated">Затем он использует <bpt id="p1">**</bpt>MainWindowHandle<ept id="p1">**</ept> свойства текущего процесса и значение «2», которое представляет значение SW_MINIMIZE.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To restore the window, the fourth command use a value of "4" for the window position, which represents the SW_RESTORE value.</source>
+          <target state="translated">Чтобы восстановить окно, четвертая команда использует значение "4" в качестве значения положения окна, которое представляет значение SW_RESTORE.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>(SW_MAXIMIZE is 3.)</source>
+          <target state="translated">(SW_MAXIMIZE имеет значение 3.)</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add a method from inline JScript code to the Windows PowerShell session.</source>
+          <target state="translated">Эта команда использует <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> чтобы добавить метод из встроенного кода JScript в сеанс Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> parameter to submit source code stored in the $jsMethod variable.</source>
+          <target state="translated">Он использует <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> параметр для отправки исходного кода, хранящийся в переменной $jsMethod.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a name for the class that <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> creates for the method and the <bpt id="p3">**</bpt>Language<ept id="p3">**</ept> parameter to specify the JScript language.</source>
+          <target state="translated">Он использует <bpt id="p1">**</bpt>имя<ept id="p1">**</ept> можно указать имя для класса, <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> для метода и <bpt id="p3">**</bpt>языка<ept id="p3">**</ept> можно указать язык JScript.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to add an FSharp code compiler to your Windows PowerShell session.</source>
+          <target state="translated">В этом примере показано, как использовать <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> для добавления компилятора кода FSharp в сеанс Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To run this example in Windows PowerShell, you must have the FSharp.Compiler.CodeDom.dll that is installed with the FSharp language.</source>
+          <target state="translated">Чтобы выполнить этот пример в Windows PowerShell, требуется библиотека FSharp.Compiler.CodeDom.dll, которая устанавливается с языком FSharp.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The first command in the example uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet with the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> parameter to specify an assembly.</source>
+          <target state="translated">В примере первая команда использует <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> командлет с <bpt id="p2">**</bpt>путь<ept id="p2">**</ept> для указания сборки.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> gets the types in the assembly.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Добавление типа<ept id="p1">**</ept> возвращает типы в сборке.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-Object cmdlet to create an instance of the FSharp code provider and saves the result in the $Provider variable.</source>
+          <target state="translated">Вторая команда использует командлет New-Object для создания экземпляра поставщика кода FSharp и сохраняет результат в переменной $Provider.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The third command saves the FSharp code that defines the Loop method in the $FSharpCode variable.</source>
+          <target state="translated">Третья команда сохраняет код FSharp, который определяет метод цикла в переменной $FSharpCode.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet to save the public types defined in $fSharpCode in the $fSharpType variable.</source>
+          <target state="translated">Четвертая команда использует <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> командлет, чтобы сохранить открытые типы, определенные в $fSharpCode в переменной $fSharpType.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>TypeDefinition<ept id="p1">**</ept> parameter specifies the source code that defines the types.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>TypeDefinition<ept id="p1">**</ept> параметр указывает исходный код, который определяет типы.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> parameter specifies the source code compiler.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> параметр указывает компилятор исходного кода.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter directs <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> to return a <bpt id="p3">**</bpt>Runtime<ept id="p3">**</ept> object that represents the types and a pipeline operator (|) sends the <bpt id="p4">**</bpt>Runtime<ept id="p4">**</ept> object to the Where-Object cmdlet, which returns only the public types.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> параметр направляет <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> для возврата <bpt id="p3">**</bpt>среды выполнения<ept id="p3">**</ept> объект, представляющий типы и оператора конвейера (|) отправляет <bpt id="p4">**</bpt>выполнения<ept id="p4">**</ept> объект командлету Where-Object, который возвращает только открытые типы.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept> cmdlet is used because the FSharp provider generates non-public types to support the resulting public type.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept> командлет используется, так как поставщик FSharp создает неоткрытые типы для поддержки получившегося открытого типа.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The fifth command calls the Loop method as a static method of the type stored in the $fSharpType variable.</source>
+          <target state="translated">Пятая команда вызывает метод цикла как статический метод типа, хранящегося в переменной $fSharpType.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>-AssemblyName</source>
+          <target state="translated">-AssemblyName</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Specifies the name of an assembly that includes the types.</source>
+          <target state="translated">Задает имя сборки, включающей типы.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> takes the types from the specified assembly.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Добавление типа<ept id="p1">**</ept> принимает типы из указанной сборки.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This parameter is required when you are creating types based on an assembly name.</source>
+          <target state="translated">Этот параметр обязателен при создании типов на основе имени сборки.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Enter the full or simple name (also known as the "partial name") of an assembly.</source>
+          <target state="translated">Введите полное или простое имя (также называемое "частичным именем") сборки.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted in the assembly name.</source>
+          <target state="translated">В именах сборок можно использовать подстановочные знаки.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If you enter a simple or partial name, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> resolves it to the full name, and then uses the full name to load the assembly.</source>
+          <target state="translated">Если ввести простое или частичное имя <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> разрешает его полное имя, а затем использует полное имя для загрузки сборки.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This parameter does not accept a path or file name.</source>
+          <target state="translated">Этот параметр не принимает путь или имя файла.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To enter the path to the assembly dynamic-link library (DLL) file, use the Path parameter.</source>
+          <target state="translated">Чтобы ввести путь к DLL-файлу, используйте параметр "Путь".</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-CodeDomProvider</source>
+          <target state="translated">-CodeDomProvider</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Specifies a code generator or compiler.</source>
+          <target state="translated">Указывает генератор кода или компилятор.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> uses the specified compiler to compile the source code.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Добавление типа<ept id="p1">**</ept> использует указанный компилятор для компиляции исходного кода.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The default is the CSharp compiler.</source>
+          <target state="translated">Компилятор по умолчанию — CSharp.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Use this parameter if you are using a language that cannot be specified by using the Language parameter.</source>
+          <target state="translated">Используйте этот параметр, если используется язык, который нельзя указать с помощью параметра Language.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The CodeDomProvider that you specify must be able to generate assemblies from source code.</source>
+          <target state="translated">Указанный поставщик CodeDomProvider должен быть способен создавать сборки из исходного кода.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-CompilerParameters</source>
+          <target state="translated">-CompilerParameters</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Specifies the options for the source code compiler.</source>
+          <target state="translated">Указывает параметры для компилятора исходного кода.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>These options are sent to the compiler without revision.</source>
+          <target state="translated">Эти параметры отправляются в компилятор без проверки.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This parameter allows you to direct the compiler to generate an executable file, embed resources, or set command-line options, such as the "/unsafe" option.</source>
+          <target state="translated">Этот параметр позволяет давать компилятору указание создать исполняемый файл, встроить ресурсы или задать параметры командной строки, такие как параметр /unsafe.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This parameter implements the <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> class (System.CodeDom.Compiler.CompilerParameters).</source>
+          <target state="translated">Этот параметр реализует <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> класса (System.CodeDom.Compiler.CompilerParameters).</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ReferencedAssemblies<ept id="p2">**</ept> parameters in the same command.</source>
+          <target state="translated">Нельзя использовать <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> и <bpt id="p2">**</bpt>ReferencedAssemblies<ept id="p2">**</ept> параметров в одной команде.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-IgnoreWarnings</source>
+          <target state="translated">-IgnoreWarnings</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Ignores compiler warnings.</source>
+          <target state="translated">Игнорирует предупреждения компилятора.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Use this parameter to prevent <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> from handling compiler warnings as errors.</source>
+          <target state="translated">Используйте этот параметр, чтобы предотвратить <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> Обрабатывать предупреждения компилятора как ошибки.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>-Language</source>
+          <target state="translated">-Язык</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Specifies the language that is used in the source code.</source>
+          <target state="translated">Задает язык, который используется в исходном коде.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> cmdlet uses the value of this parameter to select the appropriate CodeDomProvider.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> командлет использует значение этого параметра для выбора подходящего поставщика CodeDomProvider.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Valid values are "CSharp", "CSharpVersion3", "VisualBasic", and "JScript".</source>
+          <target state="translated">Допустимые параметры следующие: CSharp, CSharpVersion3, VisualBasic и JScript.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>"CSharp" is the default value.</source>
+          <target state="translated">Значение по умолчанию: CSharp.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Specifies the path to source code files or assembly DLL files that contain the types.</source>
+          <target state="translated">Задает путь к файлу исходного кода или DLL-файлам сборки, содержащей типы.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">**</bpt>Path<ept id="p1">**</ept>, the value of the <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">В отличие от <bpt id="p1">**</bpt>путь<ept id="p1">**</ept>, значение <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> параметр используется точно так, как оно указано.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">Никакие символы не интерпретируются как знаки подстановки.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">Если путь содержит escape-символы, заключите его в одинарные кавычки.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">Это позволит Windows PowerShell не интерпретировать какие-либо символы как символы Escape-последовательности.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-MemberDefinition</source>
+          <target state="translated">-MemberDefinition</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Specifies new properties or methods for the class.</source>
+          <target state="translated">Указывает новые свойства или методы для класса.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> generates the template code that is required to support the properties or methods.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Добавление типа<ept id="p1">**</ept> создает код шаблона, который требуется для поддержки свойств или методов.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>You can use this feature to make Platform Invoke (P/Invoke) calls to unmanaged functions in Windows PowerShell.</source>
+          <target state="translated">Этот компонент можно использовать для выполнения вызовов неуправляемого кода (P/Invoke) неуправляемых функций в Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">Дополнительные сведения см. в примерах.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the class to create.</source>
+          <target state="translated">Задает имя создаваемого класса.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This parameter is required when generating a type from a member definition.</source>
+          <target state="translated">Этот параметр является обязательным при создании типа из определения члена.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The type name and namespace must be unique within a session.</source>
+          <target state="translated">Имя типа и пространство имен должны быть уникальными в пределах сеанса.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>You cannot unload a type or change it.</source>
+          <target state="translated">Нельзя выгрузить тип или изменить его.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If you need to change the code for a type, you must change the name or start a new Windows PowerShell session.</source>
+          <target state="translated">Если требуется изменить код для типа, необходимо изменить имя или запустить новый сеанс Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Otherwise, the command fails.</source>
+          <target state="translated">В противном случае произойдет сбой команды.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>-Namespace</source>
+          <target state="translated">-Пространство имен</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Specifies a namespace for the type.</source>
+          <target state="translated">Задает пространство имен для типа.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If this parameter is not included in the command, the type is created in the <bpt id="p1">**</bpt>Microsoft.PowerShell.Commands.AddType.AutoGeneratedTypes<ept id="p1">**</ept> namespace.</source>
+          <target state="translated">Если этот параметр не включен в команду, тип создается в <bpt id="p1">**</bpt>Microsoft.PowerShell.Commands.AddType.AutoGeneratedTypes<ept id="p1">**</ept> пространства имен.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>If the parameter is included in the command with an empty string value or a value of $null, the type is generated in the global namespace.</source>
+          <target state="translated">Если параметр включен в команду с пустым строковым значением или значением $null, тип создается в глобальном пространстве имен.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>-OutputAssembly</source>
+          <target state="translated">-OutputAssembly</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Generates a DLL file for the assembly with the specified name in the location.</source>
+          <target state="translated">Создает DLL-файл для сборки с заданным именем в расположении.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Enter a path (optional) and file name.</source>
+          <target state="translated">Введите имя файла и путь (дополнительно).</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">Можно использовать подстановочные знаки.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> generates the assembly only in memory.</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> создает сборку только в памяти.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>-OutputType</source>
+          <target state="translated">-OutputType</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Specifies the output type of the output assembly.</source>
+          <target state="translated">Указывает тип вывода выходной сборки.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>Library<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ConsoleApplication<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>WindowsApplication<ept id="p3">**</ept>.</source>
+          <target state="translated">Допустимые значения: <bpt id="p1">**</bpt>библиотеки<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Приложенииконсоли<ept id="p2">**</ept>, и <bpt id="p3">**</bpt>WindowsApplication<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For more information about the values, see "OutputAssemblyType Enumeration" in MSDN.</source>
+          <target state="translated">Дополнительные сведения о значениях см. в статье "Перечисление OutputAssemblyType" библиотеки MSDN.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>By default, no output type is specified.</source>
+          <target state="translated">По умолчанию тип вывода не указывается.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when an output assembly is specified in the command.</source>
+          <target state="translated">Этот параметр допустим только в том случае, если в команде указана выходная сборка.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">**</bpt>System.Runtime<ept id="p1">**</ept> object that represents the types that were added.</source>
+          <target state="translated">Возвращает <bpt id="p1">**</bpt>System.Runtime<ept id="p1">**</ept> представляющий типы, которые были добавлены.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">По умолчанию этот командлет не создает выходные данные.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Specifies the path to source code files or assembly DLL files that contain the types.</source>
+          <target state="translated">Задает путь к файлу исходного кода или DLL-файлам сборки, содержащей типы.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>If you submit source code files, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> compiles the code in the files and creates an in-memory assembly of the types.</source>
+          <target state="translated">При отправке файлов исходного кода <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> компилирует код в файлах и создает сборку в памяти типов.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The file name extension specified in the value of Path determines the compiler that <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> uses.</source>
+          <target state="translated">Компилятор определяет расширение имени файла, указанного в значении пути, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> использует.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>If you submit an assembly file, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> takes the types from the assembly.</source>
+          <target state="translated">При отправке файла сборки <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> принимает типы из сборки.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>To specify an in-memory assembly or the global assembly cache, use the <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Чтобы указать сборку в памяти или в глобальный кэш сборок, используйте <bpt id="p1">**</bpt>AssemblyName<ept id="p1">**</ept> параметр.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>-ReferencedAssemblies</source>
+          <target state="translated">-ReferencedAssemblies</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Specifies the assemblies upon which the type depends.</source>
+          <target state="translated">Указывает сборки, от которых зависит тип.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> references System.dll and System.Management.Automation.dll.</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> ссылается на System.dll и System.Management.Automation.dll.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The assemblies that you specify by using this parameter are referenced in addition to the default assemblies.</source>
+          <target state="translated">Ссылки на сборки, указываемые этим параметром, создаются в дополнение к сборкам по умолчанию.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ReferencedAssemblies<ept id="p2">**</ept> parameters in the same command.</source>
+          <target state="translated">Нельзя использовать <bpt id="p1">**</bpt>CompilerParameters<ept id="p1">**</ept> и <bpt id="p2">**</bpt>ReferencedAssemblies<ept id="p2">**</ept> параметров в одной команде.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>-TypeDefinition</source>
+          <target state="translated">-TypeDefinition</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Specifies the source code that contains the type definitions.</source>
+          <target state="translated">Указывает исходный код, содержащий определения типов.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Enter the source code in a string or here-string, or enter a variable that contains the source code.</source>
+          <target state="translated">Введите исходный код в строку или автономную строку либо введите переменную, которая содержит исходный код.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>For more information about here-strings, see about_Quoting_Rules (http://go.microsoft.com/fwlink/?LinkID=113253).</source>
+          <target state="translated">Дополнительные сведения о here-strings см. в разделе about_Quoting_Rules (http://go.microsoft.com/fwlink/?LinkID=113253).</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Include a namespace declaration in your type definition.</source>
+          <target state="translated">Включите объявление пространства имен в определение типа.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>If you omit the namespace declaration, your type might have the same name as another type or the shortcut for another type, causing an unintentional overwrite.</source>
+          <target state="translated">Если опустить объявление пространства имен, имя типа может совпасть с именем или ярлыком другого типа, вызывая непреднамеренную перезапись.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For example, if you define a type called "Exception", scripts that use "Exception" as the shortcut for <bpt id="p1">**</bpt>System.Exception<ept id="p1">**</ept> will fail.</source>
+          <target state="translated">Например, если определить тип с именем «Исключение», сценарии, использующие «Исключение» как ярлык для <bpt id="p1">**</bpt>System.Exception<ept id="p1">**</ept> завершится ошибкой.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>-UsingNamespace</source>
+          <target state="translated">-UsingNamespace</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Specifies other namespaces that are required for the class.</source>
+          <target state="translated">Задает другие пространства имен, которые требуются для класса.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>This is much like the Using keyword in C#.</source>
+          <target state="translated">Этот режим похож на использование ключевого слова Using в C#.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> references the <bpt id="p2">**</bpt>System<ept id="p2">**</ept> namespace.</source>
+          <target state="translated">По умолчанию <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept> ссылки <bpt id="p2">**</bpt>системы<ept id="p2">**</ept> пространства имен.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> parameter is used, <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> also references the <bpt id="p3">**</bpt>System.Runtime.InteropServices<ept id="p3">**</ept> namespace by default.</source>
+          <target state="translated">Когда <bpt id="p1">**</bpt>MemberDefinition<ept id="p1">**</ept> используется параметр, <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> также ссылается на <bpt id="p3">**</bpt>System.Runtime.InteropServices<ept id="p3">**</ept> пространство имен по умолчанию.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The namespaces that you add by using the <bpt id="p1">**</bpt>UsingNamespace<ept id="p1">**</ept> parameter are referenced in addition to the default namespaces.</source>
+          <target state="translated">Пространства имен, добавленные с помощью <bpt id="p1">**</bpt>UsingNamespace<ept id="p1">**</ept> параметр ссылаются помимо пространства имен по умолчанию.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Нет</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to Add-Type.</source>
+          <target state="translated">Объекты в командлет Add-Type передавать нельзя.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>None or System.Type</source>
+          <target state="translated">None или System.Type</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter, <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> returns a <bpt id="p3">**</bpt>System.Type<ept id="p3">**</ept> object that represents the new type.</source>
+          <target state="translated">При использовании <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> параметр <bpt id="p2">**</bpt>Add-Type<ept id="p2">**</ept> возвращает <bpt id="p3">**</bpt>System.Type<ept id="p3">**</ept> объект, который представляет новый тип.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">В противном случае командлет не формирует никаких выходных данных.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The types that you add exist only in the current session.</source>
+          <target state="translated">Добавляемые типы существуют только в текущем сеансе.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>To use the types in all sessions, add them to your Windows PowerShell profile.</source>
+          <target state="translated">Чтобы использовать типы во всех сеансах, их необходимо добавить в профиль Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>For more information about the profile, see about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</source>
+          <target state="translated">Дополнительные сведения о профиле см. в разделе about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Type names (and namespaces) must be unique within a session.</source>
+          <target state="translated">Имена типов (и пространства имен) должны быть уникальным в пределах сеанса.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>You cannot unload a type or change it.</source>
+          <target state="translated">Нельзя выгрузить тип или изменить его.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>If you need to change the code for a type, you must change the name or start a new Windows PowerShell session.</source>
+          <target state="translated">Если требуется изменить код для типа, необходимо изменить имя или запустить новый сеанс Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Otherwise, the command fails.</source>
+          <target state="translated">В противном случае произойдет сбой команды.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The CodeDomProvider class for some languages, such as IronPython and JSharp, does not generate output.</source>
+          <target state="translated">Класс CodeDomProvider для некоторых языков, таких как IronPython и JSharp, не создает выходные данные.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>As a result, types written in these languages cannot be used with <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept>.</source>
+          <target state="translated">Поэтому нельзя использовать типы, написанные на этих языках с <bpt id="p1">**</bpt>Add-Type<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>This cmdlet is based on the <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> class.</source>
+          <target state="translated">Этот командлет основан на <bpt id="p1">**</bpt>CodeDomProvider<ept id="p1">**</ept> класса.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>For more information about this class, see the Microsoft .NET Framework SDK.</source>
+          <target state="translated">Дополнительные сведения об этом классе см. в наборе SDK Microsoft .NET Framework.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Add-Member</source>
+          <target state="translated">Add-Member</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>New-Object</source>
+          <target state="translated">Новый объект</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

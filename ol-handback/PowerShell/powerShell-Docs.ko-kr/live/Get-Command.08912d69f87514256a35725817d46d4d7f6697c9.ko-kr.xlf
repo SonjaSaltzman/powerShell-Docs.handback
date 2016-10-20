@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3bcf7052917de70243bb1bacaebaa935fab11f40</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Get-Command.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc8ea43a99d1fa9b777567ae9bb2b1dad72e6a1d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f50c1c35b1f8f6692ef2ce6ba5ce9c8073065a4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-Command</source>
+          <target state="translated">Get-Command</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-Command</source>
+          <target state="translated">Get-Command</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">요약</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets all commands.</source>
+          <target state="translated">모든 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>CmdletSet (Default)</source>
+          <target state="translated">CmdletSet (기본값)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>AllCommandSet</source>
+          <target state="translated">AllCommandSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">설명</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet gets all commands that are installed on the computer, including cmdlets, aliases, functions, workflows, filters, scripts, and applications.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> cmdlet cmdlet, 별칭, 함수, 워크플로, 필터, 스크립트 및 응용 프로그램을 비롯 하 여 컴퓨터에 설치 된 모든 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets the commands from Windows PowerShell modules and snap-ins and commands that were imported from other sessions.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> Windows PowerShell 모듈 및 스냅인과 다른 세션에서 가져온 명령에서 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To get only commands that have been imported into the current session, use the <bpt id="p1">**</bpt>ListImported<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">현재 세션으로 가져온 명령만 사용은 <bpt id="p1">**</bpt>ListImported<ept id="p1">**</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Without parameters, a "<ph id="ph1">`Get-Command`</ph>" command gets all of the cmdlets, functions, workflows and aliases installed on the computer.</source>
+          <target state="translated">매개 변수가 없을 경우는 "<ph id="ph1">`Get-Command`</ph>" cmdlet, 함수, 워크플로 및 별칭은 컴퓨터에 설치 된 모든 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A "<ph id="ph1">`Get-Command *`</ph>" command gets all types of commands, including all of the non-Windows-PowerShell files in the Path environment variable ($env:path), which it lists in the "Application" command type.</source>
+          <target state="translated">A "<ph id="ph1">`Get-Command *`</ph>" 명령은 모든 종류의 Path 환경 변수에서 모든 비 Windows PowerShell 파일을 포함 하 여 명령 가져옵니다 ($env: 경로), "Application" 명령 유형에 나열입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command that uses the exact name of the command (without wildcard characters) automatically imports the module that contains the command so you can use the command immediately.</source>
+          <target state="translated">A <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 명령을 자동으로 와일드 카드 문자) (없이 명령의 정확한 이름을 사용 하는 명령에 즉시 사용할 수 있도록 명령이 포함 된 모듈을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To enable, disable, and configure automatic importing of modules, use the <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> preference variable.</source>
+          <target state="translated">를 사용 하려면 사용 안 함 및 모듈 자동 가져오기를 구성, 사용 된 <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> 기본 설정 변수입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">자세한 내용은 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248)을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets its data directly from the command code, unlike Get-Help, which gets its information from help topics.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 도움말 항목에서 정보를 가져오는 Get-help와 달리 명령 코드에서 직접 데이터를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets only commands in current session.</source>
+          <target state="translated">Windows PowerShell 2.0에서 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 현재 세션의 명령만 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It does not get commands from modules that are installed, but not imported.</source>
+          <target state="translated">설치되었지만 가져오지 않은 모듈의 명령은 가져오지 않습니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To limit <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> in Windows PowerShell 3.0 and later to commands in the current session, use the <bpt id="p2">**</bpt>ListImported<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">제한 하려면 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> Windows PowerShell 3.0 및 명령을 현재 세션에서 나중에 사용 하 여는 <bpt id="p2">**</bpt>ListImported<ept id="p2">**</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">예제</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 예제 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command gets the Windows PowerShell cmdlets, functions, and aliases that are installed on the computer.</source>
+          <target state="translated">이 명령은 컴퓨터에 설치된 Windows PowerShell cmdlet, 함수 및 별칭을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>ListImported<ept id="p1">**</ept> parameter to get only the commands in the current session.</source>
+          <target state="translated">이 명령을 사용 하는 <bpt id="p1">**</bpt>ListImported<ept id="p1">**</ept> 매개 변수를 현재 세션의 명령만 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command gets all of the cmdlets, sorts them alphabetically by the noun in the cmdlet name, and then displays them in noun-based groups.</source>
+          <target state="translated">이 명령은 모든 cmdlet을 가져오고 cmdlet 이름에 포함된 명사의 사전순으로 정렬한 다음 명사 기반 그룹으로 표시합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This display can help you find the cmdlets for a task.</source>
+          <target state="translated">이 표시를 사용하여 특정 작업에 대한 cmdlet을 찾을 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> parameter to get the commands in the Microsoft.PowerShell.Security and  PSScheduledJob modules.</source>
+          <target state="translated">이 명령을 사용 하는 <bpt id="p1">**</bpt>모듈<ept id="p1">**</ept> 매개 변수를 Microsoft.PowerShell.Security 및 PSScheduledJob 모듈의 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command gets information about the <bpt id="p1">**</bpt>Get-AppLockerPolicy<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">이 명령에 대 한 정보를 가져옵니다는 <bpt id="p1">**</bpt>Get-applockerpolicy<ept id="p1">**</ept> cmdlet입니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It also imports the <bpt id="p1">**</bpt>AppLocker<ept id="p1">**</ept> module, which adds all of the commands in the <bpt id="p2">**</bpt>AppLocker<ept id="p2">**</ept> module to the current session.</source>
+          <target state="translated">가져오기도 수행 된 <bpt id="p1">**</bpt>AppLocker<ept id="p1">**</ept> 모든 명령에 추가 하는 모듈을는 <bpt id="p2">**</bpt>AppLocker<ept id="p2">**</ept> 모듈을 현재 세션입니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When a module is imported automatically, the effect is the same as using the Import-Module cmdlet.</source>
+          <target state="translated">모듈을 자동으로 가져온 같습니다 Import-module cmdlet을 사용 하 여 동일 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The module can add commands, types and formatting files, and run scripts in the session.</source>
+          <target state="translated">모듈은 세션에서 명령, 유형 및 형식 지정 파일을 추가하고 스크립트를 실행할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To enable, disable, and configuration automatic importing of modules, use the <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> preference variable.</source>
+          <target state="translated">를 사용 하려면 자동 모듈 가져오기를 구성 및 사용 안 함, 사용 된 <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> 기본 설정 변수입니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">자세한 내용은 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248)을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Syntax<ept id="p2">**</ept> parameters to get the syntax of the Get-ChildItem cmdlet when it is used in the Cert: drive.</source>
+          <target state="translated">이 명령을 사용 하는 <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>구문<ept id="p2">**</ept> cert에서 사용 하는 경우 Get-childitem cmdlet의 구문을 가져오려면 매개 변수: 드라이브입니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The Cert: drive is a Windows PowerShell drive that the Certificate Provider adds to the session.</source>
+          <target state="translated">Cert: 드라이브는 인증서 공급자는 세션에 추가 된 Windows PowerShell 드라이브입니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When you compare the syntax displayed in the output with the syntax that is displayed when you omit the Args (ArgumentList) parameter, you'll see that the <bpt id="p1">**</bpt>Certificate provider<ept id="p1">**</ept> adds a dynamic parameter, <bpt id="p2">**</bpt>CodeSigningCert<ept id="p2">**</ept>, to the Get-ChildItem cmdlet.</source>
+          <target state="translated">Args (ArgumentList) 매개 변수를 생략 하는 경우 표시 되는 구문 사용 하 여 출력에 표시 하는 구문을 비교 하면, 표시 하는 <bpt id="p1">**</bpt>인증서 공급자<ept id="p1">**</ept> 동적 매개 변수를 추가 하는 <bpt id="p2">**</bpt>CodeSigningCert<ept id="p2">**</ept>, Get-childitem cmdlet을 합니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For more information about the Certificate provider, see Certificate Provider.</source>
+          <target state="translated">인증서 공급자에 대 한 자세한 내용은 인증서 공급자를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-DynamicParameters<ept id="p1">**</ept> function in this example gets the dynamic parameters of a cmdlet.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-dynamicparameters<ept id="p1">**</ept> 예제의 cmdlet의 동적 매개 변수를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This is an alternative to the method used in the previous example.</source>
+          <target state="translated">이전 예의 방법 대신 이 방법을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Dynamic parameter can be added to a cmdlet by another cmdlet or a provider.</source>
+          <target state="translated">다른 cmdlet 또는 공급자가 동적 매개 변수를 cmdlet에 추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The command in the example uses the <bpt id="p1">**</bpt>Get-DynamicParameters<ept id="p1">**</ept> function to get the dynamic parameters that the Certificate provider adds to the Get-ChildItem cmdlet when it is used in the Cert: drive.</source>
+          <target state="translated">예제에서 명령에서 사용 하는 <bpt id="p1">**</bpt>Get-dynamicparameters<ept id="p1">**</ept> cert에서 사용 하는 경우 인증서 공급자가 Get-childitem cmdlet에 추가 하는 동적 매개 변수를 가져오려면 함수: 드라이브입니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 8 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 8 --------------------------</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This command gets all commands of all types on the local computer, including executable files in the paths of the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> environment variable ($env:path).</source>
+          <target state="translated">이 명령은 실행 파일의 경로에 포함 하 여 로컬 컴퓨터에서 모든 유형의 모든 명령을 가져옵니다는 <bpt id="p1">**</bpt>경로<ept id="p1">**</ept> 환경 변수 ($env: 경로).</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>It returns an <bpt id="p1">**</bpt>ApplicationInfo<ept id="p1">**</ept> object (System.Management.Automation.ApplicationInfo) for each file, not a <bpt id="p2">**</bpt>FileInfo<ept id="p2">**</ept> object (System.IO.FileInfo).</source>
+          <target state="translated">반환 된 <bpt id="p1">**</bpt>ApplicationInfo<ept id="p1">**</ept> 개체 (System.Management.Automation.ApplicationInfo) 각 파일에 대 한 하지는 <bpt id="p2">**</bpt>FileInfo<ept id="p2">**</ept> 개체 (System.IO.FileInfo).</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 9 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 9 --------------------------</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This command gets cmdlets that have a parameter whose name includes "Auth" and whose type is <bpt id="p1">**</bpt>AuthenticationMechanism<ept id="p1">**</ept>.</source>
+          <target state="translated">이 명령은 이름이 "Auth"가 포함 되어 있고 해당 형식이 매개 변수가 있는 cmdlet을 가져옵니다 <bpt id="p1">**</bpt>AuthenticationMechanism<ept id="p1">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can use a command like this one to find cmdlets that let you specify the method that is used to authenticate the user.</source>
+          <target state="translated">이러한 명령을 사용하여 사용자 인증에 사용되는 메서드를 지정할 수 있는 cmdlet을 찾을 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ParameterType<ept id="p1">**</ept> parameter distinguishes parameters that take an <bpt id="p2">**</bpt>AuthenticationMechanism<ept id="p2">**</ept> value from those that take an <bpt id="p3">**</bpt>AuthenticationLevel<ept id="p3">**</ept> parameter, even when they have similar names.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>ParameterType<ept id="p1">**</ept> 매개 변수를 사용 하는 매개 변수 구분는 <bpt id="p2">**</bpt>AuthenticationMechanism<ept id="p2">**</ept> 값을 사용 하는 <bpt id="p3">**</bpt>AuthenticationLevel<ept id="p3">**</ept> 이름이 유사한 경우에 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 10 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 10 --------------------------</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet with an alias.</source>
+          <target state="translated">사용 하는 방법을 보여 주는이 예제는 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> cmdlet 별칭을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Although it is typically used on cmdlets and functions, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> also gets scripts, functions, aliases, workflows, and executable files.</source>
+          <target state="translated">일반적으로 cmdlet과 함수에 사용 되지만 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 도 스크립트, 함수, 별칭, 워크플로 및 실행 파일을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The output of the command shows the special view of the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> property value for aliases.</source>
+          <target state="translated">특수 한 보기를 표시 하는 명령의 출력은 <bpt id="p1">**</bpt>이름<ept id="p1">**</ept> 별칭에 대 한 속성 값입니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The view shows the alias and the full command name.</source>
+          <target state="translated">보기에는 별칭과 전체 명령 이름이 표시됩니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 11 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 11 --------------------------</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This example uses the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> cmdlet to show all instances of the "Notepad" command on the local computer.</source>
+          <target state="translated">사용 하 여이 예제는 <bpt id="p1">**</bpt>모든<ept id="p1">**</ept> 의 매개 변수는 <bpt id="p2">**</bpt>Get-command<ept id="p2">**</ept> cmdlet을 로컬 컴퓨터에서 "Notepad" 명령의 모든 인스턴스를 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter is useful when there is more than one command with the same name in the session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>모든<ept id="p1">**</ept> 매개 변수는 세션에 동일한 이름 가진 둘 이상의 명령이 있을 때 유용 합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, by default, when the session includes multiple commands with the same name, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets only the command that runs when you type the command name.</source>
+          <target state="translated">기본적으로 Windows PowerShell 3.0 부터는 세션이 포함 된 경우 동일한 이름 가진 여러 명령이 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 명령 이름을 입력할 때 실행 되는 명령만 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>With the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter, <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> gets all commands with the specified name and returns them in execution precedence order.</source>
+          <target state="translated">와 <bpt id="p1">**</bpt>모든<ept id="p1">**</ept> 매개 변수를 <bpt id="p2">**</bpt>Get-command<ept id="p2">**</ept> 지정된 된 이름 가진 모든 명령을 가져옵니다 실행 우선 순위 순서 대로 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To run a command other than the first one in the list, type the fully qualified path to the command.</source>
+          <target state="translated">목록의 첫 번째 명령이 아닌 명령을 실행하려면 명령의 정규화된 경로를 입력합니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For more information about command precedence, see about_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214).</source>
+          <target state="translated">명령 우선 순위에 대 한 자세한 내용은 about_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214)를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 12 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 12 --------------------------</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This command gets the name of the snap-in or module in which the Get-Date cmdlet originated.</source>
+          <target state="translated">이 명령은 스냅인 또는 Get-date cmdlet 시작 된 모듈의 이름을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> property of all commands.</source>
+          <target state="translated">이 명령은 <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> 모든 명령의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This command format works on commands in Windows PowerShell modules and snap-ins, even if they are not imported into the session.</source>
+          <target state="translated">이 명령 형식은 세션으로 가져오지 않은 경우에도 Windows PowerShell 모듈과 스냅인의 명령에서 작동합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 13 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 13 --------------------------</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This command gets the cmdlets and functions that have an output type and the type of objects that they return.</source>
+          <target state="translated">이 명령은 출력 유형이 있는 cmdlet 및 함수와 반환하는 개체 유형을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The first part of the command gets all cmdlets.</source>
+          <target state="translated">명령의 첫 번째 부분에서 모든 cmdlet을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A pipeline operator (|) sends the cmdlets to the Where-Object cmdlet, which selects only the ones in which the <bpt id="p1">**</bpt>OutputType<ept id="p1">**</ept> property is populated.</source>
+          <target state="translated">파이프라인 연산자 (|)가 있는 메시지만 선택 하는 Where-object cmdlet을 해당 cmdlet에서 <bpt id="p1">**</bpt>OutputType<ept id="p1">**</ept> 속성이 채워집니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Another pipeline operator sends the selected cmdlet objects to the Format-List cmdlet, which displays the name and output type of each cmdlet in a list.</source>
+          <target state="translated">다른 파이프라인 연산자 보냅니다 이름을 표시 하는 Format-list cmdlet으로는 선택한 cmdlet 개체 및 목록에 각 cmdlet의 형식이 출력 합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>OutputType<ept id="p1">**</ept> property of a <bpt id="p2">**</bpt>CommandInfo<ept id="p2">**</ept> object has a non-null value only when the cmdlet code defines the <bpt id="p3">**</bpt>OutputType<ept id="p3">**</ept> attribute for the cmdlet.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>OutputType<ept id="p1">**</ept> 속성은 <bpt id="p2">**</bpt>CommandInfo<ept id="p2">**</ept> cmdlet 코드에서 정의 하는 경우에 개체에 null이 아닌 값은 <bpt id="p3">**</bpt>OutputType<ept id="p3">**</ept> cmdlet에 대 한 특성입니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 14 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 14 --------------------------</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This command finds cmdlets that take net adapter objects as input.</source>
+          <target state="translated">이 명령은 네트워크 어댑터 개체를 입력으로 사용하는 cmdlet을 찾습니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You can use this command format to find the cmdlets that accept the type of objects that any command returns.</source>
+          <target state="translated">이 명령을 사용하여 임의 명령이 반환하는 개체 유형을 허용하는 cmdlet을 찾을 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>PSTypeNames<ept id="p1">**</ept> intrinsic property of all objects, which gets the types that describe the object.</source>
+          <target state="translated">이 명령은 <bpt id="p1">**</bpt>PSTypeNames<ept id="p1">**</ept> 내장 속성인 모든 개체의 개체를 설명 하는 형식을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To get the <bpt id="p1">**</bpt>PSTypeNames<ept id="p1">**</ept> property of a net adapter, and not the <bpt id="p2">**</bpt>PSTypeNames<ept id="p2">**</ept> property of a collection of net adapters, the command uses array notation to get the first net adapter that the cmdlet returns.</source>
+          <target state="translated">가져오려는 <bpt id="p1">**</bpt>PSTypeNames<ept id="p1">**</ept> 네트워크 어댑터의 속성 및 not는 <bpt id="p2">**</bpt>PSTypeNames<ept id="p2">**</ept> 네트워크 어댑터 컬렉션의 속성을 명령은 cmdlet에서 반환 하는 첫 번째 네트워크 어댑터를 가져오려는 배열 표기법을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">매개 변수</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>-All</source>
+          <target state="translated">-모두</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Gets all commands, including commands of the same type that have the same name.</source>
+          <target state="translated">이름과 유형이 동일한 명령을 포함하여 모든 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets only the commands that run when you type the command name.</source>
+          <target state="translated">기본적으로 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 명령 이름을 입력할 때 실행 되는 명령만 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For more information about the method that Windows PowerShell uses to select the command to run when multiple commands have the same name, see about_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214).</source>
+          <target state="translated">Windows PowerShell 사용 하 여 여러 명령의 이름이 동일한 경우 실행할 명령을 선택 하는 방법에 대 한 자세한 내용은 about_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214)를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For information about module-qualified command names and running commands that do not run by default because of a name conflict, see about_Modules (http://go.microsoft.com/fwlink/?LinkID=144311).</source>
+          <target state="translated">모듈의 정규화 된 명령에 대 한 정보에 대 한 이름과 하는 명령을 실행 하지 이름 충돌로 인해 기본적으로 실행 참조 하십시오 about_Modules (http://go.microsoft.com/fwlink/?LinkID=144311).</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, Get-Command gets all commands by default.</source>
+          <target state="translated">Windows PowerShell 2.0에서 Get-Command는 기본적으로 모든 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets information about a cmdlet or function when it is used with the specified  parameters ("arguments").</source>
+          <target state="translated">지정한 매개 변수("인수")와 함께 사용할 경우 cmdlet 또는 함수에 대한 정보를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The alias for <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> is <bpt id="p2">**</bpt>Args<ept id="p2">**</ept>.</source>
+          <target state="translated">에 대 한 별칭 <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> 는 <bpt id="p2">**</bpt>Args<ept id="p2">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To detect dynamic parameters that are available only when certain other parameters are used, set the value of ArgumentList to the parameters that trigger the dynamic parameters.</source>
+          <target state="translated">다른 특정 매개 변수가 사용된 경우에만 사용할 수 있는 동적 매개 변수를 검색하려면 ArgumentList 값을 동적 매개 변수를 트리거하는 매개 변수로 설정합니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>To detect the dynamic parameters that a provider adds to a cmdlet, set the value of the <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> parameter to a path in the provider drive, such as "WSMan:", "HKLM:" or "Cert:".</source>
+          <target state="translated">값을 설정 하는 공급자 cmdlet에 추가 하는 동적 매개 변수를 검색 하는 <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> 매개 변수는 공급자에서 경로에 드라이브와 같은 "WSMan:", "HKLM:" 또는 "Cert:"입니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>When the command is a Windows PowerShell provider cmdlet, enter only one path in each command; the provider cmdlets return only the dynamic parameters for the first path the value of <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept>.</source>
+          <target state="translated">이 명령은 Windows PowerShell 공급자 cmdlet 인 경우 각 명령에 하나의 경로만 입력 공급자 cmdlet의 값을 첫 번째 경로 대 한 동적 매개 변수만 반환 <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>For information about the provider cmdlets, see about_Providers (http://go.microsoft.com/fwlink/?LinkID=113250).</source>
+          <target state="translated">공급자 cmdlet에 대 한 내용은 about_Providers (http://go.microsoft.com/fwlink/?LinkID=113250)를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>-CommandType</source>
+          <target state="translated">-CommandType</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Gets only the specified types of commands.</source>
+          <target state="translated">지정된 유형의 명령만 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Enter one or more command types.</source>
+          <target state="translated">명령 유형을 하나 이상 입력합니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Use <bpt id="p1">**</bpt>CommandType<ept id="p1">**</ept> or its alias, <bpt id="p2">**</bpt>Type<ept id="p2">**</ept>.</source>
+          <target state="translated">사용 하 여 <bpt id="p1">**</bpt>CommandType<ept id="p1">**</ept> 또는 해당 별칭인 <bpt id="p2">**</bpt>형식<ept id="p2">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets all cmdlets, functions, and workflows, and aliases.</source>
+          <target state="translated">기본적으로 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 모든 cmdlet, 함수, 워크플로 및 별칭을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">유효한 값은</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Alias<ept id="p1">**</ept>: Gets the aliases of all Windows PowerShell commands.</source>
+          <target state="translated"><bpt id="p1">**</bpt>별칭<ept id="p1">**</ept>: 모든 Windows PowerShell 명령의 별칭을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">자세한 내용은 about_Aliases를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All<ept id="p1">**</ept>: Gets all command types.</source>
+          <target state="translated"><bpt id="p1">**</bpt>모든<ept id="p1">**</ept>: 모든 명령 유형을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This parameter value is the equivalent of "Get-Command *".</source>
+          <target state="translated">이 매개 변수 값은 "Get-Command *"와 같습니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Application<ept id="p1">**</ept>: Gets non-Windows-PowerShell files in paths listed in the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> environment variable ($env:path), including .txt, .exe, and .dll files.</source>
+          <target state="translated"><bpt id="p1">**</bpt>응용 프로그램<ept id="p1">**</ept>:에 나열 된 경로에 비 Windows PowerShell 파일을 가져옵니다는 <bpt id="p2">**</bpt>경로<ept id="p2">**</ept> 환경 변수 ($env: 경로),.txt,.exe 및.dll 파일을 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> environment variable, see about_Environment_Variables.</source>
+          <target state="translated">에 대 한 자세한 내용은 <bpt id="p1">**</bpt>경로<ept id="p1">**</ept> 환경 변수, about_Environment_Variables를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cmdlet<ept id="p1">**</ept>: Gets all cmdlets.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Cmdlet<ept id="p1">**</ept>: 모든 cmdlet을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ExternalScript<ept id="p1">**</ept>: Gets all .ps1 files in the paths listed in the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> environment variable ($env:path).</source>
+          <target state="translated"><bpt id="p1">**</bpt>ExternalScript<ept id="p1">**</ept>:에 나열 된 경로에 있는 모든.ps1 파일을 가져옵니다는 <bpt id="p2">**</bpt>경로<ept id="p2">**</ept> 환경 변수 ($env: 경로).</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Function<ept id="p2">**</ept>: Gets all Windows PowerShell advanced and simple functions and filters.</source>
+          <target state="translated"><bpt id="p1">**</bpt>필터<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>함수<ept id="p2">**</ept>: 모든 Windows PowerShell 고급 및 단순 함수와 필터를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Script<ept id="p1">**</ept>: Gets all script blocks.</source>
+          <target state="translated"><bpt id="p1">**</bpt>스크립트<ept id="p1">**</ept>: 모든 스크립트 블록을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>To get Windows PowerShell scripts (.ps1 files), use the <bpt id="p1">**</bpt>ExternalScript<ept id="p1">**</ept> value.</source>
+          <target state="translated">Windows PowerShell 스크립트 (.ps1 파일)을 사용은 <bpt id="p1">**</bpt>ExternalScript<ept id="p1">**</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Workflow<ept id="p1">**</ept>: Gets all workflows.</source>
+          <target state="translated"><bpt id="p1">**</bpt>워크플로<ept id="p1">**</ept>: 모든 워크플로 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For more information about workflows, see Introducing Windows PowerShell Workflow.</source>
+          <target state="translated">워크플로에 대 한 자세한 내용은 Windows PowerShell 워크플로 소개를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-Module</source>
+          <target state="translated">모듈</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets the commands that came from the specified modules or snap-ins.</source>
+          <target state="translated">지정된 모듈이나 스냅인에서 제공된 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Enter the names of modules or snap-ins, or enter snap-in or module objects.</source>
+          <target state="translated">모듈 또는 스냅인의 이름을 입력하거나 스냅인 또는 모듈 개체를 입력하세요.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This parameter takes string values, but the value of this parameter can also be a <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> or <bpt id="p2">**</bpt>PSSnapinInfo<ept id="p2">**</ept> object, such as the objects that the Get-Module, Get-PSSnapin, and Import-PSSession cmdlets return.</source>
+          <target state="translated">이 매개 변수는 문자열 값을 사용 하지만이 매개 변수 값을 수도 있습니다는 <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> 또는 <bpt id="p2">**</bpt>PSSnapinInfo<ept id="p2">**</ept> Get-module, Get-pssnapin-및 Import-pssession cmdlet에서 반환 하는 개체와 같은 개체입니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>You can refer to this parameter by its name, <bpt id="p1">**</bpt>Module<ept id="p1">**</ept>, or by its alias, <bpt id="p2">**</bpt>PSSnapin<ept id="p2">**</ept>.</source>
+          <target state="translated">해당 이름으로이 매개 변수를 참조할 수 있습니다 <bpt id="p1">**</bpt>모듈<ept id="p1">**</ept>, 또는 해당 별칭으로 <bpt id="p2">**</bpt>PSSnapin<ept id="p2">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The parameter name that you choose has no effect on the command output.</source>
+          <target state="translated">선택한 매개 변수 이름은 명령 출력에 영향을 주지 않습니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets only commands with the specified name.</source>
+          <target state="translated">지정한 이름을 가진 명령만 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Enter a name or name pattern.</source>
+          <target state="translated">이름 또는 이름 패턴을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">와일드카드가 지원됩니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>To get commands that have the same name, use the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">이름이 같은 명령을 사용 하십시오는 <bpt id="p1">**</bpt>모든<ept id="p1">**</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>When two commands have the same name, by default, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets the command that runs when you type the command name.</source>
+          <target state="translated">두 명령은 기본적으로 이름이 같은 경우 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 명령 이름을 입력할 때 실행 되는 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-Noun</source>
+          <target state="translated">-명사</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Gets commands (cmdlets, functions, workflows, and aliases) that have names that include the specified noun.</source>
+          <target state="translated">지정한 명사가 포함된 이름을 가진 명령(cmdlet, 함수, 워크플로 및 별칭)을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Enter one or more nouns or noun patterns.</source>
+          <target state="translated">명사 또는 명사 패턴을 하나 이상 입력합니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">와일드카드가 지원됩니다.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>-Syntax</source>
+          <target state="translated">구문</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Gets only specified data about the command.</source>
+          <target state="translated">명령에 대한 지정된 데이터만 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>For aliases, gets the standard name.</source>
+          <target state="translated">별칭의 경우 표준 이름을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>For cmdlets, gets the syntax.</source>
+          <target state="translated">Cmdlet에 대 한 구문을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>For functions and filters, gets the function definition.</source>
+          <target state="translated">함수 및 필터에 대 한 함수 정을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For scripts and applications (files), gets the path and filename.</source>
+          <target state="translated">스크립트 및 응용 프로그램 (파일)에 대 한 경로 파일 이름을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>-TotalCount</source>
+          <target state="translated">-TotalCount</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets the specified number of commands.</source>
+          <target state="translated">지정한 개수의 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to limit the output of a command.</source>
+          <target state="translated">이 매개 변수를 사용하여 명령의 출력을 제한할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>-Verb</source>
+          <target state="translated">동사</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Gets commands (cmdlets, functions, workflows, and aliases) that have names that include the specified verb.</source>
+          <target state="translated">지정한 동사가 포함된 이름을 가진 명령(cmdlet, 함수, 워크플로 및 별칭)을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Enter one or more verbs or verb patterns.</source>
+          <target state="translated">동사 또는 동사 패턴을 하나 이상 입력합니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">와일드카드가 지원됩니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>-ListImported</source>
+          <target state="translated">-ListImported</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Gets only commands in the current session.</source>
+          <target state="translated">현재 세션의 명령만 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, by default, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets all installed commands, including, but not limited to, the commands in the current session.</source>
+          <target state="translated">기본적으로 Windows PowerShell 3.0 부터는 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 에 제한 되지 않음, 현재 세션의 명령을 포함 하 여 설치 된 모든 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, it gets only commands in the current session.</source>
+          <target state="translated">Windows PowerShell 2.0에서은 현재 세션의 명령만을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>-ParameterName</source>
+          <target state="translated">-ParameterName</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Gets commands in the session that have the specified parameters.</source>
+          <target state="translated">세션에서 지정한 매개 변수가 있는 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Enter parameter names and/or parameter aliases.</source>
+          <target state="translated">매개 변수 이름 및/또는 매개 변수 별칭을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Wildcard are supported.</source>
+          <target state="translated">와일드카드가 지원됩니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ParameterName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ParameterType<ept id="p2">**</ept> parameters search only commands in the current session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>ParameterName<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>ParameterType<ept id="p2">**</ept> 매개 변수는 현재 세션의 명령만 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>-ParameterType</source>
+          <target state="translated">-ParameterType</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Gets commands in the session that have parameters of the specified type.</source>
+          <target state="translated">세션에서 지정한 유형의 매개 변수가 있는 명령을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Enter the full name or partial name of a parameter type.</source>
+          <target state="translated">매개 변수 유형의 전체 이름이나 부분 이름을 입력합니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Wildcards are supported.</source>
+          <target state="translated">와일드카드가 지원됩니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ParameterName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ParameterType<ept id="p2">**</ept> parameters search only commands in the current session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>ParameterName<ept id="p1">**</ept> 및 <bpt id="p2">**</bpt>ParameterType<ept id="p2">**</ept> 매개 변수는 현재 세션의 명령만 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">이 매개 변수는 Windows PowerShell 3.0에서 도입되었습니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">이 cmdlet은 공통 매개 변수:-디버그,-ErrorAction,-ErrorVariable,-InformationAction,-InformationVariable,-OutVariable,-OutBuffer,-PipelineVariable,-Verbose,-WarningAction 및-warningvariable을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">자세한 내용은 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">입력</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>You can pipe command names to <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept>.</source>
+          <target state="translated">명령 이름을로 파이프할 수 있습니다 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">출력</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.CommandInfo</source>
+          <target state="translated">System.Management.Automation.CommandInfo</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>All <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> output types are derived from this  class.</source>
+          <target state="translated">모든 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 출력 형식은이 클래스에서 파생 됩니다.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The type of object that is returned depends on the type of command that Get-Command gets.</source>
+          <target state="translated">반환되는 개체 유형은 Get-Command가 가져오는 명령 유형에 따라 달라집니다.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.AliasInfo</source>
+          <target state="translated">System.Management.Automation.AliasInfo</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Represents aliases.</source>
+          <target state="translated">별칭을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.ApplicationInfo</source>
+          <target state="translated">System.Management.Automation.ApplicationInfo</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Represents or applications and files</source>
+          <target state="translated">응용 프로그램과 파일을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.CmdletInfo</source>
+          <target state="translated">System.Management.Automation.CmdletInfo</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Represents cmdlets.</source>
+          <target state="translated">cmdlet을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.FunctionInfo</source>
+          <target state="translated">System.Management.Automation.FunctionInfo</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Represents functions and filters</source>
+          <target state="translated">함수와 필터를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.WorkflowInfo</source>
+          <target state="translated">System.Management.Automation.WorkflowInfo</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">참고 사항</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>When more than one command with the same name is available to the session, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> returns the command that runs when you type the command name.</source>
+          <target state="translated">이름이 같은 둘 이상의 명령이 세션에 사용할 수 있는 경우 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 명령 이름을 입력할 때 실행 되는 명령을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>To get commands with the same name (listed in execution order), use the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">(실행 순서 대로 나열) 같은 이름을 가진 명령을 가져오려면를 사용 하 여는 <bpt id="p1">**</bpt>모든<ept id="p1">**</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Command_Precedence.</source>
+          <target state="translated">자세한 내용은 about_Command_Precedence를 참조하세요.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>When a module is imported automatically, the effect is the same as using the Import-Module cmdlet.</source>
+          <target state="translated">모듈을 자동으로 가져온 같습니다 Import-module cmdlet을 사용 하 여 동일 합니다.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The module can add commands, types and formatting files, and run scripts in the session.</source>
+          <target state="translated">모듈은 세션에서 명령, 유형 및 형식 지정 파일을 추가하고 스크립트를 실행할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>To enable, disable, and configuration automatic importing of modules, use the <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> preference variable.</source>
+          <target state="translated">를 사용 하려면 자동 모듈 가져오기를 구성 및 사용 안 함, 사용 된 <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> 기본 설정 변수입니다.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">자세한 내용은 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248)을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">관련된 링크</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Export-PSSession</source>
+          <target state="translated">Export-PSSession</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Get-Help</source>
+          <target state="translated">Get-Help</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Get-Member</source>
+          <target state="translated">Get-Member</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Get-PSDrive</source>
+          <target state="translated">Get-PSDrive</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Import-PSSession</source>
+          <target state="translated">Import-PSSession</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

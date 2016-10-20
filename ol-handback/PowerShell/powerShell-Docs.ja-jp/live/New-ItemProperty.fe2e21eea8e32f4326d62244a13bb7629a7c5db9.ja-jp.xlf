@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90d83698cd08e9b373cb1faf819edc5122fc7490</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Management\New-ItemProperty.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a22611228f3542a907ea94d7f24aef7ca098d5a7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c97ac54d032b5f634e1297b75598e4a4cd84802b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-ItemProperty</source>
+          <target state="translated">新しい ItemProperty</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-ItemProperty</source>
+          <target state="translated">新しい ItemProperty</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates a new property for an item and sets its value.</source>
+          <target state="translated">項目の新しいプロパティを作成し、その値を設定します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, you can use New-ItemProperty to create and change registry values and data, which are properties of a registry key.</source>
+          <target state="translated">たとえば、New-ItemProperty を使用して、レジストリの値とデータの作成および変更を行うことができます。レジストリの値とデータはレジストリ キーのプロパティになります。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Path (Default)</source>
+          <target state="translated">パス (既定値)</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>LiteralPath</source>
+          <target state="translated">LiteralPath</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The New-ItemProperty cmdlet creates a new property for a specified item and sets its value.</source>
+          <target state="translated">New-ItemProperty コマンドレットは、指定された項目に新しいプロパティを作成し、その値を設定します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Typically, this cmdlet is used to create new registry values, because registry values are properties of a registry key item.</source>
+          <target state="translated">通常、レジストリ値がレジストリ キー項目のプロパティになるため、このコマンドレットを使用して新しいレジストリ値が作成されます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not add properties to an object.</source>
+          <target state="translated">このコマンドレットではプロパティがオブジェクトに追加されません。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To add a property to an instance of an object, use the Add-Member cmdlet.</source>
+          <target state="translated">オブジェクトのインスタンスにプロパティを追加するには、Add-Member コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To add a property to all objects of a particular type, edit the Types.ps1xml file.</source>
+          <target state="translated">特定の種類のすべてのオブジェクトにプロパティを追加するには、Types.ps1xml ファイルを編集します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This command adds a new registry entry, NoOfEmployees, to the MyCompany key of the HKLM:\Software hive.</source>
+          <target state="translated">このコマンドは、新しいレジストリ エントリ NoOfEmployees を HKLM:\Software ハイブの MyCompany キーに追加します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The first command uses the Path parameter to specify the path to the MyCompany registry key.</source>
+          <target state="translated">最初のコマンドは Path パラメーターを使用して、MyCompany レジストリ キーのパスを指定します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It uses the Name parameter to specify a name for the entry and the Value parameter to specify its value.</source>
+          <target state="translated">また、エントリの名前の指定には Name パラメーター、その値の指定には Value パラメーターをそれぞれ使用します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-ItemProperty cmdlet to see the new registry entry.</source>
+          <target state="translated">2 番目のコマンドは、Get-ItemProperty コマンドレットを使用して、新しいレジストリ エントリを表示します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command adds a new registry entry to a registry key.</source>
+          <target state="translated">このコマンドは、新しいレジストリ エントリをレジストリ キーに追加します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To specify the key, it uses a pipeline operator (|) to send an object representing the key to the New-ItemProperty cmdlet.</source>
+          <target state="translated">キーを指定するには、パイプライン演算子 (|) を使用して、キーを表すオブジェクトを New-ItemProperty コマンドレットに送信します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The first part of the command uses the Get-Item cmdlet to get the MyCompany registry key.</source>
+          <target state="translated">コマンドの最初の部分は Get-Item コマンドレットを使用して、MyCompany レジストリ キーを取得します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) sends the results of the command to the New-ItemProperty cmdlet, which adds the new registry entry, NoOfLocations, and its value, 3, to the MyCompany key.</source>
+          <target state="translated">パイプライン演算子 (|) はコマンドの結果を New-ItemProperty コマンドレットに送信し、新しいレジストリ エントリ NoOfLocations およびその値となる 3 が MyCompany キーに追加されます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This command works because the parameter-binding feature of Windows PowerShell associates the path of the RegistryKey object that Get-Item returns with the LiteralPath parameter of New-ItemProperty.</source>
+          <target state="translated">このコマンドが機能するのは、Windows PowerShell のパラメーター バインド機能によって、Get-Item が返す RegistryKey オブジェクトのパスが New-ItemProperty の LiteralPath パラメーターに関連付けられるためです。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Pipelines.</source>
+          <target state="translated">詳細については、「about_Pipelines」を参照してください。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">この処理を実行するアクセス許可を持つユーザー アカウントを指定します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">既定値は現在のユーザーです。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01", or enter a PSCredential object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">「User01」や「Domain01\User01」のようなユーザー名を入力するか、Get-Credential コマンドレットで生成されるような PSCredential オブジェクトを入力します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If you type a user name, you will be prompted for a password.</source>
+          <target state="translated">ユーザー名を入力すると、パスワードの入力を促すメッセージが表示されます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This parameter is not supported by any providers installed with Windows PowerShell.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell でインストールされるプロバイダーではサポートされていません。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-Exclude</source>
+          <target state="translated">-除外します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Omits the specified items.</source>
+          <target state="translated">指定した項目を除外します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">フィルター</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specifies a filter in the provider's format or language.</source>
+          <target state="translated">プロバイダーの形式や言語でフィルターを指定します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Path parameter.</source>
+          <target state="translated">このパラメーターの値は、Path パラメーターを修飾します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The syntax of the filter, including the use of wildcards, depends on the provider.</source>
+          <target state="translated">ワイルドカードを使用できるかどうかなど、フィルターの構文はプロバイダーによって異なります。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Filters are more efficient than other parameters, because the provider applies them when retrieving the objects rather than having Windows PowerShell filter the objects after they are retrieved.</source>
+          <target state="translated">フィルターは他のパラメーターよりも効率が良い方法です。これは、オブジェクトを取得した後に Windows PowerShell がオブジェクトをフィルターするのではなく、オブジェクトを取得する際にプロバイダーがフィルターを適用するためです。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Allows the cmdlet to create a property on an object that cannot otherwise be accessed by the user.</source>
+          <target state="translated">設定しないとユーザーがアクセスできないオブジェクトのプロパティをコマンドレットで作成できるようにします。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Implementation varies from provider to provider.</source>
+          <target state="translated">実装はプロバイダーごとに異なります。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Providers.</source>
+          <target state="translated">詳細については、「about_Providers」を参照してください。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-Include</source>
+          <target state="translated">-Include します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Path parameter.</source>
+          <target state="translated">このパラメーターの値は、Path パラメーターを修飾します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Enter a path element or pattern, such as "*.txt".</source>
+          <target state="translated">「*.txt」などのパス要素またはパターンを入力します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">– LiteralPath</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specifies a path to the item property.</source>
+          <target state="translated">項目プロパティへのパスを指定します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The value of LiteralPath is used exactly as it is typed.</source>
+          <target state="translated">LiteralPath の値は、入力した内容のまま使用されます。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">ワイルドカードとして解釈される文字はありません。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">パスにエスケープ文字が含まれている場合は、単一引用符で囲みます。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">単一引用符で囲んだ文字はエスケープ シーケンスとして解釈されません。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Specifies a name for the new property.</source>
+          <target state="translated">新しいプロパティの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the property is a registry entry, this parameter specifies the name of the entry.</source>
+          <target state="translated">プロパティがレジストリ エントリである場合、このパラメーターはエントリの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the item.</source>
+          <target state="translated">項目のパスを指定します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This parameter identifies the item to which the new property will be added.</source>
+          <target state="translated">このパラメーターは、新しいプロパティが追加される項目を特定します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-PropertyType</source>
+          <target state="translated">-PropertyType</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Specifies the type of property that will be added.</source>
+          <target state="translated">追加するプロパティの種類を指定します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Valid values include the following:</source>
+          <target state="translated">有効な値を以下に示します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>String.</source>
+          <target state="translated">文字列。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Specifies a null-terminated string.</source>
+          <target state="translated">Null 終了文字列を指定します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Equivalent to REG_SZ.</source>
+          <target state="translated">REG_SZ と同じです。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>ExpandString.</source>
+          <target state="translated">ExpandString します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies a null-terminated string that contains unexpanded references to environment variables that are expanded when the value is retrieved.</source>
+          <target state="translated">値が読み出されるときに展開される環境変数の展開されない参照を含む Null 終了文字列を指定します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Equivalent to REG_EXPAND_SZ.</source>
+          <target state="translated">REG_EXPAND_SZ と同じです。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Binary.</source>
+          <target state="translated">バイナリ。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Specifies binary data in any form.</source>
+          <target state="translated">あらゆる形式のバイナリ データを指定します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Equivalent to REG_BINARY.</source>
+          <target state="translated">REG_BINARY と同じです。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>DWord.</source>
+          <target state="translated">Dword 値。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Specifies a 32-bit binary number.</source>
+          <target state="translated">32 ビットのバイナリ数値を指定します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Equivalent to REG_DWORD.</source>
+          <target state="translated">REG_DWORD と同じです。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>MultiString.</source>
+          <target state="translated">MultiString します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Specifies an array of null-terminated strings terminated by two null characters.</source>
+          <target state="translated">2 つの Null 文字で終了する Null 終了文字列の配列を指定します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Equivalent to REG_MULTI_SZ.</source>
+          <target state="translated">REG_MULTI_SZ と同じです。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Qword.</source>
+          <target state="translated">Qword します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Specifies a 64-bit binary number.</source>
+          <target state="translated">64 ビットのバイナリ値を指定します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Equivalent to REG_QWORD.</source>
+          <target state="translated">REG_QWORD と同じです。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Unknown.</source>
+          <target state="translated">不明。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Indicates an unsupported registry data type, such as REG_RESOURCE_LIST.</source>
+          <target state="translated">REG_RESOURCE_LIST など、サポートされないレジストリ データ型を示します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-Value</source>
+          <target state="translated">値</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies the property value.</source>
+          <target state="translated">プロパティ値を指定します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If the property is a registry entry, this parameter specifies the value of the entry.</source>
+          <target state="translated">プロパティがレジストリ エントリである場合、このパラメーターはエントリの値を指定します。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">コマンドレットを実行する前に確認するように求められます。コマンドレットを実行する前に確認するように求められます。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットを実行するとどのような結果になるかを表示します。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットは実行されません。コマンドレットが実行された場合の処理を示しています。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">コマンドレットは実行されません。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>-UseTransaction</source>
+          <target state="translated">-UseTransaction</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Includes the command in the active transaction.</source>
+          <target state="translated">アクティブなトランザクションのコマンドが含まれます。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">このパラメーターは、トランザクションが進行中の場合のみ有効です。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>For more information, see Includes the command in the active transaction.</source>
+          <target state="translated">詳細については、含まれるはアクティブなトランザクションにコマンドを参照してください。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">このパラメーターは、トランザクションが進行中の場合のみ有効です。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>For more information, see</source>
+          <target state="translated">詳細については、このトピックの後半の「</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to New-ItemProperty.</source>
+          <target state="translated">パイプを使用して入力を New-ItemProperty に渡すことはできません。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSCustomObject</source>
+          <target state="translated">System.Management.Automation.PSCustomObject</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>New-ItemProperty returns a custom object that contains the new property.</source>
+          <target state="translated">New-ItemProperty は、新しいプロパティを格納するカスタム オブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The New-ItemProperty cmdlet is designed to work with the data exposed by any provider.</source>
+          <target state="translated">New-ItemProperty コマンドレットは、プロバイダーによって公開されているデータを使用するように設計されています。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>To list the providers available in your session, type "Get-PSProvider".</source>
+          <target state="translated">セッションで使用可能なプロバイダーの一覧を表示するには、「Get-PSProvider」と入力します。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Providers.</source>
+          <target state="translated">詳細については、「about_Providers」を参照してください。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Clear-ItemProperty</source>
+          <target state="translated">Clear-itemproperty</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Copy-ItemProperty</source>
+          <target state="translated">Copy-itemproperty</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Get-ItemProperty</source>
+          <target state="translated">Get-itemproperty</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Move-ItemProperty</source>
+          <target state="translated">Move-itemproperty</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Remove-ItemProperty</source>
+          <target state="translated">Remove-itemproperty</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Rename-ItemProperty</source>
+          <target state="translated">Rename-itemproperty</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Set-ItemProperty</source>
+          <target state="translated">Set-ItemProperty</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>about_Providers</source>
+          <target state="translated">about_Providers</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

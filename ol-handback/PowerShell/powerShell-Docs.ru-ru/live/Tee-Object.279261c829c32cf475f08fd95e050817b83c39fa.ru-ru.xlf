@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cb3c4f7eea35b03691f758aceb456c1f55e897f8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Utility\Tee-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90ba4738722cb7656222ebf0bf183e4f8ed54ebb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">03a028d68ffc6e7b53dc95d93ca62fc26032363a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell, командлет</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Tee-Object</source>
+          <target state="translated">Tee-Object</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Tee-Object</source>
+          <target state="translated">Tee-Object</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">КРАТКИЙ ОБЗОР</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Saves command output in a file or variable and also sends it down the pipeline.</source>
+          <target state="translated">Сохраняет выходные данные команды в файле или переменной, а также отправляет их в конвейер.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">СИНТАКСИС</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>File (Default)</source>
+          <target state="translated">Файл (по умолчанию)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LiteralFile</source>
+          <target state="translated">LiteralFile</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Variable</source>
+          <target state="translated">Переменная</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">ОПИСАНИЕ</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Tee-Object cmdlet redirects output, that is, it sends the output of a command in two directions (like the letter "T").</source>
+          <target state="translated">Командлет Tee-Object перенаправляет выходные данные, т. е. передает выходные данные команды в двух направлениях (как буква "T").</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It stores the output in a file or variable and also sends it down the pipeline.</source>
+          <target state="translated">Она сохраняет выходные данные команды в файле или переменной, а также отправляет их в конвейер.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If Tee-Object is the last command in the pipeline, the command output is displayed at the prompt.</source>
+          <target state="translated">Если Tee-Object — это последняя команда в конвейере, выходные данные отображается в командной строке.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ПРИМЕРЫ</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- ПРИМЕР 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This command gets a list of the processes running on the computer and sends the result to a file.</source>
+          <target state="translated">Эта команда возвращает список процессов, запущенных на компьютере, и отправляет результаты в файл.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Because a second path is not specified, the processes are also displayed in the console.</source>
+          <target state="translated">Так как второй путь не указан, процессы также отображаются в консоли.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This command gets a list of the processes running on the computer and sends the result to a variable named "proc".</source>
+          <target state="translated">Эта команда возвращает список процессов, запущенных на компьютере, и отправляет результаты в переменную "proc".</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It then pipes the resulting objects along to Select-Object, which selects the ProcessName and Handles property.</source>
+          <target state="translated">Затем он передает полученные объекты командлету Select-Object, который выбирает свойства ProcessName и Handles.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Note that the $proc variable includes the default information returned by Get-Process.</source>
+          <target state="translated">Обратите внимание, что переменная $proc по умолчанию содержит данные, возвращаемые командлетом Get-Process.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command saves a list of system files in a two log files, a cumulative file and a current file.</source>
+          <target state="translated">Эта команда сохраняет список системных файлов в двух файлах журнала, накопительном и текущем файле.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-ChildItem cmdlet to do a recursive search for system files on the D: drive.</source>
+          <target state="translated">Команда использует командлет Get-ChildItem для рекурсивного поиска системных файлов на диске D:.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A pipeline operator (|) sends the list to Tee-Object, which appends the list to the AllSystemFiles.txt file and passes the list down the pipeline to the Out-File cmdlet, which saves the list in the NewSystemFiles.txt file.</source>
+          <target state="translated">Оператор конвейера (|) отправляет список командлету Tee-Object, который добавляет его к файлу AllSystemFiles.txt и передает по конвейеру в командлету Out-File, который сохраняет список в файле NewSystemFiles.txt.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">ПАРАМЕТРЫ</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-Append</source>
+          <target state="translated">-Добавление</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Appends the output to the specified file.</source>
+          <target state="translated">Добавляет выходные данные в указанный файл.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Without this parameter, the new content replaces any existing content in the file without warning.</source>
+          <target state="translated">Без этого параметра новое содержимое заменяет все существующее содержимое файла без предупреждения.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Этот параметр впервые появился в Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-FilePath</source>
+          <target state="translated">-FilePath</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Saves the object in the specified file.</source>
+          <target state="translated">Сохраняет объект в указанном файле.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted, but must resolve to a single file.</source>
+          <target state="translated">Подстановочные знаки разрешены, но они должны сопоставляться с одним файлом.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specifies the object to be saved and displayed.</source>
+          <target state="translated">Указывает объект, который необходимо показать и сохранить.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects or type a command or expression that gets the objects.</source>
+          <target state="translated">Введите переменную, которая содержит объекты, или команду или выражение, которое возвращает объекты.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can also pipe an object to Tee-Object.</source>
+          <target state="translated">Объект также можно передать команде Tee-Object.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When you use the InputObject parameter with Tee-Object, instead of piping command results to Tee-Object, the InputObject value-even if the value is a collection that is the result of a command, such as -InputObject (Get-Process)-is treated as a single object.</source>
+          <target state="translated">При использовании параметра InputObject с Tee-Object вместо результаты выполнения команды конвейер Tee-Object InputObject значение, даже если значение является коллекцией, являющийся результатом выполнения команды, например - InputObject (Get-Process)-рассматривается как один объект.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Because InputObject cannot return individual properties from an array or collection of objects, it is recommended that if you use Tee-Object to perform operations on a collection of objects for those objects that have specific values in defined properties, you use Tee-Object in the pipeline, as shown in the examples in this topic.</source>
+          <target state="translated">Поскольку InputObject не возвращает отдельные свойства из массива или коллекции объектов, при использовании Tee-Object для выполнения операций с коллекцией объектов рекомендуется использовать Tee-Object в конвейере для объектов с определенными значениями в указанных свойствах, как показано в примерах этого раздела.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-Variable</source>
+          <target state="translated">-Переменная</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Saves the object in the specified variable.</source>
+          <target state="translated">Сохраняет объект в указанной переменной.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Enter a variable name without the preceding dollar sign ($).</source>
+          <target state="translated">Введите имя переменной без предшествующего знака доллара ($).</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Saves the object in the specified file.</source>
+          <target state="translated">Сохраняет объект в указанном файле.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept>, the value of the <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">В отличие от <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept>, значение <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> параметр используется точно так, как оно указано.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">Никакие символы не интерпретируются как знаки подстановки.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">Если путь содержит escape-символы, заключите его в одинарные кавычки.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">Это позволит Windows PowerShell не интерпретировать какие-либо символы как символы Escape-последовательности.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Этот командлет поддерживает общие параметры:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction и - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Дополнительные сведения см. в разделе about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ВХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can pipe objects to Tee-Object.</source>
+          <target state="translated">Объекты могут быть переданы командлету Tee-Object в конвейере.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">ВЫХОДНЫЕ ДАННЫЕ</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Tee-Object returns the object that it redirects.</source>
+          <target state="translated">Tee-Object возвращает перенаправляемый объект.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ПРИМЕЧАНИЯ</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can also use the Out-File cmdlet or the redirection operator, both of which save the output in a file but do not send it down the pipeline.</source>
+          <target state="translated">Также можно использовать командлет Out-File или оператор перенаправления. Они сохраняют выходные данные в файле, но не отправляют их по конвейеру.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Tee-Object uses Unicode encoding when it writes to files.</source>
+          <target state="translated">Tee-Object использует кодировку Юникод, когда записывает их в файлы.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>As a result, the output might not be formatted properly in files with a different encoding.</source>
+          <target state="translated">В результате выходные данные могут быть неправильно отформатированы в файлах с другой кодировкой.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To specify the encoding, use the Out-File cmdlet.</source>
+          <target state="translated">Чтобы указать кодировку, используйте командлет Out-File.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">СВЯЗАННЫЕ ССЫЛКИ</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>about_Redirection</source>
+          <target state="translated">about_Redirection</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

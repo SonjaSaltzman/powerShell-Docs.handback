@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">55980d78a3b0e41d2f0e00cadabde389d0e2b973</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\Test-ModuleManifest.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67d96d133425b1cc0a81395cbb80853a01529893</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e05e66196b1377c9349734dd4058dddf91608e8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell 指令程式</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Test-ModuleManifest</source>
+          <target state="translated">Test-modulemanifest</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Test-ModuleManifest</source>
+          <target state="translated">Test-modulemanifest</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Verifies that a module manifest file accurately describes the contents of a module.</source>
+          <target state="translated">驗證模組資訊清單檔案可精確地說明模組的內容。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">語法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">描述</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Test-ModuleManifest cmdlet verifies that the files that are listed in the module manifest (.psd1) file actually exist in the specified paths.</source>
+          <target state="translated">Test-ModuleManifest Cmdlet 會驗證模組資訊清單 (.psd1) 檔案中所列的檔案實際存在於指定的路徑。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This cmdlet is designed to help module authors test their manifest files.</source>
+          <target state="translated">這個 Cmdlet 是設計來協助模組作者測試其資訊清單檔案。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Module users can also use this cmdlet in scripts and commands to detect errors before running scripts that depend on the module.</source>
+          <target state="translated">模組使用者也可以在指令碼和命令中使用這個 Cmdlet，在執行相依於模組的指令碼之前偵測錯誤。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Test-ModuleManifest cmdlet returns an object that represents the module (the same type of object that Get-Module returns).</source>
+          <target state="translated">Test-ModuleManifest Cmdlet 會傳回代表模組的物件 (Get-Module 傳回的相同物件類型)。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If any files are not in the locations specified in the manifest, the cmdlet also generates an error for each missing file.</source>
+          <target state="translated">若有檔案不在資訊清單中指定的位置，此 Cmdlet 也會針對每個遺失的檔案產生錯誤。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">範例</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 範例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This command tests the TestModule.psd1 module manifest.</source>
+          <target state="translated">此命令測試 TestModule.psd1 模組資訊清單。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This command uses a pipeline operator (|) to send a path string to Test-ModuleManifest.</source>
+          <target state="translated">此命令使用管線運算子 (|)，將路徑字串傳送至 Test-ModuleManifest。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The command output shows that the test failed, because the TestTypes.ps1xml file, which was listed in the manifest, was not found.</source>
+          <target state="translated">命令輸出顯示測試失敗，因為找不到資訊清單中所列的 TestTypes.ps1xml 檔案。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This function is like Test-ModuleManifest, but it returns a Boolean value;  it returns "True" if the manifest passed the test and "False" otherwise.</source>
+          <target state="translated">此函式類似 Test-ModuleManifest，但會傳回布林值。如果資訊清單通過測試，就傳回 "True"，否則傳回 "False"。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The function uses the Get-ChildItem cmdlet (alias = dir) to get the module manifest specified by the $path variable.</source>
+          <target state="translated">此函式使用 Get-ChildItem Cmdlet (別名 = dir)，取得 $path 變數所指定的模組資訊清單。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to pass the file object to the Test-ModuleManifest cmdlet.</source>
+          <target state="translated">它使用管線運算子 (|)，將檔案物件傳送至 Test-ModuleManifest Cmdlet。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The Test-ModuleManifest command uses the ErrorAction common parameter with a value of SilentlyContinue to suppress the display of any errors that the command generates.</source>
+          <target state="translated">Test-ModuleManifest 命令使用 ErrorAction 一般參數搭配 SilentlyContinue 的值，抑制顯示命令所產生的任何錯誤。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It also saves the PSModuleInfo object that Test-ModuleManifest returns in the $a variable, so the object is not displayed.</source>
+          <target state="translated">它也會將 Test-ModuleManifest 傳回的 PSModuleInfo 物件儲存於 $a 變數中，因此不會顯示物件。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Then, in a separate command (the semi-colon <ph id="ph1">\[</ph>;<ph id="ph2">\]</ph> is the command separator), it displays the value of the $?</source>
+          <target state="translated">然後，在個別的命令 (分號區隔 <ph id="ph1">\[</ph>;<ph id="ph2">\]</ph> 是命令分隔符號)，便會顯示 $ 數值嗎？</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>automatic variable, which returns "True" if the previous command generated no error and "False" otherwise.</source>
+          <target state="translated">自動變數，如果前一個命令可產生任何錯誤，"False"否則會傳回"True"。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can use this function in conditional statements, such as those that might precede an Import-Module command or a command that uses the module.</source>
+          <target state="translated">您可以在條件陳述式中使用這個函式，例如，可能是在 Import-Module 命令或使用模組的命令之前。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">參數</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the module manifest file.</source>
+          <target state="translated">指定模組資訊清單檔案的路徑。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Enter a path (optional) and the name of the module manifest file with the .psd1 file name extension.</source>
+          <target state="translated">輸入路徑 (選擇性) 以及副檔名為 .psd1 的模組資訊清單檔案的名稱。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The default location is the current directory.</source>
+          <target state="translated">預設位置是目前的目錄。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Wildcards are supported, but must resolve to a single module manifest file.</source>
+          <target state="translated">支援使用萬用字元，但必須解析為單一模組資訊清單檔案。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">此為必要參數。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The parameter name ("Path") is optional.</source>
+          <target state="translated">參數名稱 ("Path") 為選擇性。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can also pipe a path to Test-ModuleManifest.</source>
+          <target state="translated">您也可以使用管線將路徑傳送至 Test-ModuleManifest。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">這個 cmdlet 支援一般參數:-偵錯、-ErrorAction、-ErrorVariable、-InformationAction-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 以及-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">如需詳細資訊，請參閱 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">輸入</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can pipe the path to a module manifest to Test-ModuleManifest.</source>
+          <target state="translated">您可以使用管線將模組資訊清單的路徑傳送至 Test-ModuleManifest。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">輸出</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSModuleInfo</source>
+          <target state="translated">System.Management.Automation.PSModuleInfo</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Test-ModuleManifest returns a PSModuleInfo object that represents the module.</source>
+          <target state="translated">Test-ModuleManifest 會傳回代表模組的 PSModuleInfo 物件。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It returns this object even if the manifest has errors.</source>
+          <target state="translated">即使資訊清單發生錯誤，它還是會傳回這個物件。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">附註</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相關的連結</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Export-ModuleMember</source>
+          <target state="translated">Export-ModuleMember</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Get-Module</source>
+          <target state="translated">Get-Module</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>New-ModuleManifest</source>
+          <target state="translated">新 ModuleManifest</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Remove-Module</source>
+          <target state="translated">Remove-Module</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>about_Modules</source>
+          <target state="translated">about_Modules</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

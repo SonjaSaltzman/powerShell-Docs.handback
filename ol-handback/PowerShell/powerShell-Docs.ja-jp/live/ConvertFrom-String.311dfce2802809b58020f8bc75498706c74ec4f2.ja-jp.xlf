@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b887b04a42e3ed4a34c3149eb926434b2812073</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\ConvertFrom-String.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc139ae602e803d12e36303954502ffa7ba98dd3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12eb81c1f67bac207762a69fe821c7b8403f44b5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-String</source>
+          <target state="translated">ConvertFrom 文字列</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-String</source>
+          <target state="translated">ConvertFrom 文字列</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Extracts and parses structured objects from string content.</source>
+          <target state="translated">抽出し、構造化されたオブジェクト文字列の内容からを解析します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ByDelimiter (Default)</source>
+          <target state="translated">ByDelimiter (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>TemplateParsing</source>
+          <target state="translated">TemplateParsing</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ConvertFrom-String<ept id="p1">**</ept> cmdlet extracts and parses structured objects from string content.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>ConvertFrom 文字列<ept id="p1">**</ept> コマンドレットを抽出し、構造化されたオブジェクト文字列の内容からを解析します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This cmdlet generates an object by parsing text from a traditional text stream.</source>
+          <target state="translated">このコマンドレットは、従来のテキストのストリームからテキストを解析して、オブジェクトを生成します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For each string in the pipeline, the cmdlet splits the input by either a delimiter or a parse expression, and then assigns property names to each of the resulting split elements.</source>
+          <target state="translated">パイプライン内の各文字列は、このコマンドレットは、区切り記号、または解析の式で入力を分割し、結果としての要素を分割された各プロパティの名前を割り当てます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can provide these property names; if you do not, they are automatically generated for you.</source>
+          <target state="translated">これらのプロパティ名を指定することができます。そうしない場合の自動的に生成します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The cmdlet's default parameter set, <bpt id="p1">*</bpt>ByDelimiter<ept id="p1">*</ept>, splits exactly on the regular expression delimiter.</source>
+          <target state="translated">コマンドレットの既定のパラメーターは、次の設定、 <bpt id="p1">*</bpt>ByDelimiter<ept id="p1">*</ept>, 、正規表現の区切り記号で正確に分割されています。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It does not perform quote matching or delimiter escaping as the Import-Csv cmdlet does.</source>
+          <target state="translated">引用符に一致するか、Import-csv コマンドレットでは、区切り記号のエスケープを行うことはできません。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The cmdlet's alternate parameter set, <bpt id="p1">*</bpt>TemplateParsing<ept id="p1">*</ept>, generates elements from the groups that are captured by a regular expression.</source>
+          <target state="translated">コマンドレットの代替パラメーターは、次の設定、 <bpt id="p1">*</bpt>TemplateParsing<ept id="p1">*</ept>, 、正規表現によってキャプチャされたグループから要素を生成します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports two modes: basic delimited parsing, and automatically-generated, example-driven parsing.</source>
+          <target state="translated">このコマンドレットは、2 つのモードをサポートしています: basic は、解析、および自動的に生成された、例に基づく解析区切られます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Delimited parsing, by default, splits the input at white space, and assigns property names to the resulting groups.</source>
+          <target state="translated">区切り記号による解析では、既定で、入力を空白の位置で分割し、生成されるグループにプロパティ名を割り当てます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can customize the delimiter by piping the <bpt id="p1">**</bpt>ConvertFrom-String<ept id="p1">**</ept> results into one of the Format-<bpt id="p2">*</bpt> cmdlets, or you can use the <ept id="p2">*</ept>Delimiter* parameter.</source>
+          <target state="translated">パイプ区切り記号をカスタマイズする、 <bpt id="p1">**</bpt>ConvertFrom 文字列<ept id="p1">**</ept> 結果の形式のいずれかに<bpt id="p2">*</bpt> コマンドレット、または使用して、 <ept id="p2">*</ept>区切り文字 * パラメーター。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The cmdlet also supports automatically-generated, example-driven parsing based on the <bpt id="p1">**</bpt>FlashExtract<ept id="p1">**</ept> research work by Microsoft Researchhttp://research.microsoft.com/.</source>
+          <target state="translated">また、コマンドレットでは自動的に生成された、例に基づく解析に基づいてサポートしています、 <bpt id="p1">**</bpt>FlashExtract<ept id="p1">**</ept> Microsoft Researchhttp://research.microsoft.com/ で作業を調査します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Example 1: Generate an object with default property names</source>
+          <target state="translated">例 1: 既定のプロパティ名を持つオブジェクトを生成します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command generates an object with default property names, P1 and P2.</source>
+          <target state="translated">このコマンドは、既定のプロパティ名、P1 と P2 を持つオブジェクトを生成します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The results are P1=Hello and P2=World.</source>
+          <target state="translated">結果は、P1 = こんにちは、P2 = 世界です。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Generate an object with default property names using a delimiter</source>
+          <target state="translated">例 2: 区切り記号を使用して既定のプロパティ名を持つオブジェクトを生成します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command generates an object with P1=He and P2=o World, by specifying the ll in Hello  as the delimiter.</source>
+          <target state="translated">このコマンドは、P1 を持つオブジェクトを生成します。 彼は、P2 = 区切り文字として Hello で ll を指定することで世界では、o を = です。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 3: Use an expression as the value of the TemplateContent parameter</source>
+          <target state="translated">例 3: TemplateContent パラメーターの値として式を使用します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command uses an expression as the value of the <bpt id="p1">*</bpt>TemplateContent<ept id="p1">*</ept> parameter to instruct Windows PowerShell that the string that is used on the pipeline to <bpt id="p2">**</bpt>ConvertFrom-String<ept id="p2">**</ept> has a property of <bpt id="p3">**</bpt>Name<ept id="p3">**</ept>.</source>
+          <target state="translated">このコマンドの値として式を使用して、 <bpt id="p1">*</bpt>TemplateContent<ept id="p1">*</ept> Windows PowerShell に指示するパラメーターを文字列にパイプラインで使用されている <bpt id="p2">**</bpt>ConvertFrom 文字列<ept id="p2">**</ept> のプロパティを持つ <bpt id="p3">**</bpt>名前<ept id="p3">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can also save the expression in a variable, then use the variable as the value of the <bpt id="p1">*</bpt>TemplateContent<ept id="p1">*</ept> parameter, as shown here.</source>
+          <target state="translated">変数に式を保存の値として変数を使用します、 <bpt id="p1">*</bpt>TemplateContent<ept id="p1">*</ept> パラメーターは、次のようにします。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Example 4: Generate an object that contains two properties</source>
+          <target state="translated">例 4: 2 つのプロパティを格納しているオブジェクトを生成します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command generates an object that contains two properties, FirstWord and SecondWord.</source>
+          <target state="translated">このコマンドは、FirstWord と SecondWord の 2 つのプロパティを格納しているオブジェクトを生成します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The results are FirstWord=Hello and SecondWord=World.</source>
+          <target state="translated">結果は FirstWord = こんにちはと SecondWord = 世界です。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example 5: Generate two objects of different object types</source>
+          <target state="translated">例 5: 別のオブジェクトの種類の 2 つのオブジェクトを生成します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This command generates an object with default property names P1 and P2, but property types String and Integer are identified.</source>
+          <target state="translated">このコマンドには、P1 と P2 の既定のプロパティ名を持つオブジェクトが生成されますが、文字列と整数のプロパティの型が識別されます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The results are P1=123 and P2=456.</source>
+          <target state="translated">結果は、P1 = 123、P2 = 456 します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The second property is an integer, not a string.</source>
+          <target state="translated">2 番目のプロパティは、整数、文字列ではなくです。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-Delimiter</source>
+          <target state="translated">区切り記号</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specifies a regular expression that identifies the boundary between elements.</source>
+          <target state="translated">要素間の境界を識別する正規表現を指定します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Elements that are created by the split become properties in the resulting object.</source>
+          <target state="translated">分割が作成されている要素では、結果として得られるオブジェクトのプロパティになります。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The delimiter is ultimately used in a call to <bpt id="p1">**</bpt>System.Text.RegularExpressions.RegularExpression.Split()<ept id="p1">**</ept>.</source>
+          <target state="translated">区切り記号が最終的にへの呼び出しで使用される <bpt id="p1">**</bpt>System.Text.RegularExpressions.RegularExpression.Split()<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-IncludeExtent</source>
+          <target state="translated">-IncludeExtent</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet includes an extent text property that is removed by default.</source>
+          <target state="translated">このコマンドレットには、既定では削除されるエクステント text プロパティが含まれていることを示します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-Inputobject</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specifies strings received from the pipeline, or a variable that contains a string object.</source>
+          <target state="translated">パイプライン、または文字列オブジェクトを含む変数から受信した文字列を指定します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-PropertyNames</source>
+          <target state="translated">-PropertyNames</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Specifies and array of property names to which to assign split values in the resulting object.</source>
+          <target state="translated">指定し、結果のオブジェクトの分割値の割り当て先となるプロパティ名の配列。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Every line of text that you split or parse generates elements that represent property values.</source>
+          <target state="translated">分割または解析するテキストの各行には、プロパティの値を表す要素が生成されます。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If the element is the result of a capture group, and that capture group is named (for example, (?<ph id="ph1">\&lt;</ph>name<ph id="ph2">\&gt;</ph>) or (?'name') ), then the name of that capture group is assigned to the property.</source>
+          <target state="translated">要素は、キャプチャ グループの結果とそのキャプチャ グループの名前は (たとえば、(?<ph id="ph1">\&lt;</ph>名前<ph id="ph2">\&gt;</ph>) または (ですか?'名前 '))、そのキャプチャ グループの名前がプロパティに代入します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you provide any elements in the <bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept> array, those names are assigned to properties that have not yet been named.</source>
+          <target state="translated">内の各要素を提供する場合、 <bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept> 配列、それらの名前は、というされていないプロパティに割り当てられています。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If you provide more property names than there are fields, Windows PowerShell ignores the extra property names.</source>
+          <target state="translated">フィールドの数よりも多くのプロパティ名を指定する場合、Windows PowerShell には、余分なプロパティの名前が無視されます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you do not specify enough property names to name all fields, Windows PowerShellautomatically assigns numerical property names to any properties that are not named: P1, P2, etc.</source>
+          <target state="translated">すべてのフィールドの名前を付けるには、十分なプロパティ名を指定しない場合 Windows PowerShellautomatically によっては名前が付いていないプロパティの数値プロパティの名前が割り当てられます。 P1、P2、などです。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-TemplateContent</source>
+          <target state="translated">-TemplateContent</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Specifies an expression, or an expression saved as a variable, that describes the properties to which this cmdlet assigns strings.</source>
+          <target state="translated">このコマンドレットが文字列を割り当てるプロパティを記述する変数として保存式または、式を指定します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The syntax of a template field specification is the following: {<ph id="ph1">\[</ph>optional-typecast<ph id="ph2">\]</ph>name(sequence-spec, for example <bpt id="p1">*</bpt>):example-value}. An example is {PersonInfo<ept id="p1">*</ept>:{Name:Patti Fuller}.</source>
+          <target state="translated">テンプレートのフィールドの仕様の構文は次: {<ph id="ph1">\[</ph>省略可能な型キャスト<ph id="ph2">\]</ph>name(sequence-spec, for example <bpt id="p1">*</bpt>):example-値} します。例としては、{PersonInfo<ept id="p1">*</ept>: {名前: Patti Fuller} します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-TemplateFile</source>
+          <target state="translated">-TemplateFile</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies a file, as an array, that contains a template for the desired parsing of the string.</source>
+          <target state="translated">文字列の必要な解析用のテンプレートを格納する配列として、ファイルを指定します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In the template file, properties and their values are enclosed in brackets, as shown in the following example.</source>
+          <target state="translated">テンプレート ファイルにプロパティとその値はかっこで囲みます、次の例で示すようにします。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If a property, such as the Name property and its associated other properties, appears multiple times, you can add an asterisk (*) to indicate that this results in multiple records.</source>
+          <target state="translated">場合は、Name プロパティとそれに関連するなどのプロパティのプロパティを複数回、再起動により複数のレコードを示すアスタリスク (*) を追加することができますが表示されます。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This avoids extracting multiple properties into a single record.</source>
+          <target state="translated">これは、1 つのレコードに複数のプロパティを抽出する回避できます。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>{Name*:David Chew}</source>
+          <target state="translated">{Name*:David 迫ら}</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>{City:Redmond}, {State:WA}</source>
+          <target state="translated">{市区町村: Redmond}, {状態: WA}</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>{Name*:Evan Narvaez}</source>
+          <target state="translated">{Name*:Evan Narvaez}</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>{City:Issaquah}, {State:WA}</source>
+          <target state="translated">{市区町村終わった} {状態: WA}。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-UpdateTemplate</source>
+          <target state="translated">-UpdateTemplate</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet saves the results of a learning algorithm into a comment in the template file.</source>
+          <target state="translated">このコマンドレットが、テンプレート ファイル内のコメントに、学習アルゴリズムの結果を保存することを示します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This makes the algorithm learning process faster.</source>
+          <target state="translated">これにより、学習プロセスを高速アルゴリズムです。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To use this parameter, you must also specify a template file with the <bpt id="p1">*</bpt>TemplateFile<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">このパラメーターを使用するのには、テンプレートのファイルも指定する必要があります、 <bpt id="p1">*</bpt>TemplateFile<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-String: Example-based text parsing</source>
+          <target state="translated">ConvertFrom 文字列: 例に基づいたテキストの解析</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-StringData</source>
+          <target state="translated">ConvertFrom-StringData</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-Csv</source>
+          <target state="translated">ConvertFrom-Csv</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>ConvertTo-Xml</source>
+          <target state="translated">ConvertTo-Xml</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
