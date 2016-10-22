@@ -1,31 +1,11 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [reference\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/644c0b9071a31a9731452ae4f909dd1718347322/reference/readme.md) | ArchivedSuccess | [Details](#81a43a673285ba00710b4bbe450ecf316951746b193)
 
 ## Item Details
-##### <a name='81a43a673285ba00710b4bbe450ecf316951746b193'></a> Source: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/644c0b9071a31a9731452ae4f909dd1718347322/reference/readme.md)
-* Status: ArchivedSuccess
-* Target File: 
-* Handoff File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/4d96bd5a260196ba1c6cca03bcb5deb1426df1f8/ol-handoff/PowerShell/powerShell-Docs.ko-kr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ko-kr.xlf)
-* Handoff Datetime: 2016-10-13 17:56:24
-* Handoff Reason: Include
-* Archive File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/eedf1fa78bd604ae8a518fe27f1682d28f709640/ol-archive/PowerShell/powerShell-Docs.ko-kr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ko-kr.xlf)
-* Archive Datetime: 2016-10-18 19:22:33
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs.ko-kr/blob/b4b20b821a6170ab88d8ec0d055cc7530a87388f/reference/readme.md)
-* Current Handback File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9713507b66adee0cc07d0db8828c524b0dbc92cc/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ko-kr.xlf)
-* Current Handback Datetime: 2016-10-22 20:09:38
-* Bilingual File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9713507b66adee0cc07d0db8828c524b0dbc92cc/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ko-kr.xlf)
-* Bilingual Datetime: 2016-10-22 20:10:23
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
