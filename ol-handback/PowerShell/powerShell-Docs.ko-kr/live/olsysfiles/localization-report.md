@@ -3343,6 +3343,9 @@
 * Archive Datetime: 2016-10-18 19:22:33
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs.ko-kr/blob/b4b20b821a6170ab88d8ec0d055cc7530a87388f/reference/readme.md)
+* Current Handback File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9713507b66adee0cc07d0db8828c524b0dbc92cc/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ko-kr.xlf)
+* Current Handback Datetime: 2016-10-22 20:09:38
 * [Back to Top](#report-top)
 
 ##### <a name='406bc766c9278b03371d2f3098eabedaeb75da1d194'></a> Source: [reference\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/31f3ceaf2c99430c48dcfdb65c851af0126157b2/reference/TOC.md)
