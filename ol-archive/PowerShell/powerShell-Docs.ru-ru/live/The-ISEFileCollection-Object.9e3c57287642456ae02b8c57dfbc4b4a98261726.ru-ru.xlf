@@ -2,12 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c334a38d6686be45101f4569f38411e9703c8fea</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">109d93df4ebe6dbc354d333e038846ad2c3cb984</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\The-ISEFileCollection-Object.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">238a0a3a9cfdacd61ba63a6ab63558d9fc547bae</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">943b777c908bc4bc65ee5573ec296d94fa38bb30</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f51dc80f41c1434db60b966b30ad76f801bb2fbd</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -42,8 +43,8 @@
           <source>The <bpt id="p1">**</bpt>IsUntitled<ept id="p1">**</ept> property of the newly created file is <bpt id="p2">**</bpt>$true<ept id="p2">**</ept>.</source>
           <target state="translated">Свойство <bpt id="p1">**</bpt>IsUntitled<ept id="p1">**</ept> созданного файла имеет значение <bpt id="p2">**</bpt>$true<ept id="p2">**</ept>.</target>       </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt><ph id="ph1">\[</ph>fullPath<ph id="ph2">\]</ph><ept id="p1">**</ept> – Optional string The fully specified path of the file.</source>
-          <target state="translated"><bpt id="p1">**</bpt><ph id="ph1">\[</ph>fullPath<ph id="ph2">\]</ph><ept id="p1">**</ept> — необязательная строка. Полный путь к файлу.</target>       </trans-unit>
+          <source><bpt id="p1">**</bpt><ph id="ph1">\[</ph>fullPath<ph id="ph2">\]</ph><ept id="p1">**</ept> - Optional string The fully specified path of the file.</source>
+          <target state="translated"><bpt id="p1">**</bpt><ph id="ph1">\[</ph>fullPath<ph id="ph2">\]</ph><ept id="p1">**</ept> — необязательная строка. Полный путь к файлу.</target>       </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>An exception is generated if you include the <bpt id="p1">**</bpt>fullPath<ept id="p1">**</ept> parameter and a relative path, or if you use a file name instead of the full path.</source>
           <target state="translated">Исключение возникает, если включен параметр <bpt id="p1">**</bpt>fullPath<ept id="p1">**</ept> и относительный путь или если вместо полного пути используется имя файла.</target>       </trans-unit>
@@ -57,8 +58,8 @@
           <source>Removes a specified file from the current PowerShell tab.</source>
           <target state="translated">Удаляет указанный файл из текущей вкладки PowerShell.</target>       </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>File<ept id="p1">**</ept> – String The ISEFile file that you want to remove from the collection.</source>
-          <target state="translated"><bpt id="p1">**</bpt>File<ept id="p1">**</ept> — строка. Файл ISEFile, который требуется удалить из коллекции.</target>       </trans-unit>
+          <source><bpt id="p1">**</bpt>File<ept id="p1">**</ept> - String The ISEFile file that you want to remove from the collection.</source>
+          <target state="translated"><bpt id="p1">**</bpt>File<ept id="p1">**</ept> — строка. Файл ISEFile, удаляемый из коллекции.</target>       </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>If the file has not been saved, this method throws an exception.</source>
           <target state="translated">Если файл не был сохранен, этот метод создает исключение.</target>       </trans-unit>
@@ -66,7 +67,7 @@
           <source>Use the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> switch parameter to force the removal of an unsaved file.</source>
           <target state="translated">Используйте параметр <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> для принудительного удаления несохраненного файла.</target>       </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt><ph id="ph1">\[</ph>Force<ph id="ph2">\]</ph><ept id="p1">**</ept> – optional Boolean If set to <bpt id="p2">**</bpt>$true<ept id="p2">**</ept>, grants permission to remove the file even if it has not been saved after last use.</source>
+          <source><bpt id="p1">**</bpt><ph id="ph1">\[</ph>Force<ph id="ph2">\]</ph><ept id="p1">**</ept> - optional Boolean If set to <bpt id="p2">**</bpt>$true<ept id="p2">**</ept>, grants permission to remove the file even if it has not been saved after last use.</source>
           <target state="translated"><bpt id="p1">**</bpt><ph id="ph1">\[</ph>Force<ph id="ph2">\]</ph><ept id="p1">**</ept> — необязательное логическое значение. Если задано значение <bpt id="p2">**</bpt>$true<ept id="p2">**</ept>, предоставляет разрешение на удаление файла, даже если он не был сохранен с момента последнего использования.</target>       </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>The default is <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>.</source>
@@ -81,7 +82,7 @@
           <source>Selects the file that is specified by the <bpt id="p1">**</bpt>selectedFile<ept id="p1">**</ept> parameter.</source>
           <target state="translated">Выбирает файл, который задается параметром <bpt id="p1">**</bpt>selectedFile<ept id="p1">**</ept>.</target>       </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>selectedFile<ept id="p1">**</ept> – Microsoft.PowerShell.Host.ISE.ISEFile The ISEFile file that you want to select.</source>
+          <source><bpt id="p1">**</bpt>selectedFile<ept id="p1">**</ept> - Microsoft.PowerShell.Host.ISE.ISEFile The ISEFile file that you want to select.</source>
           <target state="translated"><bpt id="p1">**</bpt>selectedFile<ept id="p1">**</ept> — Microsoft.PowerShell.Host.ISE.ISEFile. Выбираемый файл ISEFile.</target>       </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>See Also</source>

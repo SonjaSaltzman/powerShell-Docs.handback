@@ -2,12 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4fb33c9" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dc50a729855a71d61c187da9d698bd294f740546</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f62b1e0ec9f26e1b2bcb364c78a2ce39467655a5</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\web-access\authorization-rules-and-security-features-of-windows-powershell-web-access.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fda0c75ed6ee20eb9ad2a725fd61c2bc37756d8c</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">27b978f5a59c5f59ccddcd20e9e5401ce2844f92</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0450c633ad61a9d6c89b19f2a1019ac5098d288b</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -399,8 +400,8 @@
           <source>Verify that the rule has been created by running either the <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> cmdlet, or <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain<ph id="ph2">\\</ph>user | computer<ph id="ph3">\\</ph>user<ph id="ph4">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph5">&amp;lt;</ph>computer_name<ph id="ph6">&amp;gt;</ph>.</source>
           <target state="translated">Убедитесь, что правило создано, выполнив командлет <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> или <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>домен<ph id="ph2">\\</ph>пользователь | компьютер<ph id="ph3">\\</ph>пользователь<ph id="ph4">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph5">&amp;lt;</ph>имя_компьютера<ph id="ph6">&amp;gt;</ph>.</target>       </trans-unit>
         <trans-unit id="230" translate="yes" xml:space="preserve">
-          <source>For example, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso<ph id="ph1">\\</ph>JSmith –ComputerName Contoso_214<ept id="p1">**</ept>.</source>
-          <target state="translated">Например, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso<ph id="ph1">\\</ph>JSmith –ComputerName Contoso_214<ept id="p1">**</ept>.</target>       </trans-unit>
+          <source>For example, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule -UserName Contoso<ph id="ph1">\\</ph>JSmith -ComputerName Contoso_214<ept id="p1">**</ept>.</source>
+          <target state="translated">Например, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule -UserName Contoso<ph id="ph1">\\</ph>JSmith -ComputerName Contoso_214<ept id="p1">**</ept>.</target>       </trans-unit>
         <trans-unit id="231" translate="yes" xml:space="preserve">
           <source>To remove an authorization rule</source>
           <target state="translated">Удаление правила авторизации</target>       </trans-unit>
@@ -498,8 +499,8 @@
           <source>The administrator runs the cmdlet <ph id="ph1">&lt;span class="code"&gt;</ph>Add-PswaAuthorizationRule <ph id="ph2">\*</ph> <ph id="ph3">\*</ph> <ph id="ph4">\*&lt;/span&gt;</ph>, which uses the wildcard character <bpt id="p1">**</bpt><ph id="ph5">\*</ph><ept id="p1">**</ept> to represent all users, all computers, and all configurations.</source>
           <target state="translated">Администратор выполняет командлет <ph id="ph1">&lt;span class="code"&gt;</ph>Add-PswaAuthorizationRule <ph id="ph2">\*</ph> <ph id="ph3">\*</ph> <ph id="ph4">\*&lt;/span&gt;</ph>, в котором подстановочный знак <bpt id="p1">**</bpt><ph id="ph5">\*</ph><ept id="p1">**</ept> используется, чтобы представлять всех пользователей, все компьютеры и все конфигурации.</target>       </trans-unit>
         <trans-unit id="263" translate="yes" xml:space="preserve">
-          <source>This rule is the equivalent of the following: <ph id="ph1">&lt;span class="code"&gt;</ph>Add-PswaAuthorizationRule –UserName <ph id="ph2">\*</ph> -ComputerName <ph id="ph3">\*</ph> -ConfigurationName <ph id="ph4">\*&lt;/span&gt;</ph>.</source>
-          <target state="translated">Это правило эквивалентно следующему: <ph id="ph1">&lt;span class="code"&gt;</ph>Add-PswaAuthorizationRule –UserName <ph id="ph2">\*</ph> -ComputerName <ph id="ph3">\*</ph> -ConfigurationName <ph id="ph4">\*&lt;/span&gt;</ph>.</target>       </trans-unit>
+          <source>This rule is the equivalent of the following: <ph id="ph1">&lt;span class="code"&gt;</ph>Add-PswaAuthorizationRule -UserName <ph id="ph2">\*</ph> -ComputerName <ph id="ph3">\*</ph> -ConfigurationName <ph id="ph4">\*&lt;/span&gt;</ph>.</source>
+          <target state="translated">Это правило равнозначно следующему: <ph id="ph1">&lt;span class="code"&gt;</ph>Add-PswaAuthorizationRule -UserName <ph id="ph2">\*</ph> -ComputerName <ph id="ph3">\*</ph> -ConfigurationName <ph id="ph4">\*&lt;/span&gt;</ph>.</target>       </trans-unit>
         <trans-unit id="264" translate="yes" xml:space="preserve">
           <source>Security Note</source>
           <target state="translated">Примечание о безопасности</target>       </trans-unit>
@@ -730,8 +731,8 @@
           <source>Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.</source>
           <target state="translated">Сторонние сценарии или код, на которые ссылается этот сайт, предоставляются вам по лицензии третьими лицами, являющимися владельцами такого кода, а не корпорацией Майкрософт.</target>       </trans-unit>
         <trans-unit id="339" translate="yes" xml:space="preserve">
-          <source>See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.</source>
-          <target state="translated">См. условия использования ASP.NET Ajax CDN http://www.asp.net/ajaxlibrary/CDN.ashx.</target>       </trans-unit>
+          <source>See ASP.NET Ajax CDN Terms of Use - http://www.asp.net/ajaxlibrary/CDN.ashx.</source>
+          <target state="translated">См. условия использования ASP.NET Ajax CDN — http://www.asp.net/ajaxlibrary/CDN.ashx.</target>       </trans-unit>
       </group>
     </body>
   </file>
