@@ -5174,8 +5174,8 @@
 * Archive Datetime: 2016-10-18 19:21:51
 * Handback File: [Installing-the-Windows-PowerShell-2.0-Engine.190b56ee17b5135bba49f697312b896e5c3755dd.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/381ec3abc9bc95c5beb3b3e9bd4456fdd4e3186b/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Installing-the-Windows-PowerShell-2.0-Engine.190b56ee17b5135bba49f697312b896e5c3755dd.zh-cn.xlf)
 * Handback Datetime: 2016-10-22 16:11:22
-* Bilingual File: [Installing-the-Windows-PowerShell-2.0-Engine.190b56ee17b5135bba49f697312b896e5c3755dd.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cefec343530d9e49fef55fc9af3726615d899a30/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Installing-the-Windows-PowerShell-2.0-Engine.190b56ee17b5135bba49f697312b896e5c3755dd.zh-cn.xlf)
-* Bilingual Datetime: 2016-10-20 14:03:52
+* Bilingual File: [Installing-the-Windows-PowerShell-2.0-Engine.190b56ee17b5135bba49f697312b896e5c3755dd.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/381ec3abc9bc95c5beb3b3e9bd4456fdd4e3186b/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Installing-the-Windows-PowerShell-2.0-Engine.190b56ee17b5135bba49f697312b896e5c3755dd.zh-cn.xlf)
+* Bilingual Datetime: 2016-10-22 16:12:04
 * [Back to Top](#report-top)
 
 ##### <a name='7af27dc9bd8e93d1df5258b0d8df8af12726f568314'></a> Source: [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs/blob/7caac42751c580d588fcf19db7253c8b75d6c865/scripting/setup/Installing-the-Windows-PowerShell-SDK.md)
