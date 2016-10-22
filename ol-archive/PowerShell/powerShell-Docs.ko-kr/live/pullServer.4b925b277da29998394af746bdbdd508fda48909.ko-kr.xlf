@@ -2,12 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7bbfc31fdebdde83ac1784373b51af40b1dc9492</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4ab20cdcac6f10dc9ecab6d85b38f413e0ade8b0</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\pullServer.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45f73da9a65989e1340e96033c42361fa0644b8e</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33a192c34278fce539fb1023b4e9a1ee8ede8c34</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ab304cdddcf3a726f5e9cc66f2e871079b83128e</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -180,75 +181,78 @@
           <source>With this change, zip the folder as described above and place these zip files in the <bpt id="p1">**</bpt>ModulePath<ept id="p1">**</ept> folder.</source>
           <target state="translated">이렇게 변경하고 위에서 설명한 대로 폴더를 압축하여 이러한 zip 파일을 <bpt id="p1">**</bpt>ModulePath<ept id="p1">**</ept> 폴더에 배치합니다.</target>       </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Use <ph id="ph1">`new-dscchecksum {module zip file}`</ph> to create a checksum file for the newly-added module.</source>
+          <target state="translated"><ph id="ph1">`new-dscchecksum {module zip file}`</ph>을 사용하여 새로 추가된 모듈에 대한 체크섬 파일을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
           <source>Configuration MOF format</source>
           <target state="translated">구성 MOF 형식</target>       </trans-unit>
-        <trans-unit id="158" translate="yes" xml:space="preserve">
+        <trans-unit id="159" translate="yes" xml:space="preserve">
           <source>A configuration MOF file needs to be paired with a checksum file so that an LCM on a target node can validate the configuration.</source>
           <target state="translated">구성 MOF 파일은 대상 노드의 LCM이 구성에 대한 유효성을 검사할 수 있도록 체크섬 파일과 함께 사용해야 합니다.</target>       </trans-unit>
-        <trans-unit id="159" translate="yes" xml:space="preserve">
+        <trans-unit id="160" translate="yes" xml:space="preserve">
           <source>To create a checksum, call the <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
           <target state="translated">체크섬을 만들려면 <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet을 호출합니다.</target>       </trans-unit>
-        <trans-unit id="160" translate="yes" xml:space="preserve">
+        <trans-unit id="161" translate="yes" xml:space="preserve">
           <source>The cmdlet takes a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter that specifies the folder where the configuration MOF is located.</source>
           <target state="translated">이 cmdlet은 구성 MOF가 있는 폴더를 지정하는 <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> 매개 변수를 사용합니다.</target>       </trans-unit>
-        <trans-unit id="161" translate="yes" xml:space="preserve">
+        <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>The cmdlet creates a checksum file named <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph2">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
           <target state="translated">cmdlet은 <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>이라는 체크섬 파일을 만들며, 여기서 <ph id="ph2">`ConfigurationMOFName`</ph>은 구성 mof 파일의 이름입니다.</target>       </trans-unit>
-        <trans-unit id="162" translate="yes" xml:space="preserve">
+        <trans-unit id="163" translate="yes" xml:space="preserve">
           <source>If there are more than one configuration MOF files in the specified folder, a checksum is created for each configuration in the folder.</source>
           <target state="translated">지정된 폴더에 구성 MOF 파일이 두 개 이상 있는 경우, 폴더에 있는 각 구성에 대해 체크섬이 만들어집니다.</target>       </trans-unit>
-        <trans-unit id="163" translate="yes" xml:space="preserve">
+        <trans-unit id="164" translate="yes" xml:space="preserve">
           <source>Place the MOF files and their associated checksum files in the the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> folder.</source>
           <target state="translated">MOF 파일 및 연관된 체크섬 파일을 <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> 폴더에 배치합니다.</target>       </trans-unit>
-        <trans-unit id="164" translate="yes" xml:space="preserve">
+        <trans-unit id="165" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
           <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept>: 어떤 식으로든 구성 MOF 파일을 변경하는 경우 체크섬 파일도 다시 만들어야 합니다.</target>       </trans-unit>
-        <trans-unit id="165" translate="yes" xml:space="preserve">
+        <trans-unit id="166" translate="yes" xml:space="preserve">
           <source>Tooling</source>
           <target state="translated">도구</target>       </trans-unit>
-        <trans-unit id="166" translate="yes" xml:space="preserve">
+        <trans-unit id="167" translate="yes" xml:space="preserve">
           <source>In order to make setting up, validating and managing the pull server easier, the following tools are included as examples in the latest version of the xPSDesiredStateConfiguration module:</source>
           <target state="translated">끌어오기 서버를 더 간단히 설정하고 유효성을 검사하고 관리할 수 있도록 xPSDesiredStateConfiguration 모듈의 최신 버전에는 다음 도구가 예제로 포함되어 있습니다.</target>       </trans-unit>
-        <trans-unit id="167" translate="yes" xml:space="preserve">
+        <trans-unit id="168" translate="yes" xml:space="preserve">
           <source>A module that will help with packaging DSC resource modules and configuration files for use on the pull server.</source>
           <target state="translated">끌어오기 서버에서 사용할 DSC 리소스 모듈 및 구성 파일을 패키징하는 데 도움이 되는 모듈:</target>       </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
+        <trans-unit id="169" translate="yes" xml:space="preserve">
           <source><bpt id="p1">[</bpt>PublishModulesAndMofsToPullServer.psm1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/DSCPullServerSetup/PublishModulesAndMofsToPullServer.psm1)</ept>.</source>
           <target state="translated"><bpt id="p1">[</bpt>PublishModulesAndMofsToPullServer.psm1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/DSCPullServerSetup/PublishModulesAndMofsToPullServer.psm1)</ept>.</target>       </trans-unit>
-        <trans-unit id="169" translate="yes" xml:space="preserve">
+        <trans-unit id="170" translate="yes" xml:space="preserve">
           <source>Examples below:</source>
           <target state="translated">다음은 예제입니다.</target>       </trans-unit>
-        <trans-unit id="170" translate="yes" xml:space="preserve">
+        <trans-unit id="171" translate="yes" xml:space="preserve">
           <source>A script that validates the Pull Server is configured correctly.</source>
           <target state="translated">끌어오기 서버가 올바로 구성되었는지 확인하는 스크립트:</target>       </trans-unit>
-        <trans-unit id="171" translate="yes" xml:space="preserve">
+        <trans-unit id="172" translate="yes" xml:space="preserve">
           <source><bpt id="p1">[</bpt>PullServerSetupTests.ps1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/Examples/PullServerDeploymentVerificationTest/PullServerSetupTests.ps1)</ept>.</source>
           <target state="translated"><bpt id="p1">[</bpt>PullServerSetupTests.ps1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/Examples/PullServerDeploymentVerificationTest/PullServerSetupTests.ps1)</ept>.</target>       </trans-unit>
-        <trans-unit id="172" translate="yes" xml:space="preserve">
+        <trans-unit id="173" translate="yes" xml:space="preserve">
           <source>Pull client configuration</source>
           <target state="translated">끌어오기 클라이언트 구성</target>       </trans-unit>
-        <trans-unit id="173" translate="yes" xml:space="preserve">
+        <trans-unit id="174" translate="yes" xml:space="preserve">
           <source>The following topics describe setting up pull clients in detail:</source>
           <target state="translated">다음 항목에서는 끌어오기 클라이언트를 설정하는 것에 대해 자세히 설명합니다.</target>       </trans-unit>
-        <trans-unit id="174" translate="yes" xml:space="preserve">
+        <trans-unit id="175" translate="yes" xml:space="preserve">
           <source>Setting up a DSC pull client using a configuration ID</source>
           <target state="translated">구성 ID를 사용하여 DSC 끌어오기 클라이언트 설정</target>       </trans-unit>
-        <trans-unit id="175" translate="yes" xml:space="preserve">
+        <trans-unit id="176" translate="yes" xml:space="preserve">
           <source>Setting up a DSC pull client using configuration names</source>
           <target state="translated">구성 이름을 사용하여 DSC 끌어오기 클라이언트 설정</target>       </trans-unit>
-        <trans-unit id="176" translate="yes" xml:space="preserve">
+        <trans-unit id="177" translate="yes" xml:space="preserve">
           <source>Partial configurations</source>
           <target state="translated">부분 구성</target>       </trans-unit>
-        <trans-unit id="177" translate="yes" xml:space="preserve">
+        <trans-unit id="178" translate="yes" xml:space="preserve">
           <source>See also</source>
           <target state="translated">참고 항목</target>       </trans-unit>
-        <trans-unit id="178" translate="yes" xml:space="preserve">
+        <trans-unit id="179" translate="yes" xml:space="preserve">
           <source>Windows PowerShell Desired State Configuration Overview</source>
           <target state="translated">Windows PowerShell 필요한 상태 구성 개요</target>       </trans-unit>
-        <trans-unit id="179" translate="yes" xml:space="preserve">
+        <trans-unit id="180" translate="yes" xml:space="preserve">
           <source>Enacting configurations</source>
           <target state="translated">구성 시행</target>       </trans-unit>
-        <trans-unit id="180" translate="yes" xml:space="preserve">
+        <trans-unit id="181" translate="yes" xml:space="preserve">
           <source>Using a DSC report server</source>
           <target state="translated">DSC 보고서 서버 사용</target>       </trans-unit>
       </group>

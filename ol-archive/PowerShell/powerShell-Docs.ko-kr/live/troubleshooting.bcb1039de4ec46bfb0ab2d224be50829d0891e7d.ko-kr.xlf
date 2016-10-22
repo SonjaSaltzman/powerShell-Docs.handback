@@ -2,13 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4830be14b105485c50446f06e9d36491b4c4fe44</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d06b330e3a64705e2f86230e8a9e344e85b8d4be</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\troubleshooting.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1d0053b3c1159290027a16a4fde6096501a4cf3</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6b788af936d94b4682ecf3edfba7bc63e9ffa420</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">57f001de1aa27f7e7f7822090daf5e67e2807e0d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">840a0e34c5dfe8abcf90949d4685a2826801e558</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -264,153 +264,156 @@
           <source>Getting details of DSC events</source>
           <target state="translated">DSC 이벤트의 세부 정보 가져오기</target>       </trans-unit>
         <trans-unit id="184" translate="yes" xml:space="preserve">
-          <source>The <ph id="ph1">`Trace-xDscOperation1 cmdlet returns an object containing a collection of events, their event types, and the message output generated from a particular DSC operation. Typically, when you find a failure in any of the operations using `</ph>Get-xDscOperation`, you would trace that operation to find out which of the events caused a failure.</source>
-          <target state="translated"><ph id="ph1">`Trace-xDscOperation1 cmdlet returns an object containing a collection of events, their event types, and the message output generated from a particular DSC operation. Typically, when you find a failure in any of the operations using `</ph>Get-xDscOperation`, 오류를 초래한 이벤트를 찾기 위해 해당 작업을 추적하게 됩니다.</target>       </trans-unit>
+          <source>The <ph id="ph1">`Trace-xDscOperation1`</ph> cmdlet returns an object containing a collection of events, their event types, and the message output generated from a particular DSC operation.</source>
+          <target state="translated"><ph id="ph1">`Trace-xDscOperation1`</ph> cmdlet은 이벤트의 컬렉션, 해당 이벤트 형식 및 특정 DSC 작업으로 생성된 메시지 출력을 포함하는 개체를 반환합니다.</target>       </trans-unit>
         <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Typically, when you find a failure in any of the operations using <ph id="ph1">`Get-xDscOperation`</ph>, you would trace that operation to find out which of the events caused a failure.</source>
+          <target state="translated">일반적으로 <ph id="ph1">`Get-xDscOperation`</ph>을 사용하는 작업 중에 오류가 발생하면, 오류를 초래한 이벤트를 찾기 위해 해당 작업을 추적하게 됩니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
           <source>Use the  <ph id="ph1">`SequenceID`</ph> parameter to get the events for a specific operation for a specific computer.</source>
           <target state="translated"><ph id="ph1">`SequenceID`</ph> 매개 변수를 사용하여 특정 컴퓨터의 특정 작업에 대한 이벤트를 가져옵니다.</target>       </trans-unit>
-        <trans-unit id="186" translate="yes" xml:space="preserve">
+        <trans-unit id="187" translate="yes" xml:space="preserve">
           <source>For example, if you specify a <ph id="ph1">`SequenceID`</ph> of 9, <ph id="ph2">`Trace-xDscOperaion`</ph> get the trace for the DSC operation that was 9th from the last operation:</source>
           <target state="translated">예를 들어 <ph id="ph1">`SequenceID`</ph>를 9로 지정하는 경우 <ph id="ph2">`Trace-xDscOperaion`</ph>은 마지막 작업에서 9번째인 DSC 작업에 대한 추적을 가져옵니다.</target>       </trans-unit>
-        <trans-unit id="187" translate="yes" xml:space="preserve">
+        <trans-unit id="188" translate="yes" xml:space="preserve">
           <source>Pass the <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> assigned to a specific DSC operation (as returned by the <ph id="ph1">`Get-xDscOperation`</ph> cmldet) to get the event details for that DSC operation:</source>
           <target state="translated"><ph id="ph1">`Get-xDscOperation`</ph> cmldet에서 반환하는 특정 DSC 작업에 할당된 <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept>를 전달하여 해당 DSC 작업에 대한 이벤트 세부 정보를 가져옵니다.</target>       </trans-unit>
-        <trans-unit id="188" translate="yes" xml:space="preserve">
+        <trans-unit id="189" translate="yes" xml:space="preserve">
           <source>Note that, since <ph id="ph1">`Trace-xDscOperation`</ph> aggregates events from the Analytic, Debug, and Operational logs, it will prompt you to enable these logs as described above.</source>
           <target state="translated"><ph id="ph1">`Trace-xDscOperation`</ph>에서는 분석, 디버그 및 작업 로그에서 이벤트를 집계하므로, 위에서 설명한 대로 이러한 로그를 사용하도록 설정하라는 메시지가 표시됩니다.</target>       </trans-unit>
-        <trans-unit id="189" translate="yes" xml:space="preserve">
+        <trans-unit id="190" translate="yes" xml:space="preserve">
           <source>Alternately, you can gather information on the events by saving the output of <ph id="ph1">`Trace-xDscOperation`</ph> into a variable.</source>
           <target state="translated">또는, <ph id="ph1">`Trace-xDscOperation`</ph>의 출력을 변수에 저장하여 이벤트에 대한 정보를 수집할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="190" translate="yes" xml:space="preserve">
+        <trans-unit id="191" translate="yes" xml:space="preserve">
           <source>You can use the following commands to display all the events for a particular DSC operation.</source>
           <target state="translated">다음 명령을 사용하여 특정 DSC 작업에 대한 모든 이벤트를 표시할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="191" translate="yes" xml:space="preserve">
+        <trans-unit id="192" translate="yes" xml:space="preserve">
           <source>This will display the same results as the <ph id="ph1">`Get-WinEvent`</ph> cmdlet, such as in the output below:</source>
           <target state="translated">이렇게 하면 아래 출력과 같이 <ph id="ph1">`Get-WinEvent`</ph> cmdlet과 동일한 결과가 표시됩니다.</target>       </trans-unit>
-        <trans-unit id="192" translate="yes" xml:space="preserve">
+        <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>Ideally, you would first use <ph id="ph1">`Get-xDscOperation`</ph> to list out the last few DSC configuration runs on your machines.</source>
           <target state="translated">먼저 <ph id="ph1">`Get-xDscOperation`</ph>을 사용하여 컴퓨터에서의 마지막 몇 개 DSC 구성 실행을 나열하는 것이 좋습니다.</target>       </trans-unit>
-        <trans-unit id="193" translate="yes" xml:space="preserve">
+        <trans-unit id="194" translate="yes" xml:space="preserve">
           <source>Following this, you can examine any single operation (using its SequenceID or JobID) with <ph id="ph1">`Trace-xDscOperation`</ph> to discover what it did behind the scenes.</source>
           <target state="translated">그런 다음에 <ph id="ph1">`Trace-xDscOperation`</ph>으로 단일 작업(해당 SequenceID 또는 JobID 사용)을 검사하여 백그라운드에서 수행한 작업을 검색할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="194" translate="yes" xml:space="preserve">
+        <trans-unit id="195" translate="yes" xml:space="preserve">
           <source>Getting events for a remote computer</source>
           <target state="translated">원격 컴퓨터에 대한 이벤트 가져오기</target>       </trans-unit>
-        <trans-unit id="195" translate="yes" xml:space="preserve">
+        <trans-unit id="196" translate="yes" xml:space="preserve">
           <source>Use the <ph id="ph1">`ComputerName`</ph> parameter of the <ph id="ph2">`Trace-xDscOperation`</ph> cmdlet to get the event details on a remote computer.</source>
           <target state="translated"><ph id="ph2">`Trace-xDscOperation`</ph> cmdlet의 <ph id="ph1">`ComputerName`</ph> 매개 변수를 사용하여 원격 컴퓨터의 이벤트 세부 정보를 가져옵니다.</target>       </trans-unit>
-        <trans-unit id="196" translate="yes" xml:space="preserve">
+        <trans-unit id="197" translate="yes" xml:space="preserve">
           <source>Before you can do this, you have to create a firewall rule to allow remote administration on the remote computer:</source>
           <target state="translated">이렇게 하려면 먼저 원격 컴퓨터에서 원격 관리를 허용하도록 방화벽 규칙을 만들어야 합니다.</target>       </trans-unit>
-        <trans-unit id="197" translate="yes" xml:space="preserve">
+        <trans-unit id="198" translate="yes" xml:space="preserve">
           <source>Now you can specify that computer in your call to <ph id="ph1">`Trace-xDscOperation`</ph>:</source>
           <target state="translated">이제 호출에서 해당 컴퓨터를 <ph id="ph1">`Trace-xDscOperation`</ph>으로 지정할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="198" translate="yes" xml:space="preserve">
+        <trans-unit id="199" translate="yes" xml:space="preserve">
           <source>My resources won’t update: How to reset the cache</source>
           <target state="translated">리소스가 업데이트되지 않습니다: 캐시 재설정 방법</target>       </trans-unit>
-        <trans-unit id="199" translate="yes" xml:space="preserve">
+        <trans-unit id="200" translate="yes" xml:space="preserve">
           <source>The DSC engine caches resources implemented as a PowerShell module for efficiency purposes.</source>
           <target state="translated">DSC 엔진은 효율성 향상을 위해 PowerShell 모듈로서 구현하는 리소스를 캐시합니다.</target>       </trans-unit>
-        <trans-unit id="200" translate="yes" xml:space="preserve">
+        <trans-unit id="201" translate="yes" xml:space="preserve">
           <source>However, this can cause problems when you are authoring a resource and testing it simultaneously because DSC will load the cached version until the process is restarted.</source>
           <target state="translated">그러나 이렇게 하면 프로세스가 다시 시작되기 전까지 DSC가 캐시된 버전을 로드하게 되므로 리소스를 작성하고 동시에 테스트하는 경우 문제가 발생할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="201" translate="yes" xml:space="preserve">
+        <trans-unit id="202" translate="yes" xml:space="preserve">
           <source>The only way to make DSC load the newer version is to explicitly kill the process hosting the DSC engine.</source>
           <target state="translated">DSC가 최신 버전을 로드하도록 하는 유일한 방법은 DSC 엔진을 호스팅하는 프로세스를 명시적으로 종료하는 것입니다.</target>       </trans-unit>
-        <trans-unit id="202" translate="yes" xml:space="preserve">
+        <trans-unit id="203" translate="yes" xml:space="preserve">
           <source>Similarly, when you run <ph id="ph1">`Start-DscConfiguration`</ph>, after adding and modifying a custom resource, the modification may not execute unless, or until, the computer is rebooted.</source>
           <target state="translated">마찬가지로, <ph id="ph1">`Start-DscConfiguration`</ph>을 실행하는 경우, 사용자 지정 리소스를 추가하고 수정하면 컴퓨터를 다시 부팅하지 않으면, 또는 다시 부팅하기 전까지는 수정이 실행되지 않을 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="203" translate="yes" xml:space="preserve">
+        <trans-unit id="204" translate="yes" xml:space="preserve">
           <source>This is because DSC runs in the WMI Provider Host Process (WmiPrvSE), and usually, there are many instances of WmiPrvSE running at once.</source>
           <target state="translated">이것은 DSC가 WMI 공급자 호스트 프로세스(WmiPrvSE)에서 실행되고, 일반적으로 한 번에 실행되는 WmiPrvSE 인스턴스가 많기 때문입니다.</target>       </trans-unit>
-        <trans-unit id="204" translate="yes" xml:space="preserve">
+        <trans-unit id="205" translate="yes" xml:space="preserve">
           <source>When you reboot, the host process is restarted and the cache is cleared.</source>
           <target state="translated">컴퓨터를 다시 부팅하면 호스트 프로세스가 다시 시작되고 캐시가 지워집니다.</target>       </trans-unit>
-        <trans-unit id="205" translate="yes" xml:space="preserve">
+        <trans-unit id="206" translate="yes" xml:space="preserve">
           <source>To successfully recycle the configuration and clear the cache without rebooting, you must stop and then restart the host process.</source>
           <target state="translated">다시 부팅하지 않고도 구성을 성공적으로 재활용하고, 캐시를 지우려면, 호스트 프로세스를 중지했다가 다시 시작해야 합니다.</target>       </trans-unit>
-        <trans-unit id="206" translate="yes" xml:space="preserve">
+        <trans-unit id="207" translate="yes" xml:space="preserve">
           <source>This can be done on a per instance basis, whereby you identify the process, stop it, and restart it.</source>
           <target state="translated">이 작업은 인스턴스별로 수행할 수 있으며, 그에 따라 프로세스를 식별, 중지 및 다시 시작할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="207" translate="yes" xml:space="preserve">
+        <trans-unit id="208" translate="yes" xml:space="preserve">
           <source>Or, you can use <ph id="ph1">`DebugMode`</ph>, as demonstrated below, to reload the PowerShell DSC resource.</source>
           <target state="translated">또는 아래 설명된 대로 <ph id="ph1">`DebugMode`</ph>를 사용하여 PowerShell DSC 리소스를 다시 로드할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="208" translate="yes" xml:space="preserve">
+        <trans-unit id="209" translate="yes" xml:space="preserve">
           <source>To identify which process is hosting the DSC engine and stop it on a per instance basis, you can list the process ID of the WmiPrvSE which is hosting the DSC engine.</source>
           <target state="translated">인스턴스별로 DSC 엔진을 호스트하고 중지하는 프로세스를 식별하기 위해 DSC 엔진을 호스팅하는 WmiPrvSE의 프로세스 ID를 나열할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="209" translate="yes" xml:space="preserve">
+        <trans-unit id="210" translate="yes" xml:space="preserve">
           <source>Then, to update the provider, stop the WmiPrvSE process using the commands below, and then run <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> again.</source>
           <target state="translated">그런 다음 공급자를 업데이트하려면, 아래 명령을 사용하여 WmiPrvSE 프로세스를 중지한 다음, <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept>을 다시 실행합니다.</target>       </trans-unit>
-        <trans-unit id="210" translate="yes" xml:space="preserve">
+        <trans-unit id="211" translate="yes" xml:space="preserve">
           <source>Using DebugMode</source>
           <target state="translated">DebugMode 사용</target>       </trans-unit>
-        <trans-unit id="211" translate="yes" xml:space="preserve">
+        <trans-unit id="212" translate="yes" xml:space="preserve">
           <source>You can configure the DSC Local Configuration Manager (LCM) to use <ph id="ph1">`DebugMode`</ph> to always clear the cache when the host process is restarted.</source>
           <target state="translated">호스트 프로세스를 다시 시작할 때 항상 캐시가 지워지도록 하기 위해 <ph id="ph1">`DebugMode`</ph>를 사용하도록 DSC LCM(로컬 구성 관리자)를 구성할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="212" translate="yes" xml:space="preserve">
+        <trans-unit id="213" translate="yes" xml:space="preserve">
           <source>When set to <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept>, it causes the engine to always reload the PowerShell DSC resource.</source>
           <target state="translated"><bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept>로 설정하면, 엔진이 항상 PowerShell DSC 리소스를 다시 로드합니다.</target>       </trans-unit>
-        <trans-unit id="213" translate="yes" xml:space="preserve">
+        <trans-unit id="214" translate="yes" xml:space="preserve">
           <source>Once you are done writing your resource, you can set it back to <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept> and the engine will revert to its behavior of caching the modules.</source>
           <target state="translated">리소스를 작성을 완료하면, 다시 <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept>로 설정할 수 있으며, 엔진은 모듈을 캐싱하는 동작으로 되돌아갑니다.</target>       </trans-unit>
-        <trans-unit id="214" translate="yes" xml:space="preserve">
+        <trans-unit id="215" translate="yes" xml:space="preserve">
           <source>Following is a demonstration to show how <ph id="ph1">`DebugMode`</ph> can automatically refresh the cache.</source>
           <target state="translated">다음은 <ph id="ph1">`DebugMode`</ph>가 캐시를 자동으로 새로 고칠 수 있는 방법을 보여 주는 데모입니다.</target>       </trans-unit>
-        <trans-unit id="215" translate="yes" xml:space="preserve">
+        <trans-unit id="216" translate="yes" xml:space="preserve">
           <source>First, let’s look at the default configuration:</source>
           <target state="translated">우선, 기본 구성을 살펴보겠습니다.</target>       </trans-unit>
-        <trans-unit id="216" translate="yes" xml:space="preserve">
+        <trans-unit id="217" translate="yes" xml:space="preserve">
           <source>You can see that <ph id="ph1">`DebugMode`</ph> is set to <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept>.</source>
           <target state="translated"><ph id="ph1">`DebugMode`</ph>가 <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept>로 설정된 것을 확인할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="217" translate="yes" xml:space="preserve">
+        <trans-unit id="218" translate="yes" xml:space="preserve">
           <source>To set up the <ph id="ph1">`DebugMode`</ph> demonstration, use the following PowerShell resource:</source>
           <target state="translated"><ph id="ph1">`DebugMode`</ph> 데모를 설정하려면 다음 PowerShell 리소스를 사용합니다.</target>       </trans-unit>
-        <trans-unit id="218" translate="yes" xml:space="preserve">
+        <trans-unit id="219" translate="yes" xml:space="preserve">
           <source>Now, author a configuration using the above resource called <ph id="ph1">`TestProviderDebugMode`</ph>:</source>
           <target state="translated">이제, <ph id="ph1">`TestProviderDebugMode`</ph>라는 위의 리소스를 사용하여 구성을 작성합니다.</target>       </trans-unit>
-        <trans-unit id="219" translate="yes" xml:space="preserve">
+        <trans-unit id="220" translate="yes" xml:space="preserve">
           <source>You will see that the contents of file: “<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>” is <bpt id="p2">**</bpt>1<ept id="p2">**</ept>.</source>
           <target state="translated">파일 "<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>"의 내용이 <bpt id="p2">**</bpt>1<ept id="p2">**</ept>인 것을 확인하게 될 것입니다.</target>       </trans-unit>
-        <trans-unit id="220" translate="yes" xml:space="preserve">
+        <trans-unit id="221" translate="yes" xml:space="preserve">
           <source>Now, update the provider code using the following script:</source>
           <target state="translated">이제, 다음 스크립트를 사용하여 공급자 코드를 업데이트합니다.</target>       </trans-unit>
-        <trans-unit id="221" translate="yes" xml:space="preserve">
+        <trans-unit id="222" translate="yes" xml:space="preserve">
           <source>This script generates a random number and updates the provider code accordingly.</source>
           <target state="translated">이 스크립트는 난수를 생성하고 그에 따라 공급자 코드를 업데이트합니다.</target>       </trans-unit>
-        <trans-unit id="222" translate="yes" xml:space="preserve">
+        <trans-unit id="223" translate="yes" xml:space="preserve">
           <source>With <ph id="ph1">`DebugMode`</ph> set to false, the contents of the file “<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>” are never changed.</source>
           <target state="translated"><ph id="ph1">`DebugMode`</ph>가 false로 설정되면 파일 "<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>"의 내용은 결코 변경되지 않습니다.</target>       </trans-unit>
-        <trans-unit id="223" translate="yes" xml:space="preserve">
+        <trans-unit id="224" translate="yes" xml:space="preserve">
           <source>Now, set <ph id="ph1">`DebugMode`</ph> to <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept> in your configuration script:</source>
           <target state="translated">이제, 구성 스크립트에서 <ph id="ph1">`DebugMode`</ph>를 <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept>로 설정합니다.</target>       </trans-unit>
-        <trans-unit id="224" translate="yes" xml:space="preserve">
+        <trans-unit id="225" translate="yes" xml:space="preserve">
           <source>When you run the above script again, you will see that the content of the file is different every time.</source>
           <target state="translated">다시 위의 스크립트를 실행하면 파일의 내용이 매번 다른 것을 보게 됩니다.</target>       </trans-unit>
-        <trans-unit id="225" translate="yes" xml:space="preserve">
+        <trans-unit id="226" translate="yes" xml:space="preserve">
           <source>(You can run <ph id="ph1">`Get-DscConfiguration`</ph> to check it).</source>
           <target state="translated">(<ph id="ph1">`Get-DscConfiguration`</ph>를 실행하여 확인할 수 있습니다.)</target>       </trans-unit>
-        <trans-unit id="226" translate="yes" xml:space="preserve">
+        <trans-unit id="227" translate="yes" xml:space="preserve">
           <source>Below is the result of two additional runs (your results may be different when you run the script):</source>
           <target state="translated">다음은 두 번의 추가 실행에 대한 결과입니다(결과는 스크립트를 실행하는 경우 다를 수 있음).</target>       </trans-unit>
-        <trans-unit id="227" translate="yes" xml:space="preserve">
+        <trans-unit id="228" translate="yes" xml:space="preserve">
           <source>See Also</source>
           <target state="translated">참고 항목</target>       </trans-unit>
-        <trans-unit id="228" translate="yes" xml:space="preserve">
+        <trans-unit id="229" translate="yes" xml:space="preserve">
           <source>Reference</source>
           <target state="translated">참조</target>       </trans-unit>
-        <trans-unit id="229" translate="yes" xml:space="preserve">
+        <trans-unit id="230" translate="yes" xml:space="preserve">
           <source>DSC Log Resource</source>
           <target state="translated">DSC 로그 리소스</target>       </trans-unit>
-        <trans-unit id="230" translate="yes" xml:space="preserve">
+        <trans-unit id="231" translate="yes" xml:space="preserve">
           <source>Concepts</source>
           <target state="translated">개념</target>       </trans-unit>
-        <trans-unit id="231" translate="yes" xml:space="preserve">
+        <trans-unit id="232" translate="yes" xml:space="preserve">
           <source>Build Custom Windows PowerShell Desired State Configuration Resources</source>
           <target state="translated">사용자 지정 Windows PowerShell 필요한 상태 구성 리소스 빌드</target>       </trans-unit>
-        <trans-unit id="232" translate="yes" xml:space="preserve">
+        <trans-unit id="233" translate="yes" xml:space="preserve">
           <source>Other Resources</source>
           <target state="translated">관련 자료</target>       </trans-unit>
-        <trans-unit id="233" translate="yes" xml:space="preserve">
+        <trans-unit id="234" translate="yes" xml:space="preserve">
           <source>Windows PowerShell Desired State Configuration Cmdlets</source>
           <target state="translated">Windows PowerShell Desired State Configuration Cmdlets(Windows PowerShell 필요한 상태 구성 Cmdlet)</target>       </trans-unit>
       </group>
