@@ -2,13 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4830be14b105485c50446f06e9d36491b4c4fe44</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d06b330e3a64705e2f86230e8a9e344e85b8d4be</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\troubleshooting.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1d0053b3c1159290027a16a4fde6096501a4cf3</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6b788af936d94b4682ecf3edfba7bc63e9ffa420</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">57f001de1aa27f7e7f7822090daf5e67e2807e0d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">840a0e34c5dfe8abcf90949d4685a2826801e558</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -264,153 +264,156 @@
           <source>Getting details of DSC events</source>
           <target state="translated">Abrufen von Details der DSC-Ereignisse</target>       </trans-unit>
         <trans-unit id="184" translate="yes" xml:space="preserve">
-          <source>The <ph id="ph1">`Trace-xDscOperation1 cmdlet returns an object containing a collection of events, their event types, and the message output generated from a particular DSC operation. Typically, when you find a failure in any of the operations using `</ph>Get-xDscOperation`, you would trace that operation to find out which of the events caused a failure.</source>
-          <target state="translated">Das Cmdlet „Trace-xDscOperation1“ gibt ein Objekt zurück, das eine Sammlung von Ereignissen, deren Ereignistypen und die von einem bestimmten DSC-Vorgang generierte Meldungsausgabe enthält. Wenn bei einem der Get-xDscOperation-Vorgänge ein Fehler auftritt, sollten Sie den Vorgang nachverfolgen, um herauszufinden, welches der Ereignisse den Fehler hervorgerufen hat.</target>       </trans-unit>
+          <source>The <ph id="ph1">`Trace-xDscOperation1`</ph> cmdlet returns an object containing a collection of events, their event types, and the message output generated from a particular DSC operation.</source>
+          <target state="translated">Das Cmdlet <ph id="ph1">`Trace-xDscOperation1`</ph> gibt ein Objekt zurück, das eine Sammlung von Ereignissen, deren Ereignistypen und die von einem bestimmten DSC-Vorgang generierte Meldungsausgabe enthält.</target>       </trans-unit>
         <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Typically, when you find a failure in any of the operations using <ph id="ph1">`Get-xDscOperation`</ph>, you would trace that operation to find out which of the events caused a failure.</source>
+          <target state="translated">Wenn Sie mit <ph id="ph1">`Get-xDscOperation`</ph> in einem der Vorgänge einen Fehler finden, würden Sie diesen Vorgang normalerweise verfolgen, um herauszufinden, welches Ereignis den Fehler verursacht hat.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
           <source>Use the  <ph id="ph1">`SequenceID`</ph> parameter to get the events for a specific operation for a specific computer.</source>
           <target state="translated">Verwenden Sie den Parameter <ph id="ph1">`SequenceID`</ph>, um die Ereignisse eines bestimmten Vorgangs auf einem bestimmten Computer abzurufen.</target>       </trans-unit>
-        <trans-unit id="186" translate="yes" xml:space="preserve">
+        <trans-unit id="187" translate="yes" xml:space="preserve">
           <source>For example, if you specify a <ph id="ph1">`SequenceID`</ph> of 9, <ph id="ph2">`Trace-xDscOperaion`</ph> get the trace for the DSC operation that was 9th from the last operation:</source>
           <target state="translated">Wenn Sie beispielsweise für <ph id="ph1">`SequenceID`</ph> „9“ angeben, ruft <ph id="ph2">`Trace-xDscOperaion`</ph> die Verfolgung des neuntletzten DSC-Vorgangs ab:</target>       </trans-unit>
-        <trans-unit id="187" translate="yes" xml:space="preserve">
+        <trans-unit id="188" translate="yes" xml:space="preserve">
           <source>Pass the <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> assigned to a specific DSC operation (as returned by the <ph id="ph1">`Get-xDscOperation`</ph> cmldet) to get the event details for that DSC operation:</source>
           <target state="translated">Übergeben Sie die einem bestimmten DSC-Vorgang zugeordnete <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> (wie vom Cmdlet <ph id="ph1">`Get-xDscOperation`</ph> zurückgegeben), um die Ereignisdetails für diesen DSC-Vorgang abzurufen:</target>       </trans-unit>
-        <trans-unit id="188" translate="yes" xml:space="preserve">
+        <trans-unit id="189" translate="yes" xml:space="preserve">
           <source>Note that, since <ph id="ph1">`Trace-xDscOperation`</ph> aggregates events from the Analytic, Debug, and Operational logs, it will prompt you to enable these logs as described above.</source>
           <target state="translated">Beachten Sie Folgendes: Da <ph id="ph1">`Trace-xDscOperation`</ph> Ereignisse aus den analytischen Protokollen, den Debugprotokollen und den Betriebsprotokollen aggregiert, werden Sie aufgefordert, diese Protokolle wie oben beschrieben zu aktivieren.</target>       </trans-unit>
-        <trans-unit id="189" translate="yes" xml:space="preserve">
+        <trans-unit id="190" translate="yes" xml:space="preserve">
           <source>Alternately, you can gather information on the events by saving the output of <ph id="ph1">`Trace-xDscOperation`</ph> into a variable.</source>
           <target state="translated">Informationen zu den Ereignissen können Sie alternativ auch sammeln, indem Sie die Ausgabe von <ph id="ph1">`Trace-xDscOperation`</ph> in einer Variablen speichern.</target>       </trans-unit>
-        <trans-unit id="190" translate="yes" xml:space="preserve">
+        <trans-unit id="191" translate="yes" xml:space="preserve">
           <source>You can use the following commands to display all the events for a particular DSC operation.</source>
           <target state="translated">Verwenden Sie die folgenden Befehle, um alle Ereignisse für einen bestimmten DSC-Vorgang anzuzeigen.</target>       </trans-unit>
-        <trans-unit id="191" translate="yes" xml:space="preserve">
+        <trans-unit id="192" translate="yes" xml:space="preserve">
           <source>This will display the same results as the <ph id="ph1">`Get-WinEvent`</ph> cmdlet, such as in the output below:</source>
           <target state="translated">Dadurch werden gleichen Ergebnisse wie durch das Cmdlet <ph id="ph1">`Get-WinEvent`</ph> in der unten stehenden Ausgabe angezeigt:</target>       </trans-unit>
-        <trans-unit id="192" translate="yes" xml:space="preserve">
+        <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>Ideally, you would first use <ph id="ph1">`Get-xDscOperation`</ph> to list out the last few DSC configuration runs on your machines.</source>
           <target state="translated">Im Idealfall würden Sie zuerst <ph id="ph1">`Get-xDscOperation`</ph> verwenden, um die letzten DSC-Konfigurationsausführungen auf Ihren Computern aufzulisten.</target>       </trans-unit>
-        <trans-unit id="193" translate="yes" xml:space="preserve">
+        <trans-unit id="194" translate="yes" xml:space="preserve">
           <source>Following this, you can examine any single operation (using its SequenceID or JobID) with <ph id="ph1">`Trace-xDscOperation`</ph> to discover what it did behind the scenes.</source>
           <target state="translated">Im Anschluss können Sie jeden einzelnen Vorgang (anhand der Sequenz-ID oder der Auftrags-ID) mit <ph id="ph1">`Trace-xDscOperation`</ph> untersuchen, um zu ermitteln, was im Hintergrund geschehen ist.</target>       </trans-unit>
-        <trans-unit id="194" translate="yes" xml:space="preserve">
+        <trans-unit id="195" translate="yes" xml:space="preserve">
           <source>Getting events for a remote computer</source>
           <target state="translated">Abrufen von Ereignissen für einen Remotecomputer</target>       </trans-unit>
-        <trans-unit id="195" translate="yes" xml:space="preserve">
+        <trans-unit id="196" translate="yes" xml:space="preserve">
           <source>Use the <ph id="ph1">`ComputerName`</ph> parameter of the <ph id="ph2">`Trace-xDscOperation`</ph> cmdlet to get the event details on a remote computer.</source>
           <target state="translated">Verwenden Sie den Parameter <ph id="ph1">`ComputerName`</ph> des Cmdlets <ph id="ph2">`Trace-xDscOperation`</ph>, um Details von Ereignissen abzurufen, die auf einem Remotecomputer auftreten.</target>       </trans-unit>
-        <trans-unit id="196" translate="yes" xml:space="preserve">
+        <trans-unit id="197" translate="yes" xml:space="preserve">
           <source>Before you can do this, you have to create a firewall rule to allow remote administration on the remote computer:</source>
           <target state="translated">Zuvor müssen Sie eine Firewallregel erstellen, um die Remoteverwaltung auf dem Remotecomputer zu erlauben:</target>       </trans-unit>
-        <trans-unit id="197" translate="yes" xml:space="preserve">
+        <trans-unit id="198" translate="yes" xml:space="preserve">
           <source>Now you can specify that computer in your call to <ph id="ph1">`Trace-xDscOperation`</ph>:</source>
           <target state="translated">Nun können Sie diesen Computer angeben, wenn Sie <ph id="ph1">`Trace-xDscOperation`</ph> aufrufen:</target>       </trans-unit>
-        <trans-unit id="198" translate="yes" xml:space="preserve">
+        <trans-unit id="199" translate="yes" xml:space="preserve">
           <source>My resources won’t update: How to reset the cache</source>
           <target state="translated">Meine Ressourcen werden nicht aktualisiert: Zurücksetzen des Caches</target>       </trans-unit>
-        <trans-unit id="199" translate="yes" xml:space="preserve">
+        <trans-unit id="200" translate="yes" xml:space="preserve">
           <source>The DSC engine caches resources implemented as a PowerShell module for efficiency purposes.</source>
           <target state="translated">Das DSC-Modul speichert Ressourcen zwischen, die aus Effizienzgründen als PowerShell-Modul implementiert wurden.</target>       </trans-unit>
-        <trans-unit id="200" translate="yes" xml:space="preserve">
+        <trans-unit id="201" translate="yes" xml:space="preserve">
           <source>However, this can cause problems when you are authoring a resource and testing it simultaneously because DSC will load the cached version until the process is restarted.</source>
           <target state="translated">Dies kann jedoch Probleme verursachen, wenn Sie eine Ressource erstellen und gleichzeitig testen, da DSC die zwischengespeicherte Version lädt, solange der Vorgang nicht neu gestartet wurde.</target>       </trans-unit>
-        <trans-unit id="201" translate="yes" xml:space="preserve">
+        <trans-unit id="202" translate="yes" xml:space="preserve">
           <source>The only way to make DSC load the newer version is to explicitly kill the process hosting the DSC engine.</source>
           <target state="translated">Die einzige Möglichkeit, DSC zu veranlassen, die neuere Version zu laden, besteht darin, den Prozess, der das DSC-Modul hostet, explizit zu beenden.</target>       </trans-unit>
-        <trans-unit id="202" translate="yes" xml:space="preserve">
+        <trans-unit id="203" translate="yes" xml:space="preserve">
           <source>Similarly, when you run <ph id="ph1">`Start-DscConfiguration`</ph>, after adding and modifying a custom resource, the modification may not execute unless, or until, the computer is rebooted.</source>
           <target state="translated">Ähnliches gilt, wenn Sie <ph id="ph1">`Start-DscConfiguration`</ph> nach dem Hinzufügen und Ändern einer benutzerdefinierten Ressource ausführen. Die Änderung kann dann möglicherweise nicht ausgeführt werden, bis der Computer neu gestartet wird.</target>       </trans-unit>
-        <trans-unit id="203" translate="yes" xml:space="preserve">
+        <trans-unit id="204" translate="yes" xml:space="preserve">
           <source>This is because DSC runs in the WMI Provider Host Process (WmiPrvSE), and usually, there are many instances of WmiPrvSE running at once.</source>
           <target state="translated">Grund hierfür ist, dass DSC im WMI-Anbieterhostprozess (WmiPrvSE) ausgeführt wird, und in der Regel mehrere Instanzen von WmiPrvSE gleichzeitig ausgeführt werden.</target>       </trans-unit>
-        <trans-unit id="204" translate="yes" xml:space="preserve">
+        <trans-unit id="205" translate="yes" xml:space="preserve">
           <source>When you reboot, the host process is restarted and the cache is cleared.</source>
           <target state="translated">Beim Neustart wird der Hostprozess neu gestartet und der Cache geleert.</target>       </trans-unit>
-        <trans-unit id="205" translate="yes" xml:space="preserve">
+        <trans-unit id="206" translate="yes" xml:space="preserve">
           <source>To successfully recycle the configuration and clear the cache without rebooting, you must stop and then restart the host process.</source>
           <target state="translated">Um die Konfiguration erfolgreich zu recyceln und den Cache zu löschen, ohne einen Neustart auszuführen, müssen Sie den Hostprozess beenden und neu starten.</target>       </trans-unit>
-        <trans-unit id="206" translate="yes" xml:space="preserve">
+        <trans-unit id="207" translate="yes" xml:space="preserve">
           <source>This can be done on a per instance basis, whereby you identify the process, stop it, and restart it.</source>
           <target state="translated">Dazu können Sie den Prozess auf Instanzebene identifizieren, beenden und neu starten.</target>       </trans-unit>
-        <trans-unit id="207" translate="yes" xml:space="preserve">
+        <trans-unit id="208" translate="yes" xml:space="preserve">
           <source>Or, you can use <ph id="ph1">`DebugMode`</ph>, as demonstrated below, to reload the PowerShell DSC resource.</source>
           <target state="translated">Sie können auch <ph id="ph1">`DebugMode`</ph> verwenden, wie nachfolgend gezeigt, um die PowerShell DSC-Ressource erneut zu laden.</target>       </trans-unit>
-        <trans-unit id="208" translate="yes" xml:space="preserve">
+        <trans-unit id="209" translate="yes" xml:space="preserve">
           <source>To identify which process is hosting the DSC engine and stop it on a per instance basis, you can list the process ID of the WmiPrvSE which is hosting the DSC engine.</source>
           <target state="translated">Um zu identifizieren, welcher Prozess das DSC-Modul hostet, und diesen auf Instanzebene zu beenden, können Sie die Prozess-ID des WmiPrvSE-Prozesses auflisten, der das DSC-Modul hostet.</target>       </trans-unit>
-        <trans-unit id="209" translate="yes" xml:space="preserve">
+        <trans-unit id="210" translate="yes" xml:space="preserve">
           <source>Then, to update the provider, stop the WmiPrvSE process using the commands below, and then run <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> again.</source>
           <target state="translated">Beenden Sie den WmiPrvSE-Prozess dann mithilfe der unten aufgeführten Befehle, um den Anbieter zu aktualisieren, und führen Sie anschließend <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> erneut aus.</target>       </trans-unit>
-        <trans-unit id="210" translate="yes" xml:space="preserve">
+        <trans-unit id="211" translate="yes" xml:space="preserve">
           <source>Using DebugMode</source>
           <target state="translated">Verwenden von DebugMode</target>       </trans-unit>
-        <trans-unit id="211" translate="yes" xml:space="preserve">
+        <trans-unit id="212" translate="yes" xml:space="preserve">
           <source>You can configure the DSC Local Configuration Manager (LCM) to use <ph id="ph1">`DebugMode`</ph> to always clear the cache when the host process is restarted.</source>
           <target state="translated">Sie können den lokalen Konfigurations-Manager (LCM) von DSC für die Verwendung von <ph id="ph1">`DebugMode`</ph> konfigurieren, damit der Cache bei jedem Neustart des Hostprozesses neu gestartet wird.</target>       </trans-unit>
-        <trans-unit id="212" translate="yes" xml:space="preserve">
+        <trans-unit id="213" translate="yes" xml:space="preserve">
           <source>When set to <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept>, it causes the engine to always reload the PowerShell DSC resource.</source>
           <target state="translated">Indem Sie den Debugmodus verwenden (auf <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept> festlegen), lädt das Modul die PowerShell DSC-Ressource immer neu.</target>       </trans-unit>
-        <trans-unit id="213" translate="yes" xml:space="preserve">
+        <trans-unit id="214" translate="yes" xml:space="preserve">
           <source>Once you are done writing your resource, you can set it back to <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept> and the engine will revert to its behavior of caching the modules.</source>
           <target state="translated">Sobald Sie mit dem Schreiben Ihrer Ressource fertig sind, können Sie den Debugmodus wieder deaktivieren (auf <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept> festlegen), um zum alten Verhalten zurückzukehren und die Module wieder zwischenzuspeichern.</target>       </trans-unit>
-        <trans-unit id="214" translate="yes" xml:space="preserve">
+        <trans-unit id="215" translate="yes" xml:space="preserve">
           <source>Following is a demonstration to show how <ph id="ph1">`DebugMode`</ph> can automatically refresh the cache.</source>
           <target state="translated">In der folgenden Demonstration wird verdeutlicht, wie <ph id="ph1">`DebugMode`</ph> den Cache automatisch aktualisieren kann.</target>       </trans-unit>
-        <trans-unit id="215" translate="yes" xml:space="preserve">
+        <trans-unit id="216" translate="yes" xml:space="preserve">
           <source>First, let’s look at the default configuration:</source>
           <target state="translated">Betrachten wir zunächst die Standardkonfiguration:</target>       </trans-unit>
-        <trans-unit id="216" translate="yes" xml:space="preserve">
+        <trans-unit id="217" translate="yes" xml:space="preserve">
           <source>You can see that <ph id="ph1">`DebugMode`</ph> is set to <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept>.</source>
           <target state="translated">Sie sehen, dass <ph id="ph1">`DebugMode`</ph> auf <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept> festgelegt ist.</target>       </trans-unit>
-        <trans-unit id="217" translate="yes" xml:space="preserve">
+        <trans-unit id="218" translate="yes" xml:space="preserve">
           <source>To set up the <ph id="ph1">`DebugMode`</ph> demonstration, use the following PowerShell resource:</source>
           <target state="translated">Zum Einrichten der <ph id="ph1">`DebugMode`</ph>-Demo verwenden Sie die folgenden PowerShell-Ressource:</target>       </trans-unit>
-        <trans-unit id="218" translate="yes" xml:space="preserve">
+        <trans-unit id="219" translate="yes" xml:space="preserve">
           <source>Now, author a configuration using the above resource called <ph id="ph1">`TestProviderDebugMode`</ph>:</source>
           <target state="translated">Nun erstellen Sie eine Konfiguration mit der oben stehenden Ressource namens <ph id="ph1">`TestProviderDebugMode`</ph>:</target>       </trans-unit>
-        <trans-unit id="219" translate="yes" xml:space="preserve">
+        <trans-unit id="220" translate="yes" xml:space="preserve">
           <source>You will see that the contents of file: “<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>” is <bpt id="p2">**</bpt>1<ept id="p2">**</ept>.</source>
           <target state="translated">Sie erkennen, dass der Inhalt der Datei „<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>“ <bpt id="p2">**</bpt>1<ept id="p2">**</ept> ist.</target>       </trans-unit>
-        <trans-unit id="220" translate="yes" xml:space="preserve">
+        <trans-unit id="221" translate="yes" xml:space="preserve">
           <source>Now, update the provider code using the following script:</source>
           <target state="translated">Aktualisieren Sie nun den Anbietercode mithilfe des folgenden Skripts:</target>       </trans-unit>
-        <trans-unit id="221" translate="yes" xml:space="preserve">
+        <trans-unit id="222" translate="yes" xml:space="preserve">
           <source>This script generates a random number and updates the provider code accordingly.</source>
           <target state="translated">Dieses Skript generiert eine Zufallszahl und aktualisiert den Anbietercode entsprechend.</target>       </trans-unit>
-        <trans-unit id="222" translate="yes" xml:space="preserve">
+        <trans-unit id="223" translate="yes" xml:space="preserve">
           <source>With <ph id="ph1">`DebugMode`</ph> set to false, the contents of the file “<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>” are never changed.</source>
           <target state="translated">Ist <ph id="ph1">`DebugMode`</ph> auf „false“ festgelegt, wird der Inhalt der Datei „<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>“ nie geändert.</target>       </trans-unit>
-        <trans-unit id="223" translate="yes" xml:space="preserve">
+        <trans-unit id="224" translate="yes" xml:space="preserve">
           <source>Now, set <ph id="ph1">`DebugMode`</ph> to <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept> in your configuration script:</source>
           <target state="translated">Legen Sie <ph id="ph1">`DebugMode`</ph> in Ihrem Konfigurationsskript jetzt auf <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept> fest:</target>       </trans-unit>
-        <trans-unit id="224" translate="yes" xml:space="preserve">
+        <trans-unit id="225" translate="yes" xml:space="preserve">
           <source>When you run the above script again, you will see that the content of the file is different every time.</source>
           <target state="translated">Wenn Sie das oben stehende Skript erneut ausführen, sehen Sie, dass der Inhalt der Datei jedes Mal anders ist.</target>       </trans-unit>
-        <trans-unit id="225" translate="yes" xml:space="preserve">
+        <trans-unit id="226" translate="yes" xml:space="preserve">
           <source>(You can run <ph id="ph1">`Get-DscConfiguration`</ph> to check it).</source>
           <target state="translated">(Zum Überprüfen können Sie <ph id="ph1">`Get-DscConfiguration`</ph> ausführen).</target>       </trans-unit>
-        <trans-unit id="226" translate="yes" xml:space="preserve">
+        <trans-unit id="227" translate="yes" xml:space="preserve">
           <source>Below is the result of two additional runs (your results may be different when you run the script):</source>
           <target state="translated">Im Folgenden wird das Ergebnis von zwei weiteren Ausführungen angezeigt (Ihre Ergebnisse können sich nach Ausführen des Skripts von diesem Ergebnis unterscheiden):</target>       </trans-unit>
-        <trans-unit id="227" translate="yes" xml:space="preserve">
+        <trans-unit id="228" translate="yes" xml:space="preserve">
           <source>See Also</source>
           <target state="translated">Weitere Informationen</target>       </trans-unit>
-        <trans-unit id="228" translate="yes" xml:space="preserve">
+        <trans-unit id="229" translate="yes" xml:space="preserve">
           <source>Reference</source>
           <target state="translated">Verweis</target>       </trans-unit>
-        <trans-unit id="229" translate="yes" xml:space="preserve">
+        <trans-unit id="230" translate="yes" xml:space="preserve">
           <source>DSC Log Resource</source>
           <target state="translated">DSC-Ressource „Log“</target>       </trans-unit>
-        <trans-unit id="230" translate="yes" xml:space="preserve">
+        <trans-unit id="231" translate="yes" xml:space="preserve">
           <source>Concepts</source>
           <target state="translated">Konzepte</target>       </trans-unit>
-        <trans-unit id="231" translate="yes" xml:space="preserve">
+        <trans-unit id="232" translate="yes" xml:space="preserve">
           <source>Build Custom Windows PowerShell Desired State Configuration Resources</source>
           <target state="translated">Erstellen von benutzerdefinierten Windows PowerShell DSC-Ressourcen</target>       </trans-unit>
-        <trans-unit id="232" translate="yes" xml:space="preserve">
+        <trans-unit id="233" translate="yes" xml:space="preserve">
           <source>Other Resources</source>
           <target state="translated">Weitere Ressourcen</target>       </trans-unit>
-        <trans-unit id="233" translate="yes" xml:space="preserve">
+        <trans-unit id="234" translate="yes" xml:space="preserve">
           <source>Windows PowerShell Desired State Configuration Cmdlets</source>
           <target state="translated">Windows PowerShell DSC-Cmdlets</target>       </trans-unit>
       </group>
