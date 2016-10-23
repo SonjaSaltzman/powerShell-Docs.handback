@@ -2,12 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4fb33c9" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dc50a729855a71d61c187da9d698bd294f740546</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f62b1e0ec9f26e1b2bcb364c78a2ce39467655a5</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\web-access\authorization-rules-and-security-features-of-windows-powershell-web-access.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fda0c75ed6ee20eb9ad2a725fd61c2bc37756d8c</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">27b978f5a59c5f59ccddcd20e9e5401ce2844f92</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0450c633ad61a9d6c89b19f2a1019ac5098d288b</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -22,7 +23,7 @@
           <target state="translated">Windows PowerShell Web Access の承認規則とセキュリティ機能</target>       </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Updated: June 24, 2013</source>
-          <target state="translated">最終更新日 : 2013 年 6 月 24 日</target>       </trans-unit>
+          <target state="translated">最終更新日: 2013 年 6 月 24 日</target>       </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>Applies To: Windows Server 2012 R2, Windows Server 2012</source>
           <target state="translated">適用対象: Windows Server 2012 R2、Windows Server 2012</target>       </trans-unit>
@@ -70,7 +71,7 @@
           <target state="translated">Windows PowerShell Web Access の認証規則はホワイトリスト方式です。</target>       </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Each rule is a definition of an allowed connection between users, target computers, and particular Windows PowerShell <bpt id="p1">[</bpt>session configurations<ept id="p1">](https://technet.microsoft.com/library/dd819508.aspx)</ept> (also referred to as endpoints or runspaces) on specified target computers.</source>
-          <target state="translated">各規則は、ユーザー、対象コンピューター、および指定された対象コンピューターにおける特定のWindows PowerShell <bpt id="p1">[</bpt>セッション構成<ept id="p1">](https://technet.microsoft.com/library/dd819508.aspx)</ept> (エンドポイントまたは実行空間とも呼ばれます) の間に許可される接続を定義したものです。</target>       </trans-unit>
+          <target state="translated">各規則は、ユーザー、対象コンピューター、および指定された対象コンピューターにおける特定の Windows PowerShell <bpt id="p1">[</bpt>セッション構成<ept id="p1">](https://technet.microsoft.com/library/dd819508.aspx)</ept> (エンドポイントまたは実行空間とも呼ばれます) の間に許可される接続を定義したものです。</target>       </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>Security Note</source>
           <target state="translated">セキュリティ メモ</target>       </trans-unit>
@@ -352,7 +353,7 @@
           <target state="translated">カスタム セッション構成の作成方法の詳細については、MSDN サイトの「<bpt id="p1">[</bpt>about_Session_Configuration_Files<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx)</ept>」を参照してください。</target>       </trans-unit>
         <trans-unit id="214" translate="yes" xml:space="preserve">
           <source>Windows PowerShell Web Access cmdlets support one wildcard character, an asterisk ( <ph id="ph1">\*</ph> ).</source>
-          <target state="translated">Windows PowerShell Web Access コマンドレットは、ワイルドカード文字 、アスタリスク(<ph id="ph1">\*</ph>) をサポートしています。</target>       </trans-unit>
+          <target state="translated">Windows PowerShell Web Access コマンドレットは、ワイルドカード文字、アスタリスク(<ph id="ph1">\*</ph>) をサポートしています。</target>       </trans-unit>
         <trans-unit id="215" translate="yes" xml:space="preserve">
           <source>Wildcard characters within strings are not supported; use a single asterisk per property (users, computers, or session configurations).</source>
           <target state="translated">文字列内のワイルドカード文字はサポートされていません。アスタリスクは、プロパティ (ユーザー、コンピューター、セッション構成) ごとに 1 つ使うことができます。</target>       </trans-unit>
@@ -399,8 +400,8 @@
           <source>Verify that the rule has been created by running either the <bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> cmdlet, or <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain<ph id="ph2">\\</ph>user | computer<ph id="ph3">\\</ph>user<ph id="ph4">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph5">&amp;lt;</ph>computer_name<ph id="ph6">&amp;gt;</ph>.</source>
           <target state="translated"><bpt id="p1">**</bpt>Get-PswaAuthorizationRule<ept id="p1">**</ept> コマンドレットまたは <bpt id="p2">**</bpt>Test-PswaAuthorizationRule -UserName <ph id="ph1">&amp;lt;</ph>domain<ph id="ph2">\\</ph>user | computer<ph id="ph3">\\</ph>user<ph id="ph4">&amp;gt;</ph> -ComputerName<ept id="p2">**</ept> <ph id="ph5">&amp;lt;</ph>computer_name<ph id="ph6">&amp;gt;</ph> を実行して、規則が作成されていることを確認します。</target>       </trans-unit>
         <trans-unit id="230" translate="yes" xml:space="preserve">
-          <source>For example, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso<ph id="ph1">\\</ph>JSmith –ComputerName Contoso_214<ept id="p1">**</ept>.</source>
-          <target state="translated">例: <bpt id="p1">**</bpt>Test-PswaAuthorizationRule –UserName Contoso<ph id="ph1">\\</ph>JSmith –ComputerName Contoso_214<ept id="p1">**</ept>。</target>       </trans-unit>
+          <source>For example, <bpt id="p1">**</bpt>Test-PswaAuthorizationRule -UserName Contoso<ph id="ph1">\\</ph>JSmith -ComputerName Contoso_214<ept id="p1">**</ept>.</source>
+          <target state="translated">例: <bpt id="p1">**</bpt>Test-PswaAuthorizationRule -UserName Contoso<ph id="ph1">\\</ph>JSmith -ComputerName Contoso_214<ept id="p1">**</ept>。</target>       </trans-unit>
         <trans-unit id="231" translate="yes" xml:space="preserve">
           <source>To remove an authorization rule</source>
           <target state="translated">承認規則を削除するには</target>       </trans-unit>
@@ -498,8 +499,8 @@
           <source>The administrator runs the cmdlet <ph id="ph1">&lt;span class="code"&gt;</ph>Add-PswaAuthorizationRule <ph id="ph2">\*</ph> <ph id="ph3">\*</ph> <ph id="ph4">\*&lt;/span&gt;</ph>, which uses the wildcard character <bpt id="p1">**</bpt><ph id="ph5">\*</ph><ept id="p1">**</ept> to represent all users, all computers, and all configurations.</source>
           <target state="translated">管理者は <ph id="ph1">&lt;span class="code"&gt;</ph>Add-PswaAuthorizationRule <ph id="ph2">\*</ph> <ph id="ph3">\*</ph> <ph id="ph4">\*&lt;/span&gt;</ph> コマンドレットを実行します。ここで使われているワイルドカード文字 <bpt id="p1">**</bpt><ph id="ph5">\*</ph><ept id="p1">**</ept> は、すべてのコンピューター、すべてのユーザー、すべてのセッション構成をそれぞれ示します。</target>       </trans-unit>
         <trans-unit id="263" translate="yes" xml:space="preserve">
-          <source>This rule is the equivalent of the following: <ph id="ph1">&lt;span class="code"&gt;</ph>Add-PswaAuthorizationRule –UserName <ph id="ph2">\*</ph> -ComputerName <ph id="ph3">\*</ph> -ConfigurationName <ph id="ph4">\*&lt;/span&gt;</ph>.</source>
-          <target state="translated">この規則は次の内容と同等です: <ph id="ph1">&lt;span class="code"&gt;</ph>Add-PswaAuthorizationRule –UserName <ph id="ph2">\*</ph> -ComputerName <ph id="ph3">\*</ph> -ConfigurationName <ph id="ph4">\*&lt;/span&gt;</ph></target>       </trans-unit>
+          <source>This rule is the equivalent of the following: <ph id="ph1">&lt;span class="code"&gt;</ph>Add-PswaAuthorizationRule -UserName <ph id="ph2">\*</ph> -ComputerName <ph id="ph3">\*</ph> -ConfigurationName <ph id="ph4">\*&lt;/span&gt;</ph>.</source>
+          <target state="translated">この規則は次と同じです: <ph id="ph1">&lt;span class="code"&gt;</ph>Add-PswaAuthorizationRule -UserName <ph id="ph2">\*</ph> -ComputerName <ph id="ph3">\*</ph> -ConfigurationName <ph id="ph4">\*&lt;/span&gt;</ph>。</target>       </trans-unit>
         <trans-unit id="264" translate="yes" xml:space="preserve">
           <source>Security Note</source>
           <target state="translated">セキュリティ メモ</target>       </trans-unit>
@@ -730,8 +731,8 @@
           <source>Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.</source>
           <target state="translated">サードパーティのスクリプトやコード、サードパーティから本 Web サイトへのリンク、あるいは本サイトからサードパーティへのリンクは、マイクロソフトではなく、そのようなコードの所有者によってお客様にライセンス供与されています。</target>       </trans-unit>
         <trans-unit id="339" translate="yes" xml:space="preserve">
-          <source>See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.</source>
-          <target state="translated">ASP.NET Ajax CDN の使用条件 - http://www.asp.net/ajaxlibrary/CDN.ashx</target>       </trans-unit>
+          <source>See ASP.NET Ajax CDN Terms of Use - http://www.asp.net/ajaxlibrary/CDN.ashx.</source>
+          <target state="translated">ASP.NET Ajax CDN の使用条件 - http://www.asp.net/ajaxlibrary/CDN.ashx を参照してください。</target>       </trans-unit>
       </group>
     </body>
   </file>

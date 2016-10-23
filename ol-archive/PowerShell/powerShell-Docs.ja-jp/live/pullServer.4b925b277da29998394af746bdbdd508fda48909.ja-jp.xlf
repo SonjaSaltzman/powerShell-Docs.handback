@@ -2,12 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7bbfc31fdebdde83ac1784373b51af40b1dc9492</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4ab20cdcac6f10dc9ecab6d85b38f413e0ade8b0</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\pullServer.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45f73da9a65989e1340e96033c42361fa0644b8e</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33a192c34278fce539fb1023b4e9a1ee8ede8c34</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ab304cdddcf3a726f5e9cc66f2e871079b83128e</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -180,75 +181,78 @@
           <source>With this change, zip the folder as described above and place these zip files in the <bpt id="p1">**</bpt>ModulePath<ept id="p1">**</ept> folder.</source>
           <target state="translated">この変更を加えた後、上で説明したようにフォルダーを zip 圧縮し、これらの zip ファイルを <bpt id="p1">**</bpt>ModulePath<ept id="p1">**</ept> フォルダーに置きます。</target>       </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Use <ph id="ph1">`new-dscchecksum {module zip file}`</ph> to create a checksum file for the newly-added module.</source>
+          <target state="translated">新しく追加したモジュールのチェックサム ファイルを作成するには、<ph id="ph1">`new-dscchecksum {module zip file}`</ph> を使用します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
           <source>Configuration MOF format</source>
           <target state="translated">構成 MOF の形式</target>       </trans-unit>
-        <trans-unit id="158" translate="yes" xml:space="preserve">
+        <trans-unit id="159" translate="yes" xml:space="preserve">
           <source>A configuration MOF file needs to be paired with a checksum file so that an LCM on a target node can validate the configuration.</source>
           <target state="translated">ターゲット ノード上の LCM が構成を検証できるように、構成 MOF ファイルはチェックサム ファイルと組み合わせて使用する必要があります。</target>       </trans-unit>
-        <trans-unit id="159" translate="yes" xml:space="preserve">
+        <trans-unit id="160" translate="yes" xml:space="preserve">
           <source>To create a checksum, call the <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
           <target state="translated">チェックサムを作成するには、<bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> コマンドレットを呼び出します。</target>       </trans-unit>
-        <trans-unit id="160" translate="yes" xml:space="preserve">
+        <trans-unit id="161" translate="yes" xml:space="preserve">
           <source>The cmdlet takes a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter that specifies the folder where the configuration MOF is located.</source>
           <target state="translated">このコマンドレットは、構成 MOF が存在するフォルダーが指定された <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> パラメーターを受け取ります。</target>       </trans-unit>
-        <trans-unit id="161" translate="yes" xml:space="preserve">
+        <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>The cmdlet creates a checksum file named <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph2">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
           <target state="translated">このコマンドレットは、<ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph> という名前でチェックサム ファイルを作成します。ここで、<ph id="ph2">`ConfigurationMOFName`</ph> は構成 MOF ファイルの名前です。</target>       </trans-unit>
-        <trans-unit id="162" translate="yes" xml:space="preserve">
+        <trans-unit id="163" translate="yes" xml:space="preserve">
           <source>If there are more than one configuration MOF files in the specified folder, a checksum is created for each configuration in the folder.</source>
           <target state="translated">指定のフォルダーに複数の構成 MOF ファイルがある場合は、そのフォルダー内の構成ごとにチェックサムが作成されます。</target>       </trans-unit>
-        <trans-unit id="163" translate="yes" xml:space="preserve">
+        <trans-unit id="164" translate="yes" xml:space="preserve">
           <source>Place the MOF files and their associated checksum files in the the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> folder.</source>
           <target state="translated">MOF ファイルと、それに関連するチェックサム ファイルは、<bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> フォルダーに配置します。</target>       </trans-unit>
-        <trans-unit id="164" translate="yes" xml:space="preserve">
+        <trans-unit id="165" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
           <target state="translated"><bpt id="p1">**</bpt>注<ept id="p1">**</ept>: 何らかの方法で構成 MOF ファイルを変更した場合は、チェックサム ファイルも作成し直す必要があります。</target>       </trans-unit>
-        <trans-unit id="165" translate="yes" xml:space="preserve">
+        <trans-unit id="166" translate="yes" xml:space="preserve">
           <source>Tooling</source>
           <target state="translated">ツール</target>       </trans-unit>
-        <trans-unit id="166" translate="yes" xml:space="preserve">
+        <trans-unit id="167" translate="yes" xml:space="preserve">
           <source>In order to make setting up, validating and managing the pull server easier, the following tools are included as examples in the latest version of the xPSDesiredStateConfiguration module:</source>
           <target state="translated">プル サーバーのセットアップ、検証、管理を簡素化するために、次のツールが、xPSDesiredStateConfiguration モジュールの最新バージョンに例として含まれています。</target>       </trans-unit>
-        <trans-unit id="167" translate="yes" xml:space="preserve">
+        <trans-unit id="168" translate="yes" xml:space="preserve">
           <source>A module that will help with packaging DSC resource modules and configuration files for use on the pull server.</source>
           <target state="translated">プル サーバーに使用する DSC リソース モジュールおよび構成ファイルをパッケージ化するために役立つモジュール。</target>       </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
+        <trans-unit id="169" translate="yes" xml:space="preserve">
           <source><bpt id="p1">[</bpt>PublishModulesAndMofsToPullServer.psm1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/DSCPullServerSetup/PublishModulesAndMofsToPullServer.psm1)</ept>.</source>
           <target state="translated"><bpt id="p1">[</bpt>PublishModulesAndMofsToPullServer.psm1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/DSCPullServerSetup/PublishModulesAndMofsToPullServer.psm1)</ept>。</target>       </trans-unit>
-        <trans-unit id="169" translate="yes" xml:space="preserve">
+        <trans-unit id="170" translate="yes" xml:space="preserve">
           <source>Examples below:</source>
           <target state="translated">次の例です。</target>       </trans-unit>
-        <trans-unit id="170" translate="yes" xml:space="preserve">
+        <trans-unit id="171" translate="yes" xml:space="preserve">
           <source>A script that validates the Pull Server is configured correctly.</source>
           <target state="translated">プル サーバーが正しく構成されていることを検証するスクリプト。</target>       </trans-unit>
-        <trans-unit id="171" translate="yes" xml:space="preserve">
+        <trans-unit id="172" translate="yes" xml:space="preserve">
           <source><bpt id="p1">[</bpt>PullServerSetupTests.ps1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/Examples/PullServerDeploymentVerificationTest/PullServerSetupTests.ps1)</ept>.</source>
           <target state="translated"><bpt id="p1">[</bpt>PullServerSetupTests.ps1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/Examples/PullServerDeploymentVerificationTest/PullServerSetupTests.ps1)</ept>。</target>       </trans-unit>
-        <trans-unit id="172" translate="yes" xml:space="preserve">
+        <trans-unit id="173" translate="yes" xml:space="preserve">
           <source>Pull client configuration</source>
           <target state="translated">プル クライアントの構成</target>       </trans-unit>
-        <trans-unit id="173" translate="yes" xml:space="preserve">
+        <trans-unit id="174" translate="yes" xml:space="preserve">
           <source>The following topics describe setting up pull clients in detail:</source>
           <target state="translated">次のトピックでは、プル クライアントのセットアップについて詳しく説明します。</target>       </trans-unit>
-        <trans-unit id="174" translate="yes" xml:space="preserve">
+        <trans-unit id="175" translate="yes" xml:space="preserve">
           <source>Setting up a DSC pull client using a configuration ID</source>
           <target state="translated">構成 ID を使用した DSC プル クライアントのセットアップ</target>       </trans-unit>
-        <trans-unit id="175" translate="yes" xml:space="preserve">
+        <trans-unit id="176" translate="yes" xml:space="preserve">
           <source>Setting up a DSC pull client using configuration names</source>
           <target state="translated">構成名を使用した DSC プル クライアントのセットアップ</target>       </trans-unit>
-        <trans-unit id="176" translate="yes" xml:space="preserve">
+        <trans-unit id="177" translate="yes" xml:space="preserve">
           <source>Partial configurations</source>
           <target state="translated">部分構成</target>       </trans-unit>
-        <trans-unit id="177" translate="yes" xml:space="preserve">
+        <trans-unit id="178" translate="yes" xml:space="preserve">
           <source>See also</source>
           <target state="translated">関連項目</target>       </trans-unit>
-        <trans-unit id="178" translate="yes" xml:space="preserve">
+        <trans-unit id="179" translate="yes" xml:space="preserve">
           <source>Windows PowerShell Desired State Configuration Overview</source>
           <target state="translated">Windows PowerShell Desired State Configuration の概要</target>       </trans-unit>
-        <trans-unit id="179" translate="yes" xml:space="preserve">
+        <trans-unit id="180" translate="yes" xml:space="preserve">
           <source>Enacting configurations</source>
           <target state="translated">構成の適用</target>       </trans-unit>
-        <trans-unit id="180" translate="yes" xml:space="preserve">
+        <trans-unit id="181" translate="yes" xml:space="preserve">
           <source>Using a DSC report server</source>
           <target state="translated">DSC レポート サーバーの使用</target>       </trans-unit>
       </group>
