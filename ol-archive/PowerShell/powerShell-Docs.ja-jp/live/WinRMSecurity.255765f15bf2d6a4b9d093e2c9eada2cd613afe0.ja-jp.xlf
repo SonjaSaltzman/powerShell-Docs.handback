@@ -2,12 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1addddd50368fadcbb2581673d3ebc7cad8e32a</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-719cecd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa7e5c84ac82fa72836536ece507f1751e099077</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\setup\WinRMSecurity.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ef81001b689ee33e243425227e32df2665ee9ab</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64ebbf2611f36fa67f4250fd168733a0c1e8ca2d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">894b1c085f8c9259aacbf3c1b18dd1b754af7ce5</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -186,54 +187,45 @@
           <source>There are several ways to avoid this problem:</source>
           <target state="translated">この問題を回避する方法はいくつかあります。</target>       </trans-unit>
         <trans-unit id="159" translate="yes" xml:space="preserve">
-          <source>Kerberos Constrained Delegation</source>
-          <target state="translated">Kerberos の制約付き委任</target>       </trans-unit>
-        <trans-unit id="160" translate="yes" xml:space="preserve">
-          <source>For highly trusted servers, you can enable <bpt id="p1">[</bpt>Kerberos Constrained Delegation<ept id="p1">](https://technet.microsoft.com/en-us/library/cc995228.aspx)</ept>.</source>
-          <target state="translated">信頼性の高いサーバーの場合は、<bpt id="p1">[</bpt>Kerberos の制約付き委任<ept id="p1">](https://technet.microsoft.com/en-us/library/cc995228.aspx)</ept>を有効にすることができます。</target>       </trans-unit>
-        <trans-unit id="161" translate="yes" xml:space="preserve">
-          <source>This allows the remote server to impersonate the authenticated user to a specified list of computers and services.</source>
-          <target state="translated">これにより、リモート サーバーが、指定したコンピューターおよびサービス一覧に対して認証済みユーザーを偽装できるようになります。</target>       </trans-unit>
-        <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>Trust between remote computers</source>
           <target state="translated">リモート コンピューター間の信頼</target>       </trans-unit>
-        <trans-unit id="163" translate="yes" xml:space="preserve">
+        <trans-unit id="160" translate="yes" xml:space="preserve">
           <source>If you trust users connected remotely to <bpt id="p1">*</bpt>Server1<ept id="p1">*</ept> to resources on <bpt id="p2">*</bpt>Server2<ept id="p2">*</ept>, you can explicitly grant <bpt id="p3">*</bpt>Server1<ept id="p3">*</ept> access to those resources.</source>
           <target state="translated"><bpt id="p2">*</bpt>Server2<ept id="p2">*</ept> のリソースについて <bpt id="p1">*</bpt>Server1<ept id="p1">*</ept> にリモート接続されたユーザーを信頼する場合、そのリソースへのアクセスを <bpt id="p3">*</bpt>Server1<ept id="p3">*</ept> に明示的に許可できます。</target>       </trans-unit>
-        <trans-unit id="164" translate="yes" xml:space="preserve">
+        <trans-unit id="161" translate="yes" xml:space="preserve">
           <source>Use explicit credentials when accessing remote resources</source>
           <target state="translated">リモート リソースにアクセスする際に明示的な資格情報を使用する</target>       </trans-unit>
-        <trans-unit id="165" translate="yes" xml:space="preserve">
+        <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>You can explicitly pass your credentials to a remote resource by using the <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> parameter of a cmdlet.</source>
           <target state="translated">資格情報をリモート リソースに明示的に渡すには、コマンドレットの <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> パラメーターを使用します。</target>       </trans-unit>
-        <trans-unit id="166" translate="yes" xml:space="preserve">
+        <trans-unit id="163" translate="yes" xml:space="preserve">
           <source>For example:</source>
           <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
-        <trans-unit id="167" translate="yes" xml:space="preserve">
+        <trans-unit id="164" translate="yes" xml:space="preserve">
           <source>CredSSP</source>
           <target state="translated">CredSSP</target>       </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
+        <trans-unit id="165" translate="yes" xml:space="preserve">
           <source>You can use the <bpt id="p1">[</bpt>Credential Security Support Provider (CredSSP)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/bb931352.aspx)</ept> for authentication (by specifying "CredSSP" as the value of the <ph id="ph1">`Authentication`</ph> parameter of a call to the <bpt id="p2">[</bpt>New-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849717.aspx)</ept> cmdlet.</source>
           <target state="translated">認証に<bpt id="p1">[</bpt>資格情報のセキュリティ サポート プロバイダー (CredSSP)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/bb931352.aspx)</ept> を使用するには、<bpt id="p2">[</bpt>New-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849717.aspx)</ept> コマンドレットの呼び出しの <ph id="ph1">`Authentication`</ph> パラメーター値として "CredSSP" を指定します。</target>       </trans-unit>
-        <trans-unit id="169" translate="yes" xml:space="preserve">
+        <trans-unit id="166" translate="yes" xml:space="preserve">
           <source>CredSSP passes credentials in plain text to the server, so using it opens you up to credential theft attacks.</source>
           <target state="translated">CredSSP は資格情報をプレーン テキストでサーバーに渡すため、これを使用すると資格情報の盗難攻撃にさらされます。</target>       </trans-unit>
-        <trans-unit id="170" translate="yes" xml:space="preserve">
+        <trans-unit id="167" translate="yes" xml:space="preserve">
           <source>If the remote computer is compromised, the attacker has access to the user's credentials.</source>
           <target state="translated">リモート コンピューターが侵害されると、攻撃者はユーザーの資格情報にアクセスできます。</target>       </trans-unit>
-        <trans-unit id="171" translate="yes" xml:space="preserve">
+        <trans-unit id="168" translate="yes" xml:space="preserve">
           <source>CredSSP is disabled by default on both client and server computers.</source>
           <target state="translated">CredSSP は、既定では、クライアント コンピューターとサーバー コンピューターの両方で無効になっています。</target>       </trans-unit>
-        <trans-unit id="172" translate="yes" xml:space="preserve">
+        <trans-unit id="169" translate="yes" xml:space="preserve">
           <source>You should enable CredSSP only in the most trusted environments.</source>
           <target state="translated">CredSSP は、最も信頼性の高い環境でのみ有効にしてください。</target>       </trans-unit>
-        <trans-unit id="173" translate="yes" xml:space="preserve">
+        <trans-unit id="170" translate="yes" xml:space="preserve">
           <source>For example, a domain administrator connecting to a domain controller because the domain controller is highly trusted.</source>
           <target state="translated">たとえば、ドメイン コントローラーは信頼性が高いため、ドメイン コントローラーに接続しているドメイン管理者が有効にすることをお勧めします。</target>       </trans-unit>
-        <trans-unit id="174" translate="yes" xml:space="preserve">
+        <trans-unit id="171" translate="yes" xml:space="preserve">
           <source>For more information about security concerns when using CredSSP for PowerShell Remoting, see <bpt id="p1">[</bpt>Accidental Sabotage: Beware of CredSSP<ept id="p1">](http://www.powershellmagazine.com/2014/03/06/accidental-sabotage-beware-of-credssp)</ept>.</source>
           <target state="translated">PowerShell リモート処理で CredSSP を使用する場合のセキュリティに関する注意事項の詳細については、「<bpt id="p1">[</bpt>Accidental Sabotage: Beware of CredSSP (予想外の妨害行為: CredSSP に関する注意事項)<ept id="p1">](http://www.powershellmagazine.com/2014/03/06/accidental-sabotage-beware-of-credssp)</ept>」を参照してください。</target>       </trans-unit>
-        <trans-unit id="175" translate="yes" xml:space="preserve">
+        <trans-unit id="172" translate="yes" xml:space="preserve">
           <source>For more information about credential theft attacks, see <bpt id="p1">[</bpt>Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=36036)</ept>.</source>
           <target state="translated">資格情報の盗難攻撃の詳細については、「<bpt id="p1">[</bpt>Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft (Pass-the-Hash (PtH) 攻撃とその他の資格情報の盗難の抑制)<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=36036)</ept>」を参照してください。</target>       </trans-unit>
       </group>
