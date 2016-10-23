@@ -2,40 +2,47 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">16a29f1802b653a2eb7daa4ef8cf3f0c0bf4e7b8</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-c5d768e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a6ace8faebd6f37d3c41ee5a3fef2bda70b8c651</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psget\module\psget_moduledependencypopulation.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9c896f4f37a3f3f41876a703471023e49398a731</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4152120643d9a56afc2e1e591fa121fc7fb3bad5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3836ab0f2cd3bf02f604a58f1ff97e9d56a75ed3</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet,gallery</source>
+          <target state="translated">powershell,cmdlet,組件庫</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>psget_moduledependencypopulation</source>
+          <target state="translated">psget_moduledependencypopulation</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Logic for preparing the module dependencies during Publish operation</source>
           <target state="translated">在發行作業期間準備模組相依性的邏輯</target>       </trans-unit>
-        <trans-unit id="102" translate="yes" xml:space="preserve">
+        <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Modules listed as part of RequiredModules are considered as dependencies.</source>
           <target state="translated">列為 RequiredModules 一部分的模組視為相依性。</target>       </trans-unit>
-        <trans-unit id="103" translate="yes" xml:space="preserve">
+        <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>Modules listed as part of NestedModules, whose module base is not under the specified module base, are considered as dependencies.</source>
           <target state="translated">列為 NestedModules 一部分的模組 (其模組基底不在指定的模組基底下) 視為相依性。</target>       </trans-unit>
-        <trans-unit id="104" translate="yes" xml:space="preserve">
+        <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>Above dependencies should be available on the same target repository, otherwise publish operation will result in an error.</source>
           <target state="translated">相同目標存放庫上應該會有上述相依性，否則發行作業將會導致錯誤。</target>       </trans-unit>
-        <trans-unit id="105" translate="yes" xml:space="preserve">
+        <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>For example: If 'SnippetPx' is not available on the repository, below error will be thrown.</source>
           <target state="translated">例如：如果存放庫上沒有 'SnippetPx'，則會擲回下列錯誤。</target>       </trans-unit>
-        <trans-unit id="106" translate="yes" xml:space="preserve">
+        <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>Some module dependencies can be managed externally, in that case they should be added to the ExternalModuleDependencies entry in the PSData section of the module manifest.</source>
           <target state="translated">有些模組相依性可以在外部進行管理，在該情況下，應該將它們新增至模組資訊清單的 PSData 區段中的 ExternalModuleDependencies 項目。</target>       </trans-unit>
-        <trans-unit id="107" translate="yes" xml:space="preserve">
+        <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>Below part in the above error message</source>
           <target state="translated">上述錯誤訊息中的下方組件</target>       </trans-unit>
-        <trans-unit id="108" translate="yes" xml:space="preserve">
+        <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>During the module installation, above prepared dependencies list is used for installing the dependencies.</source>
           <target state="translated">在模組安裝期間，上方已備妥的相依性清單用來安裝相依性。</target>       </trans-unit>
-        <trans-unit id="109" translate="yes" xml:space="preserve">
+        <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>Please ensure that your module’s dependencies are available under $env:PSModulePath on your system during publish operation.</source>
           <target state="translated">請確定在發行作業期間，系統的 $env:PSModulePath 下具有您模組的相依性。</target>       </trans-unit>
       </group>
