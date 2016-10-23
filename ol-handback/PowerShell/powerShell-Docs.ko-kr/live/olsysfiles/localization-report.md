@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 0
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 107
+[ Archive Success Files ](#archive-success-list)| 106
 [ Handback Failed Files ](#handback-failed-list)| 5
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 307
+[ In Sync Handback Files ](#insync-handback-success-list)| 308
 [ Ignored Files ](#ignored-list)| 41
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -125,7 +125,6 @@
  [scripting\setup\Installing-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Installing-Windows-PowerShell.md) | ArchivedSuccess | [Details](#5b79069bdd57bb62f2cde2c92c981de98e898492315)
  [scripting\setup\security.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/security.md) | ArchivedSuccess | [Details](#eb1ac0640b61cd8daf1c5ed4800cabee64a6c276316)
  [scripting\setup\Windows-PowerShell-System-Requirements.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Windows-PowerShell-System-Requirements.md) | ArchivedSuccess | [Details](#9a9236cf5bca7ad3a286dfda0609e0bc7027d09e322)
- [scripting\setup\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/4ddd5099ce33263d43dcbad0930e654b573a8937/scripting/setup/WinRMSecurity.md) | ArchivedSuccess | [Details](#fa7e5c84ac82fa72836536ece507f1751e099077323)
  [scripting\whats-new\What-s-New-in-the-PowerShell-50-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-the-PowerShell-50-ISE.md) | ArchivedSuccess | [Details](#232b6a7020cbe3181a1fe722eae31d4d27d37669326)
  [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-With-PowerShell.md) | ArchivedSuccess | [Details](#035fc8adc08df500069e800cfb94c5dcff46d88f328)
  [wmf\5.0\limitation_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/3e60ee1441f1f12b878b34deb4469a7df8bbc4f3/wmf/5.0/limitation_overview.md) | ArchivedSuccess | [Details](#ef8d306319a197df28afe41e2fbba547b589b377391)
@@ -340,6 +339,7 @@
  [scripting\setup\Starting-the-Windows-PowerShell-2.0-Engine.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/setup/Starting-the-Windows-PowerShell-2.0-Engine.md) | InSyncHandedBackSuccess | [Details](#094c3c9f240457fc884031e7d82dcdc1e81e582d319)
  [scripting\setup\Starting-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Starting-Windows-PowerShell.md) | InSyncHandedBackSuccess | [Details](#260805af4b64646922477f874c6679f58af8aea9321)
  [scripting\setup\Starting-Windows-PowerShell-on-Earlier-Versions-of-Windows.md](https://github.com/PowerShell/powerShell-Docs/blob/c40ab96196531d36001e4d94a3821d20612cbfce/scripting/setup/Starting-Windows-PowerShell-on-Earlier-Versions-of-Windows.md) | InSyncHandedBackSuccess | [Details](#333469a642a4b88442a7d3ca8fa65f5755c69bcc320)
+ [scripting\setup\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/4ddd5099ce33263d43dcbad0930e654b573a8937/scripting/setup/WinRMSecurity.md) | InSyncHandedBackSuccess | [Details](#fa7e5c84ac82fa72836536ece507f1751e099077323)
  [scripting\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/1fe4c9a63c6d7fa47357b068997c5d9ce8ef6c32/scripting/TOC.md) | InSyncHandedBackSuccess | [Details](#4916c6b7a1d93b5dc94f4ed54afd26b919061c3e324)
  [scripting\topic\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/afa259b8611f995bbf5b824179a12e3d8f15df86/scripting/topic/WinRMSecurity.md) | InSyncHandedBackSuccess | [Details](#207792452c563ec6cca5c17fbcd122372442d8ac325)
  [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | InSyncHandedBackSuccess | [Details](#966cab74cb2519893d4744e8bd0ca12f93f73136327)
@@ -5268,18 +5268,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='fa7e5c84ac82fa72836536ece507f1751e099077323'></a> Source: [scripting\setup\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/4ddd5099ce33263d43dcbad0930e654b573a8937/scripting/setup/WinRMSecurity.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\setup\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs.ko-kr/blob/5e4bac8adb8836c5dbd1ba313601003ce534b123/scripting/setup/WinRMSecurity.md)
 * Handoff File: [WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/4d96bd5a260196ba1c6cca03bcb5deb1426df1f8/ol-handoff/PowerShell/powerShell-Docs.ko-kr/live/WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.ko-kr.xlf)
 * Handoff Datetime: 2016-10-13 17:56:24
 * Handoff Reason: Include
 * Archive File: [WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/eedf1fa78bd604ae8a518fe27f1682d28f709640/ol-archive/PowerShell/powerShell-Docs.ko-kr/live/WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.ko-kr.xlf)
 * Archive Datetime: 2016-10-18 19:22:33
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\setup\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs.ko-kr/blob/bef80ca1bd0df36caa78e109011ef1e22e10b694/scripting/setup/WinRMSecurity.md)
-* Current Handback File: [WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/e9f6ef7e5c22dd21d4ee3682ef05acc27b64779d/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.ko-kr.xlf)
-* Current Handback Datetime: 2016-10-06 00:33:26
+* Handback File: [WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/1b4eca67b9a5456a8beb341a88afa280234fd8d8/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.ko-kr.xlf)
+* Handback Datetime: 2016-10-23 20:22:53
 * Bilingual File: [WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/e9f6ef7e5c22dd21d4ee3682ef05acc27b64779d/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.ko-kr.xlf)
 * Bilingual Datetime: 2016-10-06 00:37:16
 * [Back to Top](#report-top)
