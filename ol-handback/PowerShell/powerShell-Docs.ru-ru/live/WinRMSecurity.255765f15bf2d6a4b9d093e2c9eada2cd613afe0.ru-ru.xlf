@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-719cecd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa7e5c84ac82fa72836536ece507f1751e099077</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\setup\WinRMSecurity.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64ebbf2611f36fa67f4250fd168733a0c1e8ca2d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">894b1c085f8c9259aacbf3c1b18dd1b754af7ce5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>WinRMSecurity</source>
+          <target state="translated">WinRMSecurity</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">powershell,командлет</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting Security Considerations</source>
+          <target state="translated">Вопросы обеспечения безопасности удаленного взаимодействия PowerShell</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting is the recommended way to manage Windows systems.</source>
+          <target state="translated">Удаленное взаимодействие PowerShell — это рекомендуемый способ управления системами Windows.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting is enabled by default in Windows Server 2012 R2.</source>
+          <target state="translated">В Windows Server 2012 R2 удаленное взаимодействие PowerShell включено по умолчанию.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This document covers security concerns, recommendations, and best practices when using PowerShell Remoting.</source>
+          <target state="translated">В этом документе рассматриваются вопросы безопасности и рекомендации по использованию удаленного взаимодействия PowerShell.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>What is PowerShell Remoting?</source>
+          <target state="translated">Что такое удаленное взаимодействие PowerShell?</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting uses <bpt id="p1">[</bpt>Windows Remote Management (WinRM)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426.aspx)</ept>, which is the Microsoft implementation of the <bpt id="p2">[</bpt>Web Services for Management (WS-Management)<ept id="p2">](http://www.dmtf.org/sites/default/files/standards/documents/DSP0226_1.2.0.pdf)</ept> protocol, to allow users to run PowerShell commands on remote computers.</source>
+          <target state="translated">Функция удаленного взаимодействия PowerShell использует службу <bpt id="p1">[</bpt>удаленного управления Windows (WinRM)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426.aspx)</ept>, которая является реализацией протокола <bpt id="p2">[</bpt>веб-служб для управления (WS-Management)<ept id="p2">](http://www.dmtf.org/sites/default/files/standards/documents/DSP0226_1.2.0.pdf)</ept>, чтобы дать пользователям возможность использовать команды PowerShell на удаленных компьютерах.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can find more information about using PowerShell Remoting at <bpt id="p1">[</bpt>Running Remote Commands<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819505.aspx)</ept>.</source>
+          <target state="translated">Дополнительные сведения об использовании удаленного взаимодействия PowerShell можно найти в статье <bpt id="p1">[</bpt>Выполнение удаленных команд<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819505.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting is not the same as using the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter of a cmdlet to run it on a remote computer, which uses Remote Procedure Call (RPC) as its underlying protocol.</source>
+          <target state="translated">Удаленное взаимодействие PowerShell отличается от выполнения командлета с параметром <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> для запуска на удаленном компьютере, когда в качестве базового протокола используется удаленный вызов процедур (RPC).</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting default settings</source>
+          <target state="translated">Параметры удаленного взаимодействия PowerShell по умолчанию</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting (and WinRM) listen on the following ports:</source>
+          <target state="translated">Удаленное взаимодействие PowerShell (и WinRM) прослушивают следующие порты:</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>HTTP: 5985</source>
+          <target state="translated">HTTP — 5985;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>HTTPS: 5986</source>
+          <target state="translated">HTTPS — 5986.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>By default, PowerShell Remoting only allows connections from members of the Administrators group.</source>
+          <target state="translated">По умолчанию функция удаленного взаимодействия PowerShell допускает подключения только от участников группы "Администраторы".</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Sessions are launched under the user's context, so all operating system access controls applied to individual users and groups continue to apply to them while connected over PowerShell Remoting.</source>
+          <target state="translated">Сеансы запускаются в контексте пользователя, поэтому все элементы управления доступом операционной системы, примененные к отдельным пользователям и группам, продолжают применяться к ним при подключении через удаленное взаимодействие PowerShell.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>On private networks, the default Windows Firewall rule for PowerShell Remoting accepts all connections.</source>
+          <target state="translated">В частных сетях правило брандмауэра Windows по умолчанию для удаленного взаимодействия PowerShell принимает все подключения.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>On public networks, the default Windows Firewall rule allows PowerShell Remoting connections only from within the same subnet.</source>
+          <target state="translated">В общедоступных сетях правило брандмауэра Windows по умолчанию допускает подключения удаленного взаимодействия PowerShell только из той же подсети.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You have to explicitly change that rule to open PowerShell Remoting to all connections on a public network.</source>
+          <target state="translated">Необходимо явно изменить это правило, чтобы открыть удаленное взаимодействие PowerShell для всех подключений в общедоступной сети.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Warning:<ept id="p1">**</ept> The firewall rule for public networks is meant to protect the computer from potentially malicious external connection attempts.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Предупреждение<ept id="p1">**</ept>. Правило брандмауэра для общедоступных сетей предназначено для защиты компьютера от потенциально вредоносных попыток внешних подключений.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Use caution when removing this rule.</source>
+          <target state="translated">Будьте внимательны при удалении этого правила.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Process isolation</source>
+          <target state="translated">Изоляция процессов</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>PowerShell Remoting uses <bpt id="p1">[</bpt>Windows Remote Management (WinRM)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426)</ept> for communication between computers.</source>
+          <target state="translated">Функция удаленного взаимодействия PowerShell использует службу <bpt id="p1">[</bpt>удаленного управления Windows (WinRM)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426)</ept> для обмена данными между компьютерами.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>WinRM runs as a service under the Network Service account, and spawns isolated processes running as user accounts to host PowerShell instances.</source>
+          <target state="translated">WinRM выполняется как служба с учетной записью сетевой службы и порождает изолированные процессы, выполняющиеся как учетные записи пользователей, для размещения экземпляров PowerShell.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An instance of PowerShell running as one user has no access to a process running an instance of PowerShell as another user.</source>
+          <target state="translated">Экземпляр PowerShell, выполняющийся как один пользователь, не имеет доступа к процессу, в котором выполняется экземпляр PowerShell от имени другого пользователя.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Event logs generated by PowerShell Remoting</source>
+          <target state="translated">Журналы событий, создаваемые удаленным взаимодействием PowerShell</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>FireEye has provided a good summary of the event logs and other security evidence generated by PowerShell Remoting sessions, available at</source>
+          <target state="translated">Компания FireEye опубликовала хорошую сводку журналов событий и других свидетельств безопасности, создаваемых в сеансах удаленного взаимодействия PowerShell, в статье</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Investigating PowerShell Attacks<ept id="p1">](https://www.fireeye.com/content/dam/fireeye-www/global/en/solutions/pdfs/wp-lazanciyan-investigating-powershell-attacks.pdf)</ept>.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Investigating PowerShell Attacks<ept id="p1">](https://www.fireeye.com/content/dam/fireeye-www/global/en/solutions/pdfs/wp-lazanciyan-investigating-powershell-attacks.pdf)</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Encryption and transport protocols</source>
+          <target state="translated">Протоколы шифрования и транспорта</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>It is helpful to consider the security of a PowerShell Remoting connection from two perspectives: initial authentication, and ongoing communication.</source>
+          <target state="translated">Рекомендуется оценивать безопасность подключения удаленного взаимодействия PowerShell с двух точек зрения — начальной аутентификации и текущего обмена данными.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Regardless of the transport protocol used (HTTP or HTTPS), PowerShell Remoting always encrypts all communication after initial authentication with a per-session AES-256 symmetric key.</source>
+          <target state="translated">Независимо от используемого транспортного протокола (HTTP или HTTPS), удаленное взаимодействие PowerShell всегда шифрует весь обмен данными после начальной проверки подлинности с помощью симметричного ключа сеанса AES-256.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initial authentication</source>
+          <target state="translated">Начальная проверка подлинности</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Authentication confirms the identity of the client to the server - and ideally - the server to the client.</source>
+          <target state="translated">Проверка подлинности используется для идентификации клиента для сервера и, в идеале, сервера для клиента.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When a client connects to a domain server using its computer name (i.e.: server01, or server01.contoso.com), the default authentication protocol is <bpt id="p1">[</bpt>Kerberos<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378747.aspx)</ept>.</source>
+          <target state="translated">Когда клиент подключается к серверу домена по имени компьютера (т. е. server01 или server01.contoso.com), по умолчанию используется протокол аутентификации <bpt id="p1">[</bpt>Kerberos<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378747.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Kerberos guarantees both the user identity and server identity without sending any sort of reusable credential.</source>
+          <target state="translated">Kerberos гарантирует идентификацию пользователя и сервера без отправки каких-либо повторно используемых учетных данных.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When a client connects to a domain server using its IP address, or connects to a workgroup server, Kerberos authentication is not possible.</source>
+          <target state="translated">Если клиент подключается к серверу домена по IP-адресу (или подключается к серверу рабочей группы), проверка подлинности Kerberos невозможна.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In that case, PowerShell Remoting relies on the <bpt id="p1">[</bpt>NTLM authentication protocol<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378749.aspx)</ept>.</source>
+          <target state="translated">В этом случае удаленное взаимодействие PowerShell использует <bpt id="p1">[</bpt>протокол аутентификации NTLM<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378749.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The NTLM authentication protocol guarantees the user identity without sending any sort of delegable credential.</source>
+          <target state="translated">Протокол аутентификации NTLM гарантирует идентификацию пользователя без отправки каких-либо делегируемых учетных данных.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To prove user identity, the NTLM protocol requires that both the client and server compute a session key from the user's password without ever exchanging the password itself.</source>
+          <target state="translated">Для подтверждения личности пользователя протокол NTLM требует, чтобы клиент и сервер вычисляли сеансовый ключ на основе пароля пользователя без передачи самого пароля.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The server typically does not know the user's password, so it communicates with the domain controller, which does know the user's password and calculates the session key for the server.</source>
+          <target state="translated">Серверу, как правило, неизвестен пароль пользователя, поэтому он связывается с контроллером домена, которому пароль пользователя известен и который вычисляет сеансовый ключ для этого сервера.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The NTLM protocol does not, however, guarantee server identity.</source>
+          <target state="translated">Протокол NTLM, однако, не гарантирует идентификацию сервера.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>As with all protocols that use NTLM for authentication, an attacker with access to a domain-joined computer's machine account could invoke the domain controller to compute an NTLM session-key and thereby impersonate the server.</source>
+          <target state="translated">Как и в случае с любыми протоколами, использующими NTLM для аутентификации, злоумышленник, имеющий доступ к учетной записи компьютера, присоединенного к домену, может заставить контроллер домена вычислить сеансовый ключ NTLM, тем самым олицетворяя сервер.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>NTLM-based authentication is disabled by default, but may be permitted by either configuring SSL on the target server, or by configuring the WinRM TrustedHosts setting on the client.</source>
+          <target state="translated">Проверка подлинности на основе NTLM отключена по умолчанию, но ее можно разрешить, настроив SSL на целевом сервере или настроив параметр TrustedHosts службы WinRM в клиенте.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Using SSL certificates to validate server identity during NTLM-based connections</source>
+          <target state="translated">Использование SSL-сертификатов для проверки удостоверения сервера во время NTLM-подключений</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Since the NTLM authentication protocol cannot ensure the identity of the target server (only that it already knows your password), you can configure target servers to use SSL for PowerShell Remoting.</source>
+          <target state="translated">Поскольку протокол аутентификации NTLM не может гарантировать идентификацию целевого сервера (а только то, что ему уже известен ваш пароль), можно настроить на целевых серверах использование протокола SSL для удаленного взаимодействия PowerShell.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Assigning a SSL certificate to the target server (if issued by a Certificate Authority that the client also trusts) enables NTLM-based authentication that guarantees both the user identity and server identity.</source>
+          <target state="translated">Назначение SSL-сертификата целевому серверу (если он выдан центром сертификации, которому также доверяет клиент) обеспечивает аутентификацию на основе NTLM, которая гарантирует идентификацию как пользователя, так и сервера.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Ignoring NTLM-based server identity errors</source>
+          <target state="translated">Пропуск ошибок идентификации сервера на основе NTLM</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If deploying a SSL certificate to a server for NTLM connections is infeasible, you may suppress the resulting identity errors by adding the server to the WinRM <bpt id="p1">**</bpt>TrustedHosts<ept id="p1">**</ept> list.</source>
+          <target state="translated">Если реализация развертывания SSL-сертификата на сервере для NTLM-подключений невозможна, отключить связанные ошибки идентификации можно, добавив сервер в список <bpt id="p1">**</bpt>TrustedHosts<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Please note that adding a server name to the TrustedHosts list should not be considered as any form of statement of the trustworthiness of the hosts themselves - as the NTLM authentication protocol cannot guarantee that you are in fact connecting to the host you are intending to connect to.</source>
+          <target state="translated">Обратите внимание, что добавление имени сервера в список TrustedHosts не должно рассматриваться как утверждение о надежности самих узлов, так как протокол аутентификации NTLM не может гарантировать, что подключение на самом деле выполняется к предполагаемому узлу.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Instead, you should consider the TrustedHosts setting to be the list of hosts for which you wish to suppress the error generated by being unable to verify the server's identity.</source>
+          <target state="translated">Параметр TrustedHosts следует рассматривать как список узлов, для которых требуется отключать ошибки, возникающие из-за невозможности проверить удостоверение сервера.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Ongoing Communication</source>
+          <target state="translated">Текущий обмен данными</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Once initial authentication is complete, the <bpt id="p1">[</bpt>PowerShell Remoting Protocol<ept id="p1">](https://msdn.microsoft.com/en-us/library/dd357801.aspx)</ept> encrypts all ongoing communication with a per-session AES-256 symmetric key.</source>
+          <target state="translated">После завершения начальной аутентификации <bpt id="p1">[</bpt>протокол удаленного взаимодействия PowerShell<ept id="p1">](https://msdn.microsoft.com/en-us/library/dd357801.aspx)</ept> выполняет шифрование всех текущих подключений с помощью симметричного ключа AES-256 для каждого сеанса.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Making the second hop</source>
+          <target state="translated">Выполнение второго перехода</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>By default, PowerShell Remoting uses Kerberos (if available) or NTLM for authentication.</source>
+          <target state="translated">По умолчанию удаленное взаимодействие PowerShell использует для проверки подлинности протокол Kerberos (по возможности) или NTLM.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Both of these protocols authenticate to the remote machine without sending credentials to it.</source>
+          <target state="translated">Оба эти протокола выполняют проверку подлинности на удаленном компьютере без отправки учетных данных.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This is the most secure way to authenticate, but because the remote machine does not have the user's credentials, it cannot access other computers and services on the user's behalf.</source>
+          <target state="translated">Это наиболее безопасный способ проверки подлинности, но поскольку удаленный компьютер не имеет учетных данных пользователя, он не может получать доступ к другим компьютерам и службам от имени пользователя.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This is known as the "Double-Hop" problem.</source>
+          <target state="translated">Эту ситуацию называют проблемой "двойного перехода".</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>There are several ways to avoid this problem:</source>
+          <target state="translated">Существует несколько способов избежать этой проблемы.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Trust between remote computers</source>
+          <target state="translated">Доверие между удаленными компьютерами</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If you trust users connected remotely to <bpt id="p1">*</bpt>Server1<ept id="p1">*</ept> to resources on <bpt id="p2">*</bpt>Server2<ept id="p2">*</ept>, you can explicitly grant <bpt id="p3">*</bpt>Server1<ept id="p3">*</ept> access to those resources.</source>
+          <target state="translated">Если вы доверяете пользователям, выполняющим удаленное подключение к компьютеру <bpt id="p1">*</bpt>Server1<ept id="p1">*</ept>, доступ к ресурсам на компьютере <bpt id="p2">*</bpt>Server2<ept id="p2">*</ept>, можно явно предоставить <bpt id="p3">*</bpt>Server1<ept id="p3">*</ept> доступ к этим ресурсам.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Use explicit credentials when accessing remote resources</source>
+          <target state="translated">Использование явных учетных данных при доступе к удаленным ресурсам</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can explicitly pass your credentials to a remote resource by using the <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> parameter of a cmdlet.</source>
+          <target state="translated">Можно явным образом передать учетные данные в удаленный ресурс с помощью параметра <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> командлета.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Например:</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>CredSSP</source>
+          <target state="translated">CredSSP</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">[</bpt>Credential Security Support Provider (CredSSP)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/bb931352.aspx)</ept> for authentication (by specifying "CredSSP" as the value of the <ph id="ph1">`Authentication`</ph> parameter of a call to the <bpt id="p2">[</bpt>New-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849717.aspx)</ept> cmdlet.</source>
+          <target state="translated">Можно использовать <bpt id="p1">[</bpt>протокол CredSSP<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/bb931352.aspx)</ept> для аутентификации, указав CredSSP в качестве значения параметра <ph id="ph1">`Authentication`</ph> при вызове командлета <bpt id="p2">[</bpt>New-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849717.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>CredSSP passes credentials in plain text to the server, so using it opens you up to credential theft attacks.</source>
+          <target state="translated">Протокол CredSSP передает учетные данные на сервер в виде обычного текста, что делает их уязвимыми для атак, направленных на кражу учетных данных.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If the remote computer is compromised, the attacker has access to the user's credentials.</source>
+          <target state="translated">Если безопасность удаленного компьютера нарушена, злоумышленник получает доступ к учетным данным пользователя.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>CredSSP is disabled by default on both client and server computers.</source>
+          <target state="translated">Протокол CredSSP по умолчанию отключен на компьютерах клиента и сервера.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You should enable CredSSP only in the most trusted environments.</source>
+          <target state="translated">Включать протокол CredSSP следует только в самых надежных средах.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For example, a domain administrator connecting to a domain controller because the domain controller is highly trusted.</source>
+          <target state="translated">Например, при подключении администратора домена к контроллеру домена, так как контроллер домена является высоконадежным.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information about security concerns when using CredSSP for PowerShell Remoting, see <bpt id="p1">[</bpt>Accidental Sabotage: Beware of CredSSP<ept id="p1">](http://www.powershellmagazine.com/2014/03/06/accidental-sabotage-beware-of-credssp)</ept>.</source>
+          <target state="translated">Дополнительные сведения о вопросах безопасности при использовании протокола CredSSP для удаленного взаимодействия PowerShell см. в статье <bpt id="p1">[</bpt>Accidental Sabotage: Beware of CredSSP<ept id="p1">](http://www.powershellmagazine.com/2014/03/06/accidental-sabotage-beware-of-credssp)</ept> (Непреднамеренный саботаж: берегитесь CredSSP).</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>For more information about credential theft attacks, see <bpt id="p1">[</bpt>Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=36036)</ept>.</source>
+          <target state="translated">Дополнительные сведения об атаках, направленных на хищение учетных данных, см. в техническом документе <bpt id="p1">[</bpt>Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=36036)</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
