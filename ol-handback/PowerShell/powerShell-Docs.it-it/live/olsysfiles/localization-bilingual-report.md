@@ -1,11 +1,28 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [scripting\setup\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/4ddd5099ce33263d43dcbad0930e654b573a8937/scripting/setup/WinRMSecurity.md) | InSyncHandedBackSuccess | [Details](#fa7e5c84ac82fa72836536ece507f1751e099077323)
 
 ## Item Details
+##### <a name='fa7e5c84ac82fa72836536ece507f1751e099077323'></a> Source: [scripting\setup\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/4ddd5099ce33263d43dcbad0930e654b573a8937/scripting/setup/WinRMSecurity.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\setup\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs.it-it/blob/3118495be717bb8de235dfd6e621fa1df6892683/scripting/setup/WinRMSecurity.md)
+* Handoff File: [WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/41dd9d0dccc981459b31e302abd2d20c6edac1d4/ol-handoff/PowerShell/powerShell-Docs.it-it/live/WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.it-it.xlf)
+* Handoff Datetime: 2016-10-13 18:10:00
+* Handoff Reason: Include
+* Archive File: [WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/56ea71bdee3bf4fa88dba1784526930839a186ff/ol-archive/PowerShell/powerShell-Docs.it-it/live/WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.it-it.xlf)
+* Archive Datetime: 2016-10-18 19:23:17
+* Handback File: [WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ad0ea7cc2e746cdd5d7581ee6a49e8aea669cea5/ol-handback/PowerShell/powerShell-Docs.it-it/live/WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.it-it.xlf)
+* Handback Datetime: 2016-10-23 20:22:26
+* Bilingual File: [WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ad0ea7cc2e746cdd5d7581ee6a49e8aea669cea5/ol-handback/PowerShell/powerShell-Docs.it-it/live/WinRMSecurity.255765f15bf2d6a4b9d093e2c9eada2cd613afe0.it-it.xlf)
+* Bilingual Datetime: 2016-10-23 20:24:34
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
