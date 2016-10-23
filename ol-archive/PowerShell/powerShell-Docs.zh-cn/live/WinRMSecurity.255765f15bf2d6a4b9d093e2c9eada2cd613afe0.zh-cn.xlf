@@ -2,12 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1addddd50368fadcbb2581673d3ebc7cad8e32a</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-719cecd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa7e5c84ac82fa72836536ece507f1751e099077</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\setup\WinRMSecurity.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ef81001b689ee33e243425227e32df2665ee9ab</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64ebbf2611f36fa67f4250fd168733a0c1e8ca2d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">894b1c085f8c9259aacbf3c1b18dd1b754af7ce5</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -186,54 +187,45 @@
           <source>There are several ways to avoid this problem:</source>
           <target state="translated">有几种方法可以避免此问题：</target>       </trans-unit>
         <trans-unit id="159" translate="yes" xml:space="preserve">
-          <source>Kerberos Constrained Delegation</source>
-          <target state="translated">Kerberos 约束委派</target>       </trans-unit>
-        <trans-unit id="160" translate="yes" xml:space="preserve">
-          <source>For highly trusted servers, you can enable <bpt id="p1">[</bpt>Kerberos Constrained Delegation<ept id="p1">](https://technet.microsoft.com/en-us/library/cc995228.aspx)</ept>.</source>
-          <target state="translated">对于高度受信任的服务器，可以启用 <bpt id="p1">[</bpt>Kerberos 约束委派<ept id="p1">](https://technet.microsoft.com/en-us/library/cc995228.aspx)</ept>。</target>       </trans-unit>
-        <trans-unit id="161" translate="yes" xml:space="preserve">
-          <source>This allows the remote server to impersonate the authenticated user to a specified list of computers and services.</source>
-          <target state="translated">这样一来，远程服务器便可以将已通过身份验证的用户模拟到指定的计算机和服务列表中。</target>       </trans-unit>
-        <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>Trust between remote computers</source>
           <target state="translated">远程计算机之间的信任</target>       </trans-unit>
-        <trans-unit id="163" translate="yes" xml:space="preserve">
+        <trans-unit id="160" translate="yes" xml:space="preserve">
           <source>If you trust users connected remotely to <bpt id="p1">*</bpt>Server1<ept id="p1">*</ept> to resources on <bpt id="p2">*</bpt>Server2<ept id="p2">*</ept>, you can explicitly grant <bpt id="p3">*</bpt>Server1<ept id="p3">*</ept> access to those resources.</source>
           <target state="translated">如果你信任远程连接到 <bpt id="p1">*</bpt>Server1<ept id="p1">*</ept> 的用户访问 <bpt id="p2">*</bpt>Server2<ept id="p2">*</ept> 上的资源，则可以显式授予 <bpt id="p3">*</bpt>Server1<ept id="p3">*</ept> 对这些资源的访问权限。</target>       </trans-unit>
-        <trans-unit id="164" translate="yes" xml:space="preserve">
+        <trans-unit id="161" translate="yes" xml:space="preserve">
           <source>Use explicit credentials when accessing remote resources</source>
           <target state="translated">访问远程资源时使用显式凭据</target>       </trans-unit>
-        <trans-unit id="165" translate="yes" xml:space="preserve">
+        <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>You can explicitly pass your credentials to a remote resource by using the <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> parameter of a cmdlet.</source>
           <target state="translated">通过使用 cmdlet 的 <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> 参数，可以将凭据显式传递到远程资源。</target>       </trans-unit>
-        <trans-unit id="166" translate="yes" xml:space="preserve">
+        <trans-unit id="163" translate="yes" xml:space="preserve">
           <source>For example:</source>
           <target state="translated">例如：</target>       </trans-unit>
-        <trans-unit id="167" translate="yes" xml:space="preserve">
+        <trans-unit id="164" translate="yes" xml:space="preserve">
           <source>CredSSP</source>
           <target state="translated">CredSSP</target>       </trans-unit>
-        <trans-unit id="168" translate="yes" xml:space="preserve">
+        <trans-unit id="165" translate="yes" xml:space="preserve">
           <source>You can use the <bpt id="p1">[</bpt>Credential Security Support Provider (CredSSP)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/bb931352.aspx)</ept> for authentication (by specifying "CredSSP" as the value of the <ph id="ph1">`Authentication`</ph> parameter of a call to the <bpt id="p2">[</bpt>New-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849717.aspx)</ept> cmdlet.</source>
           <target state="translated">你可以使用<bpt id="p1">[</bpt>凭据安全支持提供程序 (CredSSP)<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/bb931352.aspx)</ept> 进行身份验证，具体方法为将“CredSSP”指定为对 <bpt id="p2">[</bpt>New-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849717.aspx)</ept> cmdlet 的调用的 <ph id="ph1">`Authentication`</ph> 参数值。</target>       </trans-unit>
-        <trans-unit id="169" translate="yes" xml:space="preserve">
+        <trans-unit id="166" translate="yes" xml:space="preserve">
           <source>CredSSP passes credentials in plain text to the server, so using it opens you up to credential theft attacks.</source>
           <target state="translated">CredSSP 会将凭据以纯文本的形式传递给服务器，因此会导致你面临遭受凭据被盗攻击的风险。</target>       </trans-unit>
-        <trans-unit id="170" translate="yes" xml:space="preserve">
+        <trans-unit id="167" translate="yes" xml:space="preserve">
           <source>If the remote computer is compromised, the attacker has access to the user's credentials.</source>
           <target state="translated">如果远程计算机被攻破，攻击者将有权访问用户的凭据。</target>       </trans-unit>
-        <trans-unit id="171" translate="yes" xml:space="preserve">
+        <trans-unit id="168" translate="yes" xml:space="preserve">
           <source>CredSSP is disabled by default on both client and server computers.</source>
           <target state="translated">默认情况下，CredSSP 在客户端和服务器计算机上都处于禁用状态。</target>       </trans-unit>
-        <trans-unit id="172" translate="yes" xml:space="preserve">
+        <trans-unit id="169" translate="yes" xml:space="preserve">
           <source>You should enable CredSSP only in the most trusted environments.</source>
           <target state="translated">应该仅在最受信任的环境中启用 CredSSP。</target>       </trans-unit>
-        <trans-unit id="173" translate="yes" xml:space="preserve">
+        <trans-unit id="170" translate="yes" xml:space="preserve">
           <source>For example, a domain administrator connecting to a domain controller because the domain controller is highly trusted.</source>
           <target state="translated">例如，连接到域控制器的域管理员，因为域控制器是高度可信任的。</target>       </trans-unit>
-        <trans-unit id="174" translate="yes" xml:space="preserve">
+        <trans-unit id="171" translate="yes" xml:space="preserve">
           <source>For more information about security concerns when using CredSSP for PowerShell Remoting, see <bpt id="p1">[</bpt>Accidental Sabotage: Beware of CredSSP<ept id="p1">](http://www.powershellmagazine.com/2014/03/06/accidental-sabotage-beware-of-credssp)</ept>.</source>
           <target state="translated">若要详细了解在使用 CredSSP 进行 PowerShell 远程处理时需要注意的安全问题，请参阅 <bpt id="p1">[</bpt>Accidental Sabotage: Beware of CredSSP（非蓄意破坏：当心 CredSSP）<ept id="p1">](http://www.powershellmagazine.com/2014/03/06/accidental-sabotage-beware-of-credssp)</ept>。</target>       </trans-unit>
-        <trans-unit id="175" translate="yes" xml:space="preserve">
+        <trans-unit id="172" translate="yes" xml:space="preserve">
           <source>For more information about credential theft attacks, see <bpt id="p1">[</bpt>Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=36036)</ept>.</source>
           <target state="translated">有关凭据被盗攻击的详细信息，请参阅<bpt id="p1">[</bpt>缓解哈希传递 (PtH) 攻击和其他凭据被盗<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=36036)</ept>。</target>       </trans-unit>
       </group>
