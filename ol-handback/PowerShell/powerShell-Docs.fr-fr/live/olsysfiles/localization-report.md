@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 0
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 92
-[ Handback Failed Files ](#handback-failed-list)| 5
+[ Archive Success Files ](#archive-success-list)| 41
+[ Handback Failed Files ](#handback-failed-list)| 7
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 322
+[ In Sync Handback Files ](#insync-handback-success-list)| 371
 [ Ignored Files ](#ignored-list)| 41
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -22,57 +22,7 @@
 ## <a name='archive-success-list'></a> Archive Success File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\DSCAutomationHostEnabled.md](https://github.com/PowerShell/powerShell-Docs/blob/4d8d014a63590a14e73e47dad54ce07c9ba49695/dsc/DSCAutomationHostEnabled.md) | ArchivedSuccess | [Details](#ee7c631861627556ffa69df509de86b7e76d7a9022)
- [gallery\psgallery\contributing_to_psgallery_documentation.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/contributing_to_psgallery_documentation.md) | ArchivedSuccess | [Details](#0be96966d704752ab0fd9d68a8b88e525de0a34a106)
- [gallery\psgallery\Creating-and-Publishing-an-item.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Creating-and-Publishing-an-item.md) | ArchivedSuccess | [Details](#70db6e1eafefa04eb5be969457275f149870a030107)
- [gallery\psgallery\Deleting-Items.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Deleting-Items.md) | ArchivedSuccess | [Details](#4e0258ccf05ef5ab0dc799a5113b05becc3dbb05108)
- [gallery\psgallery\Item-Conventions.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Item-Conventions.md) | ArchivedSuccess | [Details](#5df8007fbcb49f80708fa892ac9d3e21656b476a114)
- [gallery\psgallery\Managing-Item-Owners.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Managing-Item-Owners.md) | ArchivedSuccess | [Details](#00fe57762c6b2bb690255ecaea642f97124f4328115)
- [gallery\psgallery\PackageManagement_Architecture .md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/PackageManagement_Architecture%20.md) | ArchivedSuccess | [Details](#c84ff58e4378feffa15c91485826b74f421c737e116)
- [gallery\psgallery\psgallery_contacting_administrators.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_contacting_administrators.md) | ArchivedSuccess | [Details](#0268fed62bc4c30f5e299af0cc29a0f2316ce731117)
- [gallery\psgallery\psgallery_deploy_to_azure_automation.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_deploy_to_azure_automation.md) | ArchivedSuccess | [Details](#c028bf6145b41c13bccda9543a782b838bd730ff119)
- [gallery\psgallery\psgallery_dispute_resolution.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_dispute_resolution.md) | ArchivedSuccess | [Details](#6d7015a14f0d0a75bc28e201dceefe6c9c682b31120)
- [gallery\psgallery\psgallery_faqs.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_faqs.md) | ArchivedSuccess | [Details](#96d38c487a311852a0f670b7d3de4929fab68e4d121)
- [gallery\psgallery\psgallery_filelist_feature.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_filelist_feature.md) | ArchivedSuccess | [Details](#ffd07e9666ed903fbed6b8f27e365f6182f1c131122)
- [gallery\psgallery\psgallery_gettingstarted.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_gettingstarted.md) | ArchivedSuccess | [Details](#d6f36a62c95a4444f456cf7c14f7f3dc08236447123)
- [gallery\psgallery\psgallery_items_tab.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_items_tab.md) | ArchivedSuccess | [Details](#6edf1451cb869f0b9400b353b3143c99c3568382124)
- [gallery\psgallery\psgallery_pseditions.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_pseditions.md) | ArchivedSuccess | [Details](#a2e6f87603795e7781115239b87c73a076e5e6ca125)
- [gallery\psgallery\psgallery_report_abuse.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_report_abuse.md) | ArchivedSuccess | [Details](#218211100c929be4c9523732f5faa69e91f16801126)
- [gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_scriptanalyzer_rule_profile.md) | ArchivedSuccess | [Details](#254f4aa764c29d151a58ca204f3f59d57c098fc5127)
- [gallery\psgallery\psgallery_unlist_items.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_unlist_items.md) | ArchivedSuccess | [Details](#95e0bb58eb110a9060615e409cb55fa9231d505f130)
- [gallery\psgallery\Setting-Up-Local-Gallery.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Setting-Up-Local-Gallery.md) | ArchivedSuccess | [Details](#dad964227a913d386897df4bf38e21a5dd844a46132)
- [gallery\psget\module\Dependency_Versioning.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/Dependency_Versioning.md) | ArchivedSuccess | [Details](#4e8b42fdf28f09105351f9b00b16ab5228299a4c133)
- [gallery\psget\module\Module_Versioning.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/Module_Versioning.md) | ArchivedSuccess | [Details](#3b72210adccf1368a845c8b4ebd9feb87e798f8a134)
- [gallery\psget\module\ModuleManifest-Reference.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/ModuleManifest-Reference.md) | ArchivedSuccess | [Details](#ff1a93e90bfb0349eca3027716029c2858b74269135)
- [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/modulewithpseditionsupport.md) | ArchivedSuccess | [Details](#dc8836607e2d2f03d34e5c90a8d20fe4cf0ae76f136)
- [gallery\psget\module\psget_find-command.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_find-command.md) | ArchivedSuccess | [Details](#7d46f02106785b0f94f73e60231fb4623002cfb6137)
- [gallery\psget\module\psget_find-dscresource.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_find-dscresource.md) | ArchivedSuccess | [Details](#4ee5433547266e2665e1e33b9f120f505426c8f4138)
- [gallery\psget\module\psget_find-module.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_find-module.md) | ArchivedSuccess | [Details](#67542f54cd350bd1d9512eae0a2355b47943c2f2139)
- [gallery\psget\module\psget_install-module.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_install-module.md) | ArchivedSuccess | [Details](#68e7ba36a723b0cb863ed890834855fa5f531240142)
- [gallery\psget\module\psget_module_creation.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_module_creation.md) | ArchivedSuccess | [Details](#1e74a93792fc1d99d9bb2b29382a637a473f78b7143)
- [gallery\psget\module\psget_moduledependencypopulation.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_moduledependencypopulation.md) | ArchivedSuccess | [Details](#a6ace8faebd6f37d3c41ee5a3fef2bda70b8c651144)
- [gallery\psget\module\psget_publish-module.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_publish-module.md) | ArchivedSuccess | [Details](#c62ab4b7ab5266d7285d4c444105f0a8291563c1145)
- [gallery\psget\oneget\PackageManagement_cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/oneget/PackageManagement_cmdlets.md) | ArchivedSuccess | [Details](#d1906428d258cd8b43530d2cd024f6f9e52b81db150)
- [gallery\psget\overview.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/overview.md) | ArchivedSuccess | [Details](#e2f00a4ec1e287471d9c7c1c5e95d6c7111e5bf1151)
- [gallery\psget\psget_oneget_integration.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/psget_oneget_integration.md) | ArchivedSuccess | [Details](#c81d91dc27b5d985b60655a412526451f8ae96b7154)
- [gallery\psget\repository\bootstrapping_nuget_proivder_and_exe.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/repository/bootstrapping_nuget_proivder_and_exe.md) | ArchivedSuccess | [Details](#0e0e1287dbe0912e90dfeabee8e22cdf78d9e82a155)
- [gallery\psget\repository\psget_register-psrepository.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/repository/psget_register-psrepository.md) | ArchivedSuccess | [Details](#c4ca4af826785fb0009afc1b06166e1888045e72157)
- [gallery\psget\repository\psget_set-psrepository.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/repository/psget_set-psrepository.md) | ArchivedSuccess | [Details](#f53076825f764ff805f2d956eecddbb492f7b694158)
- [gallery\psget\repository\psget_unregister-psrepository.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/repository/psget_unregister-psrepository.md) | ArchivedSuccess | [Details](#7d9c24ebb20756a2f7852692532ac6ec7e558ca9159)
- [gallery\psget\script\psget_find-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_find-script.md) | ArchivedSuccess | [Details](#5651989acde9d47a7a07fac9284aebae84f28174160)
- [gallery\psget\script\psget_get-installedscript.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_get-installedscript.md) | ArchivedSuccess | [Details](#f809c5c8f5a28c01c67ee4c4453ecca7796838c4161)
- [gallery\psget\script\psget_install-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_install-script.md) | ArchivedSuccess | [Details](#df04c387f09ad603d001bb94ee4cdeabc6d9d5a6162)
- [gallery\psget\script\psget_new-scriptfileinfo.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_new-scriptfileinfo.md) | ArchivedSuccess | [Details](#8a534132c9622c699b636252e7c4bf7eafcf4d44163)
- [gallery\psget\script\psget_publish-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_publish-script.md) | ArchivedSuccess | [Details](#bcf1abe7021c9b48fa35f08762f4d4a0a710dfa3164)
- [gallery\psget\script\psget_save-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_save-script.md) | ArchivedSuccess | [Details](#ceb3ee918e594d23b3ba2e097d197dd0ff6a0971165)
- [gallery\psget\script\psget_uninstall-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_uninstall-script.md) | ArchivedSuccess | [Details](#af3f3b0056d8f35650323ddbd1ff6979fd3e3a84167)
- [gallery\psget\script\psget_update-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_update-script.md) | ArchivedSuccess | [Details](#8c5211a51a9ff8bce641fde8deacd2d288916602168)
- [gallery\psget\script\psget_update-scriptfileinfo.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_update-scriptfileinfo.md) | ArchivedSuccess | [Details](#10e88b62b51c9e0d8e7f85ea120bf71b0d910285169)
- [gallery\psget\script\Script_Versioning.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/Script_Versioning.md) | ArchivedSuccess | [Details](#2249ba9abeec71bd7c1ac9a68d9d05cae0fb410d170)
- [gallery\psget\script\scriptwithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/scriptwithpseditionsupport.md) | ArchivedSuccess | [Details](#46efb494303c4cb691d5b58791a156dcc5bc99b9171)
  [reference\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/644c0b9071a31a9731452ae4f909dd1718347322/reference/readme.md) | ArchivedSuccess | [Details](#81a43a673285ba00710b4bbe450ecf316951746b193)
- [reference\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/31f3ceaf2c99430c48dcfdb65c851af0126157b2/reference/TOC.md) | ArchivedSuccess | [Details](#406bc766c9278b03371d2f3098eabedaeb75da1d194)
- [scripting\core-powershell\console\Using-Tab-Expansion.md](https://github.com/PowerShell/powerShell-Docs/blob/27512f637dd44485eee38936fea4723cd17b6218/scripting/core-powershell/console/Using-Tab-Expansion.md) | ArchivedSuccess | [Details](#b67024fb27c08e1079caad891cfc3e621a354b27197)
  [scripting\core-powershell\core-modules\Microsoft.PowerShell.Archive-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/core-modules/Microsoft.PowerShell.Archive-Module.md) | ArchivedSuccess | [Details](#72c28d35486561482697bdecd3df8b8af5164f01199)
  [scripting\core-powershell\core-modules\Microsoft.PowerShell.Core-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/core-modules/Microsoft.PowerShell.Core-Module.md) | ArchivedSuccess | [Details](#2332df700b6a133242ee8975a2c9fb32d33d65bb200)
  [scripting\core-powershell\core-modules\Microsoft.PowerShell.Diagnostics-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/core-modules/Microsoft.PowerShell.Diagnostics-Module.md) | ArchivedSuccess | [Details](#5a404bca8e9435a9eab29b8b4cfa8c336d024c38201)
@@ -103,7 +53,6 @@
  [scripting\getting-started\cookbooks\Managing-Services.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Managing-Services.md) | ArchivedSuccess | [Details](#61c98c54ca1b555f6b2e827fb31228bf6a2cc71d267)
  [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md) | ArchivedSuccess | [Details](#03a9bbfb14c4587d794db2eaadf60cc7a4d4dcdc270)
  [scripting\getting-started\cookbooks\Other-Useful-Scripting-Objects.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Other-Useful-Scripting-Objects.md) | ArchivedSuccess | [Details](#938e3e80b709a5f9a09cd52120fca41c60b5675d271)
- [scripting\getting-started\cookbooks\PowerShellGet-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/PowerShellGet-Module.md) | ArchivedSuccess | [Details](#16b3617b75b6aae25a92beaf5d6d2d6f2437ee13273)
  [scripting\getting-started\cookbooks\Selecting-Items-from-a-List-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Selecting-Items-from-a-List-Box.md) | ArchivedSuccess | [Details](#ce74f3c7cb26632269e42dfddb941fee11dcdc87277)
  [scripting\getting-started\fundamental\Getting-Detailed-Help-Information.md](https://github.com/PowerShell/powerShell-Docs/blob/b59186234a513cf34d2615d90643ee749bd60d3f/scripting/getting-started/fundamental/Getting-Detailed-Help-Information.md) | ArchivedSuccess | [Details](#c38edc68154ccfa9cd76ebdad5a94ddfb4f902c8293)
  [scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/416d21d2a2fa3d837eba19b1023e4045a124e23c/scripting/getting-started/Getting-Ready-to-Use-Windows-PowerShell.md) | ArchivedSuccess | [Details](#9229df48b00c125e04d0f97536697495d0ca01ed306)
@@ -119,6 +68,8 @@
  Source File | Status | Details 
  ----------- | ------ | ------- 
  [dsc\authoringResourceComposite.md](https://github.com/PowerShell/powerShell-Docs/blob/48cfed9e0c31e24c441eafb388a799bd7fc7415f/dsc/authoringResourceComposite.md) | HandedBackFailed | [Details](#6631d60d7d82e71c315c26a0196aa3e4c1b60b158)
+ [gallery\psgallery\PackageManagement_Architecture .md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/PackageManagement_Architecture%20.md) | HandedBackFailed | [Details](#c84ff58e4378feffa15c91485826b74f421c737e116)
+ [scripting\getting-started\cookbooks\PowerShellGet-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/PowerShellGet-Module.md) | HandedBackFailed | [Details](#16b3617b75b6aae25a92beaf5d6d2d6f2437ee13273)
  [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/185f24df4d3fc163cb05e99bdd1bc5914a10ef48/wmf/5.1/features-scenarios-cache/catalog-cmdlets.md) | HandedBackFailed | [Details](#1e422b30ab2471e73123badedf1f10631f9730ed415)
  [wmf\5.1\features-scenarios-cache\DSCRunAsCredentialCompositeResources.md](https://github.com/PowerShell/powerShell-Docs/blob/e39aa2e5cbda0c83e24e21c4459d957d8baaff25/wmf/5.1/features-scenarios-cache/DSCRunAsCredentialCompositeResources.md) | HandedBackFailed | [Details](#7505e063fad84999af786f2af0602d204ed973b7419)
  [wmf\5.1\features-scenarios-cache\improved-pullclient-security.md](https://github.com/PowerShell/powerShell-Docs/blob/e39aa2e5cbda0c83e24e21c4459d957d8baaff25/wmf/5.1/features-scenarios-cache/improved-pullclient-security.md) | HandedBackFailed | [Details](#8bb3f7173559c349d033d175f5784d80b7a16ed0423)
@@ -144,6 +95,7 @@
  [dsc\debugResource.md](https://github.com/PowerShell/powerShell-Docs/blob/83ca45d507e39b77751ac7feb6a7b65ae2834280/dsc/debugResource.md) | InSyncHandedBackSuccess | [Details](#e1922008a92f00c9ddab28598735839c25219d2418)
  [dsc\decisionMaker.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/decisionMaker.md) | InSyncHandedBackSuccess | [Details](#2d2b142dc862f7655f28aa34e1fd91f63bd6286e19)
  [dsc\directCallResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/directCallResource.md) | InSyncHandedBackSuccess | [Details](#1fe624c2532e44ed675762f3c141934fb4f0b60d20)
+ [dsc\DSCAutomationHostEnabled.md](https://github.com/PowerShell/powerShell-Docs/blob/4d8d014a63590a14e73e47dad54ce07c9ba49695/dsc/DSCAutomationHostEnabled.md) | InSyncHandedBackSuccess | [Details](#ee7c631861627556ffa69df509de86b7e76d7a9022)
  [dsc\enactingConfigurations.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/enactingConfigurations.md) | InSyncHandedBackSuccess | [Details](#4c802002c6a03a27d02221dd713677911a77c30b23)
  [dsc\environmentResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/environmentResource.md) | InSyncHandedBackSuccess | [Details](#20a7711604033b5ff1484dbb526df2642a9a173824)
  [dsc\fileResource.md](https://github.com/PowerShell/powerShell-Docs/blob/df9bb0362e82757ed1580cc4ace27735414a3e6d/dsc/fileResource.md) | InSyncHandedBackSuccess | [Details](#8c8fb7a40c066b048e1a54a741f4953e6b5a47b625)
@@ -220,20 +172,66 @@
  [dsc\windowsOptionalFeatureSetResource.md](https://github.com/PowerShell/powerShell-Docs/blob/97714d3fa9a1c00fb3d2e79cc873280ca945a840/dsc/windowsOptionalFeatureSetResource.md) | InSyncHandedBackSuccess | [Details](#52eb958e59ecb1d5ae3faf268933bbd544410d47102)
  [dsc\windowsProcessResource.md](https://github.com/PowerShell/powerShell-Docs/blob/97714d3fa9a1c00fb3d2e79cc873280ca945a840/dsc/windowsProcessResource.md) | InSyncHandedBackSuccess | [Details](#0fe5e7d9679d44bb50c897badf8c6517b95049e2103)
  [gallery\index.md](https://github.com/PowerShell/powerShell-Docs/blob/8c31a7878b8c16469fd709d76af8bb9f1b39af1e/gallery/index.md) | InSyncHandedBackSuccess | [Details](#97403b5ae385aa568d0eba44eabac2e10b130a76105)
+ [gallery\psgallery\contributing_to_psgallery_documentation.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/contributing_to_psgallery_documentation.md) | InSyncHandedBackSuccess | [Details](#0be96966d704752ab0fd9d68a8b88e525de0a34a106)
+ [gallery\psgallery\Creating-and-Publishing-an-item.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Creating-and-Publishing-an-item.md) | InSyncHandedBackSuccess | [Details](#70db6e1eafefa04eb5be969457275f149870a030107)
+ [gallery\psgallery\Deleting-Items.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Deleting-Items.md) | InSyncHandedBackSuccess | [Details](#4e0258ccf05ef5ab0dc799a5113b05becc3dbb05108)
+ [gallery\psgallery\Item-Conventions.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Item-Conventions.md) | InSyncHandedBackSuccess | [Details](#5df8007fbcb49f80708fa892ac9d3e21656b476a114)
+ [gallery\psgallery\Managing-Item-Owners.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Managing-Item-Owners.md) | InSyncHandedBackSuccess | [Details](#00fe57762c6b2bb690255ecaea642f97124f4328115)
+ [gallery\psgallery\psgallery_contacting_administrators.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_contacting_administrators.md) | InSyncHandedBackSuccess | [Details](#0268fed62bc4c30f5e299af0cc29a0f2316ce731117)
  [gallery\psgallery\psgallery_contacting_item_owners.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_contacting_item_owners.md) | InSyncHandedBackSuccess | [Details](#1e86d285ba2d9fb7fb3d652a7c941c458f888a53118)
+ [gallery\psgallery\psgallery_deploy_to_azure_automation.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_deploy_to_azure_automation.md) | InSyncHandedBackSuccess | [Details](#c028bf6145b41c13bccda9543a782b838bd730ff119)
+ [gallery\psgallery\psgallery_dispute_resolution.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_dispute_resolution.md) | InSyncHandedBackSuccess | [Details](#6d7015a14f0d0a75bc28e201dceefe6c9c682b31120)
+ [gallery\psgallery\psgallery_faqs.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_faqs.md) | InSyncHandedBackSuccess | [Details](#96d38c487a311852a0f670b7d3de4929fab68e4d121)
+ [gallery\psgallery\psgallery_filelist_feature.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_filelist_feature.md) | InSyncHandedBackSuccess | [Details](#ffd07e9666ed903fbed6b8f27e365f6182f1c131122)
+ [gallery\psgallery\psgallery_gettingstarted.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_gettingstarted.md) | InSyncHandedBackSuccess | [Details](#d6f36a62c95a4444f456cf7c14f7f3dc08236447123)
+ [gallery\psgallery\psgallery_items_tab.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_items_tab.md) | InSyncHandedBackSuccess | [Details](#6edf1451cb869f0b9400b353b3143c99c3568382124)
+ [gallery\psgallery\psgallery_pseditions.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_pseditions.md) | InSyncHandedBackSuccess | [Details](#a2e6f87603795e7781115239b87c73a076e5e6ca125)
+ [gallery\psgallery\psgallery_report_abuse.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_report_abuse.md) | InSyncHandedBackSuccess | [Details](#218211100c929be4c9523732f5faa69e91f16801126)
+ [gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_scriptanalyzer_rule_profile.md) | InSyncHandedBackSuccess | [Details](#254f4aa764c29d151a58ca204f3f59d57c098fc5127)
  [gallery\psgallery\psgallery_search_syntax.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_search_syntax.md) | InSyncHandedBackSuccess | [Details](#bb42496bdc9794b8d33dc9869f33771a241d31db128)
  [gallery\psgallery\psgallery_status.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_status.md) | InSyncHandedBackSuccess | [Details](#69df41ae0a9dfd9fb71655cf6334f60f1d39ae94129)
+ [gallery\psgallery\psgallery_unlist_items.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_unlist_items.md) | InSyncHandedBackSuccess | [Details](#95e0bb58eb110a9060615e409cb55fa9231d505f130)
  [gallery\psgallery\psgalleryint_status.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgalleryint_status.md) | InSyncHandedBackSuccess | [Details](#49f15c88a3bb0e52ed53555f8f59737a622a3b87131)
+ [gallery\psgallery\Setting-Up-Local-Gallery.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Setting-Up-Local-Gallery.md) | InSyncHandedBackSuccess | [Details](#dad964227a913d386897df4bf38e21a5dd844a46132)
+ [gallery\psget\module\Dependency_Versioning.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/Dependency_Versioning.md) | InSyncHandedBackSuccess | [Details](#4e8b42fdf28f09105351f9b00b16ab5228299a4c133)
+ [gallery\psget\module\Module_Versioning.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/Module_Versioning.md) | InSyncHandedBackSuccess | [Details](#3b72210adccf1368a845c8b4ebd9feb87e798f8a134)
+ [gallery\psget\module\ModuleManifest-Reference.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/ModuleManifest-Reference.md) | InSyncHandedBackSuccess | [Details](#ff1a93e90bfb0349eca3027716029c2858b74269135)
+ [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/modulewithpseditionsupport.md) | InSyncHandedBackSuccess | [Details](#dc8836607e2d2f03d34e5c90a8d20fe4cf0ae76f136)
+ [gallery\psget\module\psget_find-command.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_find-command.md) | InSyncHandedBackSuccess | [Details](#7d46f02106785b0f94f73e60231fb4623002cfb6137)
+ [gallery\psget\module\psget_find-dscresource.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_find-dscresource.md) | InSyncHandedBackSuccess | [Details](#4ee5433547266e2665e1e33b9f120f505426c8f4138)
+ [gallery\psget\module\psget_find-module.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_find-module.md) | InSyncHandedBackSuccess | [Details](#67542f54cd350bd1d9512eae0a2355b47943c2f2139)
  [gallery\psget\module\psget_find-rolecapability.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_find-rolecapability.md) | InSyncHandedBackSuccess | [Details](#cdb675c32f62c5bd7acfb79357342f71960b50f4140)
  [gallery\psget\module\psget_get-installedmodule.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_get-installedmodule.md) | InSyncHandedBackSuccess | [Details](#40a79a74117f28407758367f4e27b7ae26917078141)
+ [gallery\psget\module\psget_install-module.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_install-module.md) | InSyncHandedBackSuccess | [Details](#68e7ba36a723b0cb863ed890834855fa5f531240142)
+ [gallery\psget\module\psget_module_creation.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_module_creation.md) | InSyncHandedBackSuccess | [Details](#1e74a93792fc1d99d9bb2b29382a637a473f78b7143)
+ [gallery\psget\module\psget_moduledependencypopulation.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_moduledependencypopulation.md) | InSyncHandedBackSuccess | [Details](#a6ace8faebd6f37d3c41ee5a3fef2bda70b8c651144)
+ [gallery\psget\module\psget_publish-module.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_publish-module.md) | InSyncHandedBackSuccess | [Details](#c62ab4b7ab5266d7285d4c444105f0a8291563c1145)
  [gallery\psget\module\psget_save-module.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_save-module.md) | InSyncHandedBackSuccess | [Details](#ee03101cc5b54ac515cfdcc318b97d9c3178cda1146)
  [gallery\psget\module\psget_uninstall-module.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_uninstall-module.md) | InSyncHandedBackSuccess | [Details](#9b5895b71e19671b99506bf371f2656c2a419832147)
  [gallery\psget\module\psget_update-module.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_update-module.md) | InSyncHandedBackSuccess | [Details](#c7eb34252ad912c83168bc763425e0dc76e27813148)
  [gallery\psget\module\psget_update-modulemanifest.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_update-modulemanifest.md) | InSyncHandedBackSuccess | [Details](#9ade4e89a28b777266f48556c910092bfab67227149)
+ [gallery\psget\oneget\PackageManagement_cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/oneget/PackageManagement_cmdlets.md) | InSyncHandedBackSuccess | [Details](#d1906428d258cd8b43530d2cd024f6f9e52b81db150)
+ [gallery\psget\overview.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/overview.md) | InSyncHandedBackSuccess | [Details](#e2f00a4ec1e287471d9c7c1c5e95d6c7111e5bf1151)
  [gallery\psget\psget_cmdlets_reference.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/psget_cmdlets_reference.md) | InSyncHandedBackSuccess | [Details](#21028dbbc5c7ac1c7e514a0a0887942f5c67c32a152)
  [gallery\psget\psget_cmdlets_troubleshooting.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/psget_cmdlets_troubleshooting.md) | InSyncHandedBackSuccess | [Details](#740c72620e1a5a114716f924f859c57cad125614153)
+ [gallery\psget\psget_oneget_integration.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/psget_oneget_integration.md) | InSyncHandedBackSuccess | [Details](#c81d91dc27b5d985b60655a412526451f8ae96b7154)
+ [gallery\psget\repository\bootstrapping_nuget_proivder_and_exe.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/repository/bootstrapping_nuget_proivder_and_exe.md) | InSyncHandedBackSuccess | [Details](#0e0e1287dbe0912e90dfeabee8e22cdf78d9e82a155)
  [gallery\psget\repository\psget_get-psrepository.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/repository/psget_get-psrepository.md) | InSyncHandedBackSuccess | [Details](#3d0b67d012528a1ef59d8f5a1b16903d931426a3156)
+ [gallery\psget\repository\psget_register-psrepository.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/repository/psget_register-psrepository.md) | InSyncHandedBackSuccess | [Details](#c4ca4af826785fb0009afc1b06166e1888045e72157)
+ [gallery\psget\repository\psget_set-psrepository.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/repository/psget_set-psrepository.md) | InSyncHandedBackSuccess | [Details](#f53076825f764ff805f2d956eecddbb492f7b694158)
+ [gallery\psget\repository\psget_unregister-psrepository.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/repository/psget_unregister-psrepository.md) | InSyncHandedBackSuccess | [Details](#7d9c24ebb20756a2f7852692532ac6ec7e558ca9159)
+ [gallery\psget\script\psget_find-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_find-script.md) | InSyncHandedBackSuccess | [Details](#5651989acde9d47a7a07fac9284aebae84f28174160)
+ [gallery\psget\script\psget_get-installedscript.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_get-installedscript.md) | InSyncHandedBackSuccess | [Details](#f809c5c8f5a28c01c67ee4c4453ecca7796838c4161)
+ [gallery\psget\script\psget_install-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_install-script.md) | InSyncHandedBackSuccess | [Details](#df04c387f09ad603d001bb94ee4cdeabc6d9d5a6162)
+ [gallery\psget\script\psget_new-scriptfileinfo.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_new-scriptfileinfo.md) | InSyncHandedBackSuccess | [Details](#8a534132c9622c699b636252e7c4bf7eafcf4d44163)
+ [gallery\psget\script\psget_publish-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_publish-script.md) | InSyncHandedBackSuccess | [Details](#bcf1abe7021c9b48fa35f08762f4d4a0a710dfa3164)
+ [gallery\psget\script\psget_save-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_save-script.md) | InSyncHandedBackSuccess | [Details](#ceb3ee918e594d23b3ba2e097d197dd0ff6a0971165)
  [gallery\psget\script\psget_test-scriptfileinfo.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_test-scriptfileinfo.md) | InSyncHandedBackSuccess | [Details](#52dca469e9a97c4d640821b5bd44af240f5bf643166)
+ [gallery\psget\script\psget_uninstall-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_uninstall-script.md) | InSyncHandedBackSuccess | [Details](#af3f3b0056d8f35650323ddbd1ff6979fd3e3a84167)
+ [gallery\psget\script\psget_update-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_update-script.md) | InSyncHandedBackSuccess | [Details](#8c5211a51a9ff8bce641fde8deacd2d288916602168)
+ [gallery\psget\script\psget_update-scriptfileinfo.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_update-scriptfileinfo.md) | InSyncHandedBackSuccess | [Details](#10e88b62b51c9e0d8e7f85ea120bf71b0d910285169)
+ [gallery\psget\script\Script_Versioning.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/Script_Versioning.md) | InSyncHandedBackSuccess | [Details](#2249ba9abeec71bd7c1ac9a68d9d05cae0fb410d170)
+ [gallery\psget\script\scriptwithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/scriptwithpseditionsupport.md) | InSyncHandedBackSuccess | [Details](#46efb494303c4cb691d5b58791a156dcc5bc99b9171)
  [gallery\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/7686acf724304da5fcaa1d74e8301794731e8013/gallery/readme.md) | InSyncHandedBackSuccess | [Details](#1407b4d2c8c6c246b51ef447284e729811823688172)
  [gallery\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/737816b04d8bd53b003ac8060a6d2d55c8e57560/gallery/TOC.md) | InSyncHandedBackSuccess | [Details](#6b33f2d05724ff888f48219135f8d8b88ccb4bc7173)
  [jea\common-role-capability-pitfalls.md](https://github.com/PowerShell/powerShell-Docs/blob/2c42f8d6eaadee43a3baff1811aafb6b5c1a9be3/jea/common-role-capability-pitfalls.md) | InSyncHandedBackSuccess | [Details](#2b2dfd9c39fe5d7bf4a52032653108729715e6bf174)
@@ -252,7 +250,9 @@
  [jea\role-capabilities.md](https://github.com/PowerShell/powerShell-Docs/blob/81fd386d58576a8930093b4f18ce36a4ff6cecd0/jea/role-capabilities.md) | InSyncHandedBackSuccess | [Details](#a3dd4a217f5b1fd80e97adf802c65073ca015bbc188)
  [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD) | InSyncHandedBackSuccess | [Details](#fc3b6d859bf3842a857d9519516ea4e275fa1876189)
  [jea\using-jea.md](https://github.com/PowerShell/powerShell-Docs/blob/88ce340c09efdbb3d81a72fe6113c1187a9152f2/jea/using-jea.md) | InSyncHandedBackSuccess | [Details](#9db7a5a91d25d459313117da34af63016f03c241190)
+ [reference\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/31f3ceaf2c99430c48dcfdb65c851af0126157b2/reference/TOC.md) | InSyncHandedBackSuccess | [Details](#406bc766c9278b03371d2f3098eabedaeb75da1d194)
  [scripting\core-powershell\console\PowerShell.exe-Command-Line-Help.md](https://github.com/PowerShell/powerShell-Docs/blob/763dc6bb0410ec09fc237d41b96842895b15d142/scripting/core-powershell/console/PowerShell.exe-Command-Line-Help.md) | InSyncHandedBackSuccess | [Details](#c3b263110a908c28569cf3048a94d48da8316684196)
+ [scripting\core-powershell\console\Using-Tab-Expansion.md](https://github.com/PowerShell/powerShell-Docs/blob/27512f637dd44485eee38936fea4723cd17b6218/scripting/core-powershell/console/Using-Tab-Expansion.md) | InSyncHandedBackSuccess | [Details](#b67024fb27c08e1079caad891cfc3e621a354b27197)
  [scripting\core-powershell\console-guide.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/console-guide.md) | InSyncHandedBackSuccess | [Details](#074f3570e9354f2186be8690744640ea4739ef6e195)
  [scripting\core-powershell\core-modules.md](https://github.com/PowerShell/powerShell-Docs/blob/ab536969fac8ded0e540da3eb138448b4f444f67/scripting/core-powershell/core-modules.md) | InSyncHandedBackSuccess | [Details](#3bee547fc53d1164d3cbf17f033083d4f1099ae7198)
  [scripting\core-powershell\core-modules\PackageManagement-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/core-modules/PackageManagement-Module.md) | InSyncHandedBackSuccess | [Details](#6a4b65525125e088a58a66719b4b21816814f012207)
@@ -794,15 +794,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='ee7c631861627556ffa69df509de86b7e76d7a9022'></a> Source: [dsc\DSCAutomationHostEnabled.md](https://github.com/PowerShell/powerShell-Docs/blob/4d8d014a63590a14e73e47dad54ce07c9ba49695/dsc/DSCAutomationHostEnabled.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\DSCAutomationHostEnabled.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/dsc/DSCAutomationHostEnabled.md)
 * Handoff File: [DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/e3e6bbfab8b1ffe8ddc9413959422155202911a3/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.fr-fr.xlf)
 * Handoff Datetime: 2016-10-13 17:34:17
 * Handoff Reason: Include
 * Archive File: [DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * [Back to Top](#report-top)
 
 ##### <a name='4c802002c6a03a27d02221dd713677911a77c30b23'></a> Source: [dsc\enactingConfigurations.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/enactingConfigurations.md)
@@ -1954,52 +1954,43 @@
 * [Back to Top](#report-top)
 
 ##### <a name='0be96966d704752ab0fd9d68a8b88e525de0a34a106'></a> Source: [gallery\psgallery\contributing_to_psgallery_documentation.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/contributing_to_psgallery_documentation.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\contributing_to_psgallery_documentation.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/contributing_to_psgallery_documentation.md)
 * Handoff File: [contributing_to_psgallery_documentation.cdc8ea8133cc381a44e6b22ab29399fc0e010fc7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/contributing_to_psgallery_documentation.cdc8ea8133cc381a44e6b22ab29399fc0e010fc7.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [contributing_to_psgallery_documentation.cdc8ea8133cc381a44e6b22ab29399fc0e010fc7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/contributing_to_psgallery_documentation.cdc8ea8133cc381a44e6b22ab29399fc0e010fc7.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\contributing_to_psgallery_documentation.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psgallery/contributing_to_psgallery_documentation.md)
-* Current Handback File: [contributing_to_psgallery_documentation.cdc8ea8133cc381a44e6b22ab29399fc0e010fc7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/contributing_to_psgallery_documentation.cdc8ea8133cc381a44e6b22ab29399fc0e010fc7.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [contributing_to_psgallery_documentation.cdc8ea8133cc381a44e6b22ab29399fc0e010fc7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/contributing_to_psgallery_documentation.cdc8ea8133cc381a44e6b22ab29399fc0e010fc7.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [contributing_to_psgallery_documentation.cdc8ea8133cc381a44e6b22ab29399fc0e010fc7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/contributing_to_psgallery_documentation.cdc8ea8133cc381a44e6b22ab29399fc0e010fc7.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='70db6e1eafefa04eb5be969457275f149870a030107'></a> Source: [gallery\psgallery\Creating-and-Publishing-an-item.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Creating-and-Publishing-an-item.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\Creating-and-Publishing-an-item.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/Creating-and-Publishing-an-item.md)
 * Handoff File: [Creating-and-Publishing-an-item.612ca6dd00bb48ef9dc422d6bad977ea54f0c53a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Creating-and-Publishing-an-item.612ca6dd00bb48ef9dc422d6bad977ea54f0c53a.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [Creating-and-Publishing-an-item.612ca6dd00bb48ef9dc422d6bad977ea54f0c53a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Creating-and-Publishing-an-item.612ca6dd00bb48ef9dc422d6bad977ea54f0c53a.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\Creating-and-Publishing-an-item.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psgallery/Creating-and-Publishing-an-item.md)
-* Current Handback File: [Creating-and-Publishing-an-item.612ca6dd00bb48ef9dc422d6bad977ea54f0c53a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Creating-and-Publishing-an-item.612ca6dd00bb48ef9dc422d6bad977ea54f0c53a.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [Creating-and-Publishing-an-item.612ca6dd00bb48ef9dc422d6bad977ea54f0c53a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Creating-and-Publishing-an-item.612ca6dd00bb48ef9dc422d6bad977ea54f0c53a.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [Creating-and-Publishing-an-item.612ca6dd00bb48ef9dc422d6bad977ea54f0c53a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Creating-and-Publishing-an-item.612ca6dd00bb48ef9dc422d6bad977ea54f0c53a.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='4e0258ccf05ef5ab0dc799a5113b05becc3dbb05108'></a> Source: [gallery\psgallery\Deleting-Items.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Deleting-Items.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\Deleting-Items.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/Deleting-Items.md)
 * Handoff File: [Deleting-Items.4e26f4bda62324aed679b0c10b81017d4f3924ba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Deleting-Items.4e26f4bda62324aed679b0c10b81017d4f3924ba.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [Deleting-Items.4e26f4bda62324aed679b0c10b81017d4f3924ba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Deleting-Items.4e26f4bda62324aed679b0c10b81017d4f3924ba.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\Deleting-Items.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/70088f1cf90bfb4602209ff57c2ee2575488c771/gallery/psgallery/Deleting-Items.md)
-* Current Handback File: [Deleting-Items.4e26f4bda62324aed679b0c10b81017d4f3924ba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9bb27450173a8dde2b6a42668679e1eff95df483/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Deleting-Items.4e26f4bda62324aed679b0c10b81017d4f3924ba.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-05 23:25:25
+* Handback File: [Deleting-Items.4e26f4bda62324aed679b0c10b81017d4f3924ba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Deleting-Items.4e26f4bda62324aed679b0c10b81017d4f3924ba.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [Deleting-Items.4e26f4bda62324aed679b0c10b81017d4f3924ba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9bb27450173a8dde2b6a42668679e1eff95df483/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Deleting-Items.4e26f4bda62324aed679b0c10b81017d4f3924ba.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-05 23:28:49
 * [Back to Top](#report-top)
@@ -2065,41 +2056,35 @@
 * [Back to Top](#report-top)
 
 ##### <a name='5df8007fbcb49f80708fa892ac9d3e21656b476a114'></a> Source: [gallery\psgallery\Item-Conventions.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Item-Conventions.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\Item-Conventions.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/Item-Conventions.md)
 * Handoff File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\Item-Conventions.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/3c424f128c3a44c4023993f9a913d5538dfa4a0b/gallery/psgallery/Item-Conventions.md)
-* Current Handback File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cd0a62258b04ce8bd7c09298cf0637a73f2e0c93/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-07 15:56:59
+* Handback File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cd0a62258b04ce8bd7c09298cf0637a73f2e0c93/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-07 16:02:29
 * [Back to Top](#report-top)
 
 ##### <a name='00fe57762c6b2bb690255ecaea642f97124f4328115'></a> Source: [gallery\psgallery\Managing-Item-Owners.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Managing-Item-Owners.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\Managing-Item-Owners.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/Managing-Item-Owners.md)
 * Handoff File: [Managing-Item-Owners.20ba127bece18032f9becaca9900f96afe54a89f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Managing-Item-Owners.20ba127bece18032f9becaca9900f96afe54a89f.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [Managing-Item-Owners.20ba127bece18032f9becaca9900f96afe54a89f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Managing-Item-Owners.20ba127bece18032f9becaca9900f96afe54a89f.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\Managing-Item-Owners.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/f57a8d525684a32035c58198feba5c523b5c61ac/gallery/psgallery/Managing-Item-Owners.md)
-* Current Handback File: [Managing-Item-Owners.20ba127bece18032f9becaca9900f96afe54a89f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6c1eac23e37e0321eae24e40532f9193da289d69/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Managing-Item-Owners.20ba127bece18032f9becaca9900f96afe54a89f.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-06 00:31:26
+* Handback File: [Managing-Item-Owners.20ba127bece18032f9becaca9900f96afe54a89f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Managing-Item-Owners.20ba127bece18032f9becaca9900f96afe54a89f.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [Managing-Item-Owners.20ba127bece18032f9becaca9900f96afe54a89f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6c1eac23e37e0321eae24e40532f9193da289d69/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Managing-Item-Owners.20ba127bece18032f9becaca9900f96afe54a89f.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-06 00:36:43
 * [Back to Top](#report-top)
 
 ##### <a name='c84ff58e4378feffa15c91485826b74f421c737e116'></a> Source: [gallery\psgallery\PackageManagement_Architecture .md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/PackageManagement_Architecture%20.md)
-* Status: ArchivedSuccess
+* Status: HandedBackFailed
 * Target File: 
 * Handoff File: [PackageManagement_Architecture .342c41f221a468f60c1ece4ef6d32b4005ca3c94.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/PackageManagement_Architecture%20.342c41f221a468f60c1ece4ef6d32b4005ca3c94.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
@@ -2107,22 +2092,20 @@
 * Archive File: [PackageManagement_Architecture .342c41f221a468f60c1ece4ef6d32b4005ca3c94.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/PackageManagement_Architecture%20.342c41f221a468f60c1ece4ef6d32b4005ca3c94.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
 * Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback Datetime: 2016-10-24 18:17:38
+* Handback Error: [handback_validate_file_name_invalide](#c84ff58e4378feffa15c91485826b74f421c737e116handback_validate_file_name_invalide)
 * [Back to Top](#report-top)
 
 ##### <a name='0268fed62bc4c30f5e299af0cc29a0f2316ce731117'></a> Source: [gallery\psgallery\psgallery_contacting_administrators.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_contacting_administrators.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\psgallery_contacting_administrators.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/psgallery_contacting_administrators.md)
 * Handoff File: [psgallery_contacting_administrators.41f40e7fb08ba4dd79a654acff84cf3c9dfa58ba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psgallery_contacting_administrators.41f40e7fb08ba4dd79a654acff84cf3c9dfa58ba.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psgallery_contacting_administrators.41f40e7fb08ba4dd79a654acff84cf3c9dfa58ba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psgallery_contacting_administrators.41f40e7fb08ba4dd79a654acff84cf3c9dfa58ba.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\psgallery_contacting_administrators.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/f57a8d525684a32035c58198feba5c523b5c61ac/gallery/psgallery/psgallery_contacting_administrators.md)
-* Current Handback File: [psgallery_contacting_administrators.41f40e7fb08ba4dd79a654acff84cf3c9dfa58ba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6c1eac23e37e0321eae24e40532f9193da289d69/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_contacting_administrators.41f40e7fb08ba4dd79a654acff84cf3c9dfa58ba.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-06 00:31:26
+* Handback File: [psgallery_contacting_administrators.41f40e7fb08ba4dd79a654acff84cf3c9dfa58ba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_contacting_administrators.41f40e7fb08ba4dd79a654acff84cf3c9dfa58ba.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psgallery_contacting_administrators.41f40e7fb08ba4dd79a654acff84cf3c9dfa58ba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6c1eac23e37e0321eae24e40532f9193da289d69/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_contacting_administrators.41f40e7fb08ba4dd79a654acff84cf3c9dfa58ba.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-06 00:36:43
 * [Back to Top](#report-top)
@@ -2142,154 +2125,127 @@
 * [Back to Top](#report-top)
 
 ##### <a name='c028bf6145b41c13bccda9543a782b838bd730ff119'></a> Source: [gallery\psgallery\psgallery_deploy_to_azure_automation.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_deploy_to_azure_automation.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\psgallery_deploy_to_azure_automation.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/psgallery_deploy_to_azure_automation.md)
 * Handoff File: [psgallery_deploy_to_azure_automation.e2979f4b7a0b957862c90510816406977e8c9b76.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psgallery_deploy_to_azure_automation.e2979f4b7a0b957862c90510816406977e8c9b76.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psgallery_deploy_to_azure_automation.e2979f4b7a0b957862c90510816406977e8c9b76.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psgallery_deploy_to_azure_automation.e2979f4b7a0b957862c90510816406977e8c9b76.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\psgallery_deploy_to_azure_automation.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psgallery/psgallery_deploy_to_azure_automation.md)
-* Current Handback File: [psgallery_deploy_to_azure_automation.e2979f4b7a0b957862c90510816406977e8c9b76.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_deploy_to_azure_automation.e2979f4b7a0b957862c90510816406977e8c9b76.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psgallery_deploy_to_azure_automation.e2979f4b7a0b957862c90510816406977e8c9b76.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_deploy_to_azure_automation.e2979f4b7a0b957862c90510816406977e8c9b76.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psgallery_deploy_to_azure_automation.e2979f4b7a0b957862c90510816406977e8c9b76.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_deploy_to_azure_automation.e2979f4b7a0b957862c90510816406977e8c9b76.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='6d7015a14f0d0a75bc28e201dceefe6c9c682b31120'></a> Source: [gallery\psgallery\psgallery_dispute_resolution.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_dispute_resolution.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\psgallery_dispute_resolution.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/psgallery_dispute_resolution.md)
 * Handoff File: [psgallery_dispute_resolution.ba69142619a5afc5edcb5b709129031b83c160f1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psgallery_dispute_resolution.ba69142619a5afc5edcb5b709129031b83c160f1.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psgallery_dispute_resolution.ba69142619a5afc5edcb5b709129031b83c160f1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psgallery_dispute_resolution.ba69142619a5afc5edcb5b709129031b83c160f1.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\psgallery_dispute_resolution.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/b173051808dba074f08ee015cd7a6125d9d17914/gallery/psgallery/psgallery_dispute_resolution.md)
-* Current Handback File: [psgallery_dispute_resolution.ba69142619a5afc5edcb5b709129031b83c160f1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/a5c05c78276390fccc78506e0ab9503e97b5c65d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_dispute_resolution.ba69142619a5afc5edcb5b709129031b83c160f1.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-05 22:17:14
+* Handback File: [psgallery_dispute_resolution.ba69142619a5afc5edcb5b709129031b83c160f1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_dispute_resolution.ba69142619a5afc5edcb5b709129031b83c160f1.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psgallery_dispute_resolution.ba69142619a5afc5edcb5b709129031b83c160f1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/a5c05c78276390fccc78506e0ab9503e97b5c65d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_dispute_resolution.ba69142619a5afc5edcb5b709129031b83c160f1.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-05 22:21:34
 * [Back to Top](#report-top)
 
 ##### <a name='96d38c487a311852a0f670b7d3de4929fab68e4d121'></a> Source: [gallery\psgallery\psgallery_faqs.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_faqs.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\psgallery_faqs.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/psgallery_faqs.md)
 * Handoff File: [psgallery_faqs.9936554d7bbcd962f197ee765347ad8d8229fc8e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psgallery_faqs.9936554d7bbcd962f197ee765347ad8d8229fc8e.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psgallery_faqs.9936554d7bbcd962f197ee765347ad8d8229fc8e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psgallery_faqs.9936554d7bbcd962f197ee765347ad8d8229fc8e.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\psgallery_faqs.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psgallery/psgallery_faqs.md)
-* Current Handback File: [psgallery_faqs.9936554d7bbcd962f197ee765347ad8d8229fc8e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_faqs.9936554d7bbcd962f197ee765347ad8d8229fc8e.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psgallery_faqs.9936554d7bbcd962f197ee765347ad8d8229fc8e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_faqs.9936554d7bbcd962f197ee765347ad8d8229fc8e.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psgallery_faqs.9936554d7bbcd962f197ee765347ad8d8229fc8e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_faqs.9936554d7bbcd962f197ee765347ad8d8229fc8e.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='ffd07e9666ed903fbed6b8f27e365f6182f1c131122'></a> Source: [gallery\psgallery\psgallery_filelist_feature.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_filelist_feature.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\psgallery_filelist_feature.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/psgallery_filelist_feature.md)
 * Handoff File: [psgallery_filelist_feature.c8733fb578a6ace43988accf420d565d48e328c1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psgallery_filelist_feature.c8733fb578a6ace43988accf420d565d48e328c1.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psgallery_filelist_feature.c8733fb578a6ace43988accf420d565d48e328c1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psgallery_filelist_feature.c8733fb578a6ace43988accf420d565d48e328c1.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\psgallery_filelist_feature.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/f57a8d525684a32035c58198feba5c523b5c61ac/gallery/psgallery/psgallery_filelist_feature.md)
-* Current Handback File: [psgallery_filelist_feature.c8733fb578a6ace43988accf420d565d48e328c1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6c1eac23e37e0321eae24e40532f9193da289d69/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_filelist_feature.c8733fb578a6ace43988accf420d565d48e328c1.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-06 00:31:26
+* Handback File: [psgallery_filelist_feature.c8733fb578a6ace43988accf420d565d48e328c1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_filelist_feature.c8733fb578a6ace43988accf420d565d48e328c1.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psgallery_filelist_feature.c8733fb578a6ace43988accf420d565d48e328c1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6c1eac23e37e0321eae24e40532f9193da289d69/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_filelist_feature.c8733fb578a6ace43988accf420d565d48e328c1.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-06 00:36:43
 * [Back to Top](#report-top)
 
 ##### <a name='d6f36a62c95a4444f456cf7c14f7f3dc08236447123'></a> Source: [gallery\psgallery\psgallery_gettingstarted.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_gettingstarted.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\psgallery_gettingstarted.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/psgallery_gettingstarted.md)
 * Handoff File: [psgallery_gettingstarted.a7579de98fd8f80af14a1190c18e388a9f1b7b5d.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psgallery_gettingstarted.a7579de98fd8f80af14a1190c18e388a9f1b7b5d.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psgallery_gettingstarted.a7579de98fd8f80af14a1190c18e388a9f1b7b5d.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psgallery_gettingstarted.a7579de98fd8f80af14a1190c18e388a9f1b7b5d.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\psgallery_gettingstarted.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psgallery/psgallery_gettingstarted.md)
-* Current Handback File: [psgallery_gettingstarted.a7579de98fd8f80af14a1190c18e388a9f1b7b5d.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_gettingstarted.a7579de98fd8f80af14a1190c18e388a9f1b7b5d.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psgallery_gettingstarted.a7579de98fd8f80af14a1190c18e388a9f1b7b5d.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_gettingstarted.a7579de98fd8f80af14a1190c18e388a9f1b7b5d.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psgallery_gettingstarted.a7579de98fd8f80af14a1190c18e388a9f1b7b5d.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_gettingstarted.a7579de98fd8f80af14a1190c18e388a9f1b7b5d.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='6edf1451cb869f0b9400b353b3143c99c3568382124'></a> Source: [gallery\psgallery\psgallery_items_tab.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_items_tab.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\psgallery_items_tab.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/psgallery_items_tab.md)
 * Handoff File: [psgallery_items_tab.0ac50d5feec810e8ee6144dc338c29ecef03b21c.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psgallery_items_tab.0ac50d5feec810e8ee6144dc338c29ecef03b21c.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psgallery_items_tab.0ac50d5feec810e8ee6144dc338c29ecef03b21c.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psgallery_items_tab.0ac50d5feec810e8ee6144dc338c29ecef03b21c.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\psgallery_items_tab.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psgallery/psgallery_items_tab.md)
-* Current Handback File: [psgallery_items_tab.0ac50d5feec810e8ee6144dc338c29ecef03b21c.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_items_tab.0ac50d5feec810e8ee6144dc338c29ecef03b21c.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psgallery_items_tab.0ac50d5feec810e8ee6144dc338c29ecef03b21c.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_items_tab.0ac50d5feec810e8ee6144dc338c29ecef03b21c.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psgallery_items_tab.0ac50d5feec810e8ee6144dc338c29ecef03b21c.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_items_tab.0ac50d5feec810e8ee6144dc338c29ecef03b21c.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='a2e6f87603795e7781115239b87c73a076e5e6ca125'></a> Source: [gallery\psgallery\psgallery_pseditions.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_pseditions.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\psgallery_pseditions.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/psgallery_pseditions.md)
 * Handoff File: [psgallery_pseditions.47eae496f0d2e1a8a89cdc1b5e162b06537c49f2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psgallery_pseditions.47eae496f0d2e1a8a89cdc1b5e162b06537c49f2.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psgallery_pseditions.47eae496f0d2e1a8a89cdc1b5e162b06537c49f2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psgallery_pseditions.47eae496f0d2e1a8a89cdc1b5e162b06537c49f2.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\psgallery_pseditions.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psgallery/psgallery_pseditions.md)
-* Current Handback File: [psgallery_pseditions.47eae496f0d2e1a8a89cdc1b5e162b06537c49f2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_pseditions.47eae496f0d2e1a8a89cdc1b5e162b06537c49f2.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psgallery_pseditions.47eae496f0d2e1a8a89cdc1b5e162b06537c49f2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_pseditions.47eae496f0d2e1a8a89cdc1b5e162b06537c49f2.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psgallery_pseditions.47eae496f0d2e1a8a89cdc1b5e162b06537c49f2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_pseditions.47eae496f0d2e1a8a89cdc1b5e162b06537c49f2.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='218211100c929be4c9523732f5faa69e91f16801126'></a> Source: [gallery\psgallery\psgallery_report_abuse.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_report_abuse.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\psgallery_report_abuse.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/psgallery_report_abuse.md)
 * Handoff File: [psgallery_report_abuse.3f860a2396f730d382f058a733388b2f335474ed.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psgallery_report_abuse.3f860a2396f730d382f058a733388b2f335474ed.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psgallery_report_abuse.3f860a2396f730d382f058a733388b2f335474ed.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psgallery_report_abuse.3f860a2396f730d382f058a733388b2f335474ed.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\psgallery_report_abuse.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psgallery/psgallery_report_abuse.md)
-* Current Handback File: [psgallery_report_abuse.3f860a2396f730d382f058a733388b2f335474ed.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_report_abuse.3f860a2396f730d382f058a733388b2f335474ed.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psgallery_report_abuse.3f860a2396f730d382f058a733388b2f335474ed.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_report_abuse.3f860a2396f730d382f058a733388b2f335474ed.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psgallery_report_abuse.3f860a2396f730d382f058a733388b2f335474ed.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_report_abuse.3f860a2396f730d382f058a733388b2f335474ed.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='254f4aa764c29d151a58ca204f3f59d57c098fc5127'></a> Source: [gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_scriptanalyzer_rule_profile.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/psgallery_scriptanalyzer_rule_profile.md)
 * Handoff File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/f4abd4a033bfe7fa340c678206729a37a5b2f243/gallery/psgallery/psgallery_scriptanalyzer_rule_profile.md)
-* Current Handback File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/312a182073403fa098511fd2387fc949f1e1d68f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.fr-fr.xlf)
-* Current Handback Datetime: 2016-09-14 08:07:52
+* Handback File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/312a182073403fa098511fd2387fc949f1e1d68f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_scriptanalyzer_rule_profile.98c3a6dcf8fe89c995556d884ceab6f6c6b3248b.fr-fr.xlf)
 * Bilingual Datetime: 2016-09-14 08:09:34
 * [Back to Top](#report-top)
@@ -2323,18 +2279,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='95e0bb58eb110a9060615e409cb55fa9231d505f130'></a> Source: [gallery\psgallery\psgallery_unlist_items.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/psgallery_unlist_items.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\psgallery_unlist_items.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/psgallery_unlist_items.md)
 * Handoff File: [psgallery_unlist_items.c79b85956c8d0a667dcbd8267f56bd1ff22c2495.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psgallery_unlist_items.c79b85956c8d0a667dcbd8267f56bd1ff22c2495.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psgallery_unlist_items.c79b85956c8d0a667dcbd8267f56bd1ff22c2495.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psgallery_unlist_items.c79b85956c8d0a667dcbd8267f56bd1ff22c2495.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\psgallery_unlist_items.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/f57a8d525684a32035c58198feba5c523b5c61ac/gallery/psgallery/psgallery_unlist_items.md)
-* Current Handback File: [psgallery_unlist_items.c79b85956c8d0a667dcbd8267f56bd1ff22c2495.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6c1eac23e37e0321eae24e40532f9193da289d69/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_unlist_items.c79b85956c8d0a667dcbd8267f56bd1ff22c2495.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-06 00:31:26
+* Handback File: [psgallery_unlist_items.c79b85956c8d0a667dcbd8267f56bd1ff22c2495.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_unlist_items.c79b85956c8d0a667dcbd8267f56bd1ff22c2495.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psgallery_unlist_items.c79b85956c8d0a667dcbd8267f56bd1ff22c2495.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6c1eac23e37e0321eae24e40532f9193da289d69/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psgallery_unlist_items.c79b85956c8d0a667dcbd8267f56bd1ff22c2495.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-06 00:36:43
 * [Back to Top](#report-top)
@@ -2354,137 +2307,113 @@
 * [Back to Top](#report-top)
 
 ##### <a name='dad964227a913d386897df4bf38e21a5dd844a46132'></a> Source: [gallery\psgallery\Setting-Up-Local-Gallery.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psgallery/Setting-Up-Local-Gallery.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psgallery\Setting-Up-Local-Gallery.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psgallery/Setting-Up-Local-Gallery.md)
 * Handoff File: [Setting-Up-Local-Gallery.3d8344adf8668dcdf3afaf37cc326dee3b399bb2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Setting-Up-Local-Gallery.3d8344adf8668dcdf3afaf37cc326dee3b399bb2.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [Setting-Up-Local-Gallery.3d8344adf8668dcdf3afaf37cc326dee3b399bb2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Setting-Up-Local-Gallery.3d8344adf8668dcdf3afaf37cc326dee3b399bb2.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\Item-Conventions.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/3c424f128c3a44c4023993f9a913d5538dfa4a0b/gallery/psgallery/Item-Conventions.md)
-* Current Handback File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cd0a62258b04ce8bd7c09298cf0637a73f2e0c93/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-07 15:56:59
+* Handback File: [Setting-Up-Local-Gallery.3d8344adf8668dcdf3afaf37cc326dee3b399bb2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Setting-Up-Local-Gallery.3d8344adf8668dcdf3afaf37cc326dee3b399bb2.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cd0a62258b04ce8bd7c09298cf0637a73f2e0c93/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-07 16:02:29
 * [Back to Top](#report-top)
 
 ##### <a name='4e8b42fdf28f09105351f9b00b16ab5228299a4c133'></a> Source: [gallery\psget\module\Dependency_Versioning.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/Dependency_Versioning.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\module\Dependency_Versioning.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/module/Dependency_Versioning.md)
 * Handoff File: [Dependency_Versioning.54d6f00e0cbe246f7e2964352b54d936daae22e6.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Dependency_Versioning.54d6f00e0cbe246f7e2964352b54d936daae22e6.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [Dependency_Versioning.54d6f00e0cbe246f7e2964352b54d936daae22e6.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Dependency_Versioning.54d6f00e0cbe246f7e2964352b54d936daae22e6.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\Item-Conventions.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/3c424f128c3a44c4023993f9a913d5538dfa4a0b/gallery/psgallery/Item-Conventions.md)
-* Current Handback File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cd0a62258b04ce8bd7c09298cf0637a73f2e0c93/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-07 15:56:59
+* Handback File: [Dependency_Versioning.54d6f00e0cbe246f7e2964352b54d936daae22e6.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Dependency_Versioning.54d6f00e0cbe246f7e2964352b54d936daae22e6.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cd0a62258b04ce8bd7c09298cf0637a73f2e0c93/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-07 16:02:29
 * [Back to Top](#report-top)
 
 ##### <a name='3b72210adccf1368a845c8b4ebd9feb87e798f8a134'></a> Source: [gallery\psget\module\Module_Versioning.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/Module_Versioning.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\module\Module_Versioning.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/module/Module_Versioning.md)
 * Handoff File: [Module_Versioning.2d62b7e4413ad4789bcc6e7b0b516230b55a906e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Module_Versioning.2d62b7e4413ad4789bcc6e7b0b516230b55a906e.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [Module_Versioning.2d62b7e4413ad4789bcc6e7b0b516230b55a906e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Module_Versioning.2d62b7e4413ad4789bcc6e7b0b516230b55a906e.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\Item-Conventions.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/3c424f128c3a44c4023993f9a913d5538dfa4a0b/gallery/psgallery/Item-Conventions.md)
-* Current Handback File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cd0a62258b04ce8bd7c09298cf0637a73f2e0c93/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-07 15:56:59
+* Handback File: [Module_Versioning.2d62b7e4413ad4789bcc6e7b0b516230b55a906e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Module_Versioning.2d62b7e4413ad4789bcc6e7b0b516230b55a906e.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cd0a62258b04ce8bd7c09298cf0637a73f2e0c93/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-07 16:02:29
 * [Back to Top](#report-top)
 
 ##### <a name='ff1a93e90bfb0349eca3027716029c2858b74269135'></a> Source: [gallery\psget\module\ModuleManifest-Reference.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/ModuleManifest-Reference.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\module\ModuleManifest-Reference.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/module/ModuleManifest-Reference.md)
 * Handoff File: [ModuleManifest-Reference.449ef9dead78b3fef63c23cb7d7e953effb85a43.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/ModuleManifest-Reference.449ef9dead78b3fef63c23cb7d7e953effb85a43.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [ModuleManifest-Reference.449ef9dead78b3fef63c23cb7d7e953effb85a43.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/ModuleManifest-Reference.449ef9dead78b3fef63c23cb7d7e953effb85a43.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\Item-Conventions.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/3c424f128c3a44c4023993f9a913d5538dfa4a0b/gallery/psgallery/Item-Conventions.md)
-* Current Handback File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cd0a62258b04ce8bd7c09298cf0637a73f2e0c93/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-07 15:56:59
+* Handback File: [ModuleManifest-Reference.449ef9dead78b3fef63c23cb7d7e953effb85a43.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/ModuleManifest-Reference.449ef9dead78b3fef63c23cb7d7e953effb85a43.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cd0a62258b04ce8bd7c09298cf0637a73f2e0c93/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-07 16:02:29
 * [Back to Top](#report-top)
 
 ##### <a name='dc8836607e2d2f03d34e5c90a8d20fe4cf0ae76f136'></a> Source: [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/modulewithpseditionsupport.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/module/modulewithpseditionsupport.md)
 * Handoff File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/b52fbcedc2cbec5bab5edf5afa1fc7cc50602bdf/gallery/psget/module/modulewithpseditionsupport.md)
-* Current Handback File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4c20f76f649b67242a471e5e9587af9125a2d0c8/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.fr-fr.xlf)
-* Current Handback Datetime: 2016-09-26 15:33:27
+* Handback File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4c20f76f649b67242a471e5e9587af9125a2d0c8/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/modulewithpseditionsupport.b09e891ddd53c39875bb5f6330848761bf1388ea.fr-fr.xlf)
 * Bilingual Datetime: 2016-09-26 15:36:33
 * [Back to Top](#report-top)
 
 ##### <a name='7d46f02106785b0f94f73e60231fb4623002cfb6137'></a> Source: [gallery\psget\module\psget_find-command.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_find-command.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\module\psget_find-command.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/module/psget_find-command.md)
 * Handoff File: [psget_find-command.b3356b5b6a79b1ff49d91d1f792d3b4ef87eaf81.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_find-command.b3356b5b6a79b1ff49d91d1f792d3b4ef87eaf81.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_find-command.b3356b5b6a79b1ff49d91d1f792d3b4ef87eaf81.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_find-command.b3356b5b6a79b1ff49d91d1f792d3b4ef87eaf81.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\module\psget_find-command.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/module/psget_find-command.md)
-* Current Handback File: [psget_find-command.b3356b5b6a79b1ff49d91d1f792d3b4ef87eaf81.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_find-command.b3356b5b6a79b1ff49d91d1f792d3b4ef87eaf81.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_find-command.b3356b5b6a79b1ff49d91d1f792d3b4ef87eaf81.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_find-command.b3356b5b6a79b1ff49d91d1f792d3b4ef87eaf81.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_find-command.b3356b5b6a79b1ff49d91d1f792d3b4ef87eaf81.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_find-command.b3356b5b6a79b1ff49d91d1f792d3b4ef87eaf81.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='4ee5433547266e2665e1e33b9f120f505426c8f4138'></a> Source: [gallery\psget\module\psget_find-dscresource.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_find-dscresource.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\module\psget_find-dscresource.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/module/psget_find-dscresource.md)
 * Handoff File: [psget_find-dscresource.74434d77ca442df5fc85ed3f7a15e515ff7023d8.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_find-dscresource.74434d77ca442df5fc85ed3f7a15e515ff7023d8.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_find-dscresource.74434d77ca442df5fc85ed3f7a15e515ff7023d8.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_find-dscresource.74434d77ca442df5fc85ed3f7a15e515ff7023d8.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\module\psget_find-dscresource.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/module/psget_find-dscresource.md)
-* Current Handback File: [psget_find-dscresource.74434d77ca442df5fc85ed3f7a15e515ff7023d8.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_find-dscresource.74434d77ca442df5fc85ed3f7a15e515ff7023d8.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_find-dscresource.74434d77ca442df5fc85ed3f7a15e515ff7023d8.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_find-dscresource.74434d77ca442df5fc85ed3f7a15e515ff7023d8.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_find-dscresource.74434d77ca442df5fc85ed3f7a15e515ff7023d8.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_find-dscresource.74434d77ca442df5fc85ed3f7a15e515ff7023d8.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='67542f54cd350bd1d9512eae0a2355b47943c2f2139'></a> Source: [gallery\psget\module\psget_find-module.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_find-module.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\module\psget_find-module.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/module/psget_find-module.md)
 * Handoff File: [psget_find-module.270b9c3fc401673cea5fc23ad87e32deca5817d2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_find-module.270b9c3fc401673cea5fc23ad87e32deca5817d2.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_find-module.270b9c3fc401673cea5fc23ad87e32deca5817d2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_find-module.270b9c3fc401673cea5fc23ad87e32deca5817d2.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\module\psget_find-module.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/module/psget_find-module.md)
-* Current Handback File: [psget_find-module.270b9c3fc401673cea5fc23ad87e32deca5817d2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_find-module.270b9c3fc401673cea5fc23ad87e32deca5817d2.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_find-module.270b9c3fc401673cea5fc23ad87e32deca5817d2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_find-module.270b9c3fc401673cea5fc23ad87e32deca5817d2.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_find-module.270b9c3fc401673cea5fc23ad87e32deca5817d2.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_find-module.270b9c3fc401673cea5fc23ad87e32deca5817d2.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
@@ -2518,69 +2447,57 @@
 * [Back to Top](#report-top)
 
 ##### <a name='68e7ba36a723b0cb863ed890834855fa5f531240142'></a> Source: [gallery\psget\module\psget_install-module.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_install-module.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\module\psget_install-module.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/module/psget_install-module.md)
 * Handoff File: [psget_install-module.f4cfd4f184f0eeebe860da9212ff967e277e21a5.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_install-module.f4cfd4f184f0eeebe860da9212ff967e277e21a5.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_install-module.f4cfd4f184f0eeebe860da9212ff967e277e21a5.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_install-module.f4cfd4f184f0eeebe860da9212ff967e277e21a5.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\module\psget_install-module.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/module/psget_install-module.md)
-* Current Handback File: [psget_install-module.f4cfd4f184f0eeebe860da9212ff967e277e21a5.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_install-module.f4cfd4f184f0eeebe860da9212ff967e277e21a5.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_install-module.f4cfd4f184f0eeebe860da9212ff967e277e21a5.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_install-module.f4cfd4f184f0eeebe860da9212ff967e277e21a5.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_install-module.f4cfd4f184f0eeebe860da9212ff967e277e21a5.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_install-module.f4cfd4f184f0eeebe860da9212ff967e277e21a5.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='1e74a93792fc1d99d9bb2b29382a637a473f78b7143'></a> Source: [gallery\psget\module\psget_module_creation.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_module_creation.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\module\psget_module_creation.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/module/psget_module_creation.md)
 * Handoff File: [psget_module_creation.a16430a8d4ade02e72b89546dcaee0c50e2786a0.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_module_creation.a16430a8d4ade02e72b89546dcaee0c50e2786a0.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_module_creation.a16430a8d4ade02e72b89546dcaee0c50e2786a0.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_module_creation.a16430a8d4ade02e72b89546dcaee0c50e2786a0.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\module\psget_module_creation.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/module/psget_module_creation.md)
-* Current Handback File: [psget_module_creation.a16430a8d4ade02e72b89546dcaee0c50e2786a0.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_module_creation.a16430a8d4ade02e72b89546dcaee0c50e2786a0.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_module_creation.a16430a8d4ade02e72b89546dcaee0c50e2786a0.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_module_creation.a16430a8d4ade02e72b89546dcaee0c50e2786a0.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_module_creation.a16430a8d4ade02e72b89546dcaee0c50e2786a0.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_module_creation.a16430a8d4ade02e72b89546dcaee0c50e2786a0.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='a6ace8faebd6f37d3c41ee5a3fef2bda70b8c651144'></a> Source: [gallery\psget\module\psget_moduledependencypopulation.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_moduledependencypopulation.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\module\psget_moduledependencypopulation.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/module/psget_moduledependencypopulation.md)
 * Handoff File: [psget_moduledependencypopulation.5da558eb97752d04da4fcb52e2fc38ce86c8b234.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_moduledependencypopulation.5da558eb97752d04da4fcb52e2fc38ce86c8b234.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_moduledependencypopulation.5da558eb97752d04da4fcb52e2fc38ce86c8b234.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_moduledependencypopulation.5da558eb97752d04da4fcb52e2fc38ce86c8b234.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\module\psget_moduledependencypopulation.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/module/psget_moduledependencypopulation.md)
-* Current Handback File: [psget_moduledependencypopulation.5da558eb97752d04da4fcb52e2fc38ce86c8b234.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_moduledependencypopulation.5da558eb97752d04da4fcb52e2fc38ce86c8b234.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_moduledependencypopulation.5da558eb97752d04da4fcb52e2fc38ce86c8b234.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_moduledependencypopulation.5da558eb97752d04da4fcb52e2fc38ce86c8b234.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_moduledependencypopulation.5da558eb97752d04da4fcb52e2fc38ce86c8b234.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_moduledependencypopulation.5da558eb97752d04da4fcb52e2fc38ce86c8b234.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='c62ab4b7ab5266d7285d4c444105f0a8291563c1145'></a> Source: [gallery\psget\module\psget_publish-module.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/module/psget_publish-module.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\module\psget_publish-module.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/module/psget_publish-module.md)
 * Handoff File: [psget_publish-module.6078c450e3d6bd80e07eee8519e3c0235a08fb71.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_publish-module.6078c450e3d6bd80e07eee8519e3c0235a08fb71.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_publish-module.6078c450e3d6bd80e07eee8519e3c0235a08fb71.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_publish-module.6078c450e3d6bd80e07eee8519e3c0235a08fb71.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\module\psget_publish-module.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/module/psget_publish-module.md)
-* Current Handback File: [psget_publish-module.6078c450e3d6bd80e07eee8519e3c0235a08fb71.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_publish-module.6078c450e3d6bd80e07eee8519e3c0235a08fb71.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_publish-module.6078c450e3d6bd80e07eee8519e3c0235a08fb71.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_publish-module.6078c450e3d6bd80e07eee8519e3c0235a08fb71.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_publish-module.6078c450e3d6bd80e07eee8519e3c0235a08fb71.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_publish-module.6078c450e3d6bd80e07eee8519e3c0235a08fb71.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
@@ -2642,35 +2559,29 @@
 * [Back to Top](#report-top)
 
 ##### <a name='d1906428d258cd8b43530d2cd024f6f9e52b81db150'></a> Source: [gallery\psget\oneget\PackageManagement_cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/oneget/PackageManagement_cmdlets.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\oneget\PackageManagement_cmdlets.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/oneget/PackageManagement_cmdlets.md)
 * Handoff File: [PackageManagement_cmdlets.9f11db2263b0255a17ca299d2a07bfdbd7aa5009.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/PackageManagement_cmdlets.9f11db2263b0255a17ca299d2a07bfdbd7aa5009.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [PackageManagement_cmdlets.9f11db2263b0255a17ca299d2a07bfdbd7aa5009.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/PackageManagement_cmdlets.9f11db2263b0255a17ca299d2a07bfdbd7aa5009.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\oneget\PackageManagement_cmdlets.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/b173051808dba074f08ee015cd7a6125d9d17914/gallery/psget/oneget/PackageManagement_cmdlets.md)
-* Current Handback File: [PackageManagement_cmdlets.9f11db2263b0255a17ca299d2a07bfdbd7aa5009.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/a5c05c78276390fccc78506e0ab9503e97b5c65d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/PackageManagement_cmdlets.9f11db2263b0255a17ca299d2a07bfdbd7aa5009.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-05 22:17:14
+* Handback File: [PackageManagement_cmdlets.9f11db2263b0255a17ca299d2a07bfdbd7aa5009.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/PackageManagement_cmdlets.9f11db2263b0255a17ca299d2a07bfdbd7aa5009.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [PackageManagement_cmdlets.9f11db2263b0255a17ca299d2a07bfdbd7aa5009.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/a5c05c78276390fccc78506e0ab9503e97b5c65d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/PackageManagement_cmdlets.9f11db2263b0255a17ca299d2a07bfdbd7aa5009.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-05 22:21:34
 * [Back to Top](#report-top)
 
 ##### <a name='e2f00a4ec1e287471d9c7c1c5e95d6c7111e5bf1151'></a> Source: [gallery\psget\overview.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/overview.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\overview.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/overview.md)
 * Handoff File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\overview.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/7b4a524e6cb78eb14ab1659b86ab67a2cd81102a/gallery/psget/overview.md)
-* Current Handback File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/e3b6dc49e83c1d2b68d3fa1af870ae54a8e11e68/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.fr-fr.xlf)
-* Current Handback Datetime: 2016-09-28 13:55:55
+* Handback File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [overview.a9e55060e0d4875447746863a472c8b87caaccf3.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/e3b6dc49e83c1d2b68d3fa1af870ae54a8e11e68/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/overview.a9e55060e0d4875447746863a472c8b87caaccf3.fr-fr.xlf)
 * Bilingual Datetime: 2016-09-28 13:56:32
 * [Back to Top](#report-top)
@@ -2704,35 +2615,29 @@
 * [Back to Top](#report-top)
 
 ##### <a name='c81d91dc27b5d985b60655a412526451f8ae96b7154'></a> Source: [gallery\psget\psget_oneget_integration.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/psget_oneget_integration.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\psget_oneget_integration.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/psget_oneget_integration.md)
 * Handoff File: [psget_oneget_integration.a104ace8864006f02ed49c7fc5c0ede2455b1268.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_oneget_integration.a104ace8864006f02ed49c7fc5c0ede2455b1268.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_oneget_integration.a104ace8864006f02ed49c7fc5c0ede2455b1268.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_oneget_integration.a104ace8864006f02ed49c7fc5c0ede2455b1268.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\psget_oneget_integration.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/psget_oneget_integration.md)
-* Current Handback File: [psget_oneget_integration.a104ace8864006f02ed49c7fc5c0ede2455b1268.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_oneget_integration.a104ace8864006f02ed49c7fc5c0ede2455b1268.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_oneget_integration.a104ace8864006f02ed49c7fc5c0ede2455b1268.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_oneget_integration.a104ace8864006f02ed49c7fc5c0ede2455b1268.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_oneget_integration.a104ace8864006f02ed49c7fc5c0ede2455b1268.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_oneget_integration.a104ace8864006f02ed49c7fc5c0ede2455b1268.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='0e0e1287dbe0912e90dfeabee8e22cdf78d9e82a155'></a> Source: [gallery\psget\repository\bootstrapping_nuget_proivder_and_exe.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/repository/bootstrapping_nuget_proivder_and_exe.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\repository\bootstrapping_nuget_proivder_and_exe.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/repository/bootstrapping_nuget_proivder_and_exe.md)
 * Handoff File: [bootstrapping_nuget_proivder_and_exe.3d7517dad67af35162e1b84a4893b46bd5b591e6.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/bootstrapping_nuget_proivder_and_exe.3d7517dad67af35162e1b84a4893b46bd5b591e6.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [bootstrapping_nuget_proivder_and_exe.3d7517dad67af35162e1b84a4893b46bd5b591e6.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/bootstrapping_nuget_proivder_and_exe.3d7517dad67af35162e1b84a4893b46bd5b591e6.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\repository\bootstrapping_nuget_proivder_and_exe.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/repository/bootstrapping_nuget_proivder_and_exe.md)
-* Current Handback File: [bootstrapping_nuget_proivder_and_exe.3d7517dad67af35162e1b84a4893b46bd5b591e6.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/bootstrapping_nuget_proivder_and_exe.3d7517dad67af35162e1b84a4893b46bd5b591e6.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [bootstrapping_nuget_proivder_and_exe.3d7517dad67af35162e1b84a4893b46bd5b591e6.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/bootstrapping_nuget_proivder_and_exe.3d7517dad67af35162e1b84a4893b46bd5b591e6.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [bootstrapping_nuget_proivder_and_exe.3d7517dad67af35162e1b84a4893b46bd5b591e6.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/bootstrapping_nuget_proivder_and_exe.3d7517dad67af35162e1b84a4893b46bd5b591e6.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
@@ -2752,154 +2657,127 @@
 * [Back to Top](#report-top)
 
 ##### <a name='c4ca4af826785fb0009afc1b06166e1888045e72157'></a> Source: [gallery\psget\repository\psget_register-psrepository.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/repository/psget_register-psrepository.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\repository\psget_register-psrepository.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/repository/psget_register-psrepository.md)
 * Handoff File: [psget_register-psrepository.e9625ac414f939b17e1998c81fe0915f350841c1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_register-psrepository.e9625ac414f939b17e1998c81fe0915f350841c1.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_register-psrepository.e9625ac414f939b17e1998c81fe0915f350841c1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_register-psrepository.e9625ac414f939b17e1998c81fe0915f350841c1.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\repository\psget_register-psrepository.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/repository/psget_register-psrepository.md)
-* Current Handback File: [psget_register-psrepository.e9625ac414f939b17e1998c81fe0915f350841c1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_register-psrepository.e9625ac414f939b17e1998c81fe0915f350841c1.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_register-psrepository.e9625ac414f939b17e1998c81fe0915f350841c1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_register-psrepository.e9625ac414f939b17e1998c81fe0915f350841c1.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_register-psrepository.e9625ac414f939b17e1998c81fe0915f350841c1.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_register-psrepository.e9625ac414f939b17e1998c81fe0915f350841c1.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='f53076825f764ff805f2d956eecddbb492f7b694158'></a> Source: [gallery\psget\repository\psget_set-psrepository.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/repository/psget_set-psrepository.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\repository\psget_set-psrepository.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/repository/psget_set-psrepository.md)
 * Handoff File: [psget_set-psrepository.1385a63d0402bdc776ac418bd3de36b4f50fd7a8.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_set-psrepository.1385a63d0402bdc776ac418bd3de36b4f50fd7a8.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_set-psrepository.1385a63d0402bdc776ac418bd3de36b4f50fd7a8.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_set-psrepository.1385a63d0402bdc776ac418bd3de36b4f50fd7a8.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\repository\psget_set-psrepository.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/repository/psget_set-psrepository.md)
-* Current Handback File: [psget_set-psrepository.1385a63d0402bdc776ac418bd3de36b4f50fd7a8.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_set-psrepository.1385a63d0402bdc776ac418bd3de36b4f50fd7a8.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_set-psrepository.1385a63d0402bdc776ac418bd3de36b4f50fd7a8.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_set-psrepository.1385a63d0402bdc776ac418bd3de36b4f50fd7a8.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_set-psrepository.1385a63d0402bdc776ac418bd3de36b4f50fd7a8.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_set-psrepository.1385a63d0402bdc776ac418bd3de36b4f50fd7a8.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='7d9c24ebb20756a2f7852692532ac6ec7e558ca9159'></a> Source: [gallery\psget\repository\psget_unregister-psrepository.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/repository/psget_unregister-psrepository.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\repository\psget_unregister-psrepository.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/repository/psget_unregister-psrepository.md)
 * Handoff File: [psget_unregister-psrepository.0f923e0f6b1666748ef963c061687b1ae29e29a7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_unregister-psrepository.0f923e0f6b1666748ef963c061687b1ae29e29a7.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_unregister-psrepository.0f923e0f6b1666748ef963c061687b1ae29e29a7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_unregister-psrepository.0f923e0f6b1666748ef963c061687b1ae29e29a7.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\repository\psget_unregister-psrepository.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/repository/psget_unregister-psrepository.md)
-* Current Handback File: [psget_unregister-psrepository.0f923e0f6b1666748ef963c061687b1ae29e29a7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_unregister-psrepository.0f923e0f6b1666748ef963c061687b1ae29e29a7.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_unregister-psrepository.0f923e0f6b1666748ef963c061687b1ae29e29a7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_unregister-psrepository.0f923e0f6b1666748ef963c061687b1ae29e29a7.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_unregister-psrepository.0f923e0f6b1666748ef963c061687b1ae29e29a7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_unregister-psrepository.0f923e0f6b1666748ef963c061687b1ae29e29a7.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='5651989acde9d47a7a07fac9284aebae84f28174160'></a> Source: [gallery\psget\script\psget_find-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_find-script.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\script\psget_find-script.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/script/psget_find-script.md)
 * Handoff File: [psget_find-script.e0a1670bccf8867e60db7b34fff80b47f6e7fd4f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_find-script.e0a1670bccf8867e60db7b34fff80b47f6e7fd4f.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_find-script.e0a1670bccf8867e60db7b34fff80b47f6e7fd4f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_find-script.e0a1670bccf8867e60db7b34fff80b47f6e7fd4f.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\script\psget_find-script.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/script/psget_find-script.md)
-* Current Handback File: [psget_find-script.e0a1670bccf8867e60db7b34fff80b47f6e7fd4f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_find-script.e0a1670bccf8867e60db7b34fff80b47f6e7fd4f.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_find-script.e0a1670bccf8867e60db7b34fff80b47f6e7fd4f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_find-script.e0a1670bccf8867e60db7b34fff80b47f6e7fd4f.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_find-script.e0a1670bccf8867e60db7b34fff80b47f6e7fd4f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_find-script.e0a1670bccf8867e60db7b34fff80b47f6e7fd4f.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='f809c5c8f5a28c01c67ee4c4453ecca7796838c4161'></a> Source: [gallery\psget\script\psget_get-installedscript.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_get-installedscript.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\script\psget_get-installedscript.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/script/psget_get-installedscript.md)
 * Handoff File: [psget_get-installedscript.4e0856e04d9e25f336269baaebac998dea024640.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_get-installedscript.4e0856e04d9e25f336269baaebac998dea024640.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_get-installedscript.4e0856e04d9e25f336269baaebac998dea024640.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_get-installedscript.4e0856e04d9e25f336269baaebac998dea024640.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\script\psget_get-installedscript.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/script/psget_get-installedscript.md)
-* Current Handback File: [psget_get-installedscript.4e0856e04d9e25f336269baaebac998dea024640.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_get-installedscript.4e0856e04d9e25f336269baaebac998dea024640.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_get-installedscript.4e0856e04d9e25f336269baaebac998dea024640.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_get-installedscript.4e0856e04d9e25f336269baaebac998dea024640.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_get-installedscript.4e0856e04d9e25f336269baaebac998dea024640.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_get-installedscript.4e0856e04d9e25f336269baaebac998dea024640.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='df04c387f09ad603d001bb94ee4cdeabc6d9d5a6162'></a> Source: [gallery\psget\script\psget_install-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_install-script.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\script\psget_install-script.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/script/psget_install-script.md)
 * Handoff File: [psget_install-script.35109c88b7ae5c9e099c33967e4c0113ca2e8577.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_install-script.35109c88b7ae5c9e099c33967e4c0113ca2e8577.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_install-script.35109c88b7ae5c9e099c33967e4c0113ca2e8577.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_install-script.35109c88b7ae5c9e099c33967e4c0113ca2e8577.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\script\psget_install-script.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/script/psget_install-script.md)
-* Current Handback File: [psget_install-script.35109c88b7ae5c9e099c33967e4c0113ca2e8577.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_install-script.35109c88b7ae5c9e099c33967e4c0113ca2e8577.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_install-script.35109c88b7ae5c9e099c33967e4c0113ca2e8577.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_install-script.35109c88b7ae5c9e099c33967e4c0113ca2e8577.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_install-script.35109c88b7ae5c9e099c33967e4c0113ca2e8577.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_install-script.35109c88b7ae5c9e099c33967e4c0113ca2e8577.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='8a534132c9622c699b636252e7c4bf7eafcf4d44163'></a> Source: [gallery\psget\script\psget_new-scriptfileinfo.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_new-scriptfileinfo.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\script\psget_new-scriptfileinfo.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/script/psget_new-scriptfileinfo.md)
 * Handoff File: [psget_new-scriptfileinfo.7473f780f5848d94bfcb90cf28464e219ac63a82.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_new-scriptfileinfo.7473f780f5848d94bfcb90cf28464e219ac63a82.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_new-scriptfileinfo.7473f780f5848d94bfcb90cf28464e219ac63a82.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_new-scriptfileinfo.7473f780f5848d94bfcb90cf28464e219ac63a82.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\script\psget_new-scriptfileinfo.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/script/psget_new-scriptfileinfo.md)
-* Current Handback File: [psget_new-scriptfileinfo.7473f780f5848d94bfcb90cf28464e219ac63a82.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_new-scriptfileinfo.7473f780f5848d94bfcb90cf28464e219ac63a82.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_new-scriptfileinfo.7473f780f5848d94bfcb90cf28464e219ac63a82.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_new-scriptfileinfo.7473f780f5848d94bfcb90cf28464e219ac63a82.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_new-scriptfileinfo.7473f780f5848d94bfcb90cf28464e219ac63a82.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_new-scriptfileinfo.7473f780f5848d94bfcb90cf28464e219ac63a82.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='bcf1abe7021c9b48fa35f08762f4d4a0a710dfa3164'></a> Source: [gallery\psget\script\psget_publish-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_publish-script.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\script\psget_publish-script.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/script/psget_publish-script.md)
 * Handoff File: [psget_publish-script.b8f12da13f2e5852c5c4058400000df3fae860e7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_publish-script.b8f12da13f2e5852c5c4058400000df3fae860e7.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_publish-script.b8f12da13f2e5852c5c4058400000df3fae860e7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_publish-script.b8f12da13f2e5852c5c4058400000df3fae860e7.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\script\psget_publish-script.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/script/psget_publish-script.md)
-* Current Handback File: [psget_publish-script.b8f12da13f2e5852c5c4058400000df3fae860e7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_publish-script.b8f12da13f2e5852c5c4058400000df3fae860e7.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_publish-script.b8f12da13f2e5852c5c4058400000df3fae860e7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_publish-script.b8f12da13f2e5852c5c4058400000df3fae860e7.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_publish-script.b8f12da13f2e5852c5c4058400000df3fae860e7.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_publish-script.b8f12da13f2e5852c5c4058400000df3fae860e7.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='ceb3ee918e594d23b3ba2e097d197dd0ff6a0971165'></a> Source: [gallery\psget\script\psget_save-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_save-script.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\script\psget_save-script.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/script/psget_save-script.md)
 * Handoff File: [psget_save-script.a6c7b11160045eb99afc9886d29a0f4c254f0fba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_save-script.a6c7b11160045eb99afc9886d29a0f4c254f0fba.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_save-script.a6c7b11160045eb99afc9886d29a0f4c254f0fba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_save-script.a6c7b11160045eb99afc9886d29a0f4c254f0fba.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\script\psget_save-script.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/script/psget_save-script.md)
-* Current Handback File: [psget_save-script.a6c7b11160045eb99afc9886d29a0f4c254f0fba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_save-script.a6c7b11160045eb99afc9886d29a0f4c254f0fba.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_save-script.a6c7b11160045eb99afc9886d29a0f4c254f0fba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_save-script.a6c7b11160045eb99afc9886d29a0f4c254f0fba.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_save-script.a6c7b11160045eb99afc9886d29a0f4c254f0fba.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_save-script.a6c7b11160045eb99afc9886d29a0f4c254f0fba.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
@@ -2919,86 +2797,71 @@
 * [Back to Top](#report-top)
 
 ##### <a name='af3f3b0056d8f35650323ddbd1ff6979fd3e3a84167'></a> Source: [gallery\psget\script\psget_uninstall-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_uninstall-script.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\script\psget_uninstall-script.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/script/psget_uninstall-script.md)
 * Handoff File: [psget_uninstall-script.33ef7393d64973992f8dc91ba8977379e2a958a0.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_uninstall-script.33ef7393d64973992f8dc91ba8977379e2a958a0.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_uninstall-script.33ef7393d64973992f8dc91ba8977379e2a958a0.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_uninstall-script.33ef7393d64973992f8dc91ba8977379e2a958a0.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\script\psget_uninstall-script.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/script/psget_uninstall-script.md)
-* Current Handback File: [psget_uninstall-script.33ef7393d64973992f8dc91ba8977379e2a958a0.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_uninstall-script.33ef7393d64973992f8dc91ba8977379e2a958a0.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_uninstall-script.33ef7393d64973992f8dc91ba8977379e2a958a0.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_uninstall-script.33ef7393d64973992f8dc91ba8977379e2a958a0.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_uninstall-script.33ef7393d64973992f8dc91ba8977379e2a958a0.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_uninstall-script.33ef7393d64973992f8dc91ba8977379e2a958a0.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='8c5211a51a9ff8bce641fde8deacd2d288916602168'></a> Source: [gallery\psget\script\psget_update-script.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_update-script.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\script\psget_update-script.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/script/psget_update-script.md)
 * Handoff File: [psget_update-script.b4c51feaaaf8f64998ba733b0113c0f912e4761f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_update-script.b4c51feaaaf8f64998ba733b0113c0f912e4761f.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_update-script.b4c51feaaaf8f64998ba733b0113c0f912e4761f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_update-script.b4c51feaaaf8f64998ba733b0113c0f912e4761f.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\script\psget_update-script.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/script/psget_update-script.md)
-* Current Handback File: [psget_update-script.b4c51feaaaf8f64998ba733b0113c0f912e4761f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_update-script.b4c51feaaaf8f64998ba733b0113c0f912e4761f.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_update-script.b4c51feaaaf8f64998ba733b0113c0f912e4761f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_update-script.b4c51feaaaf8f64998ba733b0113c0f912e4761f.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_update-script.b4c51feaaaf8f64998ba733b0113c0f912e4761f.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_update-script.b4c51feaaaf8f64998ba733b0113c0f912e4761f.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='10e88b62b51c9e0d8e7f85ea120bf71b0d910285169'></a> Source: [gallery\psget\script\psget_update-scriptfileinfo.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/psget_update-scriptfileinfo.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\script\psget_update-scriptfileinfo.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/script/psget_update-scriptfileinfo.md)
 * Handoff File: [psget_update-scriptfileinfo.7a7421caf985be979343cdfd91302e23cc83a5cd.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/psget_update-scriptfileinfo.7a7421caf985be979343cdfd91302e23cc83a5cd.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [psget_update-scriptfileinfo.7a7421caf985be979343cdfd91302e23cc83a5cd.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/psget_update-scriptfileinfo.7a7421caf985be979343cdfd91302e23cc83a5cd.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\script\psget_update-scriptfileinfo.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/script/psget_update-scriptfileinfo.md)
-* Current Handback File: [psget_update-scriptfileinfo.7a7421caf985be979343cdfd91302e23cc83a5cd.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_update-scriptfileinfo.7a7421caf985be979343cdfd91302e23cc83a5cd.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [psget_update-scriptfileinfo.7a7421caf985be979343cdfd91302e23cc83a5cd.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_update-scriptfileinfo.7a7421caf985be979343cdfd91302e23cc83a5cd.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [psget_update-scriptfileinfo.7a7421caf985be979343cdfd91302e23cc83a5cd.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/psget_update-scriptfileinfo.7a7421caf985be979343cdfd91302e23cc83a5cd.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
 
 ##### <a name='2249ba9abeec71bd7c1ac9a68d9d05cae0fb410d170'></a> Source: [gallery\psget\script\Script_Versioning.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/Script_Versioning.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\script\Script_Versioning.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/script/Script_Versioning.md)
 * Handoff File: [Script_Versioning.5e8584842bc81b5dc01746bb72c8d6bdb6a975e3.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Script_Versioning.5e8584842bc81b5dc01746bb72c8d6bdb6a975e3.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [Script_Versioning.5e8584842bc81b5dc01746bb72c8d6bdb6a975e3.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Script_Versioning.5e8584842bc81b5dc01746bb72c8d6bdb6a975e3.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psgallery\Item-Conventions.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/3c424f128c3a44c4023993f9a913d5538dfa4a0b/gallery/psgallery/Item-Conventions.md)
-* Current Handback File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cd0a62258b04ce8bd7c09298cf0637a73f2e0c93/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-07 15:56:59
+* Handback File: [Script_Versioning.5e8584842bc81b5dc01746bb72c8d6bdb6a975e3.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Script_Versioning.5e8584842bc81b5dc01746bb72c8d6bdb6a975e3.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cd0a62258b04ce8bd7c09298cf0637a73f2e0c93/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-07 16:02:29
 * [Back to Top](#report-top)
 
 ##### <a name='46efb494303c4cb691d5b58791a156dcc5bc99b9171'></a> Source: [gallery\psget\script\scriptwithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs/blob/e6c526d1074f61154d03b92b6bf6f599976f5936/gallery/psget/script/scriptwithpseditionsupport.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [gallery\psget\script\scriptwithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/gallery/psget/script/scriptwithpseditionsupport.md)
 * Handoff File: [scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [gallery\psget\script\scriptwithpseditionsupport.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/34d88eefcc3f5e81411d6dad5e885f317b267296/gallery/psget/script/scriptwithpseditionsupport.md)
-* Current Handback File: [scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-17 16:10:29
+* Handback File: [scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/cdf2486de19aa8361edf8557a81e01e5ab61090f/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/scriptwithpseditionsupport.46e2bd8cb0285ec8da7d2aa4a47ec9340d3d509a.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-17 16:13:20
 * [Back to Top](#report-top)
@@ -3309,15 +3172,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='406bc766c9278b03371d2f3098eabedaeb75da1d194'></a> Source: [reference\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/31f3ceaf2c99430c48dcfdb65c851af0126157b2/reference/TOC.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [reference\TOC.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/reference/TOC.md)
 * Handoff File: [TOC.df89c545bc69390ff4652223333da66a5898f045.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/d2076f7071cb6f839578debf9bf4d81719474d4c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/TOC.df89c545bc69390ff4652223333da66a5898f045.fr-fr.xlf)
 * Handoff Datetime: 2016-10-14 18:43:25
 * Handoff Reason: Include
 * Archive File: [TOC.df89c545bc69390ff4652223333da66a5898f045.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/TOC.df89c545bc69390ff4652223333da66a5898f045.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [TOC.df89c545bc69390ff4652223333da66a5898f045.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/TOC.df89c545bc69390ff4652223333da66a5898f045.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * [Back to Top](#report-top)
 
 ##### <a name='c3b263110a908c28569cf3048a94d48da8316684196'></a> Source: [scripting\core-powershell\console\PowerShell.exe-Command-Line-Help.md](https://github.com/PowerShell/powerShell-Docs/blob/763dc6bb0410ec09fc237d41b96842895b15d142/scripting/core-powershell/console/PowerShell.exe-Command-Line-Help.md)
@@ -3335,18 +3198,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='b67024fb27c08e1079caad891cfc3e621a354b27197'></a> Source: [scripting\core-powershell\console\Using-Tab-Expansion.md](https://github.com/PowerShell/powerShell-Docs/blob/27512f637dd44485eee38936fea4723cd17b6218/scripting/core-powershell/console/Using-Tab-Expansion.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\core-powershell\console\Using-Tab-Expansion.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/1de5bf95125ad77a0a068eb10df73b0eabecd942/scripting/core-powershell/console/Using-Tab-Expansion.md)
 * Handoff File: [Using-Tab-Expansion.bc99dbdfe7cc5b731756781a1885f77560e0b23a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/e3e6bbfab8b1ffe8ddc9413959422155202911a3/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Using-Tab-Expansion.bc99dbdfe7cc5b731756781a1885f77560e0b23a.fr-fr.xlf)
 * Handoff Datetime: 2016-10-13 17:34:17
 * Handoff Reason: Include
 * Archive File: [Using-Tab-Expansion.bc99dbdfe7cc5b731756781a1885f77560e0b23a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Using-Tab-Expansion.bc99dbdfe7cc5b731756781a1885f77560e0b23a.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\core-powershell\console\Using-Tab-Expansion.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/4ee319263ba40e8c7473619e0dcb7472dbce9622/scripting/core-powershell/console/Using-Tab-Expansion.md)
-* Current Handback File: [Using-Tab-Expansion.bc99dbdfe7cc5b731756781a1885f77560e0b23a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b6a920cd270602fa4a79e549ca0eda8f3dd55cd9/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Using-Tab-Expansion.bc99dbdfe7cc5b731756781a1885f77560e0b23a.fr-fr.xlf)
-* Current Handback Datetime: 2016-09-07 00:35:21
+* Handback File: [Using-Tab-Expansion.bc99dbdfe7cc5b731756781a1885f77560e0b23a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9372f1737ea238d88a391c83f42e86278474912d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Using-Tab-Expansion.bc99dbdfe7cc5b731756781a1885f77560e0b23a.fr-fr.xlf)
+* Handback Datetime: 2016-10-24 18:17:38
 * Bilingual File: [Using-Tab-Expansion.bc99dbdfe7cc5b731756781a1885f77560e0b23a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b6a920cd270602fa4a79e549ca0eda8f3dd55cd9/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Using-Tab-Expansion.bc99dbdfe7cc5b731756781a1885f77560e0b23a.fr-fr.xlf)
 * Bilingual Datetime: 2016-09-07 00:37:51
 * [Back to Top](#report-top)
@@ -4504,7 +4364,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='16b3617b75b6aae25a92beaf5d6d2d6f2437ee13273'></a> Source: [scripting\getting-started\cookbooks\PowerShellGet-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/PowerShellGet-Module.md)
-* Status: ArchivedSuccess
+* Status: HandedBackFailed
 * Target File: 
 * Handoff File: [PowerShellGet-Module.ac51526ac1d58e30a623a4d259ded86670804b8e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/47f92832170078193b2e358325c16fc58796818c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/PowerShellGet-Module.ac51526ac1d58e30a623a4d259ded86670804b8e.fr-fr.xlf)
 * Handoff Datetime: 2016-10-17 17:42:23
@@ -4512,10 +4372,8 @@
 * Archive File: [PowerShellGet-Module.ac51526ac1d58e30a623a4d259ded86670804b8e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/PowerShellGet-Module.ac51526ac1d58e30a623a4d259ded86670804b8e.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
 * Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\getting-started\cookbooks\PowerShellGet-Module.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/b173051808dba074f08ee015cd7a6125d9d17914/scripting/getting-started/cookbooks/PowerShellGet-Module.md)
-* Current Handback File: [PowerShellGet-Module.ac51526ac1d58e30a623a4d259ded86670804b8e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/a5c05c78276390fccc78506e0ab9503e97b5c65d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/PowerShellGet-Module.ac51526ac1d58e30a623a4d259ded86670804b8e.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-05 22:17:14
+* Handback Datetime: 2016-10-24 18:17:38
+* Handback Error: [handback_transform_failed](#16b3617b75b6aae25a92beaf5d6d2d6f2437ee13273handback_transform_failed)
 * Bilingual File: [PowerShellGet-Module.ac51526ac1d58e30a623a4d259ded86670804b8e.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/a5c05c78276390fccc78506e0ab9503e97b5c65d/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/PowerShellGet-Module.ac51526ac1d58e30a623a4d259ded86670804b8e.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-05 22:21:34
 * [Back to Top](#report-top)
@@ -7119,6 +6977,18 @@
 * Error Message: Handback file: C:\ol\master\PSD.handback\7f42c4\ol-handback\PowerShell\powerShell-Docs.fr-fr\live\authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.fr-fr.xlf failed.
 * Retriable: False
 * Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\PSD.handback\\7f42c4\\ol-handback\\PowerShell\\powerShell-Docs.fr-fr\\live\\authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.fr-fr.xlf failed.","internal_error_retriable":false,"exception_message":"Fail to transform from xliff to markdown with invalid metadata: Invalid yaml header when parsing:\ntitle:   Composite resources: Using a DSC configuration as a resource ms.date:  2016-05-16 keywords:  powershell,DSC description:  \nms.topic:  article author:  eslesar manager:  dongill ms.prod:  powershell\nError message: (Line: 1, Col: 29, Idx: 28) - (Line: 1, Col: 29, Idx: 28): Mapping values are not allowed in this context.","exception_type":"System.IO.InvalidDataException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 94\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass7_0.<GetHandbackFiles>b__1(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 442","extended_information":null}
+
+##### <a name='c84ff58e4378feffa15c91485826b74f421c737e116handback_validate_file_name_invalide'></a> Source: [gallery\psgallery\PackageManagement_Architecture .md](#c84ff58e4378feffa15c91485826b74f421c737e116)
+* Error Code: handback_validate_file_name_invalide
+* Error Message: Handback file name: PackageManagement_Architecture%20.342c41f221a468f60c1ece4ef6d32b4005ca3c94.fr-fr is different with handoff file name: PackageManagement_Architecture .342c41f221a468f60c1ece4ef6d32b4005ca3c94.fr-fr.
+* Retriable: False
+* Error Details: {"internal_error_code":"handback_validate_file_name_invalide","internal_error_message":"Handback file name: PackageManagement_Architecture%20.342c41f221a468f60c1ece4ef6d32b4005ca3c94.fr-fr is different with handoff file name: PackageManagement_Architecture .342c41f221a468f60c1ece4ef6d32b4005ca3c94.fr-fr.","internal_error_retriable":false,"exception_message":"Handback file name: PackageManagement_Architecture%20.342c41f221a468f60c1ece4ef6d32b4005ca3c94.fr-fr is different with handoff file name: PackageManagement_Architecture .342c41f221a468f60c1ece4ef6d32b4005ca3c94.fr-fr.","exception_type":"Microsoft.OpenLocalization.Common.ErrorHandling.OpenLocalizationException","stack_trace":null,"extended_information":null}
+
+##### <a name='16b3617b75b6aae25a92beaf5d6d2d6f2437ee13273handback_transform_failed'></a> Source: [scripting\getting-started\cookbooks\PowerShellGet-Module.md](#16b3617b75b6aae25a92beaf5d6d2d6f2437ee13273)
+* Error Code: handback_transform_failed
+* Error Message: Handback file: C:\ol\master\PSD.handback\7f42c4\ol-handback\PowerShell\powerShell-Docs.fr-fr\live\PowerShellGet-Module.ac51526ac1d58e30a623a4d259ded86670804b8e.fr-fr.xlf failed.
+* Retriable: False
+* Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\PSD.handback\\7f42c4\\ol-handback\\PowerShell\\powerShell-Docs.fr-fr\\live\\PowerShellGet-Module.ac51526ac1d58e30a623a4d259ded86670804b8e.fr-fr.xlf failed.","internal_error_retriable":false,"exception_message":"Fail to transform from xliff to markdown with invalid metadata: Invalid yaml header when parsing:\ntitre :  Module PowerShellGet ms.date:  2016-05-11 mots clés :  powershell,applet de commande description :  \nms.topic:  auteur de l’article :  jpjofre responsable :  dongill ms.prod:  powershell ms.assetid:  e4d6867f-a32a-4564-9e43-409babee97a7\nError message: (Line: 1, Col: 38, Idx: 37) - (Line: 1, Col: 38, Idx: 37): Mapping values are not allowed in this context.","exception_type":"System.IO.InvalidDataException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 94\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass7_0.<GetHandbackFiles>b__1(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 442","extended_information":null}
 
 ##### <a name='1e422b30ab2471e73123badedf1f10631f9730ed415handback_transform_failed'></a> Source: [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](#1e422b30ab2471e73123badedf1f10631f9730ed415)
 * Error Code: handback_transform_failed
