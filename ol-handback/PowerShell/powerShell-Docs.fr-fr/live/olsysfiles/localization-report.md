@@ -3166,8 +3166,8 @@
 * Archive Datetime: 2016-10-18 19:21:31
 * Handback File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f35a79c889d4fb87886e707826a0e2d8b9400701/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
 * Handback Datetime: 2016-10-25 07:02:42
-* Bilingual File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/22ee2e03b7078e32ebd9a031c703f49bd0a00652/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
-* Bilingual Datetime: 2016-10-22 21:39:33
+* Bilingual File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f35a79c889d4fb87886e707826a0e2d8b9400701/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
+* Bilingual Datetime: 2016-10-25 07:03:19
 * [Back to Top](#report-top)
 
 ##### <a name='406bc766c9278b03371d2f3098eabedaeb75da1d194'></a> Source: [reference\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/31f3ceaf2c99430c48dcfdb65c851af0126157b2/reference/TOC.md)
@@ -4326,8 +4326,8 @@
 * Archive Datetime: 2016-10-18 19:21:31
 * Handback File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f35a79c889d4fb87886e707826a0e2d8b9400701/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
 * Handback Datetime: 2016-10-25 07:02:42
-* Bilingual File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/22ee2e03b7078e32ebd9a031c703f49bd0a00652/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
-* Bilingual Datetime: 2016-10-22 21:39:33
+* Bilingual File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f35a79c889d4fb87886e707826a0e2d8b9400701/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
+* Bilingual Datetime: 2016-10-25 07:03:19
 * [Back to Top](#report-top)
 
 ##### <a name='938e3e80b709a5f9a09cd52120fca41c60b5675d271'></a> Source: [scripting\getting-started\cookbooks\Other-Useful-Scripting-Objects.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Other-Useful-Scripting-Objects.md)
@@ -5164,8 +5164,8 @@
 * Archive Datetime: 2016-10-18 19:21:31
 * Handback File: [What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f35a79c889d4fb87886e707826a0e2d8b9400701/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf)
 * Handback Datetime: 2016-10-25 07:02:42
-* Bilingual File: [What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/22ee2e03b7078e32ebd9a031c703f49bd0a00652/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf)
-* Bilingual Datetime: 2016-10-22 21:39:33
+* Bilingual File: [What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f35a79c889d4fb87886e707826a0e2d8b9400701/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf)
+* Bilingual Datetime: 2016-10-25 07:03:19
 * [Back to Top](#report-top)
 
 ##### <a name='5c6f660f9de9039355f3a991da440b75e97275eb329'></a> Source: [scripting\Windows-PowerShell-Glossary.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/Windows-PowerShell-Glossary.md)
