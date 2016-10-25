@@ -4018,14 +4018,14 @@
 
 ##### <a name='fe79ca70ff1f9a3960b79747221a70adc46b7c67247'></a> Source: [scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/web-access/install-and-use-windows-powershell-web-access.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs.zh-cn/blob/2c628f39d87f7c73f124fdf0830c80cdb9901fcb/scripting/core-powershell/web-access/install-and-use-windows-powershell-web-access.md)
+* Target File: [scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs.zh-cn/blob/b1fedc71a1e9968c8a982f4cc1b710b8a3ecadc4/scripting/core-powershell/web-access/install-and-use-windows-powershell-web-access.md)
 * Handoff File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/515b4bdabe686ffc08e736eefbf8757228d2bdfd/ol-handoff/PowerShell/powerShell-Docs.zh-cn/live/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf)
 * Handoff Datetime: 2016-10-07 23:42:46
 * Handoff Reason: Include
 * Archive File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5eef3dad1d4d34bdbf1e2dc517c7a25d37ae69d0/ol-archive/PowerShell/powerShell-Docs.zh-cn/live/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf)
 * Archive Datetime: 2016-10-12 15:16:18
-* Handback File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f459413976f040bd7f4bd06335859be113dbe06b/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf)
-* Handback Datetime: 2016-10-20 09:23:24
+* Handback File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3b01441f823606116b951ff332636e7868376231/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf)
+* Handback Datetime: 2016-10-25 06:11:16
 * Bilingual File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f459413976f040bd7f4bd06335859be113dbe06b/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf)
 * Bilingual Datetime: 2016-10-20 09:24:39
 * [Back to Top](#report-top)
