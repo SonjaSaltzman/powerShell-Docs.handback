@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 0
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 41
+[ Archive Success Files ](#archive-success-list)| 38
 [ Handback Failed Files ](#handback-failed-list)| 7
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 371
+[ In Sync Handback Files ](#insync-handback-success-list)| 374
 [ Ignored Files ](#ignored-list)| 41
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -22,7 +22,6 @@
 ## <a name='archive-success-list'></a> Archive Success File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [reference\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/644c0b9071a31a9731452ae4f909dd1718347322/reference/readme.md) | ArchivedSuccess | [Details](#81a43a673285ba00710b4bbe450ecf316951746b193)
  [scripting\core-powershell\core-modules\Microsoft.PowerShell.Archive-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/core-modules/Microsoft.PowerShell.Archive-Module.md) | ArchivedSuccess | [Details](#72c28d35486561482697bdecd3df8b8af5164f01199)
  [scripting\core-powershell\core-modules\Microsoft.PowerShell.Core-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/core-modules/Microsoft.PowerShell.Core-Module.md) | ArchivedSuccess | [Details](#2332df700b6a133242ee8975a2c9fb32d33d65bb200)
  [scripting\core-powershell\core-modules\Microsoft.PowerShell.Diagnostics-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/core-modules/Microsoft.PowerShell.Diagnostics-Module.md) | ArchivedSuccess | [Details](#5a404bca8e9435a9eab29b8b4cfa8c336d024c38201)
@@ -51,7 +50,6 @@
  [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md) | ArchivedSuccess | [Details](#e3899a183cb1c8652adff7d01ffc09efde7f49b4263)
  [scripting\getting-started\cookbooks\Managing-Processes-with-Process-Cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Managing-Processes-with-Process-Cmdlets.md) | ArchivedSuccess | [Details](#3812d0492da1879df50538533740ff857af7b15d266)
  [scripting\getting-started\cookbooks\Managing-Services.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Managing-Services.md) | ArchivedSuccess | [Details](#61c98c54ca1b555f6b2e827fb31228bf6a2cc71d267)
- [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md) | ArchivedSuccess | [Details](#03a9bbfb14c4587d794db2eaadf60cc7a4d4dcdc270)
  [scripting\getting-started\cookbooks\Other-Useful-Scripting-Objects.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Other-Useful-Scripting-Objects.md) | ArchivedSuccess | [Details](#938e3e80b709a5f9a09cd52120fca41c60b5675d271)
  [scripting\getting-started\cookbooks\Selecting-Items-from-a-List-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Selecting-Items-from-a-List-Box.md) | ArchivedSuccess | [Details](#ce74f3c7cb26632269e42dfddb941fee11dcdc87277)
  [scripting\getting-started\fundamental\Getting-Detailed-Help-Information.md](https://github.com/PowerShell/powerShell-Docs/blob/b59186234a513cf34d2615d90643ee749bd60d3f/scripting/getting-started/fundamental/Getting-Detailed-Help-Information.md) | ArchivedSuccess | [Details](#c38edc68154ccfa9cd76ebdad5a94ddfb4f902c8293)
@@ -61,7 +59,6 @@
  [scripting\setup\security.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/security.md) | ArchivedSuccess | [Details](#eb1ac0640b61cd8daf1c5ed4800cabee64a6c276316)
  [scripting\setup\Windows-PowerShell-System-Requirements.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Windows-PowerShell-System-Requirements.md) | ArchivedSuccess | [Details](#9a9236cf5bca7ad3a286dfda0609e0bc7027d09e322)
  [scripting\whats-new\What-s-New-in-the-PowerShell-50-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-the-PowerShell-50-ISE.md) | ArchivedSuccess | [Details](#232b6a7020cbe3181a1fe722eae31d4d27d37669326)
- [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-With-PowerShell.md) | ArchivedSuccess | [Details](#035fc8adc08df500069e800cfb94c5dcff46d88f328)
  [wmf\5.0\limitation_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/3e60ee1441f1f12b878b34deb4469a7df8bbc4f3/wmf/5.0/limitation_overview.md) | ArchivedSuccess | [Details](#ef8d306319a197df28afe41e2fbba547b589b377391)
 
 ## <a name='handback-failed-list'></a> Handback Failed File List
@@ -250,6 +247,7 @@
  [jea\role-capabilities.md](https://github.com/PowerShell/powerShell-Docs/blob/81fd386d58576a8930093b4f18ce36a4ff6cecd0/jea/role-capabilities.md) | InSyncHandedBackSuccess | [Details](#a3dd4a217f5b1fd80e97adf802c65073ca015bbc188)
  [jea\TOC.MD](https://github.com/PowerShell/powerShell-Docs/blob/5b1f56380032b0661563552e167eb135059ebf85/jea/TOC.MD) | InSyncHandedBackSuccess | [Details](#fc3b6d859bf3842a857d9519516ea4e275fa1876189)
  [jea\using-jea.md](https://github.com/PowerShell/powerShell-Docs/blob/88ce340c09efdbb3d81a72fe6113c1187a9152f2/jea/using-jea.md) | InSyncHandedBackSuccess | [Details](#9db7a5a91d25d459313117da34af63016f03c241190)
+ [reference\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/644c0b9071a31a9731452ae4f909dd1718347322/reference/readme.md) | InSyncHandedBackSuccess | [Details](#81a43a673285ba00710b4bbe450ecf316951746b193)
  [reference\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/31f3ceaf2c99430c48dcfdb65c851af0126157b2/reference/TOC.md) | InSyncHandedBackSuccess | [Details](#406bc766c9278b03371d2f3098eabedaeb75da1d194)
  [scripting\core-powershell\console\PowerShell.exe-Command-Line-Help.md](https://github.com/PowerShell/powerShell-Docs/blob/763dc6bb0410ec09fc237d41b96842895b15d142/scripting/core-powershell/console/PowerShell.exe-Command-Line-Help.md) | InSyncHandedBackSuccess | [Details](#c3b263110a908c28569cf3048a94d48da8316684196)
  [scripting\core-powershell\console\Using-Tab-Expansion.md](https://github.com/PowerShell/powerShell-Docs/blob/27512f637dd44485eee38936fea4723cd17b6218/scripting/core-powershell/console/Using-Tab-Expansion.md) | InSyncHandedBackSuccess | [Details](#b67024fb27c08e1079caad891cfc3e621a354b27197)
@@ -297,6 +295,7 @@
  [scripting\getting-started\cookbooks\Managing-Current-Location.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Managing-Current-Location.md) | InSyncHandedBackSuccess | [Details](#97bdd8ed6278fc5d45b34adf50ef8a194966ef0c265)
  [scripting\getting-started\cookbooks\Managing-Windows-PowerShell-Drives.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Managing-Windows-PowerShell-Drives.md) | InSyncHandedBackSuccess | [Details](#d266a109b1acd97c03594f988ce2fab3c697b80c268)
  [scripting\getting-started\cookbooks\Manipulating-Items-Directly.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Manipulating-Items-Directly.md) | InSyncHandedBackSuccess | [Details](#b21af4711cc5a846517c3e286c9e90f858612ccb269)
+ [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md) | InSyncHandedBackSuccess | [Details](#03a9bbfb14c4587d794db2eaadf60cc7a4d4dcdc270)
  [scripting\getting-started\cookbooks\Performing-Networking-Tasks.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Performing-Networking-Tasks.md) | InSyncHandedBackSuccess | [Details](#39266e1e4ae2101de26277c20a98596f62cf223d272)
  [scripting\getting-started\cookbooks\Redirecting-Data-with-Out---Cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Redirecting-Data-with-Out---Cmdlets.md) | InSyncHandedBackSuccess | [Details](#e62ae14e4d7334d0cd42681c7e2591692c089187274)
  [scripting\getting-started\cookbooks\Removing-Objects-from-the-Pipeline--Where-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Removing-Objects-from-the-Pipeline--Where-Object-.md) | InSyncHandedBackSuccess | [Details](#94117fcf337ecf550d6df1d167e608ba64582c03275)
@@ -343,6 +342,7 @@
  [scripting\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/1fe4c9a63c6d7fa47357b068997c5d9ce8ef6c32/scripting/TOC.md) | InSyncHandedBackSuccess | [Details](#4916c6b7a1d93b5dc94f4ed54afd26b919061c3e324)
  [scripting\topic\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/afa259b8611f995bbf5b824179a12e3d8f15df86/scripting/topic/WinRMSecurity.md) | InSyncHandedBackSuccess | [Details](#207792452c563ec6cca5c17fbcd122372442d8ac325)
  [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | InSyncHandedBackSuccess | [Details](#966cab74cb2519893d4744e8bd0ca12f93f73136327)
+ [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-With-PowerShell.md) | InSyncHandedBackSuccess | [Details](#035fc8adc08df500069e800cfb94c5dcff46d88f328)
  [scripting\Windows-PowerShell-Glossary.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/Windows-PowerShell-Glossary.md) | InSyncHandedBackSuccess | [Details](#5c6f660f9de9039355f3a991da440b75e97275eb329)
  [wmf\5.0\audit_cms.md](https://github.com/PowerShell/powerShell-Docs/blob/b32cb86b7a18fee929cc81360d81f479571a74c2/wmf/5.0/audit_cms.md) | InSyncHandedBackSuccess | [Details](#2160a4b932075c98df6806c61d263d30f650b9f4330)
  [wmf\5.0\audit_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/a5eb166c5badca2d7d926766ffa480b082355e86/wmf/5.0/audit_overview.md) | InSyncHandedBackSuccess | [Details](#20e6c97ad5dc845bc0ead973ed8a62b34af3e824331)
@@ -3157,18 +3157,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='81a43a673285ba00710b4bbe450ecf316951746b193'></a> Source: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/644c0b9071a31a9731452ae4f909dd1718347322/reference/readme.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/2d52725f966e8e0b4e3f7cadb86b7bb41cb8be62/reference/readme.md)
 * Handoff File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/e3e6bbfab8b1ffe8ddc9413959422155202911a3/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
 * Handoff Datetime: 2016-10-13 17:34:17
 * Handoff Reason: Include
 * Archive File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/ceac2997bf3e96b6d2c0eaab32f0112f9051c39d/reference/readme.md)
-* Current Handback File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/22ee2e03b7078e32ebd9a031c703f49bd0a00652/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-22 21:37:49
+* Handback File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f35a79c889d4fb87886e707826a0e2d8b9400701/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
+* Handback Datetime: 2016-10-25 07:02:42
 * Bilingual File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/22ee2e03b7078e32ebd9a031c703f49bd0a00652/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-22 21:39:33
 * [Back to Top](#report-top)
@@ -4320,18 +4317,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='03a9bbfb14c4587d794db2eaadf60cc7a4d4dcdc270'></a> Source: [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/2d52725f966e8e0b4e3f7cadb86b7bb41cb8be62/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md)
 * Handoff File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/47f92832170078193b2e358325c16fc58796818c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
 * Handoff Datetime: 2016-10-17 17:42:23
 * Handoff Reason: Include
 * Archive File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/ceac2997bf3e96b6d2c0eaab32f0112f9051c39d/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md)
-* Current Handback File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/22ee2e03b7078e32ebd9a031c703f49bd0a00652/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-22 21:37:49
+* Handback File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f35a79c889d4fb87886e707826a0e2d8b9400701/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
+* Handback Datetime: 2016-10-25 07:02:42
 * Bilingual File: [Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/22ee2e03b7078e32ebd9a031c703f49bd0a00652/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Multiple-selection-List-Boxes.a647f0bae5e61f570951792f4be945b14d21dc9a.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-22 21:39:33
 * [Back to Top](#report-top)
@@ -5161,18 +5155,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='035fc8adc08df500069e800cfb94c5dcff46d88f328'></a> Source: [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-With-PowerShell.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/2d52725f966e8e0b4e3f7cadb86b7bb41cb8be62/scripting/whats-new/What-s-New-With-PowerShell.md)
 * Handoff File: [What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/47f92832170078193b2e358325c16fc58796818c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf)
 * Handoff Datetime: 2016-10-17 17:42:23
 * Handoff Reason: Include
 * Archive File: [What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/ceac2997bf3e96b6d2c0eaab32f0112f9051c39d/scripting/whats-new/What-s-New-With-PowerShell.md)
-* Current Handback File: [What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/22ee2e03b7078e32ebd9a031c703f49bd0a00652/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-22 21:37:49
+* Handback File: [What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f35a79c889d4fb87886e707826a0e2d8b9400701/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf)
+* Handback Datetime: 2016-10-25 07:02:42
 * Bilingual File: [What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/22ee2e03b7078e32ebd9a031c703f49bd0a00652/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-22 21:39:33
 * [Back to Top](#report-top)
