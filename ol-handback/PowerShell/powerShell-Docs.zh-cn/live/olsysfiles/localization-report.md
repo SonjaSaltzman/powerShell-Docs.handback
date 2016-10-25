@@ -4026,8 +4026,8 @@
 * Archive Datetime: 2016-10-12 15:16:18
 * Handback File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3b01441f823606116b951ff332636e7868376231/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf)
 * Handback Datetime: 2016-10-25 06:11:16
-* Bilingual File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f459413976f040bd7f4bd06335859be113dbe06b/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf)
-* Bilingual Datetime: 2016-10-20 09:24:39
+* Bilingual File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3b01441f823606116b951ff332636e7868376231/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.zh-cn.xlf)
+* Bilingual Datetime: 2016-10-25 06:11:56
 * [Back to Top](#report-top)
 
 ##### <a name='3d2eb84bf706c935e978e78b84e221f9f68042f8248'></a> Source: [scripting\core-powershell\web-access\troubleshooting-access-problems-in-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/web-access/troubleshooting-access-problems-in-windows-powershell-web-access.md)
