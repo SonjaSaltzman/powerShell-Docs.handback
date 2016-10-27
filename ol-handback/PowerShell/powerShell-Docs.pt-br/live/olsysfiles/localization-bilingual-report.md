@@ -1,47 +1,26 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 2
+ Total Files | 1
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\DSCAutomationHostEnabled.md](https://github.com/PowerShell/powerShell-Docs/blob/260490003335923d4e1c6b6873b11ee71ba780c0/dsc/DSCAutomationHostEnabled.md) | HandedOffSuccess | [Details](#24842d755aa34ab29c6a5b4f973052476bc907e525)
- [reference\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/89379e7cbbccc6fdc449026de83d936183089dbf/reference/TOC.md) | HandedOffSuccess | [Details](#0035659b9a3f658c9ed15729b22519d6b4a6b0e72164)
+ [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs/blob/8e486891a4e5db20389d6ae65d00c42e1308af35/dsc/pullServer.md) | InSyncHandedBackSuccess | [Details](#4ab20cdcac6f10dc9ecab6d85b38f413e0ade8b083)
 
 ## Item Details
-##### <a name='24842d755aa34ab29c6a5b4f973052476bc907e525'></a> Source: [dsc\DSCAutomationHostEnabled.md](https://github.com/PowerShell/powerShell-Docs/blob/260490003335923d4e1c6b6873b11ee71ba780c0/dsc/DSCAutomationHostEnabled.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/f44b7816e88472984657d392d815f8db24a11032/ol-handoff/PowerShell/powerShell-Docs.pt-br/live/DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.pt-br.xlf)
-* Handoff Datetime: 2016-10-27 21:52:21
+##### <a name='4ab20cdcac6f10dc9ecab6d85b38f413e0ade8b083'></a> Source: [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs/blob/8e486891a4e5db20389d6ae65d00c42e1308af35/dsc/pullServer.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/3c9285114d3999c478d0b4ffba69acaef8c42d6d/dsc/pullServer.md)
+* Handoff File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/1c3c64418665f63d2372ee45a5732672e91f4293/ol-handoff/PowerShell/powerShell-Docs.pt-br/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.pt-br.xlf)
+* Handoff Datetime: 2016-10-08 00:30:16
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [dsc\DSCAutomationHostEnabled.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/28e1012c271faeb33a2bf7f894603106106f6882/dsc/DSCAutomationHostEnabled.md)
-* Current Handback File: [DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3d4b745b170ec868fc7eef31ae9d03f0d37db15a/ol-handback/PowerShell/powerShell-Docs.pt-br/live/DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.pt-br.xlf)
-* Current Handback Datetime: 2016-10-27 20:29:47
-* Bilingual File: [DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3d4b745b170ec868fc7eef31ae9d03f0d37db15a/ol-handback/PowerShell/powerShell-Docs.pt-br/live/DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.pt-br.xlf)
-* Bilingual Datetime: 2016-10-27 21:55:33
-* [Back to Top](#report-top)
-
-##### <a name='0035659b9a3f658c9ed15729b22519d6b4a6b0e72164'></a> Source: [reference\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/89379e7cbbccc6fdc449026de83d936183089dbf/reference/TOC.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [TOC.df89c545bc69390ff4652223333da66a5898f045.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/f44b7816e88472984657d392d815f8db24a11032/ol-handoff/PowerShell/powerShell-Docs.pt-br/live/TOC.df89c545bc69390ff4652223333da66a5898f045.pt-br.xlf)
-* Handoff Datetime: 2016-10-27 21:52:21
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [reference\TOC.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/28e1012c271faeb33a2bf7f894603106106f6882/reference/TOC.md)
-* Current Handback File: [TOC.df89c545bc69390ff4652223333da66a5898f045.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3d4b745b170ec868fc7eef31ae9d03f0d37db15a/ol-handback/PowerShell/powerShell-Docs.pt-br/live/TOC.df89c545bc69390ff4652223333da66a5898f045.pt-br.xlf)
-* Current Handback Datetime: 2016-10-27 20:29:47
-* Bilingual File: [TOC.df89c545bc69390ff4652223333da66a5898f045.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3d4b745b170ec868fc7eef31ae9d03f0d37db15a/ol-handback/PowerShell/powerShell-Docs.pt-br/live/TOC.df89c545bc69390ff4652223333da66a5898f045.pt-br.xlf)
-* Bilingual Datetime: 2016-10-27 21:55:33
+* Archive File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/984dba2c95bbe988268fe4844e375a63701c3e83/ol-archive/PowerShell/powerShell-Docs.pt-br/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.pt-br.xlf)
+* Archive Datetime: 2016-10-12 15:30:25
+* Handback File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b3e1c1f8170e94bfdafb3af4a37c1a6f384b12fd/ol-handback/PowerShell/powerShell-Docs.pt-br/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.pt-br.xlf)
+* Handback Datetime: 2016-10-27 22:48:31
+* Bilingual File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b3e1c1f8170e94bfdafb3af4a37c1a6f384b12fd/ol-handback/PowerShell/powerShell-Docs.pt-br/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.pt-br.xlf)
+* Bilingual Datetime: 2016-10-27 22:52:43
 * [Back to Top](#report-top)
 
 
