@@ -1,11 +1,31 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [reference\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/89379e7cbbccc6fdc449026de83d936183089dbf/reference/readme.md) | ArchivedSuccess | [Details](#2c9b6f7172a1782f72bb9e5a9ba7992eb80797de2163)
 
 ## Item Details
+##### <a name='2c9b6f7172a1782f72bb9e5a9ba7992eb80797de2163'></a> Source: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/89379e7cbbccc6fdc449026de83d936183089dbf/reference/readme.md)
+* Status: ArchivedSuccess
+* Target File: 
+* Handoff File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/4ad17d5a902c9c0cfb7c2f648afe45215dc24474/ol-handoff/PowerShell/powerShell-Docs.es-es/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.es-es.xlf)
+* Handoff Datetime: 2016-10-27 21:51:28
+* Handoff Reason: Include
+* Archive File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/3bd7f5223f566c65a15bb99bcb8a23a1b43d813f/ol-archive/PowerShell/powerShell-Docs.es-es/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.es-es.xlf)
+* Archive Datetime: 2016-10-27 21:51:30
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/fd6db0fe989829b95d995aca265614b53f1a5109/reference/readme.md)
+* Current Handback File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/37be4a848b053b22f398b4c840ce1374e99cd5f9/ol-handback/PowerShell/powerShell-Docs.es-es/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.es-es.xlf)
+* Current Handback Datetime: 2016-10-27 21:53:47
+* Bilingual File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/37be4a848b053b22f398b4c840ce1374e99cd5f9/ol-handback/PowerShell/powerShell-Docs.es-es/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.es-es.xlf)
+* Bilingual Datetime: 2016-10-27 21:55:21
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
