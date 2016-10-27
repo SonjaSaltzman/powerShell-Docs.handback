@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a7d3f3205e8f6d4bf662dd07bd5e27df4ef93dc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Import-PSSession.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f45435e2cd362e200be93f90f0b8b9137dbf463c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">24c2c27dc79afba4adecf0a5a26fbeb8fbdbc7d2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell-Cmdlets</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Import-PSSession</source>
+          <target state="translated">Import-PSSession</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Import-PSSession</source>
+          <target state="translated">Import-PSSession</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">ZUSAMMENFASSUNG</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Imports commands from another session into the current session.</source>
+          <target state="translated">Importiert Befehle aus einer anderen Sitzung in die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAX</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet imports commands (such as cmdlets, functions, and aliases) from a PSSession on a local or remote computer into the current session.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> Cmdlet importiert Befehle (z. B. Cmdlets, Funktionen und Aliase) aus einer PSSession auf einem lokalen Computer oder Remotecomputer in die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can import any command that the Get-Command cmdlet can find in the PSSession.</source>
+          <target state="translated">Sie können jeden Befehl importieren, die mit dem Get-Command-Cmdlet in der PSSession finden.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Use an <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> command to import commands from a customized shell, such as a Microsoft Exchange Server shell, or from a session that includes Windows PowerShell modules and snap-ins or other elements that are not in the current session.</source>
+          <target state="translated">Verwenden einer <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> Befehl zum Importieren von Befehlen aus einer benutzerdefinierten Shell, z. B. eine Microsoft Exchange Server-Shell oder von einer Sitzung, die Windows PowerShell-Module und -Snap-ins oder anderen Elementen, die nicht in der aktuellen Sitzung enthält.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To import commands, first use the New-PSSession cmdlet to create a PSSession.</source>
+          <target state="translated">Verwenden Sie zum Importieren von Befehlen, zuerst das New-PSSession-Cmdlet zum Erstellen einer PSSession.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Then, use the <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet to import the commands.</source>
+          <target state="translated">Verwenden Sie dann die <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> Cmdlet, um die Befehle zu importieren.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> imports all commands except for commands that have the same names as commands in the current session.</source>
+          <target state="translated">In der Standardeinstellung <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> importiert alle Befehle mit Ausnahme der Befehle, die den gleichen Namen wie die Befehle in der aktuellen Sitzung haben.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To import all the commands, use the <bpt id="p1">**</bpt>AllowClobber<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Verwenden Sie zum Importieren aller Befehle der <bpt id="p1">**</bpt>AllowClobber<ept id="p1">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use imported commands just as you would use any command in the session.</source>
+          <target state="translated">Sie können importierte Befehle genauso wie jeden anderen Befehl in der Sitzung ausführen.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you use an imported command, the imported part of the command runs implicitly in the session from which it was imported.</source>
+          <target state="translated">Wenn Sie einen importierten Befehl verwenden, wird der importierte Teil des Befehls implizit in der Sitzung ausgeführt, aus der er importiert wurde.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>However, the remote operations are handled entirely by Windows PowerShell.</source>
+          <target state="translated">Die Remotevorgänge werden jedoch vollständig von Windows PowerShell verarbeitet.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You need not even be aware of them, except that you must keep the connection to the other session (PSSession) open.</source>
+          <target state="translated">Abgesehen davon, dass die Verbindung mit der anderen Sitzung (PSSession) geöffnet bleiben muss, können Remotevorgänge vollständig unbeaufsichtigt ablaufen.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you close it, the imported commands are no longer available.</source>
+          <target state="translated">Wenn Sie die Verbindung trennen, sind die importierten Befehle nicht mehr verfügbar.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Because imported commands might take longer to run than local commands, Import-PSSession adds an AsJob parameter to every imported command.</source>
+          <target state="translated">Da die Ausführung importierter Befehle länger dauern kann als die Ausführung lokaler Befehle, fügt Import-PSSession jedem importierten Befehl einen AsJob-Parameter hinzu.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This parameter allows you to run the command as a Windows PowerShell background job.</source>
+          <target state="translated">Durch diesen Parameter können Sie den Befehl in Windows PowerShell als Hintergrundauftrag ausführen.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Jobs.</source>
+          <target state="translated">Weitere Informationen finden Sie unter %%amp;quot;about_Jobs%%amp;quot;.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When you use <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept>, Windows PowerShell adds the imported commands to a temporary module that exists only in your session and returns an object that represents the module.</source>
+          <target state="translated">Bei Verwendung <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept>, Windows PowerShell ergänzt die importierten Befehle, um ein temporäres Modul, das nur in der Sitzung vorhanden ist, und gibt ein Objekt, das das Modul darstellt.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To create a persistent module that you can use in future sessions, use the Export-PSSession cmdlet.</source>
+          <target state="translated">Zum Erstellen eines persistenten Moduls, das Sie in zukünftigen Sitzungen verwenden können, verwenden Sie das Cmdlet "Export-PSSession".</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet uses the implicit remoting feature of Windows PowerShell.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Import-PSSession-<ept id="p1">**</ept> -Cmdlet verwendet die Funktion des impliziten Remotings von Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When you import commands into the current session, they run implicitly in the original session or in a  similar session on the originating computer.</source>
+          <target state="translated">Wenn Sie Befehle in die aktuelle Sitzung importieren, werden sie implizit in der ursprünglichen Sitzung oder einer ähnlichen Sitzung auf dem Quellcomputer ausgeführt.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can use the Import-Module cmdlet to import modules from a remote session into the current session.</source>
+          <target state="translated">Ab Windows PowerShell 3.0 können das Import-Module-Cmdlet Sie Module aus einer Remotesitzung in die aktuelle Sitzung zu importieren.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This feature uses implicit remoting.</source>
+          <target state="translated">Dieses Feature verwendet implizites Remoting.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It is equivalent to using <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> to import selected modules from a remote session into the current session.</source>
+          <target state="translated">Es ist äquivalent zur Verwendung <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> Ausgewählte Module aus einer Remotesitzung in die aktuelle Sitzung zu importieren.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">BEISPIELE</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- BEISPIEL 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command imports all commands from a PSSession on the Server01 computer into the current session, except for commands that have the same names as commands in the current session.</source>
+          <target state="translated">Dieser Befehl importiert alle Befehle einer PSSession auf Computer Server01 in die aktuelle Sitzung. Dies gilt nicht für Befehle, die über dieselben Namen wie Befehle in der aktuellen Sitzung verfügen.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Because this command does not use the <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> parameter, it also imports all of the formatting data required for the imported commands.</source>
+          <target state="translated">Da dieser Befehl nicht die <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> Parameter importiert auch alle für die importierten Befehle erforderlichen Formatierungsdaten.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These commands import the commands with names that end in "-test" from a PSSession into the local session, and then they show how to use an imported cmdlet.</source>
+          <target state="translated">Durch diese Befehle werden die auf „-test“ endenden Namen aus einer PSSession in die lokale Sitzung importiert. Anschließend wird die Verwendung eines importierten Cmdlets gezeigt.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The first command uses the New-PSSession cmdlet to create a PSSession.</source>
+          <target state="translated">Der erste Befehl verwendet das New-PSSession-Cmdlet, um eine PSSession zu erstellen.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It saves the PSSession in the $s variable.</source>
+          <target state="translated">Er speichert die PSSession in der $s-Variablen.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet to import commands from the PSSession in $s into the current session.</source>
+          <target state="translated">Der zweite Befehl verwendet die <bpt id="p1">**</bpt>Import-PSSession-<ept id="p1">**</ept> -Cmdlet zum Importieren von Befehlen aus der PSSession in $s in die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> parameter to specify commands with the Test noun and the <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> parameter to import the formatting data for the Test commands.</source>
+          <target state="translated">Er verwendet die <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> Parameter, um Befehle mit dem Substantiv "Test" und die <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> Parameter, um die Formatierungsdaten für die Test-Befehle zu importieren.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The third and fourth commands use the imported commands in the current session.</source>
+          <target state="translated">Vom dritten und vierten Befehl werden die importierten Befehle in der aktuellen Sitzung verwendet.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Because imported commands are actually added to the current session, you use the local syntax to run them.</source>
+          <target state="translated">Importierte Befehle werden der aktuellen Sitzung tatsächlich hinzugefügt, sodass Sie sie mithilfe lokaler Syntax ausführen.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You do not need to use the Invoke-Command cmdlet to run an imported command.</source>
+          <target state="translated">Sie müssen nicht die Invoke-Command-Cmdlet verwenden, um einen importierten Befehl auszuführen.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This example shows that you can use imported cmdlets just as you would use local cmdlets.</source>
+          <target state="translated">Dieses Beispiel zeigt, dass Sie importierte Cmdlets genauso verwenden, wie Sie lokale Cmdlets verwenden würden.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>These commands import the New-Test and Get-Test cmdlets from a PSSession on the Server01 computer and the Set-Test cmdlet from a PSSession on the Server02 computer.</source>
+          <target state="translated">Diese Befehle importieren das New-Test-Cmdlet und das Get-Test-Cmdlet aus einer PSSession auf dem Computer Server01 und das Set-Test-Cmdlet aus einer PSSession auf dem Computer Server02.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Even though the cmdlets were imported from different PSSessions, you can pipe an object from one cmdlet to another without error.</source>
+          <target state="translated">Obwohl die Cmdlets aus verschiedenen PSSessions importiert wurden, können Sie ein Objekt aus einem Cmdlet fehlerfrei an ein anderes Cmdlet weiterreichen.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This example shows how to run an imported command as a background job.</source>
+          <target state="translated">In diesem Beispiel wird erläutert, wie ein importierter Befehl als Hintergrundauftrag ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Because imported commands might take longer to run than local commands, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> adds an <bpt id="p2">**</bpt>AsJob<ept id="p2">**</ept> parameter to every imported command.</source>
+          <target state="translated">Da die importierten Befehle ausführen als lokale Befehle länger dauern kann <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> Fügt eine <bpt id="p2">**</bpt>AsJob<ept id="p2">**</ept> Parameter, um jedem importierten Befehl.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>AsJob<ept id="p1">**</ept> parameter lets you run the command as a background job.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>AsJob<ept id="p1">**</ept> -Parameter können Sie den Befehl als Hintergrundauftrag auszuführen.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The first command creates a PSSession on the Server01 computer and saves the PSSession object in the $s variable.</source>
+          <target state="translated">Der erste Befehl erstellt eine PSSession auf dem Computer Server01 und speichert das PSSession-Objekt in der $s-Variablen.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> to import the Test cmdlets from the PSSession in $s into the current session.</source>
+          <target state="translated">Der zweite Befehl verwendet <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> um die Test-Cmdlets aus der PSSession in $s in die aktuelle Sitzung zu importieren.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>AsJob<ept id="p1">**</ept> parameter of the imported New-Test cmdlet to run a New-Test command as a background job.</source>
+          <target state="translated">Der dritte Befehl verwendet die <bpt id="p1">**</bpt>AsJob<ept id="p1">**</ept> Parameter des importierten New-Test-Cmdlets um einen New-Test-Befehl als Hintergrundauftrag auszuführen.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The command saves the job object that New-Test returns in the $batch variable.</source>
+          <target state="translated">Der Befehl speichert das Auftragsobjekt, das von New-Test in der $batch-Variablen zurückgegeben wird.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Receive-Job cmdlet to get the results of the job in the $batch variable.</source>
+          <target state="translated">Der vierte Befehl verwendet das Receive-Job-Cmdlet zum Abrufen der Ergebnisse des Auftrags in der $batch-Variablen.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This example shows how to import the cmdlets and functions from a Windows PowerShell module on a remote computer into the current session.</source>
+          <target state="translated">In diesem Beispiel wird veranschaulicht, wie Cmdlets und Funktionen aus einem Windows PowerShell-Modul auf einem Remotecomputer in die aktuelle Sitzung importiert werden.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The first command creates a PSSession on the Server01 computer and saves it in the $s variable.</source>
+          <target state="translated">Der erste Befehl erstellt eine PSSession auf dem Computer Server01 und speichert sie in der $s-Variablen.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> cmdlet to run an Import-Module command in the PSSession in $s.</source>
+          <target state="translated">Der zweite Befehl verwendet die <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> Cmdlet, um einen Import-Module-Befehl in der PSSession in $s auszuführen.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Typically, the module would be added to all sessions by an <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> command in a Windows PowerShell profile, but profiles are not run in PSSessions.</source>
+          <target state="translated">In der Regel würde das Modul hinzugefügt werden, zu allen Sitzungen durch eine <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> Befehl in einem Windows PowerShell-Profil, aber Profile werden in PSSessions nicht ausgeführt.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Import-PSSession<ept id="p2">**</ept> to import the cmdlets and functions in the module into the current session.</source>
+          <target state="translated">Der dritte Befehl verwendet die <bpt id="p1">**</bpt>Modul<ept id="p1">**</ept> Parameter <bpt id="p2">**</bpt>Import-PSSession<ept id="p2">**</ept> die Cmdlets und Funktionen im Modul in die aktuelle Sitzung zu importieren.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This example shows that <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> creates a module in a temporary file on disk.</source>
+          <target state="translated">Dieses Beispiel zeigt, dass <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> ein Modul in eine temporäre Datei auf dem Datenträger erstellt.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It also shows that all commands are converted into functions before they are imported into the current session.</source>
+          <target state="translated">Außerdem wird veranschaulicht, dass alle Befehle vor dem Import in die aktuelle Sitzung in Funktionen konvertiert werden.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet to import a Get-Date cmdlet and a SearchHelp function into the current session.</source>
+          <target state="translated">Der Befehl verwendet den <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> Cmdlet, um ein Cmdlet "Get-Date" und einer SearchHelp-Funktion in der aktuellen Sitzung zu importieren.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet returns a <bpt id="p2">**</bpt>PSModuleInfo<ept id="p2">**</ept> object that represents the temporary module.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> Cmdlet gibt ein <bpt id="p2">**</bpt>PSModuleInfo<ept id="p2">**</ept> -Objekt, das temporäre Modul darstellt.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> property shows that <bpt id="p2">**</bpt>Import-PSSession<ept id="p2">**</ept> created a script module (.psm1) file in a temporary location.</source>
+          <target state="translated">Der Wert der <bpt id="p1">**</bpt>Pfad<ept id="p1">**</ept> -Eigenschaft zeigt, dass <bpt id="p2">**</bpt>Import-PSSession<ept id="p2">**</ept> eine skriptmoduldatei (psm1) in einem temporären Verzeichnis erstellt.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ExportedFunctions<ept id="p1">**</ept> property shows that the <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> cmdlet and the SearchHelp function were both imported as functions.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>ExportedFunctions<ept id="p1">**</ept> -Eigenschaft zeigt, dass die <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> Cmdlet und die SearchHelp-Funktion wurden als Funktionen importiert.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This example shows how to run a command that is hidden by an imported command.</source>
+          <target state="translated">In diesem Beispiel wird die Ausführung eines Befehls veranschaulicht, der von einem importierten Befehl ausgeblendet wird.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The first command imports a Get-Date cmdlet from the PSSession in the $s variable.</source>
+          <target state="translated">Der erste Befehl importiert ein Cmdlet "Get-Date" aus der PSSession in der Variablen $s.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Because the current session includes a <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> cmdlet, the <bpt id="p2">**</bpt>AllowClobber<ept id="p2">**</ept> parameter is required in the command.</source>
+          <target state="translated">Da die aktuelle Sitzung enthält eine <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> -Cmdlet der <bpt id="p2">**</bpt>AllowClobber<ept id="p2">**</ept> Parameter im Befehl erforderlich ist.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter of the Get-Command cmdlet to get all <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> commands in the current session.</source>
+          <target state="translated">Der zweite Befehl verwendet die <bpt id="p1">**</bpt>alle<ept id="p1">**</ept> Parameter von Get-Command-Cmdlet zum Abrufen aller <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> Befehle in der aktuellen Sitzung.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The output shows that the session includes the original <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> cmdlet and a <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> function.</source>
+          <target state="translated">Die Ausgabe zeigt, dass die Sitzung die ursprüngliche enthält <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> Cmdlet und eine <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> Funktion.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> function runs the imported <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> cmdlet in the PSSession in $s.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> -Funktion führt das importierte <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> Cmdlet in der PSSession in $s.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The third command runs a <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> command.</source>
+          <target state="translated">Der dritte Befehl führt eine <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> Befehl.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Because functions take precedence over cmdlets, Windows PowerShell runs the imported <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> function, which returns a Julian date.</source>
+          <target state="translated">Da Funktionen Vorrang vor Cmdlets haben, führt Windows PowerShell die importierte <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> -Funktion, die ein Julianisches Datum zurückgegeben.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The fourth and fifth commands show how to use a qualified name to run a command that is hidden by an imported command.</source>
+          <target state="translated">Der vierte und fünfte Befehl zeigen, wie ein Befehl, der von einem importierten Befehl ausgeblendet wird, anhand eines qualifizierten Namens ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The fourth command gets the name of the Windows PowerShell snap-in that added the original <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> cmdlet to the current session.</source>
+          <target state="translated">Der vierte Befehl ruft den Namen der das Windows PowerShell-Snap-in, die die ursprüngliche hinzugefügt <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> Cmdlet, um die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the snap-in-qualified name of the <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> cmdlet to run a <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> command.</source>
+          <target state="translated">Der fünfte Befehl verwendet den Snap-in-qualifizierten Namen des dem <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> -Cmdlet zum Ausführen einer <bpt id="p2">**</bpt>Get-Date<ept id="p2">**</ept> Befehl.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>For more information about command precedence and hidden commands, see about_Command_Precedence.</source>
+          <target state="translated">Weitere Informationen zur befehlsrangfolge und ausgeblendeten Befehlen finden Sie unter "About_Command_Precedence".</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 8 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 8 --------------------------</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This command imports commands whose names include "Item" from the PSSession in $s.</source>
+          <target state="translated">Dieser Befehl importiert die Befehle, deren Namen "Item" aus der PSSession in $s enthalten.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Because the command includes the <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> parameter but not the <bpt id="p2">**</bpt>FormatTypeData<ept id="p2">**</ept> parameter, only the command is imported.</source>
+          <target state="translated">Da der Befehl enthält die <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> Parameter jedoch nicht die <bpt id="p2">**</bpt>FormatTypeData<ept id="p2">**</ept> -Parameter, die nur der Befehl wird importiert.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Use this command when you are using <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> to run a command on a remote computer and you already have the formatting data for the command in the current session.</source>
+          <target state="translated">Verwenden Sie diesen Befehl bei Verwendung der <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> zum Ausführen eines Befehls auf einem Computer bereits die Formatierungsdaten für den Befehl in der aktuellen Sitzung.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 9 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 9 --------------------------</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This command shows how to use the <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> to find out which commands were imported into the session by an <bpt id="p3">**</bpt>Import-PSSession<ept id="p3">**</ept> command.</source>
+          <target state="translated">Dieser Befehl zeigt, wie Sie die <bpt id="p1">**</bpt>Modul<ept id="p1">**</ept> Parameter <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> um herauszufinden, welche Befehle in die Sitzung von importierten ein <bpt id="p3">**</bpt>Import-PSSession<ept id="p3">**</ept> Befehl.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cmdlet to import commands whose names include "bits" from the PSSession in the $s variable.</source>
+          <target state="translated">Der erste Befehl verwendet die <bpt id="p1">**</bpt>Import-PSSession-<ept id="p1">**</ept> -Cmdlet zum Importieren von Befehlen, deren Namen "Bits" aus der PSSession in der Variablen $s enthalten.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> command returns a temporary module, and the command saves the module in the $m variable.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> Befehl gibt ein temporäres Modul zurück, und der Befehl speichert das Modul in der Variablen $m.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-Command cmdlet to get the commands that are exported by the module in the $m variable.</source>
+          <target state="translated">Der zweite Befehl verwendet das Get-Command-Cmdlet zum Abrufen der Befehle, die vom Modul in der Variablen $m exportiert werden.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> parameter takes a string value, which is designed for the module name.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Modul<ept id="p1">**</ept> Parameter akzeptiert einen Zeichenfolgenwert für den Namen des Moduls vorgesehen ist.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>However, when you submit a module object, Windows PowerShell uses the <bpt id="p1">**</bpt>ToString<ept id="p1">**</ept> method on the module object, which returns the module name.</source>
+          <target state="translated">Aber wenn Sie ein Modulobjekt senden, Windows PowerShell verwendet die <bpt id="p1">**</bpt>ToString<ept id="p1">**</ept> Methode für das Modulobjekt, die den Modulnamen zurückgibt.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command is the equivalent of <ph id="ph1">`Get-Command $m.Name`</ph>".</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> Befehl entspricht dem <ph id="ph1">`Get-Command $m.Name`</ph>".</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETER</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-AllowClobber</source>
+          <target state="translated">-AllowClobber</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Imports the specified commands, even if they have the same names as commands in the current session.</source>
+          <target state="translated">Importiert die angegebenen Befehle, auch wenn sie denselben Namen wie die Befehle in der aktuellen Sitzung haben.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>If you import a command with the same name as a command in the current session, the imported command hides or replaces the original commands.</source>
+          <target state="translated">Wenn Sie einen Befehl importieren, der denselben Namen wie der Befehl in der aktuellen Sitzung hat, werden die ursprünglichen Befehle durch den importierten Befehl ausgeblendet oder ersetzt.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Command_Precedence.</source>
+          <target state="translated">Weitere Informationen finden Sie unter „about_Command_Precedence“.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> does not import commands that have the same name as commands in the current session.</source>
+          <target state="translated">In der Standardeinstellung <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> importiert keine Befehle, die den gleichen Namen wie Befehle in der aktuellen Sitzung haben.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Imports the variant of the command that results from using the specified arguments (parameter values).</source>
+          <target state="translated">Importiert die Variante des Befehls, die aus der Verwendung der angegebenen Argumente (Parameterwerte) resultiert.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For example, to import the variant of the Get-Item command in the certificate (Cert:) drive in the PSSession in $s, type "Import-PSSession -Session $s -command get-item -argumentlist cert:".</source>
+          <target state="translated">Um die Variante des Get-Item-Befehls auf dem Zertifikatlaufwerk (Cert:) in die in $s enthaltene PSSession zu importieren, geben Sie z. B. „Import-PSSession -Session $s -command get-item -argumentlist cert:“ ein.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-CommandName</source>
+          <target state="translated">CommandName-</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Imports only the commands with the specified names or name patterns.</source>
+          <target state="translated">Importiert nur die Befehle mit den angegebenen Namen oder Namensmustern.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Platzhalter sind zulässig.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Use "CommandName" or its alias, "Name".</source>
+          <target state="translated">Verwenden Sie CommandName oder den Alias Name.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> imports all commands from the session, except for commands that have the same names as commands in the current session.</source>
+          <target state="translated">In der Standardeinstellung <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> importiert alle Befehle aus der Sitzung, mit Ausnahme der Befehle, die den gleichen Namen wie die Befehle in der aktuellen Sitzung haben.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This prevents imported commands from hiding or replacing commands in the session.</source>
+          <target state="translated">Dadurch wird verhindert, dass Befehle in der Sitzung durch importierte Befehle ausgeblendet oder ersetzt werden.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To import all commands, even those that hide or replace other commands, use the <bpt id="p1">**</bpt>AllowClobber<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Um alle Befehle, auch wenn diese zu importieren, die ausgeblendet oder ersetzt andere Befehle verwenden die <bpt id="p1">**</bpt>AllowClobber<ept id="p1">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> parameter, the formatting files for the commands are not imported unless you use the <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Bei Verwendung der <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> -Parameter, die Formatierungsdateien für die Befehle werden nicht importiert, sofern Sie nicht die <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Similarly, if you use the <bpt id="p1">**</bpt>FormatTypeName<ept id="p1">**</ept> parameter, no commands are imported unless you use the <bpt id="p2">**</bpt>CommandName<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Auch bei Verwendung der <bpt id="p1">**</bpt>FormatTypeName<ept id="p1">**</ept> Parameter keine Befehle werden importiert, es sei denn, Sie verwenden die <bpt id="p2">**</bpt>CommandName<ept id="p2">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>-CommandType</source>
+          <target state="translated">CommandType-</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Imports only the specified types of command objects.</source>
+          <target state="translated">Importiert nur die angegebenen Typen von Befehlsobjekten.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The default value is Cmdlet.</source>
+          <target state="translated">Der Standardwert ist Cmdlet.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Use "CommandType" or its alias, "Type".</source>
+          <target state="translated">Verwenden Sie CommandType oder seinen Alias Type.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">Gültige Werte:</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Alias: The Windows PowerShell aliases in the remote session.</source>
+          <target state="translated">Alias: Die Windows PowerShell-Aliase in der Remotesitzung.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>All: The cmdlets and functions in the remote session.</source>
+          <target state="translated">Alle: Die Cmdlets und Funktionen in der Remotesitzung.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Application: All the files other than Windows-PowerShell files in the paths that are listed in the Path environment variable ($env:path) in the remote session, including .txt, .exe, and .dll files.</source>
+          <target state="translated">Anwendung: Alle Dateien außer Windows PowerShell-Dateien in den Pfaden, die in der Path-Umgebungsvariablen aufgelistet sind ($env: Path) in der Remotesitzung, einschließlich txt-, .exe und .dll-Dateien.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Cmdlet: The cmdlets in the remote session.</source>
+          <target state="translated">-Cmdlet: Die Cmdlets in der Remotesitzung.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>"Cmdlet" is the default.</source>
+          <target state="translated">Der Standardwert ist Cmdlet.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>ExternalScript: The .ps1 files in the paths listed in the Path environment variable ($env:path) in the remote session.</source>
+          <target state="translated">ExternalScript: Die. ps1-Dateien in den Pfaden aufgeführt, in der Path-Umgebungsvariablen ($env: Path) in der Remotesitzung.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Filter and Function: The Windows PowerShell functions in the remote session.</source>
+          <target state="translated">Filter und die Funktion: Windows PowerShell-Funktionen in der Remotesitzung.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Script: The script blocks in the remote session.</source>
+          <target state="translated">: Skriptblöcke das Skript in der Remotesitzung.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-DisableNameChecking</source>
+          <target state="translated">-DisableNameChecking</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Suppresses the message that warns you when you import a cmdlet or function whose name includes an unapproved verb or a prohibited character.</source>
+          <target state="translated">Unterdrückt die Meldung, die beim Import eines Cmdlets oder einer Funktion als Warnung angezeigt wird, wenn deren Name ein nicht genehmigtes Verb oder ein unzulässiges Zeichen enthält.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>By default,  when a module that you import exports cmdlets or functions that have unapproved verbs in their names, the Windows PowerShell displays the following warning message:</source>
+          <target state="translated">Wenn durch ein importiertes Modul Cmdlets oder Funktionen exportiert werden, deren Namen nicht genehmigte Verben enthalten, zeigt Windows PowerShell standardmäßig die folgende Warnmeldung an:</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>"WARNING: Some imported command names include unapproved verbs which might make them less discoverable.</source>
+          <target state="translated">"WARNUNG: einige importierte Befehle Namen enthalten, nicht genehmigte Verben, die deren Auffindbarkeit erschweren.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Use the Verbose parameter for more detail or type Get-Verb to see the list of approved verbs."</source>
+          <target state="translated">Weitere Informationen erhalten Sie mithilfe des Verbose-Parameters, oder geben Sie Get-Verb ein, um eine Liste der genehmigten Verben anzuzeigen.“</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This message is only a warning.</source>
+          <target state="translated">Diese Meldung ist nur eine Warnung.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The complete module is still imported, including the non-conforming commands.</source>
+          <target state="translated">Es wird trotzdem das gesamte Modul einschließlich nicht konformer Befehle importiert.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Although the message is displayed to module users, the naming problem should be fixed by the module author.</source>
+          <target state="translated">Obwohl die Meldung für Modulbenutzer angezeigt wird, sollte das Namensproblem vom Modulautor behoben werden.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>-FormatTypeName</source>
+          <target state="translated">-FormatTypeName</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Imports formatting instructions for the specified Microsoft .NET Framework types.</source>
+          <target state="translated">Importiert Formatierungsanweisungen für die angegebenen Microsoft .NET Framework-Typen.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Enter the type names.</source>
+          <target state="translated">Geben Sie die Typnamen ein.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Platzhalter sind zulässig.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The value of this parameter must be the name of a type that is returned by a Get-FormatData command in the session from which the commands are being imported.</source>
+          <target state="translated">Der Wert dieses Parameters muss dem Namen eines Typs entsprechen, der von einem Get-FormatData-Befehl in der Sitzung zurückgegeben wird, aus der die Befehle importiert werden.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>To get all of the formatting data in the remote session, type *.</source>
+          <target state="translated">Um alle Formatierungsdaten in der Remotesitzung abzurufen, geben Sie * ein.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If the command does not include either the <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> or <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> parameters, <bpt id="p3">**</bpt>Import-PSSession<ept id="p3">**</ept>imports formatting instructions for all .NET Framework types returned by a Get-FormatData command in the remote session.</source>
+          <target state="translated">Wenn der Befehl entweder keine enthält die <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> Parameter <bpt id="p3">**</bpt>Import-PSSession<ept id="p3">**</ept>importiert formatierungsanweisungen für alle .NET Framework-Typen, die durch einen Get-FormatData-Befehl in der Remotesitzung zurückgegeben.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>FormatTypeName<ept id="p1">**</ept> parameter, no commands are imported unless you use the <bpt id="p2">**</bpt>CommandName<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Bei Verwendung der <bpt id="p1">**</bpt>FormatTypeName<ept id="p1">**</ept> Parameter keine Befehle werden importiert, es sei denn, Sie verwenden die <bpt id="p2">**</bpt>CommandName<ept id="p2">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Similarly, if you use the <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> parameter, the formatting files for the commands are not imported unless you use the <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Auch bei Verwendung der <bpt id="p1">**</bpt>CommandName<ept id="p1">**</ept> -Parameter, die Formatierungsdateien für die Befehle werden nicht importiert, sofern Sie nicht die <bpt id="p2">**</bpt>FormatTypeName<ept id="p2">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>-Module</source>
+          <target state="translated">-Module</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Imports only the commands in the specified Windows PowerShell snap-ins and modules.</source>
+          <target state="translated">Importiert nur die Befehle in den angegebenen Windows PowerShell-Snap-Ins und -Modulen.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Enter the snap-in and module names.</source>
+          <target state="translated">Geben Sie die Snap-In- und Modulnamen ein.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Wildcards are not permitted.</source>
+          <target state="translated">Platzhalter sind nicht zulässig.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cannot import providers from a snap-in.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> Anbieter kann nicht importiert werden, aus einem Snap-in.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For more information, see about_PSSnapins and about_Modules.</source>
+          <target state="translated">Weitere Informationen finden Sie unter "about_pssnapins" und About_Modules.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>-Prefix</source>
+          <target state="translated">-Präfix</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Adds the specified prefix to the nouns in the names of imported commands.</source>
+          <target state="translated">Fügt den Substantiven in den Namen importierter Befehle das angegebene Präfix hinzu.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Use this parameter to avoid name conflicts that might occur when different commands in the session have the same name.</source>
+          <target state="translated">Verwenden Sie diesen Parameter, um Namenskonflikte zu vermeiden, die auftreten können, wenn verschiedene Befehle in der Sitzung denselben Namen haben.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>For example, if you specify the prefix "Remote" and then import a Get-Date cmdlet, the cmdlet is known in the session as "Get-RemoteDate" and it is not confused with the original <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Z. B. Wenn Sie das Präfix "Remote" angeben und dann ein Cmdlet "Get-Date" importieren, wird das Cmdlet in der Sitzung als "Get-RemoteDate" bezeichnet, und es ist nicht identisch mit dem ursprünglichen <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> Cmdlet.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">-Sitzung</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Specifies the PSSession from which the cmdlets are imported.</source>
+          <target state="translated">Gibt die PSSession an, aus der die Cmdlets importiert werden.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a session object or a command that gets a session object, such as a New-PSSession or Get-PSSession command.</source>
+          <target state="translated">Geben Sie eine Variable, die ein Sitzungsobjekt oder einen Befehl, der ein Session-Objekt, z. B. einen New-PSSession "oder" Get-PSSession-Befehl ruft enthält.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>You can specify only one session.</source>
+          <target state="translated">Sie können jeweils nur eine Sitzung angeben.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">Dieser Parameter ist erforderlich.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>-Certificate</source>
+          <target state="translated">-Zertifikat</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Specifies the client certificate that is used to sign the format files (<bpt id="p1">*</bpt>.Format.ps1xml) or script module files (.psm1) in the temporary module that <ept id="p1">*</ept><bpt id="p2">*</bpt>Import-PSSession<ept id="p2">*</ept>* creates.</source>
+          <target state="translated">Gibt das Clientzertifikat, das zum Signieren der Formatdateien verwendet wird (<bpt id="p1">*</bpt>. Format. ps1xml) oder skriptmoduldateien (. psm1) in das temporäre Modul, <ept id="p1">*</ept><bpt id="p2">*</bpt>Import-PSSession<ept id="p2">*</ept>* erstellt.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a certificate or a command or expression that gets the certificate.</source>
+          <target state="translated">Geben Sie eine Variable ein, die ein Zertifikat, einen Befehl oder einen Ausdruck enthält, durch die das Zertifikat abgerufen wird.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>To find a certificate, use the Get-PfxCertificate cmdlet or use the Get-ChildItem cmdlet in the Certificate (Cert:) drive.</source>
+          <target state="translated">Um ein Zertifikat zu suchen, verwenden Sie das Get-PfxCertificate-Cmdlet, oder verwenden Sie das Cmdlet "Get-ChildItem" im Zertifikat (Cert:) Laufwerk.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If the certificate is not valid or does not have sufficient authority, the command fails.</source>
+          <target state="translated">Wenn das Zertifikat ungültig ist oder keine qualifizierte Zertifizierungsstelle aufweist, verursacht der Befehl einen Fehler.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Dieses Cmdlet unterstützt die allgemeinen Parameter:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, -InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction und -WarningVariable.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Weitere Informationen finden Sie unter "about_commonparameters" (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">EINGABEN</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Keine</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to this cmdlet.</source>
+          <target state="translated">Objekte können nicht an dieses Cmdlet weitergereicht werden.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">AUSGABEN</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSModuleInfo</source>
+          <target state="translated">System.Management.Automation.PSModuleInfo</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> returns the same module object that New-Module and Get-Module cmdlets return.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> gibt dem gleiche Modulobjekt, Cmdlets "New-Module" und "Get-Module zurück.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>However, the imported module is temporary and exists only in the current session.</source>
+          <target state="translated">Das importierte Modul ist jedoch temporär und nur in der aktuellen Sitzung vorhanden.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>To create a permanent module on disk, use the Export-PSSession cmdlet.</source>
+          <target state="translated">Verwenden Sie die Export-PSSession-Cmdlet zum Erstellen eines permanenten Moduls auf dem Datenträger.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTIZEN</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> relies on the Windows PowerShell remoting infrastructure.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> basiert auf der Windows PowerShell-Remoting-Infrastruktur.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>To use this cmdlet, the computer must be configured for WS-Management remoting.</source>
+          <target state="translated">Zur Verwendung dieses Cmdlets muss der Computer für das WS-Management-Remoting konfiguriert sein.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Remote and about_Remote_Requirements.</source>
+          <target state="translated">Weitere Informationen finden Sie unter About_Remote und About_Remote_Requirements.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> does not import variables or Windows PowerShell providers.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> importiert keine Variablen oder Windows PowerShell-Anbieter.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>When you import commands that have the same names as commands in the current session, the imported commands can hide aliases, functions, and cmdlets in the session and they can replace functions and variables in the session.</source>
+          <target state="translated">Beim Importieren von Befehlen, die denselben Namen wie die Befehle in der aktuellen Sitzung haben, können die importierten Befehle Aliase, Funktionen und Cmdlets in der Sitzung ausblenden sowie Funktionen und Variablen in der Sitzung ersetzen.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>To prevent name conflicts, use the <bpt id="p1">**</bpt>Prefix<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Um Namenskonflikte zu vermeiden, verwenden Sie die <bpt id="p1">**</bpt>Präfix<ept id="p1">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Command_Precedence.</source>
+          <target state="translated">Weitere Informationen finden Sie unter „about_Command_Precedence“.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> converts all commands into functions before it imports them.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> Alle Befehle in Funktionen konvertiert, bevor sie importiert.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>As a result, imported commands behave a bit differently than they would if they retained their original command type.</source>
+          <target state="translated">Folglich zeigen importierte Befehle ein etwas anderes Verhalten, als wenn sie den ursprünglichen Befehlstyp behalten würden.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>For example, if you import a cmdlet from a PSSession and then import a cmdlet with the same name from a module or snap-in, the cmdlet that is imported from the PSSession always runs by default because functions take precedence over cmdlets.</source>
+          <target state="translated">Wenn Sie z. B. ein Cmdlet aus einer PSSession importieren und dann ein Cmdlet desselben Namens aus einem Modul oder Snap-In importieren, wird standardmäßig das aus der PSSession importierte Cmdlet ausgeführt, weil Funktionen Vorrang vor Cmdlets haben.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Conversely, if you import an alias into a session that has an alias with the same name, the original alias is always used, because aliases take precedence over functions.</source>
+          <target state="translated">Wenn Sie dagegen einen Alias in eine Sitzung importieren, die über einen Alias desselben Namens verfügt, wird immer der ursprüngliche Alias verwendet, weil Aliase Vorrang vor Funktionen haben.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Command_Precedence.</source>
+          <target state="translated">Weitere Informationen finden Sie unter „about_Command_Precedence“.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> uses the Write-Progress cmdlet to display the progress of the command.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> verwendet das Write-Progress-Cmdlet zum Anzeigen des Fortschritts des Befehls.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>You might see the progress bar while the command is running.</source>
+          <target state="translated">Während der Befehlsausführung wird u. U. die Statusanzeige angezeigt.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>To find the commands to import, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> uses the Invoke-Command cmdlet to run a Get-Command command in the PSSession.</source>
+          <target state="translated">Die Befehle für den import gefunden <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> verwendet das Invoke-Command-Cmdlet zum Ausführen eines Get-Command-Befehls in der PSSession.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>To get formatting data for the commands, it uses the Get-FormatData cmdlet.</source>
+          <target state="translated">Um Daten für die Befehle Formatierung erhalten, wird das Cmdlet "Get-FormatData".</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>You might see error messages from these cmdlets when you run an Import-PSSession command.</source>
+          <target state="translated">Fehlermeldungen dieser Cmdlets werden u. U. angezeigt, wenn Sie einen Import-PSSession-Befehl ausführen.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Also, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> cannot import commands from a PSSession that does not include the Get-Command, Get-FormatData, Select-Object, and Get-Help cmdlets.</source>
+          <target state="translated">Darüber hinaus <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> Befehle kann nicht importiert werden, aus einer PSSession, die nicht die Get-Command, Get-FormatData, Select-Object und Get-Help Get-Cmdlets.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Imported commands have the same limitations as other remote commands, including the inability to start a program with a user interface, such as Notepad.</source>
+          <target state="translated">Importierte Befehle unterliegen den gleichen Beschränkungen wie andere Remotebefehle. Beispielweise können sie kein Programm mit einer Benutzeroberfläche, z. B. den Editor, starten.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Because Windows PowerShell profiles are not run in PSSessions, the commands that a profile adds to a session are not available to <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept>.</source>
+          <target state="translated">Da Windows PowerShell-Profile in PSSessions nicht ausgeführt werden, sind die Befehle, die ein Profil einer Sitzung hinzufügt nicht zur Verfügung <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>To import commands from a profile, use an Invoke-Command command to run the profile in the PSSession manually before importing commands.</source>
+          <target state="translated">Zum Importieren von Befehlen aus einem Profil verwenden Sie einen Invoke-Command-Befehl, um das Profil vor dem Befehlsimport in der PSSession manuell auszuführen.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The temporary module that <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> creates might include a formatting file, even if the command does not import formatting data.</source>
+          <target state="translated">Das temporäre Modul, <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> erstellt möglicherweise eine Formatierungsdatei enthalten, selbst wenn der Befehl keine Formatierungsdaten importiert.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>If the command does not import formatting data, any formatting files that are created will not contain formatting data.</source>
+          <target state="translated">Wenn durch den Befehl keine Formatierungsdaten importiert werden, enthält keine der erstellten Formatierungsdateien Formatierungsdaten.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>To use <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept>, the execution policy in the current session cannot be Restricted or AllSigned, because the temporary module that <bpt id="p2">**</bpt>Import-PSSession<ept id="p2">**</ept> creates contains unsigned script files that are prohibited by these policies.</source>
+          <target state="translated">Mit <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept>, die Ausführungsrichtlinie in der aktuellen Sitzung nicht Restricted oder AllSigned lauten, da das temporäre Modul, <bpt id="p2">**</bpt>Import-PSSession<ept id="p2">**</ept> erstellt enthält nicht signierte Skriptdateien, die durch diese Richtlinien nicht zulässig sind.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>To use <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> without changing the execution policy for the local computer, use the <bpt id="p2">**</bpt>Scope<ept id="p2">**</ept> parameter of Set-ExecutionPolicy to set a less restrictive execution policy for a single process.</source>
+          <target state="translated">Mit <bpt id="p1">**</bpt>Import-PSSession<ept id="p1">**</ept> ohne Ändern der Ausführungsrichtlinie für den lokalen Computer, verwenden die <bpt id="p2">**</bpt>Bereich<ept id="p2">**</ept> Parameter von Set-ExecutionPolicy eine weniger restriktive Ausführungsrichtlinie für einen einzelnen Prozess.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, help topics for commands that are imported from another session do not include the prefix that you assign by using the <bpt id="p1">**</bpt>Prefix<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">In Windows PowerShell 2.0 Hilfethemen für Befehle, die aus einer anderen Sitzung importiert werden. Schließen Sie nicht das Präfix, das Sie mithilfe von Zuweisen der <bpt id="p1">**</bpt>Präfix<ept id="p1">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>To get help for an imported command in Windows PowerShell 2.0, use the original (non-prefixed) command name.</source>
+          <target state="translated">Um Hilfe zu einem importierten Befehl in Windows PowerShell 2.0 zu erhalten, verwenden Sie den ursprünglichen Befehlsnamen (ohne Präfix).</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VERWANDTE LINKS</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Export-PSSession</source>
+          <target state="translated">Export-PSSession</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>about_PSSessions</source>
+          <target state="translated">about_PSSessions</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>about_Jobs</source>
+          <target state="translated">about_Jobs</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

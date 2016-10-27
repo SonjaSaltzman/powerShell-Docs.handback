@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa090f59e7f9b41c46f4d87a2af92cffc35e19e8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Management\Register-WmiEvent.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">21b47be3d5e8b67d2b5b805199c0e040a7df0b0d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cb687da7e253dc28c8fe29e2b525e31e99983c53</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet de PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Register-WmiEvent</source>
+          <target state="translated">Register-WmiEvent</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Register-WmiEvent</source>
+          <target state="translated">Register-WmiEvent</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SINOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Subscribes to a Windows Management Instrumentation (WMI) event.</source>
+          <target state="translated">Se suscribe a un evento de Instrumental de administración de Windows (WMI).</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTAXIS</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>class (Default)</source>
+          <target state="translated">clase (predeterminado)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>query</source>
+          <target state="translated">query</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPCIÓN</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Register-WmiEvent<ept id="p1">**</ept> cmdlet subscribes to WMI events on the local computer or on a remote computer.</source>
+          <target state="translated">El <bpt id="p1">**</bpt>Register-WmiEvent<ept id="p1">**</ept> cmdlet se suscribe a eventos WMI en el equipo local o en un equipo remoto.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When the subscribed WMI event is raised, it is added to the event queue in your local session even if the event occurs on a remote computer.</source>
+          <target state="translated">El evento de WMI suscrito se agrega a la cola de eventos de la sesión local cuando se genera, incluso si dicho evento se produce en un equipo remoto.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To get events in the event queue, use the Get-Event cmdlet.</source>
+          <target state="translated">Para obtener los eventos de la cola de eventos, use el cmdlet Get-Event.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use the parameters of <bpt id="p1">**</bpt>Register-WmiEvent<ept id="p1">**</ept> to subscribe to events on remote computers and to specify the property values of the events that can help you to identify the event in the queue.</source>
+          <target state="translated">Puede usar los parámetros de <bpt id="p1">**</bpt>Register-WmiEvent<ept id="p1">**</ept> para suscribirse a eventos en equipos remotos y para especificar los valores de propiedad de los eventos que pueden ayudarle a identificar el evento en la cola.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can also use the Action parameter to specify actions to take when a subscribed event is raised.</source>
+          <target state="translated">También puede utilizar el parámetro Action para especificar acciones que deben realizarse cuando se genera un evento suscrito.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When you subscribe to an event, an event subscriber is added to your session.</source>
+          <target state="translated">Cuando se suscribe a un evento, se agrega un suscriptor de eventos a su sesión.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To get the event subscribers in the session, use the Get-EventSubscriber cmdlet.</source>
+          <target state="translated">Para obtener los suscriptores de eventos en la sesión, use el cmdlet Get-EventSubscriber.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To cancel the subscription, use the Unregister-Event cmdlet, which deletes the event subscriber from the session.</source>
+          <target state="translated">Para cancelar la suscripción, use el cmdlet Unregister-Event, que elimina el suscriptor de eventos de la sesión.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>New CIM cmdlets, introduced Windows PowerShell 3.0, perform the same tasks as the WMI cmdlets.</source>
+          <target state="translated">Los nuevos cmdlets de CIM, que se introdujeron con Windows PowerShell 3.0, realizan las mismas tareas que los cmdlets de WMI.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The CIM cmdlets comply with WS-Management (WSMan) standards and with the Common Information Model (CIM) standard, which enables the cmdlets to use the same techniques to manage Windows computers and those running other operating systems.</source>
+          <target state="translated">Los cmdlets de CIM cumplen con los estándares de WS-Management (WSMan) y con el estándar del Modelo de información común (CIM), que permite a los cmdlets usar las mismas técnicas para administrar equipos con sistemas operativos Windows que para aquellos con otros sistemas operativos.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Instead of using <bpt id="p1">**</bpt>Register-WmiEvent<ept id="p1">**</ept>, consider using the Register-CimIndicationEventhttp://go.microsoft.com/fwlink/?LinkId=227960 cmdlet.</source>
+          <target state="translated">En lugar de usar <bpt id="p1">**</bpt>Register-WmiEvent<ept id="p1">**</ept>, considere usar el cmdlet Register-CimIndicationEventhttp://go.microsoft.com/fwlink/?LinkId=227960.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EJEMPLOS</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- EJEMPLO 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command subscribes to the events generated by the Win32_ProcessStartTrace class.</source>
+          <target state="translated">Este comando se suscribe a los eventos generados por la clase Win32_ProcessStartTrace.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This class raises an event whenever a process starts.</source>
+          <target state="translated">Esta clase genera un evento cada vez que se inicia un proceso.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command uses a query to subscribe to Win32_process instance creation events.</source>
+          <target state="translated">Este comando usa una consulta para suscribirse a eventos de creación de instancia Win32_process.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This example shows how to use an action to respond to an event.</source>
+          <target state="translated">En este ejemplo se muestra cómo utilizar una acción para responder a un evento.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In this case, when a process starts, any Start-Process commands in the current session are written to an XML file.</source>
+          <target state="translated">En este caso, cuando se inicia un proceso, los comandos Start-Process de la sesión actual se escriben en un archivo XML.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When you use the Action parameter, Register-WmiEvent returns a background job that represents the event action.</source>
+          <target state="translated">Cuando utiliza el parámetro Action, Register-WmiEvent devuelve un trabajo en segundo plano que representa la acción del evento.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can use the Job cmdlets, such as Get-Job and Receive-Job, to manage the event job.</source>
+          <target state="translated">Puede usar los cmdlets de trabajo, como Get-Job y Receive-Job para administrar el trabajo de eventos.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Jobs.</source>
+          <target state="translated">Para obtener más información, consulte about_Jobs.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This example registers for events on the Server01 remote computer.</source>
+          <target state="translated">En este ejemplo se realiza un registro para eventos en el equipo remoto Server01.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>WMI returns the events to the local computer and stores them in the event queue in the current session.</source>
+          <target state="translated">WMI devuelve los eventos al equipo local y los almacena en la cola de eventos de la sesión actual.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To retrieve the events, run a local Get-Event command.</source>
+          <target state="translated">Para recuperar los eventos, ejecute un comando Get-Event local.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARÁMETROS</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-Action</source>
+          <target state="translated">: Acción</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specifies commands that handle the events.</source>
+          <target state="translated">Especifica los comandos que controlan los eventos.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The commands in the Action parameter run when an event is raised instead of sending the event to the event queue.</source>
+          <target state="translated">Los comandos del parámetro Action se ejecutan cuando se genera un evento, en lugar de enviar el evento a la cola de eventos.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Enclose the commands in braces ( { } ) to create a script block.</source>
+          <target state="translated">Incluya los comandos entre llaves ({}) para crear un bloque de script.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The value of the Action parameter can include the $Event, $EventSubscriber, $Sender, $EventArgs, and $Args automatic variables, which provide information about the event to the Action script block.</source>
+          <target state="translated">El valor del parámetro Action puede incluir las variables $Event, $EventSubscriber, $Sender, $EventArgs y $Args, que proporcionan información sobre el evento al bloque de script de Action.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Automatic_Variables.</source>
+          <target state="translated">Para obtener más información, consulte about_Automatic_Variables.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When you specify an action, Register-WmiEvent returns an event job object that represents that action.</source>
+          <target state="translated">Cuando especifica una acción, Register-WmiEvent devuelve un objeto de trabajo de evento que representa esa acción.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can use the cmdlets that contain the Job noun (the Job cmdlets) to manage the event job.</source>
+          <target state="translated">Puede utilizar los cmdlets que contienen el nombre Job (los cmdlets Job) para administrar el trabajo de evento.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-Class</source>
+          <target state="translated">-Clase</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Specifies the event to which you are subscribing.</source>
+          <target state="translated">Especifica el evento al que se suscribe.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Enter the WMI class that generates the events.</source>
+          <target state="translated">Especifique la clase WMI que genera los eventos.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A Class or Query parameter is required in every command.</source>
+          <target state="translated">Se requiere un parámetro Class o Query en cada comando.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Runs the command on the specified computer.</source>
+          <target state="translated">Ejecuta el comando en el equipo especificado.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">El valor predeterminado es el equipo local.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an IP address, or a fully qualified domain name of the computer.</source>
+          <target state="translated">Escriba el nombre de NetBIOS, una dirección IP o un nombre de dominio completo del equipo.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, a dot (.), or "localhost".</source>
+          <target state="translated">Para especificar el equipo local, escriba el nombre de equipo, "localhost" o un punto (.).</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This parameter does not rely on Windows PowerShell remoting.</source>
+          <target state="translated">Este parámetro no utiliza la comunicación remota de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can use the ComputerName parameter even if your computer is not configured to run remote commands.</source>
+          <target state="translated">Puede usar el parámetro ComputerName aunque el equipo no esté configurado para ejecutar comandos remotos.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">Especifica una cuenta de usuario con permiso para realizar esta acción.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01".</source>
+          <target state="translated">Escriba un nombre de usuario, como "Usuario01" o "Dominio01\Usuario01".</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Or, enter a PSCredential object, such as one from the Get-Credential cmdlet.</source>
+          <target state="translated">o bien un objeto PSCredential, como uno obtenido del cmdlet Get-Credential.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If you type a user name, you will be prompted for a password.</source>
+          <target state="translated">Si escribe un nombre de usuario, se le solicitará una contraseña.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-Forward</source>
+          <target state="translated">-Reenviar</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Sends events for this subscription to the session on the local computer.</source>
+          <target state="translated">Envía eventos de esta suscripción a la sesión del equipo local.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Use this parameter when you are registering for events on a remote computer or in a remote session.</source>
+          <target state="translated">Utilice este parámetro cuando se registre en eventos de un equipo remoto o de una sesión remota.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-MaxTriggerCount</source>
+          <target state="translated">-MaxTriggerCount</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of times that an event is raised before users who are registered as event subscribers are automatically unsubscribed.</source>
+          <target state="translated">Especifica el número máximo de veces que se genera un evento antes de que se cancele automáticamente la suscripción de los usuarios registrados como suscriptores del evento.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The default value, zero (0), means that there is no maximum.</source>
+          <target state="translated">El valor predeterminado, cero (0), significa que no hay ningún máximo establecido.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Users are not automatically unsubscribed, regardless of the number of times the event is raised.</source>
+          <target state="translated">La suscripción de los usuarios no se cancela automáticamente, independientemente del número de veces que se genera el evento.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-MessageData</source>
+          <target state="translated">-MessageData</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Specifies any additional data to be associated with this event subscription.</source>
+          <target state="translated">Especifica los datos adicionales que se asociarán con esta suscripción de evento.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The value of this parameter appears in the MessageData property of all events associated with this subscription.</source>
+          <target state="translated">El valor de este parámetro aparece en la propiedad MessageData de todos los eventos asociados a esta suscripción.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Namespace</source>
+          <target state="translated">El espacio de nombres:</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specifies the namespace of the WMI class.</source>
+          <target state="translated">Especifica el espacio de nombres de la clase WMI.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-Query</source>
+          <target state="translated">: Consulta</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Specifies a query in WMI Query Language (WQL) that identifies the WMI event class, such as "select * from __InstanceDeletionEvent".</source>
+          <target state="translated">Especifica una consulta en lenguaje de consulta de WMI (WQL) que identifica la clase de eventos de WMI, como "select * from __InstanceDeletionEvent".</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-SourceIdentifier</source>
+          <target state="translated">-SourceIdentifier</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Specifies a name that you select for the subscription.</source>
+          <target state="translated">Especifica un nombre que usted selecciona para la suscripción.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The name that you select must be unique in the current session.</source>
+          <target state="translated">El nombre que seleccione debe ser único en la sesión actual.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The default value is the GUID that Windows PowerShell assigns.</source>
+          <target state="translated">El valor predeterminado es el GUID asignado por Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The value of this parameter appears in the value of the SourceIdentifier property of the subscriber object and of all event objects associated with this subscription.</source>
+          <target state="translated">El valor de este parámetro aparece en el valor de la propiedad SourceIdentifier del objeto de suscriptor y de todos los objetos de evento asociados a esta suscripción.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-SupportEvent</source>
+          <target state="translated">-SupportEvent</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Hides the event subscription.</source>
+          <target state="translated">Oculta la suscripción de eventos.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Use this parameter when the current subscription is part of a more complex event registration mechanism and it should not be discovered independently.</source>
+          <target state="translated">Utilice este parámetro cuando la suscripción actual forme parte de un mecanismo de registro de eventos más complejo y no deba detectarse de forma independiente.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To view or cancel a subscription that was created with the SupportEvent parameter, use the Force parameter of the Get-EventSubscriber and Unregister-Event cmdlets.</source>
+          <target state="translated">Para ver o cancelar una suscripción que se creó con el parámetro SupportEvent, use el parámetro Force de los cmdlets Get-EventSubscriber y Unregister-Event.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-Timeout</source>
+          <target state="translated">-El tiempo de espera</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Determines how long Windows PowerShell waits for this command to complete.</source>
+          <target state="translated">Determina cuánto tiempo espera Windows PowerShell hasta que se complete este comando.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The default value, 0 (zero), means that there is no time-out, and it causes Windows PowerShell to wait indefinitely.</source>
+          <target state="translated">El valor predeterminado, 0 (cero), significa que no hay tiempo de espera y hace que Windows PowerShell espere indefinidamente.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Este cmdlet admite los parámetros comunes:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction y - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Para obtener más información, consulte about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRADAS</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Ninguno</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to Register-WmiEvent.</source>
+          <target state="translated">No se pueden canalizar objetos a Register-WmiEvent.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SALIDAS</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Ninguno</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not generate any output.</source>
+          <target state="translated">Este cmdlet no genera ningún resultado.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTAS</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>To use this cmdlet in Windows Vista or a later version of Windows, start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">Para usar este cmdlet en Windows Vista o en una versión posterior de Windows, inicie Windows PowerShell con la opción "Ejecutar como administrador".</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Events, event subscriptions, and the event queue exist only in the current session.</source>
+          <target state="translated">La cola de eventos, las suscripciones de eventos y los eventos solo existen en la sesión actual.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you close the current session, the event queue is discarded and the event subscription is canceled.</source>
+          <target state="translated">Si la cierra, la cola de eventos se descartará y la suscripción al evento se cancelará.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VÍNCULOS RELACIONADOS</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Get-Event</source>
+          <target state="translated">Get-Event</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>New-Event</source>
+          <target state="translated">New-Event</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Register-EngineEvent</source>
+          <target state="translated">Register-EngineEvent</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Register-ObjectEvent</source>
+          <target state="translated">Register-ObjectEvent</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Remove-Event</source>
+          <target state="translated">Quitar eventos</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Unregister-Event</source>
+          <target state="translated">Anular el registro de eventos</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Wait-Event</source>
+          <target state="translated">Evento de espera</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

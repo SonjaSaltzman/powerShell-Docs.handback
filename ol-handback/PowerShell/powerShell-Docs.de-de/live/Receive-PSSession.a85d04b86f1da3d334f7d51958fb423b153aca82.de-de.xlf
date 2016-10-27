@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8551eb52ac6da134214eb1860d2a4142aa0f01de</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Receive-PSSession.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3c3f45fdb78bbdd684ecfdd6804b770b951ad8b4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5bfb9c3f978a877e62292419d2250b18c90ad33d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell-Cmdlets</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession</source>
+          <target state="translated">Receive-PSSession</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession</source>
+          <target state="translated">Receive-PSSession</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">ZUSAMMENFASSUNG</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets results of commands in disconnected sessions.</source>
+          <target state="translated">Ruft die Ergebnisse von Befehlen in getrennten Sitzungen ab.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAX</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Session (Default)</source>
+          <target state="translated">Sitzung (Standard)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <target state="translated">Id</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ComputerSessionName</source>
+          <target state="translated">ComputerSessionName</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>ComputerInstanceId</source>
+          <target state="translated">ComputerInstanceId</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>ConnectionUriInstanceId</source>
+          <target state="translated">ConnectionUriInstanceId</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>ConnectionUriSessionName</source>
+          <target state="translated">ConnectionUriSessionName</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>InstanceId</source>
+          <target state="translated">Instanz-ID</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>SessionName</source>
+          <target state="translated">Sitzungsname</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> cmdlet gets the results of commands running in Windows PowerShell sessions (<bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>) that were disconnected.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> Cmdlet Ruft die Ergebnisse von Befehlen in Windows PowerShell-Sitzungen (<bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>), die getrennt wurden.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the session is currently connected, <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> gets the results of commands that were running when the session was disconnected.</source>
+          <target state="translated">Wenn die Sitzung derzeit verbunden ist, <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> Ruft die Ergebnisse von Befehlen, die ausgeführt wurden, wenn die Sitzung beendet wurde.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the session is still disconnected, <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> connects to the session, resumes any commands that were suspended, and gets the results of commands running in the session.</source>
+          <target state="translated">Wenn die Sitzung weiterhin getrennt ist, <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> eine Verbindung mit der Sitzung herstellt, wird fortgesetzt, die angehalten wurden, und ruft die Ergebnisse von Befehlen, die in der Sitzung ausgeführten Befehle.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can use a <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> in addition to or instead of a Connect-PSSession command.</source>
+          <target state="translated">Sie können eine <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> zusätzlich oder anstelle einer Connect-PSSession-Befehl.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> can connect to any disconnected or reconnected session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> können eine Verbindung mit einer getrennten oder neu verbundenen Sitzung.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>These include those that were started in other sessions or on other computers.</source>
+          <target state="translated">Dazu gehören diejenigen, die in anderen Sitzungen oder auf anderen Computern gestartet wurden.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> works on <bpt id="p2">**</bpt>PSSessions<ept id="p2">**</ept> that were disconnected intentionally, such as by using the Disconnect-PSSession cmdlet or the <bpt id="p3">*</bpt>InDisconnectedSession<ept id="p3">*</ept> parameter of the Invoke-Command cmdlet, or unintentionally, such as by a network interruption.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> funktioniert auf <bpt id="p2">**</bpt>PSSessions<ept id="p2">**</ept> wurden getrennt absichtlich, z. B. mithilfe des Cmdlets Disconnect-PSSession oder <bpt id="p3">*</bpt>InDisconnectedSession<ept id="p3">*</ept> Parameter von Invoke-Command-Cmdlet oder unbeabsichtigt, z. B. nach einer Unterbrechung im Netzwerk.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> cmdlet to connect to a session in which no commands are running or suspended, <bpt id="p2">**</bpt>Receive-PSSession<ept id="p2">**</ept> connects to the session, but returns no output or errors.</source>
+          <target state="translated">Bei Verwendung der <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> -Cmdlet zum Verbinden mit einer Sitzung, in dem keine Befehle ausgeführt oder angehalten werden, <bpt id="p2">**</bpt>Receive-PSSession<ept id="p2">**</ept> eine Verbindung mit der Sitzung her, aber keine Ausgaben oder Fehler zurückgegeben.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information about the Disconnected Sessions feature, see about_Remote_Disconnected_Sessions.</source>
+          <target state="translated">Weitere Informationen zur Funktion für getrennte Sitzungen finden Sie unter About_Remote_Disconnected_Sessions.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This cmdlet was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieses Cmdlet wurde in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">BEISPIELE</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 1: Connect to a PSSession</source>
+          <target state="translated">Beispiel 1: Eine Verbindung mit einer PSSession herstellen.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> cmdlet to connect to the ITTask session on the Server01 computer and get the results of commands that were running in the session.</source>
+          <target state="translated">Dieser Befehl verwendet den <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> -Cmdlet zum Verbinden mit der ITTask-Sitzung auf dem Computer Server01 und Abrufen der Ergebnisse von Befehlen, die in der Sitzung ausgeführt wurden.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Because the command does not use the <bpt id="p1">*</bpt>OutTarget<ept id="p1">*</ept> parameter, the results appear at the command line.</source>
+          <target state="translated">Da der Befehl nicht die <bpt id="p1">*</bpt>OutTarget<ept id="p1">*</ept> -Parameter, die Ergebnisse werden in der Befehlszeile.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Example 2: Get results of all commands on disconnected sessions</source>
+          <target state="translated">Beispiel 2: Abrufen der Ergebnisse aller Befehle auf getrennten Sitzungen</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command gets the results of all commands running in all disconnected sessions on the Server01 and Server02 computers.</source>
+          <target state="translated">Dieser Befehl ruft die Ergebnisse aller Befehle ab, die in allen getrennten Sitzungen auf den Computern Server01 und Server02 ausgeführt werden.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If any session was not disconnected or is not running commands, <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> does not connect to the session and does not return any output or errors.</source>
+          <target state="translated">Wenn eine Sitzung nicht getrennt wurde, oder keine Befehle ausführt ist, <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> stellt keine Verbindung zur Sitzung her und gibt keine Ausgaben oder Fehler zurück.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example 3: Get the results of a script running in a session</source>
+          <target state="translated">Beispiel 3: Abrufen der Ergebnisse eines Skripts in einer Sitzung</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> cmdlet to get the results of a script that was running in the ITTask session on the Server01 computer.</source>
+          <target state="translated">Dieser Befehl verwendet den <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> -Cmdlet zum Abrufen der Ergebnisse eines Skripts, die in der ITTask-Sitzung auf dem Computer Server01 ausgeführt wurde.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> and <bpt id="p2">*</bpt>Name<ept id="p2">*</ept> parameters to identify the disconnected session.</source>
+          <target state="translated">Der Befehl verwendet den <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> und <bpt id="p2">*</bpt>Namen<ept id="p2">*</ept> -Parameter zum Identifizieren der getrennten Sitzungs.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>OutTarget<ept id="p1">*</ept> parameter with a value of Job to direct <bpt id="p2">**</bpt>Receive-PSSession<ept id="p2">**</ept> to return the results as a job and the <bpt id="p3">*</bpt>JobName<ept id="p3">*</ept> parameter to specify a name for the job in the reconnected session.</source>
+          <target state="translated">Verwendet die <bpt id="p1">*</bpt>OutTarget<ept id="p1">*</ept> -Parameter mit dem Wert des Auftrags weiterleiten <bpt id="p2">**</bpt>Receive-PSSession<ept id="p2">**</ept> zum Zurückgeben der Ergebnisse als Auftrag und die <bpt id="p3">*</bpt>JobName<ept id="p3">*</ept> Parameter, um einen Namen für den Auftrag in der neu verbundenen Sitzung anzugeben.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Credential<ept id="p1">*</ept> parameter to run the <bpt id="p2">**</bpt>Receive-PSSession<ept id="p2">**</ept> command by using the permissions of a domain administrator.</source>
+          <target state="translated">Der Befehl verwendet den <bpt id="p1">*</bpt>Anmeldeinformationen<ept id="p1">*</ept> Parameter zum Ausführen der <bpt id="p2">**</bpt>Receive-PSSession<ept id="p2">**</ept> Befehl mit den Berechtigungen eines Domänenadministrators.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The output shows that <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> returned the results as a job in the current session.</source>
+          <target state="translated">Die Ausgabe zeigt, dass <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> Ergebnisse als Auftrag in der aktuellen Sitzung zurückgegeben.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To get the job results, use a Receive-Job command</source>
+          <target state="translated">Verwenden Sie zum Abrufen der Ergebnisse des Auftrags einen Receive-Job-Befehl</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Example 4: Get results after a network outage</source>
+          <target state="translated">Beispiel 4: Abrufen der Ergebnisse nach einem Ausfall des Netzwerks</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This example uses the <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> cmdlet to get the results of a job after a network outage disrupts a session connection.</source>
+          <target state="translated">Dieses Beispiel verwendet die <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> -Cmdlet zum Abrufen der Ergebnisse eines Auftrags nach einem Ausfall des Netzwerks eine sitzungsverbindung.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell automatically attempts to reconnect the session one time each second for the next four minutes and abandons the effort only if all attempts in the four-minute interval fail.</source>
+          <target state="translated">Windows PowerShell wird automatisch versucht, die Sitzung nur einmal pro Sekunde für die nächsten vier Minuten wiederherzustellen und den Aufwand abbricht, nur, wenn alle Versuche im vier-Minuten-Intervall fehlschlagen.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Example 5: Reconnect to disconnected sessions</source>
+          <target state="translated">Beispiel 5: Erneut eine Verbindung zu einer getrennten Sitzung herstellen.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This example uses the <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> cmdlet to reconnect to sessions that were intentionally disconnected and get the results of jobs that were running in the sessions.</source>
+          <target state="translated">Dieses Beispiel verwendet die <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> -Cmdlet zum Schließen an Sitzungen, die absichtlich getrennt wurden, und rufen Sie die Ergebnisse der Aufträge, die in den Sitzungen ausgeführt wurden.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Example 5: Running a job in a disconnected session</source>
+          <target state="translated">Beispiel 5: Ausführen eines Auftrags in einer getrennten Sitzung</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This example shows what happens to a job that is running in a disconnected session.</source>
+          <target state="translated">Dieses Beispiel zeigt, was mit einem Auftrag geschieht, der in einer getrennten Sitzung ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETER</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-AllowRedirection</source>
+          <target state="translated">-AllowRedirection</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet allows redirection of this connection to an alternate Uniform Resource Identifier (URI).</source>
+          <target state="translated">Gibt an, dass dieses Cmdlet ermöglicht die Umleitung dieser Verbindung um eine alternative Uniform Resource Identifier (URI).</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> parameter, the remote destination can return an instruction to redirect to a different URI.</source>
+          <target state="translated">Bei Verwendung der <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> -Parameter kann Remoteziel eine Anweisung zum Umleiten an einen anderen URI zurückgeben.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell does not redirect connections, but you can use this parameter to enable it to redirect the connection.</source>
+          <target state="translated">In der Standardeinstellung Windows PowerShell keine Umleitung von Verbindungen, aber Sie können diesen Parameter verwenden, aktivieren sie die Verbindung umgeleitet.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can also limit the number of times the connection is redirected by changing the <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> session option value.</source>
+          <target state="translated">Sie können auch einschränken, wie oft die Verbindung, durch Ändern umgeleitet wird der <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> Sitzungsoptionswert.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">*</bpt>MaximumRedirection<ept id="p1">*</ept> parameter of the New-PSSessionOption cmdlet or set the <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> property of the $PSSessionOption preference variable.</source>
+          <target state="translated">Verwenden der <bpt id="p1">*</bpt>MaximumRedirection<ept id="p1">*</ept> Parameter der New-PSSessionOption-Cmdlet oder die <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> -Eigenschaft des $PSSessionOption Preference-Variable.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">Der Standardwert ist 5.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-ApplicationName</source>
+          <target state="translated">-Anwendungsname</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies an application.</source>
+          <target state="translated">Gibt eine Anwendung an.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This cmdlet connects only to sessions that use the specified application.</source>
+          <target state="translated">Dieses Cmdlet nur eine Verbindung mit Sitzungen, die die angegebene Anwendung verwenden.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Enter the application name segment of the connection URI.</source>
+          <target state="translated">Geben Sie das Anwendungsnamensegment des Verbindungs-URI ein.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For example, in the following connection URI, the application name is WSMan: <ph id="ph1">`http://localhost:5985/WSMAN`</ph>.</source>
+          <target state="translated">Der Anwendungsname ist z. B. in der folgenden Verbindungs-URI WSMan: <ph id="ph1">`http://localhost:5985/WSMAN`</ph>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The application name of a session is stored in the <bpt id="p1">**</bpt>Runspace.ConnectionInfo.AppName<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">Der Anwendungsname einer Sitzung befindet sich in der <bpt id="p1">**</bpt>Runspace.ConnectionInfo.AppName<ept id="p1">**</ept> -Eigenschaft der Sitzung.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The value of this parameter is used to select and filter sessions.</source>
+          <target state="translated">Der Wert dieses Parameters wird verwendet, um Sitzungen auszuwählen und zu filtern.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It does not change the application that the session uses.</source>
+          <target state="translated">Er ändert nicht die von der Sitzung verwendete Anwendung.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-Authentication</source>
+          <target state="translated">-Authentifizierung</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies the mechanism that is used to authenticate the credentials of the user in the command to reconnect to the disconnected session.</source>
+          <target state="translated">Gibt den Mechanismus, der zur Authentifizierung der Anmeldeinformationen des Benutzers in den Befehl für die Verbindung zur getrennten Sitzung verwendet wird.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Die folgenden Werte für diesen Parameter sind zulässig:</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <target state="translated">Standardwert</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Basic</source>
+          <target state="translated">Einfach</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Credssp</source>
+          <target state="translated">CredSSP</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Digest</source>
+          <target state="translated">Digest</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Kerberos</source>
+          <target state="translated">Kerberos</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Negotiate</source>
+          <target state="translated">Aushandeln</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>NegotiateWithImplicitCredential</source>
+          <target state="translated">NegotiateWithImplicitCredential</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The default value is Default.</source>
+          <target state="translated">Der Standardwert ist Default.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see AuthenticationMechanism Enumerationhttp://go.microsoft.com/fwlink/?LinkID=144382 (http://go.microsoft.com/fwlink/?LinkID=144382) in the Microsoft Developer Network (MSDN) library.</source>
+          <target state="translated">Informationen zu den Werten dieses Parameters finden Sie unter AuthenticationMechanism Enumerationhttp://go.microsoft.com/fwlink/?LinkID=144382 (http://go.microsoft.com/fwlink/?LinkID=144382) in der Microsoft Developer Network (MSDN)-Bibliothek.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>CAUTION: Credential Security Support Provider (CredSSP) authentication, in which the user credentials are passed to a remote computer to be authenticated, is designed for commands that require authentication on more than one resource, such as accessing a remote network share.</source>
+          <target state="translated">VORSICHT: Credential Security Support Provider (CredSSP)-Authentifizierung, in der die Anmeldeinformationen des Benutzers, auf einem remote-Computer übergeben werden authentifiziert werden, ist für Befehle konzipiert, die Authentifizierung auf mehr als eine Ressource, z. B. den Zugriff auf eine remote-Netzwerkfreigabe.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This mechanism increases the security risk of the remote operation.</source>
+          <target state="translated">Dieser Mechanismus erhöht das Sicherheitsrisiko des Remotevorgangs.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If the remote computer is compromised, the credentials that are passed to it can be used to control the network session.</source>
+          <target state="translated">Wenn die Sicherheit des Remotecomputers gefährdet ist, können die an ihn übergebenen Anmeldeinformationen zum Steuern der Netzwerksitzung verwendet werden.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-CertificateThumbprint</source>
+          <target state="translated">CertificateThumbprint-</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Specifies the digital public key certificate (X509) of a user account that has permission to connect to the disconnected session.</source>
+          <target state="translated">Gibt das digitale Zertifikat für öffentliche Schlüssel (X.509) eines Benutzerkontos mit der Berechtigung zum Herstellen einer Verbindung mit der getrennten Sitzung an.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Enter the certificate thumbprint of the certificate.</source>
+          <target state="translated">Geben Sie den Zertifikatfingerabdruck des Zertifikats ein.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Certificates are used in client certificate-based authentication.</source>
+          <target state="translated">Zertifikate werden bei der clientzertifikatbasierten Authentifizierung verwendet.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>They can be mapped only to local user accounts.</source>
+          <target state="translated">Sie können nur auf lokale Benutzerkonten zugeordnet werden.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>They do not work with domain accounts.</source>
+          <target state="translated">Sie funktionieren nicht mit Domänenkonten.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To get a certificate thumbprint, use a Get-Item or Get-ChildItem command in the Windows PowerShell Cert: drive.</source>
+          <target state="translated">Um einen Zertifikatfingerabdruck abzurufen, verwenden Sie einen Get-Item "oder" Get-ChildItem-Befehl in Windows PowerShell-Cert: Laufwerk.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Specifies the computer on which the disconnected session is stored.</source>
+          <target state="translated">Gibt den Computer an, auf dem die getrennte Sitzung gespeichert ist.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Sessions are stored on the computer that is at the server-side, or receiving end of a connection.</source>
+          <target state="translated">Sitzungen werden auf dem Computer gespeichert, die auf die serverseitige oder empfangenden Ende einer Verbindung ist.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">Der Standardwert ist der lokale Computer.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an IP address, or a fully qualified domain name of one computer.</source>
+          <target state="translated">Geben Sie den NetBIOS-Namen, eine IP-Adresse oder einen vollqualifizierten Domänennamen eines Computers ein.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are not permitted.</source>
+          <target state="translated">Platzhalterzeichen sind nicht zulässig.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, localhost, or a dot (.)</source>
+          <target state="translated">Um den lokalen Computer anzugeben, geben Sie den Computernamen, "localhost" oder einen Punkt (.)</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-ConfigurationName</source>
+          <target state="translated">ConfigurationName-</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Specifies the name of a session configuration.</source>
+          <target state="translated">Gibt den Namen einer Sitzungskonfiguration.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This cmdlet connects only to sessions that use the specified session configuration.</source>
+          <target state="translated">Dieses Cmdlet nur eine Verbindung mit Sitzungen, die die angegebene Sitzungskonfiguration verwenden.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Enter a configuration name or the fully qualified resource URI for a session configuration.</source>
+          <target state="translated">Geben Sie einen Konfigurationsnamen oder den vollqualifizierten Ressourcen-URI für eine Sitzungskonfiguration ein.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If you specify only the configuration name, the following schema URI is prepended: http://schemas.microsoft.com/powershell.</source>
+          <target state="translated">Wenn Sie nur den Konfigurationsnamen angeben, wird das folgende Schema-URI vorangestellt: http://schemas.microsoft.com/powershell.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The configuration name of a session is stored in the <bpt id="p1">**</bpt>ConfigurationName<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">Der Konfigurationsname einer Sitzung befindet sich in der <bpt id="p1">**</bpt>ConfigurationName<ept id="p1">**</ept> -Eigenschaft der Sitzung.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The value of this parameter is used to select and filter sessions.</source>
+          <target state="translated">Der Wert dieses Parameters wird verwendet, um Sitzungen auszuwählen und zu filtern.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>It does not change the session configuration that the session uses.</source>
+          <target state="translated">Er ändert nicht die von der Sitzung verwendete Sitzungskonfiguration.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations.</source>
+          <target state="translated">Weitere Informationen zu Sitzungskonfigurationen finden Sie unter About_Session_Configurations.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Vor dem Ausführen des Cmdlets zur Bestätigung aufgefordert. Vor dem Ausführen des Cmdlets zur Bestätigung aufgefordert.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-ConnectionUri</source>
+          <target state="translated">-ConnectionUri</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Specifies a URI that defines the connection endpoint that is used to reconnect to the disconnected session.</source>
+          <target state="translated">Gibt einen URI, der den Verbindungsendpunkt, der verwendet wird definiert, eine Verbindung mit der getrennten Sitzung herzustellen.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The URI must be fully qualified.</source>
+          <target state="translated">Der URI muss vollqualifiziert sein.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The format of this string is as follows:</source>
+          <target state="translated">Das Format dieser Zeichenfolge lautet wie folgt:</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Transport<ph id="ph1">\&gt;</ph>://<ph id="ph2">\&lt;</ph>ComputerName<ph id="ph3">\&gt;</ph>:<ph id="ph4">\&lt;</ph>Port<ph id="ph5">\&gt;/\&lt;</ph>ApplicationName</source>
+          <target state="translated">Transport<ph id="ph1">\&gt;</ph>://<ph id="ph2">\&lt;</ph>ComputerName<ph id="ph3">\&gt;</ph>:<ph id="ph4">\&lt;</ph>Port<ph id="ph5">\&gt;/\&lt;</ph>ApplicationName</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The default value is as follows:</source>
+          <target state="translated">Der Standardwert lautet:</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If you do not specify a connection URI, you can use the <bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept>, <bpt id="p2">*</bpt>ComputerName<ept id="p2">*</ept>, <bpt id="p3">*</bpt>Port<ept id="p3">*</ept>, and <bpt id="p4">*</bpt>ApplicationName<ept id="p4">*</ept> parameters to specify the connection URI values.</source>
+          <target state="translated">Wenn Sie einen Verbindungs-URI nicht angeben, können Sie die <bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept>, <bpt id="p2">*</bpt>ComputerName<ept id="p2">*</ept>, <bpt id="p3">*</bpt>Port<ept id="p3">*</ept>, und <bpt id="p4">*</bpt>ApplicationName<ept id="p4">*</ept> Parameter zur Angabe der Verbindungs-URI-Werte.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Valid values for the Transport segment of the URI are HTTP and HTTPS.</source>
+          <target state="translated">Gültige Werte für das Transport-Segment des URI sind „HTTP“ und „HTTPS“.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>If you specify a connection URI with a Transport segment, but do not specify a port, the session is created with standards ports: 80 for HTTP and 443 for HTTPS.</source>
+          <target state="translated">Wenn Sie einen Verbindungs-URI mit einem Transport-Segment, aber einen Port nicht angeben, wird die Sitzung mit Standardports erstellt: 80 für HTTP und 443 für HTTPS.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>To use the default ports for Windows PowerShell remoting, specify port 5985 for HTTP or 5986 for HTTPS.</source>
+          <target state="translated">Um die Standardports für Windows PowerShell-Remoting zu verwenden, geben Sie Port 5985 für HTTP bzw. 5986 für HTTPS an.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>If the destination computer redirects the connection to a different URI, Windows PowerShell prevents the redirection unless you use the <bpt id="p1">*</bpt>AllowRedirection<ept id="p1">*</ept> parameter in the command.</source>
+          <target state="translated">Wenn der Zielcomputer die Verbindung an einen anderen URI umleitet, verhindert Windows PowerShell die Umleitung an, es sei denn, Sie verwenden die <bpt id="p1">*</bpt>AllowRedirection<ept id="p1">*</ept> Parameter im Befehl.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to connect to the disconnected session.</source>
+          <target state="translated">Gibt ein Benutzerkonto mit der Berechtigung zum Herstellen einer Verbindung mit der getrennten Sitzung an.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">Der Standardwert ist der aktuelle Benutzer.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as User01 or Domain01\User01.</source>
+          <target state="translated">Geben Sie einen Benutzernamen ein, z. B. „User01“ oder „Domain01\User01“.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Or, enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">Oder geben Sie einen <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> Objekt, z. B. durch das Get-Credential-Cmdlet generiert.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>If you type a user name, this cmdlet prompts you for a password.</source>
+          <target state="translated">Wenn Sie einen Benutzernamen eingeben, werden Sie von dieses Cmdlet aufgefordert, ein Kennwort anzugeben.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of the disconnected session.</source>
+          <target state="translated">Gibt die ID der getrennten Sitzung an.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Id<ept id="p1">*</ept> parameter works only when the disconnected session was previously connected to the current session.</source>
+          <target state="translated">Die <bpt id="p1">*</bpt>Id<ept id="p1">*</ept> Parameter funktioniert nur bei die getrennte Sitzung zuvor mit der aktuellen Sitzung verbunden war.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This parameter is valid, but not effective, when the session is stored on the local computer, but was not connected to the current session.</source>
+          <target state="translated">Dieser Parameter ist gültig, aber nicht wirksam, wenn die Sitzung auf dem lokalen Computer gespeichert ist, aber nicht mit der aktuellen Sitzung verbunden wurde.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-InstanceId</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Specifies the instance ID of the disconnected session.</source>
+          <target state="translated">Gibt die Instanz-ID der getrennten Sitzung an.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The instance ID is a GUID that uniquely identifies a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on a local or remote computer.</source>
+          <target state="translated">Die Instanz-ID ist eine GUID, die eindeutig eine <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> auf einer lokalen oder Remotecomputer.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The instance ID is stored in the <bpt id="p1">**</bpt>InstanceID<ept id="p1">**</ept> property of the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>.</source>
+          <target state="translated">Die Instanz-ID, in gespeichert wird dem <bpt id="p1">**</bpt>InstanceID<ept id="p1">**</ept> Eigenschaft der <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-JobName</source>
+          <target state="translated">– JobName</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Specifies a friendly name for the job that <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> returns.</source>
+          <target state="translated">Gibt einen Anzeigenamen für den Auftrag, <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> zurückgibt.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> returns a job when the value of the <bpt id="p2">*</bpt>OutTarget<ept id="p2">*</ept> parameter is Job or the job that is running in the disconnected session was started in the current session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> Gibt einen Auftrag beim den Wert der <bpt id="p2">*</bpt>OutTarget<ept id="p2">*</ept> -Parameter Auftrag oder der Auftrag, der in der getrennten Sitzung ausgeführt wird, die in der aktuellen Sitzung gestartet wurde.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If the job that is running in the disconnected session was started in the current session, Windows PowerShell reuses the original job object in the session and ignores the value of the <bpt id="p1">*</bpt>JobName<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Wenn der Auftrag, der in der getrennten Sitzung ausgeführt wird, die in der aktuellen Sitzung gestartet wurde, verwendet das ursprüngliche Auftragsobjekt in der Sitzung wieder und ignoriert den Wert der Windows PowerShell die <bpt id="p1">*</bpt>JobName<ept id="p1">*</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>If the job that is running in the disconnected session was started in a different session, Windows PowerShell creates a new job object.</source>
+          <target state="translated">Wenn der Auftrag, der in der getrennten Sitzung ausgeführt wird, in einer anderen Sitzung gestartet wurde, erstellt Windows PowerShell ein neues Auftragsobjekt.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>It uses a default name, but you can use this parameter to change the name.</source>
+          <target state="translated">Es wird ein Standardname verwendet, aber Sie können diesen Parameter verwenden, um den Namen zu ändern.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If the default value or explicit value of the <bpt id="p1">*</bpt>OutTarget<ept id="p1">*</ept> parameter is not Job, the command succeeds, but the <bpt id="p2">*</bpt>JobName<ept id="p2">*</ept> parameter has no effect.</source>
+          <target state="translated">Wenn der Standardwert oder der explizite Wert des der <bpt id="p1">*</bpt>OutTarget<ept id="p1">*</ept> Parameter ist kein Auftrag, der Befehl erfolgreich, aber die <bpt id="p2">*</bpt>JobName<ept id="p2">*</ept> Parameter hat keine Auswirkung.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Specifies the friendly name of the disconnected session.</source>
+          <target state="translated">Gibt den Anzeigenamen der getrennten Sitzung an.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-OutTarget</source>
+          <target state="translated">-OutTarget</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Determines how the session results are returned.</source>
+          <target state="translated">Bestimmt, wie die Sitzungsergebnisse zurückgegeben werden.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Die folgenden Werte für diesen Parameter sind zulässig:</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Job.</source>
+          <target state="translated">Auftrag.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Returns the results asynchronously in a job object.</source>
+          <target state="translated">Gibt die Ergebnisse asynchron in ein Auftragsobjekt zurück.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">*</bpt>JobName<ept id="p1">*</ept> parameter to specify a name or new name for the job.</source>
+          <target state="translated">Können Sie die <bpt id="p1">*</bpt>JobName<ept id="p1">*</ept> Parameter, um einen Namen oder einen neuen Namen für den Auftrag anzugeben.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Host.</source>
+          <target state="translated">Host.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Returns the results to the command line (synchronously).</source>
+          <target state="translated">Gibt die Ergebnisse (synchron) an die Befehlszeile zurück.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>If the command is being resumed or the results consist of a large number of objects, the response might be delayed.</source>
+          <target state="translated">Wenn der Befehl fortgesetzt wird oder die Ergebnisse aus einer großen Anzahl von Objekten bestehen, kann die Antwort verzögert werden.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The default value of the <bpt id="p1">*</bpt>OutTarget<ept id="p1">*</ept> parameter is Host.</source>
+          <target state="translated">Der Standardwert der <bpt id="p1">*</bpt>OutTarget<ept id="p1">*</ept> Parameter Host ist.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>However, if the command that is being received in disconnected session was started in the current session, the default value of the <bpt id="p1">*</bpt>OutTarget<ept id="p1">*</ept> parameter is the form in which the command was started.</source>
+          <target state="translated">Wenn der Befehl, der in empfangen wird, wird die Sitzung getrennt wurde jedoch in der aktuellen Sitzung, der Standardwert gestartet der <bpt id="p1">*</bpt>OutTarget<ept id="p1">*</ept> Parameter ist das Formular, in dem der Befehl gestartet wurde.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>If the command was started as a job, it is returned as a job by default.</source>
+          <target state="translated">Wenn der Befehl als Auftrag gestartet wurde, wird er standardmäßig als Auftrag zurückgegeben.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Otherwise, it is returned to the host program by default.</source>
+          <target state="translated">Andernfalls wird er standardmäßig an das Hostprogramm zurückgegeben.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Typically, the host program displays returned objects at the command line without delay, but this behavior can vary.</source>
+          <target state="translated">In der Regel zeigt das Hostprogramm die zurückgegebenen Objekte ohne Verzögerung in der Befehlszeile an, dieses Verhalten kann jedoch variieren.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>-Port</source>
+          <target state="translated">-Port</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Specifies the network port on the remote computer that is used to reconnect to the session.</source>
+          <target state="translated">Gibt den Netzwerkport auf dem Remotecomputer an, der für die Verbindungswiederherstellung mit der Sitzung verwendet wird.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>To connect to a remote computer, the remote computer must be listening on the port that the connection uses.</source>
+          <target state="translated">Zum Herstellen einer Verbindung mit einem Remotecomputer muss der Remotecomputer den für die Verbindung verwendeten Port abhören.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The default ports are 5985, which is the WinRM port for HTTP, and 5986, which is the WinRM port for HTTPS.</source>
+          <target state="translated">Die Standardports sind 5985 wird der WinRM-Port für HTTP und 5986, die den WinRM-Port für HTTPS ist.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Before using an alternate port, you must configure the WinRM listener on the remote computer to listen at that port.</source>
+          <target state="translated">Bevor ein alternativer Port verwendet werden kann, müssen Sie den WinRM-Listener auf dem Remotecomputer für das Abhören an diesen Port konfigurieren.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>To configure the listener, type the following two commands at the Windows PowerShell prompt:</source>
+          <target state="translated">Um den Listener zu konfigurieren, geben Sie die folgenden beiden Befehle an der Windows PowerShell-Eingabeaufforderung ein:</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Do not use the <bpt id="p1">*</bpt>Port<ept id="p1">*</ept> parameter unless you must.</source>
+          <target state="translated">Verwenden Sie nicht die <bpt id="p1">*</bpt>Port<ept id="p1">*</ept> Parameter es sei denn, Sie müssen.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The port that is set in the command applies to all computers or sessions on which the command runs.</source>
+          <target state="translated">Der im Befehl festgelegte Port gilt für alle Computer oder Sitzungen, für die der Befehl ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>An alternate port setting might prevent the command from running on all computers.</source>
+          <target state="translated">Eine alternative Porteinstellung kann verhindern, dass der Befehl auf allen Computern ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">-Sitzung</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Specifies the disconnected session.</source>
+          <target state="translated">Gibt die getrennte Sitzung an.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> or a command that creates or gets the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, such as a Get-PSSession command.</source>
+          <target state="translated">Geben Sie eine Variable, die <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> oder einen Befehl, der erstellt oder ruft die <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, z. B. einen Get-PSSession-Befehl.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>-SessionOption</source>
+          <target state="translated">-SessionOption</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Specifies advanced options for the session.</source>
+          <target state="translated">Gibt erweiterte Optionen für die Sitzung.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> object, such as one that you create by using the New-PSSessionOption cmdlet, or a hash table in which the keys are session option names and the values are session option values.</source>
+          <target state="translated">Geben Sie einen <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> -Objekt, z. B. eine, die Sie über das Cmdlet "New-PSSessionOption" erstellen oder eine Hashtabelle, in dem die Schlüssel sitzungsoptionsnamen sind, und die Werte sitzungsoptionswerte sind.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The default values for the options are determined by the value of the $PSSessionOption preference variable, if it is set.</source>
+          <target state="translated">Die Standardwerte für die Optionen werden durch den Wert der $PSSessionOption-Einstellungsvariablen bestimmt, sofern festgelegt.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Otherwise, the default values are established by options set in the session configuration.</source>
+          <target state="translated">Andernfalls werden die Standardwerte durch Optionen festgelegt, die in der Sitzungskonfiguration festgelegt sind.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The session option values take precedence over default values for sessions set in the $PSSessionOption preference variable and in the session configuration.</source>
+          <target state="translated">Die sitzungsoptionswerte haben Vorrang vor Standardwerten für Sitzungen, die in der $PSSessionOption Preference-Variable und in der Sitzungskonfiguration festgelegt werden.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>However, they do not take precedence over maximum values, quotas or limits set in the session configuration.</source>
+          <target state="translated">Allerdings haben sie nicht Vorrang vor Höchstwerten, Kontingenten oder Grenzwerten, die in der Sitzungskonfiguration festgelegt sind.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For a description of the session options that includes the default values, see New-PSSessionOption.</source>
+          <target state="translated">Eine Beschreibung der Sitzungsoptionen, die die Standardwerte enthält, finden Sie unter New-PSSessionOption.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>For information about the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">Informationen zu den <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> -einstellungsvariablen finden Sie unter About_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">Weitere Informationen zu Sitzungskonfigurationen finden Sie unter about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>-UseSSL</source>
+          <target state="translated">UseSSL-</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet uses the Secure Sockets Layer (SSL) protocol to connect to the disconnected session.</source>
+          <target state="translated">Gibt an, dass das Cmdlet das Protokoll Secure Sockets Layer (SSL) für die Verbindung zur getrennten Sitzung verwendet.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>By default, SSL is not used.</source>
+          <target state="translated">Standardmäßig wird SSL nicht verwendet.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>WS-Management encrypts all Windows PowerShell content transmitted over the network.</source>
+          <target state="translated">WS-Management verschlüsselt alle Windows PowerShell-Inhalte, die über das Netzwerk übertragen werden.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept> is an additional protection that sends the data across an HTTPS connection instead of an HTTP connection.</source>
+          <target state="translated"><bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept> zusätzlichen Schutz, der die Daten über eine HTTPS-Verbindung statt einer HTTP-Verbindung gesendet.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>If you use this parameter, but SSL is not available on the port that is used for the command, the command fails.</source>
+          <target state="translated">Wenn Sie diesen Parameter verwenden, aber SSL auf den Port, der für den Befehl dient nicht verfügbar ist, schlägt der Befehl fehl.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Zeigt, was geschieht, wenn das Cmdlet ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Das Cmdlet wird nicht ausgeführt. Zeigt, was passieren würde, wenn das Cmdlet ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">Das Cmdlet wird nicht ausgeführt.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Dieses Cmdlet unterstützt die allgemeinen Parameter:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, -InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction und -WarningVariable.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Weitere Informationen finden Sie unter "about_commonparameters" (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">EINGABEN</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>You can pipe session objects, such as those returned by the Get-PSSession cmdlet, to this cmldet.</source>
+          <target state="translated">Sie können Sitzungsobjekte wie diejenigen, die durch das Get-PSSession-Cmdlet, um dieses Cmdlet übergeben.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>System.Int32</source>
+          <target state="translated">System.Int32</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>You can pipe session IDs to this cmldet.</source>
+          <target state="translated">Sie können die Sitzung IDs für dieses Cmdlet übergeben.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>System.Guid</source>
+          <target state="translated">System.Guid</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>You can pipe the instance IDs of sessions this cmldet.</source>
+          <target state="translated">Sie können der Instanz-IDs von Sitzungen dieses Cmdlet übergeben.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>You can pipe session names to this cmldet.</source>
+          <target state="translated">Sie können Sitzungsnamen an dieses Cmdlet übergeben.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">AUSGABEN</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Job or PSObject</source>
+          <target state="translated">System.Management.Automation.Job oder PSObject</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns the results of commands that ran in the disconnected session, if any.</source>
+          <target state="translated">Dieses Cmdlet gibt die Ergebnisse von Befehlen, die in der getrennten Sitzung ausgeführt wurden zurück, sofern vorhanden.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>If the value or default value of the <bpt id="p1">*</bpt>OutTarget<ept id="p1">*</ept> parameter is Job, <bpt id="p2">**</bpt>Receive-PSSession<ept id="p2">**</ept> returns a job object.</source>
+          <target state="translated">Wenn der Wert oder Standardwert die <bpt id="p1">*</bpt>OutTarget<ept id="p1">*</ept> Parameter ist Auftrag <bpt id="p2">**</bpt>Receive-PSSession<ept id="p2">**</ept> Gibt ein Auftragsobjekt zurück.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Otherwise, it returns objects that represent that command results.</source>
+          <target state="translated">Andernfalls werden Objekte zurückgeben, die diese Befehlsergebnisse darstellen.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTIZEN</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> gets results only from sessions that were disconnected.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> ruft Ergebnisse nur aus Sitzungen, die getrennt wurden.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Only sessions that are connected to, or terminate at, computers that run Windows PowerShell 3.0 or later versions can be disconnected and reconnected.</source>
+          <target state="translated">Nur Sitzungen, die mit verbunden sind, oder beenden, Computern, die zur Windows PowerShell 3.0 oder höhere Versionen getrennt und erneut angeschlossen werden können.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>If the commands that were running in the disconnected session did not generate results or if the results were already returned to another session, <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> does not generate any output.</source>
+          <target state="translated">Wenn die Befehle, die in der getrennten Sitzung ausgeführt wurden keine Ergebnisse generiert haben, oder wenn die Ergebnisse bereits an einer anderen Sitzung zurückgegeben wurden <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> generiert keine Ausgabe.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The output buffering mode of a session determines how commands in the session manage output when the session is disconnected.</source>
+          <target state="translated">Der Ausgabepuffermodus einer Sitzung bestimmt, wie die Befehle in der Sitzung Ausgaben verwalten, wenn die Sitzung getrennt wird.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>When the value of the <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> option of the session is Drop and the output buffer is full, the command starts to delete output.</source>
+          <target state="translated">Wenn der Wert der <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> ist "Drop"-Option der Sitzung und der Ausgabepuffer voll ist, mit dem Befehl beginnt beim Löschen der Ausgabe.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> cannot recover this output.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> Diese Ausgabe kann nicht wiederhergestellt werden.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>For more information about the output buffering mode option, see the help topics for the New-PSSessionOption and New-PSTransportOption cmdlets.</source>
+          <target state="translated">Weitere Informationen über die Ausgabe ausgabenpuffermodus finden Sie unter den Hilfethemen für die Cmdlets New-PSSessionOption "und" New-PSTransportOption.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>You cannot change the idle time-out value of a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> when you connect to the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> or receive results.</source>
+          <target state="translated">Können Sie nicht ändern den Leerlauftimeout-Wert, der eine <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> für die Verbindung mit der <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> oder Ergebnisse zu erhalten.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Receive-PSSession<ept id="p2">**</ept> takes a <bpt id="p3">**</bpt>SessionOption<ept id="p3">**</ept> object that has an <bpt id="p4">**</bpt>IdleTimeout<ept id="p4">**</ept> value.</source>
+          <target state="translated">Die <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> Parameter der <bpt id="p2">**</bpt>Receive-PSSession<ept id="p2">**</ept> nimmt eine <bpt id="p3">**</bpt>SessionOption<ept id="p3">**</ept> Objekt mit einer <bpt id="p4">**</bpt>IdleTimeout<ept id="p4">**</ept> Wert.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>However, the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> value of the <bpt id="p2">**</bpt>SessionOption<ept id="p2">**</ept> object and the <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> value of the $PSSessionOption variable are ignored when it connects to a <bpt id="p4">**</bpt>PSSession<ept id="p4">**</ept> or receiving results.</source>
+          <target state="translated">Jedoch die <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> Wert der <bpt id="p2">**</bpt>SessionOption<ept id="p2">**</ept> Objekt und die <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> Wert der Variablen $PSSessionOption werden ignoriert, beim Herstellen einer Verbindung mit einer <bpt id="p4">**</bpt>PSSession<ept id="p4">**</ept> oder Ergebnisse empfangen.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>You can set and change the idle time-out of a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> when you create the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, by using the New-PSSession or <bpt id="p3">**</bpt>Invoke-Command<ept id="p3">**</ept> cmdlets, and when you disconnect from the <bpt id="p4">**</bpt>PSSession<ept id="p4">**</ept>.</source>
+          <target state="translated">Festlegen und Ändern der Leerlauftimeout von einer <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> beim Erstellen der <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, mithilfe der New-PSSession oder <bpt id="p3">**</bpt>Invoke-Command<ept id="p3">**</ept> -Cmdlets und beim Trennen der <bpt id="p4">**</bpt>PSSession<ept id="p4">**</ept>.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> property of a <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> is critical to disconnected sessions, because it determines how long a disconnected session is maintained on the remote computer.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> Eigenschaft ein <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> ist wichtig für getrennte Sitzungen, da sie bestimmt, wie lange eine getrennte Sitzung auf dem Remotecomputer verwaltet wird.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Disconnected sessions are considered to be idle from the moment that they are disconnected, even if commands are running in the disconnected session.</source>
+          <target state="translated">Getrennte Sitzungen gelten vom Moment ihrer Trennung an als im Leerlauf, selbst wenn Befehle in der getrennten Sitzung ausgeführt werden.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>If you start a start a job in a remote session by using the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter of the <bpt id="p2">**</bpt>Invoke-Command<ept id="p2">**</ept> cmdlet, the job object is created in the current session, even though the job runs in the remote session.</source>
+          <target state="translated">Wenn Sie einen Start eines Auftrags in einer Remotesitzung mit Starten der <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> Parameter von der <bpt id="p2">**</bpt>Invoke-Command<ept id="p2">**</ept> -Cmdlet das Auftragsobjekt wird erstellt in der aktuellen Sitzung, obwohl der Auftrag in der Remotesitzung ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>If you disconnect the remote session, the job object in the current session is now disconnected from the job.</source>
+          <target state="translated">Wenn Sie die Remotesitzung trennen, wird das Auftragsobjekt in der aktuellen Sitzung vom Auftrag getrennt.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The job object still contains any results that were returned to it, but it does not receive new results from the job in the disconnected session.</source>
+          <target state="translated">Das Auftragsobjekt enthält noch alle Ergebnisse, die an es zurückgegeben wurden, empfängt aber keine neuen Ergebnisse aus dem Auftrag in der getrennten Sitzung mehr.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>If a different client connects to the session that contains the running job, the results that were delivered to the original job object in the original session are not available in the newly connected session.</source>
+          <target state="translated">Wenn ein anderer Client eine Verbindung mit der Sitzung herstellt, die den laufenden Auftrag enthält, stehen die Ergebnisse, die in der ursprünglichen Sitzung an das ursprüngliche Auftragsobjekt übermittelt wurden, in der neu verbundenen Sitzung nicht zur Verfügung.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Only results that were not delivered to the original job object are available in the reconnected session.</source>
+          <target state="translated">Nur Ergebnisse, die nicht an das ursprüngliche Auftragsobjekt übermittelt wurden, sind in der neu verbundenen Sitzung verfügbar.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Similarly, if you start a script in a session and then disconnect from the session, any results that the script delivers to the session before disconnecting are not available to another client that connects to the session.</source>
+          <target state="translated">Entsprechendes gilt, wenn Sie ein Skript in einer Sitzung starten und dann die Verbindung mit der Sitzung trennen: Alle Ergebnisse, die das Skript vor der Trennung an die Sitzung übermittelt, stehen für einen anderen Client, der eine Verbindung mit der Sitzung herstellt, nicht zur Verfügung.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>To prevent data loss in sessions that you intend to disconnect, use the <bpt id="p1">*</bpt>InDisconnectedSession<ept id="p1">*</ept> parameter of the <bpt id="p2">**</bpt>Invoke-Command<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated">Um Datenverlust in Sitzungen zu verhindern, die Sie trennen möchten, verwenden Sie die <bpt id="p1">*</bpt>InDisconnectedSession<ept id="p1">*</ept> Parameter von der <bpt id="p2">**</bpt>Invoke-Command<ept id="p2">**</ept> Cmdlet.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Because this parameter prevents results from being returned to the current session, all results are available when the session is reconnected.</source>
+          <target state="translated">Da dieser Parameter verhindert, dass Ergebnisse an die aktuelle Sitzung zurückgegeben werden, sind alle Ergebnisse verfügbar, wenn die Verbindung mit der Sitzung wiederhergestellt wird.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>You can also prevent data loss by using the <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> cmdlet to run a Start-Job command in the remote session.</source>
+          <target state="translated">Sie können Datenverlust auch verhindern, indem Sie mit der <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> -Cmdlet zum Ausführen eines Befehls Start-Job in der Remotesitzung.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>In this case, the job object is created in the remote session.</source>
+          <target state="translated">In diesem Fall wird das Auftragsobjekt in der Remotesitzung erstellt.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> cmdlet to get the job results.</source>
+          <target state="translated">Sie können keine der <bpt id="p1">**</bpt>Receive-PSSession<ept id="p1">**</ept> -Cmdlet zum Abrufen der Auftragsergebnisse.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Instead, use the <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cmdlet to connect to the session and then use the <bpt id="p2">**</bpt>Invoke-Command<ept id="p2">**</ept> cmdlet to run a Receive-Job command in the session.</source>
+          <target state="translated">Verwenden Sie stattdessen die <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> Cmdlet, um eine Verbindung mit der Sitzung, und verwenden Sie dann die <bpt id="p2">**</bpt>Invoke-Command<ept id="p2">**</ept> Cmdlet zum Ausführen einer Receive-Job-Befehls in der Sitzung.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>When a session that contains a running job is disconnected and then reconnected, the original job object is reused only if the job is disconnected and reconnected to the same session, and the command to reconnect does not specify a new job name.</source>
+          <target state="translated">Wenn eine Sitzung, die einen laufenden Auftrag enthält, getrennt und die Verbindung anschließend wiederhergestellt wird, wird das ursprüngliche Auftragsobjekt nur dann wiederverwendet, wenn der Auftrag getrennt und wieder mit der gleichen Sitzung verbunden wird und der Befehl zur Verbindungswiederherstellung keinen neuen Auftragsnamen angibt.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>If the session is reconnected to a different client session or a new job name is specified, Windows PowerShell creates a new job object for the new session.</source>
+          <target state="translated">Wenn bei der Verbindungswiederherstellung der Sitzung eine andere Clientsitzung verwendet oder ein neuer Auftragsname angegeben wird, erstellt Windows PowerShell ein neues Auftragsobjekt für die neue Sitzung.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>When you disconnect a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>, the session state is Disconnected and the availability is None.</source>
+          <target state="translated">Wenn Sie die Verbindung trennen einer <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>, der Sitzungsstatus nicht verbunden ist und die Verfügbarkeit ist None.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property is relative to the current session.</source>
+          <target state="translated">Der Wert der <bpt id="p1">**</bpt>Zustand<ept id="p1">**</ept> Eigenschaft bezieht sich auf die aktuelle Sitzung ist.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Therefore, a value of Disconnected means that the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> is not connected to the current session.</source>
+          <target state="translated">Aus diesem Grund getrennten Wert bedeutet, dass die <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> nicht mit der aktuellen Sitzung verbunden ist.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>However, it does not mean that the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> is disconnected from all sessions.</source>
+          <target state="translated">Aber es bedeutet nicht, die die <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> von allen Sitzungen getrennt wird.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>It might be connected to a different session.</source>
+          <target state="translated">Sie kann mit einer anderen Sitzung verbunden sein.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>To determine whether you can connect or reconnect to the session, use the <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> property.</source>
+          <target state="translated">Um zu bestimmen, ob Sie eine Verbindung herstellen oder die Sitzung neu verbinden können, verwenden Sie die <bpt id="p1">**</bpt>Verfügbarkeit<ept id="p1">**</ept> Eigenschaft.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> value of None indicates that you can connect to the session.</source>
+          <target state="translated">Ein <bpt id="p1">**</bpt>Verfügbarkeit<ept id="p1">**</ept> Wert None gibt an, dass Sie mit der Sitzung verbinden können.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>A value of Busy indicates that you cannot connect to the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> because it is connected to another session.</source>
+          <target state="translated">Wert "Busy" gibt an, dass Sie keine Verbindung herstellen können die <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> da er mit einer anderen Sitzung verbunden ist.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>For more information about the values of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property of sessions, see RunspaceState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate(v=VS.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate(v=VS.85).aspx) in the MSDN library.</source>
+          <target state="translated">Weitere Informationen zu den Werten von der <bpt id="p1">**</bpt>Zustand<ept id="p1">**</ept> -Eigenschaft von Sitzungen finden Sie unter RunspaceState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate (v=VS.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate (v=VS.85).aspx) in der MSDN Library.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>For more information about the values of the <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> property of sessions, see RunspaceAvailability Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability(v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability(v=vs.85).aspx) in the MSDN library.</source>
+          <target state="translated">Weitere Informationen zu den Werten von der <bpt id="p1">**</bpt>Verfügbarkeit<ept id="p1">**</ept> -Eigenschaft von Sitzungen finden Sie unter RunspaceAvailability Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability (v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability (v=vs.85).aspx) in der MSDN Library.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VERWANDTE LINKS</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession</source>
+          <target state="translated">Connect-PSSession</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Exit-PSSession</source>
+          <target state="translated">Exit-PSSession</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Get-PSSession</source>
+          <target state="translated">Get-PSSession</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Remove-PSSession</source>
+          <target state="translated">Remove-PSSession</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>about_PSSessions</source>
+          <target state="translated">about_PSSessions</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>about_Remote</source>
+          <target state="translated">about_Remote</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Sessions</source>
+          <target state="translated">about_Remote_Disconnected_Sessions</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

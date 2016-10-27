@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">55ee05704d0297bfeaf6a0535ae2c096f9323b39</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Update-TypeData.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4234b8253879e44b89ac25b56e478443c85c88c2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8740d6ec749de4aabb3efe4ccc761f39204e8aee</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Update-TypeData</source>
+          <target state="translated">Update-TypeData</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Update-TypeData</source>
+          <target state="translated">Update-TypeData</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Updates the extended type data in the session.</source>
+          <target state="translated">セッションで、拡張型データを更新します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>FileSet (Default)</source>
+          <target state="translated">ファイルセット (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>DynamicTypeSet</source>
+          <target state="translated">DynamicTypeSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>TypeDataSet</source>
+          <target state="translated">TypeDataSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> cmdlet updates the extended type data in the session by reloading the Types.ps1xml files into memory and adding new extended type data.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept> コマンドレットは、Types.ps1xml ファイルをメモリに再読み込みして、セッションの拡張型データを更新し、拡張型データを新規に追加します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell loads extended type data as it is needed.</source>
+          <target state="translated">既定では、Windows PowerShell 拡張型データは必要に応じて読み込まれます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Without parameters, <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> reloads all of the Types.ps1xml files that it has loaded in the session, including any type files that you added.</source>
+          <target state="translated">パラメーターを指定しない <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept> すべて追加した種類のファイルを含め、セッションで読み込んだ Types.ps1xml ファイルの再読み込みします。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can use the parameters of <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> to add new type files and add and replace extended type data.</source>
+          <target state="translated">パラメーターを使用する <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept> を追加して拡張型データを置き換える新しい種類のファイルを追加します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> cmdlet can be used to preload all type data.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept> コマンドレットは、すべての種類のデータを事前に読み込むために使用できます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This feature is particularly useful when you are developing types and want to load those new types for testing purposes.</source>
+          <target state="translated">この機能は、型を開発し、テスト目的でそれらの新しい型を読み込むときに特に役立ちます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can use <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> to add and replace extended type data in the session without using a Types.ps1xml file.</source>
+          <target state="translated">Windows PowerShell 3.0 以降を使用して <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept> を追加して、Types.ps1xml ファイルを使用せず、セッション内の拡張型データを置換します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Type data that is added dynamically, that is, without a file, is added only to the current session.</source>
+          <target state="translated">動的、つまりファイルを使用せずに追加される型データは、現在のセッションのみに追加されます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To add the type data to all sessions, add an <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> command to your Windows PowerShell profile.</source>
+          <target state="translated">すべてのセッションに種類のデータを追加するには、追加、 <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept> コマンドを Windows PowerShell プロファイル。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</source>
+          <target state="translated">詳細については、about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729) を参照してください。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Also, beginning in Windows PowerShell 3.0, you can use the Get-TypeData cmdlet to get the extended types in the current session and the Remove-TypeData cmdlet to delete extended types from the current session.</source>
+          <target state="translated">また、Windows PowerShell 3.0 以降では、現在のセッションと現在のセッションから拡張型を削除する Remove-typedata コマンドレットで拡張型を取得する Get-typedata コマンドレットを使用することができます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Exceptions that occur in properties, or from adding properties to an <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> command, do not report errors to StdErr.</source>
+          <target state="translated">プロパティで、またはプロパティの追加から発生した例外、 <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept> コマンド、StdErr にエラーを報告しません。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This is to suppress exceptions that would occur in many common types during formatting and outputting.</source>
+          <target state="translated">これは、書式設定および出力の際に、多くの一般的な型で発生する例外を抑制します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you are getting .NET Framework properties, you can work around the suppression of exceptions by using method syntax instead, as shown in the following example:</source>
+          <target state="translated">.NET Framework プロパティを取得する場合は、次の例に示すように、代わりにメソッド構文を使用して、例外の抑制を回避できます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Note that method syntax can only be used with .NET Framework properties.</source>
+          <target state="translated">メソッドの構文は .NET Framework のプロパティでのみ使用できる点に注意してください。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Properties that are added by running the Update-TypeData cmdlet cannot use method syntax.</source>
+          <target state="translated">Update-TypeData コマンドレットを実行して追加されるプロパティは、メソッド構文を使用できません。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information about the *types.ps1xml files in Windows PowerShell, see about_Types.ps1xml (http://technet.microsoft.com/library/hh847881.aspx).</source>
+          <target state="translated">Windows PowerShell での *types.ps1xml ファイルの詳細については、「about_Types.ps1xml (http://technet.microsoft.com/library/hh847881.aspx) を参照してください。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This command updates the extended type configuration from the *.types.ps1xml files that have already been used in the session.</source>
+          <target state="translated">このコマンドは、セッションで既に使用されている *.types.ps1xml ファイルの拡張型構成を更新します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This example show how to update the types in a type file multiple times in the same session.</source>
+          <target state="translated">この例は、同じセッション内で複数回、型ファイル内の型を更新する方法を示しています。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This example uses <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> to add the Quarter script property to <bpt id="p2">**</bpt>System.DateTime<ept id="p2">**</ept> objects in the current session, such as those returned by the Get-Date cmdlet.</source>
+          <target state="translated">この例では <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept> Quarter スクリプト プロパティを追加する <bpt id="p2">**</bpt>System.DateTime<ept id="p2">**</ept> 、Get-date コマンドレットによって返されるものなど、現在のセッション内のオブジェクト。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> command uses the <bpt id="p2">**</bpt>TypeName<ept id="p2">**</ept> parameter to specify <bpt id="p3">**</bpt>the System.DateTime<ept id="p3">**</ept> type, the <bpt id="p4">**</bpt>MemberName<ept id="p4">**</ept> parameter to specify a name for the new property, the <bpt id="p5">**</bpt>MemberType<ept id="p5">**</ept> property to specify the <bpt id="p6">**</bpt>ScriptProperty<ept id="p6">**</ept> type, and the <bpt id="p7">**</bpt>Value<ept id="p7">**</ept> parameter to specify the script that determines the annual quarter.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept> コマンドでは、 <bpt id="p2">**</bpt>TypeName<ept id="p2">**</ept> を指定するパラメーター <bpt id="p3">**</bpt>、System.DateTime<ept id="p3">**</ept> の種類、 <bpt id="p4">**</bpt>MemberName<ept id="p4">**</ept> 、新しいプロパティの名前を指定するパラメーター、 <bpt id="p5">**</bpt>MemberType<ept id="p5">**</ept> プロパティを指定する、 <bpt id="p6">**</bpt>ScriptProperty<ept id="p6">**</ept> 型、および <bpt id="p7">**</bpt>値<ept id="p7">**</ept> 年間の四半期を決定するスクリプトを指定するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>Value<ept id="p1">**</ept> property is a script that calculates the current annual quarter.</source>
+          <target state="translated">値、 <bpt id="p1">**</bpt>値<ept id="p1">**</ept> プロパティは、現在の年間の四半期を計算するスクリプトです。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The script block the $this automatic variable to represent the current instance of the object and the <bpt id="p1">**</bpt>In<ept id="p1">**</ept> operator to determine whether the month value appears in each integer array.</source>
+          <target state="translated">スクリプト ブロック、$、オブジェクトの現在のインスタンスを表す自動変数、および <bpt id="p1">**</bpt>で<ept id="p1">**</ept> 各整数配列で月の値が表示されるかどうかを指定する演算子です。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information about the In operator, see about_Comparison_Operators (http://go.microsoft.com/fwlink/?LinkID=113217).</source>
+          <target state="translated">詳細については、In 演算子、about_Comparison_Operators (http://go.microsoft.com/fwlink/?LinkID=113217) を参照してください。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The second command gets the new Quarter property of the current date.</source>
+          <target state="translated">2 番目のコマンドは、現在の日付の新しい Quarter プロパティを取得します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This example shows how to set the properties of a type that display in lists by default, that is, when no properties are specified.</source>
+          <target state="translated">この例は、プロパティが指定されていない場合に、既定で一覧に表示される型のプロパティを設定する方法を示しています。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Because the type data is not specified in a Types.ps1xml file, it is effective only in the current session.</source>
+          <target state="translated">型データが Types.ps1xml ファイルに指定されていないため、これは現在のセッションでのみ有効です。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> cmdlet to set the default list properties for the <bpt id="p2">**</bpt>System.DateTime<ept id="p2">**</ept> type.</source>
+          <target state="translated">最初のコマンドを使用して、 <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept> コマンドレットでは既定値の一覧のプロパティの設定を <bpt id="p2">**</bpt>System.DateTime<ept id="p2">**</ept> 型です。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>TypeName<ept id="p1">**</ept> parameter to specify the type and the <bpt id="p2">**</bpt>DefaultDisplayPropertySet<ept id="p2">**</ept> parameter to specify the default properties for a list.</source>
+          <target state="translated">コマンドを使用して、 <bpt id="p1">**</bpt>TypeName<ept id="p1">**</ept> パラメーターの種類を指定し、 <bpt id="p2">**</bpt>DefaultDisplayPropertySet<ept id="p2">**</ept> 一覧については、既定のプロパティを指定するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The selected properties include the new Quarter script property that was added in a previous example.</source>
+          <target state="translated">選択されたプロパティには、前の例で追加した新しい Quarter スクリプト プロパティが含まれます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-Date cmdlet to get a <bpt id="p1">**</bpt>System.DateTime<ept id="p1">**</ept> object that represents the current date.</source>
+          <target state="translated">2 番目のコマンドを取得する Get-date コマンドレットを使用して、 <bpt id="p1">**</bpt>System.DateTime<ept id="p1">**</ept> を現在の日付を表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The command uses a pipeline operator (|) to send the <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> object to the Format-List cmdlet.</source>
+          <target state="translated">コマンドを送信する、パイプライン演算子 (|) を使用して、 <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> オブジェクトを Format-list コマンドレットにします。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">**</bpt>Format-List<ept id="p1">**</ept> command does not specify the properties to display in the list, Windows PowerShell uses the default values that were established by the <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept> command.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Format-list<ept id="p1">**</ept> コマンドが一覧に表示するプロパティを指定していない、Windows PowerShell によって確立された既定値を使用して、 <bpt id="p2">**</bpt>Update-typedata<ept id="p2">**</ept> コマンドです。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that when you pipe an object to <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept> adds extended type data for the object type.</source>
+          <target state="translated">オブジェクトをパイプする場合を次の例で <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>Update-typedata<ept id="p2">**</ept> 拡張型データをオブジェクトの種類を追加します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This technique is quicker than using the Get-Member cmdlet or the <bpt id="p1">**</bpt>Get-Type<ept id="p1">**</ept> method to get the object type.</source>
+          <target state="translated">この手法は、Get-member コマンドレットを使用してよりも高速または <bpt id="p1">**</bpt>Get-type<ept id="p1">**</ept> オブジェクトの種類を取得します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>However, if you pipe a collection of objects to <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept>, it updates the type data of the first object type and then returns an error for all other objects in the collection because the member is already defined on the type.</source>
+          <target state="translated">ただし、オブジェクトのコレクションをパイプする場合は、 <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept>, 、最初のオブジェクトの種類の種類のデータを更新し、メンバーが型で既に定義されているためにコレクションの他のすべてのオブジェクトのエラーを返します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-Module cmdlet to get the PSScheduledJob module.</source>
+          <target state="translated">最初のコマンドでは、Get-module コマンドレットを使用して、PSScheduledJob モジュールを取得します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The command pipes the module object to the <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> cmdlet, which updates the type data for the <bpt id="p2">**</bpt>System.Management.Automation.PSModuleInfo<ept id="p2">**</ept> type and the types derived from it, such as the <bpt id="p3">**</bpt>ModuleInfoGrouping<ept id="p3">**</ept> type that <bpt id="p4">**</bpt>Get-Module<ept id="p4">**</ept> returns when you use the <bpt id="p5">**</bpt>ListAvailable<ept id="p5">**</ept> parameter in the command.</source>
+          <target state="translated">コマンドは、パイプを使用してモジュール オブジェクトを <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept> コマンドレットで、型のデータを更新、 <bpt id="p2">**</bpt>System.Management.Automation.PSModuleInfo<ept id="p2">**</ept> 型と、型から派生したなど、 <bpt id="p3">**</bpt>ModuleInfoGrouping<ept id="p3">**</ept> 型で <bpt id="p4">**</bpt>Get-module<ept id="p4">**</ept> を使用する場合に返されます、 <bpt id="p5">**</bpt>ListAvailable<ept id="p5">**</ept> 、コマンドのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> commands adds the <bpt id="p2">**</bpt>SupportsUpdatableHelp<ept id="p2">**</ept> script property to all imported modules.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept> コマンドを追加、 <bpt id="p2">**</bpt>SupportsUpdatableHelp<ept id="p2">**</ept> プロパティをすべて、インポートしたモジュールのスクリプトを作成します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The value of the Value parameter is a script that returns $True if the <bpt id="p1">**</bpt>HelpInfoUri<ept id="p1">**</ept> property of the module is populated and $False otherwise.</source>
+          <target state="translated">値パラメーターの値は $True を返す場合、スクリプト、 <bpt id="p1">**</bpt>HelpInfoUri<ept id="p1">**</ept> モジュールのプロパティが設定され、それ以外の場合 $False です。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The second command pipes the module objects from <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> to the Format-Table cmdlet, which displays the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> and <bpt id="p3">**</bpt>SupportsUpdatableHelp<ept id="p3">**</ept> properties of all modules in a list.</source>
+          <target state="translated">モジュール オブジェクトをパイプを使用して 2 番目のコマンド <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept> を Format-table コマンドレットを表示、 <bpt id="p2">**</bpt>名前<ept id="p2">**</ept> と <bpt id="p3">**</bpt>SupportsUpdatableHelp<ept id="p3">**</ept> リスト内のすべてのモジュールのプロパティです。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-AppendPath</source>
+          <target state="translated">-AppendPath</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specifies the path to optional .ps1xml files.</source>
+          <target state="translated">オプションの .ps1xml ファイルへのパスを指定します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The specified files are loaded in the order that they are listed after the built-in files are loaded.</source>
+          <target state="translated">指定されたファイルは、組み込みファイルが読み込まれた後にリストされる順序で、読み込まれます。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can also pipe an <bpt id="p1">**</bpt>AppendPath<ept id="p1">**</ept> value to <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept>.</source>
+          <target state="translated">パイプを使用する、 <bpt id="p1">**</bpt>AppendPath<ept id="p1">**</ept> 値を <bpt id="p2">**</bpt>Update-typedata<ept id="p2">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-PrependPath</source>
+          <target state="translated">-PrependPath</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the optional .ps1xml files.</source>
+          <target state="translated">オプションの .ps1xml ファイルへのパスを指定します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The specified files are loaded in the order that they are listed before the built-in files are loaded.</source>
+          <target state="translated">指定されたファイルは、組み込みファイルが読み込まれる前にリストされる順序で、読み込まれます。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-DefaultDisplayProperty</source>
+          <target state="translated">-DefaultDisplayProperty</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Specifies the property of the type that is displayed by the Format-Wide cmdlet when no other properties are specified.</source>
+          <target state="translated">その他のプロパティが指定されていないときに、Format-wide コマンドレットによって表示される型のプロパティを指定します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Type the name of a standard or extended property of the type.</source>
+          <target state="translated">型の標準および拡張プロパティの名前を入力します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The value of this parameter can be the name of a type that is added in the same command.</source>
+          <target state="translated">このパラメーターの値には、同じコマンドに追加される型の名前を指定できます。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This value is effective only when there are no wide views defined for the type in a Format.ps1xml file.</source>
+          <target state="translated">この値は、Format.ps1xml ファイル内の型に対して定義されているワイド ビューがない場合にのみ有効です。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-DefaultDisplayPropertySet</source>
+          <target state="translated">-DefaultDisplayPropertySet</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specifies one or more properties of the type.</source>
+          <target state="translated">型の 1 つまたは複数のプロパティを指定します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>These properties are displayed by the Format-List cmdlet when no other properties are specified.</source>
+          <target state="translated">これらのプロパティは、その他のプロパティが指定されていない場合、Format-list コマンドレットで表示されます。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Type the names of standard or extended properties of the type.</source>
+          <target state="translated">型の標準および拡張プロパティの名前を入力します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The value of this parameter can be the names of types that are added in the same command.</source>
+          <target state="translated">このパラメーターの値には、同じコマンドに追加される型の名前を指定できます。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This value is effective only when there are no list views defined for the type in a Format.ps1xml file.</source>
+          <target state="translated">この値は、Format.ps1xml ファイル内の型に対して定義されているリスト ビューがない場合にのみ有効です。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-DefaultKeyPropertySet</source>
+          <target state="translated">-DefaultKeyPropertySet</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Specifies one or more properties of the type.</source>
+          <target state="translated">型の 1 つまたは複数のプロパティを指定します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>These properties are used by the Group-Object and Sort-Object cmdlets when no other properties are specified.</source>
+          <target state="translated">その他のプロパティが指定されていない場合、グループ オブジェクトと Sort-object コマンドレットを使用してこれらのプロパティが使用されます。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Type the names of standard or extended properties of the type.</source>
+          <target state="translated">型の標準および拡張プロパティの名前を入力します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The value of this parameter can be the names of types that are added in the same command.</source>
+          <target state="translated">このパラメーターの値には、同じコマンドに追加される型の名前を指定できます。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Uses the specified type data, even if type data has already been specified for that type.</source>
+          <target state="translated">既に型データがその型に指定されている場合でも、指定された型データを使用します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>-InheritPropertySerializationSet</source>
+          <target state="translated">-InheritPropertySerializationSet</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Determines whether the set of properties that are serialized is inherited.</source>
+          <target state="translated">一連のシリアル化するプロパティが継承されているかどうかを判別します。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The default value is $Null</source>
+          <target state="translated">既定値は $Null です。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有効な値は、</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>$True<ept id="p1">**</ept>: The property set is inherited.</source>
+          <target state="translated"><bpt id="p1">**</bpt>$True<ept id="p1">**</ept>: プロパティ セットを継承します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>$False<ept id="p1">**</ept>: The property set is not inherited.</source>
+          <target state="translated"><bpt id="p1">**</bpt>$False<ept id="p1">**</ept>: プロパティ セットは継承できません。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>$Null<ept id="p1">**</ept>: Inheritance is not defined.</source>
+          <target state="translated"><bpt id="p1">**</bpt>$Null<ept id="p1">**</ept>: 継承が定義されていません。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the value of the <bpt id="p1">**</bpt>SerializationMethod<ept id="p1">**</ept> parameter is <bpt id="p2">**</bpt>SpecificProperties<ept id="p2">**</ept>.</source>
+          <target state="translated">このパラメーターは、有効な場合にのみの値、 <bpt id="p1">**</bpt>SerializationMethod<ept id="p1">**</ept> パラメーターは <bpt id="p2">**</bpt>SpecificProperties<ept id="p2">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>When the value of this parameter is <bpt id="p1">**</bpt>$False<ept id="p1">**</ept>, the <bpt id="p2">**</bpt>PropertySerializationSet<ept id="p2">**</ept> parameter is required.</source>
+          <target state="translated">このパラメーターの値が <bpt id="p1">**</bpt>$False<ept id="p1">**</ept>, 、 <bpt id="p2">**</bpt>PropertySerializationSet<ept id="p2">**</ept> パラメーターは必須です。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>-MemberName</source>
+          <target state="translated">-電子メール アドレス</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Specifies the name of a property or method.</source>
+          <target state="translated">プロパティまたはメソッドの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Use this parameter with the <bpt id="p1">**</bpt>TypeName<ept id="p1">**</ept>, <bpt id="p2">**</bpt>MemberType<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Value<ept id="p3">**</ept> and <bpt id="p4">**</bpt>SecondValue<ept id="p4">**</ept> parameters to add or change a property or method of a type.</source>
+          <target state="translated">このパラメーターを使用して、 <bpt id="p1">**</bpt>TypeName<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>MemberType<ept id="p2">**</ept>, 、<bpt id="p3">**</bpt>値<ept id="p3">**</ept> と <bpt id="p4">**</bpt>SecondValue<ept id="p4">**</ept> パラメーターを追加またはプロパティまたは型のメソッドを変更します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-MemberType</source>
+          <target state="translated">-MemberType</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the member to add or change.</source>
+          <target state="translated">追加または変更するメンバーの型を指定します。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Use this parameter with the <bpt id="p1">**</bpt>TypeName<ept id="p1">**</ept>, <bpt id="p2">**</bpt>MemberType<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Value<ept id="p3">**</ept> and <bpt id="p4">**</bpt>SecondValue<ept id="p4">**</ept> parameters to add or change a property or method of a type.</source>
+          <target state="translated">このパラメーターを使用して、 <bpt id="p1">**</bpt>TypeName<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>MemberType<ept id="p2">**</ept>, 、<bpt id="p3">**</bpt>値<ept id="p3">**</ept> と <bpt id="p4">**</bpt>SecondValue<ept id="p4">**</ept> パラメーターを追加またはプロパティまたは型のメソッドを変更します。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The valid values for this parameter are: <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, <bpt id="p2">**</bpt>CodeMethod<ept id="p2">**</ept>, <bpt id="p3">**</bpt>CodeProperty<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Noteproperty<ept id="p4">**</ept>, <bpt id="p5">**</bpt>ScriptMethod<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>ScriptProperty<ept id="p6">**</ept>.</source>
+          <target state="translated">このパラメーターの有効な値: <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>CodeMethod<ept id="p2">**</ept>, 、<bpt id="p3">**</bpt>CodeProperty<ept id="p3">**</ept>, 、<bpt id="p4">**</bpt>Noteproperty<ept id="p4">**</ept>, 、<bpt id="p5">**</bpt>ScriptMethod<ept id="p5">**</ept>, 、および <bpt id="p6">**</bpt>ScriptProperty<ept id="p6">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>For information about these values, see "PSMemberTypes Enumeration" in MSDN at http://msdn.microsoft.com/library/windows/desktop/system.management.automation.psmembertypes(v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.psmembertypes(v=vs.85).aspx.</source>
+          <target state="translated">これらの値については、http://msdn.microsoft.com/library/windows/desktop/system.management.automation.psmembertypes (v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.psmembertypes(v=vs.85).aspx. で"PSMemberTypes 列挙体で MSDN を参照してください。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-PropertySerializationSet</source>
+          <target state="translated">-PropertySerializationSet</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Specifies the names of properties that are serialized.</source>
+          <target state="translated">シリアル化するプロパティの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Use this parameter when the value of the <bpt id="p1">**</bpt>SerializationMethod<ept id="p1">**</ept> parameter is <bpt id="p2">**</bpt>SpecificProperties<ept id="p2">**</ept>.</source>
+          <target state="translated">このパラメーターを使用時の値、 <bpt id="p1">**</bpt>SerializationMethod<ept id="p1">**</ept> パラメーターは <bpt id="p2">**</bpt>SpecificProperties<ept id="p2">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>-SecondValue</source>
+          <target state="translated">-SecondValue</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Specifies additional values for <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ScriptProperty<ept id="p2">**</ept>, <bpt id="p3">**</bpt>CodeProperty<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>CodeMethod<ept id="p4">**</ept> members.</source>
+          <target state="translated">その他の値を指定 <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>ScriptProperty<ept id="p2">**</ept>, 、<bpt id="p3">**</bpt>CodeProperty<ept id="p3">**</ept>, 、または <bpt id="p4">**</bpt>CodeMethod<ept id="p4">**</ept> メンバーです。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Use this parameter with the <bpt id="p1">**</bpt>TypeName<ept id="p1">**</ept>, <bpt id="p2">**</bpt>MemberType<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Value<ept id="p3">**</ept> and <bpt id="p4">**</bpt>SecondValue<ept id="p4">**</ept> parameters to add or change a property or method of a type.</source>
+          <target state="translated">このパラメーターを使用して、 <bpt id="p1">**</bpt>TypeName<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>MemberType<ept id="p2">**</ept>, 、<bpt id="p3">**</bpt>値<ept id="p3">**</ept> と <bpt id="p4">**</bpt>SecondValue<ept id="p4">**</ept> パラメーターを追加またはプロパティまたは型のメソッドを変更します。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>When the value of the <bpt id="p1">**</bpt>MemberType<ept id="p1">**</ept> parameter is <bpt id="p2">**</bpt>AliasProperty<ept id="p2">**</ept>, the value of the <bpt id="p3">**</bpt>SecondValue<ept id="p3">**</ept> parameter must be a data type.</source>
+          <target state="translated">時の値、 <bpt id="p1">**</bpt>MemberType<ept id="p1">**</ept> パラメーターは <bpt id="p2">**</bpt>AliasProperty<ept id="p2">**</ept>, の値、 <bpt id="p3">**</bpt>SecondValue<ept id="p3">**</ept> パラメーターは、データ型を指定する必要があります。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell converts ("casts") the value of the alias property to the specified type.</source>
+          <target state="translated">Windows PowerShell は、エイリアス プロパティの値を指定された型に変換("キャスト") します。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For example, if you add an alias property that provides an alternate name for a string property, you can also specify a <bpt id="p1">**</bpt>SecondValue<ept id="p1">**</ept> of System.Int32 to convert the aliased string value to an integer.</source>
+          <target state="translated">たとえば、文字列プロパティの代替名を提供するエイリアス プロパティを追加する場合も指定できます、 <bpt id="p1">**</bpt>SecondValue<ept id="p1">**</ept> System.Int32 エイリアスの文字列値を整数に変換するのです。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When the value of the <bpt id="p1">**</bpt>MemberType<ept id="p1">**</ept> parameter is <bpt id="p2">**</bpt>ScriptProperty<ept id="p2">**</ept>, you can use the <bpt id="p3">**</bpt>SecondValue<ept id="p3">**</ept> parameter to specify an additional script block.</source>
+          <target state="translated">ときの値、 <bpt id="p1">**</bpt>MemberType<ept id="p1">**</ept> パラメーターは <bpt id="p2">**</bpt>ScriptProperty<ept id="p2">**</ept>, 、使用することができます、 <bpt id="p3">**</bpt>SecondValue<ept id="p3">**</ept> パラメーターに渡して、その他のスクリプト ブロックを指定します。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The script block in the value of the <bpt id="p1">**</bpt>Value<ept id="p1">**</ept> parameter gets the value of a variable.</source>
+          <target state="translated">値でスクリプト ブロック、 <bpt id="p1">**</bpt>値<ept id="p1">**</ept> パラメーター、変数の値を取得します。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The script block in the value of the <bpt id="p1">**</bpt>SecondValue<ept id="p1">**</ept> parameter set the value of the variable.</source>
+          <target state="translated">値でスクリプト ブロック、 <bpt id="p1">**</bpt>SecondValue<ept id="p1">**</ept> パラメーターは、変数の値を設定します。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>-SerializationDepth</source>
+          <target state="translated">-SerializationDepth</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Specifies how many levels of type objects are serialized as strings.</source>
+          <target state="translated">文字列としてシリアル化する型オブジェクトのレベル数を指定します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The default value, 1, serializes the object and its properties.</source>
+          <target state="translated">既定値の 1 は、オブジェクトとそのプロパティをシリアル化します。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A value of 0 serializes the object, but not its properties.</source>
+          <target state="translated">値 0 は、プロパティではなく、オブジェクトをシリアル化します。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A value of 2 serializes the object, its properties, and any objects in property values.</source>
+          <target state="translated">値 2 は、オブジェクト、そのプロパティ、およびすべてのオブジェクトをプロパティ値内でシリアル化します。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-SerializationMethod</source>
+          <target state="translated">-SerializationMethod</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Specifies a serialization method for the type.</source>
+          <target state="translated">型のシリアル化メソッドを指定します。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>A serialization method determines which properties of the type are serialized and the technique that is used to serialize them.</source>
+          <target state="translated">シリアル化メソッドは、シリアル化される型のプロパティとそれらのシリアル化に使用する方法を決定します。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有効な値は、</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>AllPublicProperties<ept id="p1">**</ept>: Serialize all public properties of the type.</source>
+          <target state="translated"><bpt id="p1">**</bpt>AllPublicProperties<ept id="p1">**</ept>: 型のすべてのパブリック プロパティをシリアル化します。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>SerializationDepth<ept id="p1">**</ept> parameter to determine whether child properties are serialized.</source>
+          <target state="translated">使用することができます、 <bpt id="p1">**</bpt>SerializationDepth<ept id="p1">**</ept> パラメーターを子プロパティがシリアル化するかどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>String<ept id="p1">**</ept>: Serialize the type as a string.</source>
+          <target state="translated"><bpt id="p1">**</bpt>文字列<ept id="p1">**</ept>: 文字列として型をシリアル化します。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>StringSerializationSource<ept id="p1">**</ept> to specify a property of the type to use as the serialization result.</source>
+          <target state="translated">使用することができます、 <bpt id="p1">**</bpt>StringSerializationSource<ept id="p1">**</ept> をシリアル化の結果として使用する型のプロパティを指定します。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Otherwise, the type is serialized by using the <bpt id="p1">**</bpt>ToString<ept id="p1">**</ept> method of the object.</source>
+          <target state="translated">使用して、型をシリアル化するそれ以外の場合、 <bpt id="p1">**</bpt>ToString<ept id="p1">**</ept> オブジェクトのメソッドです。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SpecificProperties<ept id="p1">**</ept> Serialize only the specified properties of this type.</source>
+          <target state="translated"><bpt id="p1">**</bpt>SpecificProperties<ept id="p1">**</ept> この種類の指定されたプロパティのみをシリアル化します。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>PropertySerializationSet<ept id="p1">**</ept> parameter to specify the properties of the type that are serialized.</source>
+          <target state="translated">使用して、 <bpt id="p1">**</bpt>PropertySerializationSet<ept id="p1">**</ept> パラメーターをシリアル化される型のプロパティを指定します。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>InheritPropertySerializationSet<ept id="p1">**</ept> parameter to determine whether the property set is inherited and the <bpt id="p2">**</bpt>SerializationDepth<ept id="p2">**</ept> parameter to determine whether child properties are serialized.</source>
+          <target state="translated">使用することも、 <bpt id="p1">**</bpt>InheritPropertySerializationSet<ept id="p1">**</ept> プロパティ セットを継承するかどうかを決定するパラメーター、および <bpt id="p2">**</bpt>SerializationDepth<ept id="p2">**</ept> 子プロパティがシリアル化するかどうかを決定するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell, serialization methods are stored in <bpt id="p1">**</bpt>PSStandardMembers<ept id="p1">**</ept> internal objects.</source>
+          <target state="translated">Windows PowerShell でシリアル化メソッドが格納されている <bpt id="p1">**</bpt>PSStandardMembers<ept id="p1">**</ept> 内部オブジェクトです。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>-StringSerializationSource</source>
+          <target state="translated">-StringSerializationSource</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Specifies the name of a property of the type.</source>
+          <target state="translated">型のプロパティの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The value of specified property is used as the serialization result.</source>
+          <target state="translated">指定されたプロパティの値は、シリアル化の結果として使用されます。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the value of the <bpt id="p1">**</bpt>SerializationMethod<ept id="p1">**</ept> parameter is <bpt id="p2">**</bpt>String<ept id="p2">**</ept>.</source>
+          <target state="translated">このパラメーターは、有効な場合にのみの値、 <bpt id="p1">**</bpt>SerializationMethod<ept id="p1">**</ept> パラメーターは <bpt id="p2">**</bpt>文字列<ept id="p2">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>-TargetTypeForDeserialization</source>
+          <target state="translated">-TargetTypeForDeserialization</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Specifies the type to which object of this type are converted when they are deserialized.</source>
+          <target state="translated">この型のオブジェクトが、逆シリアル化時に変換される型を指定します。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>-TypeAdapter</source>
+          <target state="translated">-TypeAdapter</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Specifies the type of a type adapter, such as Microsoft.PowerShell.Cim.CimInstanceAdapter.</source>
+          <target state="translated">Microsoft.PowerShell.Cim.CimInstanceAdapter など、型アダプターの種類を指定します。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>A type adapter enables Windows PowerShell to get the members of a type.</source>
+          <target state="translated">型アダプターによって、Windows PowerShell は型のメンバーを取得できます。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>-TypeConverter</source>
+          <target state="translated">-TypeConverter</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Specifies a type converter to convert values between different types.</source>
+          <target state="translated">さまざまな型の間で値を変換する型コンバーターを指定します。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>If a type converter is defined for a type, an instance of the type converter is used for the conversion.</source>
+          <target state="translated">型の型コンバーターが定義されている場合、型コンバーターのインスタンスが変換に使用されます。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>System.Type<ept id="p1">**</ept> value that is derived from the <bpt id="p2">**</bpt>System.ComponentModel.TypeConverter<ept id="p2">**</ept> or <bpt id="p3">**</bpt>System.Management.Automation.PSTypeConverter<ept id="p3">**</ept> classes.</source>
+          <target state="translated">入力、 <bpt id="p1">**</bpt>System.Type<ept id="p1">**</ept> から派生する値、 <bpt id="p2">**</bpt>System.ComponentModel.TypeConverter<ept id="p2">**</ept> または <bpt id="p3">**</bpt>System.Management.Automation.PSTypeConverter<ept id="p3">**</ept> クラスです。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>-TypeData</source>
+          <target state="translated">-TypeData</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Adds the specified type data to the session.</source>
+          <target state="translated">セッションに指定された型データを追加します。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a <bpt id="p1">**</bpt>TypeData<ept id="p1">**</ept> object or a command that gets a <bpt id="p2">**</bpt>TypeData<ept id="p2">**</ept> object, such as a Get-TypeData command.</source>
+          <target state="translated">含む変数を入力して、 <bpt id="p1">**</bpt>TypeData<ept id="p1">**</ept> オブジェクトまたは取得するコマンドを <bpt id="p2">**</bpt>TypeData<ept id="p2">**</ept> Get-typedata コマンドなどのオブジェクト。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>You can also pipe a TypeData object to <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept>.</source>
+          <target state="translated">TypeData オブジェクトをパイプすることもできます <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>-TypeName</source>
+          <target state="translated">型名</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the type to extend.</source>
+          <target state="translated">拡張する型の名前を指定します。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>For types in the <bpt id="p1">**</bpt>System<ept id="p1">**</ept> namespace, enter the short name.</source>
+          <target state="translated">内の型について、 <bpt id="p1">**</bpt>システム<ept id="p1">**</ept> 名前空間、短い名前を入力します。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Otherwise, the full type name is required.</source>
+          <target state="translated">それ以外の場合は、完全な型名が必要です。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Wildcards are not supported.</source>
+          <target state="translated">ワイルドカードはサポートされません。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>You can pipe type names to <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept>.</source>
+          <target state="translated">型名をパイプ処理できます <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>When you pipe an object to <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept> gets the type name of the object and type data to the object type.</source>
+          <target state="translated">オブジェクトをパイプする <bpt id="p1">**</bpt>Update-typedata<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>Update-typedata<ept id="p2">**</ept> 、オブジェクトの種類へのオブジェクトと型のデータの型名を取得します。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Use this parameter with the <bpt id="p1">**</bpt>MemberName<ept id="p1">**</ept>, <bpt id="p2">**</bpt>MemberType<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Value<ept id="p3">**</ept> and <bpt id="p4">**</bpt>SecondValue<ept id="p4">**</ept> parameters to add or change a property or method of a type.</source>
+          <target state="translated">このパラメーターを使用して、 <bpt id="p1">**</bpt>MemberName<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>MemberType<ept id="p2">**</ept>, 、<bpt id="p3">**</bpt>値<ept id="p3">**</ept> と <bpt id="p4">**</bpt>SecondValue<ept id="p4">**</ept> パラメーターを追加またはプロパティまたは型のメソッドを変更します。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>-Value</source>
+          <target state="translated">値</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the property or method.</source>
+          <target state="translated">プロパティまたはメソッドの値を指定します。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>If you add an <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, <bpt id="p2">**</bpt>CodeProperty<ept id="p2">**</ept>, <bpt id="p3">**</bpt>ScriptProperty<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>CodeMethod<ept id="p4">**</ept> member, you can use the <bpt id="p5">**</bpt>SecondValue<ept id="p5">**</ept> parameter to add additional information..</source>
+          <target state="translated">追加する場合、 <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>CodeProperty<ept id="p2">**</ept>, 、<bpt id="p3">**</bpt>ScriptProperty<ept id="p3">**</ept>, 、または <bpt id="p4">**</bpt>CodeMethod<ept id="p4">**</ept> 使用できる、メンバー、 <bpt id="p5">**</bpt>SecondValue<ept id="p5">**</ept> パラメーター情報を追加する.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Use this parameter with the <bpt id="p1">**</bpt>MemberName<ept id="p1">**</ept>, <bpt id="p2">**</bpt>MemberType<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Value<ept id="p3">**</ept> and <bpt id="p4">**</bpt>SecondValue<ept id="p4">**</ept> parameters to add or change a property or method of a type.</source>
+          <target state="translated">このパラメーターを使用して、 <bpt id="p1">**</bpt>MemberName<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>MemberType<ept id="p2">**</ept>, 、<bpt id="p3">**</bpt>値<ept id="p3">**</ept> と <bpt id="p4">**</bpt>SecondValue<ept id="p4">**</ept> パラメーターを追加またはプロパティまたは型のメソッドを変更します。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">コマンドレットを実行する前に確認するように求められます。コマンドレットを実行する前に確認するように求められます。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットを実行するとどのような結果になるかを表示します。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットは実行されません。コマンドレットが実行された場合の処理を示しています。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">コマンドレットは実行されません。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>You can pipe a string that contains the values of the <bpt id="p1">**</bpt>AppendPath<ept id="p1">**</ept>, <bpt id="p2">**</bpt>TypeName<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>TypeData<ept id="p3">**</ept> parameters to <bpt id="p4">**</bpt>Update-TypeData<ept id="p4">**</ept>.</source>
+          <target state="translated">値を含む文字列をパイプすることができます、 <bpt id="p1">**</bpt>AppendPath<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>TypeName<ept id="p2">**</ept>, 、または <bpt id="p3">**</bpt>TypeData<ept id="p3">**</ept> パラメーター <bpt id="p4">**</bpt>Update-typedata<ept id="p4">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not return any output.</source>
+          <target state="translated">このコマンドレットによる戻り値はありません。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>about_Types.ps1xml</source>
+          <target state="translated">about_Types.ps1xml</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Get-TypeData</source>
+          <target state="translated">Get-TypeData</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Remove-TypeData</source>
+          <target state="translated">Remove-TypeData</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

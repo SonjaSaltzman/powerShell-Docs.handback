@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84ca6c59431190bf773e861b25577171c7376cf2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Utility\Format-Table.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c029994c1ca129fc5ea8352a10ce5853500d42b2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4163d0f4e131053cea406aa8ceaa0cbd8b10e4c0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Format-Table</source>
+          <target state="translated">Format-Table</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Format-Table</source>
+          <target state="translated">Format-Table</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Formats the output as a table.</source>
+          <target state="translated">出力を表として書式設定します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Format-Table cmdlet formats the output of a command as a table with the selected properties of the object in each column.</source>
+          <target state="translated">Format-Table コマンドレットは、コマンドの出力を、オブジェクトの選択したプロパティが各列に配置された表として書式設定します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The object type determines the default layout and properties that are displayed in each column, but you can use the Property parameter to select the properties that you want to see.</source>
+          <target state="translated">既定のレイアウトと各列に表示されるプロパティはオブジェクトの種類によって決定されますが、Property パラメーターを使用して、表示するプロパティを選択できます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can also use a hash table to add calculated properties to an object before displaying it and to specify the column headings in the table.</source>
+          <target state="translated">また、ハッシュ テーブルを使用して、オブジェクトを表示する前に集計プロパティを追加したり、表の列見出しを指定したりできます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To add a calculated property, use the Property or GroupBy parameters.</source>
+          <target state="translated">集計プロパティを追加するには、Property パラメーターまたは GroupBy パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command formats information about Windows PowerShell snap-ins in a table.</source>
+          <target state="translated">このコマンドは、Windows PowerShell スナップインに関する情報を表形式で書式設定します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>By default, they are formatted in a list.</source>
+          <target state="translated">既定では、情報はリスト形式で書式設定されます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The Get-PSSnapin cmdlet gets objects representing the snap-ins.</source>
+          <target state="translated">Get-pssnapin コマンドレットは、スナップインを表すオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) passes the object to the Format-Table command.</source>
+          <target state="translated">パイプライン演算子 (|) により、オブジェクトが Format-Table コマンドに渡されます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Format-Table formats the objects in a table.</source>
+          <target state="translated">Format-Table によって、オブジェクトが表形式で書式設定されます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The Autosize parameter adjusts the column widths to minimize truncation.</source>
+          <target state="translated">Autosize パラメーターによって列幅を調整され、切り捨てが最小限に抑えられます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command displays the processes on the computer in groups with the same base priority.</source>
+          <target state="translated">このコマンドは、コンピューター上のプロセスを同じ基本優先度を持つグループに分けて表示します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The Get-Process cmdlet gets objects representing each process on the computer.</source>
+          <target state="translated">Get-process コマンドレットは、コンピューター上の各プロセスを表すオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) passes the object to the Sort-Object cmdlet, which sorts the objects in order of their base priority.</source>
+          <target state="translated">パイプライン演算子 (|) は、オブジェクトの基本優先度の順に並べ替えます Sort-object コマンドレットにオブジェクトを渡します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Another pipeline operator passes the results to the Format-Table cmdlet.</source>
+          <target state="translated">もう 1 つのパイプライン演算子により、結果が Format-Table コマンドレットに渡されます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The GroupBy parameter arranges the data about the processes into groups based on the value of their BasePriority property.</source>
+          <target state="translated">GroupBy パラメーターにより、BasePriority プロパティの値に基づいて、プロセスに関するデータがグループ化されます。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The Wrap parameter ensures that data is not truncated.</source>
+          <target state="translated">Wrap パラメーターが指定されているため、データは切り捨てられません。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command displays information about the processes on the computer in group based on the start date of the process.</source>
+          <target state="translated">このコマンドは、コンピューター上のプロセスに関する情報をプロセスの開始日に基づくグループに分けて表示します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It uses the Get-Process cmdlet to get objects representing the processes on the computer.</source>
+          <target state="translated">Get-process コマンドレットを使用して、コンピューター上のプロセスを表すオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) sends the output of Get-Process to the Sort-Object cmdlet, which sorts it based on the StartTime property.</source>
+          <target state="translated">パイプライン演算子 (|) は、StartTime プロパティに基づいて種類の組み合わせ、Sort-object コマンドレットに、Get-process の出力を送信します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Another pipeline operator sends the sorted results to Format-Table.</source>
+          <target state="translated">もう 1 つのパイプライン演算子によって、並べ替えられた結果が Format-Table に渡されます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The View parameter is used to select the StartTime view that is defined in the DotNetTypes.format.ps1xml formatting file for System.Diagnostics.Process objects, such as those returned by Get-Process.</source>
+          <target state="translated">View パラメーターは、System.Diagnostics.Process オブジェクト (たとえば、Get-Process から返されるオブジェクト) の DotNetTypes.Format.ps1xml 書式設定ファイルに定義されている StartTime ビューを選択するために使用されています。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This view converts the StartTime of the process to a short date and then groups the processes by start date.</source>
+          <target state="translated">このビューにより、プロセスの StartTime が短い日付に変換され、開始日に基づいてプロセスがグループ化されます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The DotNetTypes.format.ps1xml formatting file also contains a Priority view for processes, and you can create your own format.ps1xml files with customized views.</source>
+          <target state="translated">DotNetTypes.format.ps1xml 書式設定ファイルには、プロセスの Priority ビューも含まれています。また、カスタマイズしたビューを含む format.ps1xml ファイルを自分で作成することもできます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command displays all of the services on the computer in a table with two columns, Name and DependentServices.</source>
+          <target state="translated">このコマンドは、コンピューター上のすべてのサービスを、Name と DependentServices の 2 つの列を含む表の形式で表示します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Service cmdlet to get all of the services on the computer.</source>
+          <target state="translated">コマンドでは、Get-service コマンドレットを使用して、コンピューター上のすべてのサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) sends the results to the Format-Table cmdlet, which formats the output in a table.</source>
+          <target state="translated">結果がパイプライン演算子 (|) によって Format-Table コマンドレットに送られ、その出力が表形式に書式設定されます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The Property parameter specifies the properties that appear in the table as columns.</source>
+          <target state="translated">Property パラメーターは、表の列として表示されるプロパティを指定します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The name of the Property parameter is optional, so you can omit it ("format-table name, dependentservices").</source>
+          <target state="translated">Property パラメーターの名前はオプションのため、省略できます ("format-table name, dependentservices")。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Property and DependentServices are just two of the properties of service objects.</source>
+          <target state="translated">Property と DependentServices は、サービス オブジェクトのプロパティのうちの 2 つにすぎません。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To view all of the properties, type "get-service | get-member".</source>
+          <target state="translated">すべてのプロパティを表示するには、「get-service | get-member」と入力します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This command shows how to use a calculated property in a table.</source>
+          <target state="translated">このコマンドは、表の中で集計プロパティを使用する方法を示しています。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command displays a table with the process name and total running time of all Notepad processes on the local computer.</source>
+          <target state="translated">このコマンドは、ローカル コンピューター上のすべてのメモ帳プロセスについてプロセス名と合計実行時間を表形式で表示します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The total running time is calculated by subtracting the start time of each process from the current time.</source>
+          <target state="translated">合計実行時間は、現在の時刻から各プロセスの開始時刻を差し引いて求めます。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Process cmdlet to get all processes named "Notepad" on the local computer.</source>
+          <target state="translated">コマンドは、ローカル コンピューターの"Notepad"という名前のすべてのプロセスを取得するのに、Get-process コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) sends the results to Format-Table, which displays a table with two columns: ProcessName, a standard property of processes, and TotalRunningTime, a calculated property.</source>
+          <target state="translated">パイプライン演算子 (|) を Format-table は、2 つの列を含むテーブルを表示する結果を送信する: プロセス名、プロセスの標準プロパティと TotalRunningTime、計算されるプロパティです。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The TotalRunningTime property is specified by a hash table with two keys, Label and Expression.</source>
+          <target state="translated">TotalRunningTime プロパティは、Label と Expression の 2 つのキーを持つハッシュ テーブルによって指定されます。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The name of the property is assigned to the Label key.</source>
+          <target state="translated">Label キーにはプロパティの名前が割り当てられます。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The calculation is assigned to the Expression key.</source>
+          <target state="translated">Expression キーには計算が割り当てられます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The expression gets the StartTime property of each process object and subtracts it from the result of a Get-Date command, which gets the current date (and time).</source>
+          <target state="translated">式では、各プロセス オブジェクトの StartTime プロパティを取得して、それを現在の日付 (と時刻) を取得する Get-Date コマンドの結果から減算します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>These commands are similar to the previous command, except that these commands use the Get-WmiObject cmdlet and the Win32_Process class to display information about Notepad processes on a remote computer.</source>
+          <target state="translated">これらのコマンドをリモート コンピューターでメモ帳のプロセスに関する情報を表示する、Get-wmiobject コマンドレットと Win32_Process クラスを使用する点を除いて、これらのコマンドは、前のコマンドに似ています。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-WmiObject cmdlet to get instances of the Windows Management Instrumentation (WMI) Win32_Process class that describes all of the processes on the Server01 computer that are named Notepad.exe.</source>
+          <target state="translated">最初のコマンドでは、Get-WmiObject コマンドレットを使用して、Server01 コンピューター上の Notepad.exe という名前のすべてのプロセスを記述する Windows Management Instrumentation (WMI) Win32_Process クラスのインスタンスを取得します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The command stores the process information in the $processes variable.</source>
+          <target state="translated">このコマンドは、プロセス情報を $processes 変数に格納します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The second command uses a pipeline operator (|) to send the process information in the $processes variable to the Format-Table cmdlet, which displays the ProcessName of each process along with a new calculated property.</source>
+          <target state="translated">2 番目のコマンドでは、パイプライン演算子 (|) を使用して、$processes 変数内のプロセス情報を Format-Table コマンドレットに送信し、このコマンドレットによって各プロセスのプロセス名を新しい集計プロパティと共に表示しています。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The command assigns the name of the new calculated property, Total Running Time, to the Label key.</source>
+          <target state="translated">このコマンドは、Total Running Time という新しい集計プロパティの名前を Label キーに割り当てます。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The script block that is assigned to the Expression key calculates how long the process has been running by subtracting the creation date of the process from the current date.</source>
+          <target state="translated">Expression キーに割り当てられているスクリプト ブロックでは、現在の日付からプロセスの作成日を差し引くことによって、プロセスの実行時間を求めています。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The Get-Date cmdlet gets the current date.</source>
+          <target state="translated">Get-Date コマンドレットは、現在の日付を取得します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The ConvertToDateTime method converts the CreationDate property of the Win32_Process object from a WMI CIM_DATETIME object to a Microsoft .NET Framework DateTime object that can be compared with the output of Get-Date.</source>
+          <target state="translated">ConvertToDateTime メソッドは、WMI CIM_DATETIME オブジェクトからの Win32_Process オブジェクトの CreationDate プロパティを、Get-Date の出力と比較できる Microsoft .NET Framework の DateTime オブジェクトに変換します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Then, the converted creation date is subtracted from the current date.</source>
+          <target state="translated">次に、変換された作成日を現在の日付から差し引きます。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The result is the value of Total Running Time.</source>
+          <target state="translated">その結果が、Total Running Time の値となります。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-AutoSize</source>
+          <target state="translated">-Autosize</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Adjusts the column size and number of columns based on the width of the data.</source>
+          <target state="translated">データの幅に基づいて列のサイズと数を調整します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>By default, the column size and number are determined by the view.</source>
+          <target state="translated">既定では、列のサイズと数は、ビューによって決まります。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-DisplayError</source>
+          <target state="translated">-DisplayError</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Displays errors at the command line.</source>
+          <target state="translated">コマンド ラインでのエラーを表示します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This parameter is rarely used, but can be used as a debugging aid when you are formatting expressions in a Format-Table command, and the expressions do not appear to be working.</source>
+          <target state="translated">このパラメーターを使用することはほとんどありません。ただし、Format-Table コマンドで式を書式設定していて、式が機能していないと思われる場合は、デバッグのためにこのパラメーターを使用できます。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The following shows an example of the results of adding the DisplayError parameter with an expression.</source>
+          <target state="translated">式と共に DisplayError パラメーターを追加した結果の例を次に示します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>PS <ph id="ph1">\&gt;</ph> Get-Date | Format-Table DayOfWeek,{ $<bpt id="p1">_</bpt> / $null } -ShowError DayOfWeek  $<ept id="p1">_</ept> / $null</source>
+          <target state="translated">PS <ph id="ph1">\&gt;</ph> Get-date |Format-table DayOfWeek, {$<bpt id="p1">_</bpt> /$null}-showerror DayOfWeek $<ept id="p1">_</ept> /$null</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Wednesday #ERR</source>
+          <target state="translated">水曜日 #ERR</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-Expand</source>
+          <target state="translated">-展開します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Formats the collection object, as well as the objects in the collection.</source>
+          <target state="translated">コレクション内のオブジェクトに加えてコレクション オブジェクトを書式設定します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This parameter is designed to format objects that support the ICollection (System.Collections) interface.</source>
+          <target state="translated">このパラメーターは、ICollection (System.Collections) インターフェイスをサポートするオブジェクトを書式設定するために用意されています。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The default value is EnumOnly.</source>
+          <target state="translated">既定値は EnumOnly です。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有効な値は、</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>EnumOnly: Displays the properties of the objects in the collection.</source>
+          <target state="translated">EnumOnly: は、コレクション内のオブジェクトのプロパティを表示します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>CoreOnly: Displays the properties of the collection object.</source>
+          <target state="translated">CoreOnly: は、コレクション オブジェクトのプロパティを表示します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Both: Displays the properties of the collection object and the properties of objects in the collection.</source>
+          <target state="translated">Both: により、コレクション オブジェクトのプロパティとオブジェクトのプロパティがコレクションに表示します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Directs the cmdlet to display all of the error information.</source>
+          <target state="translated">すべてのエラー情報を表示することをコマンドレットに指示します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Use with the DisplayError or ShowError parameters.</source>
+          <target state="translated">DisplayError パラメーターまたは ShowError パラメーターと共に使用します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>By default, when an error object is written to the error or display streams, only some of the error information is displayed.</source>
+          <target state="translated">既定では、エラー オブジェクトがエラーまたは表示ストリームに書き込まれるとき、エラー情報の一部のみが表示されます。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-GroupBy</source>
+          <target state="translated">-GroupBy</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Arranges sorted output in separate tables based on a property value.</source>
+          <target state="translated">プロパティ値に基づいて並べ替えられた出力を別の表に表示します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For example, you can use GroupBy to list services in separate tables based on their status.</source>
+          <target state="translated">たとえば、GroupBy を使用して、サービスの一覧をステータスに基づいて別個の表に表示できます。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Enter an expression or a property of the output.</source>
+          <target state="translated">式または出力のプロパティを入力します。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The output must be sorted before you send it to Format-Table.</source>
+          <target state="translated">出力は、Format-Table に送る前に並べ替える必要があります。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The value of the GroupBy parameter can be a new calculated property.</source>
+          <target state="translated">GroupBy パラメーターの値として、新しい集計プロパティを使用できます。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>To create a calculated, property, use a hash table.</source>
+          <target state="translated">集計プロパティを作成するには、ハッシュ テーブルを使用します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Valid keys are:</source>
+          <target state="translated">有効なキーは次のとおりです。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Name (or Label) <ph id="ph1">\&lt;</ph>string</source>
+          <target state="translated">名前 (またはラベル) <ph id="ph1">\&lt;</ph>文字列</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Expression <ph id="ph1">\&lt;</ph>string<ph id="ph2">\&gt;</ph> or <ph id="ph3">\&lt;</ph>script block</source>
+          <target state="translated">式 <ph id="ph1">\&lt;</ph>文字列<ph id="ph2">\&gt;</ph> または <ph id="ph3">\&lt;</ph>スクリプト ブロック</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>FormatString <ph id="ph1">\&lt;</ph>string</source>
+          <target state="translated">FormatString <ph id="ph1">\&lt;</ph>文字列</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-HideTableHeaders</source>
+          <target state="translated">-HideTableHeaders</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Omits the column headings from the table.</source>
+          <target state="translated">表から列見出しを削除します。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-Inputobject</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Specifies the objects to be formatted.</source>
+          <target state="translated">書式設定するオブジェクトを指定します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects, or type a command or expression that gets the objects.</source>
+          <target state="translated">オブジェクトが格納されている変数を入力するか、オブジェクトを取得するコマンドまたは式を入力します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-Property</source>
+          <target state="translated">-プロパティ</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Specifies the object properties that appear in the display and the order in which they appear.</source>
+          <target state="translated">表示するオブジェクト プロパティと、その表示順序を指定します。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Type one or more property names (separated by commas), or use a hash table to display a calculated property.</source>
+          <target state="translated">1 つまたは複数の (コンマ区切りの) プロパティ名を入力するか、またはハッシュ テーブルを使用して集計プロパティを表示します。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, the properties that appear in the display depend on the object being displayed.</source>
+          <target state="translated">このパラメーターを省略した場合、表示されるプロパティは、表示されるオブジェクトに依存します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The parameter name ("Property") is optional.</source>
+          <target state="translated">パラメーター名 ("Property") は省略可能です。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>You cannot use the Property and View parameters in the same command.</source>
+          <target state="translated">Property パラメーターと View パラメーターを同じコマンドで使用することはできません。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The value of the Property parameter can be a new calculated property.</source>
+          <target state="translated">Property パラメーターの値として、新しい集計プロパティを使用できます。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To create a calculated, property, use a hash table.</source>
+          <target state="translated">集計プロパティを作成するには、ハッシュ テーブルを使用します。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Valid keys are:</source>
+          <target state="translated">有効なキーは次のとおりです。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Name (or Label) <ph id="ph1">\&lt;</ph>string</source>
+          <target state="translated">名前 (またはラベル) <ph id="ph1">\&lt;</ph>文字列</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Expression <ph id="ph1">\&lt;</ph>string<ph id="ph2">\&gt;</ph> or <ph id="ph3">\&lt;</ph>script block</source>
+          <target state="translated">式 <ph id="ph1">\&lt;</ph>文字列<ph id="ph2">\&gt;</ph> または <ph id="ph3">\&lt;</ph>スクリプト ブロック</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>FormatString <ph id="ph1">\&lt;</ph>string</source>
+          <target state="translated">FormatString <ph id="ph1">\&lt;</ph>文字列</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Width <ph id="ph1">\&lt;</ph>int32</source>
+          <target state="translated">幅 <ph id="ph1">\&lt;</ph>int32</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Alignment  (value can be "Left", "Center", or "Right")</source>
+          <target state="translated">配置 (値は、"Left"、"Center"または"Right"に指定できます)</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-ShowError</source>
+          <target state="translated">-Showerror</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Sends errors through the pipeline.</source>
+          <target state="translated">パイプラインを使用してエラーを送信します。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This parameter is rarely used, but can be used as a debugging aid when you are formatting expressions in a Format-Table command, and the expressions do not appear to be working.</source>
+          <target state="translated">このパラメーターを使用することはほとんどありません。ただし、Format-Table コマンドで式を書式設定していて、式が機能していないと思われる場合は、デバッグのためにこのパラメーターを使用できます。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The following shows an example of the results of adding the ShowError parameter with an expression.</source>
+          <target state="translated">式と共に ShowError パラメーターを追加した結果の例を次に示します。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>PS <ph id="ph1">\&gt;</ph> Get-Date | Format-Table DayOfWeek,{ $<bpt id="p1">_</bpt> / $null } -ShowError DayOfWeek  $<ept id="p1">_</ept> / $null</source>
+          <target state="translated">PS <ph id="ph1">\&gt;</ph> Get-date |Format-table DayOfWeek, {$<bpt id="p1">_</bpt> /$null}-showerror DayOfWeek $<ept id="p1">_</ept> /$null</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Wednesday</source>
+          <target state="translated">水曜日</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Failed to evaluate expression " $_ / $null ".</source>
+          <target state="translated">式 " $_ / $null " を評価できませんでした。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>+ CategoryInfo          : InvalidArgument: (10/30/2013 2:28:07 PM:PSObject) <ph id="ph1">\[\]</ph>, RuntimeException + FullyQualifiedErrorId : mshExpressionError</source>
+          <target state="translated">+ CategoryInfo: 無効な引数: (2013 年 10 月 30 日 2時 28分: 07 PM:PSObject) <ph id="ph1">\[\]</ph>, 、RuntimeException + FullyQualifiedErrorId: mshExpressionError</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-View</source>
+          <target state="translated">ビュー</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Specifies the name of an alternate table format or "view."</source>
+          <target state="translated">代替表形式または "ビュー" の名前を指定します。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>You cannot use the Property and View parameters in the same command.</source>
+          <target state="translated">Property パラメーターと View パラメーターを同じコマンドで使用することはできません。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-Wrap</source>
+          <target state="translated">ラップ</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Displays text that exceeds the column width on the next line.</source>
+          <target state="translated">列幅を超えるテキストを次の行に表示します。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>By default, text that exceeds the column width is truncated.</source>
+          <target state="translated">既定では、列幅を超えるテキストは切り捨てられます。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>You can pipe any object to Format-Table.</source>
+          <target state="translated">パイプを使用して任意のオブジェクトを Format-Table に渡すことができます。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.Internal.Format</source>
+          <target state="translated">Microsoft.PowerShell.Commands.Internal.Format</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Format-Table returns format objects that represent the table.</source>
+          <target state="translated">Format-Table は、表を表す書式設定オブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The GroupBy parameter assumes that the objects are sorted.</source>
+          <target state="translated">GroupBy パラメーターは、オブジェクトが並べ替えられていると仮定します。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Before using Format-Table to group the objects, use the T:Microsoft.PowerShell.Commands.Sort-Object cmdlet to sort them.</source>
+          <target state="translated">オブジェクトをグループ化形式のテーブルを使用する前に、別に並べ替える T:Microsoft.PowerShell.Commands.Sort オブジェクト コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The View parameter lets you specify an alternate format for the table.</source>
+          <target state="translated">View パラメーターを使用すると、表の代替形式を指定できます。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>You can use the views defined in the *.format.PS1XML files in the Windows PowerShell directory or you can create your own views in new PS1XML files and then use the T:Microsoft.PowerShell.Commands.Update-FormatData cmdlet to include them in Windows PowerShell.</source>
+          <target state="translated">定義されているビューを使用する、* .format します。Windows PowerShell ディレクトリ内の PS1XML ファイルは、新しい PS1XML ファイルに独自のビューを作成し、T:Microsoft.PowerShell.Commands.Update されますコマンドレットを使用して、Windows PowerShell に含めることができます。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The alternate views for the View parameter must use the table format.</source>
+          <target state="translated">View パラメーターの代替ビューでは、表形式を使用する必要があります。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If it does not, the command fails.</source>
+          <target state="translated">表形式が使用されていない場合、コマンドは失敗します。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>If the alternate view is a list, use the T:Microsoft.PowerShell.Commands.Format-List cmdlet.</source>
+          <target state="translated">代替ビューがリストの場合は、T:microsoft.powershell.commands.format-list コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>If the alternate view is neither a list nor a table, use the T:Microsoft.PowerShell.Commands.Format-Custom cmdlet.</source>
+          <target state="translated">代替ビューがリストと表のどちらでもない場合は、T:Microsoft.PowerShell.Commands.Format-Custom コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Format-Custom</source>
+          <target state="translated">Format-Custom</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Format-List</source>
+          <target state="translated">Format-List</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Format-Wide</source>
+          <target state="translated">Format-Wide</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3f043267e33fe9484e9b339db8b296d86f49368</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\PSScheduledJob\About\about_Scheduled_Jobs_Basics.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9debfd19c6382e7c26a2cfe04c7633c9af89faea</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e99ca94ebd33390450190ddfd193a437dcca88e9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Basics</source>
+          <target state="translated">about_Scheduled_Jobs_Basics</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet PowerShell</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Scheduled Jobs Basics</source>
+          <target state="translated">Sulle nozioni di base di processi pianificati</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Basics</source>
+          <target state="translated">about_Scheduled_Jobs_Basics</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Basics</source>
+          <target state="translated">about_Scheduled_Jobs_Basics</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">DESCRIZIONE BREVE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Explains how to create and manage scheduled jobs.</source>
+          <target state="translated">Illustra come creare e gestire processi pianificati.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">DESCRIZIONE LUNGA</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This topic shows how to perform basic tasks of creating and managing scheduled jobs.</source>
+          <target state="translated">In questo argomento viene illustrato come eseguire semplici attività di creazione e gestione dei processi pianificati.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For information about more advanced tasks, see about_Scheduled_Jobs_Advanced.</source>
+          <target state="translated">Per informazioni sulle attività più avanzate, vedere about_Scheduled_Jobs_Advanced.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>HOW TO CREATE A SCHEDULED JOB</source>
+          <target state="translated">PROCEDURA: CREARE UN PROCESSO PIANIFICATO</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To create a scheduled job, use the Register-ScheduledJob cmdlet.</source>
+          <target state="translated">Per creare un processo pianificato, utilizzare il cmdlet Register-ScheduledJob.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The cmdlet requires a name and the commands or script that the job runs.</source>
+          <target state="translated">Il cmdlet richiede un nome e i comandi o script che viene eseguito il processo.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can either run the job immediately by adding the RunNow parameter, or create a job trigger and set job options when you create the job or at a later time.</source>
+          <target state="translated">È possibile eseguire immediatamente il processo aggiungendo il parametro RunNow, o creare un trigger di processo e impostare le opzioni di processo quando si crea il processo o in un secondo momento.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To create a job that runs a script, use the FilePath parameter to specify the path to the script file.</source>
+          <target state="translated">Per creare un processo che esegue uno script, utilizzare il parametro FilePath per specificare il percorso del file di script.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To create a job that runs commands, use the ScriptBlock parameter.</source>
+          <target state="translated">Per creare un processo che esegue i comandi, utilizzare il parametro ScriptBlock.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following command creates the ProcessJob, which runs a Get-Process command.</source>
+          <target state="translated">Il comando seguente crea il ProcessJob, che viene eseguito un comando Get-Process.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This scheduled job has the default job options and no job trigger.</source>
+          <target state="translated">Il processo pianificato, le opzioni di processo predefinito e alcun trigger di processo.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Register-ScheduledJob -Name ProcessJob -ScriptBlock { Get-Process }</source>
+          <target state="translated">PS C: &gt; Register-ScheduledJob-nome ProcessJob - ScriptBlock {Get-Process}</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Id         Name            Triggers        Command       Enabled</source>
+          <target state="translated">ID nome trigger comando abilitato</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>8          ProcessJob      {}              Get-Process   True</source>
+          <target state="translated">8 ProcessJob {Get-Process True</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>HOW TO CREATE A JOB TRIGGER</source>
+          <target state="translated">PROCEDURA: CREARE UN TRIGGER DI PROCESSO</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Job triggers start a scheduled job automatically.</source>
+          <target state="translated">I trigger di processo avviato un processo pianificato automaticamente.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A job trigger can be one-time or recurring schedule or an event, such as when a user logs on or Windows starts.</source>
+          <target state="translated">Un trigger di processo può essere pianificazione occasionale o ricorrente o un evento, ad esempio quando un utente accede o avvio di Windows.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Each job can have zero, one, or multiple job triggers.</source>
+          <target state="translated">Ogni processo può includere zero, uno o più trigger di processo.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To create a job trigger, use the New-JobTrigger cmdlet.</source>
+          <target state="translated">Per creare un trigger di processo, utilizzare il cmdlet New-JobTrigger.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following command creates a job trigger that starts a job every Monday and Thursday at 5:00 AM.</source>
+          <target state="translated">Il comando seguente crea un trigger di processo che avvia un processo ogni lunedì e giovedì alle 05:00.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The command saves the job trigger in the $t variable.</source>
+          <target state="translated">Il comando Salva il trigger di processo nella variabile $t.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>$t = New-JobTrigger -Weekly -DaysOfWeek "Monday", "Thursday" -At "5:00 AM"</source>
+          <target state="translated">$t = nuovo-JobTrigger-settimanale - DaysOfWeek "Monday", "Giovedì"-a "5:00 AM"</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Job triggers are optional.</source>
+          <target state="translated">I trigger di processo sono facoltativi.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can start a scheduled job at any time by adding the RunNow parameter to your Register-ScheduledJob command, or by using the Start-Job cmdlets.</source>
+          <target state="translated">È possibile avviare un processo pianificato in qualsiasi momento aggiungendo il parametro RunNow al comando Register-ScheduledJob o utilizzando i cmdlet Start-Job.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>HOW TO ADD A JOB TRIGGER</source>
+          <target state="translated">PROCEDURA: AGGIUNGERE UN TRIGGER DI PROCESSO</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When you add a job trigger to a scheduled job, the job trigger is added to the scheduled job XML file for the scheduled job and becomes part of the scheduled job.</source>
+          <target state="translated">Quando si aggiunge un trigger di processo a un processo pianificato, il trigger di processo viene aggiunto al file XML processo pianificato per il processo pianificato e diventa parte del processo pianificato.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can add a job trigger to a scheduled job when you create the scheduled job or at a later time and you can change the job trigger of a scheduled job at any time.</source>
+          <target state="translated">È possibile aggiungere un trigger di processo a un processo pianificato quando si crea il processo pianificato o in un secondo momento ed è possibile modificare il trigger di processo di un processo pianificato in qualsiasi momento.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses some of the same job triggers that Task Scheduler uses.</source>
+          <target state="translated">Windows PowerShell utilizza alcuni degli stessi trigger di processo che viene utilizzata l'utilità di pianificazione.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For detailed information about job triggers, see the help topic for the New-JobTrigger cmdlet.</source>
+          <target state="translated">Per informazioni dettagliate sui trigger di processo, vedere l'argomento della Guida per il cmdlet New-JobTrigger.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The following command uses the Register-ScheduledJob cmdlet to create the process job.</source>
+          <target state="translated">Il comando seguente usa il cmdlet Register-ScheduledJob per creare il processo di elaborazione.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It uses the Trigger parameter to specify the job trigger in the $t variable.</source>
+          <target state="translated">Utilizza il parametro di Trigger per specificare il trigger di processo nella variabile $t.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Register-ScheduledJob -Name ProcessJob -ScriptBlock {Get-Command} -Trigger $t</source>
+          <target state="translated">Register-ScheduledJob-nome ProcessJob - ScriptBlock {Get-Command} - attivare $t</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can also add a job trigger to an existing scheduled job at any time.</source>
+          <target state="translated">È inoltre possibile aggiungere un trigger di processo per un processo pianificato esistente in qualsiasi momento.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The following command adds the job trigger in the $t variable to the  ProcessJob scheduled job.</source>
+          <target state="translated">Il seguente comando aggiunge il trigger di processo nella variabile $t per il processo pianificato ProcessJob.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Add-JobTrigger -Name ProcessJob -Trigger $t</source>
+          <target state="translated">Add-JobTrigger-nome ProcessJob-Trigger $t</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>As a result of this command, the job trigger starts the ProcessJob automatically every Monday and Thursday at 5:00 AM.</source>
+          <target state="translated">In questo caso, il trigger di processo viene avviato il ProcessJob automaticamente ogni lunedì e giovedì alle 05:00.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>HOW TO GET A JOB TRIGGER</source>
+          <target state="translated">PROCEDURA: OTTENERE UN TRIGGER DI PROCESSO</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To get the job trigger of a scheduled job, use the Get-JobTrigger cmdlet.</source>
+          <target state="translated">Per ottenere il trigger di processo di un processo pianificato, utilizzare il cmdlet Get-JobTrigger.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Use the Name, ID, and InputObject parameters to specify the scheduled job (not the job trigger).</source>
+          <target state="translated">Utilizzare i parametri Name, ID e InputObject per specificare il processo pianificato (non il trigger di processo).</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The following command gets the job trigger of the ProcessJob.</source>
+          <target state="translated">Il comando seguente ottiene il trigger di ProcessJob il processo.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-JobTrigger -Name ProcessJob</source>
+          <target state="translated">PS C: &gt; Get-JobTrigger-nome ProcessJob</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Id   Frequency       Time                   DaysOfWeek              Enabled</source>
+          <target state="translated">ID frequenza ora DaysOfWeek abilitato</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>1    Weekly          11/7/2011 5:00:00 AM   {Monday, Thursday}      True</source>
+          <target state="translated">1 settimana 11/7/2011 True 5:00:00 AM {lunedì, giovedì}</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>HOW TO CREATE JOB OPTIONS</source>
+          <target state="translated">PROCEDURA: CREARE LE OPZIONI DI PROCESSO</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Job options establish conditions for starting and running the job.</source>
+          <target state="translated">Opzioni del processo di stabiliscono le condizioni per l'avvio e l'esecuzione del processo.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Every job has the default job options unless you change them.</source>
+          <target state="translated">Ogni processo contiene le opzioni di processo predefinito, a meno che non vengono modificati.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Because job options can prevent a job from running at the scheduled time, it is important to understand the job options and use them carefully.</source>
+          <target state="translated">Poiché le opzioni di processo possono impedire l'esecuzione all'ora pianificata di un processo, è importante comprendere le opzioni di processo e utilizzarli con cautela.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses the same job options that Task Scheduler uses.</source>
+          <target state="translated">Windows PowerShell utilizza le stesse opzioni di processo che viene utilizzata l'utilità di pianificazione.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For detailed information about the job options, see the help topic for the New-ScheduledJobOption cmdlet.</source>
+          <target state="translated">Per informazioni dettagliate sulle opzioni dei processi, vedere l'argomento della Guida per il cmdlet New-ScheduledJobOption.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Type "Get-Help New-ScheduledJobOption" or see the help topic online at http://go.microsoft.com/fwlink/?LinkID=223915.</source>
+          <target state="translated">Digitare "Get-Help New-ScheduledJobOption" oppure vedere l'argomento della Guida in linea in http://go.microsoft.com/fwlink/?LinkID=223915.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Job options are stored in the scheduled job XML file.</source>
+          <target state="translated">Le opzioni di processo vengono archiviate nel file XML di processo pianificato.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can set job options when you create a scheduled job or change them at any time.</source>
+          <target state="translated">Quando si crea un processo pianificato o modificarle in qualsiasi momento, è possibile impostare le opzioni di processo.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The following command creates a scheduled job option in which the WakeToRun scheduled job option is set to True.</source>
+          <target state="translated">Il comando seguente crea un'opzione processo pianificato in cui l'opzione processo pianificato WakeToRun è impostata su True.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The WakeToRun option runs the scheduled job even if the computer is in the Sleep or Hibernate state at the scheduled start time.</source>
+          <target state="translated">L'opzione WakeToRun viene eseguito il processo pianificato anche se il computer è nello stato di sospensione o ibernazione all'ora di inizio pianificata.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The command saves the job options in the $o variable.</source>
+          <target state="translated">Il comando Salva le opzioni di processo nella variabile $o.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>$o = New-ScheduledJobOption -WakeToRun</source>
+          <target state="translated">$o = nuovo-ScheduledJobOption - WakeToRun</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>HOW TO GET JOB OPTIONS</source>
+          <target state="translated">PROCEDURA: OTTENERE LE OPZIONI DI PROCESSO</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To get the job options of a scheduled job, use the Get-ScheduledJobOption cmdlet.</source>
+          <target state="translated">Per ottenere le opzioni di processo di un processo pianificato, utilizzare il cmdlet Get-ScheduledJobOption.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Use the Name, ID, and InputObject parameters to specify the scheduled job (not the job options).</source>
+          <target state="translated">Utilizzare i parametri Name, ID e InputObject per specificare il processo pianificato (non le opzioni di processo).</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The following command gets the job options of the ProcessJob.</source>
+          <target state="translated">Il comando seguente ottiene le opzioni di ProcessJob.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJobOption -Name ProcessJob</source>
+          <target state="translated">PS C: &gt; Get-ScheduledJobOption-nome ProcessJob</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>StartIfOnBatteries     : False StopIfGoingOnBatteries : True WakeToRun              : False StartIfNotIdle         : True StopIfGoingOffIdle     : False RestartOnIdleResume    : False IdleDuration           : 00:10:00 IdleTimeout            : 01:00:00 ShowInTaskScheduler    : True RunElevated            : False RunWithoutNetwork      : True DoNotAllowDemandStart  : False MultipleInstancePolicy : IgnoreNew JobDefinition          : Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</source>
+          <target state="translated">StartIfOnBatteries: StopIfGoingOnBatteries False: True WakeToRun: StartIfNotIdle False: True StopIfGoingOffIdle: RestartOnIdleResume False: IdleDuration False: IdleTimeout 00:10:00: 01:00:00 ShowInTaskScheduler: True RunElevated: RunWithoutNetwork False: True DoNotAllowDemandStart: MultipleInstancePolicy False: IgnoreNew JobDefinition: Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>HOW TO CHANGE JOB OPTIONS</source>
+          <target state="translated">COME MODIFICARE LE OPZIONI DI PROCESSO</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You can change the job options of a scheduled job when you create a scheduled job or at any time thereafter.</source>
+          <target state="translated">È possibile modificare le opzioni di processo di un processo pianificato quando si crea un processo pianificato o in qualsiasi momento successivo.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The following command uses the Register-JobTrigger cmdlet to create the process job.</source>
+          <target state="translated">Il comando seguente usa il cmdlet Register-JobTrigger per creare il processo di elaborazione.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It uses the ScheduledJobOption parameter to specify the job options in the $o variable.</source>
+          <target state="translated">Usa il parametro ScheduledJobOption per specificare le opzioni di processo nella variabile $o.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Register-JobTrigger -Name ProcessJob -ScriptBlock {Get-Process} -ScheduledJobOption $o</source>
+          <target state="translated">Register-JobTrigger-nome - ScriptBlock {Get-Process} - ScheduledJobOption ProcessJob $o</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You can also change the job options to an existing scheduled job at any time.</source>
+          <target state="translated">È inoltre possibile modificare le opzioni di processo per un processo pianificato esistente in qualsiasi momento.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The following command uses the Set-ScheduledJobOption cmdlet to change the value of the WakeToRun option of the ProcessJob scheduledJob to True.</source>
+          <target state="translated">Il comando seguente usa il cmdlet Set-ScheduledJobOption per modificare il valore dell'opzione WakeToRun di scheduledJob di ProcessJob su True.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Like all of the Set cmdlets in the PSScheduledJob module, Set-ScheduledJobOption cmdlet does not have Name or ID parameters.</source>
+          <target state="translated">Come tutti i Set di cmdlet nel modulo PSScheduledJob, il cmdlet Set-ScheduledJobOption non dispone di parametri di nome o ID.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You can use the InputObject parameter to specify the scheduled job options or pipe a scheduled job from Get-ScheduledJobOption cmdlet to Set-ScheduledJobOption.</source>
+          <target state="translated">È possibile utilizzare il parametro InputObject per specificare le opzioni di processo pianificato o inviare tramite pipe un processo pianificato dal cmdlet Get-ScheduledJobOption a Set-ScheduledJobOption.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The following command uses the Get-ScheduledJob cmdlet to get the ProcessJob.</source>
+          <target state="translated">Il comando seguente usa il cmdlet Get-ScheduledJob per ottenere il ProcessJob.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>It uses the Get-ScheduledJobOption cmdlet to get the job options in the ProcessJob and the Set-ScheduledJobOption cmdlet to change the WakeToRun job option in the ProcessJob to True.</source>
+          <target state="translated">Usa il cmdlet Get-ScheduledJobOption per ottenere le opzioni di processo di ProcessJob e il cmdlet Set-ScheduledJobOption per modificare l'opzione di processo WakeToRun nel ProcessJob su True.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJob -Name ProcessJob | Get-ScheduledJobOption | Set-ScheduledJobOption -WakeToRun</source>
+          <target state="translated">Get-ScheduledJob-nome ProcessJob | Get-ScheduledJobOption | Set-ScheduledJobOption - WakeToRun</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>HOW TO GET SCHEDULED JOB INSTANCES</source>
+          <target state="translated">PROCEDURA: OTTENERE ISTANZE DEL PROCESSO PIANIFICATO</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>When a scheduled job is started, Windows PowerShell creates a job instance that is similar to a standard Windows PowerShell background job.</source>
+          <target state="translated">Quando viene avviato un processo pianificato, Windows PowerShell crea un'istanza di processo che è simile a un processo in background di Windows PowerShell standard.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You can use the Job cmdlets, such as Get-Job, Stop-Job and Receive-Job to manage the job instances.</source>
+          <target state="translated">È possibile utilizzare i cmdlet di processo, ad esempio Get-Job, Stop-Job e Receive-Job per gestire le istanze del processo.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>NOTE: To use the Job cmdlets on instances of scheduled jobs, the PSScheduledJob module  must be imported into the session.</source>
+          <target state="translated">NOTA: Per utilizzare i cmdlet Job in istanze dei processi pianificati, il modulo PSScheduledJob debba essere importato nella sessione.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To import the PSScheduledJob module, type "Import-Module PSScheduledJob" (without quotation marks) or use any Scheduled Job cmdlet, such as Get-ScheduledJob.</source>
+          <target state="translated">Per importare il modulo PSScheduledJob, digitare "Import-Module PSScheduledJob" (senza virgolette) oppure utilizzare tutti i cmdlet Scheduled Job, ad esempio Get-ScheduledJob.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To get all instances of Windows PowerShell scheduled jobs (and all active standard jobs), use the Get-Job cmdlet.</source>
+          <target state="translated">Per ottenere tutte le istanze dei processi pianificati di Windows PowerShell (e tutti i processi standard attivo), utilizzare il cmdlet Get-Job.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The following command imports the PSScheduledJob module and then gets all jobs on the local computer.</source>
+          <target state="translated">Il comando seguente importa il modulo PSScheduledJob e quindi Ottiene tutti i processi nel computer locale.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Import-Module PSScheduledJob</source>
+          <target state="translated">PS C: &gt; Import-Module PSScheduledJob</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job</source>
+          <target state="translated">PS C: &gt; Get-Job</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The following command gets all instances of the ProcessJob on the local computer.</source>
+          <target state="translated">Il comando seguente ottiene tutte le istanze di ProcessJob nel computer locale.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job -Name ProcessJob</source>
+          <target state="translated">PS C: &gt; Get-Job-nome ProcessJob</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Id     Name        PSJobTypeName  State    HasMoreData   Location   Command</source>
+          <target state="translated">ID nome PSJobTypeName stato HasMoreData posizione comando</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>45     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 46     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 47     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 48     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 49     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 50     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 51     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process</source>
+          <target state="translated">45 ProcessJob PSScheduledJob completato True localhost Get-Process 46 ProcessJob PSScheduledJob completato True localhost Get-Process 47 ProcessJob PSScheduledJob completato True localhost Get-Process 48 ProcessJob PSScheduledJob completato True localhost Get-Process 49 ProcessJob PSScheduledJob completato True localhost Get-Process 50 ProcessJob PSScheduledJob completato True localhost Get-Process 51 ProcessJob PSScheduledJob completato True localhost Get-Process</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The default display does not show the start time, which typically distinguishes instances of the same scheduled job.</source>
+          <target state="translated">Il valore predefinito non viene visualizzato l'ora di inizio, che in genere consente di distinguere le istanze dello stesso processo pianificato.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The following command uses the Format-Table cmdlet to display the Name, ID, and BeginTime  properties of the scheduled job.</source>
+          <target state="translated">Il comando seguente usa il cmdlet Format-Table per visualizzare le proprietà BeginTime, ID e nome del processo pianificato.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job ProcessJob | Format-Table -Property Name, ID, BeginTime</source>
+          <target state="translated">PS C: &gt; Get-Job ProcessJob | Format-Table-BeginTime nome, l'ID di proprietà</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Name       Id BeginTime</source>
+          <target state="translated">Nome Id BeginTime</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>ProcessJob 43 11/2/2011 3:00:02 AM ProcessJob 44 11/3/2011 3:00:02 AM ProcessJob 45 11/4/2011 3:00:02 AM ProcessJob 46 11/5/2011 3:00:02 AM ProcessJob 47 11/6/2011 3:00:02 AM ProcessJob 48 11/7/2011 12:00:01 AM ProcessJob 49 11/7/2011 3:00:02 AM ProcessJob 50 11/8/2011 3:00:02 AM</source>
+          <target state="translated">ProcessJob 43 11/2/2011 3:00:02: 00 ProcessJob 44 11/3/2011 3:00:02: 00 ProcessJob 45 11/4/2011 3:00:02: 00 ProcessJob 46 11/5/2011 3:00:02: 00 ProcessJob 47 11/6/2011 3:00:02: 00 ProcessJob 48 11/7/2011 12:00:01 AM ProcessJob 49 11/7/2011 3:00:02: 00 ProcessJob 50 11/8/2011 3:00:02: 00</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>GET SCHEDULED JOB RESULTS</source>
+          <target state="translated">OTTENERE I RISULTATI DEL PROCESSO PIANIFICATO</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To get the results of an instance of a scheduled job, use the Receive-Job cmdlet.</source>
+          <target state="translated">Per ottenere i risultati di un'istanza di un processo pianificato, utilizzare il cmdlet Receive-Job.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>NOTE: To use the Job cmdlets on instances of scheduled jobs, the PSScheduledJob module must be imported into the session.</source>
+          <target state="translated">NOTA: Per utilizzare i cmdlet Job in istanze dei processi pianificati, il modulo PSScheduledJob debba essere importato nella sessione.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To import the PSScheduledJob module, type "Import-Module PSScheduledJob" (without quotation marks) or use any Scheduled Job cmdlet, such as Get-ScheduledJob.</source>
+          <target state="translated">Per importare il modulo PSScheduledJob, digitare "Import-Module PSScheduledJob" (senza virgolette) oppure utilizzare tutti i cmdlet Scheduled Job, ad esempio Get-ScheduledJob.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The following command gets the results of the newest instance of the ProcessJob scheduled job (ID = 51)</source>
+          <target state="translated">Il comando seguente ottiene i risultati dell'istanza più recente del processo pianificato ProcessJob (ID = 51)</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Import-Module PSScheduledJob</source>
+          <target state="translated">PS C: &gt; Import-Module PSScheduledJob</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Receive-Job -ID 51 -Keep</source>
+          <target state="translated">PS C: &gt; Keep 51 - ID - processo di ricezione</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The results of scheduled jobs are saved on disk, so the Keep parameter of Receive-Job is not required.</source>
+          <target state="translated">I risultati dei processi pianificati vengono salvati su disco, quindi il parametro Keep del processo di ricezione non è necessario.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>However, without the Keep parameter, you can get the results of a scheduled job only once in each Windows PowerShell session.</source>
+          <target state="translated">Tuttavia, senza il parametro Keep, è possibile ottenere i risultati di una sola volta un processo pianificato in ogni sessione di Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To start a new Windows PowerShell session, type "PowerShell" or open a new Windows PowerShell window.</source>
+          <target state="translated">Per avviare una nuova sessione di Windows PowerShell, digitare "PowerShell" o aprire una nuova finestra di Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">VEDERE ANCHE</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs about_Scheduled_Jobs_Advanced about_Scheduled_Jobs_Troubleshooting</source>
+          <target state="translated">about_Scheduled_Jobs about_Scheduled_Jobs_Advanced about_Scheduled_Jobs_Troubleshooting</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">25d58bf327e85f968d2f827e24eae02cb7ff620f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Management\Use-Transaction.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fda12db23766b0ece41d1dbd0dac4ade44b02799</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d2cbec9c72da1b2c698f82f55b510177e80c459d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use-Transaction</source>
+          <target state="translated">Use-Transaction</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Use-Transaction</source>
+          <target state="translated">Use-Transaction</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Adds the script block to the active transaction.</source>
+          <target state="translated">将脚本块添加到活动事务中。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Use-Transaction cmdlet adds a script block to an active transaction.</source>
+          <target state="translated">Use-Transaction cmdlet 将脚本块添加到活动事务中。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This enables you to do transacted scripting using transaction-enabled Microsoft .NET Framework objects.</source>
+          <target state="translated">这使你可以使用支持事务的 Microsoft .NET Framework 对象编写事务处理脚本。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The script block can contain only transaction-enabled .NET Framework objects, such as instances of the Microsoft.PowerShell.Commands.Management.TransactedString class.</source>
+          <target state="translated">该脚本块只能包含支持事务的 .NET Framework 对象，如 Microsoft.PowerShell.Commands.Management.TransactedString 类的实例。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The UseTransaction parameter, which is optional for most cmdlets, is required when using this cmdlet.</source>
+          <target state="translated">使用此 cmdlet 时，需要使用 UseTransaction 参数，此参数对于大多数 cmdlet 是可选的。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Use-Transaction cmdlet is one of a set of cmdlets that support the transactions feature in Windows PowerShell.</source>
+          <target state="translated">Use-Transaction cmdlet 是 Windows PowerShell 中支持事务功能的一组 cmdlet 之一。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Transactions.</source>
+          <target state="translated">有关详细信息，请参阅 about_Transactions。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 示例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the Use-Transaction cmdlet to script against a transaction-enabled .NET Framework object.</source>
+          <target state="translated">此示例演示了如何使用 Use-Transaction cmdlet 为支持事务的 .NET Framework 对象撰写脚本。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In this case, the object is a TransactedString object.</source>
+          <target state="translated">在本例中，该对象为 TransactedString 对象。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The first command uses the Start-Transaction cmdlet to start a transaction.</source>
+          <target state="translated">第一条命令使用 Start-Transaction cmdlet 启动事务。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-Object command to create a TransactedString object.</source>
+          <target state="translated">第二条命令使用 New-Object 命令创建 TransactedString 对象。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It stores the object in the $TransactedString variable.</source>
+          <target state="translated">它将该对象存储在 $TransactedString 变量中。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The third and fourth commands both use the Append method of the TransactedString object to add text to the value of $TransactedString.</source>
+          <target state="translated">第三条和第四条命令均使用 TransactedString 对象的 Append 方法将文本添加到 $TransactedString 的值中。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>One command is part of the transaction; the other is not.</source>
+          <target state="translated">其中一条命令包含在事务中；另一条命令则不包含在事务中。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The third command uses the Append method of the transacted string to add "Hello" to the value of $TransactedString.</source>
+          <target state="translated">第三条命令使用事务处理字符串的 Append 方法将“Hello”添加到 $TransactedString 的值中。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Because the command is not part of the transaction, the change is applied immediately.</source>
+          <target state="translated">由于该命令未包含在事务中，因此会立即应用所做更改。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Use-Transaction cmdlet to add text to the string within the transaction.</source>
+          <target state="translated">第四条命令使用 Use-Transaction cmdlet 将文本添加到事务内的字符串中。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command uses the Append method to add ", World" to the value of $TransactedString.</source>
+          <target state="translated">该命令使用 Append 方法将“, World”添加到 $TransactedString 的值中。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The command is enclosed in braces ( {} ) to make it a script block.</source>
+          <target state="translated">用大括号 ( {} ) 将命令括起来以形成脚本块。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The UseTransaction parameter is required in this command.</source>
+          <target state="translated">在此命令中需要使用 UseTransaction 参数。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The fifth and sixth commands use the ToString method of the TransactedString object to display the value of the TransactedString as a string.</source>
+          <target state="translated">第五条和第六条命令使用 TransactedString 对象的 ToString 方法将 TransactedString 的值显示为字符串。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Again, one command is part of the transaction; the other is not.</source>
+          <target state="translated">同样，其中一条命令包含在事务中；另一条命令则不包含在事务中。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the ToString method to display the current value of the $TransactedString variable.</source>
+          <target state="translated">第五条命令使用 ToString 方法显示 $TransactedString 变量的当前值。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Because it is not part of the transaction, it displays only the current state of the string.</source>
+          <target state="translated">因为它未包含在事务中，所以它仅显示字符串的当前状态。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The sixth command uses the Use-Transaction cmdlet to run the same command within the transaction.</source>
+          <target state="translated">第六条命令使用 Use-Transaction cmdlet 在事务中运行同一命令。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Because the command is part of the transaction, it displays the current value of the string within the transaction, much like a preview of the transaction changes.</source>
+          <target state="translated">由于该命令包含在事务中，因此它会显示事务中字符串的当前值，这与预览事务更改非常类似。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The seventh command uses the Complete-Transaction cmdlet to commit the transaction.</source>
+          <target state="translated">第七条命令使用 Complete-Transaction cmdlet 提交事务。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The final command uses the ToString method to display the resulting value of the variable as a string.</source>
+          <target state="translated">最后一条命令使用 ToString 方法将变量的结果值显示为字符串。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of rolling back a transaction that includes Use-Transaction commands.</source>
+          <target state="translated">此示例演示了回滚包含 Use-Transaction 命令的事务的效果。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Like all commands in a transaction, when the transaction is rolled back, the transacted changes are discarded and the data is unchanged.</source>
+          <target state="translated">与事务中的所有命令一样，当事务回滚后，事务型更改将被丢弃，而数据保持不变。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The first command uses the Start-Transaction cmdlet to start a transaction.</source>
+          <target state="translated">第一条命令使用 Start-Transaction cmdlet 启动事务。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-Object command to create a TransactedString object.</source>
+          <target state="translated">第二条命令使用 New-Object 命令创建 TransactedString 对象。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>It stores the object in the $TransactedString variable.</source>
+          <target state="translated">它将该对象存储在 $TransactedString 变量中。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The third command, which is not part of the transaction, uses the Append method to add "Hello" to the value of $TransactedString.</source>
+          <target state="translated">第三条命令（未包含在事务中）使用 Append 方法将“Hello”添加到 $TransactedString 的值中。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Use-Transaction cmdlet to run another command that uses the Append method within the transaction.</source>
+          <target state="translated">第四条命令使用 Use-Transaction cmdlet 运行在事务中使用 Append 方法的另一个命令。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the Append method to add ", World" to the value of $TransactedString.</source>
+          <target state="translated">该命令使用 Append 方法将“, World”添加到 $TransactedString 的值中。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the Undo-Transaction cmdlet to roll back the transaction.</source>
+          <target state="translated">第五条命令使用 Undo-Transaction cmdlet 回滚事务。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>As a result, all commands performed within the transaction are reversed.</source>
+          <target state="translated">因此在事务中执行的所有命令都将被恢复。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The final command uses the ToString method to display the resulting value of $TransactedString as a string.</source>
+          <target state="translated">最后一条命令使用 ToString 方法将 $TransactedString 的结果值显示为字符串。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The results show that only the changes made outside of the transaction were applied to the object.</source>
+          <target state="translated">结果显示只有在事务外部所做的更改才被应用于对象。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-TransactedScript</source>
+          <target state="translated">-TransactedScript</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Specifies the script block that is run in the transaction.</source>
+          <target state="translated">指定在事务中运行的脚本块。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Enter any valid script block enclosed in braces ( { } ).</source>
+          <target state="translated">可输入用大括号 ( { } ) 括起的任何有效脚本块。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">此参数是必需的。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-UseTransaction</source>
+          <target state="translated">-UseTransaction</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Includes the command in the active transaction.</source>
+          <target state="translated">在活动事务中使用该命令。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">仅当正在执行事务时，此参数才有效。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For more information, see Includes the command in the active transaction.</source>
+          <target state="translated">有关详细信息，请参阅包括在活动事务中的命令。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">仅当正在执行事务时，此参数才有效。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For more information, see</source>
+          <target state="translated">有关详细信息，请参阅本主题后面的</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">无</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">不能通过管道将输入传递给此 cmdlet。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>PSObject</source>
+          <target state="translated">PSObject</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Use-Transaction returns the result of the transaction.</source>
+          <target state="translated">Use-Transaction 返回事务结果。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The Use-Transaction parameter includes the command in the active transaction.</source>
+          <target state="translated">Use-Transaction 参数将命令包含在活动事务中。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Because the Use-Transaction cmdlet is always used in transactions, this parameter is required to make any Use-Transaction command effective.</source>
+          <target state="translated">由于 Use-Transaction cmdlet 始终用在事务中，因此任何 Use-Transaction 命令都需要使用此参数才能生效。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Complete-Transaction</source>
+          <target state="translated">Complete-Transaction</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Get-Transaction</source>
+          <target state="translated">Get-Transaction</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Start-Transaction</source>
+          <target state="translated">Start-Transaction</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Undo-Transaction</source>
+          <target state="translated">Undo-Transaction</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>about_Transactions</source>
+          <target state="translated">about_Transactions</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

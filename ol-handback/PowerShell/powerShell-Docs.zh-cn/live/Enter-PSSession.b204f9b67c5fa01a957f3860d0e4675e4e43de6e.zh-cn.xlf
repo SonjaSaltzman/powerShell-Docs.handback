@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b4ec5441af2c8d7b54c0182eb23c7018285254c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Enter-PSSession.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d13468f6561bcfb05c503faa1f506344ec376cb5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9bfc667bb7493b1ae92a6d514933988c328dcc13</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starts an interactive session with a remote computer.</source>
+          <target state="translated">启动与远程计算机的交互式会话。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ComputerName (Default)</source>
+          <target state="translated">计算机名称 （默认值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Session</source>
+          <target state="translated">会话</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Uri</source>
+          <target state="translated">Uri</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceId</source>
+          <target state="translated">实例 Id</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <target state="translated">ID</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">名称</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Enter-PSSession<ept id="p1">**</ept> cmdlet starts an interactive session with a single remote computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Enter-pssession<ept id="p1">**</ept> cmdlet 启动与单台远程计算机的交互式会话。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>During the session, the commands that you type run on the remote computer, just as though you were typing directly on the remote computer.</source>
+          <target state="translated">在会话期间，你键入的命令将在远程计算机上运行，就像你直接在远程计算机上进行键入一样。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can have only one interactive session at a time.</source>
+          <target state="translated">一次只可以进行一个交互式会话。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Typically, you use the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter to specify the name of the remote computer.</source>
+          <target state="translated">通常，您可以使用 <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> 参数来指定远程计算机的名称。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, you can also use a session that you create by using the New-PSSession cmdlet for the interactive session.</source>
+          <target state="translated">但是，您还可以使用用于交互式会话使用 New-pssession cmdlet 创建会话。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>However, you cannot use the Disconnect-PSSession, Connect-PSSession, or Receive-PSSession cmdlets to disconnect from or re-connect to an interactive session.</source>
+          <target state="translated">但是，您不能用于 Disconnect-pssession、 Connect-pssession 或 Receive-pssession cmdlet 从断开连接或者重新连接到的交互式会话。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To end the interactive session and disconnect from the remote computer, use the Exit-PSSession cmdlet, or type "exit".</source>
+          <target state="translated">若要结束该交互式会话并断开与远程计算机的连接，请使用 Exit-pssession cmdlet，或键入"exit"。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 示例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command starts an interactive session on the local computer.</source>
+          <target state="translated">此命令将在本地计算机上启动交互式会话。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The command prompt changes to indicate that you are now running commands in a different session.</source>
+          <target state="translated">命令提示符将发生更改，以指示你现在正在不同的会话中运行命令。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The commands that you enter run in the new session, and the results are returned to the default session as text.</source>
+          <target state="translated">你输入的命令将在该新会话中运行，而结果将以文本形式返回到默认会话中。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This command shows how to work in an interactive session with a remote computer.</source>
+          <target state="translated">此命令显示了如何在与远程计算机的交互式会话中进行工作。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>These commands use the Session parameter of Enter-PSSession to run the interactive session in an existing Windows PowerShell session (PSSession).</source>
+          <target state="translated">这些命令使用 Enter-PSSession 的 Session 参数在现有的 Windows PowerShell 会话 (PSSession) 中运行交互式会话。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command starts an interactive session with the Server01 computer.</source>
+          <target state="translated">此命令启动与 Server01 计算机的交互式会话。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It uses the Port parameter to specify the port and the Credential parameter to specify the account of a user with permission to connect to the remote computer.</source>
+          <target state="translated">它使用 Port 参数指定端口，并使用 Credential 参数指定有权连接到远程计算机的用户帐户。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This example shows how to start and stop an interactive session.</source>
+          <target state="translated">此示例显示了如何启动和停止交互式会话。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The first command uses the Enter-PSSession cmdlet to start an interactive session with the Server01 computer.</source>
+          <target state="translated">第一个命令使用 Enter-PSSession cmdlet 来启动与 Server01 计算机的交互式会话。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The second command uses the Exit-PSSession cmdlet to end the session.</source>
+          <target state="translated">第二个命令使用 Exit-PSSession cmdlet 来结束该会话。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can also use the Exit keyword to end the interactive session.</source>
+          <target state="translated">还可以使用 Exit 关键字来结束该交互式会话。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Exit-PSSession and Exit have the same effect.</source>
+          <target state="translated">Exit-PSSession 和 Exit 具有相同的效果。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-AllowRedirection</source>
+          <target state="translated">-AllowRedirection</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Allows redirection of this connection to an alternate Uniform Resource Identifier (URI).</source>
+          <target state="translated">允许将此连接重定向到备用统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>By default, redirection is not allowed.</source>
+          <target state="translated">默认情况下，不允许重定向。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>ConnectionURI<ept id="p1">**</ept> parameter, the remote destination can return an instruction to redirect to a different URI.</source>
+          <target state="translated">当您使用 <bpt id="p1">**</bpt>ConnectionURI<ept id="p1">**</ept> 参数，远程目标将返回一个指令，将重定向到一个不同的 URI。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell does not redirect connections, but you can use this parameter to allow it to redirect the connection.</source>
+          <target state="translated">默认情况下，Windows PowerShell 不会重定向连接，但你可以使用此参数允许它重定向连接。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can also limit the number of times the connection is redirected by changing the <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> session option value.</source>
+          <target state="translated">您还可以限制的连接通过更改重定向的次数 <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> 会话选项值。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Use the  <bpt id="p1">**</bpt>MaximumRedirection<ept id="p1">**</ept> parameter of the New-PSSessionOption cmdlet or set the <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> property of the <bpt id="p3">**</bpt>$PSSessionOption<ept id="p3">**</ept> preference variable.</source>
+          <target state="translated">使用  <bpt id="p1">**</bpt>MaximumRedirection<ept id="p1">**</ept> New-pssessionoption cmdlet 或集的参数 <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> 属性 <bpt id="p3">**</bpt>$PSSessionOption<ept id="p3">**</ept> 首选项变量。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">默认值为 5。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-ApplicationName</source>
+          <target state="translated">应用程序的名称</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specifies the application name segment of the connection URI.</source>
+          <target state="translated">指定连接 URI 的应用程序名称段。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Use this parameter to specify the application name when you are not using the ConnectionURI parameter in the command.</source>
+          <target state="translated">当命令中未使用 ConnectionURI 参数时，请使用此参数指定应用程序名称。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The default value is the value of the $PSSessionApplicationName preference variable on the local computer.</source>
+          <target state="translated">默认值为本地计算机上的 $PSSessionApplicationName 首选项变量的值。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If this preference variable is not defined, the default value is WSMAN.</source>
+          <target state="translated">如果未定义此首选项变量，则默认值为 WSMAN。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This value is appropriate for most uses.</source>
+          <target state="translated">该值适用于大多数使用情况。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables.</source>
+          <target state="translated">有关详细信息，请参阅 about_Preference_Variables。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The WinRM service uses the application name to select a listener to service the connection request.</source>
+          <target state="translated">WinRM 服务使用应用程序名称来选择为连接请求提供服务的侦听器。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The value of this parameter should match the value of the URLPrefix property of a listener on the remote computer.</source>
+          <target state="translated">此参数的值应与远程计算机上的侦听器的 URLPrefix 属性值相匹配。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-Authentication</source>
+          <target state="translated">身份验证</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specifies the mechanism that is used to authenticate the user's credentials.</source>
+          <target state="translated">指定用于对用户的凭据进行身份验证的机制。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Valid values are "Default", "Basic", "Credssp", "Digest", "Kerberos", "Negotiate", and "NegotiateWithImplicitCredential".</source>
+          <target state="translated">有效值为“Default”、“Basic”、“Credssp”、“Digest”、“Kerberos”、“Negotiate”和“NegotiateWithImplicitCredential”。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The default value is "Default".</source>
+          <target state="translated">默认值为“Default”。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>CredSSP authentication is available only in Windows Vista, Windows Server 2008, and later versions of Windows.</source>
+          <target state="translated">CredSSP 身份验证仅在 Windows Vista、Windows Server 2008 和更高版本的 Windows 中可用。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see the description of the System.Management.Automation.Runspaces.AuthenticationMechanism enumeration in the MSDN (Microsoft Developer Network) library at http://go.microsoft.com/fwlink/?LinkId=144382.</source>
+          <target state="translated">有关此参数的值的详细信息，请参阅 MSDN (Microsoft Developer Network) 库中对 System.Management.Automation.Runspaces.AuthenticationMechanism 枚举的说明，网址是 http://go.microsoft.com/fwlink/?LinkId=144382。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Caution: Credential Security Support Provider (CredSSP) authentication, in which the user's credentials are passed to a remote computer to be authenticated, is designed for commands that require authentication on more than one resource, such as accessing a remote network share.</source>
+          <target state="translated">警告︰ 在其中用户的凭据传递到远程计算机中以进行身份验证的凭据安全支持提供程序 (CredSSP) 身份验证被用于要求对多个资源，例如访问远程网络共享的身份验证的命令。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This mechanism increases the security risk of the remote operation.</source>
+          <target state="translated">此机制增加了远程操作的安全风险。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If the remote computer is compromised, the credentials that are passed to it can be used to control the network session.</source>
+          <target state="translated">如果远程计算机的安全受到威胁，则传递给该计算机的凭据可用于控制网络会话。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-CertificateThumbprint</source>
+          <target state="translated">-CertificateThumbprint</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Specifies the digital public key certificate (X509) of a user account that has permission to perform this action.</source>
+          <target state="translated">指定有权执行此操作的用户帐户的数字公钥证书 (X509)。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Enter the certificate thumbprint of the certificate.</source>
+          <target state="translated">输入证书的证书指纹。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Certificates are used in client certificate-based authentication.</source>
+          <target state="translated">在基于客户端证书的身份验证中使用证书。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>They can be mapped only to local user accounts; they do not work with domain accounts.</source>
+          <target state="translated">证书只能映射到本地用户帐户，而不适用于域帐户。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To get a certificate, use the Get-Item or Get-ChildItem command in the Windows PowerShell Cert: drive.</source>
+          <target state="translated">若要获取证书，请在 Windows PowerShell Cert: 驱动器中使用 Get-Item 或 Get-ChildItem 命令。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Starts an interactive session with the specified remote computer.</source>
+          <target state="translated">启动与指定远程计算机的交互式会话。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Enter only one computer name.</source>
+          <target state="translated">仅输入一个计算机名称。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">默认值为本地计算机。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, the IP address, or the fully qualified domain name of the computer.</source>
+          <target state="translated">键入计算机的 NetBIOS 名称、IP 地址或完全限定的域名。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You can also pipe a computer name to Enter-PSSession.</source>
+          <target state="translated">还可以通过管道将计算机名称传递给 Enter-PSSession。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To use an IP address in the value of the ComputerName parameter, the command must include the Credential parameter.</source>
+          <target state="translated">若要在 ComputerName 参数的值中使用 IP 地址，该命令必须包括 Credential 参数。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Also, the computer must be configured for HTTPS transport or the IP address of the remote computer must be included in the WinRM TrustedHosts list on the local computer.</source>
+          <target state="translated">此外，必须为计算机配置 HTTPS 传输，或者必须在本地计算机上的 WinRM TrustedHosts 列表中包含远程计算机的 IP 地址。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For instructions for adding a computer name to the TrustedHosts list, see "How to Add  a Computer to the Trusted Host List" in about_Remote_Troubleshooting.</source>
+          <target state="translated">有关将计算机名称添加到 TrustedHosts 列表的说明，请参阅 about_Remote_Troubleshooting 中的“如何将计算机添加到受信任主机列表中”。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Note:  In Windows Vista and later versions of Windows, to include the local computer in the value of the ComputerName parameter, you must start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">注意︰ 在 Windows Vista 和更高版本的 Windows 中，要将本地计算机包括在 ComputerName 参数的值中您必须启动 Windows PowerShell 使用"以管理员身份运行"选项。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-ConfigurationName</source>
+          <target state="translated">-ConfigurationName</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Specifies the session configuration that is used for the interactive session.</source>
+          <target state="translated">指定用于交互式会话的会话配置。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Enter a configuration name or the fully qualified resource URI for a session configuration.</source>
+          <target state="translated">输入会话配置的配置名称或完全限定的资源 URI。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If you specify only the configuration name, the following schema URI is prepended:  http://schemas.microsoft.com/powershell.</source>
+          <target state="translated">如果您仅指定配置名称，预置以下架构 URI: http://schemas.microsoft.com/powershell。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The session configuration for a session is located on the remote computer.</source>
+          <target state="translated">会话的会话配置位于远程计算机上。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If the specified session configuration does not exist on the remote computer, the command fails.</source>
+          <target state="translated">如果远程计算机上不存在指定的会话配置，则该命令会失败。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The default value is the value of the $PSSessionConfigurationName preference variable on the local computer.</source>
+          <target state="translated">默认值为本地计算机上的 $PSSessionConfigurationName 首选项变量的值。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If this preference variable is not set, the default is Microsoft.PowerShell.</source>
+          <target state="translated">如果未设置此首选项变量，则默认值为 Microsoft.PowerShell。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables.</source>
+          <target state="translated">有关详细信息，请参阅 about_Preference_Variables。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-ConnectionUri</source>
+          <target state="translated">-ConnectionUri</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Specifies a Uniform Resource Identifier (URI) that defines the connection endpoint for the session.</source>
+          <target state="translated">指定定义会话的连接终结点的统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The URI must be fully qualified.</source>
+          <target state="translated">URI 必须完全限定。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The format of this string is as follows:</source>
+          <target state="translated">此字符串的格式如下：</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Transport<ph id="ph1">\&gt;</ph>://<ph id="ph2">\&lt;</ph>ComputerName<ph id="ph3">\&gt;</ph>:<ph id="ph4">\&lt;</ph>Port<ph id="ph5">\&gt;/\&lt;</ph>ApplicationName</source>
+          <target state="translated">传输<ph id="ph1">\&gt;</ph>://<ph id="ph2">\&lt;</ph>ComputerName<ph id="ph3">\&gt;</ph>:<ph id="ph4">\&lt;</ph>端口<ph id="ph5">\&gt;/\&lt;</ph>应用程序名称</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The default value is as follows:</source>
+          <target state="translated">默认值如下：</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>http://localhost:5985/WSMAN</source>
+          <target state="translated">http://localhost:5985/WSMAN</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If you do not specify a <bpt id="p1">**</bpt>ConnectionURI<ept id="p1">**</ept>, you can use the <bpt id="p2">**</bpt>UseSSL<ept id="p2">**</ept>, <bpt id="p3">**</bpt>ComputerName<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Port<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>ApplicationName<ept id="p5">**</ept> parameters to specify the <bpt id="p6">**</bpt>ConnectionURI<ept id="p6">**</ept> values.</source>
+          <target state="translated">如果未指定 <bpt id="p1">**</bpt>ConnectionURI<ept id="p1">**</ept>, ，您可以使用 <bpt id="p2">**</bpt>UseSSL<ept id="p2">**</ept>, ，<bpt id="p3">**</bpt>ComputerName<ept id="p3">**</ept>, ，<bpt id="p4">**</bpt>端口<ept id="p4">**</ept>, ，和 <bpt id="p5">**</bpt>ApplicationName<ept id="p5">**</ept> 参数来指定 <bpt id="p6">**</bpt>ConnectionURI<ept id="p6">**</ept> 值。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Valid values for the Transport segment of the URI are HTTP and HTTPS.</source>
+          <target state="translated">URI 的 Transport 段的有效值为 HTTP 和 HTTPS。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you specify a connection URI with a Transport segment, but do not specify a port, the session is created with standards ports: 80 for HTTP and 443 for HTTPS.</source>
+          <target state="translated">如果你使用 Transport 段中，指定连接 URI，但不是指定端口，使用以下标准端口创建了会话︰ 80 (HTTP） 和用于 HTTPS 的 443。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To use the default ports for Windows PowerShell remoting, specify port 5985 for HTTP or 5986 for HTTPS.</source>
+          <target state="translated">若要使用 Windows PowerShell 远程处理的默认端口，请指定 HTTP 端口 5985 或 HTTPS 端口 5986。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>If the destination computer redirects the connection to a different URI, Windows PowerShell prevents the redirection unless you use the <bpt id="p1">**</bpt>AllowRedirection<ept id="p1">**</ept> parameter in the command.</source>
+          <target state="translated">如果目标计算机将连接重定向到另一个 URI，Windows PowerShell 将阻止重定向，除非您使用 <bpt id="p1">**</bpt>AllowRedirection<ept id="p1">**</ept> 命令中的参数。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">指定有权执行此操作的用户帐户。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">默认为当前用户。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01", "Domain01\User01", or "User@Domain.com", or enter a PSCredential object, such as one returned by the Get-Credential cmdlet.</source>
+          <target state="translated">键入用户名，如“User01”、“Domain01\User01”或“User@Domain.com”；或输入 PSCredential 对象，如 Get-Credential cmdlet 返回的一个对象。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>When you type a user name, you will be prompted for a password.</source>
+          <target state="translated">键入用户名时，将会提示你输入密码。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-EnableNetworkAccess</source>
+          <target state="translated">-EnableNetworkAccess</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Adds an interactive security token to loopback sessions.</source>
+          <target state="translated">将交互式安全令牌添加到环回会话。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The interactive token lets you run commands in the loopback session that get data from other computers.</source>
+          <target state="translated">通过交互式令牌，你可以在环回会话中运行用于获取其他计算机中的数据的命令。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For example, you can run a command in the session that copies XML files from a remote computer to the local computer.</source>
+          <target state="translated">例如，你可以在该会话中运行用于将 XML 文件从远程计算机复制到本地计算机的命令。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A "loopback session" is a PSSession that originates and terminates on the same computer.</source>
+          <target state="translated">"环回会话"是一个开始并终止同一台计算机上的 PSSession。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>To create a loopback session, omit the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter or set its value to ".", "localhost", or the name of the local computer.</source>
+          <target state="translated">若要创建环回会话，请省略 <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> 参数或将其值设置为"。"，"localhost"或本地计算机的名称。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>By default, loopback sessions are created with a network token, which might not provide sufficient permission to authenticate to remote computers.</source>
+          <target state="translated">默认情况下，使用网络令牌创建环回会话，该令牌提供的权限可能不足以对远程计算机进行身份验证。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>EnableNetworkAccess<ept id="p1">**</ept> parameter is effective only in loopback sessions.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>EnableNetworkAccess<ept id="p1">**</ept> 参数是仅在环回会话中有效。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>EnableNetworkAccess<ept id="p1">**</ept> parameter when creating a session on a remote computer, the command succeeds, but the parameter is ignored.</source>
+          <target state="translated">如果您使用 <bpt id="p1">**</bpt>EnableNetworkAccess<ept id="p1">**</ept> 参数在远程计算机上创建会话时，此命令成功执行，但将忽略该参数。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>You can also allow remote access in a loopback session by using the <bpt id="p1">**</bpt>CredSSP<ept id="p1">**</ept> value of the <bpt id="p2">**</bpt>Authentication<ept id="p2">**</ept> parameter, which delegates the session credentials to other computers.</source>
+          <target state="translated">您还可以允许远程访问在环回会话中使用 <bpt id="p1">**</bpt>CredSSP<ept id="p1">**</ept> 值 <bpt id="p2">**</bpt>身份验证<ept id="p2">**</ept> 参数，它与其他计算机将会话凭据委派。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此参数是在 Windows PowerShell 3.0 中引入的。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of an existing session.</source>
+          <target state="translated">指定现有会话的 ID。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession uses the specified session for the interactive session.</source>
+          <target state="translated">Enter-PSSession 使用指定会话进行交互式会话。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>To find the ID of a session, use the Get-PSSession cmdlet.</source>
+          <target state="translated">若要查找某个会话的 ID，请使用 Get-PSSession cmdlet。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">的实例 Id</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Specifies the instance ID of an existing session.</source>
+          <target state="translated">指定现有会话的实例 ID。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession uses the specified session for the interactive session.</source>
+          <target state="translated">Enter-PSSession 使用指定会话进行交互式会话。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The instance ID is a GUID.</source>
+          <target state="translated">实例 ID 是一个 GUID。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a session, use the Get-PSSession cmdlet.</source>
+          <target state="translated">若要查找某个会话的实例 ID，请使用 Get-PSSession cmdlet。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>You can also use the Session, Name, or ID parameters to specify an existing session.</source>
+          <target state="translated">也可以使用 Session、Name 或 ID 参数来指定现有会话。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Or, you can use the ComputerName parameter to start a temporary session.</source>
+          <target state="translated">或者，可以使用 ComputerName 参数来启动临时会话。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Specifies the friendly name of an existing session.</source>
+          <target state="translated">指定现有会话的友好名称。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession uses the specified session for the interactive session.</source>
+          <target state="translated">Enter-PSSession 使用指定会话进行交互式会话。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If the name that you specify matches more than one session, the command fails.</source>
+          <target state="translated">如果你指定的名称与多个会话相匹配，则该命令会失败。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>You can also use the Session, InstanceID, or ID parameters to specify an existing session.</source>
+          <target state="translated">也可以使用 Session、InstanceID 或 ID 参数来指定现有会话。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Or, you can use the ComputerName parameter to start a temporary session.</source>
+          <target state="translated">或者，可以使用 ComputerName 参数来启动临时会话。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>To establish a friendly name for a session, use the Name parameter of the New-PSSession cmdlet.</source>
+          <target state="translated">若要为会话建立友好名称，请使用 New-PSSession cmdlet 的 Name 参数。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-Port</source>
+          <target state="translated">端口</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Specifies the network port  on the remote computer used for this command.</source>
+          <target state="translated">指定远程计算机上用于此命令的网络端口。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>To connect to a remote computer, the remote computer must be listening on the port that the connection uses.</source>
+          <target state="translated">若要连接到一台远程计算机，则必须在该连接所用的端口上侦听远程计算机。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The default ports are 5985 (the WinRM port for HTTP) and 5986 (the WinRM port for HTTPS).</source>
+          <target state="translated">默认端口为 5985（HTTP 的 WinRM 端口）和 5986（HTTPS 的 WinRM 端口）。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Before using an alternate port, you must configure the WinRM listener on the remote computer to listen at that port.</source>
+          <target state="translated">使用备用端口之前，你必须在远程计算机上配置 WinRM 侦听器，才能在该端口上进行侦听。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Use the following commands to configure the listener:</source>
+          <target state="translated">使用以下命令配置侦听器：</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Do not use the <bpt id="p1">**</bpt>Port<ept id="p1">**</ept> parameter unless you must.</source>
+          <target state="translated">请不要使用 <bpt id="p1">**</bpt>端口<ept id="p1">**</ept> 参数除非必要，否则。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The port setting in the command applies to all computers or sessions on which the command runs.</source>
+          <target state="translated">命令中的端口设置适用于运行该命令的所有计算机或会话。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>An alternate port setting might prevent the command from running on all computers.</source>
+          <target state="translated">备用端口设置可能会阻止在所有计算机上运行该命令。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">会话</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Specifies a Windows PowerShell session (PSSession) to use for the interactive session.</source>
+          <target state="translated">指定要用于交互式会话的 Windows PowerShell 会话 (PSSession)。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>This parameter takes a session object.</source>
+          <target state="translated">此参数获取一个会话对象。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>You can also use the Name, InstanceID, or ID parameters to specify a PSSession.</source>
+          <target state="translated">还可以使用 Session、Name 或 ID 参数来指定 PSSession。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a session object or a command that creates or gets a session object, such as a New-PSSession or Get-PSSession command.</source>
+          <target state="translated">输入一个包含会话对象的变量，或者可创建或获取会话对象的命令（例如 New-PSSession 或 Get-PSSession 命令）。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>You can also pipe a session object to Enter-PSSession.</source>
+          <target state="translated">还可以通过管道将会话传递给 Enter-PSSession。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>You can submit only one PSSession with this parameter.</source>
+          <target state="translated">使用此参数只能提交一个 PSSession。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>If you enter a variable that contains more than one PSSession, the command fails.</source>
+          <target state="translated">如果输入一个包含多个 PSSession 的变量，则该命令将失败。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>When you use Exit-PSSession or the EXIT keyword, the interactive session ends, but the PSSession that you created remains open and available for use.</source>
+          <target state="translated">使用 Exit-PSSession 或 EXIT 关键字时，交互式会话将结束，但是你创建的 PSSession 将保持打开状态且可供使用。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>-SessionOption</source>
+          <target state="translated">-SessionOption</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Sets advanced options for the session.</source>
+          <target state="translated">为该会话设置高级选项。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> object, such as one that you create by using the New-PSSessionOption cmdlet, or a hash table in which the keys are session option names and the values are session option values.</source>
+          <target state="translated">输入 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 对象，如一个创建使用 New-pssessionoption cmdlet 或哈希表，键是会话选项名称，值是会话选项值。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The default values for the options are determined by the value of the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, if it is set.</source>
+          <target state="translated">选项的默认值由值 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 首选项变量，如果将其设置。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Otherwise, the default values are established by options set in the session configuration.</source>
+          <target state="translated">否则，通过在会话配置中设置的选项创建默认值。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The session option values take precedence over default values for sessions set in the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable and in the session configuration.</source>
+          <target state="translated">会话选项值优先于默认值为会话设置 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 首选项变量和会话配置中。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>However, they do not take precedence over maximum values, quotas or limits set in the session configuration.</source>
+          <target state="translated">但是，它们不优先于在会话配置中设置的最大值、配额或限制。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>For a description of the session options, including the default values, see New-PSSessionOption.</source>
+          <target state="translated">有关会话选项，包括默认值的说明，请参阅 New-pssessionoption。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>For information about the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">璝惠 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 首选项变量，请参阅 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248)。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">有关会话配置的详细信息，请参阅 about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152)。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>-UseSSL</source>
+          <target state="translated">-UseSSL</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Uses the Secure Sockets Layer (SSL) protocol to establish a connection to the remote computer.</source>
+          <target state="translated">使用安全套接字层 (SSL) 协议来建立与远程计算机的连接。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>By default, SSL is not used.</source>
+          <target state="translated">默认情况下，不使用 SSL。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>WS-Management encrypts all Windows PowerShell content transmitted over the network.</source>
+          <target state="translated">WS-Management 对通过网络传输的所有 Windows PowerShell 内容进行加密。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>UseSSL is an additional protection that sends the data across an HTTPS connection instead of an HTTP connection.</source>
+          <target state="translated">UseSSL 是一种额外的保护措施，它通过 HTTPS 连接而不是 HTTP 连接来发送数据。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>If you use this parameter, but SSL is not available on the port used for the command, the command fails.</source>
+          <target state="translated">如果你使用此参数，但 SSL 在用于此命令的端口上不可用，则命令将失败。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>System.String or System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.String 或 System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>You can pipe a computer name (a string) or a session object to Enter-PSSession.</source>
+          <target state="translated">你可以通过管道将计算机名称（字符串）或会话对象传递给 Enter-PSSession。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">无</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The cmdlet does not return any output.</source>
+          <target state="translated">该 cmdlet 不返回任何输出。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>To connect to a remote computer, you must be a member of the Administrators group on the remote computer.</source>
+          <target state="translated">若要连接到远程计算机，你必须是该远程计算机上 Administrators 组的成员。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>In Windows Vista and later versions of Windows, to start an interactive session on the local computer, you must start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">在 Windows Vista 以及更高版本的 Windows 中，若要在本地计算机上启动交互式会话，你必须使用“以管理员身份运行”选项启动 Windows PowerShell。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>When you use Enter-PSSession, your user profile on the remote computer is used for the interactive session.</source>
+          <target state="translated">当你使用 Enter-PSSession 时，会将远程计算机上的用户配置文件用于交互式会话。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The commands in the remote user profile, including commands to add Windows PowerShell snap-ins and to change the command prompt, run before the remote prompt is displayed.</source>
+          <target state="translated">远程用户配置文件中的命令（包括用于添加 Windows PowerShell 管理单元和更改命令提示符的命令）将在显示远程提示之前运行。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession uses the UI culture setting on the local computer for the interactive session.</source>
+          <target state="translated">Enter-PSSession 会将本地计算机上的 UI 区域性设置用于交互式会话。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>To find the local UI culture, use the $UICulture automatic variable.</source>
+          <target state="translated">若要查找本地 UI 区域性，请使用 $UICulture 自动变量。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession requires the Get-Command, Out-Default, and Exit-PSSession cmdlets.</source>
+          <target state="translated">Enter-PSSession 需要使用 Get-Command、Out-Default 和 Exit-PSSession cmdlet。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>If these cmdlets are not included in the session configuration on the remote computer, the Enter-PSSession commands fails.</source>
+          <target state="translated">如果远程计算机上的会话配置中不包括这些 cmdlet，则 Enter-PSSession 命令将失败。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Unlike Invoke-Command, which parses and interprets the commands before sending them to the remote computer, Enter-PSSession sends the commands directly to the remote computer without interpretation.</source>
+          <target state="translated">与 Invoke-Command（在将命令发送到远程计算机前会对其进行分析和解释）不同，Enter-PSSession 不对命令进行解释而直接将其发送到远程计算机。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>If the session that you want to enter is busy processing a command, there might be a delay before Windows PowerShell responds to the Enter-PSSession command.</source>
+          <target state="translated">如果你希望输入的会话正忙于处理命令，则在 Windows PowerShell 响应 Enter-PSSession 命令之前可能有一段延迟。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>You will be connected as soon as the session is available.</source>
+          <target state="translated">该会话可用后将立即与你建立连接。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>To cancel the Enter-PSSession command, press CTRL+C.</source>
+          <target state="translated">若要取消 Enter-PSSession 命令，请按 CTRL+C。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Exit-PSSession</source>
+          <target state="translated">Exit-PSSession</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Get-PSSession</source>
+          <target state="translated">Get-pssession</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Remove-PSSession</source>
+          <target state="translated">Remove-PSSession</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession</source>
+          <target state="translated">Connect-PSSession</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Disconnect-PSSession</source>
+          <target state="translated">Disconnect-PSSession</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession</source>
+          <target state="translated">Receive-PSSession</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>about_PSSessions</source>
+          <target state="translated">about_PSSessions</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>about_Remote</source>
+          <target state="translated">about_Remote</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

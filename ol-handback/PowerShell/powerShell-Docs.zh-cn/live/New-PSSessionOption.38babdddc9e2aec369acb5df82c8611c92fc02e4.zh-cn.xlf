@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b07668716685793f0ac4cc06aecf858ad3f421d3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\New-PSSessionOption.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">344497cb71edb72ead7672638888371146a13c18</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">30fba9a23061b0fba4343564e899dc3f357a4c79</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates an object that contains advanced options for a PSSession.</source>
+          <target state="translated">创建一个包含 PSSession 高级选项的对象。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> cmdlet creates an object that contains advanced options for a user-managed session ("PSSession").</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> cmdlet 创建一个包含用户托管的会话 ("PSSession") 的高级的选项的对象。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the object as the value of the <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> parameter of cmdlets that create a PSSession, such as New-PSSession, Enter-PSSession, and Invoke-Command.</source>
+          <target state="translated">您可以使用对象的值作为 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 创建 PSSession，例如 New-pssession、 Enter-pssession 和 Invoke-command cmdlet 参数。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Without parameters, <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> generates an object that contains the default values for all of the options.</source>
+          <target state="translated">不带参数， <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> 生成包含的所有选项的默认值的对象。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Because all of the properties can be edited, you can use the resulting object as a template, and create standard option objects for your enterprise.</source>
+          <target state="translated">由于所有属性都是可编辑的，因此你可以将生成的对象用作模板，并为你的企业创建标准选项对象。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can also save a session option object in the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable.</source>
+          <target state="translated">您还可以保存在一个会话选项对象 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 首选项变量。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The values of this variable establish new default values for the session options.</source>
+          <target state="translated">会话选项的新的默认值由此变量的值建立。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>They effective when no session options are set for the session and they take precedence over options set in the session configuration, but you can override them by specifying session options or a session option object in a cmdlet that creates a session.</source>
+          <target state="translated">在未为该会话设置会话选项时它们是有效的，并且优先于在会话配置中设置的选项，但可以通过在创建会话的 cmdlet 中指定会话选项或会话选项对象来替代它们。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, see <bpt id="p2">**</bpt>about_Preference_Variables<ept id="p2">**</ept> (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">有关详细信息 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 首选项变量，请参阅 <bpt id="p2">**</bpt>about_Preference_Variables<ept id="p2">**</ept> (http://go.microsoft.com/fwlink/?LinkID=113248)。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you use a session option object in a cmdlet that creates a session, the session option values take precedence over default values for sessions set in the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable and in the session configuration.</source>
+          <target state="translated">在创建会话的 cmdlet 中使用会话选项对象，当会话中的集，则会话选项值优先于默认值 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 首选项变量和会话配置中。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>However, they do not take precedence over maximum values, quotas or limits set in the session configuration.</source>
+          <target state="translated">但是，它们不优先于在会话配置中设置的最大值、配额或限制。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">有关会话配置的详细信息，请参阅 about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152)。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 示例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command creates a session option object with all of the default values.</source>
+          <target state="translated">此命令使用所有默认值创建会话选项对象。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This example shows how to use a session option object to configure a session.</source>
+          <target state="translated">此示例显示了如何使用会话选项对象来配置会话。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The first command creates a new session option object and saves it in the value of the $pso variable.</source>
+          <target state="translated">第一个命令将创建一个新的会话选项对象，并将其保存在 $pso 变量的值中。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-PSSession cmdlet to create a session on the Server01 remote computer.</source>
+          <target state="translated">第二个命令使用 New-pssession cmdlet 在 Server01 远程计算机上创建会话。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command uses the session option object in the value of the $pso variable as the value of the SessionOption parameter of the command.</source>
+          <target state="translated">该命令将 $pso 变量的值中的会话选项对象用作该命令的 SessionOption 参数的值。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command uses the Enter-PSSession cmdlet to start an interactive session with the Server01 computer.</source>
+          <target state="translated">此命令使用 Enter-pssession cmdlet 来启动与 Server01 计算机的交互式会话。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> parameter is a <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> command with the <bpt id="p3">**</bpt>NoEncryption<ept id="p3">**</ept> and <bpt id="p4">**</bpt>NoCompression<ept id="p4">**</ept> switch parameters.</source>
+          <target state="translated">值 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 参数是 <bpt id="p2">**</bpt>New-pssessionoption<ept id="p2">**</ept> 命令 <bpt id="p3">**</bpt>NoEncryption<ept id="p3">**</ept> 和 <bpt id="p4">**</bpt>NoCompression<ept id="p4">**</ept> 开关参数。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> command is enclosed in parentheses to make sure that it runs before the <bpt id="p2">**</bpt>Enter-PSSession<ept id="p2">**</ept> command.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> 命令括在圆括号中以确保它运行之前 <bpt id="p2">**</bpt>Enter-pssession<ept id="p2">**</ept> 命令。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that you can edit the session option object.</source>
+          <target state="translated">此示例演示了你可以编辑会话选项对象。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>All properties have read/write values.</source>
+          <target state="translated">所有属性都具有读/写值。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use this method to create a standard session object for your enterprise, and then create customized versions of it for particular uses.</source>
+          <target state="translated">使用此方法为你的企业创建标准会话对象，然后针对特定用途创建该对象的自定义版本。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command creates a <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable.</source>
+          <target state="translated">此命令创建 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 首选项变量。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable exists in the session, it establishes default values for options in the sessions that are created by using the New-PSSession, Enter-PSSession, and Invoke-Command cmdlets.</source>
+          <target state="translated">当 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 首选项变量存在于会话后，将建立在通过使用 New-pssession、 Enter-pssession，并且 Invoke-command cmdlet 创建的会话选项的默认值。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To make the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> variable available in all sessions, add it to your Windows PowerShell session and to your Windows PowerShell profile.</source>
+          <target state="translated">若要使 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 变量，在所有会话中，用来将其添加到你的 Windows PowerShell 会话和 Windows PowerShell 配置文件。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">有关详细信息 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 首选项变量，请参阅 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248)。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For more information about profiles, see about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</source>
+          <target state="translated">有关配置文件的详细信息，请参阅 about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729)。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This example shows how to use a <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> object to fulfill the requirements for a remote session configuration.</source>
+          <target state="translated">此示例演示如何使用 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 对象来满足远程会话配置的要求。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> cmdlet to create a session option object with the <bpt id="p2">**</bpt>SkipCNCheck<ept id="p2">**</ept> property.</source>
+          <target state="translated">第一个命令使用 <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> cmdlet 来创建会话选项对象与 <bpt id="p2">**</bpt>SkipCNCheck<ept id="p2">**</ept> 属性。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command saves the resulting session object in the $skipCN variable.</source>
+          <target state="translated">该命令将生成的会话对象保存在 $skipCN 变量中。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-PSSession cmdlet to create a new session on a remote computer.</source>
+          <target state="translated">第二个命令使用 New-pssession cmdlet 在远程计算机上创建新的会话。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The $skipCN check variable is used in the value of the <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">中的值使用 $skipCN 检查变量 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Because the computer is identified by its IP address, the value of the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter does not match any of the common names in the certificate used for Secure Sockets Layer (SSL).</source>
+          <target state="translated">因为该计算机被识别由其 IP 地址的值 <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> 参数与任何使用安全套接字层 (SSL) 的证书中的常见名称都不匹配。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>As a result, the <bpt id="p1">**</bpt>SkipCNCheck<ept id="p1">**</ept> option is required.</source>
+          <target state="translated">因此， <bpt id="p1">**</bpt>SkipCNCheck<ept id="p1">**</ept> 选项是必需的。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> cmdlet to make additional data available to the remote session.</source>
+          <target state="translated">此示例演示如何使用 <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> 参数 <bpt id="p2">**</bpt>New-pssessionoption<ept id="p2">**</ept> cmdlet，以使其他数据可用于远程会话。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The first command creates a hash table with two keys, Team and Use.</source>
+          <target state="translated">第一个命令将创建一个具有两个键（Team 和 Use）的哈希表。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The command saves the hash table in the $team variable.</source>
+          <target state="translated">该命令将该哈希表保存在 $team 变量中。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>(For more information about hash tables, see about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175).)</source>
+          <target state="translated">（有关哈希表的详细信息，请参阅 about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175)）。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> cmdlet to create a session option object that contains the data in the $team variable.</source>
+          <target state="translated">第二个命令使用 <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> 参数 <bpt id="p2">**</bpt>New-pssessionoption<ept id="p2">**</ept> cmdlet 来创建会话选项对象，其中包含 $team 变量中的数据。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The command saves the session option object in the $teamOption variable.</source>
+          <target state="translated">该命令将该会话选项对象保存在 $teamOption 变量中。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> creates the session option object, it automatically converts the hash table in the value of the <bpt id="p2">**</bpt>ApplicationArguments<ept id="p2">**</ept> parameter to a primitive dictionary so the data can be reliably transmitted to the remote session.</source>
+          <target state="translated">当 <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> 创建会话选项对象，它会自动将转换的值中的哈希表 <bpt id="p2">**</bpt>ApplicationArguments<ept id="p2">**</ept> 基元字典，以便数据可以可靠地传输到远程会话的参数。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The third command uses the New-PSSession cmdlet to start a session on the Server01 computer.</source>
+          <target state="translated">第三个命令使用 New-pssession cmdlet 在 Server01 计算机上启动会话。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> parameter to include the options in the $teamOption variable.</source>
+          <target state="translated">它使用 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 参数将这些选项包括在 $teamOption 变量。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The fourth command demonstrates that the data in the $team variable is available to commands in the remote session.</source>
+          <target state="translated">第四个命令演示了 $team 变量中的数据可用于远程会话中的命令。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The data appears in the <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> property of the $PSSenderInfo automatic variable.</source>
+          <target state="translated">数据显示在 <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> $PSSenderInfo 自动变量的属性。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The fifth command shows how the data might be used.</source>
+          <target state="translated">第五个命令显示了使用这些数据的可能方式。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The command uses the Invoke-Command cmdlet to run a script only when the value of the Use property is not "Testing".</source>
+          <target state="translated">该命令使用 Invoke-command cmdlet 只有在使用属性的值不"测试"时才运行一个脚本。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When the value of Use is "Testing", the command returns "Just testing."</source>
+          <target state="translated">当 Use 的值是“Testing”时，该命令将返回“Just testing”。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-ApplicationArguments</source>
+          <target state="translated">-ApplicationArguments</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specifies a primitive dictionary that is sent to the remote session.</source>
+          <target state="translated">指定将发送到远程会话的基元字典。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Commands and scripts in the remote session, including startup scripts in the session configuration, can find this dictionary in the <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> property of the <bpt id="p2">**</bpt>$PSSenderInfo<ept id="p2">**</ept> automatic variable.</source>
+          <target state="translated">命令和脚本在远程会话中，在会话配置中，包括启动脚本中可以找到此字典中的 <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> 属性 <bpt id="p2">**</bpt>$PSSenderInfo<ept id="p2">**</ept> 自动变量。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to send data to the remote session.</source>
+          <target state="translated">你可以使用此参数来将数据发送到远程会话。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A primitive dictionary is like a hash table, but it contains keys that are case-insensitive strings and values that can be serialized and deserialized during Windows PowerShell remoting handshakes.</source>
+          <target state="translated">基元字典类似于哈希表，但它包含区分大小写的字符串形式的键，以及可在 Windows PowerShell 远程处理握手过程中对其进行序列化和反序列化的值。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If you enter a hash table for the value of this parameter, Windows PowerShell converts it to a primitive dictionary.</source>
+          <target state="translated">如果你输入此参数的值的哈希表，则 Windows PowerShell 会将其转换为基元字典。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175), about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152), and about_Automatic_Variables (http://go.microsoft.com/fwlink/?LinkID=113212).</source>
+          <target state="translated">有关详细信息，请参阅 about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175)、 about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152) 和 about_Automatic_Variables (http://go.microsoft.com/fwlink/?LinkID=113212)。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-CancelTimeout</source>
+          <target state="translated">-CancelTimeout</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Determines how long Windows PowerShell waits for a cancel operation (CTRL + C)  to complete before terminating it.</source>
+          <target state="translated">确定 Windows PowerShell 终止取消操作 (Ctrl + C) 之前等待该操作完成的时长。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">输入一个值（以毫秒为单位）。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The default value is 60000 (one minute).</source>
+          <target state="translated">默认值为 60000（1 分钟）。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) means no timeout; the command continues indefinitely.</source>
+          <target state="translated">值为 0（零）表示无超时；该命令会无限期地继续运行。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-Culture</source>
+          <target state="translated">区域性</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Specifies the culture to use for the session.</source>
+          <target state="translated">指定要用于会话的区域性。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Enter a culture name in <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> format, such as "ja-jP",  a variable that contains a CultureInfo object, or a command that gets a CultureInfo object, such as "get-culture".</source>
+          <target state="translated">输入中的区域性名称 <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> 格式，例如"Ja-jp"、 包含 CultureInfo 对象的变量或可获取 CultureInfo 对象，如"get-区域"的命令。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The default value is $null, and the culture that is set in the operating system  is used in the session.</source>
+          <target state="translated">默认值为 $null，并且将在该会话中使用已在操作系统中设置的区域性。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-IdleTimeout</source>
+          <target state="translated">-IdleTimeout</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Determines how long the session stays open if the remote computer does not receive any communication from the local computer, including the heartbeat signal.</source>
+          <target state="translated">确定当远程计算机没有从本地计算机接收任何通信（包括检测信号）时，会话保持打开状态的时长。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the session closes.</source>
+          <target state="translated">当时间间隔已过时，该会话将关闭。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The idle timeout value is of significant importance if you intend to disconnect and reconnect to a session.</source>
+          <target state="translated">如果你想要断开连接会话并将其重新连接，则空闲超时值非常重要。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>You can reconnect only if the session has not timed out.</source>
+          <target state="translated">仅当该会话未超时时，才可以重新连接。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">输入一个值（以毫秒为单位）。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The minimum value is 60000 (1 minute).</source>
+          <target state="translated">最小值为 60000（1 分钟）。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The maximum is the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutms<ept id="p1">**</ept> property of the session configuration.</source>
+          <target state="translated">最大的价值是 <bpt id="p1">**</bpt>MaxIdleTimeoutms<ept id="p1">**</ept> 会话配置的属性。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default value, -1, does not set an idle timeout.</source>
+          <target state="translated">默认值 -1 未设置空闲超时。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The session uses the idle timeout that is set in the session options, if any.</source>
+          <target state="translated">该会话将使用在会话选项中设置的空闲超时（如果有）。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If none is set (-1), the session uses the value of the <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> property of the session configuration or the WSMan shell timeout value (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout), whichever is shortest.</source>
+          <target state="translated">如果没有设置 (-1)，该会话使用的值 <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> 会话配置或 WSMan shell 超时值的属性 (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout)，以二者中较短者为准。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If the idle timeout set in the session options exceeds the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property of the session configuration, the command to create a session fails.</source>
+          <target state="translated">如果在会话选项中设置的空闲超时超出的值 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 属性的会话配置，该命令以创建会话失败。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> value of the default Microsoft.PowerShell session configuration is 7200000 milliseconds (2 hours).</source>
+          <target state="translated"> <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> 默认的 Microsoft.PowerShell 会话配置的值为 7200000 毫秒 （2 小时）。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Its <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> value is 2147483647 milliseconds (<ph id="ph1">\&gt;</ph>24 days).</source>
+          <target state="translated">其 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 值为 2147483647 毫秒 (<ph id="ph1">\&gt;</ph>24 天)。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The default value of the WSMan shell idle timeout (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout) is 7200000 milliseconds (2 hours).</source>
+          <target state="translated">WSMan shell 空闲超时的默认值 (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout) 为 7200000 毫秒 （2 小时）。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The idle timeout value of a session can also be changed when disconnecting from a session or reconnecting to a session.</source>
+          <target state="translated">从会话断开连接或重新连接到会话时，也可以更改会话的空闲超时值。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>For more information, see Disconnect-PSSession and Connect-PSSession.</source>
+          <target state="translated">有关详细信息，请参阅 Disconnect-pssession 和 Connect-pssession。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, the default value of the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> parameter is 240000 (4 minutes).</source>
+          <target state="translated">在 Windows PowerShell 2.0 中，默认值为 <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> 参数为 240000 （4 分钟）。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-IncludePortInSPN</source>
+          <target state="translated">-IncludePortInSPN</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Includes the port number in the Service Principal Name (SPN) used for Kerberos authentication, for example, "HTTP/<ph id="ph1">\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>:5985".</source>
+          <target state="translated">包括在服务主体名称 (SPN) 进行 Kerberos 身份验证，例如，使用的端口号"HTTP /<ph id="ph1">\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>: 5985"。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This option allows a client that uses a non-default SPN to authenticate against a remote computer that uses Kerberos authentication.</source>
+          <target state="translated">此选项允许客户端使用非默认 SPN 对使用 Kerberos 身份验证的远程计算机进行身份验证。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The option is designed for enterprises where multiple services that support Kerberos authentication are running under different user accounts.</source>
+          <target state="translated">该选项旨在用于为在不同的用户帐户下运行的支持 Kerberos 身份验证的多个服务的企业。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For example, an IIS application that allows Kerberos authentication can require the default SPN to be registered to a user account that is different from the computer account.</source>
+          <target state="translated">例如，允许 Kerberos 身份验证的 IIS 应用程序可能需要将默认 SPN 注册到不同于计算机帐户的用户帐户。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>In such cases, Windows PowerShell remoting cannot use Kerberos to authenticate because it requires an SPN that is registered to the computer account.</source>
+          <target state="translated">在这种情况下，Windows PowerShell 远程处理无法使用 Kerberos 进行身份验证，因为它需要一个已注册到计算机帐户的 SPN。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To resolve this problem, administrators can create different SPNs (such as by using Setspn.exe) that are registered to different user accounts and can distinguish between them by including the port number in the SPN.</source>
+          <target state="translated">为了解决此问题，管理员可以创建注册到不同用户帐户的其他 SPN（例如通过使用 Setspn.exe），并且可以通过将端口号包含在 SPN 中来区分它们。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>For more information about SetSPN.exe, see "SetSPN Overview" at http://go.microsoft.com/fwlink/?LinkID=189413.</source>
+          <target state="translated">有关 SetSPN.exe 的详细信息，请参阅“SetSPN 概述”，网址是 http://go.microsoft.com/fwlink/?LinkID=189413。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此参数是在 Windows PowerShell 3.0 中引入的。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-MaximumReceivedDataSizePerCommand</source>
+          <target state="translated">-MaximumReceivedDataSizePerCommand</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of bytes that the local computer can receive from the remote computer in a single command.</source>
+          <target state="translated">指定本地计算机在单个命令中可从远程计算机接收到的最大字节数。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Enter a value in bytes.</source>
+          <target state="translated">输入一个值（以字节为单位）。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>By default, there is no data size limit.</source>
+          <target state="translated">默认情况下，没有数据大小限制。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This option is designed to protect the resources on the client computer.</source>
+          <target state="translated">此选项专门用于保护客户端计算机上的资源。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>-MaximumReceivedObjectSize</source>
+          <target state="translated">-MaximumReceivedObjectSize</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum size of an object that the local computer can receive from the remote computer.</source>
+          <target state="translated">指定本地计算机可从远程计算机接收到的最大对象大小。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This option is designed to protect the resources on the client computer.</source>
+          <target state="translated">此选项专门用于保护客户端计算机上的资源。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Enter a value in bytes.</source>
+          <target state="translated">输入一个值（以字节为单位）。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, if you omit this parameter, there is no object size limit.</source>
+          <target state="translated">在 Windows PowerShell 2.0 中，如果省略此参数，则没有对象大小限制。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, if you omit this parameter, the default value is 200 MB.</source>
+          <target state="translated">从 Windows PowerShell 3.0 开始，如果省略此参数，则默认值为 200 MB。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-MaximumRedirection</source>
+          <target state="translated">-MaximumRedirection</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Determines how many times Windows PowerShell redirects a connection to an alternate Uniform Resource Identifier (URI) before the connection fails.</source>
+          <target state="translated">确定在连接失败之前，Windows PowerShell 将该连接重定向到备用统一资源标识符 (URI) 的次数。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">默认值为 5。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) prevents all redirection.</source>
+          <target state="translated">值为 0（零）将阻止所有重定向。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This option is used in the session only when the AllowRedirection parameter is used in the command that creates the session.</source>
+          <target state="translated">仅当在创建该会话的命令中使用了 AllowRedirection 参数时，才将此选项用于该会话中。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>-NoCompression</source>
+          <target state="translated">-NoCompression</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Turns off packet compression in the session.</source>
+          <target state="translated">关闭会话中的数据包压缩。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Compression uses more processor cycles, but it makes transmission faster.</source>
+          <target state="translated">压缩会占用更多的处理器周期，但可以提高传输速度。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-NoEncryption</source>
+          <target state="translated">-NoEncryption</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Turns off data encryption.</source>
+          <target state="translated">关闭数据加密。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-NoMachineProfile</source>
+          <target state="translated">-NoMachineProfile</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Prevents loading the user's Windows user profile.</source>
+          <target state="translated">阻止加载用户的 Windows 用户配置文件。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>As a result, the session might be created faster, but user-specific registry settings, items such as environment variables, and certificates are not available in the session.</source>
+          <target state="translated">这样做可以加快创建会话的速度，但不能在该会话使用特定于用户的注册表设置、环境变量等项以及证书。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>-OpenTimeout</source>
+          <target state="translated">-OpenTimeout</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Determines how long the client computer waits for the session connection to be established.</source>
+          <target state="translated">确定客户端计算机等待建立会话连接的时长。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the command to establish the connection fails.</source>
+          <target state="translated">当时间间隔到期时，用于建立该连接的命令将失败。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">输入一个值（以毫秒为单位）。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The default value is 180000 (3 minutes).</source>
+          <target state="translated">默认值为 180000（3 分钟）。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) means no time-out; the command continues indefinitely.</source>
+          <target state="translated">值为 0（零）表示无超时；该命令会无限期地继续运行。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>-OperationTimeout</source>
+          <target state="translated">-OperationTimeout</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Determines the maximum time that any operation in the session can run.</source>
+          <target state="translated">确定任一操作可在会话中运行的最长时间。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the operation fails.</source>
+          <target state="translated">当时间间隔到期时，该操作将失败。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">输入一个值（以毫秒为单位）。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The default value is 180000 (3 minutes).</source>
+          <target state="translated">默认值为 180000（3 分钟）。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) means no time-out; the operation continues indefinitely.</source>
+          <target state="translated">值为 0（零）表示无超时；该操作会无限期地继续运行。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>-OutputBufferingMode</source>
+          <target state="translated">-OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Determines how command output is managed in disconnected sessions when the output buffer becomes full.</source>
+          <target state="translated">当输出缓冲区时已满时，确定如何在断开连接的会话中管理命令输出。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If the output buffering mode is not set in the session or in the session configuration, the default value is <bpt id="p1">**</bpt>Block<ept id="p1">**</ept>.</source>
+          <target state="translated">如果在会话中未设置输出缓冲模式或在会话配置中，默认值为 <bpt id="p1">**</bpt>块<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Users can also change the output buffering mode when disconnecting the session.</source>
+          <target state="translated">用户还可以在断开会话连接时更改输出缓冲模式。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, the value of the <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> of the session option object is <bpt id="p2">**</bpt>None<ept id="p2">**</ept>.</source>
+          <target state="translated">如果省略此参数的值 <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> 的会话选项对象是 <bpt id="p2">**</bpt>无<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>A value of <bpt id="p1">**</bpt>Block<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Drop<ept id="p2">**</ept> overrides the output buffering mode transport option set in the session configuration.</source>
+          <target state="translated">值为 <bpt id="p1">**</bpt>块<ept id="p1">**</ept> 或 <bpt id="p2">**</bpt>删除<ept id="p2">**</ept> 替代的输出缓冲模式传输选项在会话配置中设置。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有效值包括：</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Block<ept id="p1">**</ept>: When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated"><bpt id="p1">**</bpt>块<ept id="p1">**</ept>︰ 输出缓冲区已满时，挂起执行，直到清除缓冲区。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Drop<ept id="p1">**</ept>: When the output buffer is full, execution continues.</source>
+          <target state="translated"><bpt id="p1">**</bpt>删除<ept id="p1">**</ept>︰ 当输出缓冲区已满时，继续执行。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>As new output is saved, the oldest output is discarded.</source>
+          <target state="translated">由于已保存新的输出，因此将丢弃最早的输出。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept>: No output buffering mode is specified.</source>
+          <target state="translated"><bpt id="p1">**</bpt>无<ept id="p1">**</ept>︰ 不指定任何输出缓冲模式。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>For more information about the output buffering mode transport option, see New-PSTransportOption.</source>
+          <target state="translated">有关输出缓冲模式传输选项的详细信息，请参阅 New-pstransportoption。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此参数是在 Windows PowerShell 3.0 中引入的。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>-ProxyAccessType</source>
+          <target state="translated">-ProxyAccessType</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Determines which mechanism is used to resolve the host name.</source>
+          <target state="translated">确定用于解析主机名的机制。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>IEConfig<ept id="p1">**</ept>, <bpt id="p2">**</bpt>WinHttpConfig<ept id="p2">**</ept>, <bpt id="p3">**</bpt>AutoDetect<ept id="p3">**</ept>, <bpt id="p4">**</bpt>NoProxyServer<ept id="p4">**</ept> and <bpt id="p5">**</bpt>None<ept id="p5">**</ept>.</source>
+          <target state="translated">有效值为 <bpt id="p1">**</bpt>IEConfig<ept id="p1">**</ept>, ，<bpt id="p2">**</bpt>WinHttpConfig<ept id="p2">**</ept>, ，<bpt id="p3">**</bpt>自动检测<ept id="p3">**</ept>, ，<bpt id="p4">**</bpt>NoProxyServer<ept id="p4">**</ept> 和 <bpt id="p5">**</bpt>无<ept id="p5">**</ept>。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>None<ept id="p1">**</ept>.</source>
+          <target state="translated">默认值是 <bpt id="p1">**</bpt>无<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see the description of the System.Management.Automation.Remoting.ProxyAccessType enumeration in the MSDN (Microsoft Developer Network) Library at http://go.microsoft.com/fwlink/?LinkId=144756.</source>
+          <target state="translated">有关此参数的值的信息，请参阅 MSDN (Microsoft Developer Network) 库中对 System.Management.Automation.Remoting.ProxyAccessType 枚举的说明，网址是 http://go.microsoft.com/fwlink/?LinkId=144756。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>-ProxyAuthentication</source>
+          <target state="translated">-ProxyAuthentication</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Specifies the authentication method that is used for proxy resolution.</source>
+          <target state="translated">指定用于代理解析的身份验证方法。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>Basic<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Digest<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Negotiate<ept id="p3">**</ept>.</source>
+          <target state="translated">有效值为 <bpt id="p1">**</bpt>基本<ept id="p1">**</ept>, ，<bpt id="p2">**</bpt>摘要式<ept id="p2">**</ept>, ，和 <bpt id="p3">**</bpt>协商<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>Negotiate<ept id="p1">**</ept>.</source>
+          <target state="translated">默认值是 <bpt id="p1">**</bpt>协商<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see the description of the System.Management.Automation.Runspaces.AuthenticationMechanism enumeration in the MSDN library at http://go.microsoft.com/fwlink/?LinkID=144382.</source>
+          <target state="translated">有关此参数的值的信息，请参阅 MSDN 库中对 System.Management.Automation.Runspaces.AuthenticationMechanism 枚举的说明，网址是 http://go.microsoft.com/fwlink/?LinkId=144382。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>-ProxyCredential</source>
+          <target state="translated">-ProxyCredential</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Specifies the credentials to use for proxy authentication.</source>
+          <target state="translated">指定用于代理身份验证的凭据。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object or a command that gets a <bpt id="p2">**</bpt>PSCredential<ept id="p2">**</ept> object, such as a Get-Credential command.</source>
+          <target state="translated">输入一个包含变量 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> 对象或一个可获取命令 <bpt id="p2">**</bpt>PSCredential<ept id="p2">**</ept> 对象，如 Get-credential 命令。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>If this option is not set, no credentials are specified.</source>
+          <target state="translated">如果未设置此选项，则不指定任何凭据。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>-SkipCACheck</source>
+          <target state="translated">-SkipCACheck</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Specifies that when connecting over HTTPS, the client does not validate that the server certificate is signed by a trusted certification authority (CA).</source>
+          <target state="translated">指定当通过 HTTPS 进行连接时，客户端不会验证服务器证书是否由受信任的证书颁发机构 (CA) 签名。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Use this option only when the remote computer is trusted by using another mechanism, such as when the remote computer is part of a network that is physically secure and isolated or when the remote computer is listed as a trusted host in a WinRM configuration.</source>
+          <target state="translated">仅当远程计算机通过其他机制受信任（例如远程计算机所属的网络在物理上是安全的并已隔离，或者远程计算机在 WinRM 配置中列为受信任主机）时才使用此选项。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>-SkipCNCheck</source>
+          <target state="translated">-SkipCNCheck</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Specifies that the certificate common name (CN) of the server does not need to match the hostname of the server.</source>
+          <target state="translated">指定服务器的证书公用名 (CN) 无需与服务器的主机名相匹配。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>This option is used only in remote operations that use the HTTPS protocol.</source>
+          <target state="translated">仅在使用 HTTPS 协议的远程操作中使用此选项。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Use this option only for trusted computers.</source>
+          <target state="translated">仅将此选项用于受信任的计算机。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>-SkipRevocationCheck</source>
+          <target state="translated">-SkipRevocationCheck</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Does not validate the revocation status of the server certificate.</source>
+          <target state="translated">不验证服务器证书的吊销状态。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>-UICulture</source>
+          <target state="translated">-UICulture</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Specifies the UI culture to use for the session.</source>
+          <target state="translated">指定用于会话的 UI 区域性。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Enter a culture name in <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> format, such as "ja-jP",  a variable that contains a <bpt id="p1">**</bpt>CultureInfo<ept id="p1">**</ept> object, or a command that gets a CultureInfo object, such as a Get-Culture command.</source>
+          <target state="translated">输入中的区域性名称 <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> 格式，如"Ja-jp"包含的变量 <bpt id="p1">**</bpt>CultureInfo<ept id="p1">**</ept> 对象或可获取 CultureInfo 对象，如 Get-culture 命令的命令。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The default value is $null, and the UI culture that is set in the operating system when the session is created is used in the session.</source>
+          <target state="translated">默认值为 $null，并且将在会话中使用创建该会话时在操作系统中设置的 UI 区域性。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>-UseUTF16</source>
+          <target state="translated">-UseUTF16</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Encode the request in UTF16 format rather than UTF8 format.</source>
+          <target state="translated">以 UTF16 格式而不是 UTF8 格式对请求进行编码。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">无</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">不能通过管道将输入传递给此 cmdlet。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Remoting.PSSessionOption</source>
+          <target state="translated">System.Management.Automation.Remoting.PSSessionOption</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> parameter is not used in a command to create a PSSession, the session options are determined by the property values of the <bpt id="p2">**</bpt>$PSSessionOption<ept id="p2">**</ept> preference variable, if it is set.</source>
+          <target state="translated">如果 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 参数不用于在命令中，来创建 PSSession，会话选项由属性值的 <bpt id="p2">**</bpt>$PSSessionOption<ept id="p2">**</ept> 首选项变量，如果将其设置。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>For more information about the $PSSessionOption variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">有关 $PSSessionOption 变量的详细信息，请参阅 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248)。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The properties of a session configuration object vary with the options set for the session configuration and the values of those options.</source>
+          <target state="translated">会话配置对象的属性会根据为会话配置设置的选项以及这些选项的值而有所不同。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Also, session configurations that use a session configuration file have additional properties.</source>
+          <target state="translated">此外，使用会话配置文件的会话配置还具有其他属性。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

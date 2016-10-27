@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68990fb131a5c42ea897299bb0e3307d95596351</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\New-PSTransportOption.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a18f02717bb4b782900dcca3db989a569322c23</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0cf325ffea92ff0c0aa9e20f25d4d3a0e2d5cbb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates an object that contains advanced options for a session configuration.</source>
+          <target state="translated">セッション構成の詳細設定オプションが格納されたオブジェクトを作成します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> cmdlet creates an object that contains transport options for session configurations.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-pstransportoption<ept id="p1">**</ept> コマンドレットをセッション構成のトランスポート オプションを含むオブジェクトを作成します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the object as the value of the <bpt id="p1">*</bpt>TransportOption<ept id="p1">*</ept> parameter of cmdlets that create or change a session configuration, such as the Register-PSSessionConfiguration and Set-PSSessionConfiguration cmdlets.</source>
+          <target state="translated">値としてオブジェクトを使用する、 <bpt id="p1">*</bpt>TransportOption<ept id="p1">*</ept> を作成したり、Register-pssessionconfiguration と Set-pssessionconfiguration コマンドレットなどのセッション構成を変更したりするコマンドレットのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can also change the transport option settings by editing the values of the session configuration properties in the WSMan: drive.</source>
+          <target state="translated">また、WSMan: ドライブのセッション構成のプロパティの値を編集することにより、トランスポート オプション設定を変更することもできます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see WSMan Provider.</source>
+          <target state="translated">詳細については、WSMan プロバイダーを参照してください。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The session configuration options represent the session values set on the server-side, or receiving end of a remote connection.</source>
+          <target state="translated">セッション構成オプションは、サーバー側、またはリモート接続の受信側で設定されたセッション値を表します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The client-side, or sending end of the connection, can set session option values when the session is created, or when the client disconnects from or reconnects to the session.</source>
+          <target state="translated">クライアント側または送信側の終端は接続のことができますセッション オプションまたは値を設定、セッションが作成されると、クライアントからの接続が切断またはセッションに再接続したとき。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Unless stated otherwise, when the setting values conflict, the client-side values take precedence.</source>
+          <target state="translated">特に明記しない限り、設定値が競合した場合、クライアント側の値が優先されます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>However, the client-side values cannot violate maximum values and quotas set in the session configuration.</source>
+          <target state="translated">ただし、クライアント側の値は、セッション構成に設定された最大値とクォータを超えることはできません。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Without parameters, <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> generates a transport option object that has null values for all of the options.</source>
+          <target state="translated">パラメーターを指定しない <bpt id="p1">**</bpt>New-pstransportoption<ept id="p1">**</ept> すべてのオプションの null 値を持つトランスポート オプション オブジェクトを生成します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you omit a parameter, the object has a null value for the property that the parameter represents.</source>
+          <target state="translated">パラメーターを省略した場合、オブジェクトではパラメーターが表すプロパティに対して null 値が保持されます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A null value does not affect the session configuration.</source>
+          <target state="translated">Null 値は、セッション構成には影響しません。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about session options, see New-PSSessionOption.</source>
+          <target state="translated">セッション オプションの詳細については、New-pssessionoption を参照してください。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">セッション構成の詳細については、「about_Session_Configurations」(http://go.microsoft.com/fwlink/?LinkID=145152) を参照してください。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This cmdlet was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このコマンドレットは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1: Generate a default transport option</source>
+          <target state="translated">例 1: 既定のトランスポート オプションを生成します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command runs the <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> without parameters.</source>
+          <target state="translated">このコマンドは、実行、 <bpt id="p1">**</bpt>New-pstransportoption<ept id="p1">**</ept> パラメーターを指定しません。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The output shows that the cmdlet generates a transport option object that has null values for all properties.</source>
+          <target state="translated">コマンドレットがすべてのプロパティの null 値を持つトランスポート オプション オブジェクトを生成する出力を示しています。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Example 2: Get session configuration options</source>
+          <target state="translated">例 2: はセッションの構成オプションを取得します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This example shows how to use a transport options object to set session configuration options.</source>
+          <target state="translated">この例では、トランスポート オプション オブジェクトを使用して、セッション構成オプションを設定する方法を示します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 3: Setting a transport option</source>
+          <target state="translated">例 3: トランスポート オプションを設定します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command shows the effect of setting a transport option in a session configuration on the sessions that use the session configuration.</source>
+          <target state="translated">このコマンドは、セッション構成内のトランスポート オプションを設定することで、セッション構成を使用するセッションに与える影響を示します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-IdleTimeoutSec</source>
+          <target state="translated">-IdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Determines how long each session stays open if the remote computer does not receive any communication from the local computer.</source>
+          <target state="translated">各セッションがリモート コンピューターがローカル コンピューターからのすべての通信を受信しなかった場合は、開いたままどのくらいの期間を決定します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This includes the heartbeat signal.</source>
+          <target state="translated">これには、ハートビート信号が含まれます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the session closes.</source>
+          <target state="translated">この期間が経過すると、セッションは閉じられます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The idle time-out value is of significant importance when the user intends to disconnect and reconnect to a session.</source>
+          <target state="translated">ユーザーを切断し、セッションに再接続する場合、アイドル タイムアウト値は非常に重要です。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The user can reconnect only if the session has not timed out.</source>
+          <target state="translated">ユーザーは、セッションがまだタイムアウトしていない場合のみ再接続できます。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>IdleTimeoutSec<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>IdleTimeoutMs<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>IdleTimeoutSec<ept id="p1">*</ept> パラメーターに対応して、 <bpt id="p2">**</bpt>IdleTimeoutMs<ept id="p2">**</ept> セッション構成のプロパティです。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Enter a value in seconds.</source>
+          <target state="translated">値を秒単位で入力します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default value is 7200 (2 hours).</source>
+          <target state="translated">既定値は 7,200 (2 時間) です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The minimum value is 60 (1 minute).</source>
+          <target state="translated">最小値は 60 (1 分) です。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The maximum is the value of the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> property of Shell objects in the WSMan configuration (<ph id="ph1">`WSMan:\\\&lt;ComputerName\&gt;\Shell\IdleTimeout`</ph>).</source>
+          <target state="translated">最大値は、値、 <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> WSMan 構成内の Shell オブジェクトのプロパティ (<ph id="ph1">`WSMan:\\\&lt;ComputerName\&gt;\Shell\IdleTimeout`</ph>)。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The default value is 7200000 milliseconds (2 hours).</source>
+          <target state="translated">既定値は 7,200,000 ミリ秒 (2 時間) です。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If an idle time-out value is set in the session options and in the session configuration, value set in the session options takes precedence, but it cannot exceed the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property of the session configuration.</source>
+          <target state="translated">セッション オプションにアイドル タイムアウト値を設定し、セッション構成でセッション オプションで設定値が優先の値を超えることはできません、 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> セッション構成のプロパティです。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To set the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property, use the <bpt id="p2">*</bpt>MaxIdleTimeoutSec<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">値を設定する、 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> プロパティには、使用、 <bpt id="p2">*</bpt>MaxIdleTimeoutSec<ept id="p2">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-MaxConcurrentCommandsPerSession</source>
+          <target state="translated">-MaxConcurrentCommandsPerSession</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Limits the number of commands that can run at the same time in each session to the specified value.</source>
+          <target state="translated">指定した値に各セッションで同時に実行できるコマンドの数を制限します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The default value is 1000.</source>
+          <target state="translated">既定値は 1000 です。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>MaxConcurrentCommandsPerSession<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxConcurrentCommandsPerShell<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>MaxConcurrentCommandsPerSession<ept id="p1">*</ept> パラメーターに対応して、 <bpt id="p2">**</bpt>MaxConcurrentCommandsPerShell<ept id="p2">**</ept> セッション構成のプロパティです。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-MaxConcurrentUsers</source>
+          <target state="translated">-MaxConcurrentUsers</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Limits the number of users who can run commands at the same time in each session to the specified value.</source>
+          <target state="translated">指定した値に各セッションで同時にコマンドを実行できるユーザーの数を制限します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">既定値は 5 です。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-MaxIdleTimeoutSec</source>
+          <target state="translated">-MaxIdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Limits the idle time-out set for each session to the specified value.</source>
+          <target state="translated">アイドル タイムアウトを指定した値に各セッションの設定を制限します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">\[</ph>Int<ph id="ph2">\]</ph>::MaxValue (~25 days).</source>
+          <target state="translated">既定値は <ph id="ph1">\[</ph>Int<ph id="ph2">\]</ph>:: MaxValue (~ 25 日) です。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The idle time-out value is of significant importance when the user intends to disconnect and reconnect to a session.</source>
+          <target state="translated">ユーザーを切断し、セッションに再接続する場合、アイドル タイムアウト値は非常に重要です。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The user can reconnect only if the session has not timed out.</source>
+          <target state="translated">ユーザーは、セッションがまだタイムアウトしていない場合のみ再接続できます。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>MaxIdleTimeoutSec<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxIdleTimeoutMs<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>MaxIdleTimeoutSec<ept id="p1">*</ept> パラメーターに対応して、 <bpt id="p2">**</bpt>MaxIdleTimeoutMs<ept id="p2">**</ept> セッション構成のプロパティです。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-MaxMemoryPerSessionMB</source>
+          <target state="translated">-MaxMemoryPerSessionMB</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Limits the memory used by each session to the specified value.</source>
+          <target state="translated">各セッションで使用されるメモリを、指定された値に制限します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Enter a value in megabytes.</source>
+          <target state="translated">値はメガバイトで入力します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The default value is 1024 megabytes (1 GB).</source>
+          <target state="translated">既定値は 1,024 メガバイト (1 GB) です。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>MaxMemoryPerSessionMB<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxMemoryPerShellMB<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>MaxMemoryPerSessionMB<ept id="p1">*</ept> パラメーターに対応して、 <bpt id="p2">**</bpt>MaxMemoryPerShellMB<ept id="p2">**</ept> セッション構成のプロパティです。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-MaxProcessesPerSession</source>
+          <target state="translated">-MaxProcessesPerSession</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Limits the number of processes running in each session to the specified value.</source>
+          <target state="translated">各セッションで実行するプロセスの数を、指定された値に制限します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default value is 15.</source>
+          <target state="translated">既定値は 15 です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>MaxProcessesPerSession<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxProcessesPerShell<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>MaxProcessesPerSession<ept id="p1">*</ept> パラメーターに対応して、 <bpt id="p2">**</bpt>MaxProcessesPerShell<ept id="p2">**</ept> セッション構成のプロパティです。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-MaxSessions</source>
+          <target state="translated">-パラメーター</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Limits the number of sessions that use the session configuration.</source>
+          <target state="translated">セッション構成を使用するセッションの数を制限します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The default value is 25.</source>
+          <target state="translated">既定値は 25 です。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>MaxSessions<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxShells<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>MaxSessions<ept id="p1">*</ept> パラメーターに対応して、 <bpt id="p2">**</bpt>MaxShells<ept id="p2">**</ept> セッション構成のプロパティです。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-MaxSessionsPerUser</source>
+          <target state="translated">-MaxSessionsPerUser</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Limits the number of sessions that use the session configuration and run with the credentials of a given user to the specified value.</source>
+          <target state="translated">セッション構成を使用して特定のユーザーの資格情報で実行するセッションの数を、指定された値に制限します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The default value is 25.</source>
+          <target state="translated">既定値は 25 です。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When you specify this value, consider that many users might be using the credentials of a run as user.</source>
+          <target state="translated">この値を指定するときに、ユーザーとして、実行時の資格情報が、多くのユーザーを使用する場合があることを検討してください。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>MaxSessionsPerUser<ept id="p1">*</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxShellsPerUser<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>MaxSessionsPerUser<ept id="p1">*</ept> パラメーターに対応して、 <bpt id="p2">**</bpt>MaxShellsPerUser<ept id="p2">**</ept> セッション構成のプロパティです。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-OutputBufferingMode</source>
+          <target state="translated">-OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Determines how command output is managed in disconnected sessions when the output buffer becomes full.</source>
+          <target state="translated">出力バッファーがいっぱいになったときに切断されたセッションでコマンドの出力を管理する方法を指定します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">このパラメーターに対して使用できる値:</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Block.</source>
+          <target state="translated">ブロックです。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated">出力バッファーがいっぱいのとき、バッファーが空くまで実行が中断されます。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Drop.</source>
+          <target state="translated">削除します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>When the output buffer is full, execution continues.</source>
+          <target state="translated">出力バッファーがいっぱいのとき、実行は続行されます。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>As new output is saved, the oldest output is discarded.</source>
+          <target state="translated">新しい出力が保存されると、最も古い出力が破棄されます。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>None.</source>
+          <target state="translated">なし。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>No output buffering mode is specified.</source>
+          <target state="translated">出力バッファー モードが指定されません。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The default value of the <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> property of sessions is Block.</source>
+          <target state="translated">既定値、 <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> セッションのプロパティは、ブロックします。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-ProcessIdleTimeoutSec</source>
+          <target state="translated">-ProcessIdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Limits the time-out for each host process to the specified value.</source>
+          <target state="translated">指定した値には、各ホスト プロセスのタイムアウトを制限します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default value, 0, means that there is no time-out value for the process.</source>
+          <target state="translated">既定値は 0 では、プロセスのタイムアウト値がないことを意味します。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Other session configurations have per-process time-out values.</source>
+          <target state="translated">その他のセッション構成では、プロセスごとのタイムアウト値があります。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For example, the <bpt id="p1">**</bpt>Microsoft.PowerShell.Workflow<ept id="p1">**</ept> session configuration has a per-process time-out value of 28800 seconds (8 hours).</source>
+          <target state="translated">たとえば、 <bpt id="p1">**</bpt>Microsoft.PowerShell.Workflow<ept id="p1">**</ept> セッション構成では、プロセスごとのタイムアウト値は 28,800 秒 (8 時間) です。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">パイプを使用してこのコマンドレットに入力を渡すことはできません。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.WSManConfigurationOption</source>
+          <target state="translated">Microsoft.PowerShell.Commands.WSManConfigurationOption</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The properties of a session configuration object vary with the options set for the session configuration and the values of those options.</source>
+          <target state="translated">セッション構成オブジェクトのプロパティは、セッション構成に設定されているオプションとその値によって異なります。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Also, session configurations that use a session configuration file have additional properties.</source>
+          <target state="translated">また、セッション構成ファイルを使用するセッション構成には追加のプロパティがあります。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration</source>
+          <target state="translated">Set-pssessionconfiguration</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

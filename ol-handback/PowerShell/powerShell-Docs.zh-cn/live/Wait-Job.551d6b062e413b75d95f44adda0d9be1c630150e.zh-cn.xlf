@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae8964d134d4e01aa9196823402e9c209f4b36a3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Wait-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">487c11cd5d8414d346808a4e184d8b9edc83ade6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">187c388ee01e0fc9a82cb262d967b95d55517fc0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">等待作业</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">等待作业</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Suppresses the command prompt until one or all of the Windows PowerShell background jobs running in the session are completed.</source>
+          <target state="translated">禁止显示命令提示符处，直到完成一项或所有会话中运行的 Windows PowerShell 后台作业。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SessionIdParameterSet (Default)</source>
+          <target state="translated">SessionIdParameterSet （默认值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>JobParameterSet</source>
+          <target state="translated">JobParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>StateParameterSet</source>
+          <target state="translated">StateParameterSet</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>FilterParameterSet</source>
+          <target state="translated">FilterParameterSet</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet waits for Windows PowerShell background jobs to finish before it displays the command prompt.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> cmdlet 等待 Windows PowerShell 后台作业完成，然后显示命令提示符。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can wait until any background job is complete, or until all background jobs are complete, and you can set a maximum wait time for the job.</source>
+          <target state="translated">可以等待某一个后台作业完成或所有后台作业完成，并可为作业设置最长等待时间。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When the commands in the job are complete, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> displays the command prompt and returns a job object so that you can pipe it to another command.</source>
+          <target state="translated">当该作业中的命令都完成时， <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 显示命令提示符并将返回作业对象，以便您可以将其输送到另一个命令。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet to wait for background jobs, such as those that were started by using the Start-Job cmdlet or the <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> parameter of the Invoke-Command cmdlet.</source>
+          <target state="translated">您可以使用 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> cmdlet 等待后台作业，例如通过使用 Start-job cmdlet 或 <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> Invoke-command cmdlet 的参数。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information about Windows PowerShell background jobs, see about_Jobs.</source>
+          <target state="translated">有关 Windows PowerShell 后台作业的详细信息，请参阅 about_Jobs。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Starting in Windows PowerShell 3.0, the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet also waits for custom job types, such as workflow jobs and instances of scheduled jobs.</source>
+          <target state="translated">从 Windows PowerShell 3.0 开始 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> cmdlet 还将等待自定义作业类型，例如工作流作业和计划作业的实例。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To enable <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to wait for jobs of a particular type, import the module that supports the custom job type into the session before you run the Get-Job cmdlet, either by using the Import-Module cmdlet or by using or getting a cmdlet in the module.</source>
+          <target state="translated">若要启用 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 要等待特定类型的作业，请导入支持会话之前，通过使用 Import-module cmdlet 或通过使用或获取模块中的 cmdlet 运行 Get-job cmdlet 时，将自定义作业类型的模块。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For information about a particular custom job type, see the documentation of the custom job type feature.</source>
+          <target state="translated">有关特定的自定义作业类型的信息，请参阅自定义作业类型功能的文档。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1: Wait for all jobs</source>
+          <target state="translated">示例 1︰ 等待所有作业</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command waits for all of the background jobs running in the session to finish.</source>
+          <target state="translated">此命令等待所有完成的会话中运行的后台作业。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Wait for jobs started on remote computers by using Start-Job</source>
+          <target state="translated">示例 2︰ 等待在远程计算机上通过使用 Start-job 启动的作业</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet with jobs started on remote computers by using the <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated">此示例演示如何使用 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> cmdlet 与作业通过使用在远程计算机上启动 <bpt id="p2">**</bpt>Start-job<ept id="p2">**</ept> cmdlet。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Both <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> commands are submitted to the remote computer by using the <bpt id="p3">**</bpt>Invoke-Command<ept id="p3">**</ept> cmdlet.</source>
+          <target state="translated">同时 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> 和 <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept> 命令提交到远程计算机通过使用 <bpt id="p3">**</bpt>Invoke-command<ept id="p3">**</ept> cmdlet。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This example uses <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to determine whether a Get-Date command running as a background job on three different computers is finished.</source>
+          <target state="translated">此示例使用 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 来确定在三台不同的计算机上作为后台作业运行的 Get-date 命令是否已完成。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The first command creates a Windows PowerShell session (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>) on each of the three remote computers and stores them in the $s variable.</source>
+          <target state="translated">第一个命令创建的 Windows PowerShell 会话 (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>) 在每个将在三台远程计算机上，并将它们存储在 $s 变量。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> in each of the three sessions in $s.</source>
+          <target state="translated">第二个命令使用 <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> 运行 <bpt id="p2">**</bpt>Start-job<ept id="p2">**</ept> 每 $s 中的三个会话中。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>All of the jobs are named Date1.</source>
+          <target state="translated">所有作业被命名为 Date1。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The third command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept>.</source>
+          <target state="translated">第三个命令使用 <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> 运行 <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command waits for the Date1 jobs on each computer to finish.</source>
+          <target state="translated">此命令等待完成每台计算机上 Date1 作业。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It stores the resulting collection (array) of job objects in the $done variable.</source>
+          <target state="translated">它将生成的作业对象集合（数组）存储在 $done 变量中。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>Count<ept id="p1">**</ept> property of the array of job objects in the $done variable to determine how many of the jobs are finished.</source>
+          <target state="translated">第四个命令使用 <bpt id="p1">**</bpt>计数<ept id="p1">**</ept> 对在 $done 变量来确定多少个作业已完成的作业对象的数组的属性。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Example 3: Determine when the first background job finishes</source>
+          <target state="translated">示例 3︰ 确定第一个后台作业完成</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This example uses the <bpt id="p1">*</bpt>Any<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> to determine when the first of many background jobs running in the current session are completed.</source>
+          <target state="translated">此示例使用 <bpt id="p1">*</bpt>任何<ept id="p1">*</ept> 参数 <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept> 以确定何时完成在当前会话中运行的多个后台作业的第一个。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It also shows how to use the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet to wait for remote jobs to finish.</source>
+          <target state="translated">它还演示如何使用 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> cmdlet 等待远程作业完成。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The first command creates a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on each of the computers listed in the Machines.txt file and stores the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects in the $s variable.</source>
+          <target state="translated">第一个命令创建 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 在每台计算机上列出 Machines.txt 文件和存储区中 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> $s 变量中的对象。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Content cmdlet to get the contents of the file.</source>
+          <target state="translated">该命令使用 Get-content cmdlet 来获取文件的内容。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Content<ept id="p1">**</ept> command is enclosed in parentheses to make sure that that it runs before the New-PSSession command.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-content<ept id="p1">**</ept> 命令括在圆括号中以确保它的 New-pssession 命令之前运行。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The second command stores a <bpt id="p1">**</bpt>Get-EventLog<ept id="p1">**</ept> command string, in quotation marks, in the $c variable.</source>
+          <target state="translated">第二个命令存储 <bpt id="p1">**</bpt>Get-eventlog<ept id="p1">**</ept> 命令字符串，引号引起来，在 $c 变量。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The third command uses Invoke-Command cmdlet to run <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> in each of the sessions in $s.</source>
+          <target state="translated">第三个命令使用 Invoke-command cmdlet 运行 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> 每 $s 中的会话中。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> command starts a background job that runs the <bpt id="p2">**</bpt>Get-EventLog<ept id="p2">**</ept> command in the $c variable.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> 命令启动后台作业运行 <bpt id="p2">**</bpt>Get-eventlog<ept id="p2">**</ept> 命令在 $c 变量。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> scope modifier to indicate that the $c variable was defined on the local computer.</source>
+          <target state="translated">该命令使用 <bpt id="p1">**</bpt>使用<ept id="p1">**</ept> 作用域修饰符以指示 $c 变量在本地计算机上定义。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> scope modifier is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>使用<ept id="p1">**</ept> Windows PowerShell 3.0 中引入作用域修饰符。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> scope modifier, see about_Remote_Variables (http://go.microsoft.com/fwlink/?LinkID=252653).</source>
+          <target state="translated">有关详细信息 <bpt id="p1">**</bpt>使用<ept id="p1">**</ept> 作用域修饰符，请参阅 about_Remote_Variables (http://go.microsoft.com/fwlink/?LinkID=252653)。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The fourth command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run a <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> command in the sessions.</source>
+          <target state="translated">第四个命令使用 <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> 运行 <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept> 命令在会话中。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Any<ept id="p1">*</ept> parameter to wait until the first job on the remote computers is completed.</source>
+          <target state="translated">它使用 <bpt id="p1">*</bpt>任何<ept id="p1">*</ept> 参数，以等待，直至在远程计算机上的第一个作业完成。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Example 4: Set a wait time for jobs on remote computers</source>
+          <target state="translated">示例 4︰ 在远程计算机上设置作业的等待时间</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">*</bpt>Timeout<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> to set a maximum wait time for the jobs running on remote computers.</source>
+          <target state="translated">此示例演示如何使用 <bpt id="p1">*</bpt>超时<ept id="p1">*</ept> 参数 <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept> 若要设置最多的等待时间在远程计算机上运行的作业。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The first command creates a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on each of three remote computers (Server01, Server02, and Server03), and then stores the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects in the $s variable.</source>
+          <target state="translated">第一个命令创建 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 在三台远程计算机 （Server01、 Server02 和 Server03），然后将存储的每个 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> $s 变量中的对象。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> in each of the <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> objects in $s.</source>
+          <target state="translated">第二个命令使用 <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> 运行 <bpt id="p2">**</bpt>Start-job<ept id="p2">**</ept> 中的每个 <bpt id="p3">**</bpt>PSSession<ept id="p3">**</ept> $s 中的对象。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It stores the resulting job objects in the $jobs variable.</source>
+          <target state="translated">它将生成的作业对象存储在 $jobs 变量中。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The third command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> in each of the sessions in $s.</source>
+          <target state="translated">第三个命令使用 <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> 运行 <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept> 每 $s 中的会话中。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> command determines whether all of the commands have completed within 30 seconds.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 命令确定是否将所有这些命令已完成在 30 秒内。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Timeout<ept id="p1">*</ept> parameter with a value of 30 to establish the maximum wait time, and then stores the results of the command in the $done variable.</source>
+          <target state="translated">它使用 <bpt id="p1">*</bpt>超时<ept id="p1">*</ept> 参数的值为 30 来建立最大值的等待时间，并将该命令的结果存储在 $done 变量中。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In this case, after 30 seconds, only the command on the Server02 computer has completed.</source>
+          <target state="translated">在此示例中，30 秒后，只有 Server02 计算机上的命令完成。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> ends the wait, displays the command prompt, and returns the object that represents the job that was completed.</source>
+          <target state="translated"><bpt id="p1">**</bpt>等待作业<ept id="p1">**</ept> 终止等待、 显示命令提示符下，并返回表示已完成的作业的对象。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The $done variable contains a job object that represents the job that ran on Server02.</source>
+          <target state="translated">$done 变量包含一个表示在 Server02 上运行的作业的作业对象。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Example 5: Wait until one of several jobs finishes</source>
+          <target state="translated">示例 5︰ 等待，直到有多个作业完毕</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This command identifies three jobs by their IDs and waits until any one of them are completed.</source>
+          <target state="translated">此命令标识由其 Id 的三个作业，并一直等待，直到其中任何一个都已完成。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The command prompt returns when the first job finishes.</source>
+          <target state="translated">在第一个作业完成时，将返回命令提示符。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Example 6: Wait for a period, then allow job to continue in background</source>
+          <target state="translated">示例 6︰ 等待一段时间，然后允许作业在后台继续</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This command waits 120 seconds (two minutes) for the DailyLog job to finish.</source>
+          <target state="translated">此命令等待 DailyLog 作业完成的 120 秒 （两分钟）。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If the job does not finish in the next two minutes, the command prompt returns anyway, and the job continues to run in the background.</source>
+          <target state="translated">如果在下一步两分钟内未完成作业，将返回命令提示符，并作业继续在后台运行。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Example 7: Wait for a job by name</source>
+          <target state="translated">示例 7︰ 等待某个作业名称</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This command uses the job name to identify the job for which to wait.</source>
+          <target state="translated">此命令使用作业名称来标识要等待的作业。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Example 8: Wait for jobs on local computer started with Start-Job</source>
+          <target state="translated">示例 8︰ 使用 Start-job 启动的本地计算机上等待作业</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet with jobs started on the local computer by using <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept>.</source>
+          <target state="translated">此示例演示如何使用 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> cmdlet 与作业通过使用本地计算机上启动 <bpt id="p2">**</bpt>Start-job<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>These commands start a job that gets the Windows PowerShell script files that were added or updated in the last week.</source>
+          <target state="translated">这些命令启动一个可获取在上一周添加或更新的 Windows PowerShell 脚本文件的作业。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The first command uses <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> to start a background job on the local computer.</source>
+          <target state="translated">第一个命令使用 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> 在本地计算机上启动后台作业。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The job runs a Get-ChildItem command that gets all of the files that have a .ps1 file name extension that were added or updated in the last week.</source>
+          <target state="translated">该作业运行 Get-childitem 命令获取所有具有.ps1 文件扩展名中添加或更新的最后一周中的文件。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The third command uses <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to wait until the job is completed.</source>
+          <target state="translated">第三个命令使用 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 等待，直到在作业完成。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>When the job finishes, the command displays the job object, which contains information about the job.</source>
+          <target state="translated">当作业完成后时，该命令将显示作业对象，其中包含有关作业的信息。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Example 9: Wait for jobs started on remote computers by using Invoke-Command</source>
+          <target state="translated">通过使用 Invoke-command 在远程计算机上启动作业的示例 9︰ 等待</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This example shows how to use <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> with jobs started on remote computers by using the <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> parameter of <bpt id="p3">**</bpt>Invoke-Command<ept id="p3">**</ept>.</source>
+          <target state="translated">此示例演示如何使用 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 处理通过使用在远程计算机上启动作业 <bpt id="p2">*</bpt>AsJob<ept id="p2">*</ept> 参数 <bpt id="p3">**</bpt>Invoke-command<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept>, the job is created on the local computer and the results are automatically returned to the local computer, even though the job runs on the remote computers.</source>
+          <target state="translated">当使用 <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept>, 、 在本地计算机上创建作业和的结果自动返回到本地计算机，即使作业在远程计算机上运行也是如此。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This example uses <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to determine whether a <bpt id="p2">**</bpt>Get-Process<ept id="p2">**</ept> command running in the sessions on three remote computers is completed.</source>
+          <target state="translated">此示例使用 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 以确定是否 <bpt id="p2">**</bpt>Get-process<ept id="p2">**</ept> 在三台远程计算机上的会话中运行的命令完成。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The first command creates <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects on three computers and stores them in the $s variable.</source>
+          <target state="translated">第一个命令创建 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 三台计算机上的对象并将它们存储在 $s 变量。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> to run <bpt id="p2">**</bpt>Get-Process<ept id="p2">**</ept> in each of the three sessions in $s.</source>
+          <target state="translated">第二个命令使用 <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> 运行 <bpt id="p2">**</bpt>Get-process<ept id="p2">**</ept> 每 $s 中的三个会话中。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter to run the command asynchronously as a background job.</source>
+          <target state="translated">该命令使用 <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> 参数，以将命令作为后台作业异步运行。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The command returns a job object, just like the jobs started by using <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept>, and the job object is stored in the $j variable.</source>
+          <target state="translated">该命令返回作业对象，就像通过使用启动的作业一样 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept>, ，并且作业对象存储在 $j 变量。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The third command uses a pipeline operator (|) to send the job object in $j to the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">第三个命令使用管道运算符 (|) 将中 $j 作业对象发送到 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> cmdlet。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> command is not required in this case, because the job resides on the local computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Invoke-command<ept id="p1">**</ept> 命令不是必需在此情况下，因为作业驻留在本地计算机上。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Example 10: Wait for a job that has an ID</source>
+          <target state="translated">示例 10︰ 等待包含 ID 的作业</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This command waits for the job with an ID value of 1.</source>
+          <target state="translated">此命令等待 ID 值为 1 的作业。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-Any</source>
+          <target state="translated">-任何</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet displays the command prompt, and returns the job object, when any job finishes.</source>
+          <target state="translated">指示此 cmdlet 显示命令提示符下，并返回作业对象，当任何作业完成后。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> waits until all of the specified jobs are complete before it displays the prompt.</source>
+          <target state="translated">默认情况下， <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 一直等待，直到所有指定的作业已完成，然后再显示提示。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">筛选器</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Specifies a hash table of conditions.</source>
+          <target state="translated">指定条件的哈希表。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This cmdlet waits for jobs that satisfy all of the conditions in the hash table.</source>
+          <target state="translated">此 cmdlet 等待满足所有的哈希表中的条件的作业。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Enter a hash table where the keys are job properties and the values are job property values.</source>
+          <target state="translated">输入一个哈希表，其中的键为作业属性，其中的值为作业属性值。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This parameter works only on custom job types, such as workflow jobs and scheduled jobs.</source>
+          <target state="translated">此参数仅适用于自定义作业类型，例如工作流作业和计划作业。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those created by using the <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">它不用于标准后台作业，例如通过使用创建的那些 <bpt id="p1">**</bpt>Start-job<ept id="p1">**</ept> cmdlet。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For information about support for this parameter, see the help topic for the job type.</source>
+          <target state="translated">有关支持此参数的信息，请参阅作业类型的帮助主题。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">已在 Windows PowerShell 3.0 中引入了此参数。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet continues to wait for jobs in the Suspended or Disconnected state.</source>
+          <target state="translated">指示此 cmdlet 将继续等待处于 Suspended 或 Disconnected 状态的作业。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> returns, or ends  the wait, when jobs are in one of the following states:</source>
+          <target state="translated">默认情况下， <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 返回时，或结束等待，从而当作业处于以下状态之一︰</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Completed</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">已停止</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspended</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Disconnected</source>
+          <target state="translated">Disconnected</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">已在 Windows PowerShell 3.0 中引入了此参数。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Specifies an array of IDs of jobs for which this cmdlet waits.</source>
+          <target state="translated">指定此 cmdlet 在等待的作业的 Id 数组。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The ID is an integer that uniquely identifies the job in the current session.</source>
+          <target state="translated">该 ID 是一个整数，在当前会话中唯一标识该作业。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>It is easier to remember and type than the instance ID, but it is unique only in the current session.</source>
+          <target state="translated">很容易记住和键入比实例 ID，但它是仅在当前会话中唯一。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can type one or more IDs, separated by commas.</source>
+          <target state="translated">您可以键入一个或多个 Id，以逗号分隔。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>To find the ID of a job, type <ph id="ph1">`Get-Job`</ph>.</source>
+          <target state="translated">若要查找作业的 ID，请键入 <ph id="ph1">`Get-Job`</ph>。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">的实例 Id</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Specifies an array of instance IDs of jobs for which this cmdlet waits.</source>
+          <target state="translated">指定此 cmdlet 在等待的作业的实例 Id 的数组。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The default is all jobs.</source>
+          <target state="translated">默认值为所有作业。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>An instance ID is a GUID that uniquely identifies the job on the computer.</source>
+          <target state="translated">实例 ID 是一个 GUID，用于在计算机上唯一标识作业。。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a job, use <bpt id="p1">**</bpt>Get-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">若要查找作业的实例 ID，请使用 <bpt id="p1">**</bpt>Get-job<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-Job</source>
+          <target state="translated">作业</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Specifies the jobs for which this cmdlet waits.</source>
+          <target state="translated">指定此 cmdlet 在等待的作业。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the job objects or a command that gets the job objects.</source>
+          <target state="translated">输入一个包含作业对象的变量或可获取作业对象的命令。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>You can also use a pipeline operator to send job objects to the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">您可以使用管道运算符将为作业对象发送 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> cmdlet。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> waits for all jobs created in the current session.</source>
+          <target state="translated">默认情况下， <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 等待在当前会话中创建的所有作业。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Specifies friendly names of jobs for which this cmdlet waits.</source>
+          <target state="translated">指定此 cmdlet 在等待的作业的友好名称。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-State</source>
+          <target state="translated">-状态</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Specifies a job state.</source>
+          <target state="translated">指定状态的作业。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>This cmdlet waits only for jobs in the specified state.</source>
+          <target state="translated">此 cmdlet 只等待处于指定状态的作业。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此参数的可接受的值是：</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>NotStarted</source>
+          <target state="translated">NotStarted</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Running</source>
+          <target state="translated">运行</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Completed</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">已停止</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target state="translated">已阻止</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspended</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Disconnected</source>
+          <target state="translated">Disconnected</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Suspending</source>
+          <target state="translated">挂起</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Stopping</source>
+          <target state="translated">Stopping</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>For more information about job states, see JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx) in the Microsoft Developer Network (MSDN).</source>
+          <target state="translated">有关作业状态的详细信息，请参阅 JobState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx) 在 Microsoft Developer Network (MSDN)。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>-Timeout</source>
+          <target state="translated">超时</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum wait time for each background job, in seconds.</source>
+          <target state="translated">指定的最长为每个后台作业，以秒为单位的时间。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The default value, -1, indicates that the cmdlet waits until the job finishes.</source>
+          <target state="translated">默认值为-1，指示该 cmdlet 等待，直到在作业完成。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The timing starts when you submit the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> command, not the <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> command.</source>
+          <target state="translated">当您提交在计时开始 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 命令时，不 <bpt id="p2">**</bpt>Start-job<ept id="p2">**</ept> 命令。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If this time is exceeded, the wait ends and the command prompt returns, even if the job is still running.</source>
+          <target state="translated">如果超过此时间，则等待结束，并返回命令提示符，即使作业仍在运行也是如此。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The command does not display any error message.</source>
+          <target state="translated">该命令不显示任何错误消息。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.RemotingJob</source>
+          <target state="translated">System.Management.Automation.RemotingJob</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>You can pipe a job object to this cmdlet.</source>
+          <target state="translated">您可以通过管道将作业对象传递给此 cmdlet。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSRemotingJob</source>
+          <target state="translated">System.Management.Automation.PSRemotingJob</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns job objects that represent the completed jobs.</source>
+          <target state="translated">此 cmdlet 将返回表示已完成的作业的作业对象。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>If the wait ends because the value of the <bpt id="p1">*</bpt>Timeout<ept id="p1">*</ept> parameter is exceeded, <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> does not return any objects.</source>
+          <target state="translated">如果由于等待终止的值 <bpt id="p1">*</bpt>超时<ept id="p1">*</ept> 超出参数，则 <bpt id="p2">**</bpt>Wait-job<ept id="p2">**</ept> 不返回任何对象。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> returns, or ends the wait, when jobs are in one of the following states:</source>
+          <target state="translated">默认情况下， <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 返回时，或结束等待，从而当作业处于以下状态之一︰</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="translated">Completed</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Failed</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Stopped</source>
+          <target state="translated">已停止</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Suspended</source>
+          <target state="translated">Suspended</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Disconnected To direct <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to continue to wait for Suspended and Disconnected jobs, use the <bpt id="p2">*</bpt>Force<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">断开连接到直接 <bpt id="p1">**</bpt>Wait-job<ept id="p1">**</ept> 若要继续时要等待的挂起和断开连接的作业，请使用 <bpt id="p2">*</bpt>强制<ept id="p2">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">获取作业</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">接收作业</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">删除作业</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">启动作业</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">停止作业</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>about_Jobs</source>
+          <target state="translated">about_Jobs</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>about_Job_Details</source>
+          <target state="translated">about_Job_Details</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>about_Remote_Jobs</source>
+          <target state="translated">about_Remote_Jobs</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>about_Remote_Variables</source>
+          <target state="translated">about_Remote_Variables</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

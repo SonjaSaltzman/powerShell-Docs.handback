@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d2c0ed86d1062d47dec0ca87e08c3bb903df5cc9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\New-PSSessionOption.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">409dca6cb6c286fa802d24f56c433c30eec9a8b8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">99a5991181d71d18719dd8dbe2f904f746b44f6b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates an object that contains advanced options for a PSSession.</source>
+          <target state="translated">PSSession の詳細設定オプションが格納されたオブジェクトを作成します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> cmdlet creates an object that contains advanced options for a user-managed session ("PSSession").</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> コマンドレットは、ユーザー管理セッション ("PSSession") の高度なオプションを含むオブジェクトを作成します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the object as the value of the <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> parameter of cmdlets that create a PSSession, such as New-PSSession, Enter-PSSession, and Invoke-Command.</source>
+          <target state="translated">値としてオブジェクトを使用する、 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> New-pssession、Enter-pssession、Invoke-command コマンドレットなどの PSSession を作成するコマンドレットのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Without parameters, <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> generates an object that contains the default values for all of the options.</source>
+          <target state="translated">パラメーターを指定しない <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> すべてのオプションの既定値を含むオブジェクトを生成します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Because all of the properties can be edited, you can use the resulting object as a template, and create standard option objects for your enterprise.</source>
+          <target state="translated">プロパティはすべて編集できるため、結果のオブジェクトをテンプレートとして使用して、会社用の標準的なオプション オブジェクトを作成できます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can also save a session option object in the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable.</source>
+          <target state="translated">セッション オプション オブジェクトを保存することも、 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> ユーザー設定変数です。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The values of this variable establish new default values for the session options.</source>
+          <target state="translated">この変数の値は、セッション オプションの新しい既定値を確立します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>They effective when no session options are set for the session and they take precedence over options set in the session configuration, but you can override them by specifying session options or a session option object in a cmdlet that creates a session.</source>
+          <target state="translated">これらの値は、セッションに対してセッション オプションが設定されていない場合に有効になり、セッション構成に設定されたオプションよりも優先されます。ただし、セッション オプションを指定するか、セッションを作成するコマンドレットでセッション オプション オブジェクトを作成することによって、これらの値を上書きすることができます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, see <bpt id="p2">**</bpt>about_Preference_Variables<ept id="p2">**</ept> (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">詳細については、 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> ユーザー設定変数を参照してください <bpt id="p2">**</bpt>about_Preference_Variables<ept id="p2">**</ept> (http://go.microsoft.com/fwlink/?LinkID=113248)。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you use a session option object in a cmdlet that creates a session, the session option values take precedence over default values for sessions set in the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable and in the session configuration.</source>
+          <target state="translated">セッションを作成するコマンドレットでセッション オプション オブジェクトを使用する場合、セッション オプション値よりも優先既定値設定されたセッションの <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> ユーザー設定変数およびセッション構成します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>However, they do not take precedence over maximum values, quotas or limits set in the session configuration.</source>
+          <target state="translated">ただし、セッション構成で設定された最大値、クォータ、または制限よりも優先されることはありません。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">セッション構成の詳細については、「about_Session_Configurations」(http://go.microsoft.com/fwlink/?LinkID=145152) を参照してください。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command creates a session option object with all of the default values.</source>
+          <target state="translated">このコマンドは、すべて既定値でセッション オプション オブジェクトを作成します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This example shows how to use a session option object to configure a session.</source>
+          <target state="translated">この例では、セッション オプション オブジェクトを使用してセッションを構成する方法を示します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The first command creates a new session option object and saves it in the value of the $pso variable.</source>
+          <target state="translated">最初のコマンドは、新しいセッション オプション オブジェクトを作成し、$pso 変数の値として保存します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-PSSession cmdlet to create a session on the Server01 remote computer.</source>
+          <target state="translated">2 番目のコマンドでは、New-pssession コマンドレットを使用して、Server01 リモート コンピューターでセッションを作成します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command uses the session option object in the value of the $pso variable as the value of the SessionOption parameter of the command.</source>
+          <target state="translated">このコマンドは、$pso 変数に保存されているセッション オプション オブジェクトを、コマンドの SessionOption パラメーターの値として使用します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command uses the Enter-PSSession cmdlet to start an interactive session with the Server01 computer.</source>
+          <target state="translated">このコマンドでは、Enter-pssession コマンドレットを使用して、Server01 コンピューターで対話型セッションを開始します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> parameter is a <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> command with the <bpt id="p3">**</bpt>NoEncryption<ept id="p3">**</ept> and <bpt id="p4">**</bpt>NoCompression<ept id="p4">**</ept> switch parameters.</source>
+          <target state="translated">値、 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> パラメーターは、 <bpt id="p2">**</bpt>New-pssessionoption<ept id="p2">**</ept> コマンドと組み合わせて、 <bpt id="p3">**</bpt>NoEncryption<ept id="p3">**</ept> と <bpt id="p4">**</bpt>NoCompression<ept id="p4">**</ept> スイッチ パラメーターです。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> command is enclosed in parentheses to make sure that it runs before the <bpt id="p2">**</bpt>Enter-PSSession<ept id="p2">**</ept> command.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> コマンドは、前に実行されるかどうかを確認するかっこで囲まれた、 <bpt id="p2">**</bpt>Enter-pssession<ept id="p2">**</ept> コマンドです。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that you can edit the session option object.</source>
+          <target state="translated">この例では、セッション オプション オブジェクトを編集できることを示します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>All properties have read/write values.</source>
+          <target state="translated">すべてのプロパティは、読み取り/書き込み値を持ちます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use this method to create a standard session object for your enterprise, and then create customized versions of it for particular uses.</source>
+          <target state="translated">この方法を使用して、会社の標準のセッション オブジェクトを作成し、特定の用途向けにカスタマイズされたバージョンを作成します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command creates a <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable.</source>
+          <target state="translated">このコマンドを作成、 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> ユーザー設定変数です。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable exists in the session, it establishes default values for options in the sessions that are created by using the New-PSSession, Enter-PSSession, and Invoke-Command cmdlets.</source>
+          <target state="translated">ときに、 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> セッションでユーザー設定変数が存在する場合、New-pssession、Enter-pssession、Invoke-command コマンドレットを使用して作成されるセッションのオプションの既定値を確立します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To make the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> variable available in all sessions, add it to your Windows PowerShell session and to your Windows PowerShell profile.</source>
+          <target state="translated">させる、 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 、Windows PowerShell セッションと Windows PowerShell プロファイル変数をすべてのセッションで使用できる追加します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">詳細については、 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> ユーザー設定変数では、「about_preference_variables」(http://go.microsoft.com/fwlink/?LinkID=113248)。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For more information about profiles, see about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</source>
+          <target state="translated">プロファイルの詳細については、「about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729) を参照してください。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This example shows how to use a <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> object to fulfill the requirements for a remote session configuration.</source>
+          <target state="translated">この例では、使用して、 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> リモート セッションの構成の要件を満たすオブジェクトです。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> cmdlet to create a session option object with the <bpt id="p2">**</bpt>SkipCNCheck<ept id="p2">**</ept> property.</source>
+          <target state="translated">最初のコマンドを使用して、 <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> コマンドレットを使用して、セッション オプション オブジェクトを作成、 <bpt id="p2">**</bpt>SkipCNCheck<ept id="p2">**</ept> プロパティです。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command saves the resulting session object in the $skipCN variable.</source>
+          <target state="translated">結果のセッション オブジェクトは、$skipCN 変数に保存されます。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second command uses the New-PSSession cmdlet to create a new session on a remote computer.</source>
+          <target state="translated">2 番目のコマンドでは、New-pssession コマンドレットを使用して、リモート コンピューターで新しいセッションを作成します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The $skipCN check variable is used in the value of the <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">値で、$skipCN 変数が使用される、 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Because the computer is identified by its IP address, the value of the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter does not match any of the common names in the certificate used for Secure Sockets Layer (SSL).</source>
+          <target state="translated">コンピューターがその IP によって識別されるため、アドレスの値、 <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> いずれかのセキュリティで保護されたソケット レイヤー (SSL) を使用する証明書の共通名ともパラメーターが一致しません。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>As a result, the <bpt id="p1">**</bpt>SkipCNCheck<ept id="p1">**</ept> option is required.</source>
+          <target state="translated">結果として、 <bpt id="p1">**</bpt>SkipCNCheck<ept id="p1">**</ept> オプションが必要です。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> cmdlet to make additional data available to the remote session.</source>
+          <target state="translated">この例では、使用して、 <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> のパラメーター、 <bpt id="p2">**</bpt>New-pssessionoption<ept id="p2">**</ept> 追加のデータをリモート セッションに使用できるようにするコマンドレットです。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The first command creates a hash table with two keys, Team and Use.</source>
+          <target state="translated">最初のコマンドは、Team と Use の 2 つのキーを持つハッシュ テーブルを作成します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The command saves the hash table in the $team variable.</source>
+          <target state="translated">ハッシュ テーブルは、$team 変数に保存されます。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>(For more information about hash tables, see about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175).)</source>
+          <target state="translated">(ハッシュ テーブルの詳細については、about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175) を参照してください)。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>New-PSSessionOption<ept id="p2">**</ept> cmdlet to create a session option object that contains the data in the $team variable.</source>
+          <target state="translated">2 番目のコマンドを使用して、 <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> のパラメーター、 <bpt id="p2">**</bpt>New-pssessionoption<ept id="p2">**</ept> コマンドレットを $team 変数内のデータを含むセッション オプション オブジェクトを作成します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The command saves the session option object in the $teamOption variable.</source>
+          <target state="translated">セッション オプション オブジェクトは、$teamOption 変数に保存されます。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">**</bpt>New-PSSessionOption<ept id="p1">**</ept> creates the session option object, it automatically converts the hash table in the value of the <bpt id="p2">**</bpt>ApplicationArguments<ept id="p2">**</ept> parameter to a primitive dictionary so the data can be reliably transmitted to the remote session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-pssessionoption<ept id="p1">**</ept> セッション オプション オブジェクトを作成、ハッシュ テーブルの値に自動的に変換、 <bpt id="p2">**</bpt>ApplicationArguments<ept id="p2">**</ept> をプリミティブな辞書のデータをリモート セッションに確実に転送できるようにするパラメーターです。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The third command uses the New-PSSession cmdlet to start a session on the Server01 computer.</source>
+          <target state="translated">3 番目のコマンドでは、New-pssession コマンドレットを使用して、Server01 コンピューターでセッションを開始します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> parameter to include the options in the $teamOption variable.</source>
+          <target state="translated">使用して、 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 、$teamOption 変数のオプションを含むパラメーター。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The fourth command demonstrates that the data in the $team variable is available to commands in the remote session.</source>
+          <target state="translated">4 番目のコマンドは、$team 変数内のデータをリモート セッションのコマンドで使用できることを示します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The data appears in the <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> property of the $PSSenderInfo automatic variable.</source>
+          <target state="translated">表示される、データ、 <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> $PSSenderInfo 自動変数のプロパティです。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The fifth command shows how the data might be used.</source>
+          <target state="translated">5 番目のコマンドは、データの使用方法を示しています。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The command uses the Invoke-Command cmdlet to run a script only when the value of the Use property is not "Testing".</source>
+          <target state="translated">コマンドは、使用するプロパティの値はありません「テスト」の場合にのみ、スクリプトを実行する Invoke-command コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When the value of Use is "Testing", the command returns "Just testing."</source>
+          <target state="translated">Use の値が "Testing" の場合、コマンドは "Just testing" を返します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-ApplicationArguments</source>
+          <target state="translated">-ApplicationArguments</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specifies a primitive dictionary that is sent to the remote session.</source>
+          <target state="translated">リモート セッションに送信されるプリミティブな辞書を指定します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Commands and scripts in the remote session, including startup scripts in the session configuration, can find this dictionary in the <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> property of the <bpt id="p2">**</bpt>$PSSenderInfo<ept id="p2">**</ept> automatic variable.</source>
+          <target state="translated">セッション構成のスタートアップ スクリプトを含む、リモート セッションのコマンドおよびスクリプトでこの辞書を見つけることができます、 <bpt id="p1">**</bpt>ApplicationArguments<ept id="p1">**</ept> のプロパティ、 <bpt id="p2">**</bpt>$PSSenderInfo<ept id="p2">**</ept> 自動変数です。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to send data to the remote session.</source>
+          <target state="translated">このパラメーターを使用すると、リモート セッションにデータを送信することができます。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A primitive dictionary is like a hash table, but it contains keys that are case-insensitive strings and values that can be serialized and deserialized during Windows PowerShell remoting handshakes.</source>
+          <target state="translated">プリミティブな辞書はハッシュ テーブルに似ていますが、そこに含まれるキーは、大文字と小文字が区別される文字列と、Windows PowerShell リモート処理のハンドシェイク中にシリアル化および逆シリアル化できる値から構成されます。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If you enter a hash table for the value of this parameter, Windows PowerShell converts it to a primitive dictionary.</source>
+          <target state="translated">このパラメーターの値としてハッシュ テーブルを入力した場合、Windows PowerShell はこれをプリミティブな辞書に変換します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175), about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152), and about_Automatic_Variables (http://go.microsoft.com/fwlink/?LinkID=113212).</source>
+          <target state="translated">詳細については、about_Hash_Tables (http://go.microsoft.com/fwlink/?LinkID=135175)、about_session_configurations」(http://go.microsoft.com/fwlink/?LinkID=145152) および about_automatic_variables」(http://go.microsoft.com/fwlink/?LinkID=113212) を参照してください。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-CancelTimeout</source>
+          <target state="translated">-CancelTimeout</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Determines how long Windows PowerShell waits for a cancel operation (CTRL + C)  to complete before terminating it.</source>
+          <target state="translated">Windows PowerShell が終了操作を実行する前にキャンセル操作 (Ctrl + C) の完了を待機する時間を指定します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">値をミリ秒単位で入力します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The default value is 60000 (one minute).</source>
+          <target state="translated">既定値は 60,000 (1 分) です。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) means no timeout; the command continues indefinitely.</source>
+          <target state="translated">値 0 (ゼロ) は、タイムアウトがないことを表します。つまり、コマンドは無期限に続行されます。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-Culture</source>
+          <target state="translated">カルチャ</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Specifies the culture to use for the session.</source>
+          <target state="translated">セッションに使用するカルチャを指定します。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Enter a culture name in <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> format, such as "ja-jP",  a variable that contains a CultureInfo object, or a command that gets a CultureInfo object, such as "get-culture".</source>
+          <target state="translated">カルチャの名前を入力 <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> "Ja-jp"、CultureInfo オブジェクトを格納する変数「get カルチャ」などの CultureInfo オブジェクトを取得するコマンドなどの形式です。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The default value is $null, and the culture that is set in the operating system  is used in the session.</source>
+          <target state="translated">既定値は $null で、オペレーティング システムで設定されているカルチャがセッションで使用されます。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-IdleTimeout</source>
+          <target state="translated">-アイドル タイムアウト</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Determines how long the session stays open if the remote computer does not receive any communication from the local computer, including the heartbeat signal.</source>
+          <target state="translated">リモート コンピューターがローカル コンピューターからの通信 (ハートビート信号も含まれます) を受信しないときにセッションを開いたままにしておく期間を指定します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the session closes.</source>
+          <target state="translated">この期間が経過すると、セッションは閉じられます。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The idle timeout value is of significant importance if you intend to disconnect and reconnect to a session.</source>
+          <target state="translated">セッションの切断と再接続を行う場合、アイドル タイムアウト値は非常に重要です。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>You can reconnect only if the session has not timed out.</source>
+          <target state="translated">セッションがタイムアウトしていない場合にのみ再接続することができます。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">値をミリ秒単位で入力します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The minimum value is 60000 (1 minute).</source>
+          <target state="translated">最小値は 60000 (1 分) です。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The maximum is the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutms<ept id="p1">**</ept> property of the session configuration.</source>
+          <target state="translated">最大値は、値、 <bpt id="p1">**</bpt>MaxIdleTimeoutms<ept id="p1">**</ept> セッション構成のプロパティです。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default value, -1, does not set an idle timeout.</source>
+          <target state="translated">既定値 (-1) では、アイドル タイムアウトは設定されません。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The session uses the idle timeout that is set in the session options, if any.</source>
+          <target state="translated">セッション オプションにアイドル タイムアウトが設定されている場合は、そのアイドル タイムアウトがセッションで使用されます。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If none is set (-1), the session uses the value of the <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> property of the session configuration or the WSMan shell timeout value (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout), whichever is shortest.</source>
+          <target state="translated">セッションの値を使用して (-1) が設定されていない場合、 <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> セッション構成または WSMan シェルのタイムアウト値のプロパティ (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout)、短い方します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If the idle timeout set in the session options exceeds the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property of the session configuration, the command to create a session fails.</source>
+          <target state="translated">セッション オプションに設定されたアイドル タイムアウトの値を超えるかどうか、 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> セッションの作成に失敗するコマンド、セッション構成のプロパティです。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> value of the default Microsoft.PowerShell session configuration is 7200000 milliseconds (2 hours).</source>
+          <target state="translated"> <bpt id="p1">**</bpt>IdleTimeoutMs<ept id="p1">**</ept> 既定の Microsoft.PowerShell セッション構成の値は 7,200,000 ミリ秒 (2 時間) です。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Its <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> value is 2147483647 milliseconds (<ph id="ph1">\&gt;</ph>24 days).</source>
+          <target state="translated">その <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 値は 2,147, 483,647 ミリ秒 (<ph id="ph1">\&gt;</ph>24 日) です。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The default value of the WSMan shell idle timeout (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout) is 7200000 milliseconds (2 hours).</source>
+          <target state="translated">WSMan シェルのアイドル タイムアウトの既定値 (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout) は 7,200,000 ミリ秒 (2 時間) です。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The idle timeout value of a session can also be changed when disconnecting from a session or reconnecting to a session.</source>
+          <target state="translated">セッションのアイドル タイムアウト値は、セッションから切断するときやセッションに再接続するときに変更することもできます。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>For more information, see Disconnect-PSSession and Connect-PSSession.</source>
+          <target state="translated">詳細については、Disconnect-pssession と Connect-pssession を参照してください。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, the default value of the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> parameter is 240000 (4 minutes).</source>
+          <target state="translated">Windows PowerShell 2.0 での既定値、 <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> パラメーターは 240,000 (4 分) です。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-MaximumReceivedDataSizePerCommand</source>
+          <target state="translated">-MaximumReceivedDataSizePerCommand</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of bytes that the local computer can receive from the remote computer in a single command.</source>
+          <target state="translated">ローカル コンピューターがリモート コンピューターから 1 つのコマンドで受け取ることができる最大バイト数を指定します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Enter a value in bytes.</source>
+          <target state="translated">値をバイト単位で入力します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>By default, there is no data size limit.</source>
+          <target state="translated">既定では、データのサイズに関する制限はありません。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This option is designed to protect the resources on the client computer.</source>
+          <target state="translated">このオプションは、クライアント コンピューター上のリソースを保護するために用意されています。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-MaximumReceivedObjectSize</source>
+          <target state="translated">-MaximumReceivedObjectSize</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum size of an object that the local computer can receive from the remote computer.</source>
+          <target state="translated">ローカル コンピューターがリモート コンピューターから受信できるオブジェクトの最大サイズを指定します。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This option is designed to protect the resources on the client computer.</source>
+          <target state="translated">このオプションは、クライアント コンピューター上のリソースを保護するために用意されています。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Enter a value in bytes.</source>
+          <target state="translated">値をバイト単位で入力します。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, if you omit this parameter, there is no object size limit.</source>
+          <target state="translated">Windows PowerShell 2.0 では、このパラメーターを省略した場合、オブジェクトのサイズに関する制限はありません。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, if you omit this parameter, the default value is 200 MB.</source>
+          <target state="translated">Windows PowerShell 3.0 以降では、このパラメーターを省略した場合、既定値は 200 MB です。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>-MaximumRedirection</source>
+          <target state="translated">-MaximumRedirection</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Determines how many times Windows PowerShell redirects a connection to an alternate Uniform Resource Identifier (URI) before the connection fails.</source>
+          <target state="translated">接続を失敗させる前に Windows PowerShell が代替 Uniform Resource Identifier (URI) に接続をリダイレクトする回数を指定します。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">既定値は 5 です。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) prevents all redirection.</source>
+          <target state="translated">値 0 (ゼロ) を指定した場合、リダイレクトはまったく行われません。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This option is used in the session only when the AllowRedirection parameter is used in the command that creates the session.</source>
+          <target state="translated">このオプションがセッションで使用されるのは、セッションを作成するコマンドで AllowRedirection パラメーターが使用されている場合のみです。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-NoCompression</source>
+          <target state="translated">-NoCompression</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Turns off packet compression in the session.</source>
+          <target state="translated">セッションでのパケットの圧縮を無効にします。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Compression uses more processor cycles, but it makes transmission faster.</source>
+          <target state="translated">圧縮処理には多くのプロセッサ サイクルが使用されますが、転送が高速化されます。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-NoEncryption</source>
+          <target state="translated">-NoEncryption</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Turns off data encryption.</source>
+          <target state="translated">データの暗号化を無効にします。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-NoMachineProfile</source>
+          <target state="translated">-NoMachineProfile</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Prevents loading the user's Windows user profile.</source>
+          <target state="translated">ユーザーの Windows ユーザー プロファイルを読み込まないようにします。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>As a result, the session might be created faster, but user-specific registry settings, items such as environment variables, and certificates are not available in the session.</source>
+          <target state="translated">その場合、セッションをより高速に作成できる可能性がありますが、ユーザー固有のレジストリ設定、環境変数などの項目、および証明書をセッションで使用できなくなります。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-OpenTimeout</source>
+          <target state="translated">-OpenTimeout</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Determines how long the client computer waits for the session connection to be established.</source>
+          <target state="translated">セッションの接続が確立されるのをクライアント コンピューターが待機する期間を指定します。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the command to establish the connection fails.</source>
+          <target state="translated">この期間が経過すると、接続を確立するコマンドは失敗します。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">値をミリ秒単位で入力します。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The default value is 180000 (3 minutes).</source>
+          <target state="translated">既定値は 180,000 (3 分) です。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) means no time-out; the command continues indefinitely.</source>
+          <target state="translated">値 0 (ゼロ) は、タイムアウトがないことを表します。つまり、コマンドは無期限に続行されます。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-OperationTimeout</source>
+          <target state="translated">-OperationTimeout</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Determines the maximum time that any operation in the session can run.</source>
+          <target state="translated">セッションの任意の操作を実行できる最大時間を決定します。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the operation fails.</source>
+          <target state="translated">この期間が経過すると、操作は失敗します。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Enter a value in milliseconds.</source>
+          <target state="translated">値をミリ秒単位で入力します。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The default value is 180000 (3 minutes).</source>
+          <target state="translated">既定値は 180,000 (3 分) です。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) means no time-out; the operation continues indefinitely.</source>
+          <target state="translated">値 0 (ゼロ) は、タイムアウトがないことを表します。つまり、操作は無期限に続行されます。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>-OutputBufferingMode</source>
+          <target state="translated">-OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Determines how command output is managed in disconnected sessions when the output buffer becomes full.</source>
+          <target state="translated">出力バッファーがいっぱいになったときに切断されたセッションでコマンドの出力を管理する方法を指定します。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If the output buffering mode is not set in the session or in the session configuration, the default value is <bpt id="p1">**</bpt>Block<ept id="p1">**</ept>.</source>
+          <target state="translated">セッションの出力バッファー モードが設定されていないか、セッション構成で既定値は <bpt id="p1">**</bpt>ブロック<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Users can also change the output buffering mode when disconnecting the session.</source>
+          <target state="translated">ユーザーは、セッションの切断時に出力バッファー モードを変更することもできます。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, the value of the <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> of the session option object is <bpt id="p2">**</bpt>None<ept id="p2">**</ept>.</source>
+          <target state="translated">このパラメーターの値を省略した場合、 <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> オブジェクトは、セッション オプションの <bpt id="p2">**</bpt>None<ept id="p2">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>A value of <bpt id="p1">**</bpt>Block<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Drop<ept id="p2">**</ept> overrides the output buffering mode transport option set in the session configuration.</source>
+          <target state="translated">値 <bpt id="p1">**</bpt>ブロック<ept id="p1">**</ept> または <bpt id="p2">**</bpt>ドロップ<ept id="p2">**</ept> 出力バッファー モード トランスポート オプションのセッション構成で設定をオーバーライドします。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有効な値は、</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Block<ept id="p1">**</ept>: When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated"><bpt id="p1">**</bpt>ブロック<ept id="p1">**</ept>: 出力バッファーがいっぱいの場合、バッファーが空くまでに実行が中断します。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Drop<ept id="p1">**</ept>: When the output buffer is full, execution continues.</source>
+          <target state="translated"><bpt id="p1">**</bpt>ドロップ<ept id="p1">**</ept>: 出力バッファーがいっぱいの場合に、実行が継続します。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>As new output is saved, the oldest output is discarded.</source>
+          <target state="translated">新しい出力が保存されると、最も古い出力が破棄されます。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept>: No output buffering mode is specified.</source>
+          <target state="translated"><bpt id="p1">**</bpt>[なし]<ept id="p1">**</ept>: 出力バッファー モードが指定されていません。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>For more information about the output buffering mode transport option, see New-PSTransportOption.</source>
+          <target state="translated">詳細については、出力バッファー モード トランスポート オプション、New-pstransportoption を参照してください。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>-ProxyAccessType</source>
+          <target state="translated">-ProxyAccessType</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Determines which mechanism is used to resolve the host name.</source>
+          <target state="translated">ホスト名の解決に使用するメカニズムを指定します。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>IEConfig<ept id="p1">**</ept>, <bpt id="p2">**</bpt>WinHttpConfig<ept id="p2">**</ept>, <bpt id="p3">**</bpt>AutoDetect<ept id="p3">**</ept>, <bpt id="p4">**</bpt>NoProxyServer<ept id="p4">**</ept> and <bpt id="p5">**</bpt>None<ept id="p5">**</ept>.</source>
+          <target state="translated">有効な値は <bpt id="p1">**</bpt>IEConfig<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>WinHttpConfig<ept id="p2">**</ept>, 、<bpt id="p3">**</bpt>AutoDetect<ept id="p3">**</ept>, 、<bpt id="p4">**</bpt>NoProxyServer<ept id="p4">**</ept> と <bpt id="p5">**</bpt>None<ept id="p5">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>None<ept id="p1">**</ept>.</source>
+          <target state="translated">既定値は <bpt id="p1">**</bpt>None<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see the description of the System.Management.Automation.Remoting.ProxyAccessType enumeration in the MSDN (Microsoft Developer Network) Library at http://go.microsoft.com/fwlink/?LinkId=144756.</source>
+          <target state="translated">このパラメーターの値の詳細については、MSDN (Microsoft Developer Network) ライブラリの System.Management.Automation.Remoting.ProxyAccessType 列挙体に関する説明 (http://go.microsoft.com/fwlink/?LinkId=144756) を参照してください。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>-ProxyAuthentication</source>
+          <target state="translated">-ProxyAuthentication</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Specifies the authentication method that is used for proxy resolution.</source>
+          <target state="translated">プロキシの解決に使用する認証方法を指定します。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>Basic<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Digest<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Negotiate<ept id="p3">**</ept>.</source>
+          <target state="translated">有効な値は <bpt id="p1">**</bpt>基本的な<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>ダイジェスト<ept id="p2">**</ept>, 、および <bpt id="p3">**</bpt>ネゴシエート<ept id="p3">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>Negotiate<ept id="p1">**</ept>.</source>
+          <target state="translated">既定値は <bpt id="p1">**</bpt>ネゴシエート<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see the description of the System.Management.Automation.Runspaces.AuthenticationMechanism enumeration in the MSDN library at http://go.microsoft.com/fwlink/?LinkID=144382.</source>
+          <target state="translated">このパラメーターの値の詳細については、MSDN ライブラリの System.Management.Automation.Runspaces.AuthenticationMechanism 列挙体に関する説明 (http://go.microsoft.com/fwlink/?LinkID=144382) を参照してください。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>-ProxyCredential</source>
+          <target state="translated">-ProxyCredential</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Specifies the credentials to use for proxy authentication.</source>
+          <target state="translated">プロキシ認証に使用する資格情報を指定します。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object or a command that gets a <bpt id="p2">**</bpt>PSCredential<ept id="p2">**</ept> object, such as a Get-Credential command.</source>
+          <target state="translated">含む変数を入力して、 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> オブジェクトまたは取得するコマンドを <bpt id="p2">**</bpt>PSCredential<ept id="p2">**</ept> Get-credential コマンドなどのオブジェクト。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If this option is not set, no credentials are specified.</source>
+          <target state="translated">このオプションを設定しない場合、資格情報は指定されません。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>-SkipCACheck</source>
+          <target state="translated">-SkipCACheck</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Specifies that when connecting over HTTPS, the client does not validate that the server certificate is signed by a trusted certification authority (CA).</source>
+          <target state="translated">HTTPS 経由で接続するときにサーバー証明書が信頼される証明機関 (CA) によって署名されているかどうかをクライアントが検証しないことを指定します。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Use this option only when the remote computer is trusted by using another mechanism, such as when the remote computer is part of a network that is physically secure and isolated or when the remote computer is listed as a trusted host in a WinRM configuration.</source>
+          <target state="translated">このオプションは、リモート コンピューターが別のメカニズムを使用して信頼されている場合にのみ使用します。たとえば、リモート コンピューターが物理的に安全であり切り離されているネットワークの一部である場合や、WinRM 構成において信頼されるホストとして記載されている場合が該当します。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>-SkipCNCheck</source>
+          <target state="translated">-SkipCNCheck</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Specifies that the certificate common name (CN) of the server does not need to match the hostname of the server.</source>
+          <target state="translated">サーバーの証明書共通名 (CN) がサーバーのホスト名と一致する必要がないことを指定します。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>This option is used only in remote operations that use the HTTPS protocol.</source>
+          <target state="translated">このオプションは、HTTPS プロトコルを使用するリモート操作でのみ使用されます。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Use this option only for trusted computers.</source>
+          <target state="translated">このオプションは、信頼されるコンピューターに対してのみ使用します。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>-SkipRevocationCheck</source>
+          <target state="translated">-SkipRevocationCheck</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Does not validate the revocation status of the server certificate.</source>
+          <target state="translated">サーバー証明書の失効状態を検証しません。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>-UICulture</source>
+          <target state="translated">-UICulture</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Specifies the UI culture to use for the session.</source>
+          <target state="translated">セッションに使用する UI カルチャを指定します。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Enter a culture name in <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> format, such as "ja-jP",  a variable that contains a <bpt id="p1">**</bpt>CultureInfo<ept id="p1">**</ept> object, or a command that gets a CultureInfo object, such as a Get-Culture command.</source>
+          <target state="translated">カルチャの名前を入力 <ph id="ph1">\&lt;</ph>languagecode2<ph id="ph2">\&gt;-\&lt;</ph>country/regioncode2<ph id="ph3">\&gt;</ph> 、"Ja-jp"などを含む変数を書式設定、 <bpt id="p1">**</bpt>CultureInfo<ept id="p1">**</ept> オブジェクト、または Get-culture コマンドなど、CultureInfo オブジェクトを取得するコマンドです。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The default value is $null, and the UI culture that is set in the operating system when the session is created is used in the session.</source>
+          <target state="translated">既定値は $null で、セッションの作成時にオペレーティング システムで設定される UI カルチャがセッションで使用されます。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>-UseUTF16</source>
+          <target state="translated">-UseUTF16</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Encode the request in UTF16 format rather than UTF8 format.</source>
+          <target state="translated">UTF8 形式ではなく UTF16 形式で要求をエンコードします。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>-IncludePortInSPN</source>
+          <target state="translated">-IncludePortInSPN</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Includes the port number in the Service Principal Name (SPN) used for Kerberos authentication, for example, "HTTP/<ph id="ph1">\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>:5985".</source>
+          <target state="translated">サービス プリンシパル名 (SPN) Kerberos 認証に使用されるポート番号が含まれています"HTTP/<ph id="ph1">\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>: 5985"です。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>This option allows a client that uses a non-default SPN to authenticate against a remote computer that uses Kerberos authentication.</source>
+          <target state="translated">このオプションを使用すると、クライアントは、既定以外の SPN を使用して、Kerberos 認証を使用するリモート コンピューターに対して認証できます。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The option is designed for enterprises where multiple services that support Kerberos authentication are running under different user accounts.</source>
+          <target state="translated">このオプションは、Kerberos 認証をサポートする複数のサービスが異なるユーザー アカウントで実行されている企業向けに設計されています。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>For example, an IIS application that allows Kerberos authentication can require the default SPN to be registered to a user account that is different from the computer account.</source>
+          <target state="translated">たとえば、Kerberos 認証を許可する IIS アプリケーションでは、既定の SPN をコンピューター アカウントとは異なるユーザー アカウントに登録するように要求できます。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>In such cases, Windows PowerShell remoting cannot use Kerberos to authenticate because it requires an SPN that is registered to the computer account.</source>
+          <target state="translated">このような場合、Windows PowerShell リモート処理では、コンピューター アカウントに登録されている SPN が必要な Kerberos を認証に使用することはできません。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>To resolve this problem, administrators can create different SPNs (such as by using Setspn.exe) that are registered to different user accounts and can distinguish between them by including the port number in the SPN.</source>
+          <target state="translated">この問題を解決するために、管理者は、(たとえば Setspn.exe を使用して) 異なるユーザー アカウントに登録される複数の SPN を作成し、SPN にポート番号を含めることによって、それらを区別できます。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>For more information about SetSPN.exe, see "SetSPN Overview" at http://go.microsoft.com/fwlink/?LinkID=189413.</source>
+          <target state="translated">SetSPN.exe の詳細については、SetSPN の概要に関するページ (http://go.microsoft.com/fwlink/?LinkID=189413) を参照してください。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">パイプを使用してこのコマンドレットに入力を渡すことはできません。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Remoting.PSSessionOption</source>
+          <target state="translated">System.Management.Automation.Remoting.PSSessionOption</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> parameter is not used in a command to create a PSSession, the session options are determined by the property values of the <bpt id="p2">**</bpt>$PSSessionOption<ept id="p2">**</ept> preference variable, if it is set.</source>
+          <target state="translated">場合、 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> PSSession を作成するコマンドのパラメーターは使用されません、セッション オプションのプロパティ値によって決定されます、 <bpt id="p2">**</bpt>$PSSessionOption<ept id="p2">**</ept> ユーザー設定変数で設定されている場合。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>For more information about the $PSSessionOption variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">$PSSessionOption 変数の詳細については、「about_preference_variables」(http://go.microsoft.com/fwlink/?LinkID=113248) を参照してください。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The properties of a session configuration object vary with the options set for the session configuration and the values of those options.</source>
+          <target state="translated">セッション構成オブジェクトのプロパティは、セッション構成に設定されているオプションとその値によって異なります。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Also, session configurations that use a session configuration file have additional properties.</source>
+          <target state="translated">また、セッション構成ファイルを使用するセッション構成には追加のプロパティがあります。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

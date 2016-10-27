@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bd8940680af74dca8429e6bf69b28901b2ec0b35</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.WsMan.Management\Enable-WSManCredSSP.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">06af2cfe351de68d54cdd18aa7ef58ead3f72c74</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4bc0d4d0b88caa147bc8c523e99b8169f6f2b5e7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enable-WSManCredSSP</source>
+          <target state="translated">Enable-wsmancredssp</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enable-WSManCredSSP</source>
+          <target state="translated">Enable-wsmancredssp</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Enables Credential Security Support Provider (CredSSP) authentication on a client or on a server computer.</source>
+          <target state="translated">クライアントまたはサーバー コンピューターで Credential Security Support Provider (CredSSP) 認証を有効にします。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Enable-WSManCredSPP cmdlet enables CredSSP authentication on a client or on a server computer.</source>
+          <target state="translated">Enable-WSManCredSPP コマンドレットは、クライアントまたはサーバー コンピューターで CredSSP 認証を有効にします。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When CredSSP authentication is used, the user's credentials are passed to a remote computer to be authenticated.</source>
+          <target state="translated">CredSSP 認証を使用すると、ユーザーの資格情報が認証対象のリモート コンピューターに渡されます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This type of authentication is designed for commands that create a remote session from within another remote session.</source>
+          <target state="translated">この種類の認証は、リモート セッション内から別のリモート セッションを作成するコマンドを対象としています。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, you use this type of authentication if you want to run a background job on a remote computer.</source>
+          <target state="translated">たとえば、リモート コンピューターでバックグラウンド ジョブを実行する場合に、この種類の認証を使用します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This cmdlet is used to enable CredSSP on the client by specifying Client in the Role parameter.</source>
+          <target state="translated">このコマンドレットを使用してクライアントで CredSSP を有効にするには、Role パラメーターに Client を指定します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The cmdlet then performs the following:</source>
+          <target state="translated">その場合、このコマンドレットは、次を実行します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Enables CredSSP on the client.</source>
+          <target state="translated">クライアントで CredSSP を有効にします。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The WS-Management setting <ph id="ph1">\&lt;</ph>localhost|computername<ph id="ph2">\&gt;</ph>\Client\Auth\CredSSP is set to true.</source>
+          <target state="translated">Ws-management の設定 <ph id="ph1">\&lt;</ph>localhost | computername<ph id="ph2">\&gt;</ph>\Client\Auth\CredSSP の設定を true にします。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Sets the Windows CredSSP policy AllowFreshCredentials to WSMan/Delegate on the client.</source>
+          <target state="translated">クライアントの Windows CredSSP ポリシー AllowFreshCredentials を Wsman/delegate に設定します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Note: These settings allow the client to delegate explicit credentials to a server when server authentication is achieved.</source>
+          <target state="translated">注: これらの設定は、サーバー認証が実行時にサーバーへの明示的な資格情報を委任するクライアントを許可します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This cmdlet is used to enable CredSSP on the server by specifying Server in the Role parameter.</source>
+          <target state="translated">このコマンドレットを使用してサーバーで CredSSP を有効にするには、Role パラメーターに Server を指定します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The cmdlet then performs the following:</source>
+          <target state="translated">その場合、このコマンドレットは、次を実行します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Enables CredSSP on the server.</source>
+          <target state="translated">サーバーで CredSSP を有効にします。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The WS-Management setting <ph id="ph1">\&lt;</ph>localhost|computername<ph id="ph2">\&gt;</ph>\Service\Auth\CredSSP is set to true.</source>
+          <target state="translated">Ws-management の設定 <ph id="ph1">\&lt;</ph>localhost | computername<ph id="ph2">\&gt;</ph>\Service\Auth\CredSSP の設定を true にします。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Note: This policy setting allows the server to act as a delegate for clients.</source>
+          <target state="translated">注: このポリシー設定は、クライアントの代理として機能するサーバーです。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Caution: CredSSP authentication delegates the user's credentials from the local computer to a remote computer.</source>
+          <target state="translated">注意: CredSSP 認証デリゲート ユーザーの資格情報、ローカル コンピューターからリモート コンピューターにします。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This practice increases the security risk of the remote operation.</source>
+          <target state="translated">そのため、リモート操作のセキュリティ リスクが高まります。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If the remote computer is compromised, when credentials are passed to it, the credentials can be used to control the network session.</source>
+          <target state="translated">リモート コンピューターのセキュリティが低下している場合は、そのリモート コンピューターに渡された資格情報を使用してネットワーク セッションが制御される場合があります。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To disable CredSSP authentication, use the Disable-WSManCredSSP cmdlet.</source>
+          <target state="translated">CredSSP 認証を無効にするには、Disable-WSManCredSSP コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command allows the client credentials to be delegated to the server02 computer.</source>
+          <target state="translated">このコマンドは、server02 コンピューターにクライアントの資格情報を委任することを許可します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command allows the client credentials to be delegated to all the computers in the accounting.fabrikam.com domain.</source>
+          <target state="translated">このコマンドは、accounting.fabrikam.com ドメイン内のすべてのコンピューターにクライアントの資格情報を委任することを許可します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command allows the client credentials to be delegated to multiple computers.</source>
+          <target state="translated">このコマンドは、複数のコンピューターにクライアントの資格情報を委任することを許可します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This command allows a computer to act as a delegate for another.</source>
+          <target state="translated">このコマンドは、コンピューターに別のコンピューターの代理として動作することを許可します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Enable-WSManCredSSP cmdlet (shown in the earlier examples) only enables CredSSP authentication on the client, and specifies the remote computers that can act on it's behalf.</source>
+          <target state="translated">Enable-WSManCredSSP コマンドレット (前の例を参照) は、クライアントでのみ CredSSP 認証を有効にし、その代理として動作できるリモート コンピューターを指定します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In order for the remote computer to act as a delegate for the client, the CredSSP item in the Service node of WSMan must be set to true.</source>
+          <target state="translated">リモート コンピューターがクライアントの代理として動作するためには、WSMan の Service ノードの CredSSP 項目を true に設定する必要があります。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This example sets the the CredSSP item in the Service node of WSMan to true.</source>
+          <target state="translated">この例では、WSMan の Service ノードの CredSSP 項目を true に設定します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This command allows a computer to act as a delegate for another computer.</source>
+          <target state="translated">このコマンドは、コンピューターに別のコンピューターの代理として動作することを許可します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The Enable-WSManCredSSP commands that are shown in the earlier examples enable CredSSP authentication only on the client computer, and they specify the remote computers that can act on behalf of the client computer.</source>
+          <target state="translated">前の例に示した Enable-WSManCredSSP コマンドは、クライアント コンピューターでのみ CredSSP 認証を有効にし、クライアント コンピューターの代理として動作できるリモート コンピューターを指定しています。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For the remote computer to act as a delegate for the client computer, the CredSSP item in the Service directory of the WSMan provider must be set to true.</source>
+          <target state="translated">リモート コンピューターがクライアント コンピューターの代理として動作するためには、WSMan プロバイダーの Service ディレクトリの CredSSP 項目を true に設定する必要があります。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In this example, the first command creates a connection to the remote server02 computer.</source>
+          <target state="translated">この例では、最初のコマンドは、server02 リモート コンピューターへの接続を作成します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The second command sets the credSSP value on the remote server02 computer, which allows the remote computer to act as a delegate.</source>
+          <target state="translated">2 番目のコマンドは、server02 リモート コンピューターで credSSP の値を設定して、リモート コンピューターが代理として動作することを許可します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-DelegateComputer</source>
+          <target state="translated">-DelegateComputer</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Allows the client credentials to be delegated to the server or servers that are specified by this parameter.</source>
+          <target state="translated">このパラメーターで指定されたサーバーにクライアントの資格情報を委任することを許可します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The value of this parameter should be a fully qualified domain name.</source>
+          <target state="translated">このパラメーターの値は、完全修飾ドメイン名にする必要があります。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If the Role parameter specifies Client, the DelegateComputer parameter is mandatory.</source>
+          <target state="translated">Role パラメーターに Client を指定する場合は、DelegateComputer パラメーターは必須です。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If the Role parameter specifies Server, the DelegateComputer parameter is not allowed.</source>
+          <target state="translated">Role パラメーターに Server を指定する場合は、DelegateComputer パラメーターを使用できません。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Enables CredSSP without first prompting the user.</source>
+          <target state="translated">ユーザーに確認しないで、CredSSP を有効にします。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-Role</source>
+          <target state="translated">ロール</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Accepts one of two possible values: Client or Server.</source>
+          <target state="translated">2 つの値のいずれか: クライアントまたはサーバー。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>These values specify whether CredSSP should be enabled as a client or as a server.</source>
+          <target state="translated">これらの値で、クライアントとサーバーのどちらで CredSSP を有効にするかを指定します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If the Role parameter specifies Client, the cmdlet performs the following:</source>
+          <target state="translated">Role パラメーターに Client を指定すると、コマンドレットは次を実行します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Enables CredSSP on the client.</source>
+          <target state="translated">クライアントで CredSSP を有効にします。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The WS-Management setting <ph id="ph1">\&lt;</ph>localhost|computername<ph id="ph2">\&gt;</ph>\Client\Auth\CredSSP is set to true.</source>
+          <target state="translated">Ws-management の設定 <ph id="ph1">\&lt;</ph>localhost | computername<ph id="ph2">\&gt;</ph>\Client\Auth\CredSSP の設定を true にします。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Sets the Windows CredSSP policy AllowFreshCredentials to WSMan/Delegate on the client.</source>
+          <target state="translated">クライアントの Windows CredSSP ポリシー AllowFreshCredentials を Wsman/delegate に設定します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Note: These settings allow the client to delegate explicit credentials to a server when server authentication is achieved.</source>
+          <target state="translated">注: これらの設定は、サーバー認証が実行時にサーバーへの明示的な資格情報を委任するクライアントを許可します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If the Role parameter specifies the Server, the cmdlet performs the following:</source>
+          <target state="translated">Role パラメーターに Serverを指定すると、コマンドレットは次を実行します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Enables CredSSP on the server.</source>
+          <target state="translated">サーバーで CredSSP を有効にします。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The WS-Management setting <ph id="ph1">\&lt;</ph>localhost|computername<ph id="ph2">\&gt;</ph>\Service\Auth\CredSSP is set to true.</source>
+          <target state="translated">Ws-management の設定 <ph id="ph1">\&lt;</ph>localhost | computername<ph id="ph2">\&gt;</ph>\Service\Auth\CredSSP の設定を true にします。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Note: This policy setting allows the server to act as a delegate for clients.</source>
+          <target state="translated">注: このポリシー設定は、クライアントの代理として機能するサーバーです。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not accept any input.</source>
+          <target state="translated">このコマンドレットは入力を受け取りません。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>System.Xml.XmlElement</source>
+          <target state="translated">System.Xml.XmlElement</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If CredSSP authentication is successfully enabled, this cmdlet generates an XMLElement object.</source>
+          <target state="translated">CredSSP 認証が正常に有効になった場合、このコマンドレットは XMLElement オブジェクトを生成します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Connect-WSMan</source>
+          <target state="translated">Connect-WSMan</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Disable-WSManCredSSP</source>
+          <target state="translated">Disable-wsmancredssp</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Disconnect-WSMan</source>
+          <target state="translated">Disconnect-WSMan</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Get-WSManCredSSP</source>
+          <target state="translated">Get-wsmancredssp</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Get-WSManInstance</source>
+          <target state="translated">Get-WSManInstance</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Invoke-WSManAction</source>
+          <target state="translated">Invoke-WSManAction</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>New-WSManInstance</source>
+          <target state="translated">新しい WSManInstance</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>New-WSManSessionOption</source>
+          <target state="translated">新しい WSManSessionOption</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Remove-WSManInstance</source>
+          <target state="translated">削除 WSManInstance</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Set-WSManInstance</source>
+          <target state="translated">Set-WSManInstance</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Set-WSManQuickConfig</source>
+          <target state="translated">Set-wsmanquickconfig</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Test-WSMan</source>
+          <target state="translated">Test-wsman</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

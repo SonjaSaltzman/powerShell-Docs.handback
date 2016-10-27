@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b02bdab4cdf1df1005b8eeac25a7832ea4224d7d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\New-PSTransportOption.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">18b7eae94a1b04c500a967270eb119cec2334203</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec9e92321b43c0f290cd3d8e68f87fb3f158a19e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates an object that contains advanced options for a session configuration.</source>
+          <target state="translated">创建包含用于会话配置的高级选项的对象。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> cmdlet creates an object that contains transport options for session configurations.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-pstransportoption<ept id="p1">**</ept> cmdlet 创建一个包含会话配置的传输选项对象。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the object as the value of the <bpt id="p1">**</bpt>TransportOption<ept id="p1">**</ept> parameter of cmdlets that create or change a session configuration, such as the Register-PSSessionConfiguration and Set-PSSessionConfiguration cmdlets.</source>
+          <target state="translated">您可以使用对象的值作为 <bpt id="p1">**</bpt>TransportOption<ept id="p1">**</ept> cmdlet 可创建或更改会话配置，例如 Register-pssessionconfiguration 和 Set-pssessionconfiguration cmdlet 参数。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can also change the transport option settings by editing the values of the session configuration properties in the WSMan: drive.</source>
+          <target state="translated">还可以通过编辑 WSMan: 驱动器中会话配置属性的值更改传输选项设置。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see WSMan Provider.</source>
+          <target state="translated">有关详细信息，请参阅 WSMan 提供程序。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The session configuration options represent the session values set on the "server-side," or receiving end of a remote connection.</source>
+          <target state="translated">会话配置选项表示设置在“服务器端”上的会话值或远程连接的接收端。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The "client-side," or sending end of the connection, can set session option values when the session is created, or when the client disconnects from or reconnects to the session.</source>
+          <target state="translated">当创建会话时，或当客户端从会话断开连接或重新连接到会话时，“客户端”或连接的发送端可以设置会话选项值。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Unless stated otherwise, when the setting values conflict, the client-side values take precedence.</source>
+          <target state="translated">除非另有说明，当设置值冲突时，客户端的值优先。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>However, the client-side values cannot violate maximum values and quotas set in the session configuration.</source>
+          <target state="translated">但是，客户端的值不能与会话配置中设置的最大值和配额发生冲突。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Without parameters, <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> generates a transport option object with null values for all of the options.</source>
+          <target state="translated">不带参数， <bpt id="p1">**</bpt>New-pstransportoption<ept id="p1">**</ept> 生成具有 null 值的所有选项的传输选项对象。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you omit a parameter, the object has a null value for the property that the parameter represents.</source>
+          <target state="translated">如果省略一个参数，则该对象具有该参数表示的属性的 null 值。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A null value has no effect on the session configuration.</source>
+          <target state="translated">Null 值在会话配置中不起作用。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about session options, see New-PSSessionOption.</source>
+          <target state="translated">有关会话选项的详细信息，请参阅 New-pssessionoption。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">有关会话配置的详细信息，请参阅 about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152)。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This cmdlet is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此 cmdlet 是在 Windows PowerShell 3.0 中引入的。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1</source>
+          <target state="translated">示例 1</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command runs the <bpt id="p1">**</bpt>New-PSTransportOption<ept id="p1">**</ept> with no parameters.</source>
+          <target state="translated">此命令将运行 <bpt id="p1">**</bpt>New-pstransportoption<ept id="p1">**</ept> 不带任何参数。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The output shows that the cmdlet generates a transport option object with null values for all properties.</source>
+          <target state="translated">输出显示该 cmdlet 为所有属性生成具有 null 值的传输选项对象。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Example 2</source>
+          <target state="translated">示例 2</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This example shows how to use a transport options object to set session configuration options</source>
+          <target state="translated">此示例演示如何使用传输选项对象来设置会话配置选项</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 3</source>
+          <target state="translated">示例 3</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command shows the effect of setting a transport option in a session configuration on the sessions that use the session configuration.</source>
+          <target state="translated">此命令显示在使用会话配置的会话上设置会话配置中的传输选项的效果。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-IdleTimeoutSec</source>
+          <target state="translated">-IdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Determines how long each session stays open if the remote computer does not receive any communication from the local computer, including the heartbeat signal.</source>
+          <target state="translated">确定当远程计算机没有从本地计算机接收任何通信（包括检测信号）时，每个会话保持打开状态的时长。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When the interval expires, the session closes.</source>
+          <target state="translated">当时间间隔已过时，该会话将关闭。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The idle timeout value is of significant importance when the user intends to disconnect and reconnect to a session.</source>
+          <target state="translated">当用户想要断开连接并重新连接到会话时，空闲超时值非常重要。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The user can reconnect only if the session has not timed out.</source>
+          <target state="translated">仅当会话未超时时，用户才可以重新连接。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IdleTimeoutSec<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>IdleTimeoutMs<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>IdleTimeoutSec<ept id="p1">**</ept> 参数对应于 <bpt id="p2">**</bpt>IdleTimeoutMs<ept id="p2">**</ept> 会话配置的属性。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Enter a value in seconds.</source>
+          <target state="translated">输入一个值（以秒为单位）。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The default value is 7200 (2 hours).</source>
+          <target state="translated">默认值为 7200（2 小时）。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The minimum value is 60 (1 minute).</source>
+          <target state="translated">最小值为 60 （1 分钟）。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The maximum is the value of the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> property of Shell objects in the WSMan configuration (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout).</source>
+          <target state="translated">最大的价值是 <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> WSMan 配置中的 Shell 对象的属性 (WSMan:<ph id="ph1">\\\&lt;</ph>ComputerName<ph id="ph2">\&gt;</ph>\Shell\IdleTimeout)。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The default value is 7200000 milliseconds (2 hours).</source>
+          <target state="translated">默认值为 7200000 毫秒（2 小时）。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If an idle timeout value is set in the session options and in the session configuration, value set in the session options takes precedence, but it cannot exceed the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property of the session configuration.</source>
+          <target state="translated">如果在会话选项中设置空闲超时值并在会话配置中，在会话选项中设置的值将优先，但它不能超过的值 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 会话配置的属性。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To set the value of the <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> property, use the <bpt id="p2">**</bpt>MaxIdleTimeoutSec<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">若要设置的值 <bpt id="p1">**</bpt>MaxIdleTimeoutMs<ept id="p1">**</ept> 属性，请使用 <bpt id="p2">**</bpt>MaxIdleTimeoutSec<ept id="p2">**</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-MaxConcurrentCommandsPerSession</source>
+          <target state="translated">-MaxConcurrentCommandsPerSession</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Limits the number of commands that can run concurrently in each session to the specified value.</source>
+          <target state="translated">将可以同时在每个会话中运行的命令数限制为指定的值。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The default value is 1000.</source>
+          <target state="translated">默认值为 1000年。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxConcurrentCommandsPerSession<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxConcurrentCommandsPerShell<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxConcurrentCommandsPerSession<ept id="p1">**</ept> 参数对应于 <bpt id="p2">**</bpt>MaxConcurrentCommandsPerShell<ept id="p2">**</ept> 会话配置的属性。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-MaxConcurrentUsers</source>
+          <target state="translated">-MaxConcurrentUsers</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Limits the number of users who can run commands concurrently in each session to the specified value.</source>
+          <target state="translated">将可以同时在每个会话中运行命令的用户数限制为指定的值。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">默认值为 5。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-MaxIdleTimeoutSec</source>
+          <target state="translated">-MaxIdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Limits the idle timeout set for each session to the specified value.</source>
+          <target state="translated">将为每个会话设置的空闲超时值限制为指定的值。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">\[</ph>Int<ph id="ph2">\]</ph>::MaxValue (~25 days).</source>
+          <target state="translated">默认值是 <ph id="ph1">\[</ph>Int<ph id="ph2">\]</ph>:: MaxValue （大约 25 天）。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The idle timeout value is of significant importance when the user intends to disconnect and reconnect to a session.</source>
+          <target state="translated">当用户想要断开连接并重新连接到会话时，空闲超时值非常重要。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The user can reconnect only if the session has not timed out.</source>
+          <target state="translated">仅当会话未超时时，用户才可以重新连接。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxIdleTimeoutSec<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxIdleTimeoutMs<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxIdleTimeoutSec<ept id="p1">**</ept> 参数对应于 <bpt id="p2">**</bpt>MaxIdleTimeoutMs<ept id="p2">**</ept> 会话配置的属性。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-MaxMemoryPerSessionMB</source>
+          <target state="translated">-MaxMemoryPerSessionMB</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Limits the memory used by each session to the specified value.</source>
+          <target state="translated">将每个会话使用的内存限制为指定的值。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Enter a value in megabytes.</source>
+          <target state="translated">输入一个值（以兆字节为单位）。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The default value is 1024 megabytes (1 GB).</source>
+          <target state="translated">默认值为 1024 兆字节 (1 GB)。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxMemoryPerSessionMB<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxMemoryPerShellMB<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxMemoryPerSessionMB<ept id="p1">**</ept> 参数对应于 <bpt id="p2">**</bpt>MaxMemoryPerShellMB<ept id="p2">**</ept> 会话配置的属性。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-MaxProcessesPerSession</source>
+          <target state="translated">-MaxProcessesPerSession</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Limits the number of processes running in each session to the specified value.</source>
+          <target state="translated">将在每个会话中运行的进程数限制为指定的值。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The default value is 15.</source>
+          <target state="translated">默认值为 15。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxProcessesPerSession<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxProcessesPerShell<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxProcessesPerSession<ept id="p1">**</ept> 参数对应于 <bpt id="p2">**</bpt>MaxProcessesPerShell<ept id="p2">**</ept> 会话配置的属性。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-MaxSessions</source>
+          <target state="translated">-MaxSessions</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Limits the number of sessions that use the session configuration.</source>
+          <target state="translated">限制使用会话配置的会话数。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The default value is 25.</source>
+          <target state="translated">默认值为 25。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxSessions<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxShells<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxSessions<ept id="p1">**</ept> 参数对应于 <bpt id="p2">**</bpt>MaxShells<ept id="p2">**</ept> 会话配置的属性。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-MaxSessionsPerUser</source>
+          <target state="translated">-MaxSessionsPerUser</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Limits the number of sessions that use the session configuration and run with the credentials of a given user to the specified value.</source>
+          <target state="translated">将使用会话配置和使用给定用户的凭据运行的会话数限制为指定的值。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The default value is 25.</source>
+          <target state="translated">默认值为 25。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When setting this value, consider that many users might be using the credentials of a "run as" user.</source>
+          <target state="translated">当设置此值时，请考虑许多用户可能使用以“用户身份运行”的凭据。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxSessionsPerUser<ept id="p1">**</ept> parameter corresponds to the <bpt id="p2">**</bpt>MaxShellsPerUser<ept id="p2">**</ept> property of a session configuration.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>MaxSessionsPerUser<ept id="p1">**</ept> 参数对应于 <bpt id="p2">**</bpt>MaxShellsPerUser<ept id="p2">**</ept> 会话配置的属性。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-OutputBufferingMode</source>
+          <target state="translated">-OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Determines how command output is managed in disconnected sessions when the output buffer becomes full.</source>
+          <target state="translated">当输出缓冲区时已满时，确定如何在断开连接的会话中管理命令输出。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The default value of the <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> property of sessions is <bpt id="p2">**</bpt>Block<ept id="p2">**</ept>.</source>
+          <target state="translated">默认值为 <bpt id="p1">**</bpt>OutputBufferingMode<ept id="p1">**</ept> 会话属性是 <bpt id="p2">**</bpt>块<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有效值包括：</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Block<ept id="p1">**</ept>: When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated"><bpt id="p1">**</bpt>块<ept id="p1">**</ept>︰ 输出缓冲区已满时，挂起执行，直到清除缓冲区。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Drop<ept id="p1">**</ept>: When the output buffer is full, execution continues.</source>
+          <target state="translated"><bpt id="p1">**</bpt>删除<ept id="p1">**</ept>︰ 当输出缓冲区已满时，继续执行。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>As new output is saved, the oldest output is discarded.</source>
+          <target state="translated">由于已保存新的输出，因此将丢弃最早的输出。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept>: No output buffering mode is specified.</source>
+          <target state="translated"><bpt id="p1">**</bpt>无<ept id="p1">**</ept>︰ 不指定任何输出缓冲模式。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-ProcessIdleTimeoutSec</source>
+          <target state="translated">-ProcessIdleTimeoutSec</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Limits the timeout for each host process to the specified value.</source>
+          <target state="translated">将每个主机进程的超时值限制为指定的值。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default value, 0, means that there is no timeout value for the process.</source>
+          <target state="translated">默认值为 0，意味着该进程没有超时值。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Other session configurations have per-process timeout values.</source>
+          <target state="translated">其他会话配置具有每个进程的超时值。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For example, the Microsoft.PowerShell.Workflow session configuration has a per-process timeout value of 28800 seconds (8 hours).</source>
+          <target state="translated">例如，Microsoft.PowerShell.Workflow 会话配置具有 28800 秒（8 小时）的每个进程的超时值。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not take input from the pipeline.</source>
+          <target state="translated">此 cmdlet 不通过管道接受输入。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.WSManConfigurationOption</source>
+          <target state="translated">Microsoft.PowerShell.Commands.WSManConfigurationOption</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The properties of a session configuration object vary with the options set for the session configuration and the values of those options.</source>
+          <target state="translated">会话配置对象的属性会根据为会话配置设置的选项以及这些选项的值而有所不同。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Also, session configurations that use a session configuration file have additional properties.</source>
+          <target state="translated">此外，使用会话配置文件的会话配置还具有其他属性。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Set-PSSessionConfiguration</source>
+          <target state="translated">Set-pssessionconfiguration</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

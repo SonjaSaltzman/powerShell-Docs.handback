@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">139bb3a5d4f9838c519009b9c2dd1a7eb4b2a913</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Trace-Command.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6309c83e6fb46348f7b6c50347c1c43014dcfa3d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a82ff0eb5e68ed711734c8d8248ebdaec4d05984</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Trace-Command</source>
+          <target state="translated">Trace-Command</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Trace-Command</source>
+          <target state="translated">Trace-Command</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Configures and starts a trace of the specified expression or command.</source>
+          <target state="translated">配置并启动对指定表达式或命令的跟踪。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>expressionSet (Default)</source>
+          <target state="translated">expressionSet （默认值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>commandSet</source>
+          <target state="translated">commandSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Trace-Command cmdlet configures and starts a trace of the specified expression or command.</source>
+          <target state="translated">Trace-Command cmdlet 配置并启动对指定表达式或命令的跟踪。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It works like Set-TraceSource, except that it applies only to the specified command.</source>
+          <target state="translated">其工作方式与 Set-TraceSource 相似，但仅适用于指定的命令。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 示例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command starts a trace of metadata processing, parameter binding, and cmdlet creation and destruction of the "get-process notepad" expression.</source>
+          <target state="translated">此命令启动对“get-process notepad”表达式的元数据处理、参数绑定以及 cmdlet 创建和破坏的跟踪。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It uses the Name parameter to specify the trace sources, the Expression parameter to specify the command, and the PSHost parameter to send the output to the console.</source>
+          <target state="translated">它使用 Name 参数来指定跟踪源、使用 Expression 参数来指定命令，并使用 PSHost 参数来将输出发送到控制台。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Because it does not specify any tracing options or listener options, the command uses the defaults, "All" for the tracing options, and "None" for the listener options.</source>
+          <target state="translated">由于该命令未指定任何跟踪选项或侦听器选项，因此它会将默认值“All”用作跟踪选项，并将“None”用作侦听器选项。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>These commands trace the actions of the ParameterBinding operations of Windows PowerShell while it processes a Get-Alias expression that takes input from the pipeline.</source>
+          <target state="translated">这些命令跟踪在 Windows PowerShell 处理从管道中获取输入的 Get-Alias 表达式时其 ParameterBinding 操作的过程。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In Trace-Command, the InputObject parameter passes an object to the expression that is being processed during the trace.</source>
+          <target state="translated">在 Trace-Command 中，InputObject 参数将对象传递给要在跟踪期间处理的表达式。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The first command stores the string "i*" in the $a variable.</source>
+          <target state="translated">第一个命令将字符串“i*”存储在 $a 变量中。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The second command uses the Trace-Command cmdlet with the ParameterBinding trace source.</source>
+          <target state="translated">第二个命令将 Trace-Command cmdlet 和 ParameterBinding 跟踪源一起使用。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The PSHost parameter sends the output to the console.</source>
+          <target state="translated">PSHost 参数将输出发送到控制台。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The expression being processed is "get-alias $input", where the $input variable is associated with the InputObject parameter.</source>
+          <target state="translated">要处理的表达式为“get-alias $input”，其中 $input 变量与 InputObject 参数相关联。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The InputObject parameter passes the variable $a to the expression.</source>
+          <target state="translated">InputObject 参数将变量 $a 传递给该表达式。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In effect, the command being processed during the trace is "get-alias -inputobject $a" or "$a | get-alias".</source>
+          <target state="translated">实际上，在跟踪期间要处理的命令是“get-alias -inputobject $a”或“$a | get-alias”。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Specifies the parameters and parameter values for the command being traced.</source>
+          <target state="translated">为要跟踪的命令指定参数和参数值。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The alias for ArgumentList is Args.</source>
+          <target state="translated">ArgumentList 的别名为 Args。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This feature is especially useful for debugging dynamic parameters.</source>
+          <target state="translated">对于调试动态参数，此功能尤其有用。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-Command</source>
+          <target state="translated">-Command</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Specifies a command that is being processed during the trace.</source>
+          <target state="translated">指定要在跟踪期间处理的命令。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-Debugger</source>
+          <target state="translated">调试程序</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Sends the trace output to the debugger.</source>
+          <target state="translated">将跟踪输出发送到调试程序。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can view the output in any user-mode or kernel mode debugger or in Visual Studio.</source>
+          <target state="translated">可以在任何用户模式或内核模式调试程序或者 Visual Studio 中查看输出。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This parameter also selects the default trace listener.</source>
+          <target state="translated">此参数还将选择默认的跟踪侦听器。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-Expression</source>
+          <target state="translated">表达式</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies the expression that is being processed during the trace.</source>
+          <target state="translated">指定要在跟踪期间处理的表达式。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Enclose the expression in braces ({}).</source>
+          <target state="translated">将表达式放在大括号 ({}) 中。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-FilePath</source>
+          <target state="translated">的文件路径</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Sends the trace output to the specified file.</source>
+          <target state="translated">将跟踪输出发送到指定的文件。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This parameter also selects the file trace listener.</source>
+          <target state="translated">此参数还将选择文件跟踪侦听器。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Allows the cmdlet to append trace information to a read-only file.</source>
+          <target state="translated">允许该 cmdlet 将跟踪信息追加到只读文件。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Used with the FilePath parameter.</source>
+          <target state="translated">与 FilePath 参数一起使用。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Even using the Force parameter, the cmdlet cannot override security restrictions.</source>
+          <target state="translated">即使使用 Force 参数，该 cmdlet 也无法覆盖安全限制。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Provides input to the expression that is being processed during the trace.</source>
+          <target state="translated">为要在跟踪期间处理的表达式提供输入。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can enter a variable that represents the input that the expression accepts, or pass an object through the pipeline.</source>
+          <target state="translated">可以输入表示表达式接受的输入的变量，或通过管道传递对象。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-ListenerOption</source>
+          <target state="translated">-ListenerOption</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Adds optional data to the prefix of each trace message in the output.</source>
+          <target state="translated">向输出中的每条跟踪消息的前缀添加可选数据。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The valid values are None, LogicalOperationStack, DateTime, Timestamp, ProcessId, ThreadId, and Callstack.</source>
+          <target state="translated">有效值为 None、LogicalOperationStack、DateTime、Timestamp、ProcessId、ThreadId 和 Callstack。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>"None" is the default.</source>
+          <target state="translated">默认值为“None”。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To specify multiple options, separate them with commas, but with no spaces, and enclose them in quotation marks, such as "ProcessID,ThreadID".</source>
+          <target state="translated">若要指定多个选项，请使用逗号分隔这些选项，但不要带有空格，并将这些选项括在引号中，例如“ProcessID,ThreadID”。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Determines which Windows PowerShell components are traced.</source>
+          <target state="translated">确定要跟踪的 Windows PowerShell 组件。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Enter the name of the trace source of each component.</source>
+          <target state="translated">请输入各个组件的跟踪源的名称。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">允许使用通配符。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To find the trace sources on your computer, type "Get-TraceSource".</source>
+          <target state="translated">若要在计算机上查找跟踪源，请键入“Get-TraceSource”。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-Option</source>
+          <target state="translated">选项</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Determines the type of events that are traced.</source>
+          <target state="translated">确定要跟踪的事件的类型。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The valid values are None, Constructor, Dispose, Finalizer, Method, Property, Delegates, Events, Exception, Lock, Error, Errors, Warning, Verbose, WriteLine, Data, Scope, ExecutionFlow, Assert, and All.</source>
+          <target state="translated">有效值为 None、Constructor、Dispose、Finalizer、Method、Property、Delegates、Events、Exception、Lock、Error、Errors、Warning、Verbose、WriteLine、Data、Scope、ExecutionFlow、Assert 和 All。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>"All" is the default.</source>
+          <target state="translated">默认值为“All”。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The following values are combinations of other values:</source>
+          <target state="translated">以下值是其他值的组合：</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>ExecutionFlow: (Constructor, Dispose, Finalizer, Method, Delegates, Events, and Scope)</source>
+          <target state="translated">ExecutionFlow: （构造函数、 Dispose、 Finalizer、 方法、 委托、 事件和作用域）</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Data: (Constructor, Dispose, Finalizer, Property, Verbose, and WriteLine)</source>
+          <target state="translated">数据: （构造函数、 Dispose、 Finalizer、 Property、 Verbose 和 WriteLine）</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Errors: (Error and Exception).</source>
+          <target state="translated">错误: （错误和异常）。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To specify multiple options, separate them with commas, but with no spaces, and enclose them in quotation marks, such as "Constructor,Dispose".</source>
+          <target state="translated">若要指定多个选项，请使用逗号分隔这些选项，但不要带有空格，并将这些选项括在引号中，例如“Constructor,Dispose”。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-PSHost</source>
+          <target state="translated">-PSHost</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Sends the trace output to the Windows PowerShell host.</source>
+          <target state="translated">将跟踪输出发送到 Windows PowerShell 主机。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This parameter also selects the PSHost trace listener.</source>
+          <target state="translated">此参数还将选择 PSHost 跟踪侦听器。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You can pipe objects that represent input to the expression to Trace-Command.</source>
+          <target state="translated">可以通过管道将表示表达式输入的对象传递给 Trace-Command。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Returns the command trace in the debug stream.</source>
+          <target state="translated">在调试流中返回命令跟踪。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Tracing is a method that developers use to debug and refine programs.</source>
+          <target state="translated">跟踪是开发人员用于调试和优化程序的一种方法。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>When tracing, the program generates detailed messages about each step in its internal processing.</source>
+          <target state="translated">在跟踪过程中，程序将生成有关其内部处理过程中每个步骤的详细消息。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell tracing cmdlets are designed to help Windows PowerShell developers, but they are available to all users.</source>
+          <target state="translated">Windows PowerShell 跟踪 cmdlet 专为帮助 Windows PowerShell 开发人员而设计，但可供所有用户使用。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>They let you monitor nearly every aspect of the functionality of the shell.</source>
+          <target state="translated">使用这些 cmdlet，你可以监视 shell 功能的几乎每个方面。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To find the Windows PowerShell components that are enabled for tracing, type "Get-Help Get-TraceSource."</source>
+          <target state="translated">若要查找已为跟踪而启用的 Windows PowerShell 组件，请键入“Get-Help Get-TraceSource”。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>A "trace source" is the part of each Windows PowerShell component that manages tracing and generates trace messages for the component.</source>
+          <target state="translated">“跟踪源”是每个 Windows PowerShell 组件的一部分，用于管理跟踪和生成该组件的跟踪消息。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To trace a component, you identify its trace source.</source>
+          <target state="translated">若要跟踪某个组件，你应标识其跟踪源。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A "trace listener" receives the output of the trace and displays it to the user.</source>
+          <target state="translated">“跟踪侦听器”接收跟踪的输出并将其显示给用户。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You can elect to send the trace data to a user-mode or kernel-mode debugger, to the host or console, to a file, or to a custom listener derived from the System.Diagnostics.TraceListener class.</source>
+          <target state="translated">你可以选择将跟踪数据发送给用户模式或内核模式调试程序、主机或控制台、文件，或从 System.Diagnostics.TraceListener 类中派生的自定义侦听器。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>When you use the Command parameter set, Windows PowerShell processes the command just as it would be processed in a pipeline.</source>
+          <target state="translated">使用 Command 参数集时，Windows PowerShell 将采用与在管道中处理命令相似的方式来处理该命令。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>For example, command discovery is not repeated for each incoming object.</source>
+          <target state="translated">例如，不对每个传入对象重复执行命令发现。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The names of the Name, Expression, Option, and Command parameters are optional.</source>
+          <target state="translated">Name、Expression、Option 和 Command 参数的名称为可选项。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If you omit the parameter names, the unnamed parameter values must appear in this order: Name, Expression, Option or Name, Command,-Option .</source>
+          <target state="translated">如果省略参数名称时，未命名的参数值必须按以下顺序出现︰ 名称、 表达式、 选项或名称、 命令的选项。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If you include the parameter names, the parameters can appear in any order.</source>
+          <target state="translated">如果包括参数名称，则参数能够以任何顺序出现。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Get-TraceSource</source>
+          <target state="translated">Get-tracesource</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Set-TraceSource</source>
+          <target state="translated">Set-tracesource</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4940d7e74e3d93205deeba141c37a4cdc053c52a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_Remote_Disconnected_Sessions.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2660511bdfb9404cb724fe18ad3d475b09a19b5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">91c57e3e54eb648bd4de436ce23b2ae89db8bd0f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Sessions</source>
+          <target state="translated">about_Remote_Disconnected_Sessions</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Remote Disconnected Sessions</source>
+          <target state="translated">有关远程断开连接的会话</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Sessions</source>
+          <target state="translated">about_Remote_Disconnected_Sessions</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Session</source>
+          <target state="translated">about_Remote_Disconnected_Session</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">简短说明</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Explains how to disconnect from and reconnect to a PSSession</source>
+          <target state="translated">说明如何从断开连接，然后重新连接到 PSSession</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">详细说明</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can disconnect from a PSSession and reconnect to the PSSession at a later time on the same computer or a different computer.</source>
+          <target state="translated">从 Windows PowerShell 3.0 开始，可以断开与 PSSession 的连接，并在同一台计算机或另一台计算机上更高版本时重新连接到 PSSession。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The session state is maintained and commands in the PSSession continue to run while the session is disconnected.</source>
+          <target state="translated">维护会话状态，并在 PSSession 的命令将继续运行在该会话断开连接时。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Disconnected Sessions feature is available only when the computer at the remote end of a connection is running Windows PowerShell 3.0 or a later version of Windows PowerShell.</source>
+          <target state="translated">仅在 Windows PowerShell 3.0 或更高版本的 Windows PowerShell 运行时位于连接远端的计算机，断开连接的会话功能是可用。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Disconnected Sessions feature allows you to close the session in which a PSSession was created, and even close Windows PowerShell, and shut down the computer, without disrupting commands running in the PSSession.</source>
+          <target state="translated">断开连接的会话功能，可关闭该会话的 PSSession 创建的甚至关闭 Windows PowerShell 和关闭计算机，而不会中断命令的 PSSession 中运行。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It is especially useful for running commands that take an extended time to complete, and it provides the time and device flexibility that IT professionals require.</source>
+          <target state="translated">它是对于运行命令会使较长的时间才能完成，特别有用，它提供 IT 专业人员需要的时间和设备的灵活性。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>NOTE: You cannot disconnect from an interactive session that is started by using the Enter-PSSession cmdlet.</source>
+          <target state="translated">注意︰ 您不能从断开连接通过使用 Enter-pssession cmdlet 启动的交互式会话。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use Disconnected Sessions to manage PSSessions that were disconnected unintentionally as the result of a computer or network outage.</source>
+          <target state="translated">断开连接的会话可用于管理作为计算机或网络中断的结果会无意中断开连接的 Pssession。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In real-world use, the Disconnected Sessions feature allows you to begin solving a problem, turn your attention to a higher priority issue, and then resume work on the solution, even on a different computer in a different location.</source>
+          <target state="translated">在现实世界中使用，功能允许您开始着手解决问题断开连接的会话，将您注意力转向更高的优先级问题，并且然后继续处理该解决方案，即使在另一台计算机中的其他位置上。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>DISCONNECTED SESSION CMDLETS</source>
+          <target state="translated">断开连接的会话的 CMDLET</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The following cmdlets support the Disconnected Sessions feature:</source>
+          <target state="translated">以下 cmdlet 支持断开连接的会话功能︰</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Disconnect-PSSession:  Disconnects a PSSession.</source>
+          <target state="translated">断开连接的 PSSession︰ 断开 PSSession 的连接。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession:     Connects to a disconnected PSSession.</source>
+          <target state="translated">连接的 PSSession︰ 连接到已断开的 PSSession。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession:     Gets the results of commands that ran in disconnected sessions.</source>
+          <target state="translated">Receive-pssession︰ 获取在断开连接的会话中运行的命令的结果。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Get-PSSession:         Gets PSSessions on the local computer or on remote computers.</source>
+          <target state="translated">Get-pssession︰ 获取 Pssession 在本地计算机或远程计算机上。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Invoke-Command:        InDisconnectedSession parameter creates a PSSession and disconnects immediately.</source>
+          <target state="translated">调用命令︰ InDisconnectedSession 参数创建 PSSession，并立即断开连接。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>HOW THE DISCONNECTED SESSIONS FEATURE WORKS</source>
+          <target state="translated">断开连接的会话功能的工作原理</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, PSSessions are independent of the sessions in which they are created.</source>
+          <target state="translated">从 Windows PowerShell 3.0 开始，Pssession 均独立于创建它们的会话。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Active PSSession are maintained on the remote computer or "server side" of the connection, even if the session in which PSSession was created is closed and the originating computer is shut down or disconnected from the network.</source>
+          <target state="translated">即使在其中创建 PSSession 的会话已关闭，并且原始计算机在关闭或与网络断开连接的连接的"服务器端"的远程计算机上维护活动的 PSSession。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, the PSSession is deleted from the remote computer when it is disconnected from the originating session or the session in which it was created ends.</source>
+          <target state="translated">在 Windows PowerShell 2.0 中，将删除 PSSession 与远程计算机断开原始会话或会话已在其中创建结束时。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When you disconnect a PSSession, the PSSession remains active and is maintained on the remote computer.</source>
+          <target state="translated">断开 PSSession 的连接后，PSSession 将保持活动状态，并在远程计算机上维护。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The session state changes from Running to Disconnected.</source>
+          <target state="translated">从运行到已断开连接会话状态更改。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can reconnect to a disconnected PSSession from the current session or from a different session on the same computer, or from a different computer.</source>
+          <target state="translated">您可以重新连接已断开的 pssession 当前会话中或从同一台计算机上的不同会话或从另一台计算机。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The remote computer that maintains the session must be running and be connected to the network.</source>
+          <target state="translated">用于维护该会话的远程计算机必须运行，并连接到网络。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Commands in a disconnected PSSession continue to run uninterrupted on the remote computer until the command completes or the output buffer fills.</source>
+          <target state="translated">在已断开的 PSSession 中的命令将继续不间断地运行在远程计算机上之前在命令完成或输出缓冲区已满。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To prevent a full output buffer from suspending a command, use the OutputBufferingMode parameter of the Disconnect-PSSession, New-PSSessionOption, or New-PSTransportOption cmdlets.</source>
+          <target state="translated">若要防止挂起命令的完整输出缓冲区，请使用 Disconnect-pssession、 New-pssessionoption 或 New-pstransportoption cmdlet 的 OutputBufferingMode 参数。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Disconnected sessions are maintained in the disconnected state on the remote computer.</source>
+          <target state="translated">断开连接的会话都保持在远程计算机上已断开连接的状态。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>They are available for you to reconnect, until you delete the PSSession, such as by using the Remove-PSSession cmdlet, or until the idle timeout of the PSSession expires.</source>
+          <target state="translated">它们是可供您要重新连接，直到你通过使用 Remove-pssession cmdlet，如删除 PSSession，或直到 PSSession 的空闲超时时间已到。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can adjust the idle timeout of a PSSession by using the IdleTimeoutSec or IdleTimeout parameters of the Disconnect-PSSession, New-PSSessionOption, or New-PSTransportOption cmdlets.</source>
+          <target state="translated">可以通过使用 Disconnect-pssession、 New-pssessionoption，或 New-pstransportoption cmdlet IdleTimeoutSec 或 IdleTimeout 参数来调整 PSSession 的空闲超时。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Another user can connect to PSSessions that you created, but only if they can supply the credentials that were used to create the session, or use the RunAs credentials of the session configuration.</source>
+          <target state="translated">另一个用户可以连接到 Pssession 的连接创建，但如果它们可以提供创建会话时，所用的凭据或使用会话配置的 RunAs 凭据。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>HOW TO GET PSSESSIONS</source>
+          <target state="translated">如何获取 PSSESSION</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, the Get-PSSession cmdlet gets PSSessions on the local computer and remote computers.</source>
+          <target state="translated">从 Windows PowerShell 3.0 开始，则 Get-pssession cmdlet 将获取本地计算机和远程计算机上的 Pssession。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It can also get PSSessions that were created in the current session.</source>
+          <target state="translated">它还可以获取当前会话中创建的 Pssession。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To get PSsessions on the local computer or remote computers, use the ComputerName or ConnectionUri parameters.</source>
+          <target state="translated">若要获取本地计算机或远程计算机上的 Pssession，请使用计算机名或 ConnectionUri 参数。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Without parameters, Get-PSSession gets PSSession that were created in the local session, regardless of where they terminate.</source>
+          <target state="translated">不带参数，Get-pssession 获取已在本地会话，而不考虑它们的终止位置中创建的 PSSession。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When getting PSSessions, remember to look for them on the computer on which they are maintained, that is, the remote or "server-side" computer.</source>
+          <target state="translated">当正在获取 Pssession，请记住查找它们在其维护多维数据集，即，在计算机上的远程或"服务器端"计算机。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, if you create a PSSession to the Server01 computer, get the session from the Server01 computer.</source>
+          <target state="translated">例如，如果您创建到 Server01 计算机的 PSSession，请从 Server01 计算机获取会话。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If you create a PSSession from another computer to the local computer, get the session from the local computer.</source>
+          <target state="translated">如果你创建 PSSession 时从另一台计算机到本地计算机，从本地计算机获取会话。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The following command sequence shows how Get-PSSession works.</source>
+          <target state="translated">下面的命令序列演示 Get-pssession 的工作原理。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The first command creates a session to the Server01 computer.</source>
+          <target state="translated">第一个命令创建到 Server01 计算机的会话。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The session resides on the Server01 computer.</source>
+          <target state="translated">会话位于 Server01 计算机上。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; New-PSSession -ComputerName Server01</source>
+          <target state="translated">PS C:\ps-test &gt; 新 PSSession 的 ComputerName Server01</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名称 ComputerName 状态 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>2 Session2        Server01        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">2 Session2 Server01 打开 Microsoft.PowerShell 可用</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To get the session, use the ComputerName parameter of Get-PSSession with a value of Server01.</source>
+          <target state="translated">若要获取会话，请使用值为 Server01 获取 PSSession 的 ComputerName 参数。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; Get-PSSession -ComputerName Server01</source>
+          <target state="translated">PS C:\ps-test &gt; Get-pssession-ComputerName Server01</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名称 ComputerName 状态 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>2 Session2        Server01        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">2 Session2 Server01 打开 Microsoft.PowerShell 可用</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If the value of the ComputerName parameter of Get-PSSession is localhost, Get-PSSession gets PSSessions that terminate at and are maintained on the local computer.</source>
+          <target state="translated">如果获取 PSSession 的 ComputerName 参数的值为 localhost，Get-pssession 获取在终止，并在本地计算机上维护的 Pssession。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It does not get PSSessions on the Server01 computer, even if they were started on the local computer.</source>
+          <target state="translated">它不即使它们在本地计算机上启动 Server01 计算机上获取 Pssession。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; Get-PSSession -ComputerName localhost PS C:\ps-test&gt;</source>
+          <target state="translated">PS C:\ps-test &gt; Get-pssession ComputerName localhost PS C:\ps-test &gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To get sessions that were created in the current session, use the Get-PSSession cmdlet without parameters.</source>
+          <target state="translated">若要获取当前会话中创建的会话，请使用不带参数的 Get-pssession cmdlet。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This command gets the PSSession that was created in the current session and connects to the Server01 computer.</source>
+          <target state="translated">此命令将获取当前会话中创建并连接到 Server01 计算机的 PSSession。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; Get-PSSession</source>
+          <target state="translated">PS C:\ps-test &gt; Get-pssession</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名称 ComputerName 状态 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>2 Session2        Server01        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">2 Session2 Server01 打开 Microsoft.PowerShell 可用</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>HOW TO DISCONNECT SESSIONS</source>
+          <target state="translated">如何断开会话连接</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To disconnect a PSSession use the Disconnect-PSSession cmdlet.</source>
+          <target state="translated">若要断开 PSSession，请使用 Disconnect-pssession cmdlet。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To identify the PSSession, use the Session parameter, or pipe a PSSession from the New-PSSession or Get-PSSession cmdlets to Disconnect-PSSession.</source>
+          <target state="translated">若要标识 PSSession，请使用 Session 参数或通过管道传递到 Disconnect-pssession New-pssession 或 Get-pssession cmdlet 从 PSSession。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The following command disconnects the PSSession to the Server01 computer.</source>
+          <target state="translated">以下命令将断开到 Server01 计算机的 PSSession。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Notice that the value of the State property is Disconnected and the Availability is None.</source>
+          <target state="translated">请注意状态属性的值为 Disconnected，可用性为 None。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server01 | Disconnect-PSSession</source>
+          <target state="translated">PS c: &gt; Get-pssession-ComputerName Server01 |断开 PSSession</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名称 ComputerName 状态 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>2 Session2        Server01        Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">2 Session2 Server01 断开连接 Microsoft.PowerShell None</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To create a disconnected session, use the InDisconnectedSession parameter of the Invoke-Command cmdlet.</source>
+          <target state="translated">若要创建已断开的会话，请使用 Invoke-command cmdlet 的 InDisconnectedSession 参数。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It creates a session, starts the command, and disconnects immediately, before the command can return any output.</source>
+          <target state="translated">它将创建一个会话、 启动命令，并立即断开之前该命令可以返回任何输出。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The following command runs a Get-WinEvent command in a disconnected session on the Server02 remote computer.</source>
+          <target state="translated">以下命令在 Server02 远程计算机上断开连接的会话中运行 Get-winevent 命令。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Invoke-Command -ComputerName Server02 -InDisconnectedSession ` -ScriptBlock {Get-WinEvent -LogName "Windows PowerShell"}</source>
+          <target state="translated">PS c: &gt; Invoke-command-ComputerName Server02 InDisconnectedSession '-ScriptBlock {Get-winevent LogName"Windows PowerShell"}</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名称 ComputerName 状态 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>4 Session3        Server02        Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">4 Session3 Server02 断开连接 Microsoft.PowerShell None</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>HOW TO CONNECT TO DISCONNECTED SESSIONS</source>
+          <target state="translated">如何连接到断开连接的会话</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You can connect to any available disconnected PSSession from the session in which you created the PSSession or from other sessions on the local computer or other computers.</source>
+          <target state="translated">从在其中创建 PSSession 的会话或从本地计算机或其他计算机上的其他会话，您可以连接到任何可用的已断开的 PSSession。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You can create a PSSession, run commands in the PSSession, disconnect from the PSSession, close Windows PowerShell, and shut down the computer.</source>
+          <target state="translated">可以创建一个 PSSession，请在 PSSession 中运行命令、 断开与 PSSession 的连接、 关闭 Windows PowerShell 中，并关闭计算机。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Hours later, you can open a different computer, get the PSSession, connect to it, and get the results of commands that ran in the PSSession while it was disconnected.</source>
+          <target state="translated">小时之后，您可以打开另一台计算机、 获取 PSSession，连接到它，并获得已断开连接时的 PSSession 中运行的命令的结果。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Then you can run more commands in the session.</source>
+          <target state="translated">然后您可以在会话中运行更多的命令。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To connect a disconnected PSSession, use the Connect-PSSession cmdlet.</source>
+          <target state="translated">若要连接已断开的 PSSession，请使用 Connect-pssession cmdlet。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Use the ComputerName or ConnectionUri parameters to identify the PSSession, or pipe a PSSession from Get-PSSession to Connect-PSSession.</source>
+          <target state="translated">使用计算机名或 ConnectionUri 参数来标识 PSSession，或通过管道传递到 Connect-pssession Get-pssession 从 PSSession。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The following command gets the sessions on the Server02 computer.</source>
+          <target state="translated">以下命令获取 Server02 计算机上的会话。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The output includes two disconnected sessions, both of which are available.</source>
+          <target state="translated">输出中包括这两者都是可用的两个断开连接的会话。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server02</source>
+          <target state="translated">PS c: &gt; Get-pssession-ComputerName Server02</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名称 ComputerName 状态 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>2 Session2        juneb-srv8320   Disconnected  Microsoft.PowerShell          None 4 Session3        juneb-srv8320   Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">2 Session2 juneb srv8320 断开连接 Microsoft.PowerShell 无 4 Session3 juneb srv8320 断开连接 Microsoft.PowerShell None</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The following command connects to Session2.</source>
+          <target state="translated">以下命令连接到 Session2。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The PSSession is now open and available.</source>
+          <target state="translated">PSSession 现在已打开且可用。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Connect-PSSession -ComputerName Server02 -Name Session2</source>
+          <target state="translated">PS c: &gt; 连接 PSSession 的 ComputerName Server02-命名 Session2</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Id Name            ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名称 ComputerName 状态 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>2 Session2        juneb-srv8320   Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">2 Session2 juneb srv8320 Opened Microsoft.PowerShell 提供</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>HOW TO GET THE RESULTS</source>
+          <target state="translated">如何获得的结果</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To get the results of commands that ran in a disconnected PSSession, use the Receive-PSSession cmdlet.</source>
+          <target state="translated">若要获取在已断开的 PSSession 中运行的命令的结果，请使用 Receive-pssession cmdlet。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>You can use Receive-PSSession in addition to, or instead of, using the Connect-PSSession cmdlet.</source>
+          <target state="translated">您可以使用 Receive-pssession 除此之外或代替，Connect-pssession cmdlet。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If the session is already reconnected, Receive-PSSession gets the results of commands that ran when the session was disconnected.</source>
+          <target state="translated">如果已重新连接的会话，Receive-pssession 获取会话断开连接时运行的命令的结果。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If the PSSession is still disconnected, Receive-PSSession connects to it and then gets the results of commands that ran while it was disconnected.</source>
+          <target state="translated">如果 PSSession 仍断开连接，Receive-pssession 连接到它，然后获取运行时已断开连接的命令的结果。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession can return the results in a job (asynchronously) or to the host program (synchronously).</source>
+          <target state="translated">Receive-pssession 可以返回结果作业 （异步） 或转换到主机程序 （同步）。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Use the OutTarget parameter to select Job or Host.</source>
+          <target state="translated">OutTarget 参数用于选择作业或主机。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Host is the default value.</source>
+          <target state="translated">主机是默认值。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>However, if the command that is being received was started in the current session as a job, it is returned as a job by default.</source>
+          <target state="translated">但是，如果正在接收的命令已作为作业当前会话中启动的它是作为作业默认返回。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The following command uses the Receive-PSSession cmdlet to connect to the PSSession on the Server02 computer and get the results of the Get-WinEvent command that ran in the Session3 session.</source>
+          <target state="translated">下面的命令使用 Receive-pssession cmdlet 连接到 Server02 计算机上的 PSSession，并获取 Session3 会话中运行的 Get-winevent 命令的结果。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The command uses the OutTarget parameter to get the results in a job.</source>
+          <target state="translated">该命令使用 OutTarget 参数以在作业中获得的结果。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Receive-PSSession  -ComputerName Server02 -Name Session3 -OutTarget Job</source>
+          <target state="translated">PS c: &gt; Receive-pssession-ComputerName Server02-命名 Session3-OutTarget 作业</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Id     Name            PSJobTypeName   State         HasMoreData     Location</source>
+          <target state="translated">Id 名称 PSJobTypeName 状态 HasMoreData 位置</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>3      Job3            RemoteJob       Running       True            Server02</source>
+          <target state="translated">运行，则返回 True Server02 3 Job3 RemoteJob</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To get the results of the job, use the Receive-Job cmdlet.</source>
+          <target state="translated">若要获取作业结果，请使用 Receive-job cmdlet。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>PS C:\ps-test&gt; Get-Job | Receive-Job -Keep</source>
+          <target state="translated">PS C:\ps-test &gt; Get-job |接收作业的保留</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>ProviderName: PowerShell</source>
+          <target state="translated">ProviderName: PowerShell</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>TimeCreated             Id LevelDisplayName Message     PSComputerName</source>
+          <target state="translated">TimeCreated Id LevelDisplayName 消息 PSComputerName</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>5/14/2012 7:26:04 PM   400 Information      Engine stat Server02 5/14/2012 7:26:03 PM   600 Information      Provider "W Server02 5/14/2012 7:26:03 PM   600 Information      Provider "C Server02 5/14/2012 7:26:03 PM   600 Information      Provider "V Server02</source>
+          <target state="translated">2012 年 5 月 14 日下午 7:26:04 400 信息引擎 stat Server02 2012 年 5 月 14 日 7:26:03 PM 600 信息提供程序"W Server02 2012 年 5 月 14 日 7:26:03 PM 600 信息提供程序"C Server02 2012 年 5 月 14 日 7:26:03 PM 600 信息提供程序"V Server02</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>STATE AND AVAILABILITY</source>
+          <target state="translated">状态和可用性</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The State and Availability properties of a disconnected PSSession tell you whether the session is available for you to reconnect to it.</source>
+          <target state="translated">已断开的 PSSession 的状态和可用性属性告诉您是否可供你重新连接到该会话。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>When a PSSession is connected to the current session, its state is Opened and its availability is Available.</source>
+          <target state="translated">当 PSSession 连接到当前会话中时，打开其状态，并且其可用性的可用。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When you disconnect from the PSSession, the PSSession state is Disconnected and its Availability is none.</source>
+          <target state="translated">断开与 PSSession 的连接，PSSession 状态时，已断开连接和其可用性为 none。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>However, the value of the State property is relative to the current session.</source>
+          <target state="translated">但是，State 属性的值是相对于当前会话。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Therefore, a value of Disconnected means that the PSSession is not connected to the current session.</source>
+          <target state="translated">因此，已断开连接的值意味着 PSSession 未连接到当前会话。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>However, it does not mean that the PSSession is disconnected from all sessions.</source>
+          <target state="translated">但是，它并不意味着 PSSession 会与所有会话断开连接。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>It might be connected to a different session.</source>
+          <target state="translated">它可能连接到另一个会话。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>To determine whether you can connect or reconnect to the PSSession, use the Availability property.</source>
+          <target state="translated">若要确定是否可以连接或重新连接到 PSSession，请使用可用性属性。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>An Availability value of None indicates that you can connect to the session.</source>
+          <target state="translated">可用性值 None 表示您可以连接到会话。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A value of Busy indicates that you cannot connect to the PSSession because it is connected to another session.</source>
+          <target state="translated">忙表示由于连接到另一个会话，所以无法连接到 PSSession。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The following example is run in two sessions (Windows PowerShell console windows) on the same computer.</source>
+          <target state="translated">下面的示例在同一台计算机上运行两个会话 （Windows PowerShell 控制台窗口） 中。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Note the changing values of the State and Availability properties in each session as the PSSession is disconnected and reconnected.</source>
+          <target state="translated">请注意不断变化的状态和可用性的属性的值在每个会话断开连接并重新连接的 PSSession。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Session 1:</source>
+          <target state="translated">会话 1:</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; New-PSSession -ComputerName Server30 -Name Test</source>
+          <target state="translated">PS c: &gt; 新 PSSession 的 ComputerName Server30-名称测试</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名称 ComputerName 状态 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>1  Test       Server30        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">1 测试 Server30 打开 Microsoft.PowerShell 可用</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Session 2:</source>
+          <target state="translated">会话 2:</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server30 -Name Test</source>
+          <target state="translated">PS c: &gt; Get-pssession-ComputerName Server30-名称测试</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名称 ComputerName 状态 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>1 Test        Server30        Disconnected  Microsoft.PowerShell          Busy</source>
+          <target state="translated">1 测试 Server30 断开连接忙的 Microsoft.PowerShell</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Session 1</source>
+          <target state="translated">会话 1</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server30 -Name Test | Disconnect-PSSession</source>
+          <target state="translated">PS c: &gt; Get-pssession-ComputerName Server30-命名测试 |断开 PSSession</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名称 ComputerName 状态 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>1 Test       Server30        Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">1 测试 Server30 断开连接 Microsoft.PowerShell None</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Session 2</source>
+          <target state="translated">会话 2</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server30</source>
+          <target state="translated">PS c: &gt; Get-pssession-ComputerName Server30</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名称 ComputerName 状态 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>1 Test       Server30        Disconnected  Microsoft.PowerShell          None</source>
+          <target state="translated">1 测试 Server30 断开连接 Microsoft.PowerShell None</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Session 2</source>
+          <target state="translated">会话 2</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Connect-PSSession -ComputerName Server01 -Name Test</source>
+          <target state="translated">PS c: &gt; 连接 PSSession 的 ComputerName Server01 的名称测试</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名称 ComputerName 状态 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>3 Test        Server30        Opened        Microsoft.PowerShell     Available</source>
+          <target state="translated">3 测试 Server30 打开 Microsoft.PowerShell 可用</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Session 1</source>
+          <target state="translated">会话 1</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-PSSession -ComputerName Server30</source>
+          <target state="translated">PS c: &gt; Get-pssession-ComputerName Server30</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Id Name       ComputerName    State         ConfigurationName     Availability</source>
+          <target state="translated">Id 名称 ComputerName 状态 ConfigurationName 可用性</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>1 Test       Server30        Disconnected  Microsoft.PowerShell          Busy</source>
+          <target state="translated">1 测试 Server30 断开连接忙的 Microsoft.PowerShell</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>IDLE TIMEOUT</source>
+          <target state="translated">空闲超时</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Disconnected sessions are maintained on the remote computer until you delete them, such as by using the Remove-PSSession cmdlet, or they time out.</source>
+          <target state="translated">断开连接的会话是远程计算机上维护，直到您删除它们，如通过使用 Remove-pssession cmdlet，或在超时时间。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The IdleTimeout property of a PSSession determines how long a disconnected session is maintained before it is deleted.</source>
+          <target state="translated">PSSession 的 IdleTimeout 属性可确定多长时间断开连接的会话已被删除之前保留。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>PSSessions are idle when the "heartbeat thread" receives no response.</source>
+          <target state="translated">在"检测信号线程"没有收到响应时，Pssession 将处于空闲状态。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Disconnecting a session makes it idle and starts the Idle Timeout clock, even if commands are still running in the disconnected session.</source>
+          <target state="translated">断开会话使空闲状态，并启动空闲超时时钟，即使在断开连接的会话中仍运行命令。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell considers disconnected sessions to be active, but idle.</source>
+          <target state="translated">Windows PowerShell 会将断开连接的会话处于活动状态，但空闲状态。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>When creating and disconnecting sessions, verify that the idle timeout in the PSSession is long enough to maintain the session for your needs, but not so long that it consumes unnecessary resources on the remote computer.</source>
+          <target state="translated">创建和断开连接的会话，验证在 PSSession 的空闲超时足够长，以保持您的需要，该会话但不是这样长，它会占用不必要的远程计算机上的资源。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The IdleTimeoutMs property of the session configuration determines the default idle timeout of sessions that use the session configuration.</source>
+          <target state="translated">会话配置的 IdleTimeoutMs 属性可确定使用会话配置的会话的默认空闲超时时间。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>You can override the default value, but the value that you use cannot exceed the MaxIdleTimeoutMs property of the session configuration.</source>
+          <target state="translated">可以重写默认值，但您使用的值不能超过会话配置的 MaxIdleTimeoutMs 属性。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>To find the value of the IdleTimeoutMs and MaxIdleTimeoutMs values of a session configuration, use the following command format.</source>
+          <target state="translated">若要查找的会话配置的 IdleTimeoutMs 和 MaxIdleTimeoutMs 值的值，请使用以下命令格式。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration | Format-Table Name, IdleTimeoutMs, MaxIdleTimeoutMs</source>
+          <target state="translated">Get-pssessionconfiguration |表格格式名称，IdleTimeoutMs，MaxIdleTimeoutMs</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>You can override the default value in the session configuration and set the idle timeout of a PSSession when you create a PSSession and when you disconnect.</source>
+          <target state="translated">您可以重写中的会话配置的默认值，并创建 PSSession 并在您断开连接时设置的 PSSession 的空闲超时。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>If you are a member of the Administrators group on the remote computer, you can also create and change the IdleTimeoutMs and MaxIdleTimeoutMs properties of session configurations.</source>
+          <target state="translated">如果您是在远程计算机上 Administrators 组的成员，您还可以创建和更改会话配置的 IdleTimeoutMs 和 MaxIdleTimeoutMs 属性。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>NOTES:</source>
+          <target state="translated">注意：</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The idle timeout value of session configurations and session options is in milliseconds.</source>
+          <target state="translated">会话配置和会话选项的空闲超时值是以毫秒为单位。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The idle timeout value of sessions and session configuration options is in seconds.</source>
+          <target state="translated">会话和会话配置选项的空闲超时值的单位为秒。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>You can set the idle timeout of a PSSession when you create the PSSession (New-PSSession, Invoke-Command) and when you disconnect from it (Disconnect-PSSession).</source>
+          <target state="translated">当创建 PSSession (新 PSSession，Invoke-command) 以及断开它 (Disconnect-pssession)，您可以设置 PSSession 的空闲超时。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>However, you cannot change the IdleTimeout value when you connect to the PSSession (Connect-PSSession) or get results (Receive-PSSession).</source>
+          <target state="translated">但是，当您连接到 PSSession (Connect-pssession) 或获得结果 (Receive-pssession) 时不能更改的 IdleTimeout 值。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The Connect-PSSession and Receive-PSSession cmdlets have a SessionOption parameter that takes a SessionOption object, such as one returned by the New-PSSessionOption cmdlet.</source>
+          <target state="translated">Connect-pssession 和 Receive-pssession cmdlet 具有一个将 SessionOption 对象，例如 New-pssessionoption cmdlet 返回的 SessionOption 参数。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>However, the IdleTimeout value in SessionOption object and the IdleTimeout value in the $PSSessionOption preference variable do not change the value of the IdleTimeout of the PSSession in a Connect-PSSession or Receive-PSSession command.</source>
+          <target state="translated">但是，SessionOption 对象中的 IdleTimeout 值 $PSSessionOption 首选项变量中的 IdleTimeout 值不会更改 Connect-pssession 或 Receive-pssession 命令中的 PSSession 的 idletimeout 值。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>-- To create a PSSession with a particular idle timeout value, create a $PSSessionOption preference variable.</source>
+          <target state="translated">--若要创建 PSSession 具有特定的空闲超时值时，创建 $PSSessionOption 首选项变量。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Set the value of the IdleTimeout property to the desired value (in milliseconds).</source>
+          <target state="translated">设置 IdleTimeout 属性的值为所需的值 （以毫秒为单位）。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>When you create PSSessions, the values in $PSSessionOption variable take precedence over the values in the session configuration.</source>
+          <target state="translated">当创建 Pssession 时，$PSSessionOption 变量中的值优先于会话配置中的值。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>For example, this command sets an idle timeout of 48 hours.</source>
+          <target state="translated">例如，此命令将设置为 48 小时空闲超时。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $PSSessionOption = New-PSSessionOption -IdleTimeoutMSec 172800000</source>
+          <target state="translated">PS $PSSessionOption c: &gt; = 新 PSSessionOption IdleTimeoutMSec 172800000</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>-- To create a PSSession with a particular idle timeout value, use the IdleTimeoutMSec parameter of the New-PSSessionOption cmdlet.</source>
+          <target state="translated">--若要创建 PSSession 具有特定的空闲超时值时，使用 New-pssessionoption cmdlet 的 IdleTimeoutMSec 参数。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Then, use the session option in the value of the SessionOption parameter of the New-PSSession or Invoke-Command cmdlets.</source>
+          <target state="translated">然后，使用 New-pssession 或 Invoke-command cmdlet 的 SessionOption 参数的值中的会话选项。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The values set when creating the session take precedence over the values set in the $PSSessionOption preference variable and the session configuration.</source>
+          <target state="translated">在创建会话时设置的值优先于在 $PSSessionOption 首选项变量和会话配置中设置的值。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSSessionOption -IdleTimeoutMSec 172800000 PS C:&gt; New-PSSession -SessionOption $o</source>
+          <target state="translated">PS $o c: &gt; = 新 PSSessionOption-IdleTimeoutMSec 172800000 PS c: &gt; New-pssession 的 SessionOption $o</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>-- To change a the idle timeout of a PSSession when disconnecting, use the IdleTimeoutSec parameter of the Disconnect-PSSession cmdlet.</source>
+          <target state="translated">--若要更改时断开连接的 PSSession 的空闲超时使用 Disconnect-pssession cmdlet 的 IdleTimeoutSec 参数。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Disconnect-PSSession -IdleTimeoutSec 172800</source>
+          <target state="translated">PS c: &gt; 断开 PSSession IdleTimeoutSec 172800</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>-- To create a session configuration with a particular idle timeout and maximum idle timeout, use the IdleTimeoutSec and MaxIdleTimeoutSec parameters of the New-PSTransportOption cmdlet.</source>
+          <target state="translated">--若要创建具有特定的空闲超时和最大空闲超时会话配置，使用 New-pstransportoption cmdlet 的 IdleTimeoutSec 和 MaxIdleTimeoutSec 参数。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Then, use the transport option in the value of the TransportOption parameter of Register-PSSessionConfiguration.</source>
+          <target state="translated">然后，使用 Register-pssessionconfiguration TransportOption 参数的值中的传输选项。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSTransportOption -IdleTimeoutSec 172800 -MaxIdleTimeoutSec 259200 PS C:&gt; Register-PSSessionConfiguration -Name Test -TransportOption $o</source>
+          <target state="translated">PS $o c: &gt; = 新 PSTransportOption-IdleTimeoutSec 172800-MaxIdleTimeoutSec 259200 PS c: &gt; Register-pssessionconfiguration-命名测试 TransportOption $o</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>-- To change the default idle timeout and maximum idle timeout of a session configuration, use the IdleTimeoutSec and MaxIdleTimeoutSec parameters of the New-PSTransportOption cmdlet.</source>
+          <target state="translated">--若要更改默认空闲超时和会话配置的最大空闲超时，请使用 New-pstransportoption cmdlet 的 IdleTimeoutSec 和 MaxIdleTimeoutSec 参数。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Then, use the transport option in the value of the TransportOption parameter of Set-PSSessionConfiguration.</source>
+          <target state="translated">然后，使用 Set-pssessionconfiguration TransportOption 参数的值中的传输选项。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSTransportOption -IdleTimeoutSec 172800 -MaxIdleTimeoutSec 259200 PS C:&gt; Set-PSSessionConfiguration -Name Test -TransportOption $o</source>
+          <target state="translated">PS $o c: &gt; = 新 PSTransportOption-IdleTimeoutSec 172800-MaxIdleTimeoutSec 259200 PS c: &gt; Set-pssessionconfiguration-命名测试 TransportOption $o</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>OUTPUT BUFFERING MODE</source>
+          <target state="translated">输出缓冲模式</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The output buffering mode of a PSSession determines how command output is managed when the output buffer of the PSSession is full.</source>
+          <target state="translated">输出缓冲模式 PSSession 确定当 PSSession 的输出缓冲区已满时如何管理命令输出。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>In a disconnected session, the output buffering mode effectively determines whether the command continues to run while the session is disconnected.</source>
+          <target state="translated">在断开连接的会话中，输出缓冲模式有效地确定是否继续运行在该会话断开连接时该命令。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Valid values:</source>
+          <target state="translated">有效值：</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>-- Block: When the output buffer is full, execution is suspended until the buffer is clear.</source>
+          <target state="translated">-阻止︰ 输出缓冲区已满时，挂起执行，直到清除缓冲区。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>-- Drop:  When the output buffer is full, execution continues.</source>
+          <target state="translated">--扔︰ 当输出缓冲区已满时，继续执行。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>As new output is generated, the oldest output is discarded.</source>
+          <target state="translated">由于生成新的输出，因此将丢弃最早的输出。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Block, the default value, preserves data, but might interrupt the command</source>
+          <target state="translated">块、 默认值、 保留数据，但可能会中断该命令</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>A value of Drop allows the command to complete, although data might be lost.</source>
+          <target state="translated">拖放一个值允许该命令完成，但是可能会丢失数据。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>When using the Drop value, redirect the command output to a file on disk.</source>
+          <target state="translated">在使用放置值时，命令输出重定向到磁盘上的文件。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>This value is recommended for disconnected sessions.</source>
+          <target state="translated">此值适用于断开连接的会话。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The OutputBufferingMode property of the session configuration determines the default output buffering mode of sessions that use the session configuration.</source>
+          <target state="translated">会话配置的 OutputBufferingMode 属性可确定默认的输出缓冲模式使用会话配置的会话。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>To find the value of the OutputBufferingMode of a session configuration, use the following command formats.</source>
+          <target state="translated">若要查找的会话配置 OutputBufferingMode 值，请使用以下命令格式。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>(Get-PSSessionConfiguration <ph id="ph1">&lt;ConfigurationName&gt;</ph>).OutputBufferingMode</source>
+          <target state="translated">(Get-pssessionconfiguration <ph id="ph1">&lt;ConfigurationName&gt;</ph>)。OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>-or-</source>
+          <target state="translated">-或者-</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration | Format-Table Name, OutputBufferingMode</source>
+          <target state="translated">Get-pssessionconfiguration |Format-table Name OutputBufferingMode</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>You can override the default value in the session configuration and set the output buffering mode of a PSSession when you create a PSSession, when you disconnect, and when you reconnect.</source>
+          <target state="translated">您可以重写中的会话配置的默认值和当断开连接后，创建 PSSession，以及你重新连接设置 PSSession 的输出缓冲模式。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>If you are a member of the Administrators group on the remote computer, you can also create and change the output buffering mode of session configurations.</source>
+          <target state="translated">如果您是在远程计算机上 Administrators 组的成员，您还可以创建和更改输出缓冲模式下的会话配置。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>-- To create a PSSession with an output buffering mode of Drop, create a $PSSessionOption preference variable in which the value of the OutputBufferingMode property is Drop.</source>
+          <target state="translated">--若要创建 PSSession 与输出缓冲模式的拖放时，创建在其中 OutputBufferingMode 属性的值为 Drop $PSSessionOption 首选项变量。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>When you create PSSessions, the values in $PSSessionOption variable take precedence over the values in the session configuration.</source>
+          <target state="translated">当创建 Pssession 时，$PSSessionOption 变量中的值优先于会话配置中的值。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $PSSessionOption = New-PSSessionOption -OutputBufferingMode Drop</source>
+          <target state="translated">PS $PSSessionOption c: &gt; = 新 PSSessionOption-OutputBufferingMode 拖放</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>-- To create a PSSession with an output buffering mode of Drop, use the OutputBufferingMode parameter of the New-PSSessionOption cmdlet to create a session option with a value of Drop.</source>
+          <target state="translated">--若要创建 PSSession 与放置的输出缓冲模式时，使用 New-pssessionoption cmdlet 的 OutputBufferingMode 参数来创建会话选项值为 Drop。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Then, use the session option in the value of the SessionOption parameter of the New-PSSession or Invoke-Command cmdlets.</source>
+          <target state="translated">然后，使用 New-pssession 或 Invoke-command cmdlet 的 SessionOption 参数的值中的会话选项。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The values set when creating the session take precedence over the values set in the $PSSessionOption preference variable and the session configuration.</source>
+          <target state="translated">在创建会话时设置的值优先于在 $PSSessionOption 首选项变量和会话配置中设置的值。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSSessionOption -OutputBufferingMode Drop PS C:&gt; New-PSSession -SessionOption $o</source>
+          <target state="translated">PS $o c: &gt; = 新 PSSessionOption-OutputBufferingMode 放 PS c: &gt; New-pssession 的 SessionOption $o</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>-- To change a the output buffering mode of a PSSession when disconnecting, use the OutputBufferingMode parameter of the Disconnect-PSSession cmdlet.</source>
+          <target state="translated">--若要更改 PSSession 断开连接时的输出缓冲模式使用 Disconnect-pssession cmdlet 的 OutputBufferingMode 参数。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Disconnect-PSSession -OutputBufferingMode Drop</source>
+          <target state="translated">PS c: &gt; 断开 PSSession 的 OutputBufferingMode 拖放</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>-- To change a the output buffering mode of a PSSession when reconnecting, use the OutputBufferingMode parameter of the New-PSSessionOption cmdlet to create a session option with a value of Drop.</source>
+          <target state="translated">--若要更改时重新连接后，PSSession 的输出缓冲模式使用 New-pssessionoption cmdlet 的 OutputBufferingMode 参数来创建会话选项值为拖放。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Then, use the session option in the value of the SessionOption parameter of Connect-PSSession or Receive-PSSession.</source>
+          <target state="translated">然后，使用会话选项的 Connect-pssession 或 Receive-pssession 的 SessionOption 参数的值。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSSessionOption -OutputBufferingMode Drop PS C:&gt; Connect-PSSession -Cn Server01 -Name Test -SessionOption $o</source>
+          <target state="translated">PS $o c: &gt; = 新 PSSessionOption-OutputBufferingMode 放 PS c: &gt; 连接 PSSession-Cn Server01-命名测试 SessionOption $o</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>-- To create a session configuration with a default output buffering mode of Drop, use the OutputBufferingMode parameter of the New-PSTransportOption cmdlet to create a transport option object with a value of Drop.</source>
+          <target state="translated">--若要使用的放置默认输出缓冲模式创建会话配置，使用 New-pstransportoption cmdlet 的 OutputBufferingMode 参数值为拖放创建传输选项对象。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Then, use the transport option in the value of the TransportOption parameter of Register-PSSessionConfiguration.</source>
+          <target state="translated">然后，使用 Register-pssessionconfiguration TransportOption 参数的值中的传输选项。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSTransportOption -OutputBufferingMode Drop PS C:&gt; Register-PSSessionConfiguration -Name Test -TransportOption $o</source>
+          <target state="translated">PS $o c: &gt; = 新 PSTransportOption-OutputBufferingMode 放 PS c: &gt; Register-pssessionconfiguration-命名测试 TransportOption $o</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>-- To change the default output buffering mode of a session configuration, use the OutputBufferingMode parameter of the New-PSTransportOption cmdlet to create a transport option with a value of Drop.</source>
+          <target state="translated">--若要更改会话配置的默认输出缓冲模式，请使用 New-pstransportoption cmdlet 的 OutputBufferingMode 参数来创建带有放置的值的传输选项。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Then, use the Transport option in the value of the SessionOption parameter of Set-PSSessionConfiguration.</source>
+          <target state="translated">然后，使用 Set-pssessionconfiguration 的 SessionOption 参数的值中的传输选项。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $o = New-PSTransportOption -OutputBufferingMode Drop PS C:&gt; Set-PSSessionConfiguration -Name Test -TransportOption $o</source>
+          <target state="translated">PS $o c: &gt; = 新 PSTransportOption-OutputBufferingMode 放 PS c: &gt; Set-pssessionconfiguration-Name 测试 TransportOption $o</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>DISCONNECTING LOOPBACK SESSIONS</source>
+          <target state="translated">正在断开连接的环回会话</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>"Loopback sessions" or "local sessions" are PSSessions that originate and terminate on the same computer.</source>
+          <target state="translated">"环回会话"本地会话"是的 Pssession 的连接将源自于并在同一台计算机上终止。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Like other PSSessions, active loopback sessions are maintained on the computer on the remote end of the connection (the local computer), so you can disconnect from and reconnect to loopback sessions.</source>
+          <target state="translated">像其他 Pssession，活动的环回会话会被保留下来的计算机上远程端的连接 （本地计算机），因此可以断开和重新连接到环回会话。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>By default, loopback sessions are created with a network security token that does not permit commands run in the session to access other computers.</source>
+          <target state="translated">默认情况下，将不允许在会话中运行的命令来访问其他计算机的网络安全令牌创建环回会话。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>You can reconnect to loopback sessions that have a network security token from any session on the local computer or a remote computer.</source>
+          <target state="translated">您可以重新连接到具有已从本地计算机或远程计算机上的任何会话的网络安全令牌的环回会话中。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>However, if you use the EnableNetworkAccess parameter of the New-PSSession, Enter-PSSession, or Invoke-Command cmdlet, the loopback session is created with an interactive security token.</source>
+          <target state="translated">但是，如果您使用 New-pssession EnableNetworkAccess 参数，Enter-pssession 或 Invoke-command cmdlet，环回会话将创建具有交互式安全令牌。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The interactive token enables commands that run in the loopback session to get data from other computers.</source>
+          <target state="translated">通过交互式令牌可以启用在要从其他计算机中获取数据的环回会话中运行的命令。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>You can disconnect loopback sessions with interactive tokens and then reconnect to them from the same session or a different session on the same computer.</source>
+          <target state="translated">可以与具有交互式令牌的环回会话断开连接，然后重新连接到它们从同一会话或同一台计算机上的不同会话。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>However, to prevent malicious access, you can reconnect to loopback sessions with interactive tokens only from the computer on which they were created.</source>
+          <target state="translated">但是，为了防止恶意访问，您可以重新连接到具有交互式令牌的环回会话只能通过在其创建它们的计算机。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>WAITING FOR JOBS IN DISCONNECTED SESSIONS</source>
+          <target state="translated">在断开连接的会话中正在等待作业</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The Wait-Job cmdlet waits until a job completes and then returns to the command prompt or the next command.</source>
+          <target state="translated">Wait-job cmdlet 等待，直到作业完成，然后返回到命令提示符下或在下一个命令。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>By default, Wait-Job returns if the session in which a job is running is disconnected.</source>
+          <target state="translated">默认情况下，Wait-job 返回在其中运行作业会话已断开连接。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>To direct the Wait-Job cmdlet to wait until the session is reconnected (in the Opened state), use the Force parameter.</source>
+          <target state="translated">若要指示 Wait-job cmdlet 来等待，直到该会话已重新连接 （处于打开状态），请使用 Force 参数。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>For more information, see Wait-Job.</source>
+          <target state="translated">有关详细信息，请参阅等待作业。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>ROBUST SESSIONS AND UNINTENTIONAL DISCONNECTION</source>
+          <target state="translated">可靠会话和无意断开连接</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Occasionally, a PSSession might be disconnected unintentionally due to a computer failure or network outage.</source>
+          <target state="translated">有时，PSSession 可能会因计算机故障或网络中断而无意中断开。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell attempts to recover the PSSession, but its success depends upon the severity and duration of the cause.</source>
+          <target state="translated">Windows PowerShell 将尝试恢复 PSSession，但其成功取决于的严重性和可能的原因的持续时间。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>The state of an unintentionally disconnected PSSession might be Broken or Closed, but it might also be Disconnected.</source>
+          <target state="translated">无意中已断开的 PSSession 的状态可能损坏或已关闭，但它可能还会断开连接。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>If the value of State is Disconnected, you can use the same techniques to manage the PSSession as you would if the session were disconnected intentionally.</source>
+          <target state="translated">如果断开连接状态的值时，可以使用相同的技术来管理 PSSession，就像如果有意断开连接会话。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>For example, you can use the Connect-PSSession cmdlet to reconnect to the session and the Receive-PSSession cmdlet to get results of commands that ran while the session was disconnected.</source>
+          <target state="translated">例如，您可以使用 Connect-pssession cmdlet 重新连接到该会话和 Receive-pssession cmdlet 来获取运行时该会话已断开连接的命令的结果。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>If you close (exit) the session in which a PSSession was created while commands are running in the PSSession, Windows PowerShell maintains the PSSession in the Disconnected state on the remote computer.</source>
+          <target state="translated">如果您关闭 （退出） 的会话的 PSSession 中运行命令时在其中创建 PSSession，Windows PowerShell 将保持的 PSSession 中的远程计算机上已断开状态。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>If you close (exit) the session in which a PSSession was created, but no commands are running in the PSSession, Windows PowerShell does not attempt to maintain the PSSession.</source>
+          <target state="translated">如果您关闭 （退出） 的会话的 PSSession 已创建，但在 PSSession 中运行任何命令，Windows PowerShell 不会尝试维护 PSSession。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>KEYWORDS</source>
+          <target state="translated">关键字</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>about_Disconnected_Sessions</source>
+          <target state="translated">about_Disconnected_Sessions</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">另请参阅</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>about_Jobs about_Remote about_Remote_Variables about_PSSessions about_Session_Configurations Disconnect-PSSession Connect-PSSession Get-PSSession Receive-PSSession Invoke-Command</source>
+          <target state="translated">about_Jobs about_Remote about_Remote_Variables about_PSSessions about_Session_Configurations Disconnect-pssession Connect-pssession Get-pssession Receive-pssession Invoke-command</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

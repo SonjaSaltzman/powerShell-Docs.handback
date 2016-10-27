@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">62447381827c5903113cb3ac394feb991eb7bb35</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\Import-Module.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">200a0b827cdc26b640e17d3f2b4183f3d3176e21</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb5720161626ca37bcdf20cc481cb89a62f60e07</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell-Cmdlets</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">ZUSAMMENFASSUNG</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Adds modules to the current session.</source>
+          <target state="translated">Fügt der aktuellen Sitzung Module hinzu.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAX</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Name (Default)</source>
+          <target state="translated">Name (Standard)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>PSSession</source>
+          <target state="translated">PSSession</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>CimSession</source>
+          <target state="translated">CimSession</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Assembly</source>
+          <target state="translated">Assembly</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>ModuleInfo</source>
+          <target state="translated">ModuleInfo</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> cmdlet adds one or more modules to the current session.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> -Cmdlet wird ein oder mehrere Module der aktuellen Sitzung hinzugefügt.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The modules that you import must be installed on the local computer or a remote computer.</source>
+          <target state="translated">Die Module, die Sie importieren, müssen auf dem lokalen Computer oder einem Remotecomputer installiert sein.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, installed modules are automatically imported to the session when you use any commands or providers in the module.</source>
+          <target state="translated">Ab Windows PowerShell 3.0 werden installierte Module automatisch in die Sitzung importiert, wenn Sie einen Befehl oder Anbieter im Modul verwenden.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>However, you can still use the <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> command to import a module and you can enable and disable automatic module importing by using the <bpt id="p2">**</bpt>$PSModuleAutoloadingPreference<ept id="p2">**</ept> preference variable.</source>
+          <target state="translated">Allerdings können Sie immer noch verwenden die <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> Befehl zum Importieren eines Moduls, und Sie können aktivieren und deaktivieren Sie die automatische Modul importieren mithilfe der <bpt id="p2">**</bpt>$PSModuleAutoloadingPreference<ept id="p2">**</ept> Preference-Variable.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information about modules, see about_Modules (http://go.microsoft.com/fwlink/?LinkID=144311).</source>
+          <target state="translated">Weitere Informationen zu Modulen finden Sie unter About_Modules (http://go.microsoft.com/fwlink/?LinkID=144311).</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>$PSModuleAutoloadingPreference<ept id="p1">**</ept> variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">Weitere Informationen zu den <bpt id="p1">**</bpt>$PSModuleAutoloadingPreference<ept id="p1">**</ept> Variablen finden Sie unter About_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A module is a package that contains members (such as cmdlets, providers, scripts, functions, variables, and other tools and files) that can be used in Windows PowerShell.</source>
+          <target state="translated">Ein Modul ist ein Paket mit Elementen (z. B. Cmdlets, Anbieter, Skripts, Funktionen, Variablen und andere Tools und Dateien), die in Windows PowerShell verwendet werden können.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>After a module is imported, you can use the module members in your session.</source>
+          <target state="translated">Nachdem ein Modul importiert wurde, können Sie die Modulelemente in der Sitzung verwenden.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To import a module, use the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Assembly<ept id="p2">**</ept>,  <bpt id="p3">**</bpt>ModuleInfo<ept id="p3">**</ept>, <bpt id="p4">**</bpt>MinimumVersion<ept id="p4">**</ept> and <bpt id="p5">**</bpt>RequiredVersion<ept id="p5">**</ept> parameters to identify the module to import.</source>
+          <target state="translated">Verwenden Sie zum Importieren eines Moduls den <bpt id="p1">**</bpt>Namen<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Assembly<ept id="p2">**</ept>,  <bpt id="p3">**</bpt>ModuleInfo<ept id="p3">**</ept>, <bpt id="p4">**</bpt>MinimumVersion<ept id="p4">**</ept> und <bpt id="p5">**</bpt>RequiredVersion<ept id="p5">**</ept> -Parameter zum Identifizieren des zu importierenden Moduls.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> imports all members that the module exports, but you can use the <bpt id="p2">**</bpt>Alias<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Function<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Cmdlet<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Variable<ept id="p5">**</ept> parameters to restrict the members that are imported.</source>
+          <target state="translated">Standardmäßig <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> importiert alle Member, die das Modul exportiert, aber Sie können die <bpt id="p2">**</bpt>Alias<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Funktion<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Cmdlet<ept id="p4">**</ept>, und <bpt id="p5">**</bpt>Variable<ept id="p5">**</ept> Parameter, um die Elemente einzuschränken, die importiert werden.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>NoClobber<ept id="p1">**</ept> parameter to prevent <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept> from importing members that have the same names as members in the current session.</source>
+          <target state="translated">Sie können auch die <bpt id="p1">**</bpt>NoClobber<ept id="p1">**</ept> Parameter, um zu verhindern, dass <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept> durch den Import von Elementen, die die gleichen Namen wie die Elemente in der aktuellen Sitzung haben.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> imports a module only into the current session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> importiert ein Modul nur in der aktuellen Sitzung.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To import the module into all sessions, add an <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> command to your Windows PowerShell profile.</source>
+          <target state="translated">Fügen Sie zum Importieren des Moduls in alle Sitzungen ein <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> -Befehl zu Ihrem Windows PowerShell-Profil.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For more information about profiles, see about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</source>
+          <target state="translated">Weitere Informationen zu Profilen finden Sie unter "about_profiles" (http://go.microsoft.com/fwlink/?LinkID=113729).</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Also, beginning in Windows PowerShell 3.0, you can use <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> to import Common Information Model (CIM) modules, in which the cmdlets are defined in Cmdlet Definition XML (CDXML) files.</source>
+          <target state="translated">Ab Windows PowerShell 3.0, Sie können auch <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> Common Information Model (CIM)-Module zu importieren, in denen die Cmdlets in Cmdlet Definition XML (CDXML)-Dateien definiert sind.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This feature allows you to use cmdlets that are implemented in non-managed code assemblies, such as those written in C++.</source>
+          <target state="translated">Diese Funktion ermöglicht es Ihnen, Cmdlets zu verwenden, die in Assemblys mit nicht verwaltetem Code implementiert werden, z. B. in mit C++ geschriebenen Assemblys.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>With these new features, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> cmdlet becomes a primary tool for managing heterogeneous enterprises that include Windows computers and computers that are running other operating systems.</source>
+          <target state="translated">Mit diesen neuen Features <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> Cmdlet wird zu einem primären Tool für die Verwaltung von heterogenen Unternehmen, Windows-Computer und Computer, auf denen andere Betriebssysteme ausgeführt werden.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To manage remote Windows computers that have Windows PowerShell and Windows PowerShell remoting enabled, create a PSSession on the remote computer and then use the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get-Module<ept id="p2">**</ept> to get the Windows PowerShell modules in the PSSession.</source>
+          <target state="translated">Um Windows-Computer remote verwalten, die Windows PowerShell und Windows PowerShell-Remoting aktiviert haben, erstellen Sie eine PSSession auf dem Remotecomputer, und verwenden Sie dann die <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> Parameter <bpt id="p2">**</bpt>Get-Module<ept id="p2">**</ept> zum Abrufen von Windows PowerShell-Module in der PSSession.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When you import the modules, and then use the imported commands in the current session, the commands run implicitly in the PSSession on the remote computer.</source>
+          <target state="translated">Wenn Sie die Module importieren und dann die importierten Befehle in der aktuellen Sitzung verwenden, führen Sie die Befehle implizit in der PSSession auf dem Remotecomputer aus.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can use this strategy to manage the remote computer.</source>
+          <target state="translated">Mit dieser Strategie können Sie den Remotecomputer verwalten.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can use a similar strategy to manage computers that do not have Windows PowerShell remoting enabled, including computers that are not running a Windows operating system, and Windows computers that have Windows PowerShell, but do not have Windows PowerShell remoting enabled.</source>
+          <target state="translated">Sie können eine ähnliche Strategie verwenden, um Computer zu verwalten, auf denen Windows PowerShell-Remoting nicht aktiviert ist, darunter Computer, auf denen ein Windows-Betriebssystem ausgeführt wird, und Windows-Computer mit Windows PowerShell, auf denen Windows PowerShell-Remoting nicht aktiviert ist.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Begin by creating a "CIM session" on the remote computer; a connection to Windows Management Instrumentation (WMI) on the remote computer.</source>
+          <target state="translated">Zunächst erstellen Sie eine "CIM Session" auf dem Remotecomputer; eine Verbindung zum Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI) auf dem Remotecomputer.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Then use the <bpt id="p1">**</bpt>CIMSession<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept> to import CIM modules from the remote computer.</source>
+          <target state="translated">Verwenden Sie dann die <bpt id="p1">**</bpt>CIMSession<ept id="p1">**</ept> Parameter <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept> CIM-Module vom Remotecomputer zu importieren.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When you import a CIM module and then run the imported commands, the commands run implicitly on the remote computer.</source>
+          <target state="translated">Wenn Sie ein CIM-Modul importieren und dann die importierten Befehle ausführen, werden die Befehle implizit auf dem Remotecomputer ausgeführt.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can use this WMI and CIM strategy to manage the remote computer.</source>
+          <target state="translated">Mit dieser WMI- und CIM-Strategie können Sie den Remotecomputer verwalten.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">BEISPIELE</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- BEISPIEL 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This command imports the members of the <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> module into the current session.</source>
+          <target state="translated">Dieser Befehl importiert die Mitglieder der <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> Modul in die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter name (-Name) is optional and can be omitted.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Namen<ept id="p1">**</ept> Parametername (-Name) ist optional und kann ausgelassen werden.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> does not generate any output when it imports a module.</source>
+          <target state="translated">In der Standardeinstellung <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> generiert keine Ausgabe, wenn es sich um ein Modul importiert.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To request output, use the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> or <bpt id="p2">**</bpt>AsCustomObject<ept id="p2">**</ept> parameter, or the <bpt id="p3">**</bpt>Verbose<ept id="p3">**</ept> common parameter.</source>
+          <target state="translated">Verwenden Sie zum Anfordern der Ausgabe der <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>AsCustomObject<ept id="p2">**</ept> -Parameter, oder die <bpt id="p3">**</bpt>ausführlich<ept id="p3">**</ept> allgemeinen Parameter.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This command imports all available modules in the path specified by the PSModulePath environment variable ($env:PSModulePath) into the current session.</source>
+          <target state="translated">Dieser Befehl importiert alle verfügbaren Module in dem durch die PSModulePath-Umgebungsvariable angegebenen Pfad ($env:PSModulePath) in die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>These commands import the members of the <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ServerManager<ept id="p2">**</ept> modules into the current session.</source>
+          <target state="translated">Diese Befehle importieren, die Mitglieder der <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> und <bpt id="p2">**</bpt>ServerManager<ept id="p2">**</ept> Module in der aktuellen Sitzung.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-Module-Module cmdlet to get the <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ServerManager<ept id="p2">**</ept> modules.</source>
+          <target state="translated">Der erste Befehl verwendet das Cmdlet "Get-Modul" zum Abrufen der <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> und <bpt id="p2">**</bpt>ServerManager<ept id="p2">**</ept> Module.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It saves the objects in the $m variable.</source>
+          <target state="translated">Die Objekte werden in der Variablen „$m“ gespeichert.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ListAvailable<ept id="p1">**</ept> parameter is required when you are getting modules that are not yet imported into the session.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>ListAvailable<ept id="p1">**</ept> Parameter ist erforderlich, wenn Sie Module abrufen, die noch nicht in die Sitzung importiert werden.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>ModuleInfo<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept> to import the modules into the current session.</source>
+          <target state="translated">Der zweite Befehl verwendet die <bpt id="p1">**</bpt>ModuleInfo<ept id="p1">**</ept> Parameter <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept> um die Module in die aktuelle Sitzung zu importieren.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>These commands are equivalent to using a pipeline operator (|) to send the output of a <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> command to <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept>.</source>
+          <target state="translated">Diese Befehle sind gleichwertig mit einem Pipelineoperator (|), senden die Ausgabe des einen <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> Befehl <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This command uses an explicit path to identify the module to import.</source>
+          <target state="translated">Dieser Befehl verwendet einen expliziten Pfad zum Identifizieren des zu importierenden Moduls.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>It also uses the <bpt id="p1">**</bpt>Verbose<ept id="p1">**</ept> common parameter to get a list of the items imported from the module.</source>
+          <target state="translated">Darüber hinaus verwendet das <bpt id="p1">**</bpt>ausführlich<ept id="p1">**</ept> allgemeinen Parameter, um eine Liste der aus dem Modul importierten Elemente abzurufen.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Without the <bpt id="p1">**</bpt>Verbose<ept id="p1">**</ept>, <bpt id="p2">**</bpt>PassThru<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>AsCustomObject<ept id="p3">**</ept> parameter, <bpt id="p4">**</bpt>Import-Module<ept id="p4">**</ept> does not generate any output when it imports a module.</source>
+          <target state="translated">Ohne die <bpt id="p1">**</bpt>ausführlich<ept id="p1">**</ept>, <bpt id="p2">**</bpt>PassThru<ept id="p2">**</ept>, oder <bpt id="p3">**</bpt>AsCustomObject<ept id="p3">**</ept> Parameter <bpt id="p4">**</bpt>Import-Module<ept id="p4">**</ept> generiert keine Ausgabe, wenn es sich um ein Modul importiert.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This example shows how to restrict the module members that are imported into the session and the effect of this command on the session.</source>
+          <target state="translated">In diesem Beispiel wird veranschaulicht, wie Sie die Modulelemente beschränken können, die in die Sitzung importiert wurden, sowie die Auswirkungen dieses Befehls für die Sitzung.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The first command imports only the <bpt id="p1">**</bpt>Add-BitsTransfer<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Get-BitsTransfer<ept id="p2">**</ept> cmdlets from the <bpt id="p3">**</bpt>BitsTransfer<ept id="p3">**</ept> module.</source>
+          <target state="translated">Der erste Befehl importiert nur die <bpt id="p1">**</bpt>Add-BitsTransfer<ept id="p1">**</ept> und <bpt id="p2">**</bpt>Get-BitsTransfer<ept id="p2">**</ept> Cmdlets aus den <bpt id="p3">**</bpt>BitsTransfer<ept id="p3">**</ept> Modul.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Cmdlet<ept id="p1">**</ept> parameter to restrict the cmdlets that the module imports.</source>
+          <target state="translated">Der Befehl verwendet den <bpt id="p1">**</bpt>Cmdlet<ept id="p1">**</ept> Parameter, um die Cmdlets einzuschränken, die das Modul importiert.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>Alias<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Variable<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Function<ept id="p3">**</ept> parameters to restrict other members that a module imports.</source>
+          <target state="translated">Sie können auch die <bpt id="p1">**</bpt>Alias<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Variable<ept id="p2">**</ept>, und <bpt id="p3">**</bpt>Funktion<ept id="p3">**</ept> Parameter für andere Elemente zu beschränken, die ein Modul importiert.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-Module cmdlet to get the object that represents the <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> module.</source>
+          <target state="translated">Der zweite Befehl verwendet das Cmdlet "Get-Module", um das Objekt abzurufen, das darstellt der <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> Modul.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ExportedCmdlets<ept id="p1">**</ept> property lists all of the cmdlets that the module exports, even when they were not all imported.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>ExportedCmdlets<ept id="p1">**</ept> -Eigenschaft listet alle Cmdlets, die das Modul exportiert, selbst wenn sie nicht alle importiert wurden.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> parameter of the Get-Command cmdlet to get the commands that were imported from the <bpt id="p2">**</bpt>BitsTransfer<ept id="p2">**</ept> module.</source>
+          <target state="translated">Der dritte Befehl verwendet die <bpt id="p1">**</bpt>Modul<ept id="p1">**</ept> Parameter von Get-Command-Cmdlet zum Abrufen der Befehle, die importiert wurden die <bpt id="p2">**</bpt>BitsTransfer<ept id="p2">**</ept> Modul.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The results confirm that only the <bpt id="p1">**</bpt>Add-BitsTransfer<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Get-BitsTransfer<ept id="p2">**</ept> cmdlets were imported.</source>
+          <target state="translated">Das Ergebnis zu bestätigen, dass nur die <bpt id="p1">**</bpt>Add-BitsTransfer<ept id="p1">**</ept> und <bpt id="p2">**</bpt>Get-BitsTransfer<ept id="p2">**</ept> Cmdlets importiert wurden.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>These commands import the <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> module into the current session, add a prefix to the member names, and then display the prefixed member names.</source>
+          <target state="translated">Diese Befehle importieren die <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> Modul in die aktuelle Sitzung den Elementnamen ein Präfix hinzu, und dann die Elementnamen mit Präfix angezeigt.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> cmdlet to import the <bpt id="p2">**</bpt>BitsTransfer<ept id="p2">**</ept> module.</source>
+          <target state="translated">Der erste Befehl verwendet die <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> -Cmdlet zum Importieren der <bpt id="p2">**</bpt>BitsTransfer<ept id="p2">**</ept> Modul.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Prefix<ept id="p1">**</ept> parameter to add the PS prefix to all members that are imported from the module and the <bpt id="p2">**</bpt>PassThru<ept id="p2">**</ept> parameter to return a module object that represents the imported module.</source>
+          <target state="translated">Er verwendet die <bpt id="p1">**</bpt>Präfix<ept id="p1">**</ept> Parameter, um das PS-Präfix für alle Mitglieder hinzufügen, die aus dem Modul importiert werden und die <bpt id="p2">**</bpt>PassThru<ept id="p2">**</ept> Parameter um ein Modulobjekt zurückzugeben, das das importierte Modul darstellt.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet to get the members that have been imported from the module.</source>
+          <target state="translated">Der zweite Befehl verwendet die <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> -Cmdlet zum Abrufen der Member, die aus dem Modul importiert wurden.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> parameter to specify the module.</source>
+          <target state="translated">Er verwendet die <bpt id="p1">**</bpt>Modul<ept id="p1">**</ept> Parameter gibt das Modul an.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The output shows that the module members were correctly prefixed.</source>
+          <target state="translated">Die Ausgabe zeigt, dass die Modulelemente ordnungsgemäß mit dem Präfix versehen wurden.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The prefix that you use applies only to the members in the current session.</source>
+          <target state="translated">Das verwendete Präfix gilt nur für die Elemente in der aktuellen Sitzung.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>It does not change the module.</source>
+          <target state="translated">Es ändert nicht das Modul.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>These commands demonstrate how to get and use the custom object that <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> returns.</source>
+          <target state="translated">Diese Befehle veranschaulichen das Abrufen und Verwenden des benutzerdefinierten Objekts, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> zurückgibt.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Custom objects include synthetic members that represent each of the imported module members.</source>
+          <target state="translated">Benutzerdefinierte Objekte beinhalten synthetische Elemente, die jedes der importierten Modulelemente darstellen.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For example, the cmdlets and functions in a module are converted to script methods of the custom object.</source>
+          <target state="translated">Beispielsweise werden die Cmdlets und Funktionen in einem Modul in Skriptmethoden des benutzerdefinierten Objekts konvertiert.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Custom objects are very useful in scripting.</source>
+          <target state="translated">Benutzerdefinierte Objekte sind sehr nützlich bei der Skripterstellung.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>They are also useful when several imported objects have the same names.</source>
+          <target state="translated">Sie sind außerdem nützlich, wenn mehrere importierte Objekte die gleichen Namen haben.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Using the script method of an object is equivalent to specifying the fully qualified name of an imported member, including its module name.</source>
+          <target state="translated">Die Skriptmethode eines Objekts entspricht der Angabe des vollqualifizierten Namens eines importierten Elements, darunter der Modulname.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>AsCustomObject<ept id="p1">**</ept> parameter can be used only when importing a script module, so the first task is to determine which of the available modules is a script module.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>AsCustomObject<ept id="p1">**</ept> -Parameter kann verwendet werden, nur, wenn ein Skriptmodul importieren, damit die erste Aufgabe besteht darin zu bestimmen, welche der verfügbaren Module ein Skriptmodul ist.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-Module cmdlet to get the available modules.</source>
+          <target state="translated">Der erste Befehl verwendet das Get-Module-Cmdlet zum Abrufen der verfügbaren Module.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The command uses a pipeline operator (|) to pass the module objects to the Format-Tablee cmdlet, which lists the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModuleType<ept id="p2">**</ept> of each module in a table.</source>
+          <target state="translated">Der Befehl verwendet einen Pipelineoperator (|) um die Modulobjekte an das Format-Tablee-Cmdlet, das Listet die <bpt id="p1">**</bpt>Namen<ept id="p1">**</ept> und <bpt id="p2">**</bpt>ModuleType<ept id="p2">**</ept> der einzelnen Module in einer Tabelle.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> cmdlet to import the <bpt id="p2">**</bpt>PSDiagnostics<ept id="p2">**</ept> script module.</source>
+          <target state="translated">Der zweite Befehl verwendet die <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> -Cmdlet zum Importieren der <bpt id="p2">**</bpt>PSDiagnostics<ept id="p2">**</ept> Skriptmodul.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>AsCustomObject<ept id="p1">**</ept> parameter to request a custom object and the <bpt id="p2">**</bpt>PassThru<ept id="p2">**</ept> parameter to return the  object.</source>
+          <target state="translated">Der Befehl verwendet den <bpt id="p1">**</bpt>AsCustomObject<ept id="p1">**</ept> Parameter, um ein benutzerdefiniertes Objekt anzufordern und die <bpt id="p2">**</bpt>PassThru<ept id="p2">**</ept> Parameter, um das Objekt zurückzugeben.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The command saves the resulting custom object in the $a variable.</source>
+          <target state="translated">Mit dem Befehl wird das resultierende benutzerdefinierte Objekt in der Variablen „$a“ gespeichert.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The third command uses a pipeline operator to send the $a variable to the Get-Member cmdlet, which gets the properties and methods of the PSCustomObject in $a.</source>
+          <target state="translated">Der dritte Befehl verwendet einen Pipelineoperator der $a-Variablen an das Get-Member-Cmdlet zu senden, die die Eigenschaften und Methoden des PSCustomObject in $a abruft ein.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The output shows a <bpt id="p1">**</bpt>Show-Calendar<ept id="p1">**</ept> script method.</source>
+          <target state="translated">Die Ausgabe zeigt ein <bpt id="p1">**</bpt>Show-Calendar<ept id="p1">**</ept> Skriptmethode.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The last command uses the <bpt id="p1">**</bpt>Show-Calendar<ept id="p1">**</ept> script method.</source>
+          <target state="translated">Der letzte Befehl verwendet die <bpt id="p1">**</bpt>Show-Calendar<ept id="p1">**</ept> Skriptmethode.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The method name must be enclosed in quotation marks, because it includes a hyphen.</source>
+          <target state="translated">Der Methodenname muss in Anführungszeichen eingeschlossen werden, da er einen Bindestrich enthält.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 8 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 8 --------------------------</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept> when you are re-importing a module into the same session.</source>
+          <target state="translated">Dieses Beispiel zeigt, wie Sie die <bpt id="p1">**</bpt>Kraft<ept id="p1">**</ept> Parameter <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept> werden Wenn ein Modul in der gleichen Sitzung erneut importieren.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The first command imports the <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> module.</source>
+          <target state="translated">Der erste Befehl importiert die <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> Modul.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The second command imports the module again, this time using the <bpt id="p1">**</bpt>Prefix<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Der zweite Befehl importiert das Modul erneut, dieses Mal mit der <bpt id="p1">**</bpt>Präfix<ept id="p1">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The second command also includes the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter, which removes the module and then imports it again.</source>
+          <target state="translated">Der zweite Befehl enthält auch die <bpt id="p1">**</bpt>Kraft<ept id="p1">**</ept> Parameter, der das Modul entfernt und anschließend erneut importiert.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Without this parameter, the session would include two copies of each <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> cmdlet, one with the standard name and one with the prefixed name.</source>
+          <target state="translated">Ohne diesen Parameter enthält die Sitzung zwei Kopien jedes <bpt id="p1">**</bpt>BitsTransfer<ept id="p1">**</ept> -Cmdlet, eine mit dem Standardnamen und eine mit dem Namen mit Präfix.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 9 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 9 --------------------------</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This example shows how to run commands that have been hidden by imported commands.</source>
+          <target state="translated">In diesem Beispiel wird veranschaulicht, wie Befehle ausgeführt werden, die von importierten Befehlen ausgeblendet wurden.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The first command run the Get-Date cmdlet.</source>
+          <target state="translated">Der erste Befehl führen Sie das Cmdlet "Get-Date".</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>It returns a <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> object with the current date.</source>
+          <target state="translated">Es gibt eine <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> Objekt mit dem aktuellen Datum.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The second command imports the <bpt id="p1">**</bpt>TestModule<ept id="p1">**</ept> module.</source>
+          <target state="translated">Der zweite Befehl importiert die <bpt id="p1">**</bpt>TestModule<ept id="p1">**</ept> Modul.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This module includes a function named <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> that returns the year and day of the year.</source>
+          <target state="translated">Dieses Modul enthält eine Funktion namens <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> Jahr und Tag des Jahres zurückgibt.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The third command runs the <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> command again.</source>
+          <target state="translated">Der dritte Befehl führt die <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> erneut aus.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Because functions take precedence over cmdlets, the <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> function from the <bpt id="p2">**</bpt>TestModule<ept id="p2">**</ept> module runs, instead of the <bpt id="p3">**</bpt>Get-Date<ept id="p3">**</ept> cmdlet.</source>
+          <target state="translated">Da Funktionen Vorrang vor Cmdlets haben die <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> -Funktion aus der <bpt id="p2">**</bpt>TestModule<ept id="p2">**</ept> Modul ausgeführt wird, statt die <bpt id="p3">**</bpt>Get-Date<ept id="p3">**</ept> Cmdlet.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> to get all of the Get-Date commands in the session.</source>
+          <target state="translated">Der vierte Befehl verwendet die <bpt id="p1">**</bpt>alle<ept id="p1">**</ept> Parameter von der <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> zum Abrufen aller die Get-Date-Befehle in der Sitzung.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The results show that there are two <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> commands in the session, a function from the <bpt id="p2">**</bpt>TestModule<ept id="p2">**</ept> module and a cmdlet from the <bpt id="p3">**</bpt>Microsoft.PowerShell.Utility<ept id="p3">**</ept> module.</source>
+          <target state="translated">Die Ergebnisse zeigen, dass es zwei <bpt id="p1">**</bpt>Get-Date<ept id="p1">**</ept> Befehle in der Sitzung, eine Funktion aus der <bpt id="p2">**</bpt>TestModule<ept id="p2">**</ept> Modul und ein Cmdlet aus der <bpt id="p3">**</bpt>Microsoft.PowerShell.Utility<ept id="p3">**</ept> Modul.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The fifth command runs the hidden cmdlet by qualifying the command name with the module name.</source>
+          <target state="translated">Der fünfte Befehl führt das ausgeblendete Cmdlet durch Qualifizierung des Befehlsnamen mit dem Modulnamen aus.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For more information about command precedence in Windows PowerShell, see about_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214).</source>
+          <target state="translated">Weitere Informationen zur befehlsrangfolge in Windows PowerShell finden Sie unter About_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214).</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 10 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 10 --------------------------</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This command imports the PSWorkflow module.</source>
+          <target state="translated">Dieser Befehl importiert das PSWorkflow-Modul.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>MinimumVersion<ept id="p1">**</ept> (alias=Version) parameter of <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept> to import only version 3.0.0.0 or greater of the module.</source>
+          <target state="translated">Er verwendet die <bpt id="p1">**</bpt>MinimumVersion<ept id="p1">**</ept> (alias = Version)-Parameter von <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept> nur Version 3.0.0.0 importieren oder höher des Moduls.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>RequiredVersion<ept id="p1">**</ept> parameter to import a particular version of a module, or use the <bpt id="p2">**</bpt>Module<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Version<ept id="p3">**</ept> parameters of the <bpt id="p4">**</bpt>#Requires<ept id="p4">**</ept> keyword to require a particular version of a module in a script.</source>
+          <target state="translated">Können Sie auch die <bpt id="p1">**</bpt>RequiredVersion<ept id="p1">**</ept> Parameter, um eine bestimmte Version eines Moduls zu importieren, oder verwenden Sie die <bpt id="p2">**</bpt>Modul<ept id="p2">**</ept> und <bpt id="p3">**</bpt>Version<ept id="p3">**</ept> Parameter der <bpt id="p4">**</bpt>#Requires<ept id="p4">**</ept> Schlüsselwort, um eine bestimmte Version eines Moduls in einem Skript erforderlich.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 10 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 10 --------------------------</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> cmdlet to import a module from a remote computer.</source>
+          <target state="translated">Dieses Beispiel zeigt, wie Sie die <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> -Cmdlet zum Importieren eines Moduls von einem Remotecomputer aus.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>This command uses the Implicit Remoting feature of Windows PowerShell.</source>
+          <target state="translated">Dieser Befehl verwendet die Funktion des impliziten Remotings von Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When you import modules from another session, you can use the cmdlets in the current session.</source>
+          <target state="translated">Wenn Sie Module aus einer anderen Sitzung importieren, können Sie die Cmdlets in der aktuellen Sitzung verwenden.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>However, commands that use the cmdlets actually run in the remote session.</source>
+          <target state="translated">Befehle, die die Cmdlets verwenden, werden jedoch tatsächlich in der Remotesitzung ausgeführt.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 11 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 11 --------------------------</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The commands in this example enable you to manage the storage systems of a remote computer that is not running a Windows operating system.</source>
+          <target state="translated">Die Befehle in diesem Beispiel ermöglichen es Ihnen, die Speichersysteme von einem Remotecomputer zu verwalten, auf dem kein Windows-Betriebssystem ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>In this example, because the administrator of the computer has installed the Module Discovery WMI provider, the CIM commands can use the default values, which are designed for the provider.</source>
+          <target state="translated">Da der Administrator des Computers in diesem Beispiel den WMI-Anbieter für die Modulerkennung installiert hat, können die CIM-Befehle die Standardwerte verwenden, für den Anbieter konzipiert wurden.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETER</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-Alias</source>
+          <target state="translated">-Alias</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Imports only the specified aliases from the module into the current session.</source>
+          <target state="translated">Importiert nur die angegebenen Aliase aus dem Modul in die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Enter a comma-separated list of aliases.</source>
+          <target state="translated">Geben Sie eine durch Kommas getrennte Liste der Aliase ein.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">Platzhalterzeichen sind zulässig.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Some modules automatically export selected aliases into your session when you import the module.</source>
+          <target state="translated">Einige Module exportieren automatisch ausgewählte Aliase in Ihre Sitzung, wenn Sie das Modul importieren.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This parameter lets you select from among the exported aliases.</source>
+          <target state="translated">Mit diesem Parameter können Sie eine Auswahl aus den exportierten Aliasen treffen.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Specifies arguments (parameter values) that are passed to a script module during the Import-Module command.</source>
+          <target state="translated">Gibt die Argumente (Parameterwerte) an, die während des Import-Module-Befehls an ein Skriptmodul übergeben werden.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when you are importing a script module.</source>
+          <target state="translated">Dieser Parameter gilt nur, wenn Sie ein Skriptmodul importieren.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>You can also refer to ArgumentList by its alias, "args".</source>
+          <target state="translated">Sie können auch mithilfe des Alias „Args“ auf ArgumentList verweisen.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">Weitere Informationen finden Sie unter %%amp;quot;about_Aliases%%amp;quot;.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>-AsCustomObject</source>
+          <target state="translated">-AsCustomObject</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Returns a custom object with members that represent the imported module members.</source>
+          <target state="translated">Gibt ein benutzerdefiniertes Objekt mit Elementen zurück, die die importierten Modulelemente darstellen.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only for script modules.</source>
+          <target state="translated">Dieser Parameter gilt nur für Skriptmodule.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>When you use the AsCustomObject parameter, Import-Module imports the module members into the session and then returns a PSCustomObject object instead of a PSModuleInfo object.</source>
+          <target state="translated">Wenn Sie den AsCustomObject-Parameter verwenden, importiert Import-Module die Modulelemente in die Sitzung und gibt dann ein PSCustomObject-Objekt anstelle eines PSModuleInfo-Objekts zurück.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>You can save the custom object in a variable and use dot notation to invoke the members.</source>
+          <target state="translated">Sie können das benutzerdefinierte Objekt in einer Variablen speichern und die punktierte Schreibweise verwenden, um die Elemente aufzurufen.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>-Assembly</source>
+          <target state="translated">-Assembly</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Imports the cmdlets and providers implemented in the specified assembly objects.</source>
+          <target state="translated">Importiert die Cmdlets und Anbieter, die in die angegebenen Assemblyobjekte implementiert wurden.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains assembly objects or a command that creates assembly objects.</source>
+          <target state="translated">Geben Sie eine Variable ein, die Assemblyobjekte enthält, oder geben Sie einen Befehl ein, mit dem die Assemblyobjekte erstellt werden.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>You can also pipe an assembly object to Import-Module.</source>
+          <target state="translated">Sie können auch ein Assemblyobjekt über die Pipeline an Import-Module übergeben.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>When you use this parameter, only the cmdlets and providers implemented by the specified assemblies are imported.</source>
+          <target state="translated">Wenn Sie diesen Parameter verwenden, werden nur die Cmdlets und Anbieter importiert, die durch die angegebenen Assemblys implementiert wurden.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>If the module contains other files, they are not imported, and you might be missing important members of the module.</source>
+          <target state="translated">Wenn das Modul andere Dateien enthält, werden sie nicht importiert; möglicherweise fehlen wichtige Elemente des Moduls.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Use this parameter for debugging and testing the module, or when you are instructed to use it by the module author.</source>
+          <target state="translated">Verwenden Sie diesen Parameter für das Debuggen und Testen des Moduls, oder wenn Sie dazu vom Modulautor aufgefordert werden.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>-CimNamespace</source>
+          <target state="translated">-CimNamespace</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Specifies the namespace of an alternate CIM provider that exposes CIM modules.</source>
+          <target state="translated">Gibt den Namespace eines alternativen CIM-Anbieters an, der CIM-Module verfügbar macht.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The default value is the namespace of the Module Discovery WMI provider.</source>
+          <target state="translated">Der Standardwert ist der Namespace des WMI-Anbieters für die Modulerkennung.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Use this parameter to import CIM modules from computers and devices that are not running a Windows operating system.</source>
+          <target state="translated">Verwenden Sie diesen Parameter zum Importieren von CIM-Modulen von Computern und Geräten, auf denen kein Windows-Betriebssystem ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>-CimResourceUri</source>
+          <target state="translated">-CimResourceUri</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Specifies an alternate location for CIM modules.</source>
+          <target state="translated">Gibt einen alternativen Speicherort für die CIM-Module an.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The default value is the  resource URI of the Module Discovery WMI provider on the remote computer.</source>
+          <target state="translated">Der Standardwert ist der Ressourcen-URI des WMI-Anbieters für die Modulerkennung auf dem Remotecomputer.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Use this parameter to import CIM modules from computers and devices that are not running a Windows operating system.</source>
+          <target state="translated">Verwenden Sie diesen Parameter zum Importieren von CIM-Modulen von Computern und Geräten, auf denen kein Windows-Betriebssystem ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>-CimSession</source>
+          <target state="translated">-CimSession</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Specifies a CIM session on the remote computer.</source>
+          <target state="translated">Gibt eine CIM-Sitzung auf dem Remotecomputer an.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the CIM session or a command that gets the CIM session, such as a Get-CIMSessionhttp://go.microsoft.com/fwlink/?LinkId=227966 command.</source>
+          <target state="translated">Geben Sie eine Variable, die CIM-Sitzung oder einen Befehl, der CIM-Sitzung, z. B. einen Befehl Get-CIMSessionhttp://go.microsoft.com/fwlink/?LinkId=227966 abruft.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> uses the CIM session connection to import modules from the remote computer into the current session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> verwendet die CIM-sitzungsverbindung um Module vom Remotecomputer in die aktuelle Sitzung zu importieren.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>When you use the commands from the imported module in the current session, the commands actually run on the remote computer.</source>
+          <target state="translated">Wenn Sie die Befehle aus dem importierten Modul in der aktuellen Sitzung verwenden, werden die Befehle tatsächlich auf dem Remotecomputer ausgeführt.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to import modules from computers and devices that are not running a Windows operating system, and Windows computers that have Windows PowerShell, but do not have Windows PowerShell remoting enabled.</source>
+          <target state="translated">Sie können diesen Parameter verwenden, um Module von Computern und Geräten zu importieren, auf denen kein Windows-Betriebssystem ausgeführt wird, sowie von Windows-Computern mit Windows PowerShell, auf denen Windows PowerShell-Remoting nicht aktiviert werden.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>-Cmdlet</source>
+          <target state="translated">-Cmdlet</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Imports only the specified cmdlets from the module into the current session.</source>
+          <target state="translated">Importiert nur die angegebenen Cmdlets aus dem Modul in die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Enter a list of cmdlets.</source>
+          <target state="translated">Geben Sie eine Liste der Cmdlets ein.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">Platzhalterzeichen sind zulässig.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Some modules automatically export selected cmdlets into your session when you import the module.</source>
+          <target state="translated">Einige Module exportieren automatisch ausgewählte Cmdlets in Ihre Sitzung, wenn Sie das Modul importieren.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>This parameter lets you select from among the exported cmdlets.</source>
+          <target state="translated">Mit diesem Parameter können Sie eine Auswahl aus den exportierten Cmdlets treffen.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>-DisableNameChecking</source>
+          <target state="translated">-DisableNameChecking</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Suppresses the message that warns you when you import a cmdlet or function whose name includes an unapproved verb or a prohibited character.</source>
+          <target state="translated">Unterdrückt die Meldung, die beim Import eines Cmdlets oder einer Funktion als Warnung angezeigt wird, wenn deren Name ein nicht genehmigtes Verb oder ein unzulässiges Zeichen enthält.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>By default,  when a module that you import exports cmdlets or functions that have unapproved verbs in their names, the Windows PowerShell displays the following warning message:</source>
+          <target state="translated">Wenn durch ein importiertes Modul Cmdlets oder Funktionen exportiert werden, deren Namen nicht genehmigte Verben enthalten, zeigt Windows PowerShell standardmäßig die folgende Warnmeldung an:</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>"WARNING: Some imported command names include unapproved verbs which might make them less discoverable.</source>
+          <target state="translated">"WARNUNG: einige importierte Befehle Namen enthalten, nicht genehmigte Verben, die deren Auffindbarkeit erschweren.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Use the Verbose parameter for more detail or type Get-Verb to see the list of approved verbs."</source>
+          <target state="translated">Weitere Informationen erhalten Sie mithilfe des Verbose-Parameters, oder geben Sie Get-Verb ein, um eine Liste der genehmigten Verben anzuzeigen.“</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>This message is only a warning.</source>
+          <target state="translated">Diese Meldung ist nur eine Warnung.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The complete module is still imported, including the non-conforming commands.</source>
+          <target state="translated">Es wird trotzdem das gesamte Modul einschließlich nicht konformer Befehle importiert.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Although the message is displayed to module users, the naming problem should be fixed by the module author.</source>
+          <target state="translated">Obwohl die Meldung für Modulbenutzer angezeigt wird, sollte das Namensproblem vom Modulautor behoben werden.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Re-imports a module and its members, even if the module or its members have an access mode of read-only.</source>
+          <target state="translated">Importiert ein Modul und seine Elemente erneut, auch wenn das Modul oder die Elemente einen schreibgeschützten Zugriffsmodus haben.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>-Function</source>
+          <target state="translated">-Funktion</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Imports only the specified functions from the module into the current session.</source>
+          <target state="translated">Importiert nur die angegebenen Funktionen aus dem Modul in die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Enter a list of functions.</source>
+          <target state="translated">Geben Sie eine Liste der Funktionen ein.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">Platzhalterzeichen sind zulässig.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Some modules automatically export selected functions into your session when you import the module.</source>
+          <target state="translated">Einige Module exportieren automatisch ausgewählte Funktionen in Ihre Sitzung, wenn Sie das Modul importieren.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>This parameter lets you select from among the exported functions.</source>
+          <target state="translated">Mit diesem Parameter können Sie eine Auswahl aus den exportierten Funktionen treffen.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>-Global</source>
+          <target state="translated">-Global</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Imports modules into the global session state so they are available to all commands in the session.</source>
+          <target state="translated">Importiert Module in den globalen Sitzungsstatus, sodass sie in der Sitzung für alle Befehle verfügbar sind.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>By default, the commands in a module, including commands from nested modules, are imported into the caller's session state.</source>
+          <target state="translated">Standardmäßig werden die Befehle in einem Modul, einschließlich der Befehle aus geschachtelten Modulen, in den Sitzungsstatus des Aufrufers importiert.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>To restrict the commands that a module exports, use an Export-ModuleMember command in the script module.</source>
+          <target state="translated">Um die Befehle zu beschränken, die ein Modul exportiert, verwenden Sie einen Export-ModuleMember-Befehl im Skriptmodul.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Global<ept id="p1">**</ept> parameter is equivalent to the <bpt id="p2">**</bpt>Scope<ept id="p2">**</ept> parameter with a value of <bpt id="p3">**</bpt>Global<ept id="p3">**</ept>.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Global<ept id="p1">**</ept> Parameter entspricht der <bpt id="p2">**</bpt>Bereich<ept id="p2">**</ept> Parameter mit dem Wert <bpt id="p3">**</bpt>Global<ept id="p3">**</ept>.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>-MinimumVersion</source>
+          <target state="translated">-MinimumVersion</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Imports only a version of the module that is greater than or equal to the specified value.</source>
+          <target state="translated">Importiert nur eine Version des Moduls, das größer als der angegebene Wert oder gleich dem angegebenen Wert ist.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>If no version qualifies, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> generates an error.</source>
+          <target state="translated">Wenn keine Version qualifiziert, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> wird ein Fehler generiert.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> imports the module without checking the version number.</source>
+          <target state="translated">In der Standardeinstellung <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> importiert das Modul ohne die Versionsnummer.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>MinimumVersion<ept id="p1">**</ept> parameter name or its alias, <bpt id="p2">**</bpt>Version<ept id="p2">**</ept>.</source>
+          <target state="translated">Verwenden der <bpt id="p1">**</bpt>MinimumVersion<ept id="p1">**</ept> Parameternamen oder den Alias <bpt id="p2">**</bpt>Version<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>To specify an exact version, use the <bpt id="p1">**</bpt>RequiredVersion<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Um die genaue Version einer anzugeben, verwenden Sie die <bpt id="p1">**</bpt>RequiredVersion<ept id="p1">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Version<ept id="p2">**</ept> parameters of the #Requires keyword to require a specific version of a module in a script.</source>
+          <target state="translated">Können Sie auch die <bpt id="p1">**</bpt>Modul<ept id="p1">**</ept> und <bpt id="p2">**</bpt>Version<ept id="p2">**</ept> Parameter von der #Requires-Schlüsselwort verwenden, um eine bestimmte Version eines Moduls in einem Skript erforderlich.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>-ModuleInfo</source>
+          <target state="translated">-ModuleInfo</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Specifies module objects to import.</source>
+          <target state="translated">Gibt die zu importierenden Modulobjekte an.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the module objects, or a command that gets the module objects, such as a "Get-Module -ListAvailable" command.</source>
+          <target state="translated">Geben Sie eine Variable ein, die die Modulobjekte enthält, oder einen Befehl, mit dem die Modulobjekte abgerufen werden, z. B. den Befehl „Get-Module -ListAvailable“.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>You can also pipe module objects to Import-Module.</source>
+          <target state="translated">Sie können Modulobjekte auch über die Pipeline an Import-Module übergeben.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Specifies the names of the modules to import.</source>
+          <target state="translated">Gibt die Namen der zu importierenden Module an.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Enter the name of the module or the name of a file in the module, such as a .psd1, .psm1, .dll, or ps1 file.</source>
+          <target state="translated">Geben Sie den Namen des Moduls oder den Namen einer Datei im Modul an, z. B. eine psd1-, psm1-, dll- oder ps1-Datei.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>File paths are optional.</source>
+          <target state="translated">Dateipfade sind optional.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Wildcards are not permitted.</source>
+          <target state="translated">Platzhalter sind nicht zulässig.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>You can also pipe module names and file names to Import-Module.</source>
+          <target state="translated">Sie können auch Modulnamen und Dateinamen über die Pipeline an Import-Module übergeben.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>If you omit a path, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> looks for the module in the paths saved in the PSModulePath environment variable ($env:PSModulePath).</source>
+          <target state="translated">Wenn Sie einen Pfad weglassen <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> sucht das Modul in den Pfaden, die in der PSModulePath-Umgebungsvariablen gespeichert ($env: PSModulePath).</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Specify only the module name whenever possible.</source>
+          <target state="translated">Geben Sie nach Möglichkeit nur den Namen des Moduls an.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>When you specify a file name, only the members that are implemented in that file are imported.</source>
+          <target state="translated">Wenn Sie einen Dateinamen angeben, werden nur die in dieser Datei implementierten Elemente importiert.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>If the module contains other files, they are not imported, and you might be missing important members of the module.</source>
+          <target state="translated">Wenn das Modul andere Dateien enthält, werden sie nicht importiert; möglicherweise fehlen wichtige Elemente des Moduls.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>-NoClobber</source>
+          <target state="translated">-NoClobber</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Does not import commands that have the same names as existing commands in the current session.</source>
+          <target state="translated">Befehle, die den gleichen Namen wie bereits vorhandene Befehle in der aktuellen Sitzung aufweisen, werden nicht importiert.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> imports all exported module commands.</source>
+          <target state="translated">In der Standardeinstellung <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> importiert alle exportierten modulbefehle.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Commands with the same names can hide or replace commands in the session.</source>
+          <target state="translated">Befehle mit den gleichen Namen können Befehle in der Sitzung ausblenden oder ersetzen.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>To avoid command name conflicts in a session, use the <bpt id="p1">**</bpt>Prefix<ept id="p1">**</ept> or <bpt id="p2">**</bpt>NoClobber<ept id="p2">**</ept> parameters.</source>
+          <target state="translated">Um Konflikte bei Befehlsnamen in einer Sitzung zu vermeiden, verwenden Sie die <bpt id="p1">**</bpt>Präfix<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>NoClobber<ept id="p2">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>For more information about name conflicts and command precedence, see "Modules and Name Conflicts" in about_Modules and about_Command_Precedence.</source>
+          <target state="translated">Weitere Informationen zu Namenskonflikten und befehlsrangfolge finden Sie unter "Module und Namenskonflikte" in About_Modules und About_Command_Precedence.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>This parameter was added in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wurde in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>-PSSession</source>
+          <target state="translated">-PSSession</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Imports modules from the specified Windows PowerShell user-managed session ("PSSession") into the current session.</source>
+          <target state="translated">Importiert Module aus der vom Benutzer verwalteten, angegebenen Windows PowerShell-Sitzung („PSSession“) in die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a PSSession or a command that gets a PSSession, such as a Get-PSSession command.</source>
+          <target state="translated">Geben Sie eine Variable, die eine PSSession oder einen Befehl, der eine PSSession, wie z. B. einen Get-PSSession-Befehl ruft enthält.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>When you import a module from a different session into the current session, you can use the cmdlets from the module in the current session, just as you would use cmdlets from a local module.</source>
+          <target state="translated">Beim Importieren eines Moduls aus einer anderen Sitzung in die aktuelle Sitzung können Sie die Cmdlets aus dem Modul in der aktuellen Sitzung verwenden, so wie Sie Cmdlets aus einem lokalen Modul verwenden würden.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Commands that use the remote cmdlets actually run in the remote session, but the remoting details are managed in the background by Windows PowerShell.</source>
+          <target state="translated">Befehle, die die Remote-Cmdlets verwenden, werden tatsächlich in der Remotesitzung ausgeführt, aber die Remotingdetails werden von Windows PowerShell im Hintergrund verwaltet.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>This parameter uses the Implicit Remoting feature of Windows PowerShell.</source>
+          <target state="translated">Dieser Parameter verwendet die Funktion des impliziten Remotings von Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>It is equivalent to using the Import-PSSession cmdlet to import particular modules from a session.</source>
+          <target state="translated">Es ist äquivalent zur Verwendung mit dem Import-PSSession-Cmdlet zum Importieren von bestimmten Module aus einer Sitzung.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> cannot import Windows PowerShell Core modules from another session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> kann nicht zu Windows PowerShell-Kernmodule aus einer anderen Sitzung importieren.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Core modules have names that begin with Microsoft.PowerShell.</source>
+          <target state="translated">Die Namen der Windows PowerShell-Kernmodule beginnen mit „Microsoft.PowerShell“.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Returns objects that represent the modules that were imported.</source>
+          <target state="translated">Gibt Objekte zurück, die die importierten Module darstellen.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">Standardmäßig wird von diesem Cmdlet keine Ausgabe generiert.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>-Prefix</source>
+          <target state="translated">-Präfix</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Adds the specified prefix to the nouns in the names of imported module members.</source>
+          <target state="translated">Fügt Substantiven im Namen der importierten Modulelemente das angegebene Präfix hinzu.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Use this parameter to avoid name conflicts that might occur when different members in the session have the same name.</source>
+          <target state="translated">Verwenden Sie diesen Parameter, um Namenskonflikte zu vermeiden, die auftreten können, wenn verschiedene Elemente in der Sitzung den gleichen Namen haben.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>This parameter does not change the module, and it does not affect files that the module imports for its own use (known as "nested modules").</source>
+          <target state="translated">Dieser Parameter ändert nicht das Modul, und es hat keine Auswirkungen auf Dateien, die das Modul zur eigenen Verwendung (als „geschachtelte Module“ bezeichnet) importiert.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>It affects only the names of members in the current session.</source>
+          <target state="translated">Er betrifft nur die Namen der Elemente in der aktuellen Sitzung.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>For example, if you specify the prefix "UTC" and then import a Get-Date cmdlet, the cmdlet is known in the session as Get-UTCDate, and it is not confused with the original Get-Date cmdlet.</source>
+          <target state="translated">Wenn Sie beispielsweise das Präfix „UTC“ verwenden und dann ein Cmdlet „Get-Date“ importieren, ist das Cmdlet in der Sitzung als „Get UTCDate“ bekannt und nicht mit dem ursprünglichen Get-Date-Cmdlet identisch.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>The value of this parameter takes precedence over the <bpt id="p1">**</bpt>DefaultCommandPrefix<ept id="p1">**</ept> property of the module, which specifies the default prefix.</source>
+          <target state="translated">Der Wert dieses Parameters hat Vorrang vor der <bpt id="p1">**</bpt>DefaultCommandPrefix<ept id="p1">**</ept> -Eigenschaft des Moduls, das das Standardpräfix angibt.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>-RequiredVersion</source>
+          <target state="translated">-RequiredVersion</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Imports only the specified version of the module.</source>
+          <target state="translated">Importiert nur die angegebene Version des Moduls.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>If the version is not installed, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> generates an error.</source>
+          <target state="translated">Wenn die Version nicht installiert ist, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> wird ein Fehler generiert.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> imports the module without checking the version number.</source>
+          <target state="translated">In der Standardeinstellung <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> importiert das Modul ohne die Versionsnummer.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>To specify a minimum version, use the <bpt id="p1">**</bpt>MinimumVersion<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Verwenden Sie zum Angeben einer Mindestversion der <bpt id="p1">**</bpt>MinimumVersion<ept id="p1">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Version<ept id="p2">**</ept> parameters of the #Requires keyword to require a specific version of a module in a script.</source>
+          <target state="translated">Können Sie auch die <bpt id="p1">**</bpt>Modul<ept id="p1">**</ept> und <bpt id="p2">**</bpt>Version<ept id="p2">**</ept> Parameter von der #Requires-Schlüsselwort verwenden, um eine bestimmte Version eines Moduls in einem Skript erforderlich.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Scripts that use the <bpt id="p1">**</bpt>RequiredVersion<ept id="p1">**</ept> parameter to import modules that are included with existing releases of the Windows operating system do not automatically run in future releases of the Windows operating system.</source>
+          <target state="translated">Skripts, die <bpt id="p1">**</bpt>RequiredVersion<ept id="p1">**</ept> Parameter, um Module zu importieren, die mit vorhandenen Versionen des Windows-Betriebssystems enthalten sind nicht automatisch ausgeführt in zukünftigen Versionen des Windows-Betriebssystems.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>This is because Windows PowerShell module version numbers in future releases of the Windows operating system are higher than module version numbers in existing releases of the Windows operating system.</source>
+          <target state="translated">Der Grund dafür ist, dass Windows PowerShell-Modulversionsnummern in zukünftigen Versionen des Windows-Betriebssystems höher sind als die Modulversionsnummern in vorhandenen Versionen des Windows-Betriebssystems.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>-Scope</source>
+          <target state="translated">-Bereich</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Imports the module only into the specified scope.</source>
+          <target state="translated">Importiert das Modul nur in den angegebenen Bereich.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">Gültige Werte:</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Global<ept id="p1">**</ept>: Available to all commands in the session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Globale<ept id="p1">**</ept>: für alle Befehle in der Sitzung verfügbar.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Equivalent to the <bpt id="p1">**</bpt>Global<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Entspricht der <bpt id="p1">**</bpt>Global<ept id="p1">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Local<ept id="p1">**</ept>: Available only in the current scope.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lokale<ept id="p1">**</ept>: nur im aktuellen Bereich verfügbar.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>By default, the module is imported into the current scope, which could be a script or module.</source>
+          <target state="translated">Standardmäßig wird das Modul in den aktuellen Bereich importiert, wobei es sich um ein Skript oder ein Modul handeln kann.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>-Variable</source>
+          <target state="translated">-Variable</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Imports only the specified variables from the module into the current session.</source>
+          <target state="translated">Importiert nur die angegebenen Variablen aus dem Modul in die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Enter a list of variables.</source>
+          <target state="translated">Geben Sie eine Liste der Variablen ein.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">Platzhalterzeichen sind zulässig.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Some modules automatically export selected variables into your session when you import the module.</source>
+          <target state="translated">Einige Module exportieren automatisch ausgewählte Variablen in Ihre Sitzung, wenn Sie das Modul importieren.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>This parameter lets you select from among the exported variables.</source>
+          <target state="translated">Mit diesem Parameter können Sie eine Auswahl aus den exportierten Variablen treffen.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Dieses Cmdlet unterstützt die allgemeinen Parameter:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, -InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction und -WarningVariable.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Weitere Informationen finden Sie unter "about_commonparameters" (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">EINGABEN</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>System.String, System.Management.Automation.PSModuleInfo, System.Reflection.Assembly</source>
+          <target state="translated">System.Reflection.Assembly System.String, System.Management.Automation.PSModuleInfo,</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>You can pipe a module name, module object, or assembly object to Import-Module.</source>
+          <target state="translated">Sie können einen Modulnamen, ein Modulobjekt oder ein Assemblyobjekt über die Pipeline an Import-Module übergeben.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">AUSGABEN</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>None, System.Management.Automation.PSModuleInfo, or System.Management.Automation.PSCustomObject</source>
+          <target state="translated">Keine, System.Management.Automation.PSModuleInfo oder System.Management.Automation.PSCustomObject</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>By default, Import-Module does not generate any output.</source>
+          <target state="translated">Standardmäßig generiert Import-Module keine Ausgabe.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>If you use the PassThru parameter, it generates a System.Management.Automation.PSModuleInfo object that represents the module.</source>
+          <target state="translated">Wenn Sie den PassThru-Parameter verwenden, generiert es ein System.Management.Automation.PSModuleInfo-Objekt, das den Speicherort darstellt.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>If you use the AsCustomObject parameter, it generates a PSCustomObject object.</source>
+          <target state="translated">Wenn Sie den AsCustomObject-Parameter verwenden, generiert er ein PSCustomObject-Objekt.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTIZEN</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>Before you can import a module, the module must be installed on the local computer, that is, the module directory must be copied to a directory that is accessible to your local computer.</source>
+          <target state="translated">Bevor Sie ein Modul importieren können, muss das Modul auf dem lokalen Computer installiert sein, d. h., das Modulverzeichnis muss in ein Verzeichnis kopiert werden, auf das Sie vom lokalen Computer aus zugreifen können.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Modules (http://go.microsoft.com/fwlink/?LinkID=144311).</source>
+          <target state="translated">Weitere Informationen finden Sie unter About_Modules (http://go.microsoft.com/fwlink/?LinkID=144311).</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> and <bpt id="p2">**</bpt>CIMSession<ept id="p2">**</ept> parameters to import modules that are installed on remote computers.</source>
+          <target state="translated">Sie können auch die <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> und <bpt id="p2">**</bpt>CIMSession<ept id="p2">**</ept> Parameter, um Module zu importieren, die auf Remotecomputern installiert sind.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>However, commands that use the cmdlets in these modules actually run in the remote session on the remote computer.</source>
+          <target state="translated">Befehle, die in diesen Modulen die Cmdlets verwenden, werden jedoch tatsächlich in der Remotesitzung auf dem Remotecomputer ausgeführt.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>If you import members with the same name and the same type into your session, Windows PowerShell uses the member imported last by default.</source>
+          <target state="translated">Wenn Sie Elemente mit demselben Namen und demselben Typ in die Sitzung importieren, verwendet Windows PowerShell standardmäßig das zuletzt importierte Element.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Variables and aliases are replaced, and the originals are not accessible.</source>
+          <target state="translated">Variablen und Aliase werden ersetzt, und Sie können nicht auf die Originale zugreifen.</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>Functions, cmdlets and providers are merely "shadowed" by the new members, and they can be accessed by qualifying the command name with the name of its snap-in, module, or function path.</source>
+          <target state="translated">Funktionen, Cmdlets und Anbieter werden durch die neuen Elemente lediglich „schattiert“. Sie können durch die Qualifizierung des Befehlsnamens mit dem Namen des Snap-In-, Modul- oder Funktionspfads darauf zugreifen.</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>To update the formatting data for commands that have been imported from a module, use the Update-FormatData cmdlet.</source>
+          <target state="translated">Um die Formatierungsdaten für Befehle zu aktualisieren, die aus einem Modul importiert wurden, verwenden Sie das Update-FormatData-Cmdlet.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Update-FormatData<ept id="p1">**</ept> also updates the formatting data for commands in the session that were imported from modules.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Update-FormatData<ept id="p1">**</ept> aktualisiert auch die Formatierungsdaten für Befehle in der Sitzung, die aus Modulen importiert wurden.</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>If the formatting file for a module changes, you can run an <bpt id="p1">**</bpt>Update-FormatData<ept id="p1">**</ept> command to update the formatting data for imported commands.</source>
+          <target state="translated">Wenn die Formatierungsdatei für ein Modul geändert wird, können Sie ausführen ein <bpt id="p1">**</bpt>Update-FormatData<ept id="p1">**</ept> Befehl aus, um die Formatierungsdaten aktualisieren für importierte Befehle.</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>You do not need to import the module again.</source>
+          <target state="translated">Sie müssen das Modul nicht erneut importieren.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, the core commands that are installed with Windows PowerShell are packaged in modules.</source>
+          <target state="translated">Ab Windows PowerShell 3.0 sind die mit Windows PowerShell installierten Hauptbefehle in Module gepackt.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, and in host programs that create older-style sessions in later versions of Windows PowerShell, the core commands are packaged in snap-ins ("PSSnapins").</source>
+          <target state="translated">In Windows PowerShell 2.0 und in Hostprogrammen, die ein älteres Sitzungsformat in höheren Versionen von Windows PowerShell erstellen, werden die Hauptbefehle in Snap-Ins (PSSnapins) gepackt.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>The exception is <bpt id="p1">**</bpt>Microsoft.PowerShell.Core<ept id="p1">**</ept>, which is always a snap-in.</source>
+          <target state="translated">Die Ausnahme ist <bpt id="p1">**</bpt>Microsoft.PowerShell.Core<ept id="p1">**</ept>, die immer ein Snap-In ist.</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Also, remote sessions, such as those started by the New-PSSession cmdlet, are older-style sessions that include core snap-ins.</source>
+          <target state="translated">Darüber hinaus sind Remotesitzungen, z. B. solche, die das New-PSSession-Cmdlet älteren Sitzungen, die Kern-Snap-ins enthalten.</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>For information about the <bpt id="p1">**</bpt>CreateDefault2<ept id="p1">**</ept> method that creates newer-style sessions with core modules, see "CreateDefault2 Method" in MSDN at http://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.initialsessionstate.createdefault2(v=VS.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.initialsessionstate.createdefault2(v=VS.85).aspx.</source>
+          <target state="translated">Informationen zu den <bpt id="p1">**</bpt>CreateDefault2<ept id="p1">**</ept> -Methode, Sitzungen neueren Formats mit kernmodulen erstellt, finden Sie unter "CreateDefault2 Method" in MSDN unter http://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.initialsessionstate.createdefault2 (v=VS.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.runspaces.initialsessionstate.createdefault2 (v=VS.85).aspx.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> cannot import Windows PowerShell Core modules from another session.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> kann nicht zu Windows PowerShell-Kernmodule aus einer anderen Sitzung importieren.</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Core modules have names that begin with Microsoft.PowerShell.</source>
+          <target state="translated">Die Namen der Windows PowerShell-Kernmodule beginnen mit „Microsoft.PowerShell“.</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, some of the property values of the module object, such as the <bpt id="p1">**</bpt>ExportedCmdlets<ept id="p1">**</ept> and <bpt id="p2">**</bpt>NestedModules<ept id="p2">**</ept> property values, were not populated until the module was imported and were not available on the module object that the <bpt id="p3">**</bpt>PassThru<ept id="p3">**</ept> parameter returns.</source>
+          <target state="translated">In Windows PowerShell 2.0 einige der Eigenschaftswerte des Moduls Objekt, z. B. die <bpt id="p1">**</bpt>ExportedCmdlets<ept id="p1">**</ept> und <bpt id="p2">**</bpt>NestedModules<ept id="p2">**</ept> Eigenschaftswerte nicht aufgefüllt, bis das Modul importiert wurde, und nicht auf das Objekt zur Verfügung standen, die <bpt id="p3">**</bpt>PassThru<ept id="p3">**</ept> Parameter zurückgibt.</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 3.0, all module property values are populated.</source>
+          <target state="translated">In Windows PowerShell 3.0 werden alle Eigenschaftswerte für Modul aufgefüllt.</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>If you attempt to import a module that contains mixed-mode assemblies that are not compatible with Windows PowerShell 3.0, <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> returns an error message like the following one.</source>
+          <target state="translated">Wenn Sie versuchen, ein Modul zu importieren, die gemischte Assemblys enthält, die nicht kompatibel mit Windows PowerShell 3.0 sind <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> Gibt eine Fehlermeldung wie die folgende zurück.</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>This error occurs when a module that is designed for Windows PowerShell 2.0 contains at least one mixed-module assembly, that is, an assembly that includes both managed and non-managed code, such as C++ and C#.</source>
+          <target state="translated">Dieser Fehler tritt auf, wenn ein Modul für Windows PowerShell 2.0 zur mindestens eine gemischte Modulassembly, d. h. eine Assembly enthält, die sowohl verwaltete als auch nicht verwalteten Code, z. B. C++ und c# enthält.</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>To import a module that contains mixed-mode assemblies, start Windows PowerShell 2.0 by using the following command, and then try the <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> command again.</source>
+          <target state="translated">Um ein Modul zu importieren, das gemischte Assemblys enthält, starten Sie Windows PowerShell 2.0 mit dem folgenden Befehl, und wiederholen Sie dann die <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> erneut aus.</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>To use the CIM session feature, the remote computer must have WS-Management remoting and Windows Management Instrumentation (WMI), which is the Microsoft implementation of the Common Information Model (CIM) standard.</source>
+          <target state="translated">Um die CIM-Sitzung zu verwenden, müssen auf dem Remotecomputer WS-Management-Remoting und Windows-Verwaltungsinstrumentation (WMI) verfügbar sein, wobei es sich um die Microsoft-Implementierung des Common Information Model (CIM)-Standards handelt.</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>The computer must also have the Module Discovery WMI provider or an alternate CIM provider that has the same basic features.</source>
+          <target state="translated">Der Computer muss auch den WMI-Anbieter für die Modulerkennung oder einen anderen CIM-Anbieter haben, der die gleichen grundlegenden Funktionen hat.</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>You can use the CIM session feature on computers that are not running a Windows operating system and on Windows computers that have Windows PowerShell, but do not have Windows PowerShell remoting enabled.</source>
+          <target state="translated">Sie können die CIM-Sitzung auf Computern verwenden, auf denen kein Windows-Betriebssystem ausgeführt wird, sowie auf Windows-Computern mit Windows PowerShell, auf denen Windows PowerShell-Remoting nicht aktiviert ist.</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>You can also use the CIM parameters to get CIM modules from computers that have Windows PowerShell remoting enabled, including the local computer.</source>
+          <target state="translated">Sie können auch die CIM-Parameter verwenden, um CIM-Module von Computern abzurufen, bei denen Windows PowerShell-Remoting aktiviert ist, darunter der lokale Computer.</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>When you create a CIM session on the local computer, Windows PowerShell uses DCOM, instead of WMI, to create the session.</source>
+          <target state="translated">Wenn Sie eine CIM-Sitzung auf dem lokalen Computer erstellen, verwendet Windows PowerShell DCOM, anstelle von WMI zum Erstellen der Sitzung.</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VERWANDTE LINKS</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>Export-ModuleMember</source>
+          <target state="translated">Export-ModuleMember</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>Get-Module</source>
+          <target state="translated">Get-Module</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>Remove-Module</source>
+          <target state="translated">Remove-Module</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>Get-Verb</source>
+          <target state="translated">Get-Verb</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>about_Modules</source>
+          <target state="translated">about_Modules</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

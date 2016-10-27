@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3f0151f8eb37dea6ac7fb0584187822da82f3aa5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\PSScheduledJob\Set-ScheduledJob.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">476cf9544ad519a032eaa968a8ea0bbb315c403e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c6d7855f6cce1d3c7bd474ef196478cd6d836bbb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet de PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJob</source>
+          <target state="translated">Set-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJob</source>
+          <target state="translated">Set-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SINOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Changes scheduled jobs</source>
+          <target state="translated">Cambia los trabajos programados</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTAXIS</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ScriptBlock (Default)</source>
+          <target state="translated">ScriptBlock (valor predeterminado)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>FilePath</source>
+          <target state="translated">FilePath</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Execution</source>
+          <target state="translated">Ejecución</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPCIÓN</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> cmdlet changes the properties of scheduled jobs, such as the commands that the jobs run or the credentials required to run the job.</source>
+          <target state="translated">El <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> cambia las propiedades de los trabajos programados, como los comandos que se ejecutan los trabajos o las credenciales necesarias para ejecutar el trabajo.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can also use it to clear the execution history of the scheduled job.</source>
+          <target state="translated">También puede usarlo para borrar el historial de ejecución del trabajo programado.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To use this cmdlet, begin by using the Get-ScheduledJob cmdlet to get the scheduled job.</source>
+          <target state="translated">Para usar este cmdlet, comience usando el cmdlet Get-ScheduledJob para obtener el trabajo programado.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Then, pipe the scheduled job to <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> or save the job in a variable and use the <bpt id="p2">**</bpt>InputObject<ept id="p2">**</ept> parameter of <bpt id="p3">**</bpt>Set-ScheduledJob<ept id="p3">**</ept> to identify the job.</source>
+          <target state="translated">A continuación, canalice el trabajo programado para <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> o guardar el trabajo en una variable y use la <bpt id="p2">**</bpt>InputObject<ept id="p2">**</ept> parámetro de <bpt id="p3">**</bpt>Set-ScheduledJob<ept id="p3">**</ept> para identificar el trabajo.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Use the remaining parameters of <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> to change the job properties or clear the execution history.</source>
+          <target state="translated">Use los parámetros restantes de <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> para cambiar las propiedades del trabajo o borrar el historial de ejecución.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Although you can use <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> to change the triggers and options of a scheduled job, the Add-JobTrigger, Set-JobTrigger, and Set-ScheduledJobOption cmdlets provide much easier ways to accomplish those tasks.</source>
+          <target state="translated">Aunque puede usar <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> para cambiar los desencadenadores y las opciones de un trabajo programado, los cmdlets Add-JobTrigger, Set-JobTrigger y Set-ScheduledJobOption proporcionan maneras mucho más fáciles para realizar dichas tareas.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To create a new scheduled job, use the Register-ScheduledJob cmdlet.</source>
+          <target state="translated">Para crear un nuevo trabajo programado, use el cmdlet Register-ScheduledJob.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> is one of a collection of job scheduling cmdlets in the PSScheduledJob module that is included in Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> es una colección de cmdlets en el módulo PSScheduledJob que se incluye en Windows PowerShell de programación de trabajos.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about Scheduled Jobs, see the About topics in the PSScheduledJob module.</source>
+          <target state="translated">Para más información sobre los trabajos programados, vea los temas Acerca de en el módulo PSScheduledJob.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Import the PSScheduledJob module and then type: <ph id="ph1">`Get-Help about_Scheduled*`</ph> or see about_Scheduled_Jobs.</source>
+          <target state="translated">Importe el módulo PSScheduledJob y, a continuación, escriba: <ph id="ph1">`Get-Help about_Scheduled*`</ph> o about_Scheduled_Jobs.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This cmdlet is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Este cmdlet se incorporó en Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EJEMPLOS</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 1: Change the script that a job runs</source>
+          <target state="translated">Ejemplo 1: Cambiar la secuencia de comandos que se ejecuta un trabajo</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This example shows how to change the script that is run in a scheduled job.</source>
+          <target state="translated">Este ejemplo muestra cómo cambiar el script que se ejecuta en un trabajo programado.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Delete the execution history of a scheduled job</source>
+          <target state="translated">Ejemplo 2: Eliminar el historial de ejecución de un trabajo programado</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command deletes the current execution history and saved job results for the BackupArchive scheduled job.</source>
+          <target state="translated">Este comando elimina el historial de ejecución actual y los resultados del trabajo guardados para el trabajo programado BackupArchive.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-ScheduledJob cmdlet to get the BackupArchive scheduled job.</source>
+          <target state="translated">El comando utiliza el cmdlet Get-ScheduledJob para obtener el trabajo programado BackupArchive.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A pipeline operator (|) sends the job to the <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> cmdlet to change it.</source>
+          <target state="translated">Un operador de canalización (|) envía el trabajo a la <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> cmdlet para cambiarlo.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> command uses the <bpt id="p2">**</bpt>ClearExecutionHistory<ept id="p2">**</ept> parameter to delete the execution history and saved results.</source>
+          <target state="translated">El <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> comando usa el <bpt id="p2">**</bpt>ClearExecutionHistory<ept id="p2">**</ept> parámetro para eliminar el historial de ejecución y los resultados guardados.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For more information about the execution history and saved job results of scheduled jobs, see about_Scheduled_Jobs.</source>
+          <target state="translated">Para más información sobre el historial de ejecución y los resultados de trabajo guardados de los trabajos programados, vea la página about_Scheduled_Jobs.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Example 3: Change scheduled jobs on a remote computer</source>
+          <target state="translated">Ejemplo 3: Cambiar los trabajos programados en un equipo remoto</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command changes the initialization script in all scheduled jobs on the Server01 and Server02 computers.</source>
+          <target state="translated">Este comando cambia el script de inicialización en todos los trabajos programados en los equipos Server01 y Server02.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The command uses the Invoke-Command cmdlet to run a command on the Server01 and Server02 computers.</source>
+          <target state="translated">El comando utiliza el cmdlet Invoke-Command para ejecutar un comando en los equipos Server01 y Server02.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The remote command begins with a Get-ScheduledJob command that gets all scheduled jobs on the  computer.</source>
+          <target state="translated">El comando remoto comienza con un comando Get-ScheduledJob que obtiene todos los trabajos programados en el equipo.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The scheduled jobs are piped to the <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> cmdlet which changes the initialization script to SetForRun.ps1.</source>
+          <target state="translated">Los trabajos programados se canalizan hacia el <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> cmdlet que cambia el script de inicialización a SetForRun.ps1.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARÁMETROS</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies values for the parameters of the script that is specified by the <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> parameter or for the command that is specified by the <bpt id="p2">**</bpt>ScriptBlock<ept id="p2">**</ept> parameter.</source>
+          <target state="translated">Especifica valores para los parámetros de la secuencia de comandos especificada por el <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> parámetro o para el comando especificado por la <bpt id="p2">**</bpt>ScriptBlock<ept id="p2">**</ept> parámetro.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-Authentication</source>
+          <target state="translated">: Autenticación</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specifies the mechanism that is used to authenticate the user's credentials.</source>
+          <target state="translated">Especifica el mecanismo que se utiliza para autenticar las credenciales del usuario.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Valid values are Default, Basic, Credssp, Digest, Kerberos, Negotiate, and NegotiateWithImplicitCredential.</source>
+          <target state="translated">Los valores válidos son Default, Basic, Credssp, Digest, Kerberos, Negotiate y NegotiateWithImplicitCredential.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The default value is Default.</source>
+          <target state="translated">El valor predeterminado es Default.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see the description of the <bpt id="p1">**</bpt>System.Management.Automation.Runspaces.AuthenticationMechanism<ept id="p1">**</ept> enumeration in MSDN.</source>
+          <target state="translated">Para obtener información acerca de los valores de este parámetro, vea la descripción de la <bpt id="p1">**</bpt>System.Management.Automation.Runspaces.AuthenticationMechanism<ept id="p1">**</ept> enumeración en MSDN.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>CAUTION: Credential Security Support Provider (CredSSP) authentication, in which the user's credentials are passed to a remote computer to be authenticated, is designed for commands that require authentication on more than one resource, such as accessing a remote network share.</source>
+          <target state="translated">PRECAUCIÓN: Autenticación de proveedor de compatibilidad con seguridad de credenciales (CredSSP), en el que se pasan las credenciales del usuario a un equipo remoto se autentique, está diseñada para comandos que requieren autenticación en más de un recurso, como el acceso a un recurso compartido de red remoto.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This mechanism increases the security risk of the remote operation.</source>
+          <target state="translated">Este mecanismo el riesgo de seguridad de la operación remota.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If the remote computer is compromised, the credentials that are passed to it can be used to control the network session.</source>
+          <target state="translated">Si el equipo remoto se ve comprometido, las credenciales que se pasen a él se pueden utilizar para controlar la sesión de red.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-ClearExecutionHistory</source>
+          <target state="translated">-ClearExecutionHistory</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Deletes the current execution history and the saved results of the scheduled job.</source>
+          <target state="translated">Elimina el historial de ejecución actual y los resultados guardados del trabajo programado.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The job execution history and job results are saved with the scheduled job in the $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs directory on the computer on which the job is created.</source>
+          <target state="translated">El historial de ejecución de trabajos y los resultados de trabajo se guardan con el trabajo programado en el directorio $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs en el equipo en el que se creó el trabajo.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To see the execution history, use the Get-Job cmdlet.</source>
+          <target state="translated">Para ver el historial de ejecución, use el cmdlet Get-Job.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To get the job results, use the Receive-Job cmdlet.</source>
+          <target state="translated">Para obtener los resultados del trabajo, use el cmdlet Receive-Job.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This parameter does not affect the events that Task Scheduler writes to the Windows event logs and it does not stop Windows PowerShell from saving job results.</source>
+          <target state="translated">Este parámetro no afecta a los eventos que el Programador de tareas escribe en los registros de eventos de Windows y no impide que Windows PowerShell guarde los resultados del trabajo.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To manage the number of job results that are saved, use the <bpt id="p1">**</bpt>MaxResultCount<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Para administrar el número de resultados de los trabajos que están guardados, use la <bpt id="p1">**</bpt>MaxResultCount<ept id="p1">**</ept> parámetro.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to run the scheduled job.</source>
+          <target state="translated">Especifica una cuenta de usuario que tenga permiso para ejecutar el trabajo programado.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">El valor predeterminado es el usuario actual.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01", or enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one from the Get-Credential cmdlet.</source>
+          <target state="translated">Escriba un nombre de usuario, como "Usuario01" o "Dominio01\usuario01", o especifique un <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> objeto, como uno del cmdlet Get-Credential.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you enter only a user name, you will be prompted for a password.</source>
+          <target state="translated">Si escribe solo un nombre de usuario, se le solicitará una contraseña.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-FilePath</source>
+          <target state="translated">FilePath:</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specifies a script that the scheduled job runs.</source>
+          <target state="translated">Especifica un script que ejecuta el trabajo programado.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Enter the path to a .ps1 file on the local computer.</source>
+          <target state="translated">Escriba la ruta de acceso a un archivo .ps1 en el equipo local.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To specify default values for the script parameters, use the <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Para especificar valores predeterminados para los parámetros de la secuencia de comandos, utilice la <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> parámetro.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Every scheduled job must have either a <bpt id="p1">**</bpt>ScriptBlock<ept id="p1">**</ept> or <bpt id="p2">**</bpt>FilePath<ept id="p2">**</ept> value.</source>
+          <target state="translated">Cada trabajo programado debe tener un <bpt id="p1">**</bpt>ScriptBlock<ept id="p1">**</ept> o <bpt id="p2">**</bpt>FilePath<ept id="p2">**</ept> valor.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-InitializationScript</source>
+          <target state="translated">-InitializationScript</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Specifies the fully qualified path to a Windows PowerShell script (.ps1).</source>
+          <target state="translated">Especifica la ruta de acceso completa a un script de Windows PowerShell (.ps1).</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The initialization script runs in the session that is created for the background job before the commands that are specified by the <bpt id="p1">**</bpt>ScriptBlock<ept id="p1">**</ept> parameter or the script that is specified by the <bpt id="p2">**</bpt>FilePath<ept id="p2">**</ept> parameter .</source>
+          <target state="translated">El script de inicialización se ejecuta en la sesión que se crea para el trabajo en segundo plano antes de los comandos especificados por el <bpt id="p1">**</bpt>ScriptBlock<ept id="p1">**</ept> parámetro o la secuencia de comandos especificada por el <bpt id="p2">**</bpt>FilePath<ept id="p2">**</ept> parámetro.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can use the initialization script to configure the session, such as adding files, functions, or aliases, creating directories, or checking for prerequisites.</source>
+          <target state="translated">Puede usar el script de inicialización para configurar la sesión, como agregar archivos, funciones o alias, crear directorios o comprobar los requisitos previos.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To specify a script that runs the primary job commands, use the <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Para especificar un script que ejecuta los comandos de trabajo principal, use la <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> parámetro.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If the initialization script generates an error (even a non-terminating error), the current instance of the scheduled job does not run and its status is "Failed."</source>
+          <target state="translated">Si el script de inicialización genera un error (incluso un error de no terminación), la instancia actual del trabajo programado no se ejecuta y su estado es "Failed".</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies the scheduled job to be changed.</source>
+          <target state="translated">Especifica el trabajo programado que se va a cambiar.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains  <bpt id="p1">**</bpt>ScheduledJobDefinition<ept id="p1">**</ept> objects or type a command or expression that gets <bpt id="p2">**</bpt>ScheduledJobDefinition<ept id="p2">**</ept> objects, such as a Get-ScheduledJob command.</source>
+          <target state="translated">Escriba una variable que contenga  <bpt id="p1">**</bpt>ScheduledJobDefinition<ept id="p1">**</ept> objetos o escriba un comando o una expresión que obtenga <bpt id="p2">**</bpt>ScheduledJobDefinition<ept id="p2">**</ept> objetos, como un comando Get-ScheduledJob.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You can also pipe a <bpt id="p1">**</bpt>ScheduledJobDefinition<ept id="p1">**</ept> object to <bpt id="p2">**</bpt>Set-ScheduledJob<ept id="p2">**</ept>.</source>
+          <target state="translated">También puede canalizar un <bpt id="p1">**</bpt>ScheduledJobDefinition<ept id="p1">**</ept> objeto <bpt id="p2">**</bpt>Set-ScheduledJob<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If you specify multiple scheduled jobs, <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> makes the same changes to all jobs.</source>
+          <target state="translated">Si especifica varios trabajos programados, <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> realiza los mismos cambios a todos los trabajos.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-MaxResultCount</source>
+          <target state="translated">-MaxResultCount</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Specifies how many job result entries are maintained for the scheduled job.</source>
+          <target state="translated">Especifica cuántas entradas de resultados de trabajo se mantienen para el trabajo programado.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The default value is 32.</source>
+          <target state="translated">El valor predeterminado es 32.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell saves the execution history and results of each triggered instance of the scheduled job on disk.</source>
+          <target state="translated">Windows PowerShell guarda el historial de ejecución y los resultados de cada instancia desencadenada del trabajo programado en el disco.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The value of this parameter determines the number of job instance results that are saved for this scheduled job.</source>
+          <target state="translated">El valor de este parámetro determina el número de resultados de la instancia de trabajo que se guardan para este trabajo programado.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>When the number of job instance results exceeds this value, Windows PowerShell deletes the results of the oldest job instance to make room for the results of the newest job instance.</source>
+          <target state="translated">Cuando el número de resultados de la instancia de trabajo supera este valor, Windows PowerShell elimina los resultados de la instancia de trabajo más antigua para dejar espacio a los resultados de la instancia de trabajo más reciente.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The job execution history and job results are saved in the $home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs<ph id="ph1">\\\&lt;</ph>JobName<ph id="ph2">\&gt;</ph>\Output<ph id="ph3">\\\&lt;</ph>Timestamp<ph id="ph4">\&gt;</ph> directories on the computer on which the job is created.</source>
+          <target state="translated">El historial de ejecución de trabajos y los resultados del trabajo se guardan en el home\AppData\Local\Microsoft\Windows\PowerShell\ScheduledJobs $<ph id="ph1">\\\&lt;</ph>JobName<ph id="ph2">\&gt;</ph>\Output<ph id="ph3">\\\&lt;</ph>Timestamp<ph id="ph4">\&gt;</ph> directorios en el equipo en el que se creó el trabajo.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To see the execution history, use the Get-Job cmdlet.</source>
+          <target state="translated">Para ver el historial de ejecución, use el cmdlet Get-Job.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To get the job results, use the Receive-Job cmdlet.</source>
+          <target state="translated">Para obtener los resultados del trabajo, use el cmdlet Receive-Job.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>MaxResultCount<ept id="p1">**</ept> parameter sets the value of the <bpt id="p2">**</bpt>ExecutionHistoryLength<ept id="p2">**</ept> property of the scheduled job.</source>
+          <target state="translated">El <bpt id="p1">**</bpt>MaxResultCount<ept id="p1">**</ept> parámetro establece el valor de la <bpt id="p2">**</bpt>ExecutionHistoryLength<ept id="p2">**</ept> propiedad del trabajo programado.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To delete the current execution history and job results, use the <bpt id="p1">**</bpt>ClearExecutionHistory<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Para eliminar los resultados de historial y el trabajo de ejecución actuales, use la <bpt id="p1">**</bpt>ClearExecutionHistory<ept id="p1">**</ept> parámetro.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Specifies a new name for the scheduled job and instances of the scheduled job.</source>
+          <target state="translated">Especifica un nuevo nombre para el trabajo programado y las instancias del trabajo programado.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The name must be unique on the local computer.</source>
+          <target state="translated">El nombre debe ser único en el equipo local.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To identify the scheduled job to be changed, use the <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> parameter or pipe a scheduled job from Get-ScheduledJob to <bpt id="p2">**</bpt>Set-ScheduledJob<ept id="p2">**</ept>.</source>
+          <target state="translated">Para identificar el trabajo programado cambiarse, use la <bpt id="p1">**</bpt>InputObject<ept id="p1">**</ept> parámetro o canalizar un trabajo programado de Get-ScheduledJob para <bpt id="p2">**</bpt>Set-ScheduledJob<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This parameter does not change the names of job instances on disk.</source>
+          <target state="translated">Este parámetro no cambia los nombres de las instancias de trabajo en el disco.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>It affects only job instances that are started after this command completes.</source>
+          <target state="translated">Afecta solo a instancias de trabajo que se inician cuando finalice este comando.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Returns the scheduled jobs that changed.</source>
+          <target state="translated">Devuelve los trabajos programados que cambiaron.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">De forma predeterminada, este cmdlet no genera ningún resultado.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-RunAs32</source>
+          <target state="translated">-RunAs32</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Runs the scheduled job in a 32-bit process.</source>
+          <target state="translated">Ejecuta el trabajo programado en un proceso de 32 bits.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-ScheduledJobOption</source>
+          <target state="translated">-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Sets options for the scheduled job.</source>
+          <target state="translated">Establece las opciones para un nuevo trabajo programado</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>ScheduledJobOptions<ept id="p1">**</ept> object, such as one that you create by using the New-ScheduledJobOption cmdlet, or a hash table value.</source>
+          <target state="translated">Escriba un <bpt id="p1">**</bpt>ScheduledJobOptions<ept id="p1">**</ept> objeto, como el que se crea mediante el cmdlet New-ScheduledJobOption o un valor de la tabla hash.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can set options for a scheduled job when you register the scheduled job or use the Set-ScheduledJobOption or <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> cmdlets to set or change options.</source>
+          <target state="translated">Puede establecer opciones para un trabajo programado al registrar el trabajo programado o utilice el Set-ScheduledJobOption o <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> para establecer o cambiar las opciones.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Many of the options and their default values determine whether and when a scheduled job runs.</source>
+          <target state="translated">Muchas de las opciones y sus valores predeterminados determinan si se ejecuta un trabajo programado y cuándo ocurre esto.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Be sure to review these options before scheduling a job.</source>
+          <target state="translated">Asegúrese de revisar estas opciones antes de programar un trabajo.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For a description of the scheduled job options, including the default values, see New-ScheduledJobOption.</source>
+          <target state="translated">Para obtener una descripción de las opciones del trabajo programado, incluidos los valores predeterminados, consulte New-ScheduledJobOption.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>To submit a hash table, use the following keys.</source>
+          <target state="translated">Para enviar una tabla hash, use las claves siguientes.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>In the following hash table, the keys are shown with their default values.</source>
+          <target state="translated">En la siguiente tabla hash, las claves se muestran con sus valores predeterminados.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>@{# Power SettingsStartIfOnBattery=$False;StopIfGoingOnBattery=$True; WakeToRun=$False; # Idle SettingsStartIfNotIdle=$False; IdleDuration="00:10:00"; IdleTimeout="01:00:00"; StopIfGoingOffIdle=$True; RestartOnIdleResume=$False;# Security settingsShowInTaskScheduler=$TrueRunElevated=$False;# MiscRunWithoutNetwork=$False;DoNotAllowDemandStart=$False;MultipleInstancePolicy=IgnoreNew# Can be IgnoreNew, Parallel, Queue, StopExisting}</source>
+          <target state="translated">@{# Power SettingsStartIfOnBattery=$False;StopIfGoingOnBattery=$True; WakeToRun=$False; # Idle SettingsStartIfNotIdle=$False; IdleDuration="00:10:00"; IdleTimeout="01:00:00"; StopIfGoingOffIdle=$True; RestartOnIdleResume=$False;# Security settingsShowInTaskScheduler=$TrueRunElevated=$False;# MiscRunWithoutNetwork=$False;DoNotAllowDemandStart=$False;MultipleInstancePolicy=IgnoreNew# Puede ser IgnoreNew, Parallel, Queue, StopExisting}</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>-ScriptBlock</source>
+          <target state="translated">-ScriptBlock</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Specifies the commands that the scheduled job runs.</source>
+          <target state="translated">Especifica los comandos que ejecuta el trabajo programado.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Enclose the commands in braces ( { } ) to create a script block.</source>
+          <target state="translated">Incluya los comandos entre llaves ({}) para crear un bloque de script.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To specify default values for command parameters, use the <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Para especificar valores predeterminados para los parámetros de comando, utilice la <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> parámetro.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Every <bpt id="p1">**</bpt>Register-ScheduledJob<ept id="p1">**</ept> command must use either the <bpt id="p2">**</bpt>ScriptBlock<ept id="p2">**</ept> or <bpt id="p3">**</bpt>FilePath<ept id="p3">**</ept> parameters.</source>
+          <target state="translated">Cada <bpt id="p1">**</bpt>Register-ScheduledJob<ept id="p1">**</ept> comando debe utilizar el <bpt id="p2">**</bpt>ScriptBlock<ept id="p2">**</ept> o <bpt id="p3">**</bpt>FilePath<ept id="p3">**</ept> parámetros.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>-Trigger</source>
+          <target state="translated">: Desencadenador</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Specifies the triggers for the scheduled job.</source>
+          <target state="translated">Especifica los desencadenadores para el trabajo programado.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Enter one or more <bpt id="p1">**</bpt>ScheduledJobTrigger<ept id="p1">**</ept> objects, such as the objects that the New-JobTrigger cmdlet returns, or a hash table of job trigger keys and values.</source>
+          <target state="translated">Escriba uno o más <bpt id="p1">**</bpt>ScheduledJobTrigger<ept id="p1">**</ept> objetos, como los objetos que devuelve el cmdlet New-JobTrigger o una tabla hash de valores y claves de desencadenador de trabajo.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>A "job trigger" starts a scheduled job automatically on a one-time or recurring scheduled or when an event occurs.</source>
+          <target state="translated">Un "desencadenador de trabajo" inicia un trabajo programado automáticamente en una única ocasión o de una forma periódica programada o cuando se produzca un evento.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Job triggers are optional.</source>
+          <target state="translated">Los desencadenadores de trabajo son opcionales.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>You can add a trigger when you create the scheduled job,  use the Add-JobTrigger or <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> cmdlets to add triggers later, or use the Start-Job cmdlet to start the scheduled job immediately.</source>
+          <target state="translated">Puede agregar un desencadenador cuando se crea el trabajo programado, utilice el Add-JobTrigger o <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept> para agregar desencadenadores más adelante, o use el cmdlet Start-Job para iniciar inmediatamente el trabajo programado.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>You can also create and maintain a scheduled job that has no job triggers.</source>
+          <target state="translated">También puede crear y mantener un trabajo programado que no tenga desencadenadores de trabajo.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To submit a hash table, use the following keys.</source>
+          <target state="translated">Para enviar una tabla hash, use las claves siguientes.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>@{Frequency="Once" (or Daily, Weekly, AtStartup, AtLogon);At="3am" (or any valid time string); DaysOfWeek="Monday", "Wednesday" (or any combination of day names); Interval=2 (or any valid frequency interval); RandomDelay="30minutes" (or any valid timespan string); User="Domain1\User01 (or any valid user; used only with the AtLogon frequency value) }</source>
+          <target state="translated">@{Frequency="Once" (o Daily, Weekly, AtStartup, AtLogon);At="3am" (o cualquier cadena de hora válida); DaysOfWeek = "Monday", "Wednesday" (o cualquier combinación de nombres de días); Interval=2 (o cualquier intervalo de frecuencia válido); RandomDelay="30minutes" (o cualquier cadena TimeSpan válida); User="Domain1\User01 (o cualquier usuario válido; solo se usa con el valor de frecuencia AtLogon)}</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Este cmdlet admite los parámetros comunes:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction y - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Para obtener más información, consulte about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRADAS</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</source>
+          <target state="translated">Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>You can pipe scheduled jobs to <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept>.</source>
+          <target state="translated">Puede canalizar trabajos programados a <bpt id="p1">**</bpt>Set-ScheduledJob<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SALIDAS</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>None or Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</source>
+          <target state="translated">Ninguno o Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> parameter, <bpt id="p2">**</bpt>Set-ScheduledJob<ept id="p2">**</ept> returns the scheduled job that was changed.</source>
+          <target state="translated">Si utiliza el <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> parámetro <bpt id="p2">**</bpt>Set-ScheduledJob<ept id="p2">**</ept> devuelve el trabajo programado que se ha cambiado.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">De lo contrario, este cmdlet no genera resultados.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTAS</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VÍNCULOS RELACIONADOS</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs</source>
+          <target state="translated">about_Scheduled_Jobs</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Add-JobTrigger</source>
+          <target state="translated">Add-JobTrigger</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Disable-JobTrigger</source>
+          <target state="translated">Disable-JobTrigger</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Disable-ScheduledJob</source>
+          <target state="translated">Disable-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Enable-JobTrigger</source>
+          <target state="translated">Enable-JobTrigger</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Enable-ScheduledJob</source>
+          <target state="translated">Enable-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Get-JobTrigger</source>
+          <target state="translated">Get-JobTrigger</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJob</source>
+          <target state="translated">Get-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJobOption</source>
+          <target state="translated">Get-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>New-JobTrigger</source>
+          <target state="translated">New-JobTrigger</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>New-ScheduledJobOption</source>
+          <target state="translated">New-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Register-ScheduledJob</source>
+          <target state="translated">Register-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Remove-JobTrigger</source>
+          <target state="translated">Remove-JobTrigger</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Set-JobTrigger</source>
+          <target state="translated">Set-JobTrigger</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJob</source>
+          <target state="translated">Set-ScheduledJob</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Set-ScheduledJobOption</source>
+          <target state="translated">Set-ScheduledJobOption</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Unregister-ScheduledJob</source>
+          <target state="translated">Unregister-ScheduledJob</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3154647bb6f7f37e9f428cf3f822ebcf7466f425</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_pipelines.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ade1b7a643ef9ffde1e8804e570cb62d5aeb7612</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8d8327ea469f7eb12fa1f0450258f6248348467a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>about_Pipelines</source>
+          <target state="translated">about_Pipelines</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Pipelines</source>
+          <target state="translated">Informazioni sulle pipeline</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Pipelines</source>
+          <target state="translated">about_Pipelines</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_pipelines</source>
+          <target state="translated">about_pipelines</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">DESCRIZIONE BREVE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Combining commands into pipelines in the Windows PowerShell</source>
+          <target state="translated">Combinazione di comandi in pipeline in Windows PowerShell</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">DESCRIZIONE LUNGA</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A pipeline is a series of commands connected by pipeline operators (|)(ASCII 124).</source>
+          <target state="translated">Una pipeline è una serie di comandi uniti da operatori barra verticale (|) ASCII (124).</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Each pipeline operator sends the results of the preceding command to the next command.</source>
+          <target state="translated">Ogni operatore pipeline invia i risultati del comando precedente al comando successivo.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use pipelines to send the objects that are output by one command to be used as input to another command for processing.</source>
+          <target state="translated">È possibile utilizzare le pipeline per inviare gli oggetti che vengono restituiti da un comando da utilizzare come input a un altro comando per l'elaborazione.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>And you can send the output of that command to yet another command.</source>
+          <target state="translated">Ed è possibile inviare l'output del comando a un altro comando.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The result is a very powerful command chain or "pipeline" that is comprised of a series of simple commands.</source>
+          <target state="translated">Il risultato è una catena di comando molto potente o "pipeline" che è costituita da una serie di semplici comandi.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example,</source>
+          <target state="translated">Ad esempio:</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Command-1 | Command-2 | Command-3</source>
+          <target state="translated">Comando 1 | Comando 2 | Comando-3</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In this example, the objects that Command-1 emits are sent to Command-2.</source>
+          <target state="translated">In questo esempio, vengono inviati oggetti generati dal comando-1-2 di comando.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Command-2 processes the objects and sends them to Command-3.</source>
+          <target state="translated">2 comando elabora gli oggetti e li invia al comando-3.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Command-3 processes the objects and send them down the pipeline.</source>
+          <target state="translated">Comando 3 elabora gli oggetti e li inviano alla pipeline.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Because there are no more commands in the pipeline, the results are displayed at the console.</source>
+          <target state="translated">Poiché non esistono nessun altro comando nella pipeline, i risultati vengono visualizzati nella console.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In a pipeline, the commands are processed from left to right in the order that they appear.</source>
+          <target state="translated">In una pipeline, i comandi vengono elaborati da sinistra a destra nell'ordine in cui appaiono.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The processing is handled as a single operation and output is displayed as it is generated.</source>
+          <target state="translated">L'elaborazione viene gestita come un'unica operazione e viene visualizzato l'output generato.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Here is a simple example.</source>
+          <target state="translated">Ecco un semplice esempio.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following command gets the Notepad process and then stops it.</source>
+          <target state="translated">Il comando seguente ottiene il processo Notepad e quindi interrotta.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>get-process notepad | stop-process</source>
+          <target state="translated">il blocco note Get-process | Stop-process</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-Process cmdlet to get an object representing the Notepad process.</source>
+          <target state="translated">Il primo comando Usa il cmdlet Get-Process per ottenere un oggetto che rappresenta il processo di blocco note.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to send the process object to the Stop-Process cmdlet, which stops the Notepad process.</source>
+          <target state="translated">Utilizza un operatore pipeline (|) per inviare l'oggetto processo al cmdlet Stop-Process, che interrompe il processo di blocco note.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Notice that the Stop-Process command does not have a Name or ID parameter to specify the process, because the specified process is submitted through the pipeline.</source>
+          <target state="translated">Si noti che il comando Stop-Process non hanno un parametro di nome o ID per specificare il processo, poiché il processo specificato viene inviato attraverso la pipeline.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Here is a practical example.</source>
+          <target state="translated">Ecco un esempio pratico.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command pipeline gets the text files in the current directory, selects only the files that are more than 10,000 bytes long, sorts them by length, and displays the name and length of each file in a table.</source>
+          <target state="translated">Questa pipeline comando Ottiene i file di testo nella directory corrente, seleziona solo i file che sono più di 10.000 byte, li ordina in base alla lunghezza e visualizza il nome e la lunghezza di ogni file in una tabella.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Get-ChildItem -path *.txt | Where-Object {$_.length -gt 10000} | Sort-Object -property Length | Format-Table -property name, length</source>
+          <target state="translated">Get-ChildItem-path *. txt | Where-Object {$_.length - gt 10000} | Sort-Object-proprietà Length | Format-Table-nome della proprietà, lunghezza</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This pipeline is comprised of four commands in the specified order.</source>
+          <target state="translated">Questa pipeline è costituita da quattro comandi nell'ordine specificato.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The command is written horizontally, but we will show the process vertically in the following graphic.</source>
+          <target state="translated">Il comando è scritto in senso orizzontale, ma verrà illustrato il processo in senso verticale nel grafico seguente.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Get-ChildItem -path *.txt</source>
+          <target state="translated">Get-ChildItem-path *. txt</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>|   (FileInfo objects ) |   (    .txt         )</source>
+          <target state="translated">|   (Oggetti FileInfo) |   (    .txt         )</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>V</source>
+          <target state="translated">V</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Where-Object {$_.length -gt 10000}</source>
+          <target state="translated">Where-Object {$_.length - gt 10000}</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>|   (FileInfo objects ) |   (    .txt         ) |   ( Length &gt; 10000  )</source>
+          <target state="translated">|   (Oggetti FileInfo) |   (    .txt         ) |   (Lunghezza &gt; 10000)</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>V</source>
+          <target state="translated">V</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Sort-Object -property Length</source>
+          <target state="translated">Sort-Object-proprietà Length</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>|   (FileInfo objects  ) |   (    .txt          ) |   ( Length &gt; 10000   ) |   ( Sorted by length )</source>
+          <target state="translated">|   (Oggetti FileInfo) |   (    .txt          ) |   (Lunghezza &gt; 10000) |   (Ordinati in base alla lunghezza)</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>V</source>
+          <target state="translated">V</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Format-Table -property name, length</source>
+          <target state="translated">Format-Table-nome della proprietà, lunghezza</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>|   (FileInfo objects     ) |   (    .txt             ) |   ( Length &gt; 10000      ) |   ( Sorted by length    ) |   (Formatted in a table )</source>
+          <target state="translated">|   (Oggetti FileInfo) |   (    .txt             ) |   (Lunghezza &gt; 10000) |   (In base alla lunghezza) |   (Nel formato in una tabella)</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>V</source>
+          <target state="translated">V</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Name                       Length</source>
+          <target state="translated">Lunghezza del nome</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>tmp1.txt                    82920 tmp2.txt                   114000 tmp3.txt                   114000</source>
+          <target state="translated">tmp1.txt 82920 tmp2.txt 114000 tmp3.txt 114000</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>USING PIPELINES</source>
+          <target state="translated">UTILIZZO DI PIPELINE</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell cmdlets were designed to be used in pipelines.</source>
+          <target state="translated">I cmdlet Windows PowerShell sono stati progettati per essere utilizzato nelle pipeline.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For example, you can usually pipe the results of a Get cmdlet to an action cmdlet (such as a Set, Start, Stop, or Rename cmdlet) for the same noun.</source>
+          <target state="translated">Ad esempio, è possibile reindirizzare in genere i risultati di un cmdlet Get a un cmdlet di azione (ad esempio, un cmdlet Set, avvia, arresta o Rinomina) per il sostantivo stesso.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For example, you can pipe any service from the Get-Service cmdlet to the Start-Service or Stop-Service cmdlets (although disabled services cannot be restarted in this way).</source>
+          <target state="translated">Ad esempio, è possibile reindirizzare qualsiasi servizio dal cmdlet Get-Service per il cmdlet Start-Service o Stop-Service (sebbene servizi disabilitati non possono essere riavviati in questo modo).</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This command pipeline starts the WMI service on the computer:</source>
+          <target state="translated">Questa pipeline comando avvia il servizio WMI nel computer:</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>get-service wmi | start-service</source>
+          <target state="translated">Get-service wmi | Avvia servizio</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The cmdlets that get and set objects of the Windows PowerShell providers, such as the Item and ItemProperty cmdlets, are also designed to be used in pipelines.</source>
+          <target state="translated">I cmdlet di ottenere e impostare gli oggetti di provider di Windows PowerShell, ad esempio i cmdlet ItemProperty e articoli, sono inoltre progettati per da utilizzare nelle pipeline.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example, you can pipe the results of a Get-Item or Get-ChildItem command in the Windows PowerShell registry provider to the New-ItemProperty cmdlet.</source>
+          <target state="translated">Ad esempio, è possibile reindirizzare i risultati di un elemento Get o un comando Get-ChildItem del provider del Registro di sistema di Windows PowerShell per il cmdlet New-ItemProperty.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This command adds a new registry entry, NoOfEmployees, with a value of 8124, to the MyCompany registry key.</source>
+          <target state="translated">Questo comando aggiunge una nuova voce di registro di sistema, NoOfEmployees, con un valore di 8124, alla chiave del Registro di sistema MyCompany.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>get-item -path HKLM:\Software\MyCompany | new-Itemproperty -name NoOfEmployees -value 8124</source>
+          <target state="translated">Get-item - path HKLM:\Software\MyCompany | nuovo Itemproperty-NoOfEmployees nome-valore 8124</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Many of the utility cmdlets, such as Get-Member, Where-Object, Sort-Object, Group-Object, and Measure-Object are used almost exclusively in pipelines.</source>
+          <target state="translated">Molti dei cmdlet di utilità, ad esempio Get-Member, Where-Object, Sort-Object, oggetto gruppo e oggetto misura vengono utilizzati quasi esclusivamente nella pipeline.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can pipe any objects to these cmdlets.</source>
+          <target state="translated">È possibile reindirizzare tutti gli oggetti a questi cmdlet.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For example, you can pipe all of the processes on the computer to the Sort-Object command and have them sorted by the number of handles in the process.</source>
+          <target state="translated">Ad esempio, è possibile inviare tramite pipe tutti i processi nel computer per il comando Sort-Object e farli ordinati in base al numero di handle del processo.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>get-process | sort-object -property handles</source>
+          <target state="translated">Get-process | Sort-object-proprietà gestisce</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Also, you can pipe any objects to the formatting cmdlets, such as Format-List and Format-Table, the Export cmdlets, such as Export-Clixml and Export-CSV, and the Out cmdlets, such as Out-Printer.</source>
+          <target state="translated">Inoltre, è possibile reindirizzare tutti gli oggetti per i cmdlet di formattazione, ad esempio Format-List e Format-Table, i cmdlet di esportazione, ad esempio Export-Clixml ed Export-CSV e i cmdlet Out, ad esempio out-Printer.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For example, you can pipe the Winlogon process to the Format-List cmdlet to display all of the properties of the process in a list.</source>
+          <target state="translated">Ad esempio, è possibile reindirizzare il processo Winlogon al cmdlet Format-List per visualizzare tutte le proprietà del processo in un elenco.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>get-process winlogon | format-list -property *</source>
+          <target state="translated">winlogon Get-process | formato elenco-proprietà *</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>With a bit of practice, you'll find that combining simple commands into pipelines saves time and typing, and makes your scripting more efficient.</source>
+          <target state="translated">Con un po' di pratica, troverete la combinazione di semplici comandi in pipeline consente di risparmiare tempo e digitando che rende più efficiente la creazione di script.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>HOW PIPELINES WORK</source>
+          <target state="translated">FUNZIONANO DELLE PIPELINE</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>When you "pipe" objects, that is send the objects in the output of one command to another command, Windows PowerShell tries to associate the piped objects with one of the parameters of the receiving cmdlet.</source>
+          <target state="translated">Quando si "pipe" oggetti, che vengono inviati gli oggetti nell'output di un comando a un altro comando, Windows PowerShell tenta di associare gli oggetti reindirizzati a uno dei parametri del cmdlet ricevente.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To do so, the Windows PowerShell "parameter binding" component, which associates input objects with cmdlet parameters, tries to find a parameter that meets the following criteria:</source>
+          <target state="translated">A tale scopo, il componente di Windows PowerShell "associazione di parametri", che associa gli oggetti di input con i parametri del cmdlet, tenta di trovare un parametro che soddisfa i criteri seguenti:</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-- The parameter must accept input from a pipeline (not all do) -- The parameter must accept the type of object being sent or a type that the object can be converted to.</source>
+          <target state="translated">-- Il parametro deve accettare l'input da una pipeline (non tutti eseguire), il parametro è necessario accettare il tipo di oggetto inviato o un tipo che l'oggetto può essere convertito in.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-- The parameter must not already be used in the command.</source>
+          <target state="translated">-Il parametro non deve già essere usato nel comando.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For example, the Start-Service cmdlet has many parameters, but only two of them, Name and InputObject accept pipeline input.</source>
+          <target state="translated">Ad esempio, il cmdlet Start-Service è un numero di parametri, ma solo due di essi, nome e InputObject accettare input da pipeline.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The Name parameter takes strings and the InputObject parameter takes service objects.</source>
+          <target state="translated">Il nome del parametro accetta stringhe e il parametro InputObject gli oggetti del servizio.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Therefore, you can pipe strings and service objects (and objects with properties that can be converted to string and service objects) to Start-Service.</source>
+          <target state="translated">Pertanto, è possibile reindirizzare le stringhe e servizio oggetti (e oggetti con proprietà che possono essere convertiti in oggetti stringa e il servizio) a Start-Service.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If the parameter binding component of Windows PowerShell cannot associate the piped objects with a parameter of the receiving cmdlet, the command fails and Windows PowerShell prompts you for the missing parameter values.</source>
+          <target state="translated">Se il componente di associazione di parametro di Windows PowerShell non può associare oggetti reindirizzati a un parametro del cmdlet ricevente, il comando non riesce e Windows PowerShell richiede i valori dei parametri mancanti.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You cannot force the parameter binding component to associate the piped objects with a particular parameter -- you cannot even suggest a parameter.</source>
+          <target state="translated">Non è possibile forzare il componente di associazione di parametro per associare gli oggetti reindirizzati a un determinato parametro, è possibile persino di suggerire un parametro.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Instead, the logic of the component manages the piping as efficiently as possible.</source>
+          <target state="translated">Al contrario, la logica del componente gestisce il piping più efficiente possibile.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>ONE-AT-A-TIME PROCESSING</source>
+          <target state="translated">UNO-AT-A-TEMPO DI ELABORAZIONE</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Piping objects to a command is much like using a parameter of the command to submit the objects.</source>
+          <target state="translated">Invio tramite pipe oggetti a un comando è molto simile all'utilizzo di un parametro del comando per inviare gli oggetti.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For example, piping objects representing the services on the computer to a Format-Table command, such as:</source>
+          <target state="translated">Ad esempio, inviare tramite pipe gli oggetti che rappresentano i servizi nel computer a un comando Format-Table, ad esempio:</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>get-service | format-table -property name, dependentservices</source>
+          <target state="translated">Get-service | formato tabella-proprietà name, dependentservices</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>is much like saving the service objects in a variable and using the InputObject parameter of Format-Table to submit the service object.</source>
+          <target state="translated">è molto simile salvare gli oggetti del servizio in una variabile e utilizzando il parametro InputObject di Format-Table per inviare l'oggetto servizio.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>$services = get-service format-table -inputobject $services -property name, dependentservices</source>
+          <target state="translated">$services = get-service. formato-tabella - inputobject $services-proprietà name, dependentservices</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>or imbedding the command in the parameter value</source>
+          <target state="translated">o incorporamento il comando nel valore del parametro</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>format-table -inputobject (get-service wmi) -property name, dependentservices</source>
+          <target state="translated">formato tabella - inputobject (get-service wmi)-nome della proprietà, dependentservices</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>However, there is an important difference.</source>
+          <target state="translated">Tuttavia, esiste una differenza importante.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When you pipe multiple objects to a command, Windows PowerShell sends the objects to the command one at a time.</source>
+          <target state="translated">Quando si invia tramite pipe più oggetti a un comando, Windows PowerShell invia gli oggetti per il comando uno alla volta.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When you use a command parameter, the objects are sent as a single array object.</source>
+          <target state="translated">Quando si utilizza un parametro del comando, gli oggetti vengono inviati come singolo oggetto di matrice.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This seemingly technical difference can have interesting, and sometimes useful, consequences.</source>
+          <target state="translated">Questa differenza apparentemente tecnica può avere conseguenze interessanti e utili in alcuni casi.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For example, if you pipe multiple process objects from the Get-Process cmdlet to the Get-Member cmdlet, Windows PowerShell sends each process object, one at a time, to Get-Member.</source>
+          <target state="translated">Ad esempio, se si invia tramite pipe più oggetti processo dal cmdlet Get-Process al cmdlet Get-Member, Windows PowerShell invia ogni oggetto processo, uno alla volta, a Get-Member.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Get-Member displays the .NET class (type) of the process objects, and their properties and methods.</source>
+          <target state="translated">Get-Member Visualizza la classe .NET (tipo) di tali oggetti e le proprietà e metodi.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>(Get-Member eliminates duplicates, so if the objects are all of the same type, it displays only one object type.)</source>
+          <target state="translated">(Get-Member Elimina i duplicati, in modo che se gli oggetti sono tutti dello stesso tipo, visualizzato solo un tipo di oggetto.)</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>In this case, Get-Member displays the properties and methods of each process object, that is, a System.Diagnostics.Process object.</source>
+          <target state="translated">In questo caso, Get-Member Visualizza le proprietà e metodi di ogni oggetto processo, vale a dire un oggetto System.Diagnostics.Process.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>get-process | get-member</source>
+          <target state="translated">Get-process | get-member</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>TypeName: System.Diagnostics.Process</source>
+          <target state="translated">TypeName: System.Diagnostics.Process</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Name                           MemberType     Definition</source>
+          <target state="translated">Nome MemberType definizione</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Handles                        AliasProperty  Handles = Handlecount Name                           AliasProperty  Name = ProcessName NPM                            AliasProperty  NPM = NonpagedSystemMemorySize</source>
+          <target state="translated">Gestisce gli handle AliasProperty = numero di handle nome AliasProperty = ProcessName NPM AliasProperty NPM = NonpagedSystemMemorySize</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>However, if you use the InputObject parameter of Get-Member, then Get-Member receives an array of System.Diagnostics.Process objects as a single unit, and it displays the properties of an array of objects.</source>
+          <target state="translated">Tuttavia, se si utilizza il parametro InputObject di Get-Member, Get-Member riceve una matrice di oggetti System.Diagnostics.Process come una singola unità, e vengono visualizzate le proprietà di una matrice di oggetti.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>(Note the array symbol ([]) after the System.Object type name.)</source>
+          <target state="translated">Si noti il simbolo di matrice ([]) dopo il nome del tipo System. Object.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>get-member -inputobject (get-process)</source>
+          <target state="translated">get-member - inputobject (get-process)</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>TypeName: System.Object[]</source>
+          <target state="translated">TypeName: System. Object]</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Name               MemberType    Definition</source>
+          <target state="translated">Nome MemberType definizione</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Count              AliasProperty Count = Length Address            Method        System.Object&amp; Address(Int32 ) Clone              Method        System.Object Clone()</source>
+          <target state="translated">Conteggio AliasProperty conteggio = lunghezza indirizzo metodo System. Object &amp; indirizzo clone di System. Object (Int32) Clone (metodo)</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This result might not be what you intended, but after you understand it, you can use it.</source>
+          <target state="translated">Questo risultato potrebbe non essere quello desiderato, ma dopo aver compreso, è possibile utilizzarlo.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For example, an array of process objects has a Count property that you can use to count the number of processes on the computer.</source>
+          <target state="translated">Ad esempio, una matrice di oggetti processo ha una proprietà Count che consente di contare il numero di processi nel computer.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>(get-process).count</source>
+          <target state="translated">.count (get-process)</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This distinction can be important, so remember that when you pipe objects to a cmdlet, they are delivered one at a time.</source>
+          <target state="translated">Questa distinzione può essere importante, pertanto, tenere presente che quando si invia tramite pipe oggetti a un cmdlet, vengano recapitati una alla volta.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>ACCEPTS PIPELINE INPUT</source>
+          <target state="translated">ACCETTA L'INPUT DELLA PIPELINE</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>In order to receive objects in a pipeline, the receiving cmdlet must have a parameter that accepts pipeline input.</source>
+          <target state="translated">Per ricevere gli oggetti in una pipeline, il cmdlet ricevente deve avere un parametro che accetta l'input della pipeline.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>You can use a Get-Help command with the Full or Parameter parameters to determine which, if any, of a cmdlet's parameters accepts pipeline input.</source>
+          <target state="translated">È possibile utilizzare un comando Get-Help con i parametri di tipo completi o parametro per determinare che, se presente, di parametri dei cmdlet accetta input della pipeline.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In the Get-Help default display, the "Accepts pipeline input" item appears in a table of parameter attributes.</source>
+          <target state="translated">Nella visualizzazione predefinita, Get-Help l'elemento "Accetta input da pipeline" viene visualizzato in una tabella di attributi dei parametri.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This table is displayed only when you use the Full or Parameter parameters of the Get-Help cmdlet.</source>
+          <target state="translated">Questa tabella viene visualizzata solo quando si utilizzano i parametri Full o parametro del cmdlet Get-Help.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For example, to determine which of the parameters of the Start-Service cmdlet accepts pipeline input, type:</source>
+          <target state="translated">Ad esempio, per determinare quale dei parametri del cmdlet Start-Service accetta l'input della pipeline, tipo:</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>get-help start-service -full</source>
+          <target state="translated">get-help start-service-completo</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>get-help start-service -parameter *</source>
+          <target state="translated">get-help start-service-parametro *</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For example, the help for the Start-Service cmdlet shows that the Name and InputObject parameters accept pipeline input ("true").</source>
+          <target state="translated">Ad esempio, la Guida per il cmdlet Start-Service mostra che i parametri Name e InputObject accettano input da pipeline ("true").</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>All other parameters have a value of "false" in the "Accept pipeline input?"</source>
+          <target state="translated">Tutti gli altri parametri hanno un valore "false" in "Accept pipeline input?"</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>row.</source>
+          <target state="translated">riga.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-name &lt;string[]&gt; Specifies the service names for the service to be started.</source>
+          <target state="translated">-nome &lt; string [] &gt; specifica i nomi di servizio per il servizio da avviare.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The parameter name is optional.</source>
+          <target state="translated">Il nome del parametro è facoltativo.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>You can use "-Name" or its alias, "-ServiceName", or you can omit the parameter name.</source>
+          <target state="translated">È possibile usare "-Name" o il relativo alias "-ServiceName" oppure è possibile omettere il nome del parametro.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Required?</source>
+          <target state="translated">Obbligatorio?</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>true Position?</source>
+          <target state="translated">l'effettiva posizione?</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>1 Default value --&gt;  Accept pipeline input?</source>
+          <target state="translated">Valore predefinito 1--&gt; accetta input da pipeline?</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>true (ByValue, ByPropertyName) Accept wildcard characters?</source>
+          <target state="translated">true (ByValue, ByPropertyName) accettano caratteri jolly?</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>true</source>
+          <target state="translated">True</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-inputObject &lt;ServiceController[]&gt; Specifies ServiceController objects representing the services to be started.</source>
+          <target state="translated">oggetti ServiceController specifica - inputObject &lt; ServiceController [] &gt; che rappresenta i servizi da avviare.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects or type a command or expression that gets the objects.</source>
+          <target state="translated">Immettere una variabile che contiene gli oggetti oppure digitare un comando o un'espressione che ottiene gli oggetti.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Required?</source>
+          <target state="translated">Obbligatorio?</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>false Position?</source>
+          <target state="translated">Posizione false?</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>named Default value --&gt;  Accept pipeline input?</source>
+          <target state="translated">il valore predefinito denominato--&gt; accetta input da pipeline?</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>true (ByValue) Accept wildcard characters?</source>
+          <target state="translated">true (ByValue) accetta i caratteri jolly?</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>false</source>
+          <target state="translated">False</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>This means that you can send objects (PsObjects) through the pipeline to the Where-Object cmdlet and Windows PowerShell will associate the object with the InputObject parameter.</source>
+          <target state="translated">Ciò significa che è possibile inviare oggetti (PsObjects) tramite la pipeline al cmdlet Where-Object e Windows PowerShell verrà associato l'oggetto con il parametro InputObject.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>METHODS OF ACCEPTING PIPELINE INPUT</source>
+          <target state="translated">METODI DI ACCETTARE INPUT PIPELINE</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Cmdlets parameters can accept pipeline input in one of two different ways:</source>
+          <target state="translated">I parametri cmdlet possono accettare input della pipeline in uno dei due modi diversi:</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-- ByValue: Parameters that accept input "by value" can accept piped objects that have the same .NET type as their parameter value or objects that can be converted to that type.</source>
+          <target state="translated">-ByValue: parametri che accettano input "valore" può accettare reindirizzato oggetti che hanno lo stesso tipo .NET come i relativi valori di parametro o può essere convertito in quel tipo.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For example, the Name parameter of Start-Service accepts pipeline input by value.</source>
+          <target state="translated">Ad esempio, il parametro Name di Start-Service accetta l'input della pipeline per valore.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>It can accept string objects or objects that can be converted to strings.</source>
+          <target state="translated">Può accettare gli oggetti che possono essere convertiti in stringhe o oggetti stringa.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>-- ByPropertyName: Parameters that accept input "by property name" can accept piped objects only when a property of the object has the same name as the parameter.</source>
+          <target state="translated">-ByPropertyName: i parametri che accettano input "dal nome della proprietà" può accettare reindirizzato oggetti solo quando una proprietà dell'oggetto ha lo stesso nome come parametro.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>For example, the Name parameter of Start-Service can accept objects that have a Name property.</source>
+          <target state="translated">Ad esempio, il parametro Name di Start-Service può accettare gli oggetti che hanno una proprietà Name.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>(To list the properties of an object, pipe it to Get-Member.)</source>
+          <target state="translated">(Per elencare le proprietà di un oggetto, inviarlo tramite pipe a Get-Member.)</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Some parameters can accept objects by value or by property name.</source>
+          <target state="translated">Alcuni parametri possono accettare gli oggetti per valore o dal nome della proprietà.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>These parameters are designed to take input from the pipeline easily.</source>
+          <target state="translated">Questi parametri sono progettati per rendere facilmente input dalla pipeline.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>INVESTIGATING PIPELINE ERRORS</source>
+          <target state="translated">ESAMINARE GLI ERRORI DI PIPELINE</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If a command fails because of a pipeline error, you can investigate the failure and rewrite the command.</source>
+          <target state="translated">Se un comando non riesce a causa di un errore di pipeline, è possibile esaminare il problema e riscrivere il comando.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For example, the following command tries to move a registry entry from one registry key to another by using the Get-Item cmdlet to get the destination path and then piping the path to the Move-ItemProperty cmdlet.</source>
+          <target state="translated">Ad esempio, il comando seguente tenta di spostare una voce del Registro di sistema da una chiave del registro a altro utilizzando il cmdlet Get-Item per ottenere il percorso di destinazione e quindi inviare tramite pipe il percorso al cmdlet Move-ItemProperty.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Specifically, the command uses the Get-Item cmdlet to get the destination path.</source>
+          <target state="translated">In particolare, il comando Usa il cmdlet Get-Item per ottenere il percorso di destinazione.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator to send the result to the Move-ItemProperty cmdlet.</source>
+          <target state="translated">Utilizza un operatore pipeline per inviare il risultato al cmdlet Move-ItemProperty.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The Move-ItemProperty command specifies the current path and name of the registry entry to be moved.</source>
+          <target state="translated">Il comando Move-ItemProperty specifica il percorso corrente e il nome della voce del Registro di sistema da spostare.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>get-item -path hklm:\software\mycompany\sales | move-itemproperty -path hklm:\software\mycompany\design -name product</source>
+          <target state="translated">Get-item - path hklm:\software\mycompany\sales | Move-itemproperty-path hklm:\software\mycompany\design-prodotto nome</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The command fails and Windows PowerShell displays the following error message:</source>
+          <target state="translated">Il comando non riesce e Windows PowerShell Visualizza il messaggio di errore seguente:</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Move-ItemProperty : The input object cannot be bound to any parameters for the command either because the command does not take pipeline input or the input and its properties do not match any of the parameters that take pipeline input.</source>
+          <target state="translated">Move-ItemProperty: L'oggetto di input non può essere associato a tutti i parametri per il comando perché il comando non accetta input della pipeline o l'input e le relative proprietà non corrispondono a uno dei parametri che accettano input della pipeline.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>At line:1 char:23</source>
+          <target state="translated">Nella riga: 1 char: 23</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>$a | move-itemproperty &lt;&lt;&lt;&lt;  -path hklm:\software\mycompany\design -name product</source>
+          <target state="translated">$un | Move-itemproperty &lt;&lt;&lt;&lt;-hklm:\software\mycompany\design percorso-prodotto nome</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>To investigate, use the Trace-Command cmdlet to trace the Parameter Binding component of Windows PowerShell.</source>
+          <target state="translated">Per analizzare il problema, utilizzare il cmdlet Trace-Command per individuare il componente di associazione di parametri di Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The following command traces the Parameter Binding component while the command is processing.</source>
+          <target state="translated">Il comando seguente esegue la traccia del componente di associazione di parametri durante l'elaborazione il comando.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>It uses the -pshost parameter to display the results at the console and the -filepath command to send them to the debug.txt file for later reference.</source>
+          <target state="translated">Utilizza il parametro - pshost per visualizzare i risultati nella console e il comando - filepath di inviarli al file txt per riferimento futuro.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>trace-command -name parameterbinding -expression {get-item -path hklm:\software\mycompany\sales | move-itemproperty -path hklm:\software\mycompany\design -name product} -pshost -filepath debug.txt</source>
+          <target state="translated">Trace-command - nome parameterbinding-espressione {get-item-path hklm:\software\mycompany\sales | move-itemproperty-hklm:\software\mycompany\design percorso-prodotto nome} - pshost - filepath txt</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The results of the trace are lengthy, but they show the values being bound to the Get-Item cmdlet and then the named values being bound to the Move-ItemProperty cmdlet.</source>
+          <target state="translated">I risultati della traccia sono lunghi, ma mostrano i valori da associare al cmdlet Get-Item e quindi i valori denominati da associare al cmdlet Move-ItemProperty.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>BIND NAMED cmd line args [Move-ItemProperty] BIND arg [hklm:\software\mycompany\design] to parameter [Path]</source>
+          <target state="translated">BINDING DENOMINATO cmd riga args [Move-ItemProperty] BINDING arg [hklm:\software\mycompany\design] al parametro [percorso]</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>BIND arg [product] to parameter [Name]</source>
+          <target state="translated">ASSOCIARE arg [product] al parametro [nome]</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>....</source>
+          <target state="translated">....</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>BIND POSITIONAL cmd line args [Move-ItemProperty]</source>
+          <target state="translated">ASSOCIARE POSIZIONALI cmd riga args [Move-ItemProperty]</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Finally, it shows that the attempt to bind the path to the Destination parameter of Move-ItemProperty failed.</source>
+          <target state="translated">Infine, mostra che il tentativo di associare il percorso per il parametro di destinazione di Move-ItemProperty non riuscita.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>BIND PIPELINE object to parameters: [Move-ItemProperty] PIPELINE object TYPE = [Microsoft.Win32.RegistryKey] RESTORING pipeline parameter's original values Parameter [Destination] PIPELINE INPUT ValueFromPipelineByPropertyName NO COERCION Parameter [Credential] PIPELINE INPUT ValueFromPipelineByPropertyName NO COERCION</source>
+          <target state="translated">Oggetto PIPELINE ASSOCIARE parametri: TIPO di oggetto PIPELINE [Move-ItemProperty] = [Microsoft.Win32.RegistryKey] originale del parametro di RIPRISTINO pipeline valori di parametro [destinazione] PIPELINE INPUT ValueFromPipelineByPropertyName n COERCIZIONE parametro [credenziale] PIPELINE INPUT ValueFromPipelineByPropertyName n COERCIZIONE</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>...</source>
+          <target state="translated">...</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>To investigate the failure, use the Get-Help cmdlet to view the attributes of the Destination parameter.</source>
+          <target state="translated">Per esaminare il problema, utilizzare il cmdlet Get-Help per visualizzare gli attributi del parametro Destination.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The following command gets detailed information about the Destination parameter.</source>
+          <target state="translated">Il comando seguente ottiene informazioni dettagliate sul parametro di destinazione.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>get-help move-itemproperty -parameter destination</source>
+          <target state="translated">get-help move-itemproperty-destinazione parametro</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The results show that Destination takes pipeline input only "by property name".</source>
+          <target state="translated">I risultati mostrano che destinazione accetta l'input della pipeline solo "dal nome della proprietà".</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>That is, the piped object must have a property named Destination.</source>
+          <target state="translated">Ovvero, l'oggetto inviato tramite pipe deve avere una proprietà denominata destinazione.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>-destination <ph id="ph1">&lt;string&gt;</ph> Specifies the path to the destination location.</source>
+          <target state="translated">-destinazione <ph id="ph1">&lt;string&gt;</ph> Specifica il percorso della posizione di destinazione.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Required?</source>
+          <target state="translated">Obbligatorio?</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>true Position?</source>
+          <target state="translated">l'effettiva posizione?</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>2 Default value Accept pipeline input?</source>
+          <target state="translated">Valore predefinito 2, accetta input da pipeline?</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>true (ByPropertyName) Accept wildcard characters?</source>
+          <target state="translated">true (ByPropertyName) accetta i caratteri jolly?</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>true</source>
+          <target state="translated">True</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>To see the properties of the object being piped to the Move-ItemProperty cmdlet, pipe it to the Get-Member cmdlet.</source>
+          <target state="translated">Per visualizzare le proprietà dell'oggetto viene reindirizzato al cmdlet Move-ItemProperty, inviarlo tramite pipe al cmdlet Get-Member.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The following command pipes the results of the first part of the command to the Get-Member cmdlet.</source>
+          <target state="translated">Il comando seguente invia i risultati della prima parte del comando al cmdlet Get-Member.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>get-item -path hklm:\software\mycompany\sales | get-member</source>
+          <target state="translated">Get-item - path hklm:\software\mycompany\sales | get-member</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The output shows that the item is a Microsoft.Win32.RegistryKey that does not have a Destination property.</source>
+          <target state="translated">L'output mostra che l'elemento è un Microsoft.Win32.RegistryKey che non dispone di una proprietà di destinazione.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>That explains why the command failed.</source>
+          <target state="translated">Che spiega perché il comando non è riuscito.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>To fix the command, we must specify the destination in the Move-ItemProperty cmdlet.</source>
+          <target state="translated">Per risolvere il comando, è necessario specificare la destinazione nel cmdlet Move-ItemProperty.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>We can use a Get-ItemProperty command to get the path, but the name and destination must be specified in the Move-ItemProperty part of the command.</source>
+          <target state="translated">È possibile utilizzare un comando Get-ItemProperty per ottenere il percorso, ma il nome e la destinazione deve essere specificati nella parte del comando Move-ItemProperty.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>get-item -path hklm:\software\mycompany\design | move-itemproperty -dest hklm:\software\mycompany\design -name product</source>
+          <target state="translated">Get-item - path hklm:\software\mycompany\design | Move-itemproperty - dest hklm:\software\mycompany\design-prodotto nome</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>To verify that the command worked, use a Get-ItemProperty command:</source>
+          <target state="translated">Per verificare che sia stato eseguito il comando, utilizzare un comando Get-ItemProperty:</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>get-itemproperty hklm:\software\mycompany\sales</source>
+          <target state="translated">Get-itemproperty hklm:\software\mycompany\sales</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The results show that the Product registry entry was moved to the Sales key.</source>
+          <target state="translated">I risultati mostrano che la voce del Registro di sistema è stata spostata alla chiave del cliente.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\software\mycompany\sales PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\software\mycompany PSChildName  : sales PSDrive      : HKLM PSProvider   : Microsoft.PowerShell.Core\Registry Product      : 18</source>
+          <target state="translated">PSPath: PSParentPath Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\software\mycompany\sales: Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\software\mycompany PSChildName: vendite PSDrive: PSProvider HKLM: prodotto Microsoft.PowerShell.Core\Registry: 18</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">VEDERE ANCHE</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>about_objects about_parameters about_command_syntax about_foreach</source>
+          <target state="translated">about_objects about_parameters about_command_syntax about_foreach</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">43bccade47061c12062605e0cd36f9e686a20630</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Management\Complete-Transaction.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4d153c2e5a0e00654c9ec0047d369364bbb6948d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">87f679e34ab27bfe71eccaef654ff08c05dbf6e5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Complete-Transaction</source>
+          <target state="translated">Complete-Transaction</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Complete-Transaction</source>
+          <target state="translated">Complete-Transaction</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">RIEPILOGO</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Commits the active transaction.</source>
+          <target state="translated">Esegue il commit della transazione attiva.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTASSI</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIZIONE</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Complete-Transaction cmdlet commits an active transaction.</source>
+          <target state="translated">Il cmdlet Complete-Transaction esegue il commit di una transazione attiva.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When you commit a transaction, the commands in the transaction are finalized and the data affected by the commands is changed.</source>
+          <target state="translated">Quando si esegue il commit di una transazione, i comandi della transazione vengono completati e i dati interessati dai comandi vengono modificati.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the transaction includes multiple subscribers, to commit the transaction, you must enter one Complete-Transaction command for every Start-Transaction command.</source>
+          <target state="translated">Se la transazione include più sottoscrittori, per eseguirne il commit è necessario immettere un comando Complete-Transaction per ogni comando Start-Transaction.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Complete-Transaction cmdlet is one of a set of cmdlets that support the transactions feature in Windows PowerShell.</source>
+          <target state="translated">Il cmdlet Complete-Transaction fa parte di un set di cmdlet che supportano la funzionalità delle transazioni in Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Transactions.</source>
+          <target state="translated">Per altre informazioni, vedere about_Transactions.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ESEMPI</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- ESEMPIO 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of using the Complete-Transaction cmdlet to commit a transaction.</source>
+          <target state="translated">Questo esempio illustra l'effetto dell'utilizzo del cmdlet Complete-Transaction per eseguire il commit di una transazione.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The Start-Transaction command starts the transaction.</source>
+          <target state="translated">Il comando Start-Transaction avvia la transazione.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The New-Item command uses the UseTransaction parameter to include the command in the transaction.</source>
+          <target state="translated">Il comando New-Item usa il parametro UseTransaction per includere il comando nella transazione.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The first "dir" (Get-ChildItem) command shows that the new item has not yet been added to the registry.</source>
+          <target state="translated">Il primo comando "dir" (Get-ChildItem) mostra che il nuovo elemento non è ancora stato aggiunto al Registro di sistema.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The Complete-Transaction command commits the transaction, which makes the registry change effective.</source>
+          <target state="translated">Il comando Complete-Transaction esegue il commit della transazione, applicando la modifica al Registro di sistema.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>As a result, the second "dir" command shows that the registry is changed.</source>
+          <target state="translated">Di conseguenza, il secondo comando "dir" mostra che il Registro di sistema è stato modificato.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This example shows how to use Complete-Transaction to commit a transaction that has more than one subscriber.</source>
+          <target state="translated">Questo esempio illustra come usare Complete-Transaction per eseguire il commit di una transazione con più sottoscrittori.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To commit a multi-subscriber transaction, you must enter one Complete-Transaction command for every Start-Transaction command.</source>
+          <target state="translated">Per eseguire il commit di una transazione con più sottoscrittori, è necessario immettere un comando Complete-Transaction per ogni comando Start-Transaction.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The data is changed only when the final Complete-Transaction command is submitted.</source>
+          <target state="translated">I dati vengono modificati solo quando viene inviato il comando Complete-Transaction finale.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For demonstration purposes, this example shows a series of commands entered at the command line.</source>
+          <target state="translated">A scopo dimostrativo, questo esempio mostra una serie di comandi immessi dalla riga di comando.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In practice, transactions are likely to be run in scripts, with the secondary transaction being run by a function or helper script that is called by the main script.</source>
+          <target state="translated">In pratica, le transazioni vengono verosimilmente eseguite in script, con la transazione secondaria eseguita da uno script di funzione o di supporto chiamato dallo script principale.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In this example, a Start-Transaction command starts the transaction.</source>
+          <target state="translated">In questo esempio, un comando Start-Transaction avvia la transazione.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A New-Item command with the UseTransaction parameter adds the MyCompany key to the Software key.</source>
+          <target state="translated">Un comando New-Item con il parametro UseTransaction aggiunge la chiave MyCompany alla chiave Software.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Although the New-Item command returns a key object, the data in the registry is not yet changed.</source>
+          <target state="translated">Sebbene il comando New-Item restituisca un oggetto chiave, i dati nel Registro di sistema non vengono ancora modificati.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A second Start-Transaction command adds a second subscriber to the existing transaction.</source>
+          <target state="translated">Un secondo comando Start-Transaction aggiunge un secondo sottoscrittore alla transazione esistente.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The Get-Transaction command confirms that the subscriber count is 2.</source>
+          <target state="translated">Il comando Get-Transaction conferma che il numero di sottoscrittori è 2.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A New-ItemProperty command with the UseTransaction parameter adds a registry entry to the new MyCompany key.</source>
+          <target state="translated">Un comando New-ItemProperty con il parametro UseTransaction aggiunge una voce del Registro di sistema alla nuova chiave MyCompany.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Again, the command returns a value, but the registry is not changed.</source>
+          <target state="translated">Anche questa volta il comando restituisce un valore, ma il Registro di sistema non viene modificato.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The first Complete-Transaction command reduces the subscriber count by 1.</source>
+          <target state="translated">Il primo comando Complete-Transaction riduce il numero dei sottoscrittori di 1.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This is confirmed by a Get-Transaction command.</source>
+          <target state="translated">Questa operazione viene confermata da un comando Get-Transaction.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>However, no data is changed, as evidenced by a "dir m*" (Get-ChildItem) command.</source>
+          <target state="translated">Non viene tuttavia modificato alcun dato, come evidenziato da un comando "dir m*" (Get-ChildItem).</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The second Complete-Transaction command commits the entire transaction and changes the data in the registry.</source>
+          <target state="translated">Il secondo comando Complete-Transaction esegue il commit dell'intera transazione e modifica i dati nel Registro di sistema.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This is confirmed by a second "dir m*" command, which shows the changes.</source>
+          <target state="translated">Questa operazione viene confermata da un secondo comando "dir m*", che mostra le modifiche.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This example shows the value of using Get-<bpt id="p1">*</bpt> commands, and other commands that do not change data, in a transaction. When a Get-<ept id="p1">*</ept> command is used in a transaction, it gets the objects that are part of the transaction.</source>
+          <target state="translated">Questo esempio viene illustrato il valore dell'utilizzo di Get -<bpt id="p1">*</bpt> comandi e altri comandi che non modificano i dati in una transazione. Quando un Get -<ept id="p1">*</ept> comando viene utilizzato in una transazione, ottiene gli oggetti che fanno parte della transazione.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This allows you to preview the changes in the transaction before the changes are committed.</source>
+          <target state="translated">In questo modo è possibile visualizzare in anteprima le modifiche apportate alla transazione prima del commit.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In this example, a transaction is started.</source>
+          <target state="translated">In questo esempio viene avviata una transazione.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A New-Item command with the UseTransaction parameter adds a new key to the registry as part of the transaction.</source>
+          <target state="translated">Un comando New-Item con il parametro UseTransaction aggiunge una nuova chiave al Registro di sistema come parte della transazione.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Because the new registry key is not added to the registry until the Complete-Transaction command is run, a simple "dir" (Get-ChildItem) command shows the registry without the new key.</source>
+          <target state="translated">Poiché la nuova chiave del Registro di sistema non viene aggiunta al Registro di sistema finché non viene eseguito il comando Complete-Transaction, un comando "dir" (Get-ChildItem) semplice mostra il Registro di sistema senza la nuova chiave.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>However, when you add the UseTransaction parameter to the "dir" command, the command becomes part of the transaction, and it gets the items in the transaction even if they are not yet added to the data.</source>
+          <target state="translated">Tuttavia, quando si aggiunge il parametro UseTransaction al comando "dir", il comando diventa parte della transazione e ottiene gli elementi della transazione, anche se non sono ancora stati aggiunti ai dati.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETRI</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Viene chiesta conferma prima dell'esecuzione del cmdlet. Viene chiesta conferma prima dell'esecuzione del cmdlet.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Mostra gli effetti dell'esecuzione del cmdlet.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Il cmdlet non viene eseguito. Viene illustrato che cosa accadrebbe se viene eseguito il cmdlet.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">Il cmdlet non viene eseguito.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Questo cmdlet supporta i parametri comuni:-eseguire il Debug, - ErrorAction, - ErrorVariable, - InformationAction, InformationVariable-, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Per ulteriori informazioni, vedere about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">INPUT</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Nessuno</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You cannot pipe objects to Complete-Transaction.</source>
+          <target state="translated">Non è possibile inviare oggetti tramite pipe a Complete-Transaction.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">OUTPUT</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Nessuno</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not return any objects.</source>
+          <target state="translated">Questo cmdlet non restituisce alcun oggetto.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTE</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You cannot roll back a transaction that has been committed, or commit a transaction that has been rolled back.</source>
+          <target state="translated">Non è possibile eseguire il rollback di una transazione di cui è stato eseguito il commit o eseguire il commit di una transazione di cui è stato eseguito il rollback.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>You cannot roll back any transaction other than the active transaction.</source>
+          <target state="translated">Non è possibile eseguire il rollback di transazioni diverse da quella attiva.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To roll back a different transaction, you must first commit or roll back the active transaction.</source>
+          <target state="translated">Per eseguire il rollback di una transazione diversa, occorre prima eseguire il commit o il rollback della transazione attiva.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>By default, if any part of a transaction cannot be committed, such as when a command in the transaction results in an error, the entire transaction is rolled back.</source>
+          <target state="translated">Per impostazione predefinita, se non è possibile eseguire il commit di una parte di una transazione, ad esempio quando un comando nella transazione genera un errore, viene eseguito il rollback dell'intera transazione.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">COLLEGAMENTI CORRELATI</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Get-Transaction</source>
+          <target state="translated">Get-Transaction</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Start-Transaction</source>
+          <target state="translated">Start-Transaction</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Undo-Transaction</source>
+          <target state="translated">Undo-Transaction</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Use-Transaction</source>
+          <target state="translated">Use-Transaction</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>about_Transactions</source>
+          <target state="translated">about_Transactions</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

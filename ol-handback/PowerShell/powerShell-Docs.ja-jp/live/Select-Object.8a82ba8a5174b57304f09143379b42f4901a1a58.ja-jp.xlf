@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dba310710f010a48af2978935c94743beaabb0cd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Utility\Select-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">93c5675951d002b65720167e9dfad73dfac8ce92</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ddae2106b7934c2d58413c6bc9e489815a133a82</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Selects objects or object properties.</source>
+          <target state="translated">オブジェクトまたはオブジェクトのプロパティを選択します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DefaultParameter (Default)</source>
+          <target state="translated">パラメタ (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>IndexParameter</source>
+          <target state="translated">IndexParameter</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet selects specified properties of an object or set of objects.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> コマンドレットは、オブジェクトの指定されたプロパティまたはオブジェクトのセットを選択します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It can also select unique objects, a specified number of objects, or objects in a specified position in an array.</source>
+          <target state="translated">加えて、配列内の一意のオブジェクト、指定された数のオブジェクト、または指定された位置にあるオブジェクトを選択することもできます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To select objects from a collection, use the <bpt id="p1">**</bpt>First<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Last<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Unique<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Skip<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Index<ept id="p5">**</ept> parameters.</source>
+          <target state="translated">コレクションからオブジェクトを選択するには、使用、 <bpt id="p1">**</bpt>最初<ept id="p1">**</ept>, 、<bpt id="p2">**</bpt>最後<ept id="p2">**</ept>, 、<bpt id="p3">**</bpt>Unique<ept id="p3">**</ept>, 、<bpt id="p4">**</bpt>Skip<ept id="p4">**</ept>, 、および <bpt id="p5">**</bpt>インデックス<ept id="p5">**</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To select object properties, use the <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">オブジェクトのプロパティを選択するには、使用、 <bpt id="p1">**</bpt>プロパティ<ept id="p1">**</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you select properties, Select-Object returns new objects that have only the specified properties.</source>
+          <target state="translated">プロパティを選択すると、指定したプロパティのみを持つ新しいオブジェクトが返されます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, Select-Object includes an optimization feature that prevents commands from creating and processing objects that are not used.</source>
+          <target state="translated">Windows PowerShell 3.0 以降の Select-Object には、コマンドによる使用されていないオブジェクトの作成および処理を防止する最適化機能が導入されています。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you include a <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> command with the <bpt id="p2">**</bpt>First<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Index<ept id="p3">**</ept> parameters in a command pipeline, Windows PowerShell stops the command that generates the objects as soon as the selected number of objects is generated, even when the command that generates the objects appears before the <bpt id="p4">**</bpt>Select-Object<ept id="p4">**</ept> command in the pipeline.</source>
+          <target state="translated">追加すると、 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> コマンドに、 <bpt id="p2">**</bpt>最初<ept id="p2">**</ept> または <bpt id="p3">**</bpt>インデックス<ept id="p3">**</ept> コマンド パイプラインでは、Windows PowerShell のパラメーターを停止する前にオブジェクトを生成するコマンドが表示される場合でも、選択したオブジェクトの数が生成されるとすぐにオブジェクトを生成するコマンド、 <bpt id="p4">**</bpt>Select-object<ept id="p4">**</ept> コマンド パイプラインを実行します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To turn off this optimizing behavior, use the <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">この最適化動作を無効にするを使用して、 <bpt id="p1">**</bpt>待機<ept id="p1">**</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This command creates objects that have the Name, ID, and working set (WS) properties of process objects.</source>
+          <target state="translated">このコマンドは、プロセス オブジェクトの名前、ID、およびワーキング セット (WS) プロパティを持つオブジェクトを作成します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command gets information about the modules used by the processes on the computer.</source>
+          <target state="translated">このコマンドは、コンピューター上のプロセスによって使用されているモジュールに関する情報を取得します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It uses Get-Process cmdlet to get the process on the computer.</source>
+          <target state="translated">Get-process コマンドレットを使用して、コンピューター上のプロセスを取得します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet to create new objects with only the selected properties.</source>
+          <target state="translated">使用して、 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> コマンドレットを選択したプロパティのみを持つ新しいオブジェクトを作成します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept> cmdlet to select the process names.</source>
+          <target state="translated">コマンドを使用して、 <bpt id="p1">**</bpt>プロパティ<ept id="p1">**</ept> のパラメーター、 <bpt id="p2">**</bpt>Select-object<ept id="p2">**</ept> をプロセス名を選択します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">**</bpt>Modules<ept id="p1">**</ept> property contains an <bpt id="p2">**</bpt>ModuleProcess<ept id="p2">**</ept> object that has many properties, the command uses the <bpt id="p3">**</bpt>ExpandProperty<ept id="p3">**</ept> parameter to get the properties of the objects in the <bpt id="p4">**</bpt>Modules<ept id="p4">**</ept> property of each process.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>モジュール<ept id="p1">**</ept> プロパティが含まれています、 <bpt id="p2">**</bpt>ModuleProcess<ept id="p2">**</ept> をこのコマンドは、多数のプロパティを持つオブジェクト、 <bpt id="p3">**</bpt>ExpandProperty<ept id="p3">**</ept> 内のオブジェクトのプロパティを取得するパラメーター、 <bpt id="p4">**</bpt>モジュール<ept id="p4">**</ept> 各プロセスのプロパティです。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The command uses the Format-List parameter to display the name and modules in of each process in a list.</source>
+          <target state="translated">コマンドでは、Format-list パラメーターを使用して、リスト内の各プロセスのモジュールと名前を表示します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command gets the five processes that are using the most memory.</source>
+          <target state="translated">このコマンドは、最も多くのメモリを使用している 5 つのプロセスを取得します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The Get-Process cmdlet gets the processes on the computer.</source>
+          <target state="translated">Get-process コマンドレットは、コンピューター上のプロセスを取得します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The Sort-Object cmdlet sorts the processes according to memory (working set) usage, and the Select-Object cmdlet selects only the last five members of the resulting array of objects.</source>
+          <target state="translated">Sort-object コマンドレットは、メモリ (ワーキング セット) の使用量に基づいてプロセスを並べ替え、Select-object コマンドレットは、結果として得られるオブジェクトの配列の最後の 5 つのメンバーだけを選択します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter is not required in commands that include the <bpt id="p2">**</bpt>Sort-Object<ept id="p2">**</ept> cmdlet because <bpt id="p3">**</bpt>Sort-Object<ept id="p3">**</ept> processes all objects and then returns a collection.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>待機<ept id="p1">**</ept> が含まれるコマンドのパラメーターは必要ありません、 <bpt id="p2">**</bpt>Sort-object<ept id="p2">**</ept> コマンドレットのため <bpt id="p3">**</bpt>Sort-object<ept id="p3">**</ept> すべてのオブジェクトを処理し、コレクションを返します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> optimization is available only for commands that return objects individually as they are processed.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> の最適化が処理されるオブジェクトを個別に返すコマンドに対してのみ使用できます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This command gets the name and start day of the processes running on a computer.</source>
+          <target state="translated">このコマンドは、コンピューターで実行中のプロセスの名前と開始日を取得します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Process cmdlet to get the processes on the computer.</source>
+          <target state="translated">コマンドでは、Get-process コマンドレットを使用して、コンピューター上のプロセスを取得します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It passes the processes to the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet, which creates objects that have only the <bpt id="p2">**</bpt>ProcessName<ept id="p2">**</ept> parameter and a calculated property named "Start Day."</source>
+          <target state="translated">プロセスを渡す、 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> オブジェクトを作成するコマンドレットがのみが、 <bpt id="p2">**</bpt>ProcessName<ept id="p2">**</ept> パラメーターと"Start Day"という名前の計算されるプロパティ</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The "Start Day" property is added by using a hash table with Name and Expression keys.</source>
+          <target state="translated">"Start Day" プロパティは、Name キーと Expression キーを持つハッシュ テーブルを使用して追加されます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The value of the Expression key is a script blocks that gets the StartTime property of each process and the DayofWeek property of the StartTime.</source>
+          <target state="translated">Expression キーの値は、各プロセスの StartTime プロパティと StartTime の DayofWeek プロパティを取得するスクリプト ブロックです。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This command uses the Unique parameter of Select-Object to get unique characters from an array of characters.</source>
+          <target state="translated">このコマンドは、Select-Object オブジェクトの Unique パラメーターを使用して、文字の配列から一意の文字を取得します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>These commands gets the first (newest) and last (oldest) events in the Windows Powershell event log.</source>
+          <target state="translated">これらのコマンドは、Windows Powershell イベント ログの最初のイベント (最も新しいイベント) と最後のイベント (最も古いイベント) を取得します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-EventLog cmdlet to get all events in the Windows PowerShell log.</source>
+          <target state="translated">コマンドでは、Get-eventlog コマンドレットを使用して、Windows PowerShell ログ内のすべてのイベントを取得します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>It saves them in the $a variable.</source>
+          <target state="translated">イベントは $a 変数に保存されます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The second command uses a pipeline operator (|) to send the events in $a to the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">2 番目のコマンドはパイプライン演算子 (|) を使用して $a 内のイベントを送信するのに、 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> command uses the <bpt id="p2">**</bpt>Index<ept id="p2">**</ept> parameter to select events from the array of events in the $a variable.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> コマンドでは、 <bpt id="p2">**</bpt>インデックス<ept id="p2">**</ept> パラメーター、$a 変数内のイベントの配列からイベントを選択します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The index of the first event is 0.</source>
+          <target state="translated">最初のイベントのインデックスは 0 です。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The index of the last event is the number of items in $a minus 1.</source>
+          <target state="translated">最後のイベントのインデックスは、$ 内の項目の数から 1 を引いた数です。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This command creates a new PSSession on each of the computers listed in the Servers.txt files, except for the first one.</source>
+          <target state="translated">このコマンドは、Servers.txt ファイルにリストアップされたコンピューターのうち 1 つ目のコンピューターを除くそれぞれのコンピューターで、新しい PSSession を作成します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet to select all but the first computer in a list of computer names.</source>
+          <target state="translated">このコマンドを使用して、 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> コマンドレットがすべて選択]、コンピューター名の一覧の最初のコンピューターを使用します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The resulting list of computers is set as the value of the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter of the New-PSSession cmdlet.</source>
+          <target state="translated">値として設定されているコンピューターの結果のリスト、 <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> New-pssession コマンドレットのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 8 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 8 --------------------------</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This command adds a "-ro" suffix to the base names of text files that have the read-only attribute and then displays the first five files so the user can see a sample of the effect.</source>
+          <target state="translated">このコマンドは、読み取り専用属性を持つテキスト ファイルのベース名にサフィックス "-ro" を追加した後、その効果を確認できるように最初の 5 つのファイルを表示します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>ReadOnly<ept id="p1">**</ept> dynamic parameter of the Get-ChildItem for FileSystem cmdlet to get read-only files.</source>
+          <target state="translated">コマンドを使用して、 <bpt id="p1">**</bpt>ReadOnly<ept id="p1">**</ept> 、Get-childitem の FileSystem コマンドレットの読み取り専用ファイルを取得する動的パラメーターです。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to send the files to the Rename-Item cmdlet, which renames the file.</source>
+          <target state="translated">ファイルの名前を変更するファイルを Rename-item コマンドレットに送信する、パイプライン演算子 (|) を使用します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Rename-Item<ept id="p2">**</ept> to send the renamed files to the <bpt id="p3">**</bpt>Select-Object<ept id="p3">**</ept> cmdlet, which selects the first 5 for display.</source>
+          <target state="translated">使用して、 <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept> のパラメーター <bpt id="p2">**</bpt>Rename-item<ept id="p2">**</ept> に名前を変更したファイルを送信する、 <bpt id="p3">**</bpt>Select-object<ept id="p3">**</ept> コマンドレットで、表示するための最初の 5 個を選択します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Select-Object<ept id="p2">**</ept> prevents Windows PowerShell from stopping the <bpt id="p3">**</bpt>Get-ChildItem<ept id="p3">**</ept> cmdlet after it gets the first five read-only text files.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>待機<ept id="p1">**</ept> のパラメーター <bpt id="p2">**</bpt>Select-object<ept id="p2">**</ept> Windows PowerShell を停止するように、 <bpt id="p3">**</bpt>Get-childitem<ept id="p3">**</ept> コマンドレットの最初の 5 つの読み取り専用のテキスト ファイルを取得した後です。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Without this parameter, only the first five read-only files would be renamed.</source>
+          <target state="translated">このパラメーターを指定しない場合、最初の 5 つの読み取り専用ファイルだけ名前が変更されます。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-ExcludeProperty</source>
+          <target state="translated">-ExcludeProperty</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Removes the specifies properties from the selection.</source>
+          <target state="translated">選択内容目から指定したプロパティを除外します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This parameter is effective only when the command also includes the <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">このパラメーターは、コマンドも含まれています。 場合にのみ有効、 <bpt id="p1">**</bpt>プロパティ<ept id="p1">**</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The value of the property parameter can be a calculated property, which is a hash table that specifies a name and calculates a value for the property display.</source>
+          <target state="translated">プロパティ パラメーターの値には計算プロパティを使用できます。計算プロパティは、名前を指定して、プロパティを表示するための値を計算するハッシュ テーブルです。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Valid keys are:</source>
+          <target state="translated">有効なキーは次のとおりです。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Name or Label <ph id="ph1">\&lt;</ph>string</source>
+          <target state="translated">名前またはラベル <ph id="ph1">\&lt;</ph>文字列</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Expression <ph id="ph1">\&lt;</ph>string<ph id="ph2">\&gt;</ph> or <ph id="ph3">\&lt;</ph>scriptblock</source>
+          <target state="translated">式 <ph id="ph1">\&lt;</ph>文字列<ph id="ph2">\&gt;</ph> または <ph id="ph3">\&lt;</ph>scriptblock</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For more information, see the examples.</source>
+          <target state="translated">詳細については、例を参照してください。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-ExpandProperty</source>
+          <target state="translated">-ExpandProperty</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies a property to select, and indicates that an attempt should be made to expand that property.</source>
+          <target state="translated">選択するプロパティを指定し、そのプロパティの展開を試みることを示します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted in the property name.</source>
+          <target state="translated">プロパティ名にはワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For example, if the specified property is an array, each value of the array is included in the output.</source>
+          <target state="translated">たとえば、指定したプロパティが配列の場合、配列の各値が出力に含められます。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If the property contains an object, the properties of that object are displayed in the output.</source>
+          <target state="translated">プロパティにオブジェクトが含まれている場合、そのオブジェクトのプロパティが出力に表示されます。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-First</source>
+          <target state="translated">優先</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Specifies the number of objects to select from the beginning of an array of input objects.</source>
+          <target state="translated">入力オブジェクトの配列の先頭から選択するオブジェクトの数を指定します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-Index</source>
+          <target state="translated">-インデックス</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Selects objects from an array based on their index values.</source>
+          <target state="translated">インデックス値に基づいて配列からオブジェクトを選択します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Enter the indexes in a comma-separated list.</source>
+          <target state="translated">インデックスをコンマ区切りリスト形式で入力します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Indexes in an array begin with 0, where 0 represents the first value and (n-1) represents the last value.</source>
+          <target state="translated">配列内インデックスは 0 で始まります。0 は最初の値を表し、(n-1) は最後の値を表します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-Inputobject</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Specifies objects to send to the cmdlet through the pipeline.</source>
+          <target state="translated">パイプラインを介してコマンドレットに送信するオブジェクトを指定します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This parameter enables you to pipe objects to Select-Object.</source>
+          <target state="translated">このパラメーターを使用すると、パイプを介してオブジェクトを Select-Object に渡すことができます。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When you use the InputObject parameter with Select-Object, instead of piping command results to Select-Object, the InputObject value-even if the value is a collection that is the result of a command, such as -InputObject (Get-Process)-is treated as a single object.</source>
+          <target state="translated">Select-object にパイプ処理コマンドの結果ではなく、Select-object で InputObject パラメーターを使用する場合、InputObject 値であっても、値が InputObject (Get-process) などのコマンドの結果であるコレクションである場合に 1 つのオブジェクトとして扱われます。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Because InputObject cannot return individual properties from an array or collection of objects, it is recommended that if you use Select-Object to filter a collection of objects for those objects that have specific values in defined properties, you use Select-Object in the pipeline, as shown in the examples in this topic.</source>
+          <target state="translated">InputObject では、配列またはオブジェクトのコレクションから個々のプロパティを返すことができません。そのため、定義されたプロパティに特定の値を持つオブジェクトを取得する目的で Select-Object を使用してオブジェクトのコレクションをフィルター選択する場合は、このトピックの例に示すように、パイプライン内で Select-Object を使用することをお勧めします。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-Last</source>
+          <target state="translated">最後</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies the number of objects to select from the end of an array of input objects.</source>
+          <target state="translated">入力オブジェクトの配列の末尾から選択するオブジェクトの数を指定します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-Property</source>
+          <target state="translated">-プロパティ</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Specifies the properties to select.</source>
+          <target state="translated">選択するプロパティを指定します。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The value of the Property parameter can be a new calculated property.</source>
+          <target state="translated">Property パラメーターの値として、新しい集計プロパティを使用できます。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To create a calculated, property, use a hash table.</source>
+          <target state="translated">集計プロパティを作成するには、ハッシュ テーブルを使用します。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Valid keys are:</source>
+          <target state="translated">有効なキーは次のとおりです。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Name (or Label) <ph id="ph1">\&lt;</ph>string</source>
+          <target state="translated">名前 (またはラベル) <ph id="ph1">\&lt;</ph>文字列</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Expression <ph id="ph1">\&lt;</ph>string<ph id="ph2">\&gt;</ph> or <ph id="ph3">\&lt;</ph>script block</source>
+          <target state="translated">式 <ph id="ph1">\&lt;</ph>文字列<ph id="ph2">\&gt;</ph> または <ph id="ph3">\&lt;</ph>スクリプト ブロック</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-Skip</source>
+          <target state="translated">スキップ</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Skips (does not select) the specified number of items.</source>
+          <target state="translated">指定した数の項目をスキップします (選択しません)。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>By default, the Skip parameter counts from the beginning of the array or list of objects, but if the command uses the Last parameter, it counts from the end of the list or array.</source>
+          <target state="translated">既定では、Skip パラメーターは、配列またはオブジェクトのリストの先頭からカウントします。ただし、コマンドに Last パラメーターを使用した場合は、リストまたは配列の末尾からカウントされます。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Unlike the <bpt id="p1">**</bpt>Index<ept id="p1">**</ept> parameter, which starts counting at 0, the <bpt id="p2">**</bpt>Skip<ept id="p2">**</ept> parameter begins at 1.</source>
+          <target state="translated">異なり、 <bpt id="p1">**</bpt>インデックス<ept id="p1">**</ept> 、0 からカウントを開始するには、パラメーター、 <bpt id="p2">**</bpt>Skip<ept id="p2">**</ept> パラメーターは 1 から開始します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-Unique</source>
+          <target state="translated">一意</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Specifies that if a subset of the input objects has identical properties and values, only a single member of the subset will be selected.</source>
+          <target state="translated">入力オブジェクトのサブセットが同じプロパティと値を持つ場合にサブセットの 1 つのメンバーのみを選択することを指定します。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This parameter is case-sensitive.</source>
+          <target state="translated">このパラメーターでは、大文字と小文字が区別されます。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>As a result, strings that differ only in character casing are considered to be unique.</source>
+          <target state="translated">その結果、大文字と小文字のみが異なる文字列は一意であると見なされます。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-Wait</source>
+          <target state="translated">-Wait</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Turns off optimization.</source>
+          <target state="translated">最適化をオフにします。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell runs commands in the order that they appear in the command pipeline and lets them generate all objects.</source>
+          <target state="translated">Windows PowerShell によってコマンド パイプラインに出現する順序でコマンドが実行され、すべてのオブジェクトが生成されます。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>By default, if you include a <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> command with the <bpt id="p2">**</bpt>First<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Index<ept id="p3">**</ept> parameters in a command pipeline, Windows PowerShell stops the command that generates the objects as soon as the selected number of objects is generated.</source>
+          <target state="translated">既定では、指定する場合、 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> コマンドと組み合わせて、 <bpt id="p2">**</bpt>最初<ept id="p2">**</ept> または <bpt id="p3">**</bpt>インデックス<ept id="p3">**</ept> コマンド パイプラインのパラメーターは、Windows PowerShell は、選択したオブジェクトの数が生成されるとすぐにオブジェクトを生成するコマンドを停止します。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You can pipe any object to Select-Object.</source>
+          <target state="translated">パイプを使用して任意のオブジェクトを Select-Object に渡すことができます。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You can also refer to the <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> cmdlet by its built-in alias, "select".</source>
+          <target state="translated">参照することも、 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> その組み込みエイリアスでコマンドレット"select"です。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">詳細については、「about_Aliases」を参照してください。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The optimization feature of <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> is available only for commands that write objects to the pipeline as they are processed.</source>
+          <target state="translated">最適化機能 <bpt id="p1">**</bpt>Select-object<ept id="p1">**</ept> が処理されるオブジェクトをパイプラインに書き込むコマンドに対してのみ使用できます。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>It has no effect on commands that buffer processed objects and write them as a collection.</source>
+          <target state="translated">処理したオブジェクトをバッファーに格納してコレクションとして書き込むコマンドには作用しません。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Writing objects immediately is a cmdlet design best practice.</source>
+          <target state="translated">オブジェクトをすぐに書き込むのは、コマンドレットのデザイン上のベスト プラクティスです。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For more information, see "Write Single Records to the Pipeline" in "Strongly Encouraged Development Guidelines" at http://go.microsoft.com/fwlink/?LinkId=223385http://go.microsoft.com/fwlink/?LinkId=223385</source>
+          <target state="translated">詳細については、http://go.microsoft.com/fwlink/?LinkId=223385http://go.microsoft.com/fwlink/?LinkId=223385 に"書き込み単一レコードをパイプラインに「強く推奨して開発ガイドライン」を参照してください。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Group-Object</source>
+          <target state="translated">Group-Object</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Sort-Object</source>
+          <target state="translated">Sort-Object</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Where-Object</source>
+          <target state="translated">Where-Object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

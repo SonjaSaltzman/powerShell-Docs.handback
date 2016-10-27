@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b9fb7c261da05c9b2941bb5fdfc6cdbd29a2ce9d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Get-Command.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a2e84e2d243abebf2f7af47a189a9f2cb16265d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b7202a2a02f8807d89fec530868c15335f785d2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-Command</source>
+          <target state="translated">Get-Command</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-Command</source>
+          <target state="translated">Get-Command</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets all commands.</source>
+          <target state="translated">すべてのコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>CmdletSet (Default)</source>
+          <target state="translated">CmdletSet (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>AllCommandSet</source>
+          <target state="translated">AllCommandSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet gets all commands that are installed on the computer, including cmdlets, aliases, functions, workflows, filters, scripts, and applications.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> コマンドレットは、コマンドレット、エイリアス、関数、ワークフロー、フィルター、スクリプト、およびアプリケーションを含め、コンピューターにインストールされているすべてのコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets the commands from Windows PowerShell modules and snap-ins and commands that were imported from other sessions.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get コマンド<ept id="p1">**</ept> から Windows PowerShell モジュールおよびスナップインと他のセッションからインポートされたコマンドのコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To get only commands that have been imported into the current session, use the <bpt id="p1">*</bpt>ListImported<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">現在のセッションにインポートされているコマンドのみを取得する、 <bpt id="p1">*</bpt>ListImported<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Without parameters, a <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command gets all of the cmdlets, functions, workflows and aliases installed on the computer.</source>
+          <target state="translated">パラメーターを指定せず、 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> コマンドでは、すべてのコマンドレット、関数、ワークフロー、およびコンピューターにインストールされているエイリアスを取得します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`Get-Command *`</ph> command gets all types of commands, including all of the non-Windows PowerShell files in the Path environment variable ($env:path), which it lists in the Application command type.</source>
+          <target state="translated">A <ph id="ph1">`Get-Command *`</ph> コマンドは、Path 環境変数内のすべての Windows PowerShell 以外のファイルを含むコマンドのすべての型を取得 ($env:path: パス)、アプリケーション コマンドの種類に列挙されます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command that uses the exact name of the command, without wildcard characters, automatically imports the module that contains the command so that you can use the command immediately.</source>
+          <target state="translated">A <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> ワイルドカード文字は、コマンドの正確な名前を使用するコマンドが自動的にコマンドをすぐに使用できるように、コマンドが含まれるモジュールをインポートします。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To enable, disable, and configure automatic importing of modules, use the $PSModuleAutoLoadingPreference preference variable.</source>
+          <target state="translated">有効化、無効化、およびモジュールの自動インポートを構成、$PSModuleAutoLoadingPreference ユーザー設定変数を使用します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248) in the Microsoft TechNet library.</source>
+          <target state="translated">詳細については、Microsoft TechNet ライブラリで about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248) を参照してください。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets its data directly from the command code, unlike Get-Help, which gets its information from help topics.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get コマンド<ept id="p1">**</ept> ヘルプ トピックからの情報を取得する Get-help とは異なり、コマンド コードから直接そのデータを取得します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets only commands in current session.</source>
+          <target state="translated">Windows PowerShell 2.0 で <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 現在のセッション内のコマンドのみを取得します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It does not get commands from modules that are installed, but not imported.</source>
+          <target state="translated">インストールされているがインポートされていないモジュールからはコマンドを取得しません。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To limit <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> in Windows PowerShell 3.0 and later versions to commands in the current session, use the <bpt id="p2">*</bpt>ListImported<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">制限する <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> で Windows PowerShell 3.0 以降のバージョンを現在のセッションのコマンドを使用して、 <bpt id="p2">*</bpt>ListImported<ept id="p2">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Starting in Windows PowerShell 5.0, results of the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet display a <bpt id="p2">**</bpt>Version<ept id="p2">**</ept> column by default.</source>
+          <target state="translated">以降の結果である Windows PowerShell 5.0 で、 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> コマンドレットの表示、 <bpt id="p2">**</bpt>バージョン<ept id="p2">**</ept> 既定では列です。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">**</bpt>Version<ept id="p1">**</ept> property has been added to the <bpt id="p2">**</bpt>CommandInfo<ept id="p2">**</ept> class.</source>
+          <target state="translated">新しい <bpt id="p1">**</bpt>バージョン<ept id="p1">**</ept> にプロパティが追加されて、 <bpt id="p2">**</bpt>CommandInfo<ept id="p2">**</ept> クラスです。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 1: Get cmdlets, functions, and aliases</source>
+          <target state="translated">例 1: コマンドレット、関数、およびエイリアスを取得します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command gets the Windows PowerShell cmdlets, functions, and aliases that are installed on the computer.</source>
+          <target state="translated">このコマンドは、コンピューターにインストールされている Windows PowerShell コマンドレット、関数、およびエイリアスを取得します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 2: Get commands in the current session</source>
+          <target state="translated">例 2: 現在のセッションでコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">*</bpt>ListImported<ept id="p1">*</ept> parameter to get only the commands in the current session.</source>
+          <target state="translated">このコマンドを使用して、 <bpt id="p1">*</bpt>ListImported<ept id="p1">*</ept> パラメーターを現在のセッションでコマンドのみを取得します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Example 3: Get cmdlets and display them in order</source>
+          <target state="translated">例 3: がコマンドレットを取得し、それ順序を表示</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This command gets all of the cmdlets, sorts them alphabetically by the noun in the cmdlet name, and then displays them in noun-based groups.</source>
+          <target state="translated">このコマンドは、すべてのコマンドレットを取得し、それらをコマンドレット名内の名詞によるアルファベット順で並べ替え、その後、名詞に基づくグループとして表示します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This display can help you find the cmdlets for a task.</source>
+          <target state="translated">この表示は、タスクのコマンドレットの検索に役立ちます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Example 4: Get commands in a module</source>
+          <target state="translated">例 4: モジュールのコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">*</bpt>Module<ept id="p1">*</ept> parameter to get the commands in the Microsoft.PowerShell.Security and PSScheduledJob modules.</source>
+          <target state="translated">このコマンドを使用して、 <bpt id="p1">*</bpt>モジュール<ept id="p1">*</ept> パラメーターを Microsoft.PowerShell.Security および PSScheduledJob モジュール内のコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Example 5: Get information about a cmdlet</source>
+          <target state="translated">例 5: コマンドレットに関する情報を取得します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This command gets information about the <bpt id="p1">**</bpt>Get-AppLockerPolicy<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">このコマンドは、情報を取得、 <bpt id="p1">**</bpt>Get-applockerpolicy<ept id="p1">**</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It also imports the <bpt id="p1">*</bpt>AppLocker<ept id="p1">*</ept> module, which adds all of the commands in the <bpt id="p2">*</bpt>AppLocker<ept id="p2">*</ept> module to the current session.</source>
+          <target state="translated">インポート、 <bpt id="p1">*</bpt>AppLocker<ept id="p1">*</ept> モジュールで、すべてのコマンドの追加、 <bpt id="p2">*</bpt>AppLocker<ept id="p2">*</ept> 現在のセッションにモジュールです。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When a module is imported automatically, the effect is the same as using the Import-Module cmdlet.</source>
+          <target state="translated">モジュールが自動的にインポートされると、効果は、Import-module コマンドレットを使用する場合と同じです。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The module can add commands, types and formatting files, and run scripts in the session.</source>
+          <target state="translated">モジュールは、コマンド、型、および書式設定ファイルを追加し、セッションでスクリプトを実行できます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To enable, disable, and configuration automatic importing of modules, use the <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> preference variable.</source>
+          <target state="translated">有効にするには、無効にして、モジュールの自動インポート構成を使用して、 <bpt id="p1">**</bpt>$PSModuleAutoLoadingPreference<ept id="p1">**</ept> ユーザー設定変数です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables.</source>
+          <target state="translated">詳細については、「about_Preference_Variables」を参照してください。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Example 6: Get the syntax of a cmdlet</source>
+          <target state="translated">例 6: コマンドレットの構文を取得します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">*</bpt>ArgumentList<ept id="p1">*</ept> and <bpt id="p2">*</bpt>Syntax<ept id="p2">*</ept> parameters to get the syntax of the Get-ChildItem cmdlet when it is used in the Cert: drive.</source>
+          <target state="translated">このコマンドを使用して、 <bpt id="p1">*</bpt>ArgumentList<ept id="p1">*</ept> と <bpt id="p2">*</bpt>構文<ept id="p2">*</ept> 証明書で使用されているときに、Get-childitem コマンドレットの構文を取得するパラメーター: ドライブです。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The Cert: drive is a Windows PowerShell drive that the Certificate Provider adds to the session.</source>
+          <target state="translated">Cert: ドライブは、証明書プロバイダーは、セッションに追加する Windows PowerShell ドライブです。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When you compare the syntax displayed in the output with the syntax that is displayed when you omit the <bpt id="p1">*</bpt>Args<ept id="p1">*</ept> (<bpt id="p2">*</bpt>ArgumentList<ept id="p2">*</ept>) parameter, you'll see that the <bpt id="p3">**</bpt>Certificate provider<ept id="p3">**</ept> adds a dynamic parameter, <bpt id="p4">**</bpt>CodeSigningCert<ept id="p4">**</ept>, to the Get-ChildItem cmdlet.</source>
+          <target state="translated">省略した場合に表示される構文を使用して、出力に表示される構文を比較するときに、 <bpt id="p1">*</bpt>Args<ept id="p1">*</ept> (<bpt id="p2">*</bpt>ArgumentList<ept id="p2">*</ept>)、パラメーターに表示される、 <bpt id="p3">**</bpt>証明書プロバイダー<ept id="p3">**</ept> 動的パラメーターを追加 <bpt id="p4">**</bpt>CodeSigningCert<ept id="p4">**</ept>, 、Get-childitem コマンドレットにします。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information about the Certificate provider, see Certificate Provider.</source>
+          <target state="translated">詳細については、証明書プロバイダー、証明書プロバイダーを参照してください。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Example 7: Get dynamic parameters</source>
+          <target state="translated">例 7: 動的パラメーターを取得します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-DynamicParameters<ept id="p1">**</ept> function in this example gets the dynamic parameters of a cmdlet.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-dynamicparameters<ept id="p1">**</ept> この例では関数は、コマンドレットの動的パラメーターを取得します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This is an alternative to the method used in the previous example.</source>
+          <target state="translated">これは、前の例で使用されたメソッドの代替です。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Dynamic parameter can be added to a cmdlet by another cmdlet or a provider.</source>
+          <target state="translated">動的パラメーターは、別のコマンドレットまたはプロバイダーによって、コマンドレットに追加できます。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The command in the example uses the <bpt id="p1">**</bpt>Get-DynamicParameters<ept id="p1">**</ept> function to get the dynamic parameters that the Certificate provider adds to the Get-ChildItem cmdlet when it is used in the Cert: drive.</source>
+          <target state="translated">例のコマンドを使用して、 <bpt id="p1">**</bpt>Get-dynamicparameters<ept id="p1">**</ept> 証明書で使用される場合に、証明書プロバイダーが Get-childitem コマンドレットに追加する動的パラメーターを取得します。 ドライブです。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Example 8: Get all commands of all types</source>
+          <target state="translated">例 8: すべての種類のすべてのコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This command gets all commands of all types on the local computer, including executable files in the paths of the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> environment variable ($env:path).</source>
+          <target state="translated">このコマンドは、パスの実行可能ファイルを含めて、ローカル コンピューター上のすべての種類のすべてのコマンドを取得、 <bpt id="p1">**</bpt>パス<ept id="p1">**</ept> 環境変数 ($env:path: パス)。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>It returns an <bpt id="p1">**</bpt>ApplicationInfo<ept id="p1">**</ept> object (System.Management.Automation.ApplicationInfo) for each file, not a <bpt id="p2">**</bpt>FileInfo<ept id="p2">**</ept> object (System.IO.FileInfo).</source>
+          <target state="translated">返す、 <bpt id="p1">**</bpt>ApplicationInfo<ept id="p1">**</ept> ファイルごとに (System.Management.Automation.ApplicationInfo) このオブジェクトは、 <bpt id="p2">**</bpt>FileInfo<ept id="p2">**</ept> オブジェクト (System.IO.FileInfo)。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Example 9: Get cmdlets by using a name</source>
+          <target state="translated">例 9: 名前を使用してコマンドレットを取得します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This command gets cmdlets that have a parameter whose name includes Auth and whose type is <bpt id="p1">**</bpt>AuthenticationMechanism<ept id="p1">**</ept>.</source>
+          <target state="translated">このコマンドは、名前持つにはには、認証が含まれています。 で、型が、パラメーターを持つコマンドレットを取得 <bpt id="p1">**</bpt>AuthenticationMechanism<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can use a command like this one to find cmdlets that let you specify the method that is used to authenticate the user.</source>
+          <target state="translated">ユーザーの認証に使用されるメソッドを指定するためのコマンドレットを検索するために、次のようなコマンドを使用できます。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>ParameterType<ept id="p1">*</ept> parameter distinguishes parameters that take an <bpt id="p2">**</bpt>AuthenticationMechanism<ept id="p2">**</ept> value from those that take an <bpt id="p3">*</bpt>AuthenticationLevel<ept id="p3">*</ept> parameter, even when they have similar names.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>ParameterType<ept id="p1">*</ept> パラメーターを受け取るパラメーターを区別する、 <bpt id="p2">**</bpt>AuthenticationMechanism<ept id="p2">**</ept> 値を取る、 <bpt id="p3">*</bpt>AuthenticationLevel<ept id="p3">*</ept> ときでも、類似した名前のパラメーターです。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Example 10: Get an alias</source>
+          <target state="translated">例 10: エイリアスを取得します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet with an alias.</source>
+          <target state="translated">この例では、使用して、 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> コマンドレットにエイリアスを使用します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Although it is typically used on cmdlets and functions, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> also gets scripts, functions, aliases, workflows, and executable files.</source>
+          <target state="translated">これは、コマンドレットと関数で使用される通常が <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> もスクリプト、関数、エイリアス、ワークフロー、および実行可能ファイルを取得します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The output of the command shows the special view of the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> property value for aliases.</source>
+          <target state="translated">コマンドの出力の特殊なビューを示しています、 <bpt id="p1">**</bpt>名前<ept id="p1">**</ept> エイリアスのプロパティの値。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The view shows the alias and the full command name.</source>
+          <target state="translated">この表示は、エイリアスとコマンドのフルネームを示しています。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Example 11: Get all instances of the Notepad command</source>
+          <target state="translated">例 11: メモ帳コマンドのすべてのインスタンスを取得します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This example uses the <bpt id="p1">*</bpt>All<ept id="p1">*</ept> parameter of the <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> cmdlet to show all instances of the "Notepad" command on the local computer.</source>
+          <target state="translated">この例では、 <bpt id="p1">*</bpt>すべて<ept id="p1">*</ept> のパラメーター、 <bpt id="p2">**</bpt>Get-command<ept id="p2">**</ept> コマンドレットをローカル コンピューター上の"Notepad"コマンドは、すべてのインスタンスを表示します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>All<ept id="p1">*</ept> parameter is useful when there is more than one command with the same name in the session.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>すべて<ept id="p1">*</ept> パラメーターは、セッションで同じ名前の 1 つ以上のコマンドがある場合に便利です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, by default, when the session includes multiple commands with the same name, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets only the command that runs when you type the command name.</source>
+          <target state="translated">Windows PowerShell 3.0 以降で、既定では、ときに、セッションが含まれていますと同じ名前の複数のコマンドには <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> コマンド名を入力するときに実行されるコマンドのみを取得します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>With the <bpt id="p1">*</bpt>All<ept id="p1">*</ept> parameter, <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> gets all commands with the specified name and returns them in execution precedence order.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>すべて<ept id="p1">*</ept> パラメーター、 <bpt id="p2">**</bpt>Get-command<ept id="p2">**</ept> 指定の名前を持つすべてのコマンドを取得し、実行の優先順位の順に返します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To run a command other than the first one in the list, type the fully qualified path to the command.</source>
+          <target state="translated">一覧で最初のコマンドではなく、他のコマンドを実行するには、コマンドへの完全修飾パスを入力します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For more information about command precedence, see about_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214).</source>
+          <target state="translated">コマンドの優先順位の詳細については、「about_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214) を参照してください。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Example 12: Get the name of a snap-in or module that contains a cmdlet</source>
+          <target state="translated">例 12: スナップインまたはコマンドレットを含むモジュールの名前を取得します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This command gets the name of the snap-in or module in which the Get-Date cmdlet originated.</source>
+          <target state="translated">このコマンドは、スナップインまたは、Get-date コマンドレットが発生したモジュールの名前を取得します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> property of all commands.</source>
+          <target state="translated">このコマンドは、 <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> すべてのコマンドのプロパティです。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This command format works on commands in Windows PowerShell modules and snap-ins, even if they are not imported into the session.</source>
+          <target state="translated">このコマンド形式は、コマンドがセッションにインポートされていない場合でも、Windows PowerShell モジュールおよびスナップイン内のコマンドで機能します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Example 13: Get cmdlets and functions that have an output type</source>
+          <target state="translated">例 13: コマンドレットと出力の型を持つ関数を取得します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This command gets the cmdlets and functions that have an output type and the type of objects that they return.</source>
+          <target state="translated">このコマンドは、出力の種類とオブジェクトの種類を返す、コマンドレットと関数を取得します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The first part of the command gets all cmdlets.</source>
+          <target state="translated">コマンドの最初の部分は、すべてのコマンドレットを取得します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A pipeline operator (|) sends the cmdlets to the Where-Object cmdlet, which selects only the ones in which the <bpt id="p1">**</bpt>OutputType<ept id="p1">**</ept> property is populated.</source>
+          <target state="translated">パイプライン演算子 (|) では、コマンドレットを送信するものだけを選択する Where-object コマンドレットに、 <bpt id="p1">**</bpt>OutputType<ept id="p1">**</ept> プロパティが設定されます。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Another pipeline operator sends the selected cmdlet objects to the Format-List cmdlet, which displays the name and output type of each cmdlet in a list.</source>
+          <target state="translated">パイプライン演算子送信、選択されたコマンドレット オブジェクトを Format-list コマンドレットは、名前が表示され、出力の一覧では、各コマンドレットの型。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>OutputType<ept id="p1">**</ept> property of a <bpt id="p2">**</bpt>CommandInfo<ept id="p2">**</ept> object has a non-null value only when the cmdlet code defines the <bpt id="p3">**</bpt>OutputType<ept id="p3">**</ept> attribute for the cmdlet.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>OutputType<ept id="p1">**</ept> のプロパティ、 <bpt id="p2">**</bpt>CommandInfo<ept id="p2">**</ept> コマンドレットのコードを定義する場合にのみ、オブジェクトが null 以外の値を持つ、 <bpt id="p3">**</bpt>OutputType<ept id="p3">**</ept> コマンドレットの属性です。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Example 14: Get cmdlets that take a specific object type as input</source>
+          <target state="translated">例 14: 特定のオブジェクトの型を入力として受け取るコマンドレットを取得します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This command finds cmdlets that take net adapter objects as input.</source>
+          <target state="translated">このコマンドは、ネット アダプター オブジェクトを入力として受け取るコマンドレットを検索します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can use this command format to find the cmdlets that accept the type of objects that any command returns.</source>
+          <target state="translated">このコマンド形式を使用して、いずれかのコマンドによって返されるオブジェクトの種類を受け取るコマンドレットを検索できます。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>PSTypeNames<ept id="p1">**</ept> intrinsic property of all objects, which gets the types that describe the object.</source>
+          <target state="translated">このコマンドは、 <bpt id="p1">**</bpt>PSTypeNames<ept id="p1">**</ept> オブジェクトを記述する型を取得する、すべてのオブジェクトの組み込みのプロパティです。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To get the <bpt id="p1">**</bpt>PSTypeNames<ept id="p1">**</ept> property of a net adapter, and not the <bpt id="p2">**</bpt>PSTypeNames<ept id="p2">**</ept> property of a collection of net adapters, the command uses array notation to get the first net adapter that the cmdlet returns.</source>
+          <target state="translated">取得する、 <bpt id="p1">**</bpt>PSTypeNames<ept id="p1">**</ept> ネット アダプターのプロパティおよび not、 <bpt id="p2">**</bpt>PSTypeNames<ept id="p2">**</ept> ネット アダプターのコレクションのプロパティは、コマンドは、配列表記をコマンドレットが返す最初のネット アダプターを取得します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-All</source>
+          <target state="translated">-All</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet gets all commands, including commands of the same type that have the same name.</source>
+          <target state="translated">このコマンドレットを同じ名前を持つ同じ種類のコマンドを含むすべてのコマンドを取得することを示します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets only the commands that run when you type the command name.</source>
+          <target state="translated">既定では、 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> コマンド名を入力するときに実行されるコマンドのみを取得します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For more information about the method that Windows PowerShell uses to select the command to run when multiple commands have the same name, see about_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214) in the TechNet library.</source>
+          <target state="translated">Windows PowerShell を使用して複数のコマンドは、同じ名前を付けるときに実行するコマンドを選択する方法の詳細については、TechNet ライブラリで about_Command_Precedence (http://go.microsoft.com/fwlink/?LinkID=113214) を参照してください。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For information about module-qualified command names and running commands that do not run by default because of a name conflict, see about_Modules (http://go.microsoft.com/fwlink/?LinkID=144311).</source>
+          <target state="translated">モジュール修飾コマンドについては名前とコマンドを実行しているはいないによって実行される既定名競合しているため、about_Modules (http://go.microsoft.com/fwlink/?LinkID=144311) を参照してください。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets all commands by default.</source>
+          <target state="translated">Windows PowerShell 2.0 で <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 既定ですべてのコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Specifies an array of arguments.</source>
+          <target state="translated">引数の配列を指定します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets information about a cmdlet or function when it is used with the specified parameters ("arguments").</source>
+          <target state="translated">このコマンドレットは、指定されたパラメーター (「引数」) を使用しているときに、コマンドレットまたは関数の情報を取得します。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The alias for <bpt id="p1">*</bpt>ArgumentList<ept id="p1">*</ept> is <bpt id="p2">*</bpt>Args<ept id="p2">*</ept>.</source>
+          <target state="translated">エイリアスを <bpt id="p1">*</bpt>ArgumentList<ept id="p1">*</ept> は <bpt id="p2">*</bpt>Args<ept id="p2">*</ept>します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To detect dynamic parameters that are available only when certain other parameters are used, set the value of <bpt id="p1">*</bpt>ArgumentList<ept id="p1">*</ept> to the parameters that trigger the dynamic parameters.</source>
+          <target state="translated">その他の特定のパラメーターが使用される場合のみ使用できる動的なパラメーターを検出するための値を設定 <bpt id="p1">*</bpt>ArgumentList<ept id="p1">*</ept> を動的パラメーターをトリガーするパラメーターにします。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>To detect the dynamic parameters that a provider adds to a cmdlet, set the value of the <bpt id="p1">*</bpt>ArgumentList<ept id="p1">*</ept> parameter to a path in the provider drive, such as WSMan:, HKLM:, or Cert:.</source>
+          <target state="translated">コマンドレットにプロバイダーを追加する動的パラメーターを検出するための値を設定、 <bpt id="p1">*</bpt>ArgumentList<ept id="p1">*</ept> WSMan などのプロバイダー ドライブ パスのパラメーター: HKLM: または証明書: です。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When the command is a Windows PowerShell provider cmdlet, enter only one path in each command.</source>
+          <target state="translated">コマンドは、Windows PowerShell プロバイダー コマンドレットは、コマンドごとに 1 つだけのパスを入力します。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The provider cmdlets return only the dynamic parameters for the first path the value of <bpt id="p1">*</bpt>ArgumentList<ept id="p1">*</ept>.</source>
+          <target state="translated">プロバイダーのコマンドレットは、最初のパスの動的パラメーターのみの値を返す <bpt id="p1">*</bpt>ArgumentList<ept id="p1">*</ept>します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>For information about the provider cmdlets, see about_Providers (http://go.microsoft.com/fwlink/?LinkID=113250) in the TechNet library.</source>
+          <target state="translated">プロバイダー コマンドレットについては、TechNet ライブラリで about_providers」(http://go.microsoft.com/fwlink/?LinkID=113250) を参照してください。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-CommandType</source>
+          <target state="translated">-CommandType</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Specifies the  types of commands that this cmdlet gets.</source>
+          <target state="translated">このコマンドレットを取得するコマンドの種類を指定します。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Enter one or more command types.</source>
+          <target state="translated">1 つまたは複数のコマンドの種類を入力します。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Use <bpt id="p1">*</bpt>CommandType<ept id="p1">*</ept> or its alias, <bpt id="p2">*</bpt>Type<ept id="p2">*</ept>.</source>
+          <target state="translated">使用 <bpt id="p1">*</bpt>CommandType<ept id="p1">*</ept> またはそのエイリアスである <bpt id="p2">*</bpt>型<ept id="p2">*</ept>します。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets all cmdlets, functions, and workflows, and aliases.</source>
+          <target state="translated">既定では、 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> コマンドレット、関数、およびワークフロー、およびエイリアスを取得します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">このパラメーターに対して使用できる値:</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Alias.</source>
+          <target state="translated">エイリアスです。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Gets the aliases of all Windows PowerShell commands.</source>
+          <target state="translated">すべての Windows PowerShell コマンドのエイリアスを取得します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">詳細については、「about_Aliases」を参照してください。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>All.</source>
+          <target state="translated">すべてです。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Gets all command types.</source>
+          <target state="translated">すべてのコマンドの種類を取得します。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This parameter value is the equivalent of <ph id="ph1">`Get-Command *`</ph>.</source>
+          <target state="translated">このパラメーター値は、それと同等の <ph id="ph1">`Get-Command *`</ph>です。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Application.</source>
+          <target state="translated">アプリケーションです。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Gets non-Windows-PowerShell files in paths listed in the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> environment variable ($env:path), including .txt, .exe, and .dll files.</source>
+          <target state="translated">Windows PowerShell 以外のファイルに表示されたパスを取得、 <bpt id="p1">**</bpt>パス<ept id="p1">**</ept> 環境変数 ($env:path: パス)、.txt、.exe、.dll ファイルなどです。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> environment variable, see about_Environment_Variables.</source>
+          <target state="translated">詳細については、 <bpt id="p1">**</bpt>パス<ept id="p1">**</ept> 環境変数、about_Environment_Variables を参照してください。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Cmdlet.</source>
+          <target state="translated">コマンドレットを使用。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets all cmdlets.</source>
+          <target state="translated">すべてのコマンドレットを取得します。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>ExternalScript.</source>
+          <target state="translated">ExternalScript します。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets all .ps1 files in the paths listed in the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> environment variable ($env:path).</source>
+          <target state="translated">表示されたパス内のすべての .ps1 ファイルを取得、 <bpt id="p1">**</bpt>パス<ept id="p1">**</ept> 環境変数 ($env:path: パス)。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Filter and Function.</source>
+          <target state="translated">フィルターを適用し、機能します。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Gets all Windows PowerShell advanced and simple functions and filters.</source>
+          <target state="translated">すべての Windows PowerShell の高度な関数と単純な関数、およびフィルターを取得します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Script.</source>
+          <target state="translated">スクリプトです。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets all script blocks.</source>
+          <target state="translated">すべてのスクリプト ブロックを取得します。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>To get Windows PowerShell scripts (.ps1 files), use the ExternalScript value.</source>
+          <target state="translated">Windows PowerShell スクリプト (.ps1 ファイル) を取得するには、ExternalScript 値を使用します。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Workflow.</source>
+          <target state="translated">ワークフローです。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Gets all workflows.</source>
+          <target state="translated">すべてのワークフローを取得します。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>For more information about workflows, see Introducing Windows PowerShell Workflow.</source>
+          <target state="translated">ワークフローの詳細については、Windows PowerShell ワークフローを参照してください。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-FullyQualifiedModule</source>
+          <target state="translated">-FullyQualifiedModule</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Specifies modules with names that are specified in the form of ModuleSpecification objects, described by the Remarks section of Module Specification Constructor (Hashtable)http://msdn.microsoft.com/library/windows/desktop/jj136290(v=vs.85).aspx on the Microsoft Developer Network (MSDN).</source>
+          <target state="translated">モジュールの仕様 Constructor (Hashtable) http://msdn.microsoft.com/library/windows/desktop/jj136290 (Microsoft Developer Network (MSDN) で v=vs.85).aspx の「解説」セクションで説明されている ModuleSpecification オブジェクトの形式で指定されている名前を持つモジュールを指定します。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>For example, the FullyQualifiedModule parameter accepts a module name that is specified in the format @{ModuleName = "modulename"; ModuleVersion = "version_number"} or @{ModuleName = "modulename"; ModuleVersion = "version_number"; Guid = "GUID"}.</source>
+          <target state="translated">たとえば、FullyQualifiedModule パラメーターがの形式で指定されているモジュール名を受け取る @{ModuleName ="modulename"です。ModuleVersion ="version_number"} または @{ModuleName ="modulename"です。ModuleVersion ="version_number"です。Guid ="GUID"}。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> are required, but <bpt id="p3">**</bpt>Guid<ept id="p3">**</ept> is optional.</source>
+          <target state="translated"><bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> と <bpt id="p2">**</bpt>ModuleVersion<ept id="p2">**</ept> は必須では <bpt id="p3">**</bpt>Guid<ept id="p3">**</ept> は省略可能です。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>You cannot specify the <bpt id="p1">*</bpt>FullyQualifiedModule<ept id="p1">*</ept> parameter in the same command as a <bpt id="p2">*</bpt>Module<ept id="p2">*</ept> parameter.</source>
+          <target state="translated">指定することはできません、 <bpt id="p1">*</bpt>FullyQualifiedModule<ept id="p1">*</ept> のと同じコマンド内のパラメーター、 <bpt id="p2">*</bpt>モジュール<ept id="p2">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The two parameters are mutually exclusive.</source>
+          <target state="translated">2 つのパラメーターでは、相互に排他的です。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>-ListImported</source>
+          <target state="translated">-ListImported</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet gets only commands in the current session.</source>
+          <target state="translated">このコマンドレットが現在のセッションでコマンドのみを取得することを示します。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Starting in Windows PowerShell 3.0, by default, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets all installed commands, including, but not limited to, the commands in the current session.</source>
+          <target state="translated">既定では、Windows PowerShell 3.0 以降 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> に限定されませんが、現在のセッションでコマンドを含むインストールされているすべてのコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, it gets only commands in the current session.</source>
+          <target state="translated">Windows PowerShell 2.0 では、現在のセッションでコマンドのみを取得します。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>-Module</source>
+          <target state="translated">モジュール</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Specifies an array of modules.</source>
+          <target state="translated">モジュールの配列を指定します。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets the commands that came from the specified modules or snap-ins.</source>
+          <target state="translated">このコマンドレットでは、指定したモジュールまたはスナップインから付属しているコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Enter the names of modules or snap-ins, or enter snap-in or module objects.</source>
+          <target state="translated">モジュールまたはスナップインの名前を入力するか、スナップイン オブジェクトまたはモジュール オブジェクトを入力します。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>This parameter takes string values, but the value of this parameter can also be a <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> or <bpt id="p2">**</bpt>PSSnapinInfo<ept id="p2">**</ept> object, such as the objects that the Get-Module, Get-PSSnapin, and Import-PSSession cmdlets return.</source>
+          <target state="translated">このパラメーターは、文字列値が、このパラメーターの値をすることも、 <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> または <bpt id="p2">**</bpt>PSSnapinInfo<ept id="p2">**</ept> Get-module、Get-pssnapin、Import-pssession コマンドレットが返すオブジェクトなどのオブジェクト。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>You can refer to this parameter by its name, <bpt id="p1">*</bpt>Module<ept id="p1">*</ept>, or by its alias, <bpt id="p2">*</bpt>PSSnapin<ept id="p2">*</ept>.</source>
+          <target state="translated">その名前でこのパラメーターを参照することができます <bpt id="p1">*</bpt>モジュール<ept id="p1">*</ept>, 、またはそのエイリアスで <bpt id="p2">*</bpt>PSSnapin<ept id="p2">*</ept>します。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The parameter name that you choose has no effect on the command output.</source>
+          <target state="translated">選択したパラメーターの名前は、コマンドの出力には影響しません。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Specifies an array of names.</source>
+          <target state="translated">名前の配列を指定します。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets only commands that have the specified name.</source>
+          <target state="translated">このコマンドレットでは、指定の名前を持つコマンドのみを取得します。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Enter a name or name pattern.</source>
+          <target state="translated">名前または名前パターンを入力します。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">ワイルドカード文字を使用できます。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>To get commands that have the same name, use the <bpt id="p1">*</bpt>All<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">同じ名前を持つコマンドを取得する、 <bpt id="p1">*</bpt>すべて<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>When two commands have the same name, by default, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets the command that runs when you type the command name.</source>
+          <target state="translated">2 つのコマンドは、既定では、同じ名前を付けるときに <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> コマンド名を入力するときに実行されるコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>-Noun</source>
+          <target state="translated">名詞を組み合わせた</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Specifies an array of command nouns.</source>
+          <target state="translated">コマンドの名詞の配列を指定します。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets commands, which include cmdlets, functions, workflows, and aliases, that have names that include the specified noun.</source>
+          <target state="translated">このコマンドレットでは、コマンドレット、関数、ワークフロー、およびエイリアスを指定した名詞を含む名前を含むコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Enter one or more nouns or noun patterns.</source>
+          <target state="translated">1 つまたは複数の名詞または名詞のパターンを入力します。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">ワイルドカード文字を使用できます。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>-ParameterName</source>
+          <target state="translated">-パラメーター名</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Specifies an array of parameter names.</source>
+          <target state="translated">パラメーター名の配列を指定します。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets commands in the session that have the specified parameters.</source>
+          <target state="translated">このコマンドレットでは、指定したパラメーターを持つ、セッション内のコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Enter parameter names or parameter aliases.</source>
+          <target state="translated">パラメーター名またはパラメーターのエイリアスを入力します。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are supported.</source>
+          <target state="translated">ワイルドカード文字がサポートされています。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>ParameterName<ept id="p1">*</ept> and <bpt id="p2">*</bpt>ParameterType<ept id="p2">*</ept> parameters search only commands in the current session.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>ParameterName<ept id="p1">*</ept> と <bpt id="p2">*</bpt>ParameterType<ept id="p2">*</ept> パラメーターは、現在のセッションでコマンドのみを検索します。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>-ParameterType</source>
+          <target state="translated">ParameterType-</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Specifies an array of parameter names.</source>
+          <target state="translated">パラメーター名の配列を指定します。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets commands in the session that have parameters of the specified type.</source>
+          <target state="translated">このコマンドレットでは、指定した型のパラメーターを持つ、セッションでコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Enter the full name or partial name of a parameter type.</source>
+          <target state="translated">パラメーターの型のフルネームまたは部分的な名前を入力します。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are supported.</source>
+          <target state="translated">ワイルドカード文字がサポートされています。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>ParameterName<ept id="p1">*</ept> and <bpt id="p2">*</bpt>ParameterType<ept id="p2">*</ept> parameters search only commands in the current session.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>ParameterName<ept id="p1">*</ept> と <bpt id="p2">*</bpt>ParameterType<ept id="p2">*</ept> パラメーターは、現在のセッションでコマンドのみを検索します。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>-ShowCommandInfo</source>
+          <target state="translated">-ShowCommandInfo</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet displays command information.</source>
+          <target state="translated">このコマンドレットではコマンドの情報が表示されていることを示します。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>For more information about the method that Windows PowerShell uses to select the command to run when multiple commands have the same name, see about_Command_Precedence.</source>
+          <target state="translated">Windows PowerShell を使用して複数のコマンドは、同じ名前を付けるときに実行するコマンドを選択する方法の詳細については、about_Command_Precedence を参照してください。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>For information about module-qualified command names and running commands that do not run by default because of a name conflict, see about_Modules.</source>
+          <target state="translated">モジュール修飾コマンド名と名前の競合のため、既定で実行していないコマンドの実行については、about_Modules を参照してください。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets all commands by default.</source>
+          <target state="translated">Windows PowerShell 2.0 で <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 既定ですべてのコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>-Syntax</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet gets only the following specified data about the command:</source>
+          <target state="translated">このコマンドレットがコマンドに関する次の指定されたデータのみを取得することを示します。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Aliases.</source>
+          <target state="translated">エイリアスです。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Gets the standard name.</source>
+          <target state="translated">標準的な名前を取得します。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Cmdlets.</source>
+          <target state="translated">コマンドレット。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Gets the syntax.</source>
+          <target state="translated">構文を取得します。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Functions and filters.</source>
+          <target state="translated">関数とフィルター。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Gets the function definition.</source>
+          <target state="translated">関数の定義を取得します。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Scripts and applications or files.</source>
+          <target state="translated">スクリプトとアプリケーションまたはファイル。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Gets the path and filename.</source>
+          <target state="translated">パスとファイル名を取得します。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>-TotalCount</source>
+          <target state="translated">-TotalCount</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Specifies the number of commands to get.</source>
+          <target state="translated">取得するコマンドの数を指定します。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to limit the output of a command.</source>
+          <target state="translated">このパラメーターを使用すると、コマンドの出力を制限できます。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>-Verb</source>
+          <target state="translated">動詞</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Specifies an array of command verbs.</source>
+          <target state="translated">コマンド動詞の配列を指定します。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets commands, which include cmdlets, functions, workflows, and aliases, that have names that include the specified verb.</source>
+          <target state="translated">このコマンドレットでは、コマンドレット、関数、ワークフロー、およびエイリアスを指定した動詞を含む名前を含むコマンドを取得します。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Enter one or more verbs or verb patterns.</source>
+          <target state="translated">1 つまたは複数の動詞または動詞パターンを入力します。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">ワイルドカード文字を使用できます。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>You can pipe command names to this cmdlet.</source>
+          <target state="translated">このコマンドレットへのコマンド名をパイプすることができます。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.CommandInfo</source>
+          <target state="translated">System.Management.Automation.CommandInfo</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns objects derived from the <bpt id="p1">**</bpt>CommandInfo<ept id="p1">**</ept> class.</source>
+          <target state="translated">このコマンドレットから派生したオブジェクトを返す、 <bpt id="p1">**</bpt>CommandInfo<ept id="p1">**</ept> クラスです。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The type of object that is returned depends on the type of command that <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> gets.</source>
+          <target state="translated">返されるオブジェクトの種類は、コマンドの種類によって異なります。 を <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> を取得します。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.AliasInfo</source>
+          <target state="translated">System.Management.Automation.AliasInfo</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Represents aliases.</source>
+          <target state="translated">エイリアスを表します。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.ApplicationInfo</source>
+          <target state="translated">System.Management.Automation.ApplicationInfo</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Represents or applications and files.</source>
+          <target state="translated">表しますまたはアプリケーション ファイルとファイルです。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.CmdletInfo</source>
+          <target state="translated">System.Management.Automation.CmdletInfo</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Represents cmdlets.</source>
+          <target state="translated">コマンドレットを表します。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.FunctionInfo</source>
+          <target state="translated">System.Management.Automation.FunctionInfo</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Represents functions and filters.</source>
+          <target state="translated">関数とフィルターを表します。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.WorkflowInfo</source>
+          <target state="translated">System.Management.Automation.WorkflowInfo</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Represents workflows.</source>
+          <target state="translated">ワークフローを表します。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>When more than one command that has the same name is available to the session, <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> returns the command that runs when you type the command name.</source>
+          <target state="translated">同じ名前を持つ 2 つ以上のコマンドは、セッションで使用できるときに <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> コマンド名を入力するときに実行されるコマンドを返します。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>To get commands that have the same name, listed in run order, use the <bpt id="p1">*</bpt>All<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">コマンド実行の順序で一覧表示、同じ名前を取得するには、 <bpt id="p1">*</bpt>すべて<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Command_Precedence.</source>
+          <target state="translated">詳細については、「about_Command_Precedence」を参照してください。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>When a module is imported automatically, the effect is the same as using the Import-Module cmdlet.</source>
+          <target state="translated">モジュールが自動的にインポートされると、効果は、Import-module コマンドレットを使用する場合と同じです。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The module can add commands, types and formatting files, and run scripts in the session.</source>
+          <target state="translated">モジュールは、コマンド、型、および書式設定ファイルを追加し、セッションでスクリプトを実行できます。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>To enable, disable, and configuration automatic importing of modules, use the $PSModuleAutoLoadingPreference preference variable.</source>
+          <target state="translated">無効にして、モジュールの自動インポートの構成を有効にするには、$PSModuleAutoLoadingPreference ユーザー設定変数を使用します。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables.</source>
+          <target state="translated">詳細については、「about_Preference_Variables」を参照してください。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Export-PSSession</source>
+          <target state="translated">Export-PSSession</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Get-Help</source>
+          <target state="translated">Get-Help</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Get-Member</source>
+          <target state="translated">Get-Member</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Get-PSDrive</source>
+          <target state="translated">Get-PSDrive</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Import-PSSession</source>
+          <target state="translated">Import-PSSession</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

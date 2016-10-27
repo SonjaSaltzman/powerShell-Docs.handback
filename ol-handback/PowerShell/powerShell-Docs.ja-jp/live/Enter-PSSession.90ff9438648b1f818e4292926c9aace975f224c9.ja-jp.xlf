@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a6ef44926f29652fe9767bdb191ac680e49ea489</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\Enter-PSSession.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3bfaf05bc24854f010c56d91608aeb836bcd389b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9bfc667bb7493b1ae92a6d514933988c328dcc13</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starts an interactive session with a remote computer.</source>
+          <target state="translated">リモート コンピューターとの対話型セッションを開始します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ComputerName (Default)</source>
+          <target state="translated">コンピューター名 (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Session</source>
+          <target state="translated">セッション</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Uri</source>
+          <target state="translated">Uri</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceId</source>
+          <target state="translated">インスタンス Id</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <target state="translated">Id</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">名前</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Enter-PSSession<ept id="p1">**</ept> cmdlet starts an interactive session with a single remote computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Enter-pssession<ept id="p1">**</ept> コマンドレットは、単一のリモート コンピューターと対話型セッションを開始します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>During the session, the commands that you type run on the remote computer, just as though you were typing directly on the remote computer.</source>
+          <target state="translated">セッション中は、入力したコマンドは、リモート コンピューターで直接入力した場合と同様に、リモート コンピューター上で実行されます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can have only one interactive session at a time.</source>
+          <target state="translated">一度に 1 つのみの対話型セッションを確立できます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Typically, you use the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter to specify the name of the remote computer.</source>
+          <target state="translated">通常、使用して、 <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> パラメーターをリモート コンピューターの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, you can also use a session that you create by using the New-PSSession cmdlet for the interactive session.</source>
+          <target state="translated">ただし、対話型セッション New-pssession コマンドレットを使用して作成したセッションを使用することもできます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>However, you cannot use the Disconnect-PSSession, Connect-PSSession, or Receive-PSSession cmdlets to disconnect from or re-connect to an interactive session.</source>
+          <target state="translated">ただし、切断または対話型セッションに再接続する Disconnect-pssession、Connect-pssession、または Receive-pssession コマンドレットを使用することはできません。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To end the interactive session and disconnect from the remote computer, use the Exit-PSSession cmdlet, or type "exit".</source>
+          <target state="translated">対話型セッションを終了して、リモート コンピューターから切断、Exit-pssession コマンドレットを使用または"exit"を入力します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command starts an interactive session on the local computer.</source>
+          <target state="translated">このコマンドは、ローカル コンピューターで対話型セッションを開始します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The command prompt changes to indicate that you are now running commands in a different session.</source>
+          <target state="translated">コマンド プロンプトが変更され、現在、別のセッションでコマンドを実行していることを示します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The commands that you enter run in the new session, and the results are returned to the default session as text.</source>
+          <target state="translated">入力したコマンドは新しいセッションで実行され、結果がテキストとして既定のセッションに返されます。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This command shows how to work in an interactive session with a remote computer.</source>
+          <target state="translated">このコマンドは、リモート コンピューターとの対話型セッションで作業する方法を示します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>These commands use the Session parameter of Enter-PSSession to run the interactive session in an existing Windows PowerShell session (PSSession).</source>
+          <target state="translated">これらのコマンドは、Enter-PSSession の Session パラメーターを使用して、既存の Windows PowerShell セッション (PSSession) 内で対話型セッションを実行します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command starts an interactive session with the Server01 computer.</source>
+          <target state="translated">このコマンドは、Server01 コンピューターとの対話型セッションを開始します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It uses the Port parameter to specify the port and the Credential parameter to specify the account of a user with permission to connect to the remote computer.</source>
+          <target state="translated">リモート コンピューターに接続するために、Port パラメーターを使用してポートを指定し、Credential パラメーターを使用してユーザーのアカウントにアクセス許可を指定します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This example shows how to start and stop an interactive session.</source>
+          <target state="translated">この例は、対話型セッションを開始および停止する方法を示しています。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The first command uses the Enter-PSSession cmdlet to start an interactive session with the Server01 computer.</source>
+          <target state="translated">最初のコマンドは、Enter-PSSession コマンドレットを使用して、Server01 コンピューターとの対話型セッションを開始します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The second command uses the Exit-PSSession cmdlet to end the session.</source>
+          <target state="translated">2 番目のコマンドは、Exit-PSSession コマンドレットを使用してセッションを終了します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can also use the Exit keyword to end the interactive session.</source>
+          <target state="translated">また、Exit キーワードを使用して、対話型セッションを終了することもできます。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Exit-PSSession and Exit have the same effect.</source>
+          <target state="translated">Exit-PSSession と Exit は、同じ効果をもたらします。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-AllowRedirection</source>
+          <target state="translated">-AllowRedirection</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Allows redirection of this connection to an alternate Uniform Resource Identifier (URI).</source>
+          <target state="translated">この接続を代替 Uniform Resource Identifier (URI) にリダイレクトできます。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>By default, redirection is not allowed.</source>
+          <target state="translated">既定では、リダイレクトは許可されません。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>ConnectionURI<ept id="p1">**</ept> parameter, the remote destination can return an instruction to redirect to a different URI.</source>
+          <target state="translated">使用すると、 <bpt id="p1">**</bpt>ConnectionURI<ept id="p1">**</ept> パラメーター、リモートの送信先は別の URI にリダイレクトする命令を返すことができます。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell does not redirect connections, but you can use this parameter to allow it to redirect the connection.</source>
+          <target state="translated">既定では、Windows PowerShell は接続をリダイレクトしませんが、ユーザーはこのパラメーターを使用して接続をリダイレクトできます。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can also limit the number of times the connection is redirected by changing the <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> session option value.</source>
+          <target state="translated">変更することで、接続をリダイレクトする回数を制限することもできます。、 <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> セッション オプションの値。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Use the  <bpt id="p1">**</bpt>MaximumRedirection<ept id="p1">**</ept> parameter of the New-PSSessionOption cmdlet or set the <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> property of the <bpt id="p3">**</bpt>$PSSessionOption<ept id="p3">**</ept> preference variable.</source>
+          <target state="translated">使用して、  <bpt id="p1">**</bpt>MaximumRedirection<ept id="p1">**</ept> New-pssessionoption コマンドレットまたは一連のパラメーター、 <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> のプロパティ、 <bpt id="p3">**</bpt>$PSSessionOption<ept id="p3">**</ept> ユーザー設定変数です。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">既定値は 5 です。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-ApplicationName</source>
+          <target state="translated">-ApplicationName</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specifies the application name segment of the connection URI.</source>
+          <target state="translated">接続 URI のアプリケーション名セグメントを指定します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Use this parameter to specify the application name when you are not using the ConnectionURI parameter in the command.</source>
+          <target state="translated">コマンドで ConnectionURI パラメーターを使用しない場合は、このパラメーターを使用してアプリケーション名を指定します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The default value is the value of the $PSSessionApplicationName preference variable on the local computer.</source>
+          <target state="translated">既定値は、ローカル コンピューター上の $PSSessionApplicationName ユーザー設定変数の値です。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If this preference variable is not defined, the default value is WSMAN.</source>
+          <target state="translated">このユーザー設定変数が定義されていない場合、既定値は WSMAN です。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This value is appropriate for most uses.</source>
+          <target state="translated">この値はほとんどの用途に適しています。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables.</source>
+          <target state="translated">詳細については、「about_Preference_Variables」を参照してください。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The WinRM service uses the application name to select a listener to service the connection request.</source>
+          <target state="translated">WinRM サービスは、アプリケーション名を使用して、接続要求を処理するリスナーを選択します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The value of this parameter should match the value of the URLPrefix property of a listener on the remote computer.</source>
+          <target state="translated">このパラメーターの値は、リモート コンピューター上のリスナーの URLPrefix プロパティの値に一致している必要があります。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-Authentication</source>
+          <target state="translated">-認証</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specifies the mechanism that is used to authenticate the user's credentials.</source>
+          <target state="translated">ユーザーの資格情報の認証に使用するメカニズムを指定します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Valid values are "Default", "Basic", "Credssp", "Digest", "Kerberos", "Negotiate", and "NegotiateWithImplicitCredential".</source>
+          <target state="translated">有効な値は、"Default"、"Basic"、"Credssp"、"Digest"、"Kerberos"、"Negotiate"、および "NegotiateWithImplicitCredential" です。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The default value is "Default".</source>
+          <target state="translated">既定値は "Default" です。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>CredSSP authentication is available only in Windows Vista, Windows Server 2008, and later versions of Windows.</source>
+          <target state="translated">CredSSP 認証は、Windows Vista、Windows Server 2008 以降のバージョンの Windows でのみ使用できます。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see the description of the System.Management.Automation.Runspaces.AuthenticationMechanism enumeration in the MSDN (Microsoft Developer Network) library at http://go.microsoft.com/fwlink/?LinkId=144382.</source>
+          <target state="translated">このパラメーターの値の詳細については、MSDN (Microsoft Developer Network) ライブラリの System.Management.Automation.Runspaces.AuthenticationMechanism 列挙体に関する説明 (http://go.microsoft.com/fwlink/?LinkId=144382) を参照してください。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Caution: Credential Security Support Provider (CredSSP) authentication, in which the user's credentials are passed to a remote computer to be authenticated, is designed for commands that require authentication on more than one resource, such as accessing a remote network share.</source>
+          <target state="translated">注意: ユーザーの資格情報が認証対象のリモート コンピューターに渡される Credential Security Support Provider (CredSSP) 認証はリモート ネットワーク共有へのアクセスなどの複数のリソースの認証を必要とするコマンド設計されています。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This mechanism increases the security risk of the remote operation.</source>
+          <target state="translated">このメカニズムを使用すると、リモート操作のセキュリティ リスクが高まります。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If the remote computer is compromised, the credentials that are passed to it can be used to control the network session.</source>
+          <target state="translated">リモート コンピューターのセキュリティが低下している場合は、そのリモート コンピューターに渡される資格情報を使用してネットワーク セッションが制御される場合があります。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-CertificateThumbprint</source>
+          <target state="translated">-CertificateThumbprint</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Specifies the digital public key certificate (X509) of a user account that has permission to perform this action.</source>
+          <target state="translated">この処理を実行するアクセス許可を持つユーザー アカウントのデジタル公開キー証明書 (X509) を指定します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Enter the certificate thumbprint of the certificate.</source>
+          <target state="translated">証明書の拇印を入力します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Certificates are used in client certificate-based authentication.</source>
+          <target state="translated">証明書は、クライアント証明書ベースの認証で使用されます。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>They can be mapped only to local user accounts; they do not work with domain accounts.</source>
+          <target state="translated">これらの証明書は、ローカル ユーザー アカウントにしかマップできません。ドメイン アカウントでは機能しません。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To get a certificate, use the Get-Item or Get-ChildItem command in the Windows PowerShell Cert: drive.</source>
+          <target state="translated">証明書を取得するには、Windows PowerShell Cert: ドライブで Get-Item または Get-ChildItem を使用します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Starts an interactive session with the specified remote computer.</source>
+          <target state="translated">指定したリモート コンピューターとの対話型セッションを開始します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Enter only one computer name.</source>
+          <target state="translated">コンピューター名を1 つだけ入力します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">既定はローカル コンピュータです。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, the IP address, or the fully qualified domain name of the computer.</source>
+          <target state="translated">コンピューターの NetBIOS 名、IP アドレス、または完全修飾ドメイン名を入力します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You can also pipe a computer name to Enter-PSSession.</source>
+          <target state="translated">また、パイプを使用してコンピューター名を Enter-PSSession に渡すこともできます。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To use an IP address in the value of the ComputerName parameter, the command must include the Credential parameter.</source>
+          <target state="translated">IP アドレスを ComputerName パラメーターの値として使用するには、コマンドに Credential パラメーターを含める必要があります。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Also, the computer must be configured for HTTPS transport or the IP address of the remote computer must be included in the WinRM TrustedHosts list on the local computer.</source>
+          <target state="translated">また、HTTPS トランスポート用にコンピューターを構成するか、リモート コンピューターの IP アドレスをローカル コンピューター上の WinRM TrustedHosts 一覧に含める必要があります。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For instructions for adding a computer name to the TrustedHosts list, see "How to Add  a Computer to the Trusted Host List" in about_Remote_Troubleshooting.</source>
+          <target state="translated">TrustedHosts の一覧にコンピューター名を追加する方法については、「about_Remote_Troubleshooting」で、コンピューターを信頼されたホスト一覧に追加する方法に関するセクションを参照してください。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Note:  In Windows Vista and later versions of Windows, to include the local computer in the value of the ComputerName parameter, you must start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">注: Windows Vista およびそれ以降のバージョンの Windows では、ComputerName パラメーターの値に、ローカル コンピューターを含める必要があります PowerShell を起動する Windows"管理者として実行] オプションを使用します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-ConfigurationName</source>
+          <target state="translated">-ConfigurationName</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Specifies the session configuration that is used for the interactive session.</source>
+          <target state="translated">対話型セッションに使用するセッション構成を指定します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Enter a configuration name or the fully qualified resource URI for a session configuration.</source>
+          <target state="translated">セッション構成の構成名または完全修飾リソース URI を入力します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If you specify only the configuration name, the following schema URI is prepended:  http://schemas.microsoft.com/powershell.</source>
+          <target state="translated">次のスキーマ URI が付加されて構成名だけを指定する場合: http://schemas.microsoft.com/powershell です。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The session configuration for a session is located on the remote computer.</source>
+          <target state="translated">セッションのセッション構成は、リモート コンピューター上にあります。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If the specified session configuration does not exist on the remote computer, the command fails.</source>
+          <target state="translated">指定したセッション構成がリモート コンピューター上に存在しない場合、コマンドは失敗します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The default value is the value of the $PSSessionConfigurationName preference variable on the local computer.</source>
+          <target state="translated">既定値は、ローカル コンピューター上の $PSSessionConfigurationName ユーザー設定変数の値です。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If this preference variable is not set, the default is Microsoft.PowerShell.</source>
+          <target state="translated">このユーザー設定変数が設定されていない場合、既定値は Microsoft.PowerShell です。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Preference_Variables.</source>
+          <target state="translated">詳細については、「about_Preference_Variables」を参照してください。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-ConnectionUri</source>
+          <target state="translated">-ConnectionUri</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Specifies a Uniform Resource Identifier (URI) that defines the connection endpoint for the session.</source>
+          <target state="translated">セッションの接続エンドポイントを定義する Uniform Resource Identifier (URI) を指定します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The URI must be fully qualified.</source>
+          <target state="translated">URI は完全修飾名にする必要があります。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The format of this string is as follows:</source>
+          <target state="translated">この文字列の形式は次のとおりです。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Transport<ph id="ph1">\&gt;</ph>://<ph id="ph2">\&lt;</ph>ComputerName<ph id="ph3">\&gt;</ph>:<ph id="ph4">\&lt;</ph>Port<ph id="ph5">\&gt;/\&lt;</ph>ApplicationName</source>
+          <target state="translated">トランスポート<ph id="ph1">\&gt;</ph>://<ph id="ph2">\&lt;</ph>ComputerName<ph id="ph3">\&gt;</ph>:<ph id="ph4">\&lt;</ph>ポート<ph id="ph5">\&gt;/\&lt;</ph>ApplicationName</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The default value is as follows:</source>
+          <target state="translated">既定値は、次のとおりです。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>http://localhost:5985/WSMAN</source>
+          <target state="translated">http://localhost:5985/WSMAN</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If you do not specify a <bpt id="p1">**</bpt>ConnectionURI<ept id="p1">**</ept>, you can use the <bpt id="p2">**</bpt>UseSSL<ept id="p2">**</ept>, <bpt id="p3">**</bpt>ComputerName<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Port<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>ApplicationName<ept id="p5">**</ept> parameters to specify the <bpt id="p6">**</bpt>ConnectionURI<ept id="p6">**</ept> values.</source>
+          <target state="translated">指定しない場合、 <bpt id="p1">**</bpt>ConnectionURI<ept id="p1">**</ept>, 、使用することができます、 <bpt id="p2">**</bpt>UseSSL<ept id="p2">**</ept>, 、<bpt id="p3">**</bpt>ComputerName<ept id="p3">**</ept>, 、<bpt id="p4">**</bpt>ポート<ept id="p4">**</ept>, 、および <bpt id="p5">**</bpt>ApplicationName<ept id="p5">**</ept> を指定するパラメーター、 <bpt id="p6">**</bpt>ConnectionURI<ept id="p6">**</ept> 値。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Valid values for the Transport segment of the URI are HTTP and HTTPS.</source>
+          <target state="translated">URI のトランスポート セグメントの有効な値は、HTTP および HTTPS です。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you specify a connection URI with a Transport segment, but do not specify a port, the session is created with standards ports: 80 for HTTP and 443 for HTTPS.</source>
+          <target state="translated">標準ポート トランスポート セグメントを持つ接続 URI を指定してポートを指定しない場合、セッションの作成: HTTP および HTTPS の場合は 443 の場合は 80 です。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To use the default ports for Windows PowerShell remoting, specify port 5985 for HTTP or 5986 for HTTPS.</source>
+          <target state="translated">Windows PowerShell リモート処理用の既定のポートを使用するには、HTTP の場合は 5985、HTTPS の場合は 5986 を指定します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>If the destination computer redirects the connection to a different URI, Windows PowerShell prevents the redirection unless you use the <bpt id="p1">**</bpt>AllowRedirection<ept id="p1">**</ept> parameter in the command.</source>
+          <target state="translated">使用する場合を除き、Windows PowerShell はリダイレクションを阻止セットアップ先のコンピューターでは、別の URI に接続をリダイレクトする場合、 <bpt id="p1">**</bpt>AllowRedirection<ept id="p1">**</ept> 、コマンドのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">この処理を実行するアクセス許可を持つユーザー アカウントを指定します。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">既定値は現在のユーザーです。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01", "Domain01\User01", or "User@Domain.com", or enter a PSCredential object, such as one returned by the Get-Credential cmdlet.</source>
+          <target state="translated">"User01"、"Domain01\User01"、"User@Domain.com" などのユーザー名を入力するか、Get-Credential コマンドレットで返されるような PSCredential オブジェクトを入力します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>When you type a user name, you will be prompted for a password.</source>
+          <target state="translated">ユーザー名を入力すると、パスワードの入力を促すメッセージが表示されます。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-EnableNetworkAccess</source>
+          <target state="translated">-EnableNetworkAccess</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Adds an interactive security token to loopback sessions.</source>
+          <target state="translated">ループバック セッションに対話型セキュリティ トークンを追加します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The interactive token lets you run commands in the loopback session that get data from other computers.</source>
+          <target state="translated">対話型トークンを使用すると、他のコンピューターからデータを取得するコマンドをループバック セッションで実行できます。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For example, you can run a command in the session that copies XML files from a remote computer to the local computer.</source>
+          <target state="translated">たとえば、リモート コンピューターからローカル コンピューターに XML ファイルをコピーするコマンドをセッションで実行できます。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A "loopback session" is a PSSession that originates and terminates on the same computer.</source>
+          <target state="translated">「ループバック セッション」は、発生元し、同じコンピューターで終了した PSSession です。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>To create a loopback session, omit the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter or set its value to ".", "localhost", or the name of the local computer.</source>
+          <target state="translated">ループバック セッションを作成するには、省略、 <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> パラメーターにその値を設定または"です。"、"localhost"、またはローカル コンピューターの名前。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>By default, loopback sessions are created with a network token, which might not provide sufficient permission to authenticate to remote computers.</source>
+          <target state="translated">既定では、ループバック セッションはネットワーク トークンを使用して作成されます。その場合は、リモート コンピューターから認証を受けるための十分なアクセス許可が提供されないことがあります。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>EnableNetworkAccess<ept id="p1">**</ept> parameter is effective only in loopback sessions.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>EnableNetworkAccess<ept id="p1">**</ept> パラメータは、ループバック セッションでのみ有効です。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>EnableNetworkAccess<ept id="p1">**</ept> parameter when creating a session on a remote computer, the command succeeds, but the parameter is ignored.</source>
+          <target state="translated">使用する場合、 <bpt id="p1">**</bpt>EnableNetworkAccess<ept id="p1">**</ept> パラメーター リモート コンピューター上のセッションを作成するときに、コマンドは成功しますが、パラメーターは無視されます。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>You can also allow remote access in a loopback session by using the <bpt id="p1">**</bpt>CredSSP<ept id="p1">**</ept> value of the <bpt id="p2">**</bpt>Authentication<ept id="p2">**</ept> parameter, which delegates the session credentials to other computers.</source>
+          <target state="translated">使用して、ループバック セッションでリモート アクセスを許可することも、 <bpt id="p1">**</bpt>CredSSP<ept id="p1">**</ept> の値、 <bpt id="p2">**</bpt>認証<ept id="p2">**</ept> パラメーターで、他のコンピューターにセッションの資格情報を委任します。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of an existing session.</source>
+          <target state="translated">既存のセッションの ID を指定します。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession uses the specified session for the interactive session.</source>
+          <target state="translated">Enter-PSSession は対話型セッション用に指定されたセッションを使用します。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>To find the ID of a session, use the Get-PSSession cmdlet.</source>
+          <target state="translated">セッションの ID を検索するには、Get-PSSession コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">インスタンス Id</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Specifies the instance ID of an existing session.</source>
+          <target state="translated">既存のセッションのインスタンス ID を指定します。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession uses the specified session for the interactive session.</source>
+          <target state="translated">Enter-PSSession は対話型セッション用に指定されたセッションを使用します。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The instance ID is a GUID.</source>
+          <target state="translated">インスタンス ID は GUID です。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a session, use the Get-PSSession cmdlet.</source>
+          <target state="translated">セッションのインスタンス ID を検索するには、Get-PSSession コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>You can also use the Session, Name, or ID parameters to specify an existing session.</source>
+          <target state="translated">Session、Name、または ID パラメーターを使用して、既存のセッションを指定することもできます。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Or, you can use the ComputerName parameter to start a temporary session.</source>
+          <target state="translated">また、ComputerName パラメーターを使用して、一時的なセッションを開始することもできます。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Specifies the friendly name of an existing session.</source>
+          <target state="translated">既存のセッションのフレンドリ名を指定します。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession uses the specified session for the interactive session.</source>
+          <target state="translated">Enter-PSSession は対話型セッション用に指定されたセッションを使用します。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If the name that you specify matches more than one session, the command fails.</source>
+          <target state="translated">指定した名前が複数のセッションと一致する場合、コマンドは失敗します。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>You can also use the Session, InstanceID, or ID parameters to specify an existing session.</source>
+          <target state="translated">Session、InstanceID、または ID パラメーターを使用して、既存のセッションを指定することもできます。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Or, you can use the ComputerName parameter to start a temporary session.</source>
+          <target state="translated">また、ComputerName パラメーターを使用して、一時的なセッションを開始することもできます。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>To establish a friendly name for a session, use the Name parameter of the New-PSSession cmdlet.</source>
+          <target state="translated">セッションのフレンドリ名を指定するには、New-PSSession コマンドレットの Name パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-Port</source>
+          <target state="translated">ポート</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Specifies the network port  on the remote computer used for this command.</source>
+          <target state="translated">このコマンドに使用するリモート コンピューター上のネットワーク ポートを指定します。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>To connect to a remote computer, the remote computer must be listening on the port that the connection uses.</source>
+          <target state="translated">リモート コンピューターに接続するには、リモート コンピューターで、接続に使用されるポートをリッスンすることが必要です。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The default ports are 5985 (the WinRM port for HTTP) and 5986 (the WinRM port for HTTPS).</source>
+          <target state="translated">既定のポート番号は 5985 (HTTP 用の WinRM ポート) と 5986 (HTTPS 用の WinRM ポート) です。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Before using an alternate port, you must configure the WinRM listener on the remote computer to listen at that port.</source>
+          <target state="translated">代替ポートを使用する前に、そのポートでリッスンするようにリモート コンピューター上の WinRM リスナーを構成する必要があります。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Use the following commands to configure the listener:</source>
+          <target state="translated">リスナーを構成するには、次のコマンドを使用します。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Do not use the <bpt id="p1">**</bpt>Port<ept id="p1">**</ept> parameter unless you must.</source>
+          <target state="translated">使用しないでください、 <bpt id="p1">**</bpt>ポート<ept id="p1">**</ept> パラメーター必要な場合です。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The port setting in the command applies to all computers or sessions on which the command runs.</source>
+          <target state="translated">コマンドのポート設定は、コマンドが実行されるすべてのコンピューターまたはセッションに適用されます。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>An alternate port setting might prevent the command from running on all computers.</source>
+          <target state="translated">代替ポートの設定によっては、コマンドがすべてのコンピューターで実行されない場合があります。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">セッション</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Specifies a Windows PowerShell session (PSSession) to use for the interactive session.</source>
+          <target state="translated">対話型セッションで使用する Windows PowerShell セッション　(PSSession) を指定します。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>This parameter takes a session object.</source>
+          <target state="translated">このパラメーターは、セッション オブジェクトを受け取ります。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>You can also use the Name, InstanceID, or ID parameters to specify a PSSession.</source>
+          <target state="translated">Name、InstanceID、または ID パラメーターを使用して、PSSession を指定することもできます。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a session object or a command that creates or gets a session object, such as a New-PSSession or Get-PSSession command.</source>
+          <target state="translated">セッション オブジェクトが格納されている変数、または New-PSSession コマンドや Get-PSSession コマンドなどのセッション オブジェクトを作成または取得するコマンドを入力します。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>You can also pipe a session object to Enter-PSSession.</source>
+          <target state="translated">また、パイプを使用してセッション オブジェクトを Enter-PSSession に渡すこともできます。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>You can submit only one PSSession with this parameter.</source>
+          <target state="translated">このパラメーターでは、1 つの PSSession のみを送信できます。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>If you enter a variable that contains more than one PSSession, the command fails.</source>
+          <target state="translated">複数の PSSession を含む変数を入力すると、コマンドは失敗します。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>When you use Exit-PSSession or the EXIT keyword, the interactive session ends, but the PSSession that you created remains open and available for use.</source>
+          <target state="translated">Exit-PSSession または EXIT キーワードを使用すると、対話型セッションは終了しますが、作成した PSSession は開いたままとなり、使用できます。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>-SessionOption</source>
+          <target state="translated">-SessionOption</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Sets advanced options for the session.</source>
+          <target state="translated">セッションの詳細オプションを設定します。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> object, such as one that you create by using the New-PSSessionOption cmdlet, or a hash table in which the keys are session option names and the values are session option values.</source>
+          <target state="translated">入力、 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> New-pssessionoption コマンドレットを使用して作成するキーは、セッション オプション名で、値は、セッション オプション値は、ハッシュ テーブルなどのオブジェクト。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The default values for the options are determined by the value of the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, if it is set.</source>
+          <target state="translated">オプションの既定値は、の値によって決まりますが、 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> ユーザー設定変数で設定されている場合。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Otherwise, the default values are established by options set in the session configuration.</source>
+          <target state="translated">それ以外の場合、既定値はセッション構成で設定されたオプションによって決まります。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The session option values take precedence over default values for sessions set in the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable and in the session configuration.</source>
+          <target state="translated">セッション オプションの値よりも優先既定値設定されたセッションの <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> ユーザー設定変数およびセッション構成します。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>However, they do not take precedence over maximum values, quotas or limits set in the session configuration.</source>
+          <target state="translated">ただし、セッション構成で設定された最大値、クォータ、または制限よりも優先されることはありません。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>For a description of the session options, including the default values, see New-PSSessionOption.</source>
+          <target state="translated">既定値を含む、セッション オプションの詳細については、New-pssessionoption を参照してください。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>For information about the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">については、 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> ユーザー設定変数では、「about_preference_variables」(http://go.microsoft.com/fwlink/?LinkID=113248)。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">セッション構成の詳細については、「about_Session_Configurations」(http://go.microsoft.com/fwlink/?LinkID=145152) を参照してください。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>-UseSSL</source>
+          <target state="translated">-UseSSL</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Uses the Secure Sockets Layer (SSL) protocol to establish a connection to the remote computer.</source>
+          <target state="translated">Secure Sockets Layer (SSL) プロトコルを使用してリモート コンピューターとの接続を確立します。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>By default, SSL is not used.</source>
+          <target state="translated">既定では、SSL は使用されません。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>WS-Management encrypts all Windows PowerShell content transmitted over the network.</source>
+          <target state="translated">WS-Management は、ネットワークを介して転送されるすべての Windows PowerShell コンテンツを暗号化します。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>UseSSL is an additional protection that sends the data across an HTTPS connection instead of an HTTP connection.</source>
+          <target state="translated">UseSSL は、HTTP 接続ではなく HTTPS 接続を使用してデータを送信することによって、セキュリティをさらに高める役割を果たします。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>If you use this parameter, but SSL is not available on the port used for the command, the command fails.</source>
+          <target state="translated">コマンドに使用するポートで SSL が使用できない場合に、このパラメーターを指定すると、コマンドは失敗します。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>System.String or System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.String または System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>You can pipe a computer name (a string) or a session object to Enter-PSSession.</source>
+          <target state="translated">パイプを使用して、コンピューター名 (文字列) またはセッション オブジェクトを Enter-PSSession に渡すことができます。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The cmdlet does not return any output.</source>
+          <target state="translated">このコマンドレットは出力を返しません。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>To connect to a remote computer, you must be a member of the Administrators group on the remote computer.</source>
+          <target state="translated">リモート コンピューターに接続するには、リモート コンピューターの Administrators グループのメンバーであることが必要です。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>In Windows Vista and later versions of Windows, to start an interactive session on the local computer, you must start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">Windows の Windows Vista 以降のバージョンで、ローカル コンピューター上で対話型セッションを開始するには、[管理者として実行] オプションで Windows PowerShell を起動する必要があります。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>When you use Enter-PSSession, your user profile on the remote computer is used for the interactive session.</source>
+          <target state="translated">Enter-PSSession を使用する場合、リモート コンピューター上のユーザー プロファイルが対話型のセッション用に使用されます。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The commands in the remote user profile, including commands to add Windows PowerShell snap-ins and to change the command prompt, run before the remote prompt is displayed.</source>
+          <target state="translated">Windows PowerShell スナップインを追加するコマンドやコマンド プロンプトを変更するコマンドを含め、リモート ユーザー プロファイル内のコマンドは、リモート プロンプトが表示される前に実行されます。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession uses the UI culture setting on the local computer for the interactive session.</source>
+          <target state="translated">Enter-PSSession は対話型セッション用にローカル コンピューター上の UI カルチャ設定を使用します。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>To find the local UI culture, use the $UICulture automatic variable.</source>
+          <target state="translated">ローカル UI カルチャを検索するには、$UICulture 自動変数を使用します。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession requires the Get-Command, Out-Default, and Exit-PSSession cmdlets.</source>
+          <target state="translated">Enter-PSSession には、Get-Command、Out-Default、および Exit-PSSession コマンドレットが必要です。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>If these cmdlets are not included in the session configuration on the remote computer, the Enter-PSSession commands fails.</source>
+          <target state="translated">これらのコマンドレットがリモート コンピューター上のセッション構成に含まれていない場合、Enter-PSSession コマンドは失敗します。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Unlike Invoke-Command, which parses and interprets the commands before sending them to the remote computer, Enter-PSSession sends the commands directly to the remote computer without interpretation.</source>
+          <target state="translated">コマンドをリモート コンピューターに送信する前に、コマンドを解析および解釈する Invoke-Command　 コマンドと異なり、Enter-PSSession は、コマンドを解釈せずに、リモート コンピューターに直接送信します。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>If the session that you want to enter is busy processing a command, there might be a delay before Windows PowerShell responds to the Enter-PSSession command.</source>
+          <target state="translated">入力するセッションがコマンドの処理でビジー状態の場合、Windows PowerShell が Enter-PSSession コマンドに応答する前に遅延が生じることがあります。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>You will be connected as soon as the session is available.</source>
+          <target state="translated">セッションが使用可能になるとすぐに接続されます。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>To cancel the Enter-PSSession command, press CTRL+C.</source>
+          <target state="translated">Enter-PSSession コマンドをキャンセルするには、Ctrl キーを押しながら C キーを押します。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Exit-PSSession</source>
+          <target state="translated">Exit-PSSession</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Get-PSSession</source>
+          <target state="translated">Get-pssession</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Remove-PSSession</source>
+          <target state="translated">Remove-PSSession</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession</source>
+          <target state="translated">Connect-PSSession</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Disconnect-PSSession</source>
+          <target state="translated">Disconnect-PSSession</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession</source>
+          <target state="translated">Receive-PSSession</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>about_PSSessions</source>
+          <target state="translated">about_PSSessions</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>about_Remote</source>
+          <target state="translated">about_Remote に関するページ</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

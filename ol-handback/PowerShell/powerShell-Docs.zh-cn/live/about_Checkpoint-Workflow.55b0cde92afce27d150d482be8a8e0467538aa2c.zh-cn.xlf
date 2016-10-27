@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e4f3bea5b6d20843949e312b096e587db74f2940</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\PSWorkflow\About\about_Checkpoint-Workflow.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6d1491bbb2d101392091bdc440e722332fcbceb5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9b27bdb2908d2f05f5b2de82163bd4a128a6dec2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Checkpoint-Workflow</source>
+          <target state="translated">about_Checkpoint-Workflow</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Checkpoint-Workflow</source>
+          <target state="translated">有关检查点工作流</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Checkpoint-Workflow</source>
+          <target state="translated">about_Checkpoint-Workflow</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Checkpoint-Workflow</source>
+          <target state="translated">about_Checkpoint-Workflow</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">简短说明</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Describes the Checkpoint-Workflow activity, which takes a checkpoint in a workflow.</source>
+          <target state="translated">介绍 Checkpoint-workflow 活动，用于在工作流中的一个检查点。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">详细说明</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Checkpoint-Workflow activity takes a checkpoint, which saves state and data in the workflow.</source>
+          <target state="translated">该检查点工作流活动采用一个检查点，从而避免在工作流中的状态和数据。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the workflow is suspended or interrupted, it can be resumed from the most recent checkpoint, rather than having to be restarted.</source>
+          <target state="translated">如果工作流是挂起或中断，则可以恢复从最近的检查点，而不是无需重新启动。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Checkpoint-Workflow activity is valid only in a workflow.</source>
+          <target state="translated">检查点工作流活动是仅在工作流中有效。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Checkpoint-Workflow activity does not accept any parameters, including common parameters and workflow common parameters.</source>
+          <target state="translated">该检查点工作流活动不接受任何参数，其中包括常见参数和工作流通用参数。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can place the Checkpoint-Activity checkpoint anywhere in a workflow after the CmdletBinding or Param statement.</source>
+          <target state="translated">可以检查点活动检查点的任意位置工作流中 CmdletBinding 或 Param 语句后。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>However, when placing checkpoints, consider the performance cost of collecting the data and writing it to disk on the computer that is running the workflow.</source>
+          <target state="translated">但是，在放置检查点，应考虑收集数据并将其正在运行工作流的计算机上的磁盘写入的性能开销。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Be sure that the time it takes to rerun a section of the workflow if it is interrupted is greater than the time it takes to write the checkpoint state and data to disk.</source>
+          <target state="translated">请确保中断后重新运行工作流某一部分所需的时间大于将检查点状态和数据写入磁盘所需的时间。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Consider taking checkpoints after critical steps so the workflow can be resumed rather than restarted.</source>
+          <target state="translated">考虑采用检查点后非常重要的步骤，以便工作流可以继续而不是重新启动。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, take a checkpoint after commands that are not idempotent.</source>
+          <target state="translated">例如，不是幂等的命令之后执行一个检查点。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>ABOUT CHECKPOINTS</source>
+          <target state="translated">关于检查点</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A checkpoint is a snapshot of the current state of the workflow, including the current values of variables, and any output generated up to that point, and it saves it to disk.</source>
+          <target state="translated">检查点是工作流，包括变量和最多生成任何输出的点，则当前的值的当前状态的快照并将其保存到磁盘。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If a workflow is interrupted, intentionally or unintentionally,  Windows PowerShell� Workflow automatically uses the data in newest checkpoint to recover and resume the workflow.</source>
+          <target state="translated">如果工作流被中断，有意或无意地，Windows PowerShell 工作流自动使用中的数据最新检查点恢复和恢复工作流。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When you run the workflow as a job, such as by using the AsJob workflow common parameter, the workflow checkpoints are retained until you delete the job, such as by using the Remove-Job cmdlet.</source>
+          <target state="translated">作为作业运行工作流时，例如通过使用 AsJob 工作流通用参数，工作流检查点将保留，直到您删除该作业，如使用 Remove-job cmdlet。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Otherwise, workflow checkpoints are deleted when the workflow completes.</source>
+          <target state="translated">否则，当在工作流完成时，会删除工作流检查点。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>OTHER CHECKPOINTING TECHNIQUES</source>
+          <target state="translated">执行检查点操作的其他方法</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In addition to the Checkpoint-Workflow activity,  Windows PowerShell Workflow supports other checkpointing techniques, including the following:</source>
+          <target state="translated">除了检查点工作流活动中，Windows PowerShell 工作流还支持其他检查点操作的方法，包括以下︰</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-- PSPersist workflow common parameter</source>
+          <target state="translated">-PSPersist 工作流通用参数</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-- PSPersist activity common parameter</source>
+          <target state="translated">-PSPersist 活动通用参数</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-- PSPersistPreference variable (in a workflow)</source>
+          <target state="translated">-PSPersistPreference 变量 （在工作流）</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For more information about adding a checkpoint to a workflow, see "How to Add Checkpoints to a Workflow."</source>
+          <target state="translated">有关向工作流添加检查点的详细信息，请参阅"如何向工作流添加检查点"。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The following workflow includes a call to the Checkpoint-Workflow activity after completing a long-running function and a script that share data.</source>
+          <target state="translated">下面的工作流完成运行时间较长的函数和共享数据的脚本后包括到检查点工作流活动的调用。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">另请参阅</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>How to Add Checkpoints to a Workflow (http:<ph id="ph1">\/\/</ph>go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>?LinkId<ph id="ph4">\=</ph>261993)</source>
+          <target state="translated">如何向工作流添加检查点 (http:<ph id="ph1">\/\/</ph>go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>？LinkId<ph id="ph4">\=</ph>261993)</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

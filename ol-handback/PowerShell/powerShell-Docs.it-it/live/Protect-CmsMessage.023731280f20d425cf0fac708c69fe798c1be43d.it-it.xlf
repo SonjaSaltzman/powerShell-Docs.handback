@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d090c0d4b0d3b046bd319c0c83ea687db3b49f59</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Security\Protect-CmsMessage.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f01507a1a8d1bc6c667b90948246cd7b30d222fc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">833faf6b983890083a4033296994648eb1dabbcb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Protect-CmsMessage</source>
+          <target state="translated">Proteggere CmsMessage</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Protect-CmsMessage</source>
+          <target state="translated">Proteggere CmsMessage</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">RIEPILOGO</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Encrypts content by using the Cryptographic Message Syntax format.</source>
+          <target state="translated">Crittografa il contenuto utilizzando il formato Cryptographic Message Syntax.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTASSI</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ByContent (Default)</source>
+          <target state="translated">ByContent (impostazione predefinita)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ByPath</source>
+          <target state="translated">ByPath</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ByLiteralPath</source>
+          <target state="translated">ByLiteralPath</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIZIONE</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Protect-CmsMessage<ept id="p1">**</ept> cmdlet encrypts content by using the Cryptographic Message Syntax (CMS) format.</source>
+          <target state="translated">Il <bpt id="p1">**</bpt>Proteggi CmsMessage<ept id="p1">**</ept> cmdlet crittografa il contenuto utilizzando il formato di sintassi CMS (Cryptographic Message).</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The CMS cmdlets support encryption and decryption of content using the IETF format as documented by RFC5652http://tools.ietf.org/html/rfc5652.</source>
+          <target state="translated">I cmdlet CMS supportano la crittografia e la decrittografia del contenuto utilizzando il formato IETF come indicato dal RFC5652 http://tools.ietf.org/html/rfc5652.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The CMS encryption standard uses public key cryptography, where the keys used to encrypt content (the public key) and the keys used to decrypt content (the private key) are separate.</source>
+          <target state="translated">La crittografia CMS standard utilizza crittografia a chiave pubblica, in cui le chiavi utilizzate per crittografare il contenuto (la chiave pubblica) e le chiavi utilizzate per decrittografare il contenuto (la chiave privata) sono separate.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Your public key can be shared widely, and is not sensitive data.</source>
+          <target state="translated">La chiave pubblica può essere condivisa liberamente e non contiene dati sensibili.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If any content is encrypted with this public key, only your private key can decrypt it.</source>
+          <target state="translated">Eventuale contenuto crittografato con la chiave pubblica potrà essere decrittografato solo con la chiave privata.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information about Public Key Cryptography, see http://en.wikipedia.org/wiki/Public-key_cryptographyhttp://en.wikipedia.org/wiki/Public-key_cryptography.</source>
+          <target state="translated">Per ulteriori informazioni sulla crittografia a chiave pubblica, vedere http://en.wikipedia.org/wiki/Public-key_cryptographyhttp: / / en.wikipedia.org/wiki/Public-key_cryptography.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Before you can run the <bpt id="p1">**</bpt>Protect-CmsMessage<ept id="p1">**</ept> cmdlet, you must have an encryption certificate set up.</source>
+          <target state="translated">Prima di poter eseguire il <bpt id="p1">**</bpt>Proteggi CmsMessage<ept id="p1">**</ept> cmdlet, è necessario configurare un certificato di crittografia.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be recognized in Windows PowerShell, encryption certificates require a unique extended key usage (EKU)http://msdn.microsoft.com/library/windows/desktop/aa381990(v=vs.85).aspx ID to identify them as data encryption certificates (such as the IDs for Code Signing and Encrypted Mail).</source>
+          <target state="translated">Per essere riconosciuto in Windows PowerShell, i certificati di crittografia richiedono che univoco estesi utilizzo chiave (EKU) http://msdn.microsoft.com/library/windows/desktop/aa381990 (ID v=vs.85).aspx per identificarli come certificati di crittografia dati (ad esempio l'ID della firma codice e della posta elettronica crittografato).</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For an example of a certificate that would work for document encryption, see Example 1 in this topic.</source>
+          <target state="translated">Per un esempio di un certificato che viene utilizzata per la crittografia al documento, vedere l'esempio 1 in questo argomento.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ESEMPI</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example 1: Create a certificate for encrypting content</source>
+          <target state="translated">Esempio 1: Creare un certificato per crittografare il contenuto</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Before you can run the <bpt id="p1">**</bpt>Protect-CmsMessage<ept id="p1">**</ept> cmdlet, you must create an encryption certificate.</source>
+          <target state="translated">Prima di poter eseguire il <bpt id="p1">**</bpt>Proteggi CmsMessage<ept id="p1">**</ept> cmdlet, è necessario creare un certificato di crittografia.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Using the following text, change the name in the Subject line to your name, email, or other identifier, and save the certificate in a file (such as DocumentEncryption.inf, as shown in this example).</source>
+          <target state="translated">Utilizzando il testo seguente, modificare il nome nella riga dell'oggetto per il proprio nome, messaggio di posta elettronica o altro identificatore e salvare il certificato in un file (ad esempio DocumentEncryption.inf, come illustrato in questo esempio).</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Example 2: Encrypt a message sent by email</source>
+          <target state="translated">Esempio 2: Crittografare un messaggio inviato tramite posta elettronica</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the following example, you encrypt a message, Hello World, by saving the message in a variable, and then piping it to the <bpt id="p1">**</bpt>Protect-CmsMessage<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Nell'esempio seguente, crittografare un messaggio Hello World, salvando il messaggio in una variabile e quindi inviare tramite pipe per il <bpt id="p1">**</bpt>Proteggi CmsMessage<ept id="p1">**</ept> cmdlet.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>To<ept id="p1">*</ept> parameter uses the value of the Subject line in the certificate.</source>
+          <target state="translated">Il <bpt id="p1">*</bpt>a<ept id="p1">*</ept> parametro utilizza il valore della riga dell'oggetto nel certificato.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 3: View document encryption certificates</source>
+          <target state="translated">Esempio 3: Visualizzare i certificati di crittografia di documenti</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To view document encryption certificates in the certificate provider, you can add the <bpt id="p1">*</bpt>DocumentEncryptionCert<ept id="p1">*</ept> dynamic parameter of Get-ChildItemhttp://technet.microsoft.com/library/hh847761.aspx, available only when the certificate provider is loaded.</source>
+          <target state="translated">Per visualizzare i certificati di crittografia di documenti nel provider di certificati, è possibile aggiungere il <bpt id="p1">*</bpt>DocumentEncryptionCert<ept id="p1">*</ept> parametro dinamico di Get-ChildItemhttp://technet.microsoft.com/library/hh847761.aspx, disponibile solo quando viene caricato il provider certificate.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETRI</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-Content</source>
+          <target state="translated">-Contenuto</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies a PSObject that contains content that you want to encrypt.</source>
+          <target state="translated">Specifica un oggetto PSObject che contiene il contenuto che si desidera crittografare.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, you can encrypt the content of an event message, and then use the variable containing the message ($Event, in this example) as the value of the <bpt id="p1">*</bpt>Content<ept id="p1">*</ept> parameter: $event = Get-WinEvent -ProviderName "PowerShell" -MaxEvents 1.</source>
+          <target state="translated">Ad esempio, è possibile crittografare il contenuto di un messaggio di evento e quindi utilizzare la variabile contenente il messaggio (in questo esempio, $Event) come valore di <bpt id="p1">*</bpt>contenuto<ept id="p1">*</ept> parametro: $event = "PowerShell" Get-WinEvent - ProviderName MaxEvents - 1.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can also use the Get-Content cmdlet to get the contents of a file, such as a Microsoft Word document, and save the content in a variable that you use as the value of the <bpt id="p1">*</bpt>Content<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">È inoltre possibile utilizzare il cmdlet Get-Content per ottenere il contenuto di un file, ad esempio un documento Microsoft Word e salvare il contenuto in una variabile utilizzata come valore di <bpt id="p1">*</bpt>contenuto<ept id="p1">*</ept> parametro.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specifies the path to content that you want to encrypt.</source>
+          <target state="translated">Specifica il percorso del contenuto che si desidera crittografare.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">*</bpt>Path<ept id="p1">*</ept>, the value of <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> is used exactly as it is typed.</source>
+          <target state="translated">A differenza di <bpt id="p1">*</bpt>percorso<ept id="p1">*</ept>, il valore di <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> viene usato esattamente com'è digitato.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">Nessun carattere viene interpretato come carattere jolly.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">Se il percorso include caratteri di escape, racchiuderlo tra virgolette singole.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">Le virgolette singole indicano a Windows PowerShell di non interpretare i caratteri come sequenze di escape.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-OutFile</source>
+          <target state="translated">-File di output</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Specifies the path and file name of a file to which you want to send the encrypted content.</source>
+          <target state="translated">Specifica il percorso e il nome di un file a cui si desidera inviare il contenuto crittografato.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Specifies the path to content that you want to encrypt.</source>
+          <target state="translated">Specifica il percorso del contenuto che si desidera crittografare.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-To</source>
+          <target state="translated">-A</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specifies one or more CMS message recipients, identified in any of the following formats.</source>
+          <target state="translated">Specifica uno o più CMS destinatari dei messaggi, identificati in uno dei formati riportati di seguito.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An actual certificate (as retrieved from the certificate provider).</source>
+          <target state="translated">Un certificato effettivo (come recuperati dal provider di certificati).</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Path to the file containing the certificate.</source>
+          <target state="translated">Percorso del file contenente il certificato.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Path to a directory containing the certificate.</source>
+          <target state="translated">Percorso di una directory contenente il certificato.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Thumbprint of the certificate (used to look in the certificate store).</source>
+          <target state="translated">Identificazione personale del certificato (utilizzato per la ricerca nell'archivio certificati).</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Subject name of the certificate (used to look in the certificate store).</source>
+          <target state="translated">Nome del soggetto del certificato (utilizzato per la ricerca nell'archivio certificati).</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Questo cmdlet supporta i parametri comuni:-eseguire il Debug, - ErrorAction, - ErrorVariable, - InformationAction, InformationVariable-, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Per ulteriori informazioni, vedere about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">INPUT</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">OUTPUT</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTE</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">COLLEGAMENTI CORRELATI</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>about_Providers</source>
+          <target state="translated">about_Providers</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Get-CmsMessage</source>
+          <target state="translated">Get-CmsMessage</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Unprotect-CmsMessage</source>
+          <target state="translated">Rimuovere la protezione CmsMessage</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

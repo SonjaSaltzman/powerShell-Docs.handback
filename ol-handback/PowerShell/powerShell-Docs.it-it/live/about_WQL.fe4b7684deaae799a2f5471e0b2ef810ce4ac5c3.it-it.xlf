@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ecdbd81dcae8a8dfd13085671043cf9586d37e8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_WQL.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b41396f637be60f315f501319161148c8f275724</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3db30d43b3e70cf5b7eb3abff7fdb721e43fa9b9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_WQL</source>
+          <target state="translated">about_WQL</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet PowerShell</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About WQL</source>
+          <target state="translated">Su WQL</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_WQL</source>
+          <target state="translated">about_WQL</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_WQL</source>
+          <target state="translated">about_WQL</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">DESCRIZIONE BREVE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Describes WMI Query Language (WQL), which can be used to get WMI objects in Windows PowerShell.</source>
+          <target state="translated">Descrive il linguaggio WMI Query Language (WQL) che può essere usato per ottenere oggetti WMI in Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">DESCRIZIONE LUNGA</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>WQL is the Windows Management Instrumentation (WMI) query language, which is the language used to get information from WMI.</source>
+          <target state="translated">WQL è il linguaggio di query di Strumentazione gestione Windows (WMI), che è il linguaggio utilizzato per ottenere informazioni da WMI.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You are not required to use WQL to perform a WMI query in Windows PowerShell.</source>
+          <target state="translated">Non è necessario utilizzare il linguaggio WQL per eseguire una query WMI in Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Instead, you can use the parameters of the Get-WmiObject or Get-CimInstance cmdlets.</source>
+          <target state="translated">In alternativa, è possibile utilizzare i parametri dei cmdlet Get-WmiObject o Get-CimInstance.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>WQL queries are somewhat faster than standard Get-WmiObject commands and the improved performance is evident when the commands run on hundreds of systems.</source>
+          <target state="translated">Query WQL sono più velocemente rispetto a comandi Get-WmiObject standard e il miglioramento delle prestazioni è evidente quando i comandi eseguiti su centinaia di sistemi.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, be sure that the time you spend to write a successful WQL query doesn't outweigh the performance improvement.</source>
+          <target state="translated">Tuttavia, assicurarsi che il tempo necessario per scrivere una query WQL ha esito positivo non superino il miglioramento delle prestazioni.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The basic WQL statements you need to use WQL are Select, Where, and From.</source>
+          <target state="translated">Le istruzioni WQL base che è necessario utilizzare il linguaggio WQL sono selezionate, in cui e da.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>WHEN TO USE WQL</source>
+          <target state="translated">QUANDO UTILIZZARE WQL</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When working with WMI, and especially with WQL, do not forget that you are also using Windows PowerShell.</source>
+          <target state="translated">Quando si lavora con WMI in particolare con WQL, non dimenticare che si utilizza anche Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Often, if a WQL query does not work as expected, it's easier to use a standard Windows PowerShell command than to debug the WQL query.</source>
+          <target state="translated">Spesso, se una query WQL non funziona come previsto, è più semplice utilizzare un comando di Windows PowerShell standard di cui eseguire il debug della query WQL.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Unless you are returning massive amounts of data from across bandwidth-constrained remote systems, it is rarely productive to spend hours trying to perfect a complicated and convoluted WQL query when there is a perfectly acceptable Windows cmdlet that does the same thing, if a bit more slowly.</source>
+          <target state="translated">A meno che non si esce enormi quantità di dati da diversi sistemi remoti larghezza di banda limitata, è raramente produttivo da spendere ore tentativo al perfezionamento di una query WQL astruse quando esiste un cmdlet di Windows perfettamente accettabile che svolge la stessa funzione, se un po' più lentamente.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>USING THE SELECT STATEMENT</source>
+          <target state="translated">UTILIZZO DELL'ISTRUZIONE SELECT</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A typical WMI query begins with a Select statement that gets all properties or particular properties of a WMI class.</source>
+          <target state="translated">Una tipica query WMI inizia con un'istruzione Select che recupera tutte le proprietà o una particolare proprietà di una classe WMI.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To select all properties of a WMI class, use an asterisk (*).</source>
+          <target state="translated">Per selezionare tutte le proprietà di una classe WMI, utilizzare un asterisco (*).</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The From keyword specifies the WMI class.</source>
+          <target state="translated">La parola chiave From specifica la classe WMI.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A Select statement has the following format:</source>
+          <target state="translated">Un'istruzione Select è il seguente formato:</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Select <ph id="ph1">&lt;property&gt;</ph> from &lt;WMI-class&gt;</source>
+          <target state="translated">Selezionare <ph id="ph1">&lt;property&gt;</ph> da &lt; classe WMI &gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, the following Select statement selects all properties (*) from the instances of the Win32_Bios WMI class.</source>
+          <target state="translated">Ad esempio, l'istruzione Select seguente seleziona tutte le proprietà (*) dalle istanze della classe WMI Win32_Bios.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Select * from Win32_Bios</source>
+          <target state="translated">Selezionare * da Win32_Bios</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To select a particular property of a WMI class, place the property name between the Select and From keywords.</source>
+          <target state="translated">Per selezionare una particolare proprietà di una classe WMI, inserire il nome della proprietà tra l'istruzione Select e dalle parole chiave.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The following query selects only the name of the BIOS from the Win32_Bios WMI class.</source>
+          <target state="translated">La query seguente seleziona solo il nome del BIOS dalla classe Win32_Bios WMI.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The command saves the query in the $queryName variable.</source>
+          <target state="translated">Il comando Salva la query nella variabile $queryName.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Select Name from Win32_Bios</source>
+          <target state="translated">Selezionare Nome Win32_Bios</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To select more than one property, use commas to separate the property names.</source>
+          <target state="translated">Per selezionare più di una proprietà, utilizzare le virgole per separare i nomi delle proprietà.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The following WMI query selects the name and the version of the Win32_Bios WMI class.</source>
+          <target state="translated">La query WMI seguente seleziona il nome e la versione della classe WMI Win32_Bios.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The command saves the query in the $queryNameVersion variable.</source>
+          <target state="translated">Il comando Salva la query nella variabile $queryNameVersion.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Select name, version from Win32_Bios</source>
+          <target state="translated">Selezionare il nome, versione da Win32_Bios</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>USING THE WQL QUERY</source>
+          <target state="translated">UTILIZZANDO LA QUERY WQL</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>There are two ways to use WQL query in Windows PowerShell command.</source>
+          <target state="translated">Esistono due modi per utilizzare query WQL nel comando di Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-- Use the Get-WmiObject cmdlet -- Use the Get-CimInstance cmdlet -- Use the [wmisearcher] type accelerator.</source>
+          <target state="translated">-Utilizzare il cmdlet Get-WmiObject, utilizzare Get-CimInstance - utilizzare l'acceleratore di tipo [wmisearcher].</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>USING THE GET-WMIOBJECT CMDLET</source>
+          <target state="translated">TRAMITE IL CMDLET GET-WMIOBJECT</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The most basic way to use the WQL query is to enclose it in quotation marks (as a string) and then use the query string as the value of the Query parameter of the Get-WmiObject cmdlet, as shown in the following example.</source>
+          <target state="translated">Il modo più semplice per utilizzare la query WQL è racchiuderlo tra virgolette (sotto forma di stringa) e quindi utilizzare la stringa di query come valore del parametro di Query del cmdlet Get-WmiObject, come illustrato nell'esempio seguente.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-WmiObject -Query "Select * from Win32_Bios"</source>
+          <target state="translated">PS C: &gt; Get-WmiObject-Query "Seleziona * da Win32_Bios"</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>SMBIOSBIOSVersion : 8BET56WW (1.36 ) Manufacturer      : LENOVO Name              : Default System BIOS SerialNumber      : R9FPY3P Version           : LENOVO – 1360</source>
+          <target state="translated">SMBIOSBIOSVersion: 8BET56WW produttore (1,36): nome LENOVO: predefinito SerialNumber BIOS di sistema: versione R9FPY3P: LENOVO – 1360</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can also save the WQL statement in a variable and then use the variable as the value of the Query parameter, as shown in the following command.</source>
+          <target state="translated">È possibile inoltre salvare l'istruzione WQL in una variabile e quindi utilizzare la variabile come valore del parametro di Query, come illustrato nel comando seguente.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $query = "Select * from Win32_Bios" PS C:&gt; Get-WmiObject –Query $query</source>
+          <target state="translated">PS &gt; $query c: = "Seleziona * da Win32_Bios" c: di PS &gt; Get-WmiObject – Query $query</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can use either format with any WQL statement.</source>
+          <target state="translated">È possibile utilizzare uno dei due formati con qualsiasi istruzione WQL.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The following command uses the query in the $queryName variable to get only the name and version properties of the system BIOS.</source>
+          <target state="translated">Il comando seguente usa la query nella variabile $queryName per ottenere solo le proprietà nome e la versione del BIOS di sistema.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $queryNameVersion = "Select Name, Version from Win32_Bios" PS C:&gt; Get-WmiObject -Query $queryNameVersion</source>
+          <target state="translated">PS &gt; $queryNameVersion c: = "Selezionare il nome, versione da Win32_Bios" c: PS &gt; Get-WmiObject-Query $queryNameVersion</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>__GENUS          : 2</source>
+          <target state="translated">__GENUS: 2</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>__CLASS          : Win32_BIOS</source>
+          <target state="translated">Class: Win32_BIOS</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>__SUPERCLASS     :</source>
+          <target state="translated">__SUPERCLASS:</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>__DYNASTY        :</source>
+          <target state="translated">__DYNASTY:</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>__RELPATH        :</source>
+          <target state="translated">RELPATH:</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>__PROPERTY_COUNT : 1</source>
+          <target state="translated">__PROPERTY_COUNT: 1</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>__DERIVATION     : {}</source>
+          <target state="translated">__DERIVATION: {}</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>__SERVER         :</source>
+          <target state="translated">SERVER:</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>__NAMESPACE      :</source>
+          <target state="translated">NAMESPACE:</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>__PATH           :</source>
+          <target state="translated">PATH:</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Name             : Default System BIOS Version          : LENOVO - 1360</source>
+          <target state="translated">Nome: Predefinito versione BIOS di sistema: LENOVO - 1360</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Remember that you can use the parameters of the Get-WmiObject cmdlet to get the same result.</source>
+          <target state="translated">Ricordare che è possibile utilizzare i parametri del cmdlet Get-WmiObject per ottenere lo stesso risultato.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For example, the following command also gets the values of the Name and Version properties of instances of the Win32_Bios WMI class.</source>
+          <target state="translated">Ad esempio, il comando seguente ottiene anche i valori delle proprietà nome e la versione delle istanze della classe WMI Win32_Bios.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-WmiObject –Class Win32_Bios -Property Name, Version</source>
+          <target state="translated">PS C: &gt; Get-WmiObject: classe Win32_Bios-nome, versione</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>__GENUS          : 2</source>
+          <target state="translated">__GENUS: 2</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>__CLASS          : Win32_BIOS</source>
+          <target state="translated">Class: Win32_BIOS</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>__SUPERCLASS     :</source>
+          <target state="translated">__SUPERCLASS:</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>__DYNASTY        :</source>
+          <target state="translated">__DYNASTY:</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>__RELPATH        :</source>
+          <target state="translated">RELPATH:</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>__PROPERTY_COUNT : 1</source>
+          <target state="translated">__PROPERTY_COUNT: 1</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>__DERIVATION     : {}</source>
+          <target state="translated">__DERIVATION: {}</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>__SERVER         :</source>
+          <target state="translated">SERVER:</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>__NAMESPACE      :</source>
+          <target state="translated">NAMESPACE:</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>__PATH           :</source>
+          <target state="translated">PATH:</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Name             : Default System BIOS Version          : LENOVO - 1360</source>
+          <target state="translated">Nome: Predefinito versione BIOS di sistema: LENOVO - 1360</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>USING THE GET-CIMINSTANCE CMDLET</source>
+          <target state="translated">TRAMITE IL CMDLET GET-CIMINSTANCE</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can use the Get-CimInstance cmdlet to run WQL queries.</source>
+          <target state="translated">A partire da Windows PowerShell 3.0, è possibile utilizzare il cmdlet Get-CimInstance per eseguire query WQL.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Get-CimInstance gets instances of CIM-compliant classes, including WMI classes.</source>
+          <target state="translated">Get-CimInstance Ottiene le istanze di classi compatibili con CIM, comprese le classi WMI.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The CIM cmdlets, introduced Windows PowerShell 3.0, perform the same tasks as the WMI cmdlets.</source>
+          <target state="translated">I cmdlet CIM, introdotti in Windows PowerShell 3.0, eseguire le stesse attività dei cmdlet WMI.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The CIM cmdlets comply with WS-Management (WSMan) standards and with the Common Information Model (CIM) standard, which enables the cmdlets to use the same techniques to manage Windows computers and computers that are running other operating systems.</source>
+          <target state="translated">Sono conformi agli standard WS-Management (WS-Management) e con il modello CIM (Common Information) standard, che consente di utilizzare le stesse tecniche per gestire i computer Windows e i computer che eseguono altri sistemi operativi.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The following command uses the Get-CimInstance cmdlet to run a WQL query.</source>
+          <target state="translated">Il comando seguente usa il cmdlet Get-CimInstance per eseguire una query WQL.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Any WQL query that can be used with Get-WmiObject can also be used with Get-CimInstance.</source>
+          <target state="translated">Qualsiasi query WQL che può essere utilizzato con Get-WmiObject può anche essere utilizzata con Get-CimInstance.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-CimInstance -Query "Select * from Win32_Bios"</source>
+          <target state="translated">PS C: &gt; Get-CimInstance-Query "Seleziona * da Win32_Bios"</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>SMBIOSBIOSVersion : 8BET56WW (1.36 ) Manufacturer      : LENOVO Name              : Default System BIOS SerialNumber      : R9FPY3P Version           : LENOVO – 1360</source>
+          <target state="translated">SMBIOSBIOSVersion: 8BET56WW produttore (1,36): nome LENOVO: predefinito SerialNumber BIOS di sistema: versione R9FPY3P: LENOVO – 1360</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Get-CimInstance returns a CimInstance object, instead of the ManagementObject that Get-WmiObject returns, but the objects are quite similar.</source>
+          <target state="translated">Get-CimInstance restituisce un oggetto CimInstance, anziché il ManagementObject restituisce che Get-WmiObject, ma gli oggetti sono molto simili.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;(Get-CimInstance -Query "Select <bpt id="p1">*</bpt> from Win32_Bios").GetType().FullName Microsoft.Management.Infrastructure.CimInstance PS C:&gt;(Get-WmiObject -Query "Select <ept id="p1">*</ept> from Win32_Bios").GetType().FullName System.Management.ManagementObject</source>
+          <target state="translated">PS C: &gt; (Get-CimInstance-Query "Select <bpt id="p1">*</bpt> da Win32_Bios"). GetType (). C: FullName Infrastructure. ciminstance PS &gt; (Get-WmiObject-Query "Select <ept id="p1">*</ept> da Win32_Bios"). GetType (). FullName System.Management.ManagementObject</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>USING THE [wmisearcher] TYPE ACCELERATOR</source>
+          <target state="translated">UTILIZZO di scelta RAPIDA di TIPO [wmisearcher]</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The [wmisearcher] type accelerator creates a ManagementObjectSearcher object from a WQL statement string.</source>
+          <target state="translated">L'acceleratore di tipo [wmisearcher] crea un oggetto ManagementObjectSearcher da una stringa di istruzione WQL.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The ManagementObjectSearcher object has many properties and methods, but the most basic method is the Get method, which invokes the specified WMI query and returns the resulting objects.</source>
+          <target state="translated">L'oggetto ManagementObjectSearcher ha molte proprietà e metodi, ma il metodo più semplice è il metodo Get, che richiama la query WMI specificata e restituisce gli oggetti risultanti.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>By using the [wmisearcher], you gain easy access to the ManagementObjectSearcher .NET Framework class.</source>
+          <target state="translated">Utilizzando [wmisearcher], si ottengono facile accesso alla classe ManagementObjectSearcher .NET Framework.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This lets you query WMI and to configure the way the query is conducted.</source>
+          <target state="translated">Ciò consente di eseguire una query WMI e configurare la modalità di query viene eseguita.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To use the [wmisearcher] type accelerator:</source>
+          <target state="translated">Per utilizzare l'acceleratore di tipo [wmisearcher]:</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Cast the  WQL string into a ManagementObjectSearcher object.</source>
+          <target state="translated">Eseguire il cast di stringa WQL in un oggetto ManagementObjectSearcher.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Call the Get method of the ManagementObjectSearcher object.</source>
+          <target state="translated">Chiamare il metodo Get dell'oggetto ManagementObjectSearcher.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For example, the following command casts the "select all" query, saves the result in the $bios variable, and then calls the Get method of the ManagementObjectSearcher object in the $bios variable.</source>
+          <target state="translated">Ad esempio, il comando seguente esegue il cast della query "tutto", il risultato viene salvato nella variabile $bios e quindi chiama il metodo Get dell'oggetto ManagementObjectSearcher nella variabile $bios.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $bios = [wmisearcher]"Select * from Win32_Bios" PS C:&gt; $bios.Get()</source>
+          <target state="translated">PS &gt; $bios c: = [wmisearcher] "Seleziona * da Win32_Bios" c: &gt; $bios PS. Get)</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>SMBIOSBIOSVersion : 8BET56WW (1.36 ) Manufacturer      : LENOVO Name              : Default System BIOS SerialNumber      : R9FPY3P Version           : LENOVO – 1360</source>
+          <target state="translated">SMBIOSBIOSVersion: 8BET56WW produttore (1,36): nome LENOVO: predefinito SerialNumber BIOS di sistema: versione R9FPY3P: LENOVO – 1360</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>NOTE: Only selected object properties are displayed by default.</source>
+          <target state="translated">NOTA: Solo le proprietà dell'oggetto selezionato vengono visualizzate per impostazione predefinita.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>These properties are defined in the Types.ps1xml file.</source>
+          <target state="translated">Queste proprietà sono definite nel file Types. ps1xml.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You can use the [wmisearcher] type accelerator to cast the query or the variable.</source>
+          <target state="translated">È possibile utilizzare l'acceleratore di tipo [wmisearcher] per eseguire il cast della query o la variabile.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>In the following example, the [wmisearcher] type accelerator is used to cast the variable.</source>
+          <target state="translated">Nell'esempio seguente, l'acceleratore di tipo [wmisearcher] viene utilizzato per eseguire il cast di variabile.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The result is the same.</source>
+          <target state="translated">Il risultato è lo stesso.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; [wmisearcher]$bios = "Select * from Win32_Bios" PS C:&gt; $bios.Get()</source>
+          <target state="translated">PS C: &gt; [wmisearcher] $bios = PS "Seleziona * da Win32_Bios" c: &gt; $bios. Get)</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>SMBIOSBIOSVersion : 8BET56WW (1.36 ) Manufacturer      : LENOVO Name              : Default System BIOS SerialNumber      : R9FPY3P Version           : LENOVO – 1360</source>
+          <target state="translated">SMBIOSBIOSVersion: 8BET56WW produttore (1,36): nome LENOVO: predefinito SerialNumber BIOS di sistema: versione R9FPY3P: LENOVO – 1360</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>When you use the [wmisearcher] type accelerator, it changes the query string into a ManagementObjectSearcher object, as shown in the following commands.</source>
+          <target state="translated">Quando si utilizza l'acceleratore di tipo [wmisearcher], modifica la stringa di query in un oggetto ManagementObjectSearcher, come illustrato nei comandi seguenti.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$a = "Select * from Win32_Bios" PS C:&gt;$a.GetType().FullName System.String</source>
+          <target state="translated">PS C: &gt;$ a = "Seleziona * da Win32_Bios" c: PS &gt; $a.GetType(). System. String FullName</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$a = [wmisearcher]"Select * from Win32_Bios" PS C:&gt;$a.GetType().FullName System.Management.ManagementObjectSearcher</source>
+          <target state="translated">PS C: &gt;$ a [wmisearcher] = "Seleziona * da Win32_Bios" c: PS &gt; $a.GetType(). FullName System.Management.ManagementObjectSearcher</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This command format works on any query.</source>
+          <target state="translated">Questo formato di comando funziona su tutte le query.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The following command gets the value of the Name property of the Win32_Bios WMI class.</source>
+          <target state="translated">Il comando seguente ottiene il valore della proprietà Name della classe WMI Win32_Bios.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $biosname = [wmisearcher]"Select Name from Win32_Bios" PS C:&gt; $biosname.Get()</source>
+          <target state="translated">PS C: &gt; $biosname = PS [wmisearcher] "Seleziona nome da Win32_Bios" c: &gt; $biosname. Get)</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>__GENUS          : 2</source>
+          <target state="translated">__GENUS: 2</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>__CLASS          : Win32_BIOS</source>
+          <target state="translated">Class: Win32_BIOS</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>__SUPERCLASS     :</source>
+          <target state="translated">__SUPERCLASS:</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>__DYNASTY        :</source>
+          <target state="translated">__DYNASTY:</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>__RELPATH        :</source>
+          <target state="translated">RELPATH:</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>__PROPERTY_COUNT : 1</source>
+          <target state="translated">__PROPERTY_COUNT: 1</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>__DERIVATION     : {}</source>
+          <target state="translated">__DERIVATION: {}</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>__SERVER         :</source>
+          <target state="translated">SERVER:</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>__NAMESPACE      :</source>
+          <target state="translated">NAMESPACE:</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>__PATH           :</source>
+          <target state="translated">PATH:</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Name             : Default System BIOS</source>
+          <target state="translated">Nome: Predefinito sistema BIOS</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>You can perform this operation in a single command, although the command is a bit more difficult to interpret.</source>
+          <target state="translated">È possibile eseguire questa operazione in un unico comando, anche se il comando è un po' più difficile da interpretare.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>In this format, you use the [wmisearcher] type accelerator to cast the WQL query string to a ManagementObjectSearcher, and then call the Get method on the object -- all in a single command.</source>
+          <target state="translated">In questo formato, utilizzare l'acceleratore di tipo [wmisearcher] per eseguire il cast di stringa di query WQL un ManagementObjectSearcher e quindi chiamare il metodo Get dell'oggetto, tutto in un unico comando.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The parentheses () that enclose the casted string direct Windows PowerShell to cast the string before calling the method.</source>
+          <target state="translated">Le parentesi () che racchiudono la stringa di eseguire il cast diretto di Windows PowerShell per eseguire il cast di stringa prima di chiamare il metodo.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; ([wmisearcher]"Select name from Win32_Bios").Get()</source>
+          <target state="translated">PS C: &gt; ([wmisearcher] "Select name from Win32_Bios"). Get)</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>__GENUS          : 2</source>
+          <target state="translated">__GENUS: 2</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>__CLASS          : Win32_BIOS</source>
+          <target state="translated">Class: Win32_BIOS</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>__SUPERCLASS     :</source>
+          <target state="translated">__SUPERCLASS:</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>__DYNASTY        :</source>
+          <target state="translated">__DYNASTY:</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>__RELPATH        :</source>
+          <target state="translated">RELPATH:</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>__PROPERTY_COUNT : 1</source>
+          <target state="translated">__PROPERTY_COUNT: 1</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>__DERIVATION     : {}</source>
+          <target state="translated">__DERIVATION: {}</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>__SERVER         :</source>
+          <target state="translated">SERVER:</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>__NAMESPACE      :</source>
+          <target state="translated">NAMESPACE:</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>__PATH           :</source>
+          <target state="translated">PATH:</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Name             : Default System BIOS</source>
+          <target state="translated">Nome: Predefinito sistema BIOS</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>USING THE BASIC WQL WHERE STATEMENT</source>
+          <target state="translated">UTILIZZANDO IL LINGUAGGIO WQL BASE IN CUI ISTRUZIONE</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A Where statement establishes conditions for the data that a Select statement returns.</source>
+          <target state="translated">In istruzione stabilisce le condizioni per i dati che un'istruzione Select restituisce un oggetto.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The Where statement has the following format:</source>
+          <target state="translated">Where istruzione ha il seguente formato:</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>where</source>
+          <target state="translated">dove</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Ad esempio:</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>where Name = 'Notepad.exe'</source>
+          <target state="translated">in cui Name = 'Notepad.exe'</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The Where statement is used with the Select statement, as shown in the following example.</source>
+          <target state="translated">Where istruzione viene utilizzata con l'istruzione Select, come illustrato nell'esempio seguente.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Select * from Win32_Process where Name = 'Notepad.exe'</source>
+          <target state="translated">Selezionare * da Win32_Process in cui Name = 'Notepad.exe'</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>When using the Where statement, the property name and value must be accurate.</source>
+          <target state="translated">Quando si utilizza Where istruzione, il nome della proprietà e valore deve essere accurati.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the Notepad processes on the local computer.</source>
+          <target state="translated">Ad esempio, il comando seguente ottiene i processi di blocco note nel computer locale.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-WmiObject -Query "Select * from Win32_Process where name = 'Notepad.exe'"</source>
+          <target state="translated">PS C: &gt; Get-WmiObject-Query "Seleziona * da Win32_Process in cui name = 'Notepad.exe'"</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>However, the following command fails, because the process name includes the ".exe" file name extension.</source>
+          <target state="translated">Tuttavia, il comando seguente ha esito negativo, poiché il nome del processo include l'estensione del nome file ".exe".</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-WmiObject -Query "Select * from Win32_Process where name = 'Notepad'"</source>
+          <target state="translated">PS C: &gt; Get-WmiObject-Query "Seleziona * da Win32_Process in cui name = 'Blocco'"</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>WHERE STATEMENT COMPARISON OPERATORS</source>
+          <target state="translated">IN CUI GLI OPERATORI DI CONFRONTO DI ISTRUZIONE</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The following operators are valid in a WQL Where statement.</source>
+          <target state="translated">Gli operatori seguenti sono validi in un'istruzione Where WQL.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Operator    Description</source>
+          <target state="translated">Descrizione dell'operatore</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>=           Equal !=          Not equal &lt;&gt;          Not equal &lt;           Less than</source>
+          <target state="translated">= Uguale! = &lt;&gt; diverso diverso &lt; minore di</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>&lt;=          Less than or equal =          Greater than or equal LIKE        Wildcard match IS          Evaluates null ISNOT       Evaluates not null ISA         Evaluates a member of a WMI class</source>
+          <target state="translated">&lt; = minore o uguale = maggiore o uguale COME corrispondenza con caratteri jolly è restituisce null ISNOT valuta non null ISA restituisce un membro di una classe WMI</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>There are other operators, but these are the ones used for making comparisons.</source>
+          <target state="translated">Esistono altri operatori, ma questi sono quelli utilizzati per l'esecuzione di confronti.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For example, the following query selects the Name and Priority properties from processes in the Win32_Process class where the process priority is greater than or equal to 11.</source>
+          <target state="translated">Ad esempio, la query seguente seleziona le proprietà Name e priorità dai processi nella classe Win32_Process in cui la priorità del processo è maggiore o uguale a 11.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The Get-WmiObject cmdlet runs the query.</source>
+          <target state="translated">Il cmdlet Get-WmiObject esegue la query.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>$highPriority = "Select Name, Priority from Win32_Process where Priority &gt;= 11" Get-WmiObject -Query $highPriority</source>
+          <target state="translated">$highPriority = "selezionare il nome, la priorità da Win32_Process in cui la priorità &gt; = 11" Get-WmiObject-Query $highPriority</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>USING THE WQL OPERATORS IN THE FILTER PARAMETER</source>
+          <target state="translated">UTILIZZANDO GLI OPERATORI WQL NEL PARAMETRO FILTRO</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The WQL operators can also be used in the value of the Filter parameter of the Get-WmiObject or Get-CimInstance cmdlets, as well as in the value of the Query parameters of these cmdlets.</source>
+          <target state="translated">Gli operatori WQL possono essere utilizzati anche nel valore del parametro di filtro dei cmdlet Get-WmiObject o Get-CimInstance, nonché il valore dei parametri di Query di questi cmdlet.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the Name and ProcessID properties of the last five processes that have ProcessID values greater than 1004.</source>
+          <target state="translated">Ad esempio, il comando seguente ottiene le proprietà Name e ProcessID dei processi che hanno valori ProcessID maggiori 1004 ultime cinque.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The command uses the Filter parameter to specify the ProcessID condition.</source>
+          <target state="translated">Il comando Usa il parametro di filtro per specificare la condizione ProcessID.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-WmiObject -Class Win32_Process ` -Property Name, ProcessID -Filter "ProcessID &gt;= 1004" | Sort ProcessID | Select Name, ProcessID -Last 5</source>
+          <target state="translated">PS C: &gt; Get-WmiObject-classe Win32_Process'-nome della proprietà, ProcessID-filtro "ProcessID &gt; = 1004" | Ordinare ProcessID | Selezionare il nome, ProcessID-ultimi 5</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Name                                 ProcessID</source>
+          <target state="translated">Nome ProcessID</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>SROSVC.exe                                4220</source>
+          <target state="translated">SROSVC.exe 4220</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>WINWORD.EXE                               4664</source>
+          <target state="translated">WINWORD. EXE                               4664</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>TscHelp.exe                               4744 SnagIt32.exe                              4748 WmiPrvSE.exe                              5056</source>
+          <target state="translated">TscHelp.exe 4744 SnagIt32.exe 4748 WmiPrvSE.exe 5056</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>USING THE LIKE OPERATOR</source>
+          <target state="translated">UTILIZZANDO L'OPERATORE LIKE</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The Like operator lets you use wildcard characters to filter the results of a WQL query.</source>
+          <target state="translated">L'operatore Like consente di utilizzare caratteri jolly per filtrare i risultati di una query WQL.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Like Operator  Description</source>
+          <target state="translated">Come descrizione dell'operatore</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>[]             Character in a range [a-f] or a set of characters [abcdef].</source>
+          <target state="translated">[] Carattere in un intervallo [a-f] o un set di caratteri [abcdef].</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The items in a set do not need to be consecutive or listed in alphabetical order.</source>
+          <target state="translated">Gli elementi di un set non è necessario essere consecutivi o elencate in ordine alfabetico.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>^              Character not in a range [^a-f] or not in a set [^abcdef].</source>
+          <target state="translated">^ Il carattere non in un intervallo [^ a-f] o non in un set [^ abcdef].</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The items in a set do not need to be consecutive or listed in alphabetical order.</source>
+          <target state="translated">Gli elementi di un set non è necessario essere consecutivi o elencate in ordine alfabetico.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>%              A string of zero or more characters</source>
+          <target state="translated">Una stringa di zero o più caratteri %</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>              One character. (underscore)    NOTE: To use a literal underscore in a query string, enclose it in square brackets [<ept id="p1">_</ept>].</source>
+          <target state="translated"><bpt id="p1">_</bpt>              Un carattere. (carattere di sottolineatura)    NOTA: Per utilizzare un valore letterale carattere di sottolineatura in una stringa di query, racchiuderlo tra parentesi quadre [<ept id="p1">_</ept>].</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>When the Like operator is used without any wildcard characters or range operators, it behaves like the equality operator (=) and returns objects only when they are an exact match for the pattern.</source>
+          <target state="translated">Quando viene utilizzato l'operatore Like senza caratteri jolly o gli operatori di intervallo, si comporta come l'operatore di uguaglianza (=) e restituisce gli oggetti solo quando sono una corrispondenza esatta per il modello.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>You can combine the range operation with the percent wildcard character to create simple, yet powerful filters.</source>
+          <target state="translated">È possibile combinare l'operazione di intervallo con il carattere jolly percentuale per creare filtri semplici ma potenti.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>LIKE OPERATOR EXAMPLES</source>
+          <target state="translated">COME ESEMPI DI OPERATORI</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1: [<ph id="ph1">&lt;range&gt;</ph>] The following commands start Notepad and then search for an instance of the Win32_Process class that has a name that starts with a letter between "H" and "N" (case-insensitive).</source>
+          <target state="translated">ESEMPIO 1: [<ph id="ph1">&lt;range&gt;</ph>] i seguenti comandi avviare Blocco note e quindi eseguire una ricerca per un'istanza della classe Win32_Process con un nome che inizia con una lettera compresa tra "H" e "N" (senza maiuscole/minuscole).</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The query should return any process from Hotpad.exe through Notepad.exe.</source>
+          <target state="translated">La query deve restituire tutti i processi da Hotpad.exe tramite Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Notepad   # Starts Notepad PS C:&gt; $query = "Select * from win32_Process where Name LIKE '[H-N]otepad.exe'" PS C:&gt; Get-WmiObject -Query $query | Select Name, ProcessID</source>
+          <target state="translated">PS C: &gt; Notepad # inizia il blocco note PS c: &gt; $query = "selezionare * da win32_Process in nome COME '[H-N] otepad.exe'" c: PS &gt; Get-WmiObject-Query $query | Selezionare il nome, ProcessID</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Name                                ProcessID</source>
+          <target state="translated">Nome ProcessID</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>notepad.exe                              1740</source>
+          <target state="translated">Notepad.exe 1740</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2: [<ph id="ph1">&lt;range&gt;</ph>] and % The following commands select all process that have a name that begins with a letter between A and P (case-insensitive) followed by zero or more letters in any combination.</source>
+          <target state="translated">ESEMPIO 2: [<ph id="ph1">&lt;range&gt;</ph>] e % i comandi seguenti selezionare tutti i processi che hanno un nome che inizia con una lettera compresa tra A e P (tra maiuscole e minuscole) seguito da zero o più lettere in qualsiasi combinazione.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The Get-WmiObject cmdlet runs the query, the Select-Object cmdlet gets the Name and ProcessID properties, and the Sort-Object cmdlet sorts the results in alphabetical order by name.</source>
+          <target state="translated">Il cmdlet Get-WmiObject esegue la query, il cmdlet Select-Object Ottiene le proprietà Name e ProcessID e il cmdlet Sort-Object Ordina i risultati in ordine alfabetico per nome.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$query = "Select * from win32_Process where name LIKE '[A-P]%'" PS C:&gt;Get-WmiObject -Query $query | Select-Object -Property Name, ProcessID | Sort-Object -Property Name</source>
+          <target state="translated">PS C: &gt; $query = "selezionare * da win32_Process in cui assegnare un nome SIMILE '[A-P] %'" c: PS &gt; Get-WmiObject-Query $query | Select-Object - Property Name, ProcessID | Sort-Object-nome della proprietà</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3: Not in Range (^) The following command gets processes whose names do not begin with any of the following letters:</source>
+          <target state="translated">ESEMPIO 3: Non compreso nell'intervallo (^) il comando seguente ottiene processi i cui nomi non iniziano con uno qualsiasi dei seguenti caratteri:</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>A, S, W, P, R, C, U, N</source>
+          <target state="translated">OGGETTO, S, W, P, R, C, U, N</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>and followed zero or more letters.</source>
+          <target state="translated">zero o più lettere di seguito.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$query = "Select * from win32_Process where name LIKE '[^ASWPRCUN]%'" PS C:&gt;Get-WmiObject -Query $query | Select-Object -Property Name, ProcessID | Sort-Object -Property Name</source>
+          <target state="translated">PS C: &gt; $query = "Seleziona * da win32_Process in nome COME ' [^ ASWPRCUN] %'" c: PS &gt; Get-WmiObject-Query $query | Select-Object - Property Name, ProcessID | Sort-Object-nome della proprietà</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 4: Any characters -- or none (%) The following commands get processes that have names that begin with "calc".</source>
+          <target state="translated">ESEMPIO 4: - Caratteri o Nessuno (%) I seguenti comandi ottengono processi che hanno nomi che iniziano con "calc".</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The % symbol in WQL is equivalent to the asterisk (*) symbol in regular expressions.</source>
+          <target state="translated">Il simbolo % in WQL è equivalente al simbolo di asterisco (*) nelle espressioni regolari.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $query = "Select * from win32_Process where Name LIKE 'calc%'" PS C:&gt; Get-WmiObject -Query $query | Select-Object -Property Name, ProcessID</source>
+          <target state="translated">PS &gt; $query c: = "Seleziona * da win32_Process in cui assegnare un nome SIMILE 'calc %'" c: PS &gt; Get-WmiObject-Query $query | Select-Object - Property Name, ProcessID</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Name                               ProcessID</source>
+          <target state="translated">Nome ProcessID</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>calc.exe                                4424</source>
+          <target state="translated">Calc.exe 4424</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 5: One character (_) The following commands get processes that have names that have the following pattern, "c_lc.exe" where the underscore character represents any one character.</source>
+          <target state="translated">ESEMPIO 5: Un carattere (_) i seguenti comandi ottenere i processi con i nomi con il modello seguente, "c_lc.exe" in cui il carattere di sottolineatura rappresenta qualsiasi carattere.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>This pattern matches any name from calc.exe through czlc.exe, or c9lc.exe, but does not match names in which the "c" and "l" are separated by more than one character.</source>
+          <target state="translated">Questo modello corrisponde a qualsiasi nome da calc.exe tramite czlc.exe o c9lc.exe, ma non corrisponde a nomi in cui la "c" e "l" sono separati da più di un carattere.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $query = "Select * from Win32_Process where Name LIKE 'c_lc.exe'" PS C:&gt; Get-WmiObject -Query $query | Select-Object -Property Name, ProcessID</source>
+          <target state="translated">PS &gt; $query c: = "Seleziona * da Win32_Process in cui assegnare un nome SIMILE 'c_lc.exe'" c: PS &gt; Get-WmiObject-Query $query | Select-Object - Property Name, ProcessID</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Name                                 ProcessID</source>
+          <target state="translated">Nome ProcessID</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>calc.exe                                  4424</source>
+          <target state="translated">Calc.exe 4424</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 6: Exact match The following commands get processes named WLIDSVC.exe.</source>
+          <target state="translated">ESEMPIO 6: Corrispondenza esatta che i seguenti comandi ottengono processi denominato WLIDSVC.exe.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Even though the query uses the Like keyword, it requires an exact match, because the value does not include any wildcard characters.</source>
+          <target state="translated">Anche se la query utilizza la parola chiave Like, richiede una corrispondenza esatta, poiché il valore non include caratteri jolly.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>$query = "Select * from win32_Process where name LIKE 'WLIDSVC.exe'" Get-WmiObject -Query $query | Select-Object -Property Name, ProcessID</source>
+          <target state="translated">$query = "Seleziona * da win32_Process in cui assegnare un nome SIMILE 'WLIDSVC.exe'" Get-WmiObject-Query $query | Select-Object - Property Name, ProcessID</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Name                                 ProcessID</source>
+          <target state="translated">Nome ProcessID</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>WLIDSVC.exe                                84</source>
+          <target state="translated">WLIDSVC.exe 84</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>USING THE OR OPERATOR</source>
+          <target state="translated">UTILIZZANDO L'OPERATORE OR (OPERATORE)</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>To specify multiple independent conditions, use the Or keyword.</source>
+          <target state="translated">Per specificare più condizioni indipendente, utilizzare la parola chiave Or.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The Or keyword appears in the Where clause.</source>
+          <target state="translated">Verrà visualizzata la parola chiave Or in Where clausola.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>It performs an inclusive OR operation on two (or more) conditions and returns items that meet any of the conditions.</source>
+          <target state="translated">Esegue un'operazione di OR inclusiva su due (o più) condizioni e restituisce gli elementi che soddisfano una delle condizioni.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The Or operator has the following format:</source>
+          <target state="translated">L'operatore Or presenta il formato seguente:</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Where <ph id="ph1">&lt;property&gt;</ph> <ph id="ph2">&lt;operator&gt;</ph> <ph id="ph3">&lt;value&gt;</ph> or <ph id="ph4">&lt;property&gt;</ph> <ph id="ph5">&lt;operator&gt;</ph> <ph id="ph6">&lt;value&gt;</ph> ...</source>
+          <target state="translated">Where <ph id="ph1">&lt;property&gt;</ph> <ph id="ph2">&lt;operator&gt;</ph> <ph id="ph3">&lt;value&gt;</ph> or <ph id="ph4">&lt;property&gt;</ph> <ph id="ph5">&lt;operator&gt;</ph> <ph id="ph6">&lt;value&gt;</ph> ...</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>For example, the following commands get all instances of the Win32_Process WMI class but returns them only if the process name is winword.exe or excel.exe.</source>
+          <target state="translated">Ad esempio, i seguenti comandi ottenere tutte le istanze della classe WMI Win32_Process ma li restituisce solo se il nome del processo è winword.exe o excel.exe.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$q = "Select * from Win32_Process where Name = 'winword.exe' or Name = 'excel.exe'" PS C:&gt;Get-WmiObject -Query $q</source>
+          <target state="translated">PS C: &gt; $q = "Seleziona * da Win32_Process in cui Name = 'winword.exe' o il nome = 'excel.exe'" c: PS &gt; Get-WmiObject-Query $q</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The Or statement can be used with more than two conditions.</source>
+          <target state="translated">L'istruzione o può essere utilizzata con più di due condizioni.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>In the following query, the Or statement gets Winword.exe, Excel.exe, or Powershell.exe.</source>
+          <target state="translated">Nella query seguente, l'istruzione Or Ottiene Winword.exe, Excel.exe o Powershell.exe.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>$q = "Select * from Win32_Process where Name = 'winword.exe' or Name = 'excel.exe' or Name = 'powershell.exe'"</source>
+          <target state="translated">$q = "Seleziona * da Win32_Process in cui Name = 'winword.exe' o Name = 'excel.exe' o il nome = 'powershell.exe'"</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>USING THE AND OPERATOR</source>
+          <target state="translated">UTILIZZANDO L'OPERATORE E</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>To specify multiple related conditions, use the And keyword.</source>
+          <target state="translated">Per specificare più condizioni correlate, utilizzare la parola chiave And.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The And keyword appears in the Where clause.</source>
+          <target state="translated">Verrà visualizzata la parola chiave And in Where clausola.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>It returns items that meet all of the conditions.</source>
+          <target state="translated">Restituisce gli elementi che soddisfano tutte le condizioni.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The And operator has the following format:</source>
+          <target state="translated">L'operatore And ha il formato seguente:</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Where <ph id="ph1">&lt;property&gt;</ph> <ph id="ph2">&lt;operator&gt;</ph> <ph id="ph3">&lt;value&gt;</ph> and <ph id="ph4">&lt;property&gt;</ph> <ph id="ph5">&lt;operator&gt;</ph> <ph id="ph6">&lt;value&gt;</ph> ...</source>
+          <target state="translated">Where <ph id="ph1">&lt;property&gt;</ph> <ph id="ph2">&lt;operator&gt;</ph> <ph id="ph3">&lt;value&gt;</ph> and <ph id="ph4">&lt;property&gt;</ph> <ph id="ph5">&lt;operator&gt;</ph> <ph id="ph6">&lt;value&gt;</ph> ...</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>For example, the following commands get processes that have a name of "Winword.exe" and the process ID of 6512.</source>
+          <target state="translated">Ad esempio, i seguenti comandi ottengono processi che hanno un nome di "Winword.exe" e l'ID del processo di 6512.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Note that the commands use the Get-CimInstance cmdlet.</source>
+          <target state="translated">Si noti che i comandi utilizzano il cmdlet Get-CimInstance.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$q = "Select * from Win32_Process where Name = 'winword.exe' and ProcessID =6512" PS C:&gt; Get-CimInstance -Query $q</source>
+          <target state="translated">PS C: &gt; $q = "Seleziona * da Win32_Process in cui Name = 'winword.exe' e ProcessID = 6512" c: PS &gt; Get-CimInstance-Query $q</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>ProcessId        Name             HandleCount      WorkingSetSize   VirtualSize</source>
+          <target state="translated">Nome ProcessId HandleCount WorkingSetSize assuma</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>6512             WINWORD.EXE      768              117170176        633028608</source>
+          <target state="translated">6512 WINWORD. EXE 768 117170176 633028608</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>All operators, including the Like operators are valid with the Or and And operators.</source>
+          <target state="translated">Tutti gli operatori, inclusi gli operatori Like sono validi con l'operatore Or ed e operatori.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>And, you can combine the Or and And operators in a single query with parentheses that tell Windows PowerShell which clauses to process first.</source>
+          <target state="translated">E, è possibile combinare l'operazione di Or ed e operatori in una singola query con le parentesi che indicano a Windows PowerShell che clausole per primo.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>This command uses the Windows PowerShell continuation character (`) divide the command into two lines.</source>
+          <target state="translated">Questo comando utilizza il comando divide (') carattere di continuazione Windows PowerShell in due righe.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $q = "Select * from Win32_Process ` where (Name = 'winword.exe' or Name = 'excel.exe') and HandleCount &gt; 700"</source>
+          <target state="translated">PS &gt; $q c: = "Seleziona * da cui degli Win32_Process (nome = 'winword.exe' o il nome = 'excel.exe') e numero di handle 700 &gt;"</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-CimInstance -Query $q ProcessId        Name             HandleCount      WorkingSetSize   VirtualSize</source>
+          <target state="translated">PS C: &gt; Get-CimInstance-$q ProcessId nome HandleCount WorkingSetSize assuma di Query</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>6512             WINWORD.EXE      797              117268480        634425344</source>
+          <target state="translated">6512 WINWORD. EXE 797 117268480 634425344</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>9610             EXCEL.EXE        727               38858752        323227648</source>
+          <target state="translated">9610 EXCEL. EXE 727 38858752 323227648</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>SEARCHING FOR NULL VALUES</source>
+          <target state="translated">RICERCA DI VALORI NULL</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Searching for null values in WMI is challenging, because it can lead to unpredictable results.</source>
+          <target state="translated">Ricerca di valori null in WMI è difficile, perché può generare risultati imprevedibili.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Null is not zero and it is not equivalent or to an empty string.</source>
+          <target state="translated">Null è diverso da zero e non è equivalente o su una stringa vuota.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Some WMI class properties are initialized and others are not, so a search for null might not work for all properties.</source>
+          <target state="translated">Alcune proprietà delle classi WMI vengono inizializzati e altri non lo sono, pertanto la ricerca di null potrebbe non funzionare per tutte le proprietà.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>To search for null values, use the Is operator with a value of "null".</source>
+          <target state="translated">Per cercare i valori null, utilizzare l'operatore con un valore "null".</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>For example, the following commands get processes that have a null value for the IntallDate property.</source>
+          <target state="translated">Ad esempio, i seguenti comandi ottengono processi che hanno un valore null per la proprietà IntallDate.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>The commands return many processes.</source>
+          <target state="translated">I comandi restituiscono molti processi.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$q = "Select * from Win32_Process where InstallDate is null" PS C:&gt;Get-WmiObject -Query $q</source>
+          <target state="translated">PS C: &gt; $q = "Seleziona * da Win32_Process in cui InstallDate è null" c: PS &gt; Get-WmiObject-Query $q</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>In contrast, the following command, gets user accounts that have a null value for the Description property.</source>
+          <target state="translated">Al contrario, il comando seguente ottiene gli account utente che dispongono di un valore null per la proprietà Description.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>This command does not return any user accounts, even though most user accounts do not have any value for the Description property.</source>
+          <target state="translated">Questo comando non restituisce tutti gli account utente, anche se la maggior parte degli account utente non hanno alcun valore per la proprietà Description.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$q = "Select * from Win32_UserAccount where Description is null" PS C:&gt;Get-WmiObject -Query $q</source>
+          <target state="translated">PS C: &gt; $q = "Seleziona * da Win32_UserAccount in cui descrizione è null" c: PS &gt; Get-WmiObject-Query $q</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>To find the user accounts that have no value for the Description property, use the equality operator to get an empty string.</source>
+          <target state="translated">Per trovare gli account utente che non hanno alcun valore per la proprietà Description, utilizzare l'operatore di uguaglianza per ottenere una stringa vuota.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>To represent the empty string, use two consecutive single quotation marks.</source>
+          <target state="translated">Per rappresentare una stringa vuota, utilizzare due volte consecutive virgolette singole.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>$q = "Select * from Win32_UserAccount where Description = '' "</source>
+          <target state="translated">$q = "Seleziona * da Win32_UserAccount dove Description =" "</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>USING TRUE OR FALSE</source>
+          <target state="translated">UTILIZZARE TRUE O FALSE</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>To get Boolean values in the properties of WMI objects, use True and False.</source>
+          <target state="translated">Per ottenere i valori booleani nelle proprietà di oggetti WMI, utilizzare True e False.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>They are not case sensitive.</source>
+          <target state="translated">Esse non fanno distinzione tra maiuscole e minuscole.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>The following WQL query returns only local user accounts from a domain joined computer.</source>
+          <target state="translated">La query WQL seguente restituisce solo gli account utente locale da un computer aggiunto a un dominio.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$q = "Select * from Win32_UserAccount where LocalAccount = True" PS C:&gt;Get-CimInstance -Query $q</source>
+          <target state="translated">PS C: &gt; $q = "Seleziona * da Win32_UserAccount in cui LocalAccount = True" c: PS &gt; Get-CimInstance-Query $q</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>To find domain accounts, use a value of False, as shown in the following example.</source>
+          <target state="translated">Per trovare gli account di dominio, utilizzare il valore False, come illustrato nell'esempio seguente.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;$q = "Select * from Win32_UserAccount where LocalAccount = False" PS C:&gt;Get-CimInstance -Query $q</source>
+          <target state="translated">PS C: &gt; $q = "Seleziona * da Win32_UserAccount in cui LocalAccount = False" c: PS &gt; Get-CimInstance-Query $q</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>USING THE ESCAPE CHARACTER</source>
+          <target state="translated">UTILIZZANDO IL CARATTERE DI ESCAPE</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>WQL uses the backslash () as its escape character.</source>
+          <target state="translated">WQL utilizza la barra rovesciata () come carattere escape.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>This is different from Windows PowerShell, which uses the backtick character (`).</source>
+          <target state="translated">Questo è diverso da Windows PowerShell, che utilizza il carattere apice inverso (').</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Quotation marks, and the characters used for quotation marks, often need to be escaped so that they are not misinterpreted.</source>
+          <target state="translated">Le virgolette e i caratteri utilizzati per le virgolette, devono spesso essere sottoposto a escape in modo che essi non vengono interpretati correttamente.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>To find a user whose name includes a single quotation mark, use a backslash to escape the single quotation mark, as shown in the following command.</source>
+          <target state="translated">Per trovare un utente il cui nome include una virgoletta singola, utilizzare una barra rovesciata per interrompere la virgoletta singola, come illustrato nel comando seguente.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $q = "Select * from Win32_UserAccount where Name = 'Tim O<ph id="ph1">\'</ph>Brian'" PS C:&gt; Get-CimInstance -Query $q Name             Caption          AccountType      SID              Domain</source>
+          <target state="translated">PS &gt; $q c: = "Seleziona * da Win32_UserAccount dove nome = ' Tim O<ph id="ph1">\'</ph>Brian'" c: PS &gt; Get-CimInstance-Query $q Name didascalia AccountType SID Domain</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Tim O'Brian      FABRIKAM\TimO    512              S-1-5-21-1457... FABRIKAM</source>
+          <target state="translated">TIM Brian FABRIKAM\TimO 512 S-1-5-21-1457... FABRIKAM</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>In some case, the backslash also needs to be escaped.</source>
+          <target state="translated">In alcuni casi, la barra rovesciata deve inoltre essere sottoposto a escape.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>For example, the following commands generate an Invalid Query error due to the backslash in the Caption value.</source>
+          <target state="translated">I comandi seguenti, ad esempio, generano un errore di Query non valida a causa la barra rovesciata nel valore della didascalia.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $q = "Select * from Win32_UserAccount where Caption = 'Fabrikam\TimO'" PS C:&gt; Get-CimInstance -Query $q Get-CimInstance : Invalid query At line:1 char:1</source>
+          <target state="translated">PS &gt; $q c: = "Seleziona * da Win32_UserAccount dove didascalia = 'Fabrikam\TimO'" c: PS &gt; Get-CimInstance-Query $q Get-CimInstance: query non valida alla riga: 1 char: 1</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Get-CimInstance -Query $q</source>
+          <target state="translated">Get-CimInstance-Query $q</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>+!INCLUDE[]~~~~~~~~~~~</source>
+          <target state="translated">+! INCLUDERE [~ ~ ~</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>CategoryInfo          : InvalidArgument: (:) [Get-CimInstance], CimException</source>
+          <target state="translated">CategoryInfo: Argomento non valido: (:) [Get-CimInstance], CimException</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>FullyQualifiedErrorId : HRESULT 0x80041017,Microsoft.Management.Infrastructure.CimCmdlets</source>
+          <target state="translated">FullyQualifiedErrorId: 0x80041017,Microsoft.Management.Infrastructure.CimCmdlets HRESULT</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>To escape the backslash, use a second backslash character, as shown in the following command.</source>
+          <target state="translated">Per annullare la barra rovesciata, utilizzare una seconda barra rovesciata, come illustrato nel comando seguente.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $q = "Select * from Win32_UserAccount where Caption = 'Fabrikam\TimO'" PS C:&gt; Get-CimInstance -Query $q</source>
+          <target state="translated">PS &gt; $q c: = "Seleziona * da Win32_UserAccount dove didascalia = 'Fabrikam\TimO'" c: PS &gt; Get-CimInstance-Query $q</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">VEDERE ANCHE</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>about_Escape_Characters about_Quoting_Rules about_WMI about_WMI_Cmdlets</source>
+          <target state="translated">about_Escape_Characters about_Quoting_Rules about_WMI about_WMI_Cmdlets</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

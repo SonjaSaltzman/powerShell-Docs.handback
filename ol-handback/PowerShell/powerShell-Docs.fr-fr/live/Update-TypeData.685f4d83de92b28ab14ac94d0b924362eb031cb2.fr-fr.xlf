@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">69f56cea389f098833d17c19f1aa4fbe77875224</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Update-TypeData.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">163da7fbabd34cdbc9c3f9b9740ed0bb69e61bab</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0603ad451e66f134c242885aad378e51119079d6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Update-TypeData</source>
+          <target state="translated">Update-TypeData</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Update-TypeData</source>
+          <target state="translated">Update-TypeData</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SYNOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Updates the extended type data in the session.</source>
+          <target state="translated">Met à jour les données de type étendu dans la session.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>FileSet (Default)</source>
+          <target state="translated">Ensemble de fichiers (par défaut)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>DynamicTypeSet</source>
+          <target state="translated">DynamicTypeSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>TypeDataSet</source>
+          <target state="translated">TypeDataSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPTION</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> cmdlet updates the extended type data in the session by reloading the Types.ps1xml files into memory and adding new extended type data.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> cmdlet met à jour les données de type étendu dans la session en rechargeant les fichiers Types.ps1xml en mémoire et l’ajout de données de type étendu.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell loads extended type data as it is needed.</source>
+          <target state="translated">Par défaut, Windows PowerShell charge les données de type étendu en fonction des besoins.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Without parameters, <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> reloads all of the Types.ps1xml files that it has loaded in the session, including any type files that you added.</source>
+          <target state="translated">Sans paramètres, <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> recharge tous les fichiers Types.ps1xml qu’elle a chargés dans la session, y compris les fichiers de type que vous avez ajouté.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can use the parameters of <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> to add new type files and add and replace extended type data.</source>
+          <target state="translated">Vous pouvez utiliser les paramètres de <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> pour ajouter de nouveaux fichiers de type, ajouter et remplacer les données de type étendu.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> cmdlet can be used to preload all type data.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> applet de commande peut être utilisée pour précharger toutes les données de type.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This feature is particularly useful when you are developing types and want to load those new types for testing purposes.</source>
+          <target state="translated">Cette fonctionnalité est particulièrement utile quand vous développez des types et que vous souhaitez charger ces nouveaux types à des fins de test.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can use <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> to add and replace extended type data in the session without using a Types.ps1xml file.</source>
+          <target state="translated">À compter de Windows PowerShell 3.0, vous pouvez utiliser <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> pour ajouter et remplacer des données de type étendu dans la session sans l’aide d’un fichier Types.ps1xml.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Type data that is added dynamically, that is, without a file, is added only to the current session.</source>
+          <target state="translated">Les données de type ajoutées de manière dynamique, c'est-à-dire sans fichier, sont ajoutées uniquement à la session active.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To add the type data to all sessions, add an <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> command to your Windows PowerShell profile.</source>
+          <target state="translated">Pour ajouter les données de type à toutes les sessions, ajoutez un <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> commande à votre profil Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</source>
+          <target state="translated">Pour plus d’informations, consultez about_Profiles (http://go.microsoft.com/fwlink/?LinkID=113729).</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Also, beginning in Windows PowerShell 3.0, you can use the Get-TypeData cmdlet to get the extended types in the current session and the Remove-TypeData cmdlet to delete extended types from the current session.</source>
+          <target state="translated">En outre, à compter de Windows PowerShell 3.0, vous pouvez utiliser l’applet de commande Get-TypeData pour obtenir les types étendus dans la session actuelle et l’applet de commande Remove-TypeData pour supprimer les types étendus de la session active.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Exceptions that occur in properties, or from adding properties to an <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> command, do not report errors to StdErr.</source>
+          <target state="translated">Les exceptions qui se produisent dans les propriétés ou d’ajout de propriétés à une <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> de commande, ne pas signaler les erreurs dans StdErr.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This is to suppress exceptions that would occur in many common types during formatting and outputting.</source>
+          <target state="translated">Cela permet de supprimer des exceptions qui se produisent dans de nombreux types courants durant la mise en forme et la sortie.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you are getting .NET Framework properties, you can work around the suppression of exceptions by using method syntax instead, as shown in the following example:</source>
+          <target state="translated">Si vous obtenez des propriétés .NET Framework, vous pouvez contourner la suppression des exceptions à l'aide de la syntaxe de méthode, comme indiqué dans l'exemple suivant :</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Note that method syntax can only be used with .NET Framework properties.</source>
+          <target state="translated">Notez que la syntaxe de méthode peut uniquement être utilisée avec des propriétés .NET Framework.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Properties that are added by running the <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> cmdlet cannot use method syntax.</source>
+          <target state="translated">Les propriétés qui sont ajoutées en exécutant la <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> applet de commande ne peut pas utiliser la syntaxe de méthode.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information about the *types.ps1xml files in Windows PowerShell, see about_Types.ps1xml (http://technet.microsoft.com/library/hh847881.aspx).</source>
+          <target state="translated">Pour plus d’informations sur les fichiers * types.ps1xml dans Windows PowerShell, consultez about_Types.ps1xml (http://technet.microsoft.com/library/hh847881.aspx).</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Example 1: Update extended types</source>
+          <target state="translated">Exemple 1 : Mettre à jour les types étendus</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This command updates the extended type configuration from the *.types.ps1xml files that have already been used in the session.</source>
+          <target state="translated">Cette commande met à jour la configuration de type étendu des fichiers *.types.ps1xml déjà utilisés dans la session.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Example 2: Update types multiple times</source>
+          <target state="translated">Exemple 2 : Mettre à jour les types de plusieurs fois</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This example shows how to update the types in a type file multiple times in the same session.</source>
+          <target state="translated">Cet exemple montre comment mettre à jour les types dans un fichier de type plusieurs fois dans la même session.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example 3: Add a script property to DateTime objects</source>
+          <target state="translated">Exemple 3 : Ajouter une propriété de script pour les objets DateTime</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This example uses <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> to add the Quarter script property to <bpt id="p2">**</bpt>System.DateTime<ept id="p2">**</ept> objects in the current session, such as those returned by the Get-Date cmdlet.</source>
+          <target state="translated">Cet exemple utilise <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> pour ajouter la propriété script trimestre <bpt id="p2">**</bpt>System.DateTime<ept id="p2">**</ept> objets dans la session active, comme celles retournées par l’applet de commande Get-Date.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> command uses the <bpt id="p2">*</bpt>TypeName<ept id="p2">*</ept> parameter to specify <bpt id="p3">**</bpt>the System.DateTime<ept id="p3">**</ept> type, the <bpt id="p4">*</bpt>MemberName<ept id="p4">*</ept> parameter to specify a name for the new property, the MemberType property to specify the ScriptProperty type, and the <bpt id="p5">*</bpt>Value<ept id="p5">*</ept> parameter to specify the script that determines the annual quarter.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> commande utilise le <bpt id="p2">*</bpt>TypeName<ept id="p2">*</ept> paramètre pour spécifier <bpt id="p3">**</bpt>le System.DateTime<ept id="p3">**</ept> type, le <bpt id="p4">*</bpt>MemberName<ept id="p4">*</ept> paramètre pour spécifier un nom pour la nouvelle propriété, la propriété MemberType pour spécifier le type ScriptProperty et le <bpt id="p5">*</bpt>valeur<ept id="p5">*</ept> paramètre pour spécifier le script qui détermine le trimestre annuel.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The value of the Value property is a script that calculates the current annual quarter.</source>
+          <target state="translated">La valeur de la propriété Value est un script qui calcule l’actuel trimestre annuel.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The script block uses the $this automatic variable to represent the current instance of the object and the In operator to determine whether the month value appears in each integer array.</source>
+          <target state="translated">Le bloc de script utilise la $cette variable automatique pour représenter l’instance actuelle de l’objet et l’opérateur In pour déterminer si la valeur de mois apparaît dans chaque tableau d’entiers.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information about the In operator, see about_Comparison_Operators (http://go.microsoft.com/fwlink/?LinkID=113217).</source>
+          <target state="translated">Pour plus d’informations sur l’opérateur In, consultez about_Comparison_Operators (http://go.microsoft.com/fwlink/?LinkID=113217).</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The second command gets the new Quarter property of the current date.</source>
+          <target state="translated">La deuxième commande obtient la nouvelle propriété Quarter de la date actuelle.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Example 4: Update a type that displays in lists by default</source>
+          <target state="translated">Exemple 4 : Mettre à jour un type affiché dans les listes par défaut</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This example shows how to set the properties of a type that displays in lists by default, that is, when no properties are specified.</source>
+          <target state="translated">Cet exemple montre comment définir les propriétés d’un type qui s’affiche dans les listes par défaut, autrement dit, lorsque aucune propriété spécifiée.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Because the type data is not specified in a Types.ps1xml file, it is effective only in the current session.</source>
+          <target state="translated">Étant donné que les données de type ne sont pas spécifiées dans un fichier Types.ps1xml, elles sont effectives uniquement dans la session active.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> cmdlet to set the default list properties for the <bpt id="p2">**</bpt>System.DateTime<ept id="p2">**</ept> type.</source>
+          <target state="translated">La première commande utilise le <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> applet de commande pour définir la valeur par défaut pour les propriétés de la liste le <bpt id="p2">**</bpt>System.DateTime<ept id="p2">**</ept> type.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>TypeName<ept id="p1">*</ept> parameter to specify the type and the <bpt id="p2">*</bpt>DefaultDisplayPropertySet<ept id="p2">*</ept> parameter to specify the default properties for a list.</source>
+          <target state="translated">La commande utilise le <bpt id="p1">*</bpt>TypeName<ept id="p1">*</ept> paramètre pour spécifier le type et la <bpt id="p2">*</bpt>DefaultDisplayPropertySet<ept id="p2">*</ept> pour spécifier les propriétés par défaut pour une liste.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The selected properties include the new Quarter script property that was added in a previous example.</source>
+          <target state="translated">Les propriétés sélectionnées incluent la nouvelle propriété de script Quarter, qui a été ajoutée dans un exemple précédent.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-Date cmdlet to get a <bpt id="p1">**</bpt>System.DateTime<ept id="p1">**</ept> object that represents the current date.</source>
+          <target state="translated">La deuxième commande utilise l’applet de commande Get-Date pour obtenir un <bpt id="p1">**</bpt>System.DateTime<ept id="p1">**</ept> objet qui représente la date actuelle.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The command uses a pipeline operator (|) to send the <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> object to the Format-List cmdlet.</source>
+          <target state="translated">La commande utilise un opérateur de pipeline (|) pour envoyer le <bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> objet à la cmdlet Format-List.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">**</bpt>Format-List<ept id="p1">**</ept> command does not specify the properties to display in the list, Windows PowerShell uses the default values that were established by the <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept> command.</source>
+          <target state="translated">Étant donné que le <bpt id="p1">**</bpt>Format-List<ept id="p1">**</ept> commande ne spécifie pas les propriétés à afficher dans la liste, Windows PowerShell utilise les valeurs par défaut qui ont été établies par le <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept> commande.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Example 5: Update type data for a piped object</source>
+          <target state="translated">Exemple 5 : Les données de type mise à jour pour un objet de canal</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that when you pipe an object to <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept> adds extended type data for the object type.</source>
+          <target state="translated">Cet exemple montre que lorsque vous dirigez un objet <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept> ajoute des données de type étendu pour le type d’objet.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This technique is quicker than using the Get-Member cmdlet or the <bpt id="p1">**</bpt>Get-Type<ept id="p1">**</ept> method to get the object type.</source>
+          <target state="translated">Cette technique est plus rapide que l’applet de commande Get-Member ou <bpt id="p1">**</bpt>Get-Type<ept id="p1">**</ept> méthode pour obtenir le type d’objet.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>However, if you pipe a collection of objects to <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept>, it updates the type data of the first object type and then returns an error for all other objects in the collection because the member is already defined on the type.</source>
+          <target state="translated">Toutefois, si vous dirigez une collection d’objets à <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept>, il met à jour les données de type du premier type d’objet et puis renvoie une erreur pour tous les autres objets dans la collection, car le membre est déjà défini sur le type.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-Module cmdlet to get the PSScheduledJob module.</source>
+          <target state="translated">La première commande utilise l’applet de commande Get-Module pour obtenir le module PSScheduledJob.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The command pipes the module object to the <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> cmdlet, which updates the type data for the <bpt id="p2">**</bpt>System.Management.Automation.PSModuleInfo<ept id="p2">**</ept> type and the types derived from it, such as the ModuleInfoGrouping type that <bpt id="p3">**</bpt>Get-Module<ept id="p3">**</ept> returns when you use the <bpt id="p4">*</bpt>ListAvailable<ept id="p4">*</ept> parameter in the command.</source>
+          <target state="translated">La commande dirige l’objet de module pour la <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> applet de commande qui met à jour les données de type pour le <bpt id="p2">**</bpt>System.Management.Automation.PSModuleInfo<ept id="p2">**</ept> type et les types dérivés, tels que le ModuleInfoGrouping type <bpt id="p3">**</bpt>Get-Module<ept id="p3">**</ept> quand vous utilisez la <bpt id="p4">*</bpt>ListAvailable<ept id="p4">*</ept> paramètre dans la commande.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> commands adds the <bpt id="p2">**</bpt>SupportsUpdatableHelp<ept id="p2">**</ept> script property to all imported modules.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept> ajoute la <bpt id="p2">**</bpt>SupportsUpdatableHelp<ept id="p2">**</ept> script de propriété pour tous les modules importés.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">*</bpt>Value<ept id="p1">*</ept> parameter is a script that returns $True if the HelpInfoUri property of the module is populated and $False otherwise.</source>
+          <target state="translated">La valeur de la <bpt id="p1">*</bpt>valeur<ept id="p1">*</ept> paramètre est un script qui retourne $True si la propriété HelpInfoUri du module est remplie et $False dans le cas contraire.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The second command pipes the module objects from <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> to the <bpt id="p2">**</bpt>Format-Table<ept id="p2">**</ept> cmdlet, which displays the Name and SupportsUpdatableHelp properties of all modules in a list.</source>
+          <target state="translated">La seconde commande dirige les objets de module de <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> à la <bpt id="p2">**</bpt>Format-Table<ept id="p2">**</ept> cmdlet, qui affiche les propriétés Name et SupportsUpdatableHelp de tous les modules dans une liste.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMÈTRES</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-AppendPath</source>
+          <target state="translated">-AppendPath</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specifies the path to optional .ps1xml files.</source>
+          <target state="translated">Spécifie le chemin d'accès des fichiers .ps1xml facultatifs.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The specified files are loaded in the order that they are listed after the built-in files are loaded.</source>
+          <target state="translated">Les fichiers spécifiés sont chargés dans l'ordre dans lequel ils sont répertoriés après le chargement des fichiers intégrés.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can also pipe an <bpt id="p1">**</bpt>AppendPath<ept id="p1">**</ept> value to <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept>.</source>
+          <target state="translated">Vous pouvez également diriger un <bpt id="p1">**</bpt>AppendPath<ept id="p1">**</ept> valeur <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Vous demande confirmation avant d’exécuter l’applet de commande. Vous demande confirmation avant d’exécuter l’applet de commande.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-DefaultDisplayProperty</source>
+          <target state="translated">-DefaultDisplayProperty</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specifies the property of the type that is displayed by the Format-Wide cmdlet when no other properties are specified.</source>
+          <target state="translated">Spécifie la propriété du type qui est affichée par l’applet de commande Format-Wide lorsque aucune autre propriété spécifiée.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Type the name of a standard or extended property of the type.</source>
+          <target state="translated">Tapez le nom d'une propriété standard ou étendue du type.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The value of this parameter can be the name of a type that is added in the same command.</source>
+          <target state="translated">La valeur de ce paramètre peut correspondre au nom d'un type ajouté dans la même commande.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This value is effective only when there are no wide views defined for the type in a Format.ps1xml file.</source>
+          <target state="translated">Cette valeur est effective uniquement quand il n'existe aucun affichage large défini pour le type dans un fichier Format.ps1xml.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-DefaultDisplayPropertySet</source>
+          <target state="translated">-DefaultDisplayPropertySet</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies one or more properties of the type.</source>
+          <target state="translated">Spécifie une ou plusieurs propriétés du type.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>These properties are displayed by the Format-List cmdlet when no other properties are specified.</source>
+          <target state="translated">Ces propriétés sont affichées par l’applet de commande Format-List lorsqu’aucune autre propriété spécifiée.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Type the names of standard or extended properties of the type.</source>
+          <target state="translated">Tapez les noms des propriétés standard ou étendues du type.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The value of this parameter can be the names of types that are added in the same command.</source>
+          <target state="translated">La valeur de ce paramètre peut correspondre aux noms des types ajoutés dans la même commande.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This value is effective only when there are no list views defined for the type in a Format.ps1xml file.</source>
+          <target state="translated">Cette valeur est effective uniquement quand il n'existe aucun affichage de liste défini pour le type dans un fichier Format.ps1xml.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-DefaultKeyPropertySet</source>
+          <target state="translated">-DefaultKeyPropertySet</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Specifies one or more properties of the type.</source>
+          <target state="translated">Spécifie une ou plusieurs propriétés du type.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>These properties are used by the Group-Object and Sort-Object cmdlets when no other properties are specified.</source>
+          <target state="translated">Ces propriétés sont utilisées par les applets de commande Group-Object et Sort-Object lorsque aucune autre propriété n’est spécifiées.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Type the names of standard or extended properties of the type.</source>
+          <target state="translated">Tapez les noms des propriétés standard ou étendues du type.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The value of this parameter can be the names of types that are added in the same command.</source>
+          <target state="translated">La valeur de ce paramètre peut correspondre aux noms des types ajoutés dans la même commande.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Indicates that the cmdlet uses the specified type data, even if type data has already been specified for that type.</source>
+          <target state="translated">Indique que l’applet de commande utilise les données du type spécifié, même si les données de type a déjà été spécifiées pour ce type.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-InheritPropertySerializationSet</source>
+          <target state="translated">-InheritPropertySerializationSet</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Indicates whether the set of properties that are serialized is inherited.</source>
+          <target state="translated">Indique si le jeu de propriétés qui sont sérialisées est hérité.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default value is $Null.</source>
+          <target state="translated">La valeur par défaut est $Null.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Les valeurs acceptables pour ce paramètre sont :</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>$True.</source>
+          <target state="translated">$True.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The property set is inherited.</source>
+          <target state="translated">Le jeu de propriétés est hérité.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>$False.</source>
+          <target state="translated">$False.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The property set is not inherited.</source>
+          <target state="translated">Le jeu de propriétés n'est pas hérité.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>$Null.</source>
+          <target state="translated">$Null.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Inheritance is not defined.</source>
+          <target state="translated">L'héritage n'est pas défini.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the value of the <bpt id="p1">*</bpt>SerializationMethod<ept id="p1">*</ept> parameter is SpecificProperties.</source>
+          <target state="translated">Ce paramètre est valide uniquement lorsque la valeur de la <bpt id="p1">*</bpt>SerializationMethod<ept id="p1">*</ept> paramètre est SpecificProperties.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>When the value of this parameter is $False, the <bpt id="p1">*</bpt>PropertySerializationSet<ept id="p1">*</ept> parameter is required.</source>
+          <target state="translated">Lorsque la valeur de ce paramètre est $False, le <bpt id="p1">*</bpt>PropertySerializationSet<ept id="p1">*</ept> paramètre est obligatoire.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-MemberName</source>
+          <target state="translated">-Nom de membre</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Specifies the name of a property or method.</source>
+          <target state="translated">Spécifie le nom d'une propriété ou d'une méthode.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Use this parameter with the <bpt id="p1">*</bpt>TypeName<ept id="p1">*</ept>, <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept>, <bpt id="p3">*</bpt>Value<ept id="p3">*</ept> and <bpt id="p4">*</bpt>SecondValue<ept id="p4">*</ept> parameters to add or change a property or method of a type.</source>
+          <target state="translated">Utilisez ce paramètre avec le <bpt id="p1">*</bpt>TypeName<ept id="p1">*</ept>, <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept>, <bpt id="p3">*</bpt>valeur<ept id="p3">*</ept> et <bpt id="p4">*</bpt>SecondValue<ept id="p4">*</ept> paramètres pour ajouter ou modifier une propriété ou méthode d’un type.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-MemberType</source>
+          <target state="translated">-MemberType</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the member to add or change.</source>
+          <target state="translated">Spécifie le type du membre à ajouter ou changer.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Use this parameter with the <bpt id="p1">*</bpt>TypeName<ept id="p1">*</ept>, <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept>, <bpt id="p3">*</bpt>Value<ept id="p3">*</ept> and <bpt id="p4">*</bpt>SecondValue<ept id="p4">*</ept> parameters to add or change a property or method of a type.</source>
+          <target state="translated">Utilisez ce paramètre avec le <bpt id="p1">*</bpt>TypeName<ept id="p1">*</ept>, <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept>, <bpt id="p3">*</bpt>valeur<ept id="p3">*</ept> et <bpt id="p4">*</bpt>SecondValue<ept id="p4">*</ept> paramètres pour ajouter ou modifier une propriété ou méthode d’un type.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Les valeurs acceptables pour ce paramètre sont :</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>AliasProperty</source>
+          <target state="translated">AliasProperty</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>CodeMethod</source>
+          <target state="translated">CodeMethod</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>CodeProperty</source>
+          <target state="translated">CodeProperty</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Noteproperty</source>
+          <target state="translated">NoteProperty</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>ScriptMethod</source>
+          <target state="translated">ScriptMethod</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>ScriptProperty</source>
+          <target state="translated">ScriptProperty</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For information about these values, see PSMemberTypes Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.psmembertypes(v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.psmembertypes(v=vs.85).aspx) in MSDN.</source>
+          <target state="translated">Pour plus d’informations sur ces valeurs, consultez PSMemberTypes Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.psmembertypes (v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.psmembertypes (v=vs.85).aspx) dans MSDN.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-PrependPath</source>
+          <target state="translated">-PrependPath</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the optional .ps1xml files.</source>
+          <target state="translated">Spécifie le chemin d'accès des fichiers .ps1xml facultatifs.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The specified files are loaded in the order that they are listed before the built-in files are loaded.</source>
+          <target state="translated">Les fichiers spécifiés sont chargés dans l'ordre dans lequel ils sont répertoriés avant le chargement des fichiers intégrés.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-PropertySerializationSet</source>
+          <target state="translated">-PropertySerializationSet</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Specifies the names of properties that are serialized.</source>
+          <target state="translated">Spécifie les noms des propriétés qui sont sérialisées.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Use this parameter when the value of the <bpt id="p1">*</bpt>SerializationMethod<ept id="p1">*</ept> parameter is <bpt id="p2">**</bpt>SpecificProperties<ept id="p2">**</ept>.</source>
+          <target state="translated">Utilisez ce paramètre lorsque la valeur de la <bpt id="p1">*</bpt>SerializationMethod<ept id="p1">*</ept> paramètre est <bpt id="p2">**</bpt>SpecificProperties<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-SecondValue</source>
+          <target state="translated">SecondValue-</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Specifies additional values for <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ScriptProperty<ept id="p2">**</ept>, <bpt id="p3">**</bpt>CodeProperty<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>CodeMethod<ept id="p4">**</ept> members.</source>
+          <target state="translated">Spécifie des valeurs supplémentaires pour <bpt id="p1">**</bpt>AliasProperty<ept id="p1">**</ept>, <bpt id="p2">**</bpt>ScriptProperty<ept id="p2">**</ept>, <bpt id="p3">**</bpt>CodeProperty<ept id="p3">**</ept>, ou <bpt id="p4">**</bpt>CodeMethod<ept id="p4">**</ept> membres.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Use this parameter with the <bpt id="p1">*</bpt>TypeName<ept id="p1">*</ept>, <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept>, <bpt id="p3">*</bpt>Value<ept id="p3">*</ept>, and <bpt id="p4">*</bpt>SecondValue<ept id="p4">*</ept> parameters to add or change a property or method of a type.</source>
+          <target state="translated">Utilisez ce paramètre avec le <bpt id="p1">*</bpt>TypeName<ept id="p1">*</ept>, <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept>, <bpt id="p3">*</bpt>valeur<ept id="p3">*</ept>, et <bpt id="p4">*</bpt>SecondValue<ept id="p4">*</ept> paramètres pour ajouter ou modifier une propriété ou méthode d’un type.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>When the value of the <bpt id="p1">*</bpt>MemberType<ept id="p1">*</ept> parameter is AliasProperty, the value of the <bpt id="p2">*</bpt>SecondValue<ept id="p2">*</ept> parameter must be a data type.</source>
+          <target state="translated">Lorsque la valeur de la <bpt id="p1">*</bpt>MemberType<ept id="p1">*</ept> paramètre est AliasProperty, la valeur de la <bpt id="p2">*</bpt>SecondValue<ept id="p2">*</ept> paramètre doit être un type de données.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell converts (that is, casts) the value of the alias property to the specified type.</source>
+          <target state="translated">(Autrement dit, les casts) de Windows PowerShell convertit la valeur de la propriété d’alias pour le type spécifié.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For example, if you add an alias property that provides an alternate name for a string property, you can also specify a <bpt id="p1">**</bpt>SecondValue<ept id="p1">**</ept> of System.Int32 to convert the aliased string value to an integer.</source>
+          <target state="translated">Par exemple, si vous ajoutez une propriété d’alias qui fournit un autre nom pour une propriété de chaîne, vous pouvez également spécifier un <bpt id="p1">**</bpt>SecondValue<ept id="p1">**</ept> de type System.Int32 pour convertir la valeur de chaîne d’un alias en entier.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>When the value of the <bpt id="p1">*</bpt>MemberType<ept id="p1">*</ept> parameter is ScriptProperty, you can use the <bpt id="p2">*</bpt>SecondValue<ept id="p2">*</ept> parameter to specify an additional script block.</source>
+          <target state="translated">Lorsque la valeur de la <bpt id="p1">*</bpt>MemberType<ept id="p1">*</ept> paramètre est ScriptProperty, vous pouvez utiliser la <bpt id="p2">*</bpt>SecondValue<ept id="p2">*</ept> paramètre pour spécifier un bloc de script supplémentaires.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The script block in the value of the <bpt id="p1">*</bpt>Value<ept id="p1">*</ept> parameter gets the value of a variable.</source>
+          <target state="translated">Le bloc de script dans la valeur de la <bpt id="p1">*</bpt>valeur<ept id="p1">*</ept> paramètre Obtient la valeur d’une variable.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The script block in the value of the <bpt id="p1">*</bpt>SecondValue<ept id="p1">*</ept> parameter set the value of the variable.</source>
+          <target state="translated">Le bloc de script dans la valeur de la <bpt id="p1">*</bpt>SecondValue<ept id="p1">*</ept> paramètre la valeur de la variable.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>-SerializationDepth</source>
+          <target state="translated">-SerializationDepth</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Specifies how many levels of type objects are serialized as strings.</source>
+          <target state="translated">Spécifie le nombre de niveaux d'objets de type sérialisés en tant que chaînes.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The default value, 1, serializes the object and its properties.</source>
+          <target state="translated">La valeur par défaut, 1, sérialise l'objet et ses propriétés.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>A value of 0 serializes the object, but not its properties.</source>
+          <target state="translated">La valeur 0 sérialise l'objet, mais pas ses propriétés.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>A value of 2 serializes the object, its properties, and any objects in property values.</source>
+          <target state="translated">La valeur 2 sérialise l'objet, ses propriétés et tous les objets des valeurs de propriété.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>-SerializationMethod</source>
+          <target state="translated">-SerializationMethod</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Specifies a serialization method for the type.</source>
+          <target state="translated">Spécifie une méthode de sérialisation pour le type.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>A serialization method determines which properties of the type are serialized and the technique that is used to serialize them.</source>
+          <target state="translated">Une méthode de sérialisation détermine quelles sont les propriétés du type qui sont sérialisées, ainsi que la technique de sérialisation utilisée.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Les valeurs acceptables pour ce paramètre sont :</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>AllPublicProperties.</source>
+          <target state="translated">AllPublicProperties.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Serialize all public properties of the type.</source>
+          <target state="translated">sérialisez toutes les propriétés publiques du type.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>SerializationDepth<ept id="p1">**</ept> parameter to determine whether child properties are serialized.</source>
+          <target state="translated">Vous pouvez utiliser la <bpt id="p1">**</bpt>SerializationDepth<ept id="p1">**</ept> paramètre pour déterminer si les propriétés enfants sont sérialisées.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>String.</source>
+          <target state="translated">Chaîne.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Serialize the type as a string.</source>
+          <target state="translated">sérialisez le type en tant que chaîne.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>StringSerializationSource<ept id="p1">**</ept> to specify a property of the type to use as the serialization result.</source>
+          <target state="translated">Vous pouvez utiliser la <bpt id="p1">**</bpt>StringSerializationSource<ept id="p1">**</ept> pour spécifier une propriété du type à utiliser en tant que résultat de la sérialisation.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Otherwise, the type is serialized by using the <bpt id="p1">**</bpt>ToString<ept id="p1">**</ept> method of the object.</source>
+          <target state="translated">Dans le cas contraire, le type est sérialisé à l’aide de la <bpt id="p1">**</bpt>ToString<ept id="p1">**</ept> méthode de l’objet.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>SpecificProperties.</source>
+          <target state="translated">SpecificProperties.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Serialize only the specified properties of this type.</source>
+          <target state="translated">Sérialiser uniquement les propriétés spécifiées de ce type.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">*</bpt>PropertySerializationSet<ept id="p1">*</ept> parameter to specify the properties of the type that are serialized.</source>
+          <target state="translated">Utilisez le <bpt id="p1">*</bpt>PropertySerializationSet<ept id="p1">*</ept> pour spécifier les propriétés du type sont sérialisés.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">*</bpt>InheritPropertySerializationSet<ept id="p1">*</ept> parameter to determine whether the property set is inherited and the <bpt id="p2">*</bpt>SerializationDepth<ept id="p2">*</ept> parameter to determine whether child properties are serialized.</source>
+          <target state="translated">Vous pouvez également utiliser le <bpt id="p1">*</bpt>InheritPropertySerializationSet<ept id="p1">*</ept> paramètre pour déterminer si le jeu de propriétés est hérité et le <bpt id="p2">*</bpt>SerializationDepth<ept id="p2">*</ept> paramètre pour déterminer si les propriétés enfants sont sérialisées.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell, serialization methods are stored in <bpt id="p1">**</bpt>PSStandardMembers<ept id="p1">**</ept> internal objects.</source>
+          <target state="translated">Dans Windows PowerShell, les méthodes de sérialisation sont stockées dans <bpt id="p1">**</bpt>PSStandardMembers<ept id="p1">**</ept> objets internes.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>-StringSerializationSource</source>
+          <target state="translated">-StringSerializationSource</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Specifies the name of a property of the type.</source>
+          <target state="translated">Spécifie le nom d'une propriété du type.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The value of specified property is used as the serialization result.</source>
+          <target state="translated">La valeur de la propriété spécifiée est utilisée comme résultat de la sérialisation.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the value of the <bpt id="p1">*</bpt>SerializationMethod<ept id="p1">*</ept> parameter is String.</source>
+          <target state="translated">Ce paramètre est valide uniquement lorsque la valeur de la <bpt id="p1">*</bpt>SerializationMethod<ept id="p1">*</ept> paramètre est la chaîne.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>-TargetTypeForDeserialization</source>
+          <target state="translated">-TargetTypeForDeserialization</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Specifies the type to which object of this type are converted when they are deserialized.</source>
+          <target state="translated">Spécifie le type vers lequel les objets de ce type sont convertis quand ils sont désérialisés.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>-TypeAdapter</source>
+          <target state="translated">-TypeAdapter</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Specifies the type of a type adapter, such as <bpt id="p1">**</bpt>Microsoft.PowerShell.Cim.CimInstanceAdapter<ept id="p1">**</ept>.</source>
+          <target state="translated">Spécifie le type d’une carte de type, tel que <bpt id="p1">**</bpt>Microsoft.PowerShell.Cim.CimInstanceAdapter<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A type adapter enables Windows PowerShell to get the members of a type.</source>
+          <target state="translated">Un adaptateur de type permet à Windows PowerShell d'obtenir les membres d'un type.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>-TypeConverter</source>
+          <target state="translated">-TypeConverter</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Specifies a type converter to convert values between different types.</source>
+          <target state="translated">Spécifie un convertisseur de type pour convertir des valeurs entre différents types.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>If a type converter is defined for a type, an instance of the type converter is used for the conversion.</source>
+          <target state="translated">Si un convertisseur de type est défini pour un type, une instance du convertisseur de type est utilisée pour la conversion.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>System.Type<ept id="p1">**</ept> value that is derived from the <bpt id="p2">**</bpt>System.ComponentModel.TypeConverter<ept id="p2">**</ept> or <bpt id="p3">**</bpt>System.Management.Automation.PSTypeConverter<ept id="p3">**</ept> classes.</source>
+          <target state="translated">Entrez un <bpt id="p1">**</bpt>System.Type<ept id="p1">**</ept> valeur est dérivée de la <bpt id="p2">**</bpt>System.ComponentModel.TypeConverter<ept id="p2">**</ept> ou <bpt id="p3">**</bpt>System.Management.Automation.PSTypeConverter<ept id="p3">**</ept> classes.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>-TypeData</source>
+          <target state="translated">-TypeData</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Specifies an array of type data that this cmdlet adds to the session.</source>
+          <target state="translated">Spécifie un tableau de type de données que cette applet de commande ajoute à la session.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a <bpt id="p1">**</bpt>TypeData<ept id="p1">**</ept> object or a command that gets a <bpt id="p2">**</bpt>TypeData<ept id="p2">**</ept> object, such as a Get-TypeData command.</source>
+          <target state="translated">Entrez une variable qui contienne un <bpt id="p1">**</bpt>TypeData<ept id="p1">**</ept> objet ou une commande qui obtient un <bpt id="p2">**</bpt>TypeData<ept id="p2">**</ept> objet, tel qu’une commande Get-TypeData.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>You can also pipe a <bpt id="p1">**</bpt>TypeData<ept id="p1">**</ept> object to <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept>.</source>
+          <target state="translated">Vous pouvez également diriger un <bpt id="p1">**</bpt>TypeData<ept id="p1">**</ept> objet <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>-TypeName</source>
+          <target state="translated">-Nom de type</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the type to extend.</source>
+          <target state="translated">Spécifie le nom du type à étendre.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>For types in the <bpt id="p1">**</bpt>System<ept id="p1">**</ept> namespace, enter the short name.</source>
+          <target state="translated">Pour les types dans les <bpt id="p1">**</bpt>système<ept id="p1">**</ept> espace de noms, entrez le nom court.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Otherwise, the full type name is required.</source>
+          <target state="translated">Sinon, le nom de type complet est obligatoire.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Wildcards are not supported.</source>
+          <target state="translated">Les caractères génériques ne sont pas pris en charge.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>You can pipe type names to <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept>.</source>
+          <target state="translated">Vous pouvez diriger des noms de type à <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>When you pipe an object to <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept> gets the type name of the object and type data to the object type.</source>
+          <target state="translated">Quand vous dirigez un objet <bpt id="p1">**</bpt>Update-TypeData<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Update-TypeData<ept id="p2">**</ept> Obtient le nom de type de données objet et le type pour le type d’objet.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Use this parameter with the <bpt id="p1">*</bpt>MemberName<ept id="p1">*</ept>, <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept>, <bpt id="p3">*</bpt>Value<ept id="p3">*</ept> and <bpt id="p4">*</bpt>SecondValue<ept id="p4">*</ept> parameters to add or change a property or method of a type.</source>
+          <target state="translated">Utilisez ce paramètre avec le <bpt id="p1">*</bpt>MemberName<ept id="p1">*</ept>, <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept>, <bpt id="p3">*</bpt>valeur<ept id="p3">*</ept> et <bpt id="p4">*</bpt>SecondValue<ept id="p4">*</ept> paramètres pour ajouter ou modifier une propriété ou méthode d’un type.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>-Value</source>
+          <target state="translated">-Valeur</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the property or method.</source>
+          <target state="translated">Spécifie la valeur de la propriété ou de la méthode.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>If you add an AliasProperty, CodeProperty, ScriptProperty, or CodeMethod member, you can use the <bpt id="p1">*</bpt>SecondValue<ept id="p1">*</ept> parameter to add additional information.</source>
+          <target state="translated">Si vous ajoutez un membre AliasProperty, CodeProperty, ScriptProperty ou CodeMethod, vous pouvez utiliser la <bpt id="p1">*</bpt>SecondValue<ept id="p1">*</ept> paramètre pour ajouter des informations supplémentaires.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Use this parameter with the <bpt id="p1">*</bpt>MemberName<ept id="p1">*</ept>, <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept>, <bpt id="p3">*</bpt>Value<ept id="p3">*</ept> and <bpt id="p4">*</bpt>SecondValue<ept id="p4">*</ept> parameters to add or change a property or method of a type.</source>
+          <target state="translated">Utilisez ce paramètre avec le <bpt id="p1">*</bpt>MemberName<ept id="p1">*</ept>, <bpt id="p2">*</bpt>MemberType<ept id="p2">*</ept>, <bpt id="p3">*</bpt>valeur<ept id="p3">*</ept> et <bpt id="p4">*</bpt>SecondValue<ept id="p4">*</ept> paramètres pour ajouter ou modifier une propriété ou méthode d’un type.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>This parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Présente les conséquences éventuelles de l’exécution de l’applet de commande.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">L’applet de commande n’est pas exécuté. Montre ce qui se passerait si l’applet de commande s’exécute.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">L’applet de commande n’est pas exécutée.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Cette applet de commande prend en charge les paramètres courants :-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction et - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Pour plus d’informations, consultez about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRÉES</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>You can pipe a string that contains the values of the <bpt id="p1">*</bpt>AppendPath<ept id="p1">*</ept>, <bpt id="p2">*</bpt>TypeName<ept id="p2">*</ept>, or <bpt id="p3">*</bpt>TypeData<ept id="p3">*</ept> parameters to <bpt id="p4">**</bpt>Update-TypeData<ept id="p4">**</ept>.</source>
+          <target state="translated">Vous pouvez diriger une chaîne qui contient les valeurs de la <bpt id="p1">*</bpt>AppendPath<ept id="p1">*</ept>, <bpt id="p2">*</bpt>TypeName<ept id="p2">*</ept>, ou <bpt id="p3">*</bpt>TypeData<ept id="p3">*</ept> paramètres <bpt id="p4">**</bpt>Update-TypeData<ept id="p4">**</ept>.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SORTIES</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Aucune</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not return any output.</source>
+          <target state="translated">Cette applet de commande ne retourne aucune sortie.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTES DE PUBLICATION</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LIENS CONNEXES</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>about_Types.ps1xml</source>
+          <target state="translated">about_Types.ps1xml</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Get-TypeData</source>
+          <target state="translated">Get-TypeData</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Remove-TypeData</source>
+          <target state="translated">Remove-TypeData</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

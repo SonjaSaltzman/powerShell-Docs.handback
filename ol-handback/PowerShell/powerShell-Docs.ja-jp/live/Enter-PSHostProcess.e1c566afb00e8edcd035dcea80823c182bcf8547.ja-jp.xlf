@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">55328fce9feb17f89b81ab6641f83285fae22073</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Enter-PSHostProcess.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">41dc1ab1c23df7809c82daa3d61a93843d0675ee</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">db87ba5154e4c061372079edbb42e955bc0568c2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enter-PSHostProcess</source>
+          <target state="translated">Enter-PSHostProcess</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enter-PSHostProcess</source>
+          <target state="translated">Enter-PSHostProcess</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Connects to and enters into an interactive session with a local process.</source>
+          <target state="translated">接続し、ローカルのプロセスでの対話型セッションに入力します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ProcessIdParameterSet (Default)</source>
+          <target state="translated">ProcessIdParameterSet (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ProcessParameterSet</source>
+          <target state="translated">ProcessParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ProcessNameParameterSet</source>
+          <target state="translated">ProcessNameParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>PSHostProcessInfoParameterSet</source>
+          <target state="translated">PSHostProcessInfoParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Enter-PSHostProcess<ept id="p1">**</ept> cmdlet connects to and enters into an interactive session with a local process.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Enter PSHostProcess<ept id="p1">**</ept> コマンドレットに接続し、ローカルのプロセスでの対話型セッションに入力します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Instead of creating a new process to host Windows PowerShell and run a remote session, the remote, interactive session is run in an existing process that is already running Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell をホストし、リモート セッションを実行する新しいプロセスを作成するには、代わりに、リモートの対話型セッションは、Windows PowerShell を既に実行されている既存のプロセスで実行されます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you are interacting with a remote session on a specified process, you can enumerate running runspaces, and then select a runspace to debug by running either Debug-Runspace or Enable-RunspaceDebug.</source>
+          <target state="translated">指定されたプロセスのリモート セッションと対話するときは、実行中の実行空間を列挙し、デバッグ実行空間または有効にする RunspaceDebug のいずれかを実行してデバッグ実行空間を選択します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The process that you want to enter must be hosting Windows PowerShell (System.Management.Automation.dll).</source>
+          <target state="translated">入力するプロセスには、Windows PowerShell (System.Management.Automation.dll) をホストする必要があります。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You must be either a member of the Administrators group on the computer on which the process is found, or you must be the user who is running the script that started the process.</source>
+          <target state="translated">プロセスを開始するスクリプトを実行している、メンバー、プロセスを検出すると、またはユーザーをあるコンピューターの Administrators グループの権限があります。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>After you have selected a runspace to debug, a remote debug session is opened for the runspace if it is either currently running a command or is stopped in the debugger.</source>
+          <target state="translated">デバッグ実行空間を選択したらが現在実行中か、コマンドまたはデバッガーが停止している場合、実行空間のリモート デバッグ セッションが開きます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can then debug the runspace script in the same way you would debug other remote session scripts.</source>
+          <target state="translated">リモート セッションの他のスクリプトをデバッグする場合と同じ方法で実行空間スクリプトをデバッグできます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Detach from a debugging session, and then the interactive session with the process, by running exit twice, or stop script execution by running the existing debugger quit command.</source>
+          <target state="translated">2 回、終了を実行してデバッグ セッションから、プロセスと対話型セッションでは、デタッチ、または既存のデバッガーを実行して、スクリプトの実行を停止コマンドの終了します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you specify a process by using the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> parameter, and there is only one process found with the specified name, the process is entered.</source>
+          <target state="translated">使用して処理を指定する場合、 <bpt id="p1">*</bpt>名前<ept id="p1">*</ept> パラメーターは、プロセスが入力された指定の名前を持つ 1 つだけのプロセスが検出されました。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If more than one process with the specified name is found, Windows PowerShell returns an error, and lists all processes found with the specified name.</source>
+          <target state="translated">指定した名前の 1 つ以上のプロセスが見つかった場合 Windows PowerShell は、エラーが返され、指定した名前で検出されたすべてのプロセス一覧を表示します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To support attaching to processes on remote computers, the <bpt id="p1">**</bpt>Enter-PSHostProcess<ept id="p1">**</ept> cmdlet is enabled in a specified remote computer, so that you can attach to a local process within a remote Windows PowerShell session.</source>
+          <target state="translated">リモート コンピューター上のプロセスへのアタッチをサポートするために、 <bpt id="p1">**</bpt>Enter PSHostProcess<ept id="p1">**</ept> コマンドレットが、指定のリモート コンピューターで有効にすると、リモートの Windows PowerShell セッション内でローカルのプロセスにアタッチすることができます。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Example 1: Start debugging a runspace within the Windows PowerShell ISE process</source>
+          <target state="translated">例 1: Windows PowerShell ISE のプロセス内で実行空間をデバッグを開始します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-AppDomainName</source>
+          <target state="translated">-AppDomainName</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>@{Text=}</source>
+          <target state="translated">@{テキスト =}</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-HostProcessInfo</source>
+          <target state="translated">-HostProcessInfo</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>@{Text=}</source>
+          <target state="translated">@{テキスト =}</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies a process by the process ID.</source>
+          <target state="translated">プロセス ID でプロセスを指定します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To get a process ID, run the Get-Process cmdlet.</source>
+          <target state="translated">プロセス ID を取得するには、Get-process コマンドレットを実行します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Specifies a process by the process name.</source>
+          <target state="translated">プロセス名では、プロセスを指定します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To get a process name, run the Get-Process cmdlet.</source>
+          <target state="translated">プロセス名を取得するには、Get-process コマンドレットを実行します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can also get process names from the Properties dialog box of a process in Task Manager.</source>
+          <target state="translated">タスク マネージャでプロセスのプロパティ] ダイアログ ボックスからプロセスの名前を取得することもできます。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-Process</source>
+          <target state="translated">インプロセス</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies a process by the process object.</source>
+          <target state="translated">プロセスのプロセス オブジェクトを指定します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The simplest way to use this parameter is to save the results of a <bpt id="p1">**</bpt>Get-Process<ept id="p1">**</ept> command that returns process that you want to enter in a variable, and then specify the variable as the value of this parameter.</source>
+          <target state="translated">このパラメーターを使用する最も簡単な方法は、の結果を保存する、 <bpt id="p1">**</bpt>Get-process<ept id="p1">**</ept> コマンドを返します。 プロセスを、変数を入力すると、このパラメーターの値として変数を指定します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>System.Diagnostics.Process</source>
+          <target state="translated">System.Diagnostics.Process</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enter-PSHostProcess<ept id="p1">**</ept> cannot enter the process of the Windows PowerShell session in which you are running the command.</source>
+          <target state="translated"><bpt id="p1">**</bpt>入力 PSHostProcess<ept id="p1">**</ept> コマンドを実行している Windows PowerShell セッションのプロセスを入力することはできません。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can, however, enter the process of another Windows PowerShell session, or a Windows PowerShell ISE session that is running at the same time as the session in which you are running <bpt id="p1">**</bpt>Enter-PSHostProcess<ept id="p1">**</ept>.</source>
+          <target state="translated">ただし、Windows PowerShell セッション、または Windows PowerShell ISE のセッションを実行しているセッションと同時に実行している別のプロセスを入力することはできます <bpt id="p1">**</bpt>Enter PSHostProcess<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enter-PSHostProcess<ept id="p1">**</ept> can enter only those processes that are hosting Windows PowerShell.</source>
+          <target state="translated"><bpt id="p1">**</bpt>入力 PSHostProcess<ept id="p1">**</ept> Windows PowerShell をホストしているプロセスのみを入力することができます。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>That is, they have loaded the Windows PowerShell engine.</source>
+          <target state="translated">つまり、Windows PowerShell エンジンを読み込んだ。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To exit a process from within the process, type exit, and then press Enter.</source>
+          <target state="translated">プロセス内でのプロセスを終了するには、exit と入力して、Enter キーを押します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Get-Process</source>
+          <target state="translated">Get-Process</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Exit-PSHostProcess</source>
+          <target state="translated">Exit-PSHostProcess</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Debug-Runspace</source>
+          <target state="translated">Debug-Runspace</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Enable-RunspaceDebug</source>
+          <target state="translated">Enable-RunspaceDebug</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>about_Debuggers</source>
+          <target state="translated">about_Debuggers</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

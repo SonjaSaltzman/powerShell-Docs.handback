@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">89dc0f2b17127280dcf02e3f10bf2de6d46a5a60</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Management\Stop-Service.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">850e78a469967b786508b29caff2267f7085f761</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6773980e96f265fe47ac38daf3ba94bcc39be3af</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell-Cmdlets</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Stop-Service</source>
+          <target state="translated">Stop-Service</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Stop-Service</source>
+          <target state="translated">Stop-Service</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">ZUSAMMENFASSUNG</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Stops one or more running services.</source>
+          <target state="translated">Beendet ausgeführte Dienste.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAX</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>InputObject (Default)</source>
+          <target state="translated">InputObject (Standard)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <target state="translated">Standardwert</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DisplayName</source>
+          <target state="translated">DisplayName</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Stop-Service cmdlet sends a stop message to the Windows Service Controller for each of the specified services.</source>
+          <target state="translated">Mit dem Cmdlet %%amp;quot;Stop-Service%%amp;quot; wird für jeden der angegebenen Dienste eine Stoppmeldung an den Windows-Dienstcontroller gesendet.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can specify the services by their service names or display names, or you can use the InputObject parameter to pass a service object representing the services that you want to stop.</source>
+          <target state="translated">Sie können die Dienste mit ihren Dienstnamen oder Anzeigenamen angeben, oder Sie können mit dem InputObject-Parameter ein Dienstobjekt übergeben, das die zu beendenden Dienste darstellt.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">BEISPIELE</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- BEISPIEL 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This command stops the Performance Logs and Alerts (SysmonLog) service on the local computer.</source>
+          <target state="translated">Mit diesem Befehl wird der Dienst für Leistungsprotokolle und -benachrichtigungen (SysmonLog) auf dem lokalen Computer beendet.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This command stops the Telnet service on the local computer.</source>
+          <target state="translated">Mit diesem Befehl wird der Dienst %%amp;quot;Telnet%%amp;quot; auf dem lokalen Computer beendet.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Service cmdlet to get an object representing the Telnet service.</source>
+          <target state="translated">Der Befehl ruft mit dem Cmdlet %%amp;quot;Get-Service%%amp;quot; ein Objekt ab, das den Telnet-Dienst darstellt.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) pipes the object to the Stop-Service cmdlet, which stops the service.</source>
+          <target state="translated">Mit dem Pipelineoperator (|) wird das Objekt über die Pipeline an das Cmdlet %%amp;quot;Stop-Service%%amp;quot; übergeben, wodurch der Dienst beendet wird.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The Stop-Service command stops the IISAdmin service on the local computer.</source>
+          <target state="translated">Mit dem Befehl %%amp;quot;Stop-Service%%amp;quot; wird der IISAdmin-Dienst auf dem lokalen Computer beendet.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Because stopping this service also stops the services that depend on the IISAdmin service, it is best to precede the Stop-Service command with a command that lists the services that depend on the IISAdmin service.</source>
+          <target state="translated">Da durch das Beenden dieses Diensts auch die vom IISAdmin-Dienst abhängigen Dienste beendet werden, empfiehlt es sich, vor dem Befehl %%amp;quot;Stop-Service%%amp;quot; einen Befehl auszuführen, durch den die Dienste aufgelistet werden, die vom IISAdmin-Dienst abhängig sind.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The first command lists the services that depend on IISAdmin.</source>
+          <target state="translated">Mit dem ersten Befehl werden die Dienste aufgelistet, die von %%amp;quot;IISAdmin%%amp;quot; abhängen.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It uses the Get-Service cmdlet to get an object representing the IISAdmin service.</source>
+          <target state="translated">Mit dem Cmdlet %%amp;quot;Get-Service%%amp;quot; wird ein Objekt abgerufen, das den IISAdmin-Dienst darstellt.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) passes the result to the Format-List cmdlet.</source>
+          <target state="translated">Der Pipelineoperator (|) übergibt das Ergebnis an das Cmdlet %%amp;quot;Format-List%%amp;quot;.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command uses the Property parameter of Format-List to list only the Name and DependentServices properties of the service.</source>
+          <target state="translated">Der Befehl verwendet den Property-Parameter von %%amp;quot;Format-List%%amp;quot;, um nur die Name-Eigenschaft und die DependentServices-Eigenschaft für den Dienst aufzulisten.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The second command stops the IISAdmin service.</source>
+          <target state="translated">Mit dem zweiten Befehl wird der IISAdmin-Dienst beendet.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The Force parameter is required to stop a service that has dependent services.</source>
+          <target state="translated">Der Force-Parameter ist erforderlich, wenn ein Dienst beendet werden soll, der über abhängige Dienste verfügt.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The command uses the Confirm parameter to request confirmation from the user before stopping each service.</source>
+          <target state="translated">Der Befehl fordert aufgrund des Confirm-Parameters vor dem Beenden der einzelnen Dienste eine Bestätigung des Benutzers an.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETER</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-DisplayName</source>
+          <target state="translated">DisplayName-</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Specifies the display names of the services to be stopped.</source>
+          <target state="translated">Gibt die Anzeigenamen der zu beendenden Dienste an.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Platzhalter sind zulässig.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-Exclude</source>
+          <target state="translated">-Ausschließen</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Omits the specified services.</source>
+          <target state="translated">Lässt die angegebenen Dienste aus.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Name parameter.</source>
+          <target state="translated">Der Name-Parameter wird durch den Wert dieses Parameters qualifiziert.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Enter a name element or pattern, such as "s*".</source>
+          <target state="translated">Geben Sie ein Namenselement oder -muster wie %%amp;quot;s*%%amp;quot; ein.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Platzhalter sind zulässig.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Allows the cmdlet to stop a service even if that service has dependent services.</source>
+          <target state="translated">Ermöglicht dem Cmdlet das Beenden eines Diensts, auch wenn dieser Dienst über abhängige Dienste verfügt.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-Include</source>
+          <target state="translated">-Include</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Stops only the specified services.</source>
+          <target state="translated">Beendet nur die angegebenen Dienste.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Name parameter.</source>
+          <target state="translated">Der Name-Parameter wird durch den Wert dieses Parameters qualifiziert.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Enter a name element or pattern, such as "s*".</source>
+          <target state="translated">Geben Sie ein Namenselement oder -muster wie %%amp;quot;s*%%amp;quot; ein.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Platzhalter sind zulässig.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Specifies ServiceController objects representing the services to be stopped.</source>
+          <target state="translated">Gibt ServiceController-Objekte an, die die zu beendenden Dienste darstellen.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects, or type a command or expression that gets the objects.</source>
+          <target state="translated">Geben Sie eine Variable ein, die die Objekte enthält, oder geben Sie einen Befehl oder einen Ausdruck ein, mit dem die Objekte abgerufen werden.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Specifies the service names of the services to be stopped.</source>
+          <target state="translated">Gibt die Dienstnamen der zu beendenden Dienste an.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Platzhalter sind zulässig.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The parameter name is optional.</source>
+          <target state="translated">Der Parametername ist optional.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can use "Name" or its alias, "ServiceName", or you can omit the parameter name.</source>
+          <target state="translated">Sie können %%amp;quot;Name%%amp;quot; oder den zugehörigen Alias %%amp;quot;ServiceName%%amp;quot; verwenden oder aber den Parameternamen auslassen.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Returns an object representing the service.</source>
+          <target state="translated">Gibt ein Objekt zurück, das den Dienst darstellt.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet does not generate any output.</source>
+          <target state="translated">Standardmäßig wird von diesem Cmdlet keine Ausgabe generiert.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Vor dem Ausführen des Cmdlets zur Bestätigung aufgefordert. Vor dem Ausführen des Cmdlets zur Bestätigung aufgefordert.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Zeigt, was geschieht, wenn das Cmdlet ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Das Cmdlet wird nicht ausgeführt. Zeigt, was passieren würde, wenn das Cmdlet ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">Das Cmdlet wird nicht ausgeführt.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Dieses Cmdlet unterstützt die allgemeinen Parameter:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, -InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction und -WarningVariable.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Weitere Informationen finden Sie unter "about_commonparameters" (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">EINGABEN</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>System.ServiceProcess.ServiceController or System.String</source>
+          <target state="translated">System.ServiceProcess.ServiceController oder System.String</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can pipe a service object or a string that contains the name of a service to Stop-Service.</source>
+          <target state="translated">Sie können ein Dienstobjekt oder eine Zeichenfolge, die einen Dienstnamen enthält, über die Pipeline an %%amp;quot;Stop-Service%%amp;quot; übergeben.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">AUSGABEN</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>None or System.ServiceProcess.ServiceController</source>
+          <target state="translated">None oder System.ServiceProcess.ServiceController</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>When you use the PassThru parameter, Stop-Service generates a System.ServiceProcess.ServiceController object representing the service.</source>
+          <target state="translated">Wenn Sie den PassThru-Parameter verwenden, generiert %%amp;quot;Stop-Service%%amp;quot; ein System.ServiceProcess.ServiceController-Objekt, das den Dienst darstellt.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Otherwise, this cmdlet does not generate any output.</source>
+          <target state="translated">Andernfalls wird von diesem Cmdlet keine Ausgabe generiert.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTIZEN</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You can also refer to Stop-Service by its built-in alias, "spsv".</source>
+          <target state="translated">Sie können auch mit dem integrierten Alias %%amp;quot;spsv%%amp;quot; auf %%amp;quot;Stop-Service%%amp;quot; verweisen.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">Weitere Informationen finden Sie unter %%amp;quot;about_Aliases%%amp;quot;.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Stop-Service can control services only when the current user has permission to do so.</source>
+          <target state="translated">Mit %%amp;quot;Stop-Service%%amp;quot; können nur dann Dienste gesteuert werden, wenn der aktuelle Benutzer über die entsprechende Berechtigung verfügt.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If a command does not work correctly, you might not have the required permissions.</source>
+          <target state="translated">Wenn ein Befehl nicht ordnungsgemäß verarbeitet wird, verfügen Sie u. U. nicht über die erforderlichen Berechtigungen.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To find the service names and display names of the services on your system, type "get-service".</source>
+          <target state="translated">Geben Sie %%amp;quot;get-service%%amp;quot; ein, um die Dienstnamen und die Anzeigenamen der Dienste im System zu suchen.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The service names appear in the Name column and the display names appear in the DisplayName column.</source>
+          <target state="translated">Die Dienstnamen werden in der Spalte %%amp;quot;Name%%amp;quot; und die Anzeigenamen in der Spalte %%amp;quot;DisplayName%%amp;quot; aufgeführt.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VERWANDTE LINKS</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Get-Service</source>
+          <target state="translated">Get-Service</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>New-Service</source>
+          <target state="translated">New-Service</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Restart-Service</source>
+          <target state="translated">Restart-Service</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Resume-Service</source>
+          <target state="translated">Resume-Service</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Set-Service</source>
+          <target state="translated">Set-Service</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Start-Service</source>
+          <target state="translated">Start-Service</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Suspend-Service</source>
+          <target state="translated">Suspend-Service</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
