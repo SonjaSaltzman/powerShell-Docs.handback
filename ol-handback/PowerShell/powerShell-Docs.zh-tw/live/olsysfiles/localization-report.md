@@ -3587,14 +3587,14 @@
 
 ##### <a name='4ab20cdcac6f10dc9ecab6d85b38f413e0ade8b083'></a> Source: [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs/blob/8e486891a4e5db20389d6ae65d00c42e1308af35/dsc/pullServer.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/745779ed1db1904cbd0bcb4a368a1db9edcd527a/dsc/pullServer.md)
+* Target File: [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs.zh-tw/blob/9295eb71e1e355ae9ffe0d9fc848061186e2f806/dsc/pullServer.md)
 * Handoff File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/660bb53405ce346b454de0b85bdc81022f5ec9e9/ol-handoff/PowerShell/powerShell-Docs.zh-tw/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-tw.xlf)
 * Handoff Datetime: 2016-10-07 23:50:10
 * Handoff Reason: Include
 * Archive File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/3303048009fc092d1d07f4a74bd26f32f707973d/ol-archive/PowerShell/powerShell-Docs.zh-tw/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-tw.xlf)
 * Archive Datetime: 2016-10-12 15:18:42
-* Handback File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c00e77a99c63fefa9c44f84ef33c5b31132cd9ae/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-tw.xlf)
-* Handback Datetime: 2016-10-20 05:08:17
+* Handback File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/826b8a4123a34c7111ba49c43eefd2055a57512e/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-tw.xlf)
+* Handback Datetime: 2016-10-27 22:49:12
 * Bilingual File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-tw.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c00e77a99c63fefa9c44f84ef33c5b31132cd9ae/ol-handback/PowerShell/powerShell-Docs.zh-tw/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-tw.xlf)
 * Bilingual Datetime: 2016-10-20 05:12:45
 * [Back to Top](#report-top)
