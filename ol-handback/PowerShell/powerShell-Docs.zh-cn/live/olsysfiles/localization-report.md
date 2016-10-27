@@ -3596,8 +3596,8 @@
 * Archive Datetime: 2016-10-12 15:16:18
 * Handback File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/63985c4c5bfbc809475fbfabfd8c1eff0b544517/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-cn.xlf)
 * Handback Datetime: 2016-10-27 22:49:01
-* Bilingual File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f459413976f040bd7f4bd06335859be113dbe06b/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-cn.xlf)
-* Bilingual Datetime: 2016-10-20 09:24:39
+* Bilingual File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/63985c4c5bfbc809475fbfabfd8c1eff0b544517/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.zh-cn.xlf)
+* Bilingual Datetime: 2016-10-27 22:52:07
 * [Back to Top](#report-top)
 
 ##### <a name='35ac9b38086b12fb48844c56a488854f63529e2184'></a> Source: [dsc\pullServerSMB.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/pullServerSMB.md)
