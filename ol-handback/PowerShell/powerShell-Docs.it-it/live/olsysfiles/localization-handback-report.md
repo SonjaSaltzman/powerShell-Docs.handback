@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs/blob/8e486891a4e5db20389d6ae65d00c42e1308af35/dsc/pullServer.md) | InSyncHandedBackSuccess | [Details](#4ab20cdcac6f10dc9ecab6d85b38f413e0ade8b083)
 
 ## Item Details
-##### <a name='4ab20cdcac6f10dc9ecab6d85b38f413e0ade8b083'></a> Source: [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs/blob/8e486891a4e5db20389d6ae65d00c42e1308af35/dsc/pullServer.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs.it-it/blob/28d4f943cd2b306dc7db2cfc7aeb7b150f27aa15/dsc/pullServer.md)
-* Handoff File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/29c5904f2fff7a064ec211e71f8f730564581372/ol-handoff/PowerShell/powerShell-Docs.it-it/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.it-it.xlf)
-* Handoff Datetime: 2016-10-08 00:13:34
-* Handoff Reason: Include
-* Archive File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/fdb77ce6dbd0b72e5ccf807e62128f1abf409d26/ol-archive/PowerShell/powerShell-Docs.it-it/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.it-it.xlf)
-* Archive Datetime: 2016-10-12 15:25:44
-* Handback File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/87c8d87b93307d053eccaada21a22d479135d267/ol-handback/PowerShell/powerShell-Docs.it-it/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.it-it.xlf)
-* Handback Datetime: 2016-10-27 22:48:00
-* Bilingual File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f76b9f0e7dfbaa2e6b69056a51c120553723a9bd/ol-handback/PowerShell/powerShell-Docs.it-it/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.it-it.xlf)
-* Bilingual Datetime: 2016-10-20 15:14:31
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
