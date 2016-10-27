@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67c77494de01c66f4b18cdfc775599c781de83fd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\Save-Help.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7d4709d422df2177ebe9e980a34b8249b0d8f0b7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b548fb5fbe6a42897663df914343f3c50554fbd6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell-Cmdlets</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Save-Help</source>
+          <target state="translated">Save-Help</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Save-Help</source>
+          <target state="translated">Save-Help</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">ZUSAMMENFASSUNG</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Downloads and saves the newest help files to a file system directory.</source>
+          <target state="translated">Lädt die neuesten Hilfedateien herunter und speichert sie in einem Dateisystemverzeichnis.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAX</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Path (Default)</source>
+          <target state="translated">Pfad (Standard)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LiteralPath</source>
+          <target state="translated">LiteralPath</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> cmdlet downloads the newest help files for Windows PowerShell modules and saves them to a directory that you specify.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> Cmdlet lädt die neuesten Hilfedateien für Windows PowerShell-Module herunter und speichert sie in eine von Ihnen angegebene Verzeichnis.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This feature lets you update the help files on computers that do not have access to the Internet, and makes it easier to update the help files on multiple computers.</source>
+          <target state="translated">Mit dieser Funktion können Sie die Hilfedateien auf Computern aktualisieren, die keinen Internetzugriff haben, und sie vereinfacht die Aktualisierung der Hilfedateien auf mehreren Computern.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 3.0, Save-Help worked only for modules that are installed on the local computer.</source>
+          <target state="translated">In Windows PowerShell 3.0 funktionierte Save-Help nur für Module, die auf dem lokalen Computer installiert sind.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Although it was possible to import a module from a remote computer, or obtain a reference to a PSModuleInfo object from a remote computer by using Windows PowerShell remoting, the HelpInfoUri property was not preserved, and Save-Help would not work for remote module Help.</source>
+          <target state="translated">Obwohl es möglich war, ein Modul von einem Remotecomputer aus zu importieren oder einen Verweis auf ein PSModuleInfo-Objekt von einem Remotecomputer mithilfe von Windows PowerShell-Remoting abzurufen, wurde die HelpInfoUri-Eigenschaft nicht beibehalten, und Save-Help funktionierte nicht für die Remotemodul-Hilfe.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 4.0, the HelpInfoUri property is preserved over Windows PowerShell remoting, which allows Save-Help to work for modules that are installed on remote computers.</source>
+          <target state="translated">In Windows PowerShell 4.0 wird die HelpInfoUri-Eigenschaft mithilfe von Windows PowerShell-Remoting beibehalten, sodass Save-Help für Module genutzt werden kann, die auf Remotecomputern installiert sind.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It is also possible to save a PSModuleInfo object to disk or removable media by running Export-CliXml on a computer that does not have Internet access, import the object on a computer that does have Internet access, and then run Save-Help on the PSModuleInfo object.</source>
+          <target state="translated">Es ist auch möglich, ein PSModuleInfo-Objekt durch Ausführen von Export-CliXml auf einem Computer ohne Internetzugriff auf einem Datenträger oder Wechselmedium zu speichern, das Objekt auf einem Computer mit Internetzugriff zu importieren und dann Save-Help auf dem PSModuleInfo-Objekt auszuführen.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The saved help can be transported to the remote computer by using removable storage media (such as a USB drive), and then the help can be installed on the remote computer by running Update-Help.</source>
+          <target state="translated">Die gespeicherte Hilfe kann mithilfe von Wechselmedien (z. B. ein USB-Laufwerk) auf den Remotecomputer übertragen werden und dann durch Ausführen von Update-Help auf dem Remotecomputer installiert werden.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This process can be used to install help on computers that do not have any kind of network access.</source>
+          <target state="translated">Dieser Prozess kann zum Installieren der Hilfe auf Computern verwendet werden, die überhaupt keinen Zugriff auf das Netzwerk haben.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To install saved help files, run the Update-Help cmdlet.</source>
+          <target state="translated">Führen Sie das Update-Help-Cmdlet, um gespeicherten Hilfedateien zu installieren.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Add its <bpt id="p1">**</bpt>SourcePath<ept id="p1">**</ept> parameter to specify the directory in which you saved the Help files.</source>
+          <target state="translated">Hinzufügen der <bpt id="p1">**</bpt>SourcePath<ept id="p1">**</ept> Parameter zum Angeben des Verzeichnisses, in dem Sie die Dateien gespeichert.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Without parameters, a <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> command downloads the newest help for all modules in the session and for modules that are installed on the computer in a location listed in the <bpt id="p2">**</bpt>PSModulePath<ept id="p2">**</ept> environment variable.</source>
+          <target state="translated">Ohne Parameter ein <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> Befehl lädt die neueste Hilfe für alle Module in der Sitzung und für Module, die auf dem Computer an einem Ort gemäß installiert sind die <bpt id="p2">**</bpt>PSModulePath<ept id="p2">**</ept> -Umgebungsvariable.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Modules that do not support Updatable Help are skipped without warning.</source>
+          <target state="translated">Module, die die aktualisierbare Hilfe nicht unterstützen, werden ohne Warnung übersprungen.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> cmdlet checks the version of any help files in the destination directory and, if newer help files are available, it downloads the newest help files from the Internet and saves them in the directory.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> Cmdlet überprüft die Version der Hilfedateien im Zielverzeichnis und, falls neuere Hilfedateien verfügbar sind, lädt die neuesten Hilfedateien aus dem Internet herunter und speichert diese im Verzeichnis.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> cmdlet works just like the Update-Help cmdlet, except that it saves the downloaded cabinet (.cab) files in a directory, instead of extracting the help files from the cabinet files and installing them on the computer.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> Cmdlet funktioniert genauso wie das Cmdlet Update-Help, außer dass die heruntergeladenen CAB-Dateien in einem Verzeichnis, statt die Hilfedateien aus den CAB-Dateien extrahieren und installieren sie auf dem Computer gespeichert.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The saved help for each module consists of one help information (HelpInfo XML) file and one cabinet (.cab) file for the help files each UI culture.</source>
+          <target state="translated">Die gespeicherte Hilfe für jedes Modul besteht aus einer hilfeinformationsdatei (HelpInfo XML) und eine CAB-Datei für die Hilfedateien jeder Benutzeroberflächenkultur.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You do not need to extract the help files from the cabinet file.</source>
+          <target state="translated">Sie müssen die Hilfedateien nicht aus der CAB-Datei extrahieren.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The Update-Help cmdlet extracts the help files, validates the XML for safety, and then installs the help files and the help information file in a language-specific subdirectory of the module directory.</source>
+          <target state="translated">Das Update-Help-Cmdlet extrahiert die Hilfedateien, überprüft das XML für die Sicherheit und installiert dann die Hilfedateien und die hilfeinformationsdatei in einem sprachspezifischen Unterverzeichnis des Modulverzeichnisses.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To save the help files for modules in the Windows PowerShell installation directory ($pshome\Modules), start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">Starten Sie Windows PowerShell mit der Option „Als Administrator ausführen“, um die Hilfedateien für Module im Installationsverzeichnis von Windows PowerShell ($pshome\Modules) zu speichern.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You must be a member of the Administrators group on the computer to download the help files for these modules.</source>
+          <target state="translated">Sie müssen ein Mitglied der Gruppe „Administratoren“ auf dem Computer sein, um die Hilfedateien für diese Module herunterzuladen.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This cmdlet is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieses Cmdlet wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">BEISPIELE</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Example 1: Save the help for the DhcpServer module</source>
+          <target state="translated">Beispiel 1: Speichern der Hilfe für das DhcpServer-Modul</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This example shows three different ways to use Save-Help to save the help for the DhcpServer module from an Internet-connected client computer, without installing the DhcpServer module or the DHCP Server role on the local computer.</source>
+          <target state="translated">Dieses Beispiel zeigt drei verschiedene Möglichkeiten, um mit Save-Help die Hilfe für das DhcpServer-Modul von einem Clientcomputer mit Internetzugang zu speichern, ohne das DhcpServer-Modul oder die DHCP-Serverrolle auf dem lokalen Computer zu installieren.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example 2: Install help for the DhcpServer module</source>
+          <target state="translated">Beispiel 2: Installieren der Hilfe für das DhcpServer-Modul</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This example shows how to install help that you saved in Example 1 for the DhcpServer module on a computer that does not have Internet access.</source>
+          <target state="translated">Dieses Beispiel zeigt, wie Sie die Hilfe, die Sie in Beispiel 1 für das DhcpServer-Modul gespeichert haben, auf einem Computer ohne Internetzugriff installieren können.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Example 3: Save help for all modules</source>
+          <target state="translated">Beispiel 3: Speichern der Hilfe für alle Module</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command downloads the newest help files for all modules in the UI culture set for Windows on the local computer.</source>
+          <target state="translated">Mit diesem Befehl werden die neuesten Hilfedateien für alle Module in der Benutzeroberflächenkultur für Windows auf den lokalen Computer heruntergeladen.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It saves the help files in the <ph id="ph1">\\\\</ph>Server01\Fileshare01 directory.</source>
+          <target state="translated">Er speichert die Hilfedateien in der <ph id="ph1">\\\\</ph>Server01\Fileshare01-Verzeichnis.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Example 4: Save help for a module on the computer</source>
+          <target state="translated">Beispiel 4: Speichern der Hilfe für ein Modul auf dem computer</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This command downloads the newest help files for the ServerManager module and saves them in the <ph id="ph1">\\\\</ph>Server01\Fileshare01 directory.</source>
+          <target state="translated">Dieser Befehl lädt die neuesten Hilfedateien für das ServerManager-Modul herunter und speichert sie in der <ph id="ph1">\\\\</ph>Server01\Fileshare01-Verzeichnis.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>When a module is installed on the computer, you can type the module name as the value of the <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> parameter, even if the module is not imported into the current session.</source>
+          <target state="translated">Wenn ein Modul auf dem Computer installiert ist, können Sie den Namen des Moduls eingeben, als Wert für die <bpt id="p1">**</bpt>Modul<ept id="p1">**</ept> Parameter, auch wenn das Modul nicht in die aktuelle Sitzung importiert wird.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> parameter to supply the credentials of a user who has permission to write to the file share.</source>
+          <target state="translated">Der Befehl verwendet den <bpt id="p1">**</bpt>Anmeldeinformationen<ept id="p1">**</ept> Parameter, die Anmeldeinformationen eines Benutzers mit der Berechtigung zum Schreiben in die Dateifreigabe verfügt.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Example 5: Save help for a module on a different computer</source>
+          <target state="translated">Beispiel 5: Speichern der Hilfe für ein Modul auf einem anderen computer</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>These commands download the newest help files for the CustomSQL module and save them in the <ph id="ph1">\\\\</ph>Server01\Fileshare01 directory.</source>
+          <target state="translated">Diese Befehle die neuesten Hilfedateien für das CustomSQL-Modul herunterladen und speichern Sie sie in der <ph id="ph1">\\\\</ph>Server01\Fileshare01-Verzeichnis.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Because the CustomSQL module is not installed on the computer, the sequence includes an <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> command that gets the module object for the CustomSQL module from the Server02 computer and then pipes the module object to the <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated">Da das CustomSQL-Modul nicht auf dem Computer installiert ist, wird der Aufgabensequenz ein <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> Befehl ruft das Modulobjekt für das CustomSQL-Modul auf dem Computer "server02" ab und leitet dann das Modul zu den <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> Cmdlet.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When a module is not installed on the computer, <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> needs the module object, which includes information about the location of the newest help files.</source>
+          <target state="translated">Wenn ein Modul nicht auf dem Computer installiert ist <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> benötigt das Modulobjekt, das Informationen über den Speicherort der neuesten Hilfedateien enthält.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Example 6: Save help for a module in multiple languages</source>
+          <target state="translated">Beispiel 6: Speichern der Hilfe für ein Modul in mehreren Sprachen</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This command saves help for the Windows PowerShell Core modules in four different UI cultures.</source>
+          <target state="translated">Dieser Befehl speichert die Hilfe für die Windows PowerShell-Kernmodule in vier verschiedenen Benutzeroberflächenkulturen.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The language packs for these locales do not need to be installed on the computer.</source>
+          <target state="translated">Die Sprachpakete für diese Gebietsschemas müssen nicht auf dem Computer installiert sein.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> can download help files for modules in different UI cultures only when the module owner makes the translated files available on the Internet.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> können die Hilfedateien für Module in verschiedenen Benutzeroberflächenkulturen nur, wenn der modulbesitzer die übersetzten Dateien im Internet verfügbar macht.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Example 7: Save help more than once each day</source>
+          <target state="translated">Beispiel 7: Speichern der Hilfe mehr als einmal pro Tag</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This command saves help for all modules that are installed on the computer.</source>
+          <target state="translated">Dieser Befehl speichert die Hilfe für alle Module, die auf dem Computer installiert sind.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The command uses It uses the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to override the rule that prevents the <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> cmdlet from downloading help more than once in each 24-hour period.</source>
+          <target state="translated">Der Befehl verwendet den <bpt id="p1">**</bpt>Kraft<ept id="p1">**</ept> Parameter, um die Regel außer Kraft, die verhindert, dass die <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> Cmdlet Hilfe mehr als einmal in jedem Zeitraum von 24 Stunden heruntergeladen.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter also overrides the 1 GB restriction and circumvents version checking, so you can download files even if the version is not greater than the version in the destination directory.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Kraft<ept id="p1">**</ept> Parameter auch überschreibt die Beschränkung auf 1 GB und umgeht Version zu überprüfen, damit Sie Dateien herunterladen können, selbst wenn die Version nicht größer als die Version im Zielverzeichnis ist.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> cmdlet to download and save the help files to the specified directory.</source>
+          <target state="translated">Der Befehl verwendet den <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> -Cmdlet zum Laden und speichern die Dateien im angegebenen Verzeichnis.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter is required when you need to run a <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> command more than once each day.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Kraft<ept id="p1">**</ept> Parameter ist erforderlich, wenn Sie ausführen müssen eine <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> Befehl mehr als einmal pro Tag.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETER</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Runs the command with credentials of a user who has permission to access the file system location specified by the <bpt id="p1">**</bpt>DestinationPath<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Führt den Befehl mit den Anmeldeinformationen eines Benutzers mit der Berechtigung zum Zugriff auf den angegebenen Speicherort im Dateisystem der <bpt id="p1">**</bpt>DestinationPath<ept id="p1">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the <bpt id="p1">**</bpt>DestinationPath<ept id="p1">**</ept> or <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> parameter is used in the command.</source>
+          <target state="translated">Dieser Parameter ist nur gültig, wenn die <bpt id="p1">**</bpt>DestinationPath<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> Parameter im Befehl verwendet wird.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This parameter enables you to run <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> commands with the <bpt id="p2">**</bpt>DestinationPath<ept id="p2">**</ept> parameter on remote computers.</source>
+          <target state="translated">Dieser Parameter ermöglicht das Ausführen <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> Befehle mit den <bpt id="p2">**</bpt>DestinationPath<ept id="p2">**</ept> -Parameter auf Remotecomputern.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>By providing explicit credentials, you can run the command on a remote computer and access a file share on a third computer without encountering an "access denied" error or using CredSSP authentication to delegate credentials.</source>
+          <target state="translated">Durch die Angabe von expliziten Anmeldeinformationen können Sie den Befehl auf einem Remotecomputer ausführen und auf eine Dateifreigabe auf einem dritten Computer zugreifen, ohne den Fehler „Zugriff verweigert“ angezeigt zu bekommen oder ohne die CredSSP-Authentifizierung zum Delegieren der Anmeldeinformationen zu verwenden.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-DestinationPath</source>
+          <target state="translated">DestinationPath-</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the directory in which the help files are saved.</source>
+          <target state="translated">Gibt den Pfad zu dem Verzeichnis an, in dem die Hilfedateien gespeichert sind.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Enter the path to a directory.</source>
+          <target state="translated">Geben Sie den Pfad zu einem Verzeichnis ein.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Do not specify a file name or file name extension.</source>
+          <target state="translated">Geben Sie keinen Dateinamen und keine Dateierweiterung an.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Overrides the once-per-day limitation, circumvents version checking, and downloads files that exceed the 1 GB limit</source>
+          <target state="translated">Setzt die Beschränkung von einmal täglich außer Kraft, umgeht die Versionsprüfung und lädt Dateien, die den Grenzwert von 1 GB überschreiten.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Without this parameter, only one <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> command for each module is permitted in each 24-hour period, downloads are limited to 1 GB of uncompressed content per module, and help files for a module are installed only when they are newer than the files on the computer.</source>
+          <target state="translated">Ohne diesen Parameter nur eine <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> Befehl für jedes Modul in jedem 24-Stunden-Zeitraum zulässig, Downloads auf 1 GB an nicht komprimiertem Inhalt pro Modul beschränkt sind und Hilfedateien für ein Modul nur installiert werden, wenn sie aktueller als die Dateien auf dem Computer sind.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The once-per-day limit protects the servers that host the help files, and makes it practical for you to add a <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> command to your Windows PowerShell profile.</source>
+          <target state="translated">Der Grenzwert von einmal täglich schützt die Server, die Hilfedateien hosten, und erleichtert zum Hinzufügen von einem <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> -Befehl zu Ihrem Windows PowerShell-Profil.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To save help for a module in multiple UI cultures without the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter, include all UI cultures in the same command, such as:</source>
+          <target state="translated">Um Hilfe für ein Modul in mehreren Benutzeroberflächenkulturen ohne Speichern der <bpt id="p1">**</bpt>Kraft<ept id="p1">**</ept> Parameter, schließen Sie alle Benutzeroberflächenkulturen in denselben Befehl ein, z. B.:</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies a path to the destination directory.</source>
+          <target state="translated">Gibt den Pfad zum Zielverzeichnis an.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Unlike the value of the <bpt id="p1">**</bpt>DestinationPath<ept id="p1">**</ept> parameter, the value of the <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">Im Gegensatz zu den Wert des der <bpt id="p1">**</bpt>DestinationPath<ept id="p1">**</ept> -Parameter wird der Wert von der <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> Parameter wird verwendet, genau, wie er eingegeben wurde.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">Es werden keine Zeichen als Platzhalter interpretiert.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">Wenn der Pfad Escapezeichen enthält, müssen Sie ihn in einfache Anführungszeichen einschließen.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">Einfache Anführungszeichen veranlassen Windows PowerShell, Zeichen nicht als Escapesequenzen zu interpretieren.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-Module</source>
+          <target state="translated">-Module</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Downloads help for the specified modules.</source>
+          <target state="translated">Lädt die Hilfe für die angegebenen Module herunter.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Enter one or more module names or name patters in a comma-separated list or in a file with one module name on each line.</source>
+          <target state="translated">Geben Sie mindestens einen Modulnamen oder ein Namensmuster in eine durch Kommas getrennte Liste oder in eine Datei mit einem Modulname in jeder Zeile ein.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">Platzhalterzeichen sind zulässig.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You can also pipe module objects from the Get-Module cmdlet to <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept>.</source>
+          <target state="translated">Sie können auch Modulobjekte aus dem Cmdlet Get-Module <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> downloads help for all modules that support Updatable Help and are installed on the local computer in a location listed in the <bpt id="p2">**</bpt>PSModulePath<ept id="p2">**</ept> environment variable.</source>
+          <target state="translated">Standardmäßig <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> downloads Hilfe für alle Module, die aktualisierbare Hilfe unterstützen und werden auf dem lokalen Computer an einem Ort gemäß der <bpt id="p2">**</bpt>PSModulePath<ept id="p2">**</ept> -Umgebungsvariable.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To save help for modules that are not installed on the computer, run a Get-Module command on a remote computer.</source>
+          <target state="translated">Um Hilfe für Module speichern, die nicht auf dem Computer installiert sind, führen Sie einen Get-Module-Befehl auf einem Remotecomputer befindet.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Then pipe the resulting module objects to the <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> cmdlet or submit the module objects as the value of the <bpt id="p2">**</bpt>Module<ept id="p2">**</ept> or <bpt id="p3">**</bpt>InputObject<ept id="p3">**</ept> parameters.</source>
+          <target state="translated">Leiten Sie die resultierenden Modulobjekte an die <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> Cmdlet oder senden Sie die Modulobjekte als Wert für die <bpt id="p2">**</bpt>Modul<ept id="p2">**</ept> oder <bpt id="p3">**</bpt>Eingabeobjekt<ept id="p3">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If the module that you specify is installed on the computer, you can enter the module name or a module object.</source>
+          <target state="translated">Wenn das angegebene Modul auf dem Computer installiert ist, können Sie den Modulnamen oder ein Modulobjekt eingeben.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If the module is not installed on the computer, you must enter a module object, such as one returned by the <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Wenn das Modul nicht auf dem Computer installiert ist, geben Sie ein Modulobjekt, z. B. ein durch die <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> Cmdlet.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> cmdlet does not accept the full path to a module file or module manifest file.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Modul<ept id="p1">**</ept> Parameter von der <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> Cmdlets akzeptiert den vollständigen Pfad zu einer Moduldatei oder modulmanifestdatei.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To save help for a module that is not in a <bpt id="p1">**</bpt>PSModulePath<ept id="p1">**</ept> location, import the module into the current session before running the <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> command.</source>
+          <target state="translated">Um Hilfe für ein Modul zu speichern, der keinem <bpt id="p1">**</bpt>PSModulePath<ept id="p1">**</ept> Speicherort, importieren Sie das Modul in die aktuelle Sitzung vor dem Ausführen der <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> Befehl.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A value of "*" (all) attempts to update help for all modules that are installed on the computer, including modules that do not support Updatable Help.</source>
+          <target state="translated">Mit dem Wert „*“ (alle) soll die Hilfe für alle Module aktualisiert werden, die auf dem Computer installiert sind, darunter auch Module, die die aktualisierbare Hilfe nicht unterstützen.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This value might generate errors as the command encounters modules that do not support Updatable Help.</source>
+          <target state="translated">Dieser Wert kann zu Fehlern führen, da der Befehl Module erkennt, die die aktualisierbare Hilfe nicht unterstützen.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-UICulture</source>
+          <target state="translated">UICulture-</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets updated help files for the specified UI culture.</source>
+          <target state="translated">Ruft aktualisierte Hilfedateien für die angegebene Benutzeroberflächenkultur ab.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Enter one or more language codes, such as "es-ES", a variable that contains culture objects, or a command that gets culture objects, such as a Get-Culture or Get-UICulture command.</source>
+          <target state="translated">Geben Sie eine oder mehrere Sprachcodes, z. B. "es-ES", eine Variable, die kulturobjekte enthält oder einen Befehl, der kulturobjekte abgerufen werden, z. B. einen Get-Culture oder Get-UICulture-Befehl.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Wildcards are not permitted and you cannot submit a partial language code, such as "de".</source>
+          <target state="translated">Platzhalter sind nicht zulässig, und Sie können keinen partiellen Sprachcode, z. B. „de“, senden.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> gets help files in the UI culture set for Windows or its fallback culture.</source>
+          <target state="translated">In der Standardeinstellung <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> Ruft Hilfedateien in der Benutzeroberflächenkultur für Windows oder die Fallbackkultur.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>UICulture<ept id="p1">**</ept> parameter, <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> looks for help only for the specified UI culture, not in any fallback culture.</source>
+          <target state="translated">Bei Verwendung der <bpt id="p1">**</bpt>UICulture<ept id="p1">**</ept> Parameter <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> sucht nur nach Hilfe für die angegebene Benutzeroberflächenkultur nicht in einer Fallbackkultur.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-UseDefaultCredentials</source>
+          <target state="translated">-UseDefaultCredentials</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Runs the command, including the web download, with the credentials of the current user.</source>
+          <target state="translated">Führt den Befehl, einschließlich des Webdownloads, mit den Anmeldeinformationen des aktuellen Benutzers aus.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>By default, the command runs without explicit credentials.</source>
+          <target state="translated">Standardmäßig wird der Befehl ohne explizite Anmeldeinformationen ausgeführt.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This parameter is effective only when the web download uses NTLM, negotiate, or Kerberos-based authentication.</source>
+          <target state="translated">Dieser Parameter gilt nur, wenn der Webdownload eine NTLM-, Negotiate- oder Kerberos-basierte Authentifizierung verwendet.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Dieses Cmdlet unterstützt die allgemeinen Parameter:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, -InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction und -WarningVariable.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Weitere Informationen finden Sie unter "about_commonparameters" (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">EINGABEN</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSModuleInfo</source>
+          <target state="translated">System.Management.Automation.PSModuleInfo</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You can pipe a module object from the Get-Module cmdlet to the <bpt id="p1">**</bpt>Module<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept>.</source>
+          <target state="translated">Sie können ein Objekt aus dem Cmdlet Get-Module, die <bpt id="p1">**</bpt>Modul<ept id="p1">**</ept> Parameter <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">AUSGABEN</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Keine</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> does not generate any output.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> generiert keine Ausgabe.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTIZEN</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>To save help for modules in the $pshome\Modules directory, start Windows PowerShell with the "Run as administrator" option.</source>
+          <target state="translated">Starten Sie Windows PowerShell mit der Option „Als Administrator ausführen“, um Hilfe für Module im Verzeichnis „$pshome\Modules“ zu speichern.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Only  members of the Administrators group on the computer can download help for the for modules in the $pshome\Modules directory.</source>
+          <target state="translated">Nur Mitglieder der Gruppe „Administratoren“ auf dem Computer können die Hilfe für die Module in das Verzeichnis „$pshome\Modules“ herunterladen.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The saved help for each module consists of  one help information (HelpInfo XML) file and one cabinet (.cab) file for the help files each UI culture.</source>
+          <target state="translated">Die gespeicherte Hilfe für jedes Modul besteht aus einer Hilfeinformationsdatei (HelpInfo XML) und einer CAB-Datei für die Hilfedateien jeder Benutzeroberflächenkultur.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>You do not need to extract the help files from the cabinet file.</source>
+          <target state="translated">Sie müssen die Hilfedateien nicht aus der CAB-Datei extrahieren.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The Update-Help cmdlet extracts the help files, validates the XML, and then installs the help files and the help information file in a language-specific subdirectory of the module directory.</source>
+          <target state="translated">Das Update-Help-Cmdlet extrahiert die Hilfedateien, überprüft das XML und installiert dann die Hilfedateien und die hilfeinformationsdatei in einem sprachspezifischen Unterverzeichnis des Modulverzeichnisses.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> cmdlet can save help for modules that are not installed on the computer.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> Cmdlet sparen Sie Hilfe für Module, die nicht auf dem Computer installiert sind.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>However, because help files are installed in the module directory, the Update-Help cmdlet can install updated help file only for modules that are installed on the computer.</source>
+          <target state="translated">Da Hilfedateien im Modulverzeichnis installiert sind, kann jedoch mit dem Update-Help-Cmdlet aktualisierte Hilfedatei nur für Module installieren, die auf dem Computer installiert sind.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> cannot find updated help files for a module, or cannot find updated help files in the specified language, it continues silently without displaying an error message.</source>
+          <target state="translated">Wenn <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> keine aktualisierten Hilfedateien für ein Modul oder aktualisierte Hilfedateien nicht gefunden in der angegebenen Sprache wird es weiterhin im Hintergrund ohne eine Fehlermeldung anzuzeigen.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To see which files were saved by the command, use the <bpt id="p1">**</bpt>Verbose<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Um anzuzeigen, welche Dateien mit dem Befehl gespeichert wurden, verwenden die <bpt id="p1">**</bpt>ausführlich<ept id="p1">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Modules are the smallest unit of updatable help.</source>
+          <target state="translated">Module sind die kleinste Einheit der aktualisierbaren Hilfe.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>You cannot save help for a particular cmdlet; only for all cmdlets in module.</source>
+          <target state="translated">Sie können die Hilfe nicht für ein bestimmtes Cmdlet speichern, sondern nur für alle Cmdlets im Modul.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>To find the module that contains a particular cmdlet, use the <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> property of the Get-Command cmdlet, for example,</source>
+          <target state="translated">Um das Modul zu suchen, die ein bestimmtes Cmdlet enthält, verwenden die <bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept> -Eigenschaft des Get-Command-Cmdlet</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> supports all modules and the Windows PowerShell Core snap-ins.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> unterstützt alle Module und die Windows PowerShell-Kern-Snap-ins.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>It does not support any other snap-ins.</source>
+          <target state="translated">Es werden keine anderen Snap-Ins unterstützt.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The Update-Help and <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> cmdlets use the following ports to download help files: Port 80 for HTTP and port 443 for HTTPS.</source>
+          <target state="translated">Die Update-Help und <bpt id="p1">**</bpt>Save-Help<ept id="p1">**</ept> Cmdlets verwenden die folgenden Ports, um Hilfedateien herunterzuladen: Port 80 für HTTP und Port 443 für HTTPS.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Update-Help<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> cmdlets are not supported on Windows Preinstallation Environment (Windows PE).</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Update-Help<ept id="p1">**</ept> und <bpt id="p2">**</bpt>Save-Help<ept id="p2">**</ept> Cmdlets werden von Windows Preinstallation Environment (Windows PE) nicht unterstützt.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VERWANDTE LINKS</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Updatable Help Status Table (http://go.microsoft.com/fwlink/?LinkID=270007)</source>
+          <target state="translated">Aktualisierbare Hilfe Statustabelle (http://go.microsoft.com/fwlink/?LinkID=270007)</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Get-Culture</source>
+          <target state="translated">Get-Culture</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Get-Help</source>
+          <target state="translated">"Get-Help "</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Get-Module</source>
+          <target state="translated">Get-Module</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Get-UICulture</source>
+          <target state="translated">Get-UICulture</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Update-Help</source>
+          <target state="translated">Update-Help</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e8b488e7cd9814c7b063fc75f730aab2714996c4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Management\Get-Service.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ebc47d197458ec3951aaf785191f3d63550c4d0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ccd1560cc14afd216007cd977a5920d2924b8932</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-Service</source>
+          <target state="translated">Get-Service</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-Service</source>
+          <target state="translated">Get-Service</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets the services on a local or remote computer.</source>
+          <target state="translated">ローカルまたはリモート コンピューター上のサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Default (Default)</source>
+          <target state="translated">(既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>DisplayName</source>
+          <target state="translated">表示名</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>InputObject</source>
+          <target state="translated">InputObject</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Service<ept id="p1">**</ept> cmdlet gets objects that represent the services on a local computer or on a remote computer, including running and stopped services.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Get-service<ept id="p1">**</ept> コマンドレットをローカル コンピューターまたはリモート コンピューターを使用し、実行中、停止されたサービスを含むサービスを表すオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can direct this cmdlet to get only particular services by specifying the service name or display name of the services, or you can pipe service objects to this cmdlet.</source>
+          <target state="translated">サービス名を指定して特定のサービスのみを取得するには、このコマンドレットに指示したり、サービスの表示名またはサービス オブジェクトをこのコマンドレットにパイプ処理できます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Example 1: Get all services on the computer</source>
+          <target state="translated">例 1: コンピューター上のすべてのサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This command gets all of the services on the computer.</source>
+          <target state="translated">このコマンドは、コンピューター上のすべてのサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It behaves as though you typed <ph id="ph1">`Get-Service *`</ph>.</source>
+          <target state="translated">入力したと同様に動作して <ph id="ph1">`Get-Service *`</ph>します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The default display shows the status, service name, and display name of each service.</source>
+          <target state="translated">既定では、各サービスの状態、サービス名、表示名が表示されます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Example 2: Get services that begin with a search string</source>
+          <target state="translated">例 2: 検索文字列で始まるサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This command retrieves services with service names that begin with WMI (the acronym for Windows Management Instrumentation).</source>
+          <target state="translated">このコマンドは、WMI (Windows Management Instrumentation の頭字語) で始まる名前のサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Example 3: Display services that include a search string</source>
+          <target state="translated">例 3: 検索文字列が含まれるサービスを表示します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command displays services with a display name that includes the word network.</source>
+          <target state="translated">このコマンドは、ネットワークという単語が含まれる表示名を持つサービスを表示します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Searching the display name finds network-related services even when the service name does not include "Net", such as xmlprov, the Network Provisioning Service.</source>
+          <target state="translated">表示名を検索することにより、xmlprov (Network Provisioning Service) のようにサービス名に "Net" が含まれていない場合でも、ネットワーク関連のサービスを見つけることができます。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example 4: Get services that begin with a search string and an exclusion</source>
+          <target state="translated">例 4: 検索文字列と、除外で始まるサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>These commands get only the services with service names that begin with win, except for the WinRM service.</source>
+          <target state="translated">これらのコマンドは、WinRM サービスを除きで始まる名前を獲得するサービスとサービスだけを取得します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 5: Display services that are currently active</source>
+          <target state="translated">例 5: 現在アクティブなサービスを表示します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command displays only the services that are currently active.</source>
+          <target state="translated">このコマンドは、現在アクティブなサービスのみを表示します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Get-Service<ept id="p1">**</ept> cmdlet to get all of the services on the computer.</source>
+          <target state="translated">使用して、 <bpt id="p1">**</bpt>Get-service<ept id="p1">**</ept> コマンドレットをコンピューター上のすべてのサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The pipeline operator (|) passes the results to the Where-Object cmdlet, which selects only the services with a Status property that equals Running.</source>
+          <target state="translated">パイプライン演算子 (|) は、Status プロパティの実行中に等しいサービスのみが選択 Where-object コマンドレットに結果を渡します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Status is only one property of service objects.</source>
+          <target state="translated">Status は、サービス オブジェクトの 1 つのプロパティにすぎません。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To see all of the properties, type <ph id="ph1">`Get-Service | Get-Member`</ph>.</source>
+          <target state="translated">すべてのプロパティを参照する入力 <ph id="ph1">`Get-Service | Get-Member`</ph>します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Example 6: Get the services on a remote computer</source>
+          <target state="translated">例 6: リモート コンピューター上のサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command gets the services on the Server02 remote computer.</source>
+          <target state="translated">このコマンドは、Server02 リモート コンピューター上のサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Get-Service<ept id="p2">**</ept> does not use Windows PowerShell remoting, you can use this parameter even if the computer is not configured for remoting in Windows PowerShell.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>Get-service<ept id="p2">**</ept> Windows PowerShell リモート処理を使用しないコンピューターが Windows PowerShell のリモート処理用に構成されていない場合でも、このパラメーターを使用することができます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Example 7: List the services on the local computer that have dependent services</source>
+          <target state="translated">例 7: サービスが依存しているローカル コンピューター上のサービスを一覧表示します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This example lists the services on the computer that have dependent services.</source>
+          <target state="translated">この例では、サービスが依存しているコンピューター上のサービスが一覧表示します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Get-Service<ept id="p1">**</ept> cmdlet to get the services on the computer.</source>
+          <target state="translated">最初のコマンドを使用して、 <bpt id="p1">**</bpt>Get-service<ept id="p1">**</ept> コマンドレットをコンピューター上のサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A pipeline operator (|) sends the services to the <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept> cmdlet, which selects the services whose <bpt id="p2">**</bpt>DependentServices<ept id="p2">**</ept> property is not null.</source>
+          <target state="translated">パイプライン演算子 (|) を送信するサービス、 <bpt id="p1">**</bpt>Where-object<ept id="p1">**</ept> コマンドレットは、サービスが選択を <bpt id="p2">**</bpt>DependentServices<ept id="p2">**</ept> プロパティが null でないです。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Another pipeline operator sends the results to the Format-List cmdlet.</source>
+          <target state="translated">もう一つのパイプライン演算子は、結果を Format-List コマンドレットに渡します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The command uses its <bpt id="p1">*</bpt>Property<ept id="p1">*</ept> parameter to display the name of the service, the name of the dependent services, and a calculated property that displays the number of dependent services that each service has.</source>
+          <target state="translated">コマンドを使用してその <bpt id="p1">*</bpt>プロパティ<ept id="p1">*</ept> パラメーターに依存するサービスと各サービスに依存するサービスの数を表示する計算されるプロパティの名前では、サービスの名前を表示します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Example 8: Sort services by property value</source>
+          <target state="translated">例 8: プロパティの値によってサービスを並べ替える</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This command shows that when you sort services in ascending order by the value of their <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> property, stopped services appear before running services.</source>
+          <target state="translated">このコマンドが表示されるサービスの値で昇順の並べ替えとその <bpt id="p1">**</bpt>ステータス<ept id="p1">**</ept> プロパティには、サービスを実行する前に停止したサービスが表示されます。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This happens because the value of Status is an enumeration, in which Stopped has a value of 1, and Running has a value of 4.</source>
+          <target state="translated">ステータスの値は、停止するには値 1 を列挙し、実行が 4 の値を持ちます。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To list running services first, use the <bpt id="p1">*</bpt>Descending<ept id="p1">*</ept> parameter of the Sort-Object cmdlet.</source>
+          <target state="translated">最初に、サービスを実行しているリストを使用して、 <bpt id="p1">*</bpt>降順<ept id="p1">*</ept> Sort-object コマンドレットのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Example 9: Get services on multiple computers</source>
+          <target state="translated">例 9: 複数のコンピューターでサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Get-Service<ept id="p1">**</ept> cmdlet to run a Get-Service Winrm command on two remote computers and the local computer ("localhost").</source>
+          <target state="translated">このコマンドを使用して、 <bpt id="p1">**</bpt>Get-service<ept id="p1">**</ept> コマンドレットを 2 台のリモート コンピューターとローカル コンピューター ("localhost") で Get-service Winrm コマンドを実行します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The command runs on the remote computers, and the results are returned to the local computer.</source>
+          <target state="translated">コマンドは、リモート コンピューターで実行し、結果は、ローカル コンピューターに返されます。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A pipeline operator (|) sends the results to the <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> cmdlet, which formats the services as a table.</source>
+          <target state="translated">パイプライン演算子 (|) を送信する結果、 <bpt id="p1">**</bpt>Format-table<ept id="p1">**</ept> コマンドレットに渡して、サービス、テーブルとして書式設定します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> command uses the <bpt id="p2">*</bpt>Property<ept id="p2">*</ept> parameter to specify the properties displayed in the table, including the <bpt id="p3">**</bpt>MachineName<ept id="p3">**</ept> property.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Format-table<ept id="p1">**</ept> コマンドでは、 <bpt id="p2">*</bpt>プロパティ<ept id="p2">*</ept> 、テーブルに表示されるプロパティを指定するパラメーターを含む、 <bpt id="p3">**</bpt>MachineName<ept id="p3">**</ept> プロパティです。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Example 10: Get the dependent services of a service</source>
+          <target state="translated">例 10: サービスが依存するサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This command gets the services that the WinRM service requires.</source>
+          <target state="translated">このコマンドは、WinRM サービスが必要とするサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The command returns the value of the <bpt id="p1">**</bpt>ServicesDependedOn<ept id="p1">**</ept> property of the service.</source>
+          <target state="translated">コマンドの値を返す、 <bpt id="p1">**</bpt>ServicesDependedOn<ept id="p1">**</ept> 、サービスのプロパティです。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Example 11: Get a service through the pipeline operator</source>
+          <target state="translated">例 11: パイプライン演算子によって、サービスを取得します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This command gets the WinRM service on the local computer.</source>
+          <target state="translated">このコマンドは、ローカル コンピューター上の WinRM サービスを取得します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This example shows that you can pipe a service name string (enclosed in quotation marks) to <bpt id="p1">**</bpt>Get-Service<ept id="p1">**</ept>.</source>
+          <target state="translated">この例ではサービス名の文字列 (二重引用符) をパイプすることを <bpt id="p1">**</bpt>Get-service<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets the services running on the specified computers.</source>
+          <target state="translated">指定されたコンピューターで実行されているサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">既定はローカル コンピュータです。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an IP address, or a fully qualified domain name (FQDN) of a remote computer.</source>
+          <target state="translated">NetBIOS 名、IP アドレス、またはリモート コンピューターの完全修飾ドメイン名 (FQDN) を入力します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, a dot (.), or localhost.</source>
+          <target state="translated">ローカル コンピューターを指定するには、コンピューター名、ドット (.) または localhost を入力します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This parameter does not rely on Windows PowerShell remoting.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell リモート処理に依存しません。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Get-Service<ept id="p2">**</ept> even if your computer is not configured to run remote commands.</source>
+          <target state="translated">使用することができます、 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>Get-service<ept id="p2">**</ept> リモート コマンドを実行するコンピューターが構成されていない場合でもです。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-DependentServices</source>
+          <target state="translated">-DependentServices</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet gets only the services that depend upon the specified service.</source>
+          <target state="translated">このコマンドレットが、指定されたサービスに依存するサービスのみを取得することを示します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet gets all services.</source>
+          <target state="translated">既定では、このコマンドレットは、すべてのサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-DisplayName</source>
+          <target state="translated">-DisplayName</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Specifies, as a string array, the display names of services to be retrieved.</source>
+          <target state="translated">文字列の配列として取得するサービスの表示名を指定します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet gets all services on the computer.</source>
+          <target state="translated">既定では、このコマンドレットは、コンピューター上のすべてのサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-Exclude</source>
+          <target state="translated">-除外します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies, as a string array, a service or services that this cmdlet excludes from the operation.</source>
+          <target state="translated">文字列の配列、サービス、またはこのコマンドレットでは、操作から除外するサービスとして指定します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">このパラメーターの値は修飾、 <bpt id="p1">*</bpt>名前<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Enter a name element or pattern, such as "s*".</source>
+          <target state="translated">「s*」などの名前要素またはパターンを入力します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-Include</source>
+          <target state="translated">-Include します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Specifies, as a string array, a service or services that this cmdlet includes in the operation.</source>
+          <target state="translated">文字列の配列、サービスまたは操作でこのコマンドレットを含むサービスとして指定します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">このパラメーターの値は修飾、 <bpt id="p1">*</bpt>名前<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Enter a name element or pattern, such as "s*".</source>
+          <target state="translated">「s*」などの名前要素またはパターンを入力します。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-Inputobject</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Specifies <bpt id="p1">**</bpt>ServiceController<ept id="p1">**</ept> objects representing the services to be retrieved.</source>
+          <target state="translated">指定 <bpt id="p1">**</bpt>ServiceController<ept id="p1">**</ept> を取得するサービスを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects, or type a command or expression that gets the objects.</source>
+          <target state="translated">オブジェクトが格納されている変数を入力するか、オブジェクトを取得するコマンドまたは式を入力します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can also pipe a service object to this cmdlet.</source>
+          <target state="translated">このコマンドレットへのサービス オブジェクトをパイプすることもできます。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Specifies the service names of services to be retrieved.</source>
+          <target state="translated">取得するサービスのサービス名を指定します。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">ワイルドカードを使用できます。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet gets all of the services on the computer.</source>
+          <target state="translated">既定では、このコマンドレットは、すべてのサービスをコンピューターに取得します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>-RequiredServices</source>
+          <target state="translated">-RequiredServices</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet gets only the services that this service requires.</source>
+          <target state="translated">このコマンドレットがこのサービスで必要なサービスのみを取得することを示します。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This parameter gets the value of the <bpt id="p1">**</bpt>ServicesDependedOn<ept id="p1">**</ept> property of the service.</source>
+          <target state="translated">このパラメーターの値を取得、 <bpt id="p1">**</bpt>ServicesDependedOn<ept id="p1">**</ept> 、サービスのプロパティです。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>By default, this cmdlet gets all services.</source>
+          <target state="translated">既定では、このコマンドレットは、すべてのサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>System.ServiceProcess.ServiceController, System.String</source>
+          <target state="translated">System.ServiceProcess.ServiceController、System.String</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>You can pipe a service object or a service name to this cmdlet.</source>
+          <target state="translated">サービス オブジェクトまたはこのコマンドレットへのサービス名をパイプすることができます。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>System.ServiceProcess.ServiceController</source>
+          <target state="translated">System.ServiceProcess.ServiceController</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns objects that represent the services on the computer.</source>
+          <target state="translated">このコマンドレットでは、コンピューター上のサービスを表すオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>You can also refer to <bpt id="p1">**</bpt>Get-Service<ept id="p1">**</ept> by its built-in alias, "gsv".</source>
+          <target state="translated">参照することもできます。 <bpt id="p1">**</bpt>Get-service<ept id="p1">**</ept> その組み込みエイリアスで"gsv"です。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">詳細については、「about_Aliases」を参照してください。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This cmdlet can display services only when the current user has permission to see them.</source>
+          <target state="translated">このコマンドレットは、現在のユーザーにこれを表示するアクセス許可がある場合にのみサービスを表示できます。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>If this cmdlet does not display services, you might not have permission to see them.</source>
+          <target state="translated">このコマンドレットでサービスが表示されない場合は、これを表示するアクセス許可をないがあります。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To find the service name and display name of each service on your system, type <ph id="ph1">`Get-Service`</ph>.</source>
+          <target state="translated">サービス名を検索し、システムの各サービスの名前を表示、入力 <ph id="ph1">`Get-Service`</ph>します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The service names appear in the Name column, and the display names appear in the DisplayName column.</source>
+          <target state="translated">サービス名は [Name] 欄に表示され、表示名は [DisplayName] 欄に表示されます。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>When you sort in ascending order by status value, "Stopped" services appear before "Running" services.</source>
+          <target state="translated">Status の値により昇順に並べ替えると、状態が "Stopped (停止済み)" のサービスは "Running (実行中)" のサービスの前に表示されます。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The Status property of a service is an enumerated value in which the names of the statuses represent integer values.</source>
+          <target state="translated">サービスの Status プロパティは、状態の名前が整数値を表す列挙値です。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The sort is based on the integer value, not the name.</source>
+          <target state="translated">並べ替えは名前ではなく整数値に基づいて行われます。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>"Running" appears before "Stopped" because "Stopped" has a value of "1", and "Running" has a value of "4".</source>
+          <target state="translated">"Stopped (停止済み)" の値は "1" であり、"Running (実行中)" の値は "4" であるため、"Running" は "Stopped" の前に表示されます。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>New-Service</source>
+          <target state="translated">New-Service</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Restart-Service</source>
+          <target state="translated">Restart-Service</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Resume-Service</source>
+          <target state="translated">Resume-Service</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Set-Service</source>
+          <target state="translated">Set-Service</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Start-Service</source>
+          <target state="translated">Start-Service</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Stop-Service</source>
+          <target state="translated">Stop-Service</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Suspend-Service</source>
+          <target state="translated">Suspend-Service</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

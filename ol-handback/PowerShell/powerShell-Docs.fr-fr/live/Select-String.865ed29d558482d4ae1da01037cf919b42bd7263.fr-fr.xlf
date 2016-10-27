@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">db2cd3119a540586c05da13edd2d632fcf8e1ef8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Select-String.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67080349ebcb98e2390e8049800ef6539114ca42</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">91a49a8f1f2f2fa31b93ef158b855ff7cdcd9c83</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Select-String</source>
+          <target state="translated">Select-String</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Select-String</source>
+          <target state="translated">Select-String</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SYNOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Finds text in strings and files.</source>
+          <target state="translated">Recherche du texte dans des chaînes et des fichiers.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>File (Default)</source>
+          <target state="translated">Fichier (par défaut)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Object</source>
+          <target state="translated">Objet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>LiteralFile</source>
+          <target state="translated">LiteralFile</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPTION</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Select-String cmdlet searches for text and text patterns in input strings and files.</source>
+          <target state="translated">L'applet de commande Select-String recherche du texte et des modèles de texte dans les fichiers et les chaînes d'entrée.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use it like Grep in UNIX and Findstr in Windows.</source>
+          <target state="translated">Vous pouvez l'utiliser comme Grep dans UNIX et Findstr dans Windows.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can type "Select-String" or its alias, "sls".</source>
+          <target state="translated">Vous pouvez taper « Select-String » ou son alias « sls ».</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Select-String is based on lines of text.</source>
+          <target state="translated">Select-String est basée sur les lignes de texte.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>By default, Select-String finds the first match in each line and, for each match, it displays the file name, line number, and all text in the line containing the match.</source>
+          <target state="translated">Par défaut, Select-String recherche la première correspondance dans chaque ligne et, pour chaque correspondance, elle affiche le nom de fichier, le numéro de ligne et tout le texte de la ligne contenant la correspondance.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>However, you can direct it to detect multiple matches per line, display text before and after the match, or display only a Boolean value (true or false) that indicates whether a match is found.</source>
+          <target state="translated">Vous pouvez cependant lui demander de détecter plusieurs correspondances par ligne, d'afficher du texte avant et après la correspondance, ou d'afficher seulement une valeur booléenne (true ou false) qui indique si une correspondance est trouvée.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Select-String uses regular expression matching, but it can also perform a simple match that searches the input for the text that you specify.</source>
+          <target state="translated">Select-String utilise la correspondance d'expressions régulières, mais elle peut également effectuer une recherche de correspondance simple du texte que vous spécifiez dans l'entrée.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select-String can display all of the text matches or stop after the first match in each input file.</source>
+          <target state="translated">Select-String peut afficher toutes les correspondances du texte ou s'arrêter après la première correspondance dans chaque fichier d'entrée.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It can also display all text that does not match the specified pattern.</source>
+          <target state="translated">Elle peut également afficher tout le texte qui ne correspond pas au modèle spécifié.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can also specify that Select-String should expect a particular character encoding, such as when you are searching files of Unicode text.</source>
+          <target state="translated">Vous pouvez également spécifier que Select-String doit attendre un codage particulier des caractères, par exemple quand vous effectuez des recherches dans des fichiers texte Unicode.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- EXEMPLE 1 -------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command performs a case-sensitive match of the text that was piped to the Select-String command.</source>
+          <target state="translated">Cette commande effectue une recherche de correspondance respectant la casse du texte qui a été dirigé vers la commande Select-String.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>As a result, Select-String finds only "HELLO", because "Hello" does not match.</source>
+          <target state="translated">Par conséquent, Select-String trouve seulement « HELLO », car « Hello » ne correspond pas.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Because each of the quoted strings is treated as a line, without the CaseSensitive parameter, Select-String would recognize both of the strings as matches.</source>
+          <target state="translated">Comme chacune des chaînes entre guillemets est traitée comme une ligne, sans le paramètre CaseSensitive, Select-String reconnaît une correspondance avec les deux chaînes.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This command searches through all files with the .xml file name extension in the current directory and displays the lines in those files that include the string "the the".</source>
+          <target state="translated">Cette commande effectue une recherche dans tous les fichiers avec l'extension de nom de fichier .xml dans le répertoire actif et affiche les lignes de ces fichiers qui contiennent la chaîne « the the ».</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command searches the Windows PowerShell conceptual Help files (about_*.txt) for information about the use of the at sign (@).</source>
+          <target state="translated">Cette commande recherche dans les fichiers d'aide conceptuelle de Windows PowerShell (about_*.txt) des informations sur l'utilisation du signe arobase (@).</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To indicate the path, this command uses the value of the $pshome automatic variable, which stores the path to the Windows PowerShell installation directory.</source>
+          <target state="translated">Pour indiquer le chemin d'accès, cette commande utilise la valeur de la variable automatique $pshome, qui stocke le chemin d'accès au répertoire d'installation de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In this example, the command searches the en-US subdirectory, which contains the English (US) language Help files for Windows PowerShell.</source>
+          <target state="translated">Dans cet exemple, la commande recherche dans le sous-répertoire en-US, qui contient les fichiers d'aide en anglais (États-Unis) pour Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This simple function uses the Select-String cmdlet to search the Windows PowerShell Help files for a particular string.</source>
+          <target state="translated">Cette fonction simple utilise l'applet de commande Select-String pour rechercher une chaîne particulière dans les fichiers d'aide de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In this example, the function searches the "en-US" subdirectory for English-United States language files.</source>
+          <target state="translated">Dans cet exemple, la fonction recherche des fichiers en anglais (États-Unis) dans le sous-répertoire « en-US ».</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To use the function to find a string, such as "psdrive", type search-help psdrive.</source>
+          <target state="translated">Pour utiliser la fonction pour rechercher une chaîne, comme « psdrive », tapez search-help psdrive.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To use this function in any Windows PowerShell console, change the path to point to the Windows PowerShell Help files on your system, and then paste the function in your Windows PowerShell profile.</source>
+          <target state="translated">Pour utiliser cette fonction dans n'importe quelle console Windows PowerShell, changez le chemin d'accès pour le faire pointer vers les fichiers d'aide de Windows PowerShell sur votre système, puis collez la fonction dans votre profil Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This example searches for the string "failed" in the 100 newest events in the Application log in Event Viewer.</source>
+          <target state="translated">Cet exemple recherche la chaîne « failed » dans les 100 événements plus récents dans le journal des applications de l'observateur d'événements.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-EventLog cmdlet to get the 100 most recent events from the Application event log.</source>
+          <target state="translated">La première commande utilise l'applet de commande Get-EventLog pour obtenir les 100 derniers événements du journal des événements des applications.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Then it stores the events in the $events variable.</source>
+          <target state="translated">Elle stocke ensuite les événements dans la variable $events.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The second command uses a pipeline operator (|) to send the objects in the $events variable to Select-String.</source>
+          <target state="translated">La deuxième commande utilise un opérateur de pipeline (|) pour envoyer les objets de la variable $events à Select-String.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>It uses the InputObject parameter to represent the input from the $events variable.</source>
+          <target state="translated">Elle utilise le paramètre InputObject pour représenter l'entrée de la variable $events.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The value of the InputObject parameter is the Message property of each object as it travels through the pipeline.</source>
+          <target state="translated">La valeur du paramètre InputObject est la propriété Message de chaque objet quand il passe à travers le pipeline.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The current object is represented by the $_ symbol.</source>
+          <target state="translated">L'objet actif est représenté par le symbole $_.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>As each event arrives in the pipeline, Select-String searches the value of its Message property for the "failed" string, and then displays any lines that include a match.</source>
+          <target state="translated">Quand chaque événement arrive dans le pipeline, Select-String recherche la chaîne « failed » dans la valeur de sa propriété Message, puis affiche toutes les lignes incluant une correspondance.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This command examines all files in the subdirectories of C:\Windows\System32 with the .txt file name extension and searches for the string "Microsoft".</source>
+          <target state="translated">Cette commande examine tous les fichiers dans les sous-répertoires de C:\Windows\System32 avec l'extension de nom de fichier .txt et recherche la chaîne « Microsoft ».</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The CaseSensitive parameter indicates that the "M" in "Microsoft" must be capitalized and that the rest of the characters must be lowercase for Select-String to find a match.</source>
+          <target state="translated">Le paramètre CaseSensitive indique que le « M » de « Microsoft » doit être en majuscule et que le reste des caractères doit être en minuscules pour que Select-String trouve une correspondance.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This command finds lines of text in the Process.txt file that do not include the words "idle" or "svchost".</source>
+          <target state="translated">Cette commande recherche les lignes de texte du fichier Process.txt qui n'incluent pas les mots « idle » ou « svchost ».</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 8 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 8 --------------------------</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The first command searches the Audit.Log file for the phrase "logon failed."</source>
+          <target state="translated">La première commande recherche la phrase « logon failed » dans le fichier Audit.Log.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>It uses the Context parameter to capture 2 lines before the match and 3 lines after the match.</source>
+          <target state="translated">Elle utilise le paramètre Context pour capturer 2 lignes avant la correspondance et 3 lignes après la correspondance.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The second command uses the Count property of object arrays to display the number of matches found, in this case, 2.</source>
+          <target state="translated">La deuxième commande utilise la propriété Count des tableaux d'objets pour afficher le nombre de correspondances trouvées. Dans ce cas, il y en a  2.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The third command displays the lines stored in the Context property of the first MatchInfo object.</source>
+          <target state="translated">La troisième commande affiche les lignes stockées dans la propriété Context du premier objet MatchInfo.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>It uses array notation to indicate the first match (match 0 in a zero-based array), and it uses the T:Microsoft.PowerShell.Commands.Format-List cmdlet to display the value of the Context property as a list.</source>
+          <target state="translated">Elle utilise la notation des tableaux pour indiquer la première correspondance (la correspondance 0 dans un tableau commençant à zéro), et elle utilise l'applet de commande T:Microsoft.PowerShell.Commands.Format-List pour afficher la valeur de la propriété Context sous forme de liste.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The output consists of two MatchInfo objects, one for each match detected.</source>
+          <target state="translated">La sortie se compose de deux objets MatchInfo, un pour chaque correspondance détectée.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The context lines are stored in the Context property of the MatchInfo object.</source>
+          <target state="translated">Les lignes de contexte sont stockées dans la propriété Context de l'objet MatchInfo.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 9 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 9 --------------------------</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This example demonstrates the effect of the AllMatches parameter of Select-String.</source>
+          <target state="translated">Cet exemple montre l'effet du paramètre AllMatches de Select-String.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>AllMatches finds all pattern matches in a line, instead of just finding the first match in each line.</source>
+          <target state="translated">AllMatches recherche toutes les correspondances du modèle dans une ligne, au lieu de simplement rechercher la première correspondance dans chaque ligne.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The first command in the example searches the Windows PowerShell conceptual Help files ("about" Help) for instances of the word "transcript".</source>
+          <target state="translated">La première commande de l'exemple recherche les instances du mot « transcript » dans les fichiers de l'aide conceptuelle de Windows PowerShell (l'aide « À propos »).</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The output of the first command is saved in the $a variable.</source>
+          <target state="translated">La sortie de la première commande est enregistrée dans la variable $a.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The second command is identical, except that it uses the AllMatches parameter.</source>
+          <target state="translated">La deuxième commande est identique, sauf qu'elle utilise le paramètre AllMatches.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The output of the second command is saved in the $b variable.</source>
+          <target state="translated">La sortie de la deuxième commande est enregistrée dans la variable $b.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>When you display the value of the variables, the default display is identical, as shown in the example output.</source>
+          <target state="translated">Quand vous affichez la valeur des variables, l'affichage par défaut est identique, comme le montre l'exemple de sortie.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>However, the fifth and sixth commands display the value of the Matches property of each object.</source>
+          <target state="translated">Cependant, la cinquième et la sixième commande affichent la valeur de la propriété Matches de chaque objet.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The Matches property of the first command contains just one match (that is, one System.Text.RegularExpressions.Match object), whereas the Matches property of the second command contains objects for both of the matches in the line.</source>
+          <target state="translated">La propriété Matches de la première commande contient une seule correspondance (c'est-à-dire un objet System.Text.RegularExpressions.Match), alors que la propriété Matches de la deuxième commande contient des objets pour les deux correspondances dans la ligne.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMÈTRES</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-AllMatches</source>
+          <target state="translated">-AllMatches</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Searches for more than one match in each line of text.</source>
+          <target state="translated">Recherche plusieurs correspondances dans chaque ligne de texte.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Without this parameter, Select-String finds only the first match in each line of text.</source>
+          <target state="translated">Sans ce paramètre, Select-String recherche uniquement la première correspondance dans chaque ligne de texte.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When Select-String finds more than one match in a line of text, it still emits only one MatchInfo object for the line, but the Matches property of the object contains all of the matches.</source>
+          <target state="translated">Quand Select-String trouve plusieurs correspondances dans une ligne de texte, il ne génère qu'un seul objet MatchInfo pour la ligne, mais la propriété Matches de l'objet contient toutes les correspondances.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-CaseSensitive</source>
+          <target state="translated">-CaseSensitive</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Makes matches case-sensitive.</source>
+          <target state="translated">Rend les correspondances sensibles à la casse.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>By default, matches are not case-sensitive.</source>
+          <target state="translated">Par défaut, les correspondances sont sensibles à la casse.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-Context</source>
+          <target state="translated">-Contexte</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Captures the specified number of lines before and after the line with the match.</source>
+          <target state="translated">Capture le nombre spécifié de lignes avant et après la ligne contenant la correspondance.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This allows you to view the match in context.</source>
+          <target state="translated">Ceci vous permet de voir la correspondance en contexte.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If you enter one number as the value of this parameter, that number determines the number of lines captured before and after the match.</source>
+          <target state="translated">Si vous entrez un nombre comme valeur de ce paramètre, ce nombre détermine le nombre de lignes capturées avant et après la correspondance.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If you enter two numbers as the value, the first number determines the number of lines before the match and the second number determines the number of lines after the match.</source>
+          <target state="translated">Si vous entrez deux nombres comme valeur, le premier nombre détermine le nombre de lignes avant la correspondance, et le deuxième nombre détermine le nombre de lignes après la correspondance.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>In the default display, lines with a match are indicated by a right angle bracket (ASCII 62) in the first column of the display.</source>
+          <target state="translated">Dans l'affichage par défaut, les lignes avec une correspondance sont indiquées par un crochet angulaire à droite (code ASCII 62) dans la première colonne de l'affichage.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Unmarked lines are the context.</source>
+          <target state="translated">Les lignes non marquées constituent le contexte.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This parameter does not change the number of objects generated by Select-String.</source>
+          <target state="translated">Ce paramètre ne change pas le nombre d'objets générés par Select-String.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Select-String generates one MatchInfo (Microsoft.PowerShell.Commands.MatchInfo) object for each match.</source>
+          <target state="translated">Select-String génère un objet MatchInfo (Microsoft.PowerShell.Commands.MatchInfo) pour chaque correspondance.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The context is stored as an array of strings in the Context property of the object.</source>
+          <target state="translated">Le contexte est stocké sous forme de tableau de chaînes dans la propriété Context de l'objet.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>When you pipe the output of a Select-String command to another Select-String command, the receiving command searches only the text in the matched line (the value of the Line property of the MatchInfo object), not the text in the context lines.</source>
+          <target state="translated">Quand vous dirigez la sortie d'une commande Select-String vers une autre commande Select-String, la commande destinataire recherche le texte seulement dans la ligne en correspondance (la valeur de la propriété Line de l'objet MatchInfo), et non pas le texte dans les lignes de contexte.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>As a result, the Context parameter is not valid on the receiving Select-String command.</source>
+          <target state="translated">Par conséquent, le paramètre Context n'est pas valide dans la commande Select-String destinataire.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>When the context includes a match, the MatchInfo object for each match includes all of the context lines, but the overlapping lines appear only once in the display.</source>
+          <target state="translated">Quand le contexte inclut une correspondance, l'objet MatchInfo pour chaque correspondance inclut toutes les lignes de contexte, mais les lignes qui se chevauchent n'apparaissent qu'une seule fois dans l'affichage.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>-Encoding</source>
+          <target state="translated">-Encoding</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Specifies the character encoding that Select-String should assume when searching the file.</source>
+          <target state="translated">Spécifie le codage des caractères que Select-String doit supposer lors de la recherche dans le fichier.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The default is UTF8.</source>
+          <target state="translated">La valeur par défaut est UTF-8.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Valid values are "UTF7", "UTF8", "UTF32", "ASCII", "Unicode", "BigEndianUnicode", "Default", and "OEM".</source>
+          <target state="translated">Les valeurs valides sont « UTF7 », « UTF8 », « UTF32 », « ASCII », « Unicode », « BigEndianUnicode », « Default » et « OEM ».</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>"Default" is the encoding of the system's current ANSI code page.</source>
+          <target state="translated">« Default » est le codage de la page de codes ANSI actuelle du système.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>"OEM" is the current original equipment manufacturer code page identifier for the operating system.</source>
+          <target state="translated">« OEM » est l'identificateur de la page de code OEM actuelle du système d'exploitation.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>-Exclude</source>
+          <target state="translated">-Exclude</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Exclude the specified items.</source>
+          <target state="translated">Exclure les éléments spécifiés.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Path parameter.</source>
+          <target state="translated">La valeur de ce paramètre qualifie le paramètre Path.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Enter a path element or pattern, such as "*.txt".</source>
+          <target state="translated">Entrez un élément ou un modèle de chemin d'accès, tel que « *.txt ».</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Les caractères génériques sont autorisés.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-Include</source>
+          <target state="translated">-Include</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Include only the specified items.</source>
+          <target state="translated">Inclure seulement les éléments spécifiés.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Path parameter.</source>
+          <target state="translated">La valeur de ce paramètre qualifie le paramètre Path.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Enter a path element or pattern, such as "*.txt".</source>
+          <target state="translated">Entrez un élément ou un modèle de chemin d'accès, tel que « *.txt ».</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Les caractères génériques sont autorisés.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">Objet d’entrée :</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Specifies the text to be searched.</source>
+          <target state="translated">Spécifie le texte à rechercher.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the text, or type a command or expression that gets the text.</source>
+          <target state="translated">Entrez une variable contenant le texte, ou tapez une commande ou une expression qui obtient le texte.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Using the InputObject parameter is not the same as piping strings to Select-String.</source>
+          <target state="translated">L'utilisation du paramètre InputObject est différente de la redirection de chaînes vers Select-String.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The differences are as follows:</source>
+          <target state="translated">Les différences sont les suivantes :</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>When you pipe more than one string (a "collection") to Select-String, Select-String searches for the specified text in each string and returns each string that contains the search text.</source>
+          <target state="translated">Lorsque vous dirigez plusieurs chaînes (une « collection ») vers Select-String, Select-String recherche le texte spécifié dans chaque chaîne et retourne chaque chaîne qui contient le texte recherché.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>When you use the InputObject parameter to submit a collection of strings, Select-String treats the collection as a single combined string and returns the strings as a unit if it finds the search text in any string.</source>
+          <target state="translated">Lorsque vous utilisez le paramètre InputObject pour envoyer une collection de chaînes, Select-String traite la collection comme une seule chaîne combinée et retourne les chaînes en tant qu’unité si elle trouve le texte recherché dans n’importe quelle chaîne.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>-List</source>
+          <target state="translated">-Liste</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Returns only the first match in each input file.</source>
+          <target state="translated">Retourne seulement la première correspondance dans chaque fichier d'entrée.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>By default, Select-String returns a MatchInfo object for each match it finds.</source>
+          <target state="translated">Par défaut, Select-String retourne un objet MatchInfo pour chaque correspondance trouvée.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-NotMatch</source>
+          <target state="translated">-NotMatch</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Finds text that does not match the specified pattern.</source>
+          <target state="translated">Recherche du texte qui ne correspond pas au modèle spécifié.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the files to be searched.</source>
+          <target state="translated">Spécifie le chemin d'accès aux fichiers où effectuer la recherche.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Les caractères génériques sont autorisés.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The default location is the local directory.</source>
+          <target state="translated">L'emplacement par défaut est le répertoire local.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Specify files in the directory, such as "log1.txt", "<bpt id="p1">*</bpt>.doc", or "<ept id="p1">*</ept>.*".</source>
+          <target state="translated">Spécifier les fichiers dans le répertoire, par exemple « log1.txt », «<bpt id="p1">*</bpt>.doc », ou «<ept id="p1">*</ept>. * ».</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>If you specify only a directory, the command fails.</source>
+          <target state="translated">Si vous spécifiez seulement un répertoire, la commande échoue.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>-Pattern</source>
+          <target state="translated">-Modèle</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Specifies the text to find.</source>
+          <target state="translated">Spécifie le texte à rechercher.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Type a string or regular expression.</source>
+          <target state="translated">Tapez une chaîne ou une expression régulière.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>If you type a string, use the SimpleMatch parameter.</source>
+          <target state="translated">Si vous tapez une chaîne, utilisez le paramètre SimpleMatch.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>To learn about regular expressions, see about_Regular_Expressions.</source>
+          <target state="translated">Pour en savoir plus sur les expressions régulières, consultez about_Regular_Expressions.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-Quiet</source>
+          <target state="translated">-Quiet</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Returns a Boolean value (true or false), instead of a MatchInfo object.</source>
+          <target state="translated">Retourne une valeur booléenne (true ou false) au lieu d'un objet MatchInfo.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The value is "true" if the pattern is found; otherwise, the value is "false".</source>
+          <target state="translated">La valeur est « true » si le modèle est trouvé ; sinon, la valeur est « false ».</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>-SimpleMatch</source>
+          <target state="translated">-SimpleMatch</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Uses a simple match rather than a regular expression match.</source>
+          <target state="translated">Utilise une correspondance simple au lieu une correspondance d'expression régulière.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>In a simple match, Select-String searches the input for the text in the Pattern parameter.</source>
+          <target state="translated">Dans une correspondance simple, Select-String recherche l'entrée pour le texte dans le paramètre Pattern.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>It does not interpret the value of the Pattern parameter as a regular expression statement.</source>
+          <target state="translated">Elle n'interprète pas la valeur du paramètre Pattern comme la déclaration d'une expression régulière.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the files to be searched.</source>
+          <target state="translated">Spécifie le chemin d'accès aux fichiers où effectuer la recherche.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">**</bpt>Path<ept id="p1">**</ept>, the value of the <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">Contrairement aux <bpt id="p1">**</bpt>chemin d’accès<ept id="p1">**</ept>, la valeur de la <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> paramètre est utilisé exactement telle qu’elle est tapée.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">Aucun caractère n’est interprété en tant que caractère générique.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">Si le chemin d’accès inclut des caractères d’échappement, mettez-le entre des guillemets simples.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">Les guillemets simples indiquent à Windows PowerShell qu’aucun caractère ne doit être interprété en tant que séquence d’échappement.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Cette applet de commande prend en charge les paramètres courants :-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction et - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Pour plus d’informations, consultez about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRÉES</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>You can pipe any object that has a ToString method to Select-String.</source>
+          <target state="translated">Vous pouvez diriger tout objet ayant une méthode ToString vers Select-String.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SORTIES</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.MatchInfo or System.Boolean</source>
+          <target state="translated">Microsoft.PowerShell.Commands.MatchInfo ou System.Boolean</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>By default, the output is a set of MatchInfo objects, one for each match found.</source>
+          <target state="translated">Par défaut, la sortie est un ensemble d'objets MatchInfo, un pour chaque correspondance trouvée.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>If you use the Quiet parameter, the output is a Boolean value indicating whether the pattern was found.</source>
+          <target state="translated">Si vous utilisez le paramètre Quiet, la sortie est une valeur booléenne qui indique si le modèle a été trouvé.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTES DE PUBLICATION</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Select-String is like the Grep command in UNIX and the FindStr command in Windows.</source>
+          <target state="translated">Select-String est comme la commande Grep dans UNIX et la commande FindStr dans Windows.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The "sst" alias for the Select-String cmdlet was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">L'alias « sst » pour l'applet de commande Select-String a été introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>To use Select-String, type the text that you want to find as the value of the Pattern parameter.</source>
+          <target state="translated">Pour utiliser Select-String, tapez le texte que vous voulez rechercher comme valeur du paramètre Pattern.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>To specify the text to be searched, do the following:</source>
+          <target state="translated">Pour spécifier le texte à rechercher, procédez comme suit :</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Type the text in a quoted string, and then pipe it to Select-String.</source>
+          <target state="translated">Tapez le texte dans une chaîne entre guillemets, puis dirigez-le vers Select-String.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Store a text string in a variable, and then specify the variable as the value of the InputObject parameter.</source>
+          <target state="translated">Stocker une chaîne de texte dans une variable et spécifiez la variable en tant que la valeur du paramètre InputObject.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>If the text is stored in files, use the Path parameter to specify the path to the files.</source>
+          <target state="translated">Si le texte est stocké dans les fichiers, utilisez le paramètre Path pour spécifier le chemin d’accès aux fichiers.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>By default, Select-String interprets the value of the Pattern parameter as a regular expression.</source>
+          <target state="translated">Par défaut, Select-String interprète la valeur du paramètre Pattern comme une expression régulière.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>(For more information, see about_Regular_Expressions.) However, you can use the SimpleMatch parameter to override the regular expression matching.</source>
+          <target state="translated">(Pour plus d'informations, consultez about_Regular_Expressions.) Vous pouvez cependant utiliser le paramètre SimpleMatch pour remplacer la correspondance d'expression régulière.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The SimpleMatch parameter finds instances of the value of the Pattern parameter in the input.</source>
+          <target state="translated">Le paramètre SimpleMatch recherche des instances de la valeur du paramètre Pattern dans l'entrée.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The default output of Select-String is a MatchInfo object, which includes detailed information about the matches.</source>
+          <target state="translated">La sortie par défaut de Select-String est un objet MatchInfo, qui comprend des informations détaillées sur les correspondances.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The information in the object is useful when you are searching for text in files, because MatchInfo objects have properties such as Filename and Line.</source>
+          <target state="translated">Les informations contenues dans l'objet sont utiles quand vous recherchez du texte dans des fichiers, car les objets MatchInfo ont des propriétés comme Filename et Line.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>When the input is not from the file, the value of these parameters is "InputStream".</source>
+          <target state="translated">Quand l'entrée ne vient pas du fichier, la valeur de ces paramètres est « InputStream ».</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>If you do not need the information in the MatchInfo object, use the Quiet parameter, which returns a Boolean value (true or false) to indicate whether it found a match, instead of a MatchInfo object.</source>
+          <target state="translated">Si vous n'avez pas besoin des informations contenues dans l'objet MatchInfo, utilisez le paramètre Quiet, qui retourne une valeur booléenne (true ou false) pour indiquer s'il a trouvé une correspondance, au lieu d'un objet MatchInfo.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>When matching phrases, Select-String uses the current culture that is set for the system.</source>
+          <target state="translated">Lors de la correspondance de phrases, Select-String utilise la culture actuelle définie pour le système.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>To find the current culture, use the T:Microsoft.PowerShell.Commands.Get-Culture cmdlet.</source>
+          <target state="translated">Pour trouver la culture actuelle, utilisez l'applet de commande T:Microsoft.PowerShell.Commands.Get-Culture.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>To find the properties of a MatchInfo object, type the following:</source>
+          <target state="translated">Pour trouver les propriétés d'un objet MatchInfo, tapez la commande suivante :</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>select-string -path test.txt -pattern "test" | get-member | format-list -property *</source>
+          <target state="translated">select-string -path test.txt -pattern "test" | get-member | format-list -property *</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LIENS CONNEXES</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>about_Comparison_Operators</source>
+          <target state="translated">about_Comparison_Operators</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>about_Regular_Expressions</source>
+          <target state="translated">about_Regular_Expressions</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

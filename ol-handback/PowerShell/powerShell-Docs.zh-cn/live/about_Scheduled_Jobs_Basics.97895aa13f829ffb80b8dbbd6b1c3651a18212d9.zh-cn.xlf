@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3f043267e33fe9484e9b339db8b296d86f49368</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\PSScheduledJob\About\about_Scheduled_Jobs_Basics.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9debfd19c6382e7c26a2cfe04c7633c9af89faea</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e99ca94ebd33390450190ddfd193a437dcca88e9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Basics</source>
+          <target state="translated">about_Scheduled_Jobs_Basics</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Scheduled Jobs Basics</source>
+          <target state="translated">有关计划的作业基础知识</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Basics</source>
+          <target state="translated">about_Scheduled_Jobs_Basics</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs_Basics</source>
+          <target state="translated">about_Scheduled_Jobs_Basics</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">简短说明</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Explains how to create and manage scheduled jobs.</source>
+          <target state="translated">说明如何创建和管理计划作业。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">详细说明</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This topic shows how to perform basic tasks of creating and managing scheduled jobs.</source>
+          <target state="translated">本主题演示如何执行创建和管理计划的作业的基本任务。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For information about more advanced tasks, see about_Scheduled_Jobs_Advanced.</source>
+          <target state="translated">有关更高级的任务的信息，请参阅 about_Scheduled_Jobs_Advanced。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>HOW TO CREATE A SCHEDULED JOB</source>
+          <target state="translated">如何创建计划的作业</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To create a scheduled job, use the Register-ScheduledJob cmdlet.</source>
+          <target state="translated">若要创建计划的作业，请使用 Register-scheduledjob cmdlet。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The cmdlet requires a name and the commands or script that the job runs.</source>
+          <target state="translated">该 cmdlet 需要一个名称和命令或在作业运行的脚本。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can either run the job immediately by adding the RunNow parameter, or create a job trigger and set job options when you create the job or at a later time.</source>
+          <target state="translated">您可以通过添加 RunNow 参数来立即运行该作业，或创建作业触发器和可以设置作业选项，创建作业时或更高版本时。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To create a job that runs a script, use the FilePath parameter to specify the path to the script file.</source>
+          <target state="translated">若要创建的作业的运行一个脚本，使用 FilePath 参数指定的脚本文件的路径。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To create a job that runs commands, use the ScriptBlock parameter.</source>
+          <target state="translated">若要创建运行命令的作业，请使用 ScriptBlock 参数。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following command creates the ProcessJob, which runs a Get-Process command.</source>
+          <target state="translated">下面的命令创建 ProcessJob，它运行 Get-process 命令。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This scheduled job has the default job options and no job trigger.</source>
+          <target state="translated">此计划的作业都有默认作业选项，没有作业触发器。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Register-ScheduledJob -Name ProcessJob -ScriptBlock { Get-Process }</source>
+          <target state="translated">PS c: &gt; Register-scheduledjob-命名 ProcessJob-ScriptBlock {Get-process}</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Id         Name            Triggers        Command       Enabled</source>
+          <target state="translated">Id 名称触发器命令启用</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>8          ProcessJob      {}              Get-Process   True</source>
+          <target state="translated">8 ProcessJob {} Get-process True</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>HOW TO CREATE A JOB TRIGGER</source>
+          <target state="translated">如何创建作业触发器</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Job triggers start a scheduled job automatically.</source>
+          <target state="translated">作业触发器会自动启动计划的作业。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A job trigger can be one-time or recurring schedule or an event, such as when a user logs on or Windows starts.</source>
+          <target state="translated">作业触发器可以是一次性或循环计划或事件，如当用户登录或 Windows 启动时。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Each job can have zero, one, or multiple job triggers.</source>
+          <target state="translated">每个作业可以有零行、 一行或多个作业触发器。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To create a job trigger, use the New-JobTrigger cmdlet.</source>
+          <target state="translated">若要创建作业触发器，请使用 New-jobtrigger cmdlet。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following command creates a job trigger that starts a job every Monday and Thursday at 5:00 AM.</source>
+          <target state="translated">下面的命令创建从上午 5:00 开始每个星期一到星期四的作业的作业触发器。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The command saves the job trigger in the $t variable.</source>
+          <target state="translated">该命令将作业触发器保存在 $t 变量。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>$t = New-JobTrigger -Weekly -DaysOfWeek "Monday", "Thursday" -At "5:00 AM"</source>
+          <target state="translated">$t = 新 JobTrigger-每周 DaysOfWeek"Monday"、"Thursday"-在"5:00 AM"</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Job triggers are optional.</source>
+          <target state="translated">作业触发器是可选的。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can start a scheduled job at any time by adding the RunNow parameter to your Register-ScheduledJob command, or by using the Start-Job cmdlets.</source>
+          <target state="translated">通过将 RunNow 参数添加到 Register-scheduledjob 命令中，或者通过使用 Start-job cmdlet，可以在任何时候启动计划的作业。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>HOW TO ADD A JOB TRIGGER</source>
+          <target state="translated">如何添加作业触发器</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When you add a job trigger to a scheduled job, the job trigger is added to the scheduled job XML file for the scheduled job and becomes part of the scheduled job.</source>
+          <target state="translated">在作业触发器添加到计划作业时，该作业触发器添加到计划作业的计划的作业 XML 文件，并将成为计划作业的一部分。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can add a job trigger to a scheduled job when you create the scheduled job or at a later time and you can change the job trigger of a scheduled job at any time.</source>
+          <target state="translated">您可以添加作业触发器的计划作业创建计划的作业时或者在以后的某个时间，并且您可以在任何时候更改计划作业的作业触发器。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses some of the same job triggers that Task Scheduler uses.</source>
+          <target state="translated">Windows PowerShell 将使用某些任务计划程序使用的同一个作业触发器。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For detailed information about job triggers, see the help topic for the New-JobTrigger cmdlet.</source>
+          <target state="translated">有关作业触发器的详细信息，请参阅 New-jobtrigger cmdlet 帮助主题。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The following command uses the Register-ScheduledJob cmdlet to create the process job.</source>
+          <target state="translated">下面的命令使用 Register-scheduledjob cmdlet 创建处理作业。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It uses the Trigger parameter to specify the job trigger in the $t variable.</source>
+          <target state="translated">它使用触发器参数在 $t 变量中指定的作业触发器。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Register-ScheduledJob -Name ProcessJob -ScriptBlock {Get-Command} -Trigger $t</source>
+          <target state="translated">Register-scheduledjob-命名 ProcessJob ScriptBlock {Get-command}-触发 $t</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can also add a job trigger to an existing scheduled job at any time.</source>
+          <target state="translated">您还可以在任何时候向现有的计划作业中添加作业触发器。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The following command adds the job trigger in the $t variable to the  ProcessJob scheduled job.</source>
+          <target state="translated">下面的命令将作业触发器在 $t 变量添加到 ProcessJob 计划作业。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Add-JobTrigger -Name ProcessJob -Trigger $t</source>
+          <target state="translated">Add-jobtrigger-命名 ProcessJob-触发 $t</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>As a result of this command, the job trigger starts the ProcessJob automatically every Monday and Thursday at 5:00 AM.</source>
+          <target state="translated">此命令的结果的作业触发器 ProcessJob 将自动启动每个星期一和星期二上午 5:00。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>HOW TO GET A JOB TRIGGER</source>
+          <target state="translated">如何获取作业触发器</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To get the job trigger of a scheduled job, use the Get-JobTrigger cmdlet.</source>
+          <target state="translated">若要获取计划作业的作业触发器，请使用 Get-jobtrigger cmdlet。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Use the Name, ID, and InputObject parameters to specify the scheduled job (not the job trigger).</source>
+          <target state="translated">使用名称、 ID 和 InputObject 参数来指定计划的作业 （不作业触发器）。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The following command gets the job trigger of the ProcessJob.</source>
+          <target state="translated">以下命令将获取 ProcessJob 的作业触发器。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-JobTrigger -Name ProcessJob</source>
+          <target state="translated">PS c: &gt; Get-jobtrigger-命名 ProcessJob</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Id   Frequency       Time                   DaysOfWeek              Enabled</source>
+          <target state="translated">Id 频率时间 DaysOfWeek 启用</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>1    Weekly          11/7/2011 5:00:00 AM   {Monday, Thursday}      True</source>
+          <target state="translated">1 每周 11/7/2011年 5:00:00 AM {星期一、 星期四} True</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>HOW TO CREATE JOB OPTIONS</source>
+          <target state="translated">如何创建作业选项</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Job options establish conditions for starting and running the job.</source>
+          <target state="translated">作业选项建立启动并运行该作业的条件。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Every job has the default job options unless you change them.</source>
+          <target state="translated">每个作业有默认作业选项，除非您更改它们。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Because job options can prevent a job from running at the scheduled time, it is important to understand the job options and use them carefully.</source>
+          <target state="translated">由于作业选项可防止在计划的时间运行作业，务必了解作业选项并小心地使用它们。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses the same job options that Task Scheduler uses.</source>
+          <target state="translated">Windows PowerShell 使用任务计划程序使用的同一作业选项。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For detailed information about the job options, see the help topic for the New-ScheduledJobOption cmdlet.</source>
+          <target state="translated">有关作业选项的详细信息，请参阅 New-scheduledjoboption cmdlet 帮助主题。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Type "Get-Help New-ScheduledJobOption" or see the help topic online at http://go.microsoft.com/fwlink/?LinkID=223915.</source>
+          <target state="translated">键入"Get-help New-scheduledjoboption"或参阅 http://go.microsoft.com/fwlink/?LinkID=223915 在联机帮助主题。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Job options are stored in the scheduled job XML file.</source>
+          <target state="translated">在计划的作业的 XML 文件中存储的作业选项。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can set job options when you create a scheduled job or change them at any time.</source>
+          <target state="translated">当您创建的计划的作业或更改它们在任何时候，可以设置作业选项。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The following command creates a scheduled job option in which the WakeToRun scheduled job option is set to True.</source>
+          <target state="translated">以下命令将创建在其中 WakeToRun 计划作业选项设置为 True 的计划的作业选项。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The WakeToRun option runs the scheduled job even if the computer is in the Sleep or Hibernate state at the scheduled start time.</source>
+          <target state="translated">WakeToRun 选项运行计划的作业，即使计算机处于睡眠或休眠状态是在计划的开始时间。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The command saves the job options in the $o variable.</source>
+          <target state="translated">该命令将作业选项保存在 $o 变量。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>$o = New-ScheduledJobOption -WakeToRun</source>
+          <target state="translated">$o = 新 ScheduledJobOption WakeToRun</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>HOW TO GET JOB OPTIONS</source>
+          <target state="translated">如何获取作业选项</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To get the job options of a scheduled job, use the Get-ScheduledJobOption cmdlet.</source>
+          <target state="translated">若要获取计划作业的作业选项，请使用 Get-scheduledjoboption cmdlet。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Use the Name, ID, and InputObject parameters to specify the scheduled job (not the job options).</source>
+          <target state="translated">使用名称、 ID 和 InputObject 参数来指定计划的作业 （不作业选项）。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The following command gets the job options of the ProcessJob.</source>
+          <target state="translated">以下命令将获取 ProcessJob 的作业选项。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJobOption -Name ProcessJob</source>
+          <target state="translated">PS c: &gt; Get-scheduledjoboption-命名 ProcessJob</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>StartIfOnBatteries     : False StopIfGoingOnBatteries : True WakeToRun              : False StartIfNotIdle         : True StopIfGoingOffIdle     : False RestartOnIdleResume    : False IdleDuration           : 00:10:00 IdleTimeout            : 01:00:00 ShowInTaskScheduler    : True RunElevated            : False RunWithoutNetwork      : True DoNotAllowDemandStart  : False MultipleInstancePolicy : IgnoreNew JobDefinition          : Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</source>
+          <target state="translated">StartIfOnBatteries: False StopIfGoingOnBatteries: True WakeToRun: False StartIfNotIdle: True StopIfGoingOffIdle: False RestartOnIdleResume: False IdleDuration: 00:10:00 IdleTimeout: 01:00:00 ShowInTaskScheduler: True RunElevated: False RunWithoutNetwork: True DoNotAllowDemandStart: False MultipleInstancePolicy: IgnoreNew JobDefinition: Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>HOW TO CHANGE JOB OPTIONS</source>
+          <target state="translated">如何更改作业选项</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You can change the job options of a scheduled job when you create a scheduled job or at any time thereafter.</source>
+          <target state="translated">您可以更改或在此后任何时间的计划作业时创建的计划的作业的作业选项。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The following command uses the Register-JobTrigger cmdlet to create the process job.</source>
+          <target state="translated">下面的命令使用寄存器 JobTrigger cmdlet 创建处理作业。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It uses the ScheduledJobOption parameter to specify the job options in the $o variable.</source>
+          <target state="translated">它使用 ScheduledJobOption 参数在 $o 变量中指定的作业选项。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Register-JobTrigger -Name ProcessJob -ScriptBlock {Get-Process} -ScheduledJobOption $o</source>
+          <target state="translated">注册 JobTrigger-命名 ProcessJob-ScriptBlock {Get-process} ScheduledJobOption $o</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You can also change the job options to an existing scheduled job at any time.</source>
+          <target state="translated">您还可以在任何时候向现有的计划作业中更改作业选项。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The following command uses the Set-ScheduledJobOption cmdlet to change the value of the WakeToRun option of the ProcessJob scheduledJob to True.</source>
+          <target state="translated">下面的命令使用 Set-scheduledjoboption cmdlet 将 ProcessJob scheduledJob WakeToRun 选项的值更改为 True。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Like all of the Set cmdlets in the PSScheduledJob module, Set-ScheduledJobOption cmdlet does not have Name or ID parameters.</source>
+          <target state="translated">就像所有 PSScheduledJob 模块中的组 cmdlet Set-scheduledjoboption cmdlet 不具有名称或 ID 参数。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You can use the InputObject parameter to specify the scheduled job options or pipe a scheduled job from Get-ScheduledJobOption cmdlet to Set-ScheduledJobOption.</source>
+          <target state="translated">可以使用 InputObject 参数来指定计划的作业选项或通过管道传递到 Set-scheduledjoboption 将计划的作业从 Get-scheduledjoboption cmdlet。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The following command uses the Get-ScheduledJob cmdlet to get the ProcessJob.</source>
+          <target state="translated">下面的命令使用 Get-scheduledjob cmdlet 来获取 ProcessJob。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>It uses the Get-ScheduledJobOption cmdlet to get the job options in the ProcessJob and the Set-ScheduledJobOption cmdlet to change the WakeToRun job option in the ProcessJob to True.</source>
+          <target state="translated">它使用 Get-scheduledjoboption cmdlet 来获取 ProcessJob 和 Set-scheduledjoboption cmdlet 中的作业选项，以将 ProcessJob 中的 WakeToRun 作业选项更改为 True。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Get-ScheduledJob -Name ProcessJob | Get-ScheduledJobOption | Set-ScheduledJobOption -WakeToRun</source>
+          <target state="translated">Get-scheduledjob-命名 ProcessJob |Get-scheduledjoboption |Set-scheduledjoboption WakeToRun</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>HOW TO GET SCHEDULED JOB INSTANCES</source>
+          <target state="translated">如何获取计划的作业实例</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>When a scheduled job is started, Windows PowerShell creates a job instance that is similar to a standard Windows PowerShell background job.</source>
+          <target state="translated">当启动计划的作业时，Windows PowerShell 将创建类似于标准的 Windows PowerShell 后台作业的作业实例。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You can use the Job cmdlets, such as Get-Job, Stop-Job and Receive-Job to manage the job instances.</source>
+          <target state="translated">可以使用 Job cmdlet，如 Get-job，停止作业，并接收作业管理作业实例。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>NOTE: To use the Job cmdlets on instances of scheduled jobs, the PSScheduledJob module  must be imported into the session.</source>
+          <target state="translated">注意︰ 若要在计划作业的实例上使用 Job cmdlet，PSScheduledJob 模块必须导入到会话。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To import the PSScheduledJob module, type "Import-Module PSScheduledJob" (without quotation marks) or use any Scheduled Job cmdlet, such as Get-ScheduledJob.</source>
+          <target state="translated">若要导入 PSScheduledJob 模块，请键入"Import-module PSScheduledJob"（不带引号），或使用任何 Scheduled Job cmdlet，如 Get-scheduledjob。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To get all instances of Windows PowerShell scheduled jobs (and all active standard jobs), use the Get-Job cmdlet.</source>
+          <target state="translated">若要获取 Windows PowerShell 计划作业 （和所有活动的标准作业） 的所有实例，请使用 Get-job cmdlet。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The following command imports the PSScheduledJob module and then gets all jobs on the local computer.</source>
+          <target state="translated">下面的命令导入 PSScheduledJob 模块并再获取本地计算机上的所有作业。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Import-Module PSScheduledJob</source>
+          <target state="translated">PS c: &gt; 导入模块 PSScheduledJob</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job</source>
+          <target state="translated">PS c: &gt; 获取作业</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The following command gets all instances of the ProcessJob on the local computer.</source>
+          <target state="translated">以下命令将获取本地计算机上的 ProcessJob 所有实例。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job -Name ProcessJob</source>
+          <target state="translated">PS c: &gt; 获取作业的名称 ProcessJob</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Id     Name        PSJobTypeName  State    HasMoreData   Location   Command</source>
+          <target state="translated">Id 名称 PSJobTypeName 状态 HasMoreData 位置命令</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>45     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 46     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 47     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 48     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 49     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 50     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process 51     ProcessJob  PSScheduledJob Completed       True   localhost   Get-Process</source>
+          <target state="translated">45 ProcessJob PSScheduledJob 完成，则返回 True localhost Get-process 46 ProcessJob PSScheduledJob 完成，则返回 True localhost Get-process 47 ProcessJob PSScheduledJob 完成，则返回 True localhost Get-process 48 ProcessJob PSScheduledJob 完成，则返回 True localhost Get-process 49 ProcessJob PSScheduledJob 完成，则返回 True localhost Get-process 50 ProcessJob PSScheduledJob 完成，则返回 True localhost Get-process 51 ProcessJob PSScheduledJob 完成，则返回 True localhost 获取进程</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The default display does not show the start time, which typically distinguishes instances of the same scheduled job.</source>
+          <target state="translated">默认显示不显示开始时间，通常将相同的计划作业的实例区分开来。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The following command uses the Format-Table cmdlet to display the Name, ID, and BeginTime  properties of the scheduled job.</source>
+          <target state="translated">下面的命令使用 Format-table cmdlet 来显示计划的作业的名称、 ID 和 BeginTime 属性。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job ProcessJob | Format-Table -Property Name, ID, BeginTime</source>
+          <target state="translated">PS c: &gt; Get-job ProcessJob |表格格式的属性名称、 ID、 BeginTime</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Name       Id BeginTime</source>
+          <target state="translated">名称 Id BeginTime</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>ProcessJob 43 11/2/2011 3:00:02 AM ProcessJob 44 11/3/2011 3:00:02 AM ProcessJob 45 11/4/2011 3:00:02 AM ProcessJob 46 11/5/2011 3:00:02 AM ProcessJob 47 11/6/2011 3:00:02 AM ProcessJob 48 11/7/2011 12:00:01 AM ProcessJob 49 11/7/2011 3:00:02 AM ProcessJob 50 11/8/2011 3:00:02 AM</source>
+          <target state="translated">ProcessJob 43 11/2/2011年上午 3:00:02 ProcessJob 44 11/3/2011年上午 3:00:02 ProcessJob 45 11/4/2011年上午 3:00:02 ProcessJob 46 11/5/2011年上午 3:00:02 ProcessJob 47 11/6/2011年上午 3:00:02 ProcessJob 48 11/7/2011年 12:00:01 AM ProcessJob 49 11/7/2011年上午 3:00:02 ProcessJob 50 11/8/2011年上午 3:00:02</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>GET SCHEDULED JOB RESULTS</source>
+          <target state="translated">获取计划的作业结果</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To get the results of an instance of a scheduled job, use the Receive-Job cmdlet.</source>
+          <target state="translated">若要获取的计划作业实例结果，请使用 Receive-job cmdlet。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>NOTE: To use the Job cmdlets on instances of scheduled jobs, the PSScheduledJob module must be imported into the session.</source>
+          <target state="translated">注意︰ 若要在计划作业的实例上使用 Job cmdlet，PSScheduledJob 模块必须导入到会话。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To import the PSScheduledJob module, type "Import-Module PSScheduledJob" (without quotation marks) or use any Scheduled Job cmdlet, such as Get-ScheduledJob.</source>
+          <target state="translated">若要导入 PSScheduledJob 模块，请键入"Import-module PSScheduledJob"（不带引号），或使用任何 Scheduled Job cmdlet，如 Get-scheduledjob。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The following command gets the results of the newest instance of the ProcessJob scheduled job (ID = 51)</source>
+          <target state="translated">以下命令将获取 ProcessJob 计划作业的新实例的结果 (ID = 51)</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Import-Module PSScheduledJob</source>
+          <target state="translated">PS c: &gt; 导入模块 PSScheduledJob</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Receive-Job -ID 51 -Keep</source>
+          <target state="translated">PS c: &gt; 接收作业的 ID 51-保留</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The results of scheduled jobs are saved on disk, so the Keep parameter of Receive-Job is not required.</source>
+          <target state="translated">计划作业的结果保存在磁盘上，因此无需接收作业的保留参数。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>However, without the Keep parameter, you can get the results of a scheduled job only once in each Windows PowerShell session.</source>
+          <target state="translated">但是，如果不保留参数中，您可以获取每个 Windows PowerShell 会话中计划的作业仅执行一次的结果。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To start a new Windows PowerShell session, type "PowerShell" or open a new Windows PowerShell window.</source>
+          <target state="translated">若要启动新的 Windows PowerShell 会话，请键入"PowerShell"，或打开一个新的 Windows PowerShell 窗口。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">另请参阅</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>about_Scheduled_Jobs about_Scheduled_Jobs_Advanced about_Scheduled_Jobs_Troubleshooting</source>
+          <target state="translated">about_Scheduled_Jobs about_Scheduled_Jobs_Advanced about_Scheduled_Jobs_Troubleshooting</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

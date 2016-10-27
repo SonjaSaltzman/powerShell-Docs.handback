@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">65a2292e5061a638a4a67ec33fc8cea03af079d7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\New-Module.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e6f9785ba3967db4d960bc2cd63844aed8dbd315</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4bc9dc8bf5a8c9c6c6385ecb5cdab473559bcefe</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell-Cmdlets</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">ZUSAMMENFASSUNG</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates a new dynamic module that exists only in memory.</source>
+          <target state="translated">Erstellt ein neues dynamisches Modul, das nur im Arbeitsspeicher vorhanden ist.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAX</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ScriptBlock (Default)</source>
+          <target state="translated">Skriptblock (Standard)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">Name</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The New-Module cmdlet creates a dynamic module from a script block.</source>
+          <target state="translated">Das New-Module-Cmdlet erstellt ein dynamisches Modul aus einen Skriptblock.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The members of the dynamic module, such as functions and variables, are immediately available in the session and remain available until you close the session.</source>
+          <target state="translated">Die Elemente des dynamischen Moduls, wie z. B. Funktionen und Variablen, sind in der Sitzung sofort verfügbar und bleiben verfügbar, bis Sie die Sitzung schließen.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Like static modules, by default, the cmdlets and functions in a dynamic module are exported and the variables and aliases are not.</source>
+          <target state="translated">Wie bei statischen Modulen werden in einem dynamischen Modul die Cmdlets und Funktionen standardmäßig exportiert, die Variablen und Aliase jedoch nicht.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, you can use the Export-ModuleMember cmdlet and the parameters of New-Module to override the defaults.</source>
+          <target state="translated">Sie können aber das Export-ModuleMember-Cmdlet und die Parameter von New-Module verwenden, um die Standardwerte zu überschreiben.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can also use the AsCustomObject parameter of the New-Module cmdlet to return the dynamic module as a custom object.</source>
+          <target state="translated">Daneben können Sie den AsCustomObject-Parameter des New-Module-Cmdlets verwenden, um das dynamische Modul als benutzerdefiniertes Objekt zurückzugeben.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The members of the modules, such as functions, are implemented as script methods of the custom object instead of being imported into the session.</source>
+          <target state="translated">Die Elemente der Module, wie z. B. Funktionen, werden als Skriptmethoden des benutzerdefinierten Objekts implementiert, statt in die Sitzung importiert zu werden.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Dynamic modules  exist only in memory, not on disk.</source>
+          <target state="translated">Dynamische Module sind nur im Arbeitsspeicher vorhanden, nicht auf dem Datenträger.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Like all modules, the members of dynamic modules run in a private module scope that is a child of the global scope.</source>
+          <target state="translated">Wie bei allen Modulen werden die Elemente von dynamischen Modulen in einem privaten Modulbereich ausgeführt, der ein untergeordnetes Element des globalen Bereichs ist.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Get-Module cannot get a dynamic module, but Get-Command can get the exported members.</source>
+          <target state="translated">Get-Module kann kein dynamisches Modul abrufen; Get-Command kann jedoch die exportierten Elemente abrufen.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To make a dynamic module available to Get-Module, pipe a New-Module command to Import-Module, or pipe the module object that New-Module returns to Import-Module.</source>
+          <target state="translated">Um ein dynamisches Modul in Get-Module zur Verfügung zu stellen, übergeben Sie einen New-Module-Befehl an Import-Module, oder übergeben Sie das von New-Module zurückgegebene Modulobjekt an Import-Module.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This action adds the dynamic module to the Get-Module list, but it does not save the module to disk or make it persistent.</source>
+          <target state="translated">Durch diese Aktion wird das dynamische Modul der Get-Module-Liste hinzugefügt, aber das Modul wird nicht auf den Datenträger gespeichert oder persistent gemacht.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">BEISPIELE</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- BEISPIEL 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command creates a new dynamic module with a function called "Hello".</source>
+          <target state="translated">Dieser Befehl erstellt ein neues dynamisches Modul mit einer Funktion namens „Hello“.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The command returns a module object that represents the new dynamic module.</source>
+          <target state="translated">Der Befehl gibt ein Modulobjekt zurück, das das neue dynamische Modul darstellt.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that dynamic modules are not returned by the Get-Module cmdlet, but the members that they export are returned by the Get-Command cmdlet.</source>
+          <target state="translated">Dieses Beispiel zeigt, dass dynamische Module nicht durch das Get-Module-Cmdlet zurückgegeben werden, dass aber die von ihm exportierten Elemente durch das Get-Command-Cmdlet zurückgegeben werden.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command uses the Export-ModuleMember cmdlet to export a variable into the current session.</source>
+          <target state="translated">Dieser Befehl verwendet das Export-ModuleMember-Cmdlet zum Exportieren einer Variablen in die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Without the Export-ModuleMember command, only the function is exported.</source>
+          <target state="translated">Ohne den Export-ModuleMember-Befehl wird nur die Funktion exportiert.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The output shows that both the variable and the function were exported into the session.</source>
+          <target state="translated">Die Ausgabe zeigt, dass die Variable und die Funktion in die Sitzung exportiert wurden.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command demonstrates that you can make a dynamic module available to the Get-Module cmdlet by piping the dynamic module to the Import-Module cmdlet.</source>
+          <target state="translated">Dieser Befehl zeigt, dass Sie ein dynamisches Modul im Get-Module-Cmdlet verfügbar machen können, indem Sie das dynamische Modul an das Import-Module-Cmdlet übergeben.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The first command uses a pipeline operator (|) to send the module object that New-Module generates to the Import-Module cmdlet.</source>
+          <target state="translated">Der erste Befehl verwendet einen Pipelineoperator (|), um das von New-Module generierte Modulobjekt an das Import-Module-Cmdlet zu senden.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The command uses the Name parameter of New-Module to assign a friendly name to the module.</source>
+          <target state="translated">Der Befehl verwendet den Name-Parameter von New-Module, um dem Modul einen Anzeigenamen zuzuweisen.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Because Import-Module does not return any objects by default, there is no output from this command.</source>
+          <target state="translated">Da Import-Module in der Standardeinstellung keine Objekte zurückgibt, generiert dieser Befehl keine Ausgabe.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-Module cmdlet to get the modules in the session.</source>
+          <target state="translated">Der zweite Befehl verwendet das Get-Module-Cmdlet, um die Module in der Sitzung abzurufen.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The result shows that Get-Module can get the new dynamic module.</source>
+          <target state="translated">Das Ergebnis zeigt, dass Get-Modul das neue dynamische Modul abrufen kann.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The third command uses the Get-Command cmdlet to get the Hello function that the dynamic module exports.</source>
+          <target state="translated">Der dritte Befehl verwendet das Get-Command-Cmdlet, um die vom dynamischen Modul exportierte Funktion „Hello“ abzurufen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the AsCustomObject parameter of New-Module to generate a custom object with script methods that represent the exported functions.</source>
+          <target state="translated">Dieses Beispiel zeigt die Verwendung des AsCustomObject-Parameters von New-Module zum Generieren eines benutzerdefinierten Objekts mit Skriptmethoden, die die exportierten Funktionen darstellen.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The first command uses the New-Module cmdlet to generate a dynamic module with two functions, Hello and Goodbye.</source>
+          <target state="translated">Der erste Befehl verwendet das New-Module-Cmdlet zum Generieren eines dynamischen Moduls mit zwei Funktionen, „Hello“ und „Goodbye“.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The command uses the AsCustomObject parameter to generate a custom object instead of the PSModuleInfo object that New-Module generates by default.</source>
+          <target state="translated">Der Befehl verwendet den AsCustomObject-Parameter, um ein benutzerdefiniertes Objekt anstelle des PSModuleInfo-Objekts zu generieren, das standardmäßig von New-Module generiert wird.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The command saves the custom object in the $m variable.</source>
+          <target state="translated">Der Befehl speichert das benutzerdefinierte Objekt in der $m-Variablen.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The second command attempts to display the value of the $m variable.</source>
+          <target state="translated">Der zweite Befehl versucht, den Wert der $m-Variablen anzuzeigen.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>No content appears.</source>
+          <target state="translated">Es wird kein Inhalt angezeigt.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The third command uses a pipeline operator (|) to send the custom object to the Get-Member cmdlet, which displays the properties and methods of the custom object.</source>
+          <target state="translated">Der dritte Befehl verwendet einen Pipelineoperator (|), um das benutzerdefinierte Objekt an das Get-Member-Cmdlet zu senden, das die Eigenschaften und Methoden des benutzerdefinierten Objekts anzeigt.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The output shows that the object has script methods that represent the Hello and Goodbye functions.</source>
+          <target state="translated">Die Ausgabe zeigt, dass das Objekt über Skriptmethoden verfügt, die die Funktionen „Hello“ und „Goodbye“ darstellen.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The fourth and fifth commands use the script method format to call the Hello and Goodbye functions.</source>
+          <target state="translated">Der vierte und fünfte Befehl verwenden das Skriptmethodenformat, um die Funktionen „Hello“ und „Goodbye“ aufzurufen.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This command uses the ReturnResult parameter to request the results of running the script block instead of requesting a module object.</source>
+          <target state="translated">Dieser Befehl verwendet den ReturnResult-Parameter, um die Ergebnisse der Ausführung des Skriptblocks statt eines Modulobjekts anzufordern.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The script block in the new module defines the SayHello function and then calls the function.</source>
+          <target state="translated">Der Skriptblock in dem neuen Modul definiert die Funktion „SayHello“ und ruft dann die Funktion auf.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETER</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Specifies arguments (parameter values) that are passed to the script block.</source>
+          <target state="translated">Gibt die Argumente (Parameterwerte) an, die an den Skriptblock übergeben werden.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-AsCustomObject</source>
+          <target state="translated">-AsCustomObject</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Returns a custom object that represents the dynamic module.</source>
+          <target state="translated">Gibt ein benutzerdefiniertes Objekt zurück, das das dynamische Modul darstellt.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The module members are implemented as script methods of the custom object, but they are not imported into the session.</source>
+          <target state="translated">Die Modulelemente werden als Skriptmethoden des benutzerdefinierten Objekts implementiert, aber sie werden nicht in die Sitzung importiert.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can save the custom object in a variable and use dot notation to invoke the members.</source>
+          <target state="translated">Sie können das benutzerdefinierte Objekt in einer Variablen speichern und die punktierte Schreibweise verwenden, um die Elemente aufzurufen.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If the module has multiple members with the same name, such as a function and a variable that are both named "A," only one member with each name is accessible from the custom object.</source>
+          <target state="translated">Wenn das Modul mehrere Elemente mit dem gleichen Namen hat, z. B. eine Funktion und Variable, die beide den Namen „A“ tragen, kann nur auf ein Element pro Name vom benutzerdefinierten Objekt aus zugegriffen werden.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-Cmdlet</source>
+          <target state="translated">-Cmdlet</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Exports only the specified cmdlets from the module into the current session.</source>
+          <target state="translated">Exportiert nur die angegebenen Cmdlets aus dem Modul in die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Enter a comma-separated list of cmdlets.</source>
+          <target state="translated">Geben Sie eine kommagetrennte Liste von Cmdlets ein.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">Platzhalterzeichen sind zulässig.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>By default, all cmdlets in the module are exported.</source>
+          <target state="translated">Standardmäßig werden alle Cmdlets im Modul exportiert.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You cannot define cmdlets in a script block, but a dynamic module can include cmdlets if it imports the cmdlets from a binary module.</source>
+          <target state="translated">Sie können keine Cmdlets in einem Skriptblock definieren, aber ein dynamisches Modul kann Cmdlets enthalten, wenn es die Cmdlets aus einem binären Modul importiert.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-Function</source>
+          <target state="translated">-Funktion</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Exports only the specified functions from the module into the current session.</source>
+          <target state="translated">Exportiert nur die angegebenen Funktionen aus dem Modul in die aktuelle Sitzung.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Enter a comma-separated list of functions.</source>
+          <target state="translated">Geben Sie eine kommagetrennte Liste von Funktionen ein.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">Platzhalterzeichen sind zulässig.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>By default, all functions defined in a module are exported.</source>
+          <target state="translated">Standardmäßig werden alle in einem Modul definierten Funktionen exportiert.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies a name for the new module.</source>
+          <target state="translated">Gibt einen Namen für das neue Modul an.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You can also pipe a module name to New-Module.</source>
+          <target state="translated">Sie können auch einen Modulnamen an New-Module übergeben.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The default value is an autogenerated name that begins with "_<bpt id="p1">_</bpt>DynamicModule<ept id="p1">_</ept>" and is followed by a GUID that specifies the path to the dynamic module.</source>
+          <target state="translated">Der Standardwert ist ein automatisch generierter Name, der mit "_<bpt id="p1">_</bpt>DynamicModule<ept id="p1">_</ept>" gefolgt von einer GUID, die den Pfad zum dynamischen Modul angibt.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-ReturnResult</source>
+          <target state="translated">-ReturnResult</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Runs the script block and returns the script block results instead of returning a module object.</source>
+          <target state="translated">Führt den Skriptblock aus und gibt die Skriptblockergebnisse anstatt eines Modulobjekts zurück.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-ScriptBlock</source>
+          <target state="translated">-Skriptblock</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Specifies the contents of the dynamic module.</source>
+          <target state="translated">Gibt den Inhalt des dynamischen Moduls an.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Enclose the contents in braces ( { } ) to create a script block.</source>
+          <target state="translated">Schließen Sie den Inhalt in geschweifte Klammern ({}) ein, um einen Skriptblock zu erstellen.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">Dieser Parameter ist erforderlich.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Dieses Cmdlet unterstützt die allgemeinen Parameter:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, -InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction und -WarningVariable.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Weitere Informationen finden Sie unter "about_commonparameters" (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">EINGABEN</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>You can pipe a module name string to New-Module.</source>
+          <target state="translated">Sie können eine Modulnamenzeichenfolge an New-Module übergeben.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">AUSGABEN</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSModuleInfo, System.Management.Automation.PSCustomObject, or None</source>
+          <target state="translated">System.Management.Automation.PSModuleInfo, System.Management.Automation.PSCustomObject oder None</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>By default, New-Module generates a PSModuleInfo object.</source>
+          <target state="translated">Standardmäßig generiert New-Module ein PSModuleInfo-Objekt.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If you use the AsCustomObject parameter, it generates a PSCustomObject object.</source>
+          <target state="translated">Wenn Sie den AsCustomObject-Parameter verwenden, generiert er ein PSCustomObject-Objekt.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If you use the ReturnResult parameter, it returns the result of evaluating the script block in the dynamic module.</source>
+          <target state="translated">Wenn Sie den ReturnResult-Parameter verwenden, wird das Ergebnis der Auswertung des Skriptblock im dynamischen Modul zurückgegeben.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTIZEN</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>You can also refer to New-Module by its alias, "nmo".</source>
+          <target state="translated">Sie können auch über den Alias „nmo“ auf New-Module verweisen.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">Weitere Informationen finden Sie unter %%amp;quot;about_Aliases%%amp;quot;.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VERWANDTE LINKS</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Export-ModuleMember</source>
+          <target state="translated">Export-ModuleMember</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Get-Module</source>
+          <target state="translated">Get-Module</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Remove-Module</source>
+          <target state="translated">Remove-Module</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>about_Modules</source>
+          <target state="translated">about_Modules</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

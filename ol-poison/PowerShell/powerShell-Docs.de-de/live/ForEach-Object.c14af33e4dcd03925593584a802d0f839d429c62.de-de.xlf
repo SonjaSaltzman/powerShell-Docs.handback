@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">076d5b53801a066ecd4910aaae05ce4d69fb8382</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\ForEach-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">979a1b4951aab29ab968a16f5844f6519ed93a02</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e1b94049ce73f84d2409be9e9f0eb413460e70c5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell-Cmdlets</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ForEach-Object</source>
+          <target state="translated">ForEach-Object</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>ForEach-Object</source>
+          <target state="translated">ForEach-Object</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">ZUSAMMENFASSUNG</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Performs an operation against each item in a collection of input objects.</source>
+          <target state="translated">Führt einen Vorgang für jedes Element in einer Auflistung von Eingabeobjekten aus.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAX</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ScriptBlockSet (Default)</source>
+          <target state="translated">ScriptBlockSet (Standard)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>PropertyAndMethodSet</source>
+          <target state="translated">PropertyAndMethodSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> cmdlet performs an operation on each item in a collection of input objects.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> Cmdlet führt einen Vorgang für jedes Element in einer Sammlung von Eingabeobjekten.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The input objects can be piped to the cmdlet or specified by using the InputObject parameter.</source>
+          <target state="translated">Die Eingabeobjekte können an das Cmdlet übergeben oder anhand des InputObject-Parameters angegeben werden.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, there are two different ways to construct a <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> command.</source>
+          <target state="translated">Ab Windows PowerShell 3.0 stehen zwei Möglichkeiten zum Erstellen einer <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> Befehl.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Script block<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Skriptblock<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can use a script block to specify the operation.</source>
+          <target state="translated">Sie können einen Skriptblock verwenden, um den Vorgang anzugeben.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Within the script block, use the $_ variable to represent the current object.</source>
+          <target state="translated">Verwenden Sie die $_-Variable innerhalb des Skriptblocks zur Darstellung des aktuellen Objekts.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The script block is the value of the <bpt id="p1">**</bpt>Process<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Der Skriptblock ist der Wert der <bpt id="p1">**</bpt>Prozess<ept id="p1">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The script block can contain any Windows PowerShell script.</source>
+          <target state="translated">Der Skriptblock kann jedes beliebige Windows PowerShell-Skript enthalten.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, the following command gets the value of the <bpt id="p1">**</bpt>ProcessName<ept id="p1">**</ept> property of each process on the computer.</source>
+          <target state="translated">Beispielsweise der folgende Befehl ruft den Wert der <bpt id="p1">**</bpt>ProcessName<ept id="p1">**</ept> -Eigenschaft der einzelnen Prozesse auf dem Computer.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Operation statement<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Die Anweisung<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can also write a operation statement, which is much more like natural language.</source>
+          <target state="translated">Sie können auch eine Vorgangsanweisung schreiben, die wesentlich stärker der natürlichen Sprache gleicht.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can use the operation statement to specify a property value or call a method.</source>
+          <target state="translated">Sie können die Vorgangsanweisung verwenden, um einen Eigenschaftenwert anzugeben oder eine Methode aufzurufen.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Operation statements were introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Vorgangsanweisungen wurden in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example, the following command also gets the value of the <bpt id="p1">**</bpt>ProcessName<ept id="p1">**</ept> property of each process on the computer.</source>
+          <target state="translated">Der folgende Befehl ruft z. B. auch den Wert der <bpt id="p1">**</bpt>ProcessName<ept id="p1">**</ept> -Eigenschaft der einzelnen Prozesse auf dem Computer.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When using the script block format, in addition to using the script block that describes the operations that are performed on each input object, you can provide two additional script blocks.</source>
+          <target state="translated">Wenn Sie das Skriptblockformat verwenden, können Sie neben dem Skriptblock, der die in jedem Eingabeobjekt durchgeführten Vorgänge beschreibt, zwei zusätzliche Skriptblocks bereitstellen.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The Begin script block, which is the value of the <bpt id="p1">**</bpt>Begin<ept id="p1">**</ept> parameter, runs before the first input object is processed.</source>
+          <target state="translated">Der Skriptblock Begin, dies ist der Wert von der <bpt id="p1">**</bpt>beginnen<ept id="p1">**</ept> Parameter ausgeführt wird, bevor das erste Eingabeobjekt verarbeitet wird.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The End script block, which is the value of the <bpt id="p1">**</bpt>End<ept id="p1">**</ept> parameter, runs after the last input object is processed.</source>
+          <target state="translated">Der Skriptblock End Dies ist der Wert von der <bpt id="p1">**</bpt>End<ept id="p1">**</ept> Parameter ausgeführt wird, nachdem das letzte Eingabeobjekt verarbeitet wird.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">BEISPIELE</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- BEISPIEL 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command takes an array of three integers and divides each one of them by 1024.</source>
+          <target state="translated">Dieser Befehl akzeptiert ein Array von drei ganzen Zahlen und teilt sie jeweils durch 1024.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command gets the files and directories in the Windows PowerShell installation directory ($pshome) and passes them to the ForEach-Object cmdlet.</source>
+          <target state="translated">Dieser Befehl ruft die Dateien und Verzeichnisse im Installationsverzeichnis von Windows PowerShell ($pshome) ab und übergibt sie an das ForEach-Object-Cmdlet.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If the object is not a directory (the value of the PSISContainer property is false), the script block gets the name of the file, divides the value of its Length property by 1024, and adds a space ("") to separate it from the next entry.</source>
+          <target state="translated">Wenn das Objekt kein Verzeichnis ist (der Wert der PSISContainer-Eigenschaft „false“ ist), dann ruft der Skriptblock den Namen der Datei ab, teilt den Wert der Length-Eigenschaft durch 1024 und fügt ein Leerzeichen („ “) hinzu, um ihn vom nächsten Eintrag zu trennen.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This command gets the 1000 most recent events from the System event log and stores them in the $Events variable.</source>
+          <target state="translated">Dieser Befehl ruft die letzten 1000 Ereignisse aus dem Systemereignisprotokoll ab und speichert diese in der $Events-Variablen.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>It then pipes the events to the <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Dann übergibt er die Ereignisse, die die <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> Cmdlet.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Begin<ept id="p1">**</ept> parameter displays the current date and time.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>beginnen<ept id="p1">**</ept> Parameter zeigt das aktuelle Datum und die Uhrzeit.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Next, the <bpt id="p1">**</bpt>Process<ept id="p1">**</ept> parameter uses the <bpt id="p2">**</bpt>Out-File<ept id="p2">**</ept> cmdlet to create a text file named events.txt and stores the message property of each of the events in that file.</source>
+          <target state="translated">Als Nächstes die <bpt id="p1">**</bpt>Prozess<ept id="p1">**</ept> Parameter verwendet die <bpt id="p2">**</bpt>Out-File<ept id="p2">**</ept> -Cmdlet zum Erstellen einer Textdatei mit dem Namen "Events.txt" und speichert die Message-Eigenschaft der einzelnen Ereignisse in dieser Datei.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Last, the <bpt id="p1">**</bpt>End<ept id="p1">**</ept> parameter is used to display the date and time after all of the processing has completed.</source>
+          <target state="translated">Letzte, die <bpt id="p1">**</bpt>End<ept id="p1">**</ept> Parameter wird verwendet, um das Datum anzuzeigen und die Zeit nach allen die Verarbeitung abgeschlossen wurde.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This command changes the value of the <bpt id="p1">**</bpt>RemotePath<ept id="p1">**</ept> registry entry in all of the subkeys under the HKCU:\Network key to uppercase text.</source>
+          <target state="translated">Dieser Befehl ändert den Wert der <bpt id="p1">**</bpt>RemotePath<ept id="p1">**</ept> Registrierungseintrag in allen Unterschlüsseln unter dem Schlüssel HKCU:\Network in Text in Großbuchstaben.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can use this format to change the form or content of a registry entry value.</source>
+          <target state="translated">Sie können dieses Format verwenden,um die Form oder den Inhalt eines Registrierungseintragswerts zu ändern.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Each subkey in the <bpt id="p1">**</bpt>Network<ept id="p1">**</ept> key represents a mapped network drive that will reconnect at logon.</source>
+          <target state="translated">Jeder Unterschlüssel in der <bpt id="p1">**</bpt>Netzwerk<ept id="p1">**</ept> Schlüssel darstellt, ein zugeordnetes Netzwerklaufwerk, die bei der Anmeldung neu verbunden wird.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>RemotePath<ept id="p1">**</ept> entry contains the UNC path of the connected drive.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>RemotePath<ept id="p1">**</ept> Eintrag enthält den UNC-Pfad des verbundenen Laufwerks.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, if you map the E: drive to <ph id="ph1">\\\\</ph>Server\Share, there will be an E subkey of HKCU:\Network and the value of the <bpt id="p1">**</bpt>RemotePath<ept id="p1">**</ept> registry entry in the E subkey will be <ph id="ph2">\\\\</ph>Server\Share.</source>
+          <target state="translated">Beispielsweise, wenn Sie das Laufwerk E: zuordnen <ph id="ph1">\\\\</ph>"Server\Freigabe", wird eine E-Unterschlüssel von HKCU:\Network und der Wert von der <bpt id="p1">**</bpt>RemotePath<ept id="p1">**</ept> Registrierungseintrag im E-Unterschlüssel werden <ph id="ph2">\\\\</ph>"Server\Freigabe".</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-ItemProperty cmdlet to get all of the subkeys of the <bpt id="p1">**</bpt>Network<ept id="p1">**</ept> key and the Set-ItemProperty cmdlet to change the value of the <bpt id="p2">**</bpt>RemotePath<ept id="p2">**</ept> registry entry in each key.</source>
+          <target state="translated">Der Befehl verwendet das Cmdlet "Get-ItemProperty" zum Abrufen aller Unterschlüssel des der <bpt id="p1">**</bpt>Netzwerk<ept id="p1">**</ept> Schlüssel und das Cmdlet "Set-ItemProperty" So ändern Sie den Wert der <bpt id="p2">**</bpt>RemotePath<ept id="p2">**</ept> Registrierungseintrag in jedem Schlüssel.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Set-ItemProperty<ept id="p1">**</ept> command, the path is the value of the <bpt id="p2">**</bpt>PSPath<ept id="p2">**</ept> property of the registry key.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>"Set-ItemProperty"<ept id="p1">**</ept> Befehl, der Pfad ist der Wert der <bpt id="p2">**</bpt>PSPath<ept id="p2">**</ept> -Eigenschaft des Registrierungsschlüssels.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>(This is a property of the Microsoft .NET Framework object that represents the registry key; it is not a registry entry.) The command uses the ToUpper() method of the RemotePath value, which is a string (REG_SZ).</source>
+          <target state="translated">(Dies ist eine Eigenschaft des Microsoft .NET Framework-Objekts, das den Registrierungsschlüssel darstellt; es ist kein Registrierungseintrag.) Der Befehl verwendet die ToUpper()-Methode des RemotePath-Werts. Dieser ist eine Zeichenfolge (REG_SZ).</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">**</bpt>Set-ItemProperty<ept id="p1">**</ept> is changing the property of each key, the <bpt id="p2">**</bpt>ForEach-Object<ept id="p2">**</ept> cmdlet is required to access the property.</source>
+          <target state="translated">Da <bpt id="p1">**</bpt>"Set-ItemProperty"<ept id="p1">**</ept> die-Eigenschaft der einzelnen Schlüssel die <bpt id="p2">**</bpt>ForEach-Object<ept id="p2">**</ept> Cmdlet ist erforderlich, um die Eigenschaft zugegriffen werden.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of piping the $null automatic variable to the <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">Dieses Beispiel zeigt die Auswirkung der Übergabe der automatischen $null-Variablen, die <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> Cmdlet.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Because Windows PowerShell treats null as an explicit placeholder, the <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> cmdlet generates a value for $null, just as it does for other objects that you pipe to it.</source>
+          <target state="translated">Da Windows PowerShell null als expliziten Platzhalter behandelt die <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> Cmdlet generiert einen Wert für $null, genau wie bei anderen Objekten, die an sie übergeben.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For more information about the $null automatic variable, see about_Automatic_Variables.</source>
+          <target state="translated">Weitere Informationen zur automatischen $null-Variablen finden Sie unter „about_Automatic_Variables“.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>These commands gets the value of the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> property of all installed Windows PowerShell modules.</source>
+          <target state="translated">Diese Befehle Ruft den Wert der <bpt id="p1">**</bpt>Pfad<ept id="p1">**</ept> -Eigenschaft aller installierten WindowsPowerShell-Module.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>They use the <bpt id="p1">**</bpt>MemberName<ept id="p1">**</ept> parameter to specify the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> property of modules.</source>
+          <target state="translated">Sie verwenden die <bpt id="p1">**</bpt>MemberName<ept id="p1">**</ept> Parameter, um die <bpt id="p2">**</bpt>Pfad<ept id="p2">**</ept> -Eigenschaft von Modulen.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The second command is equivalent to the first.</source>
+          <target state="translated">Der zweite Befehl entspricht dem ersten.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Foreach<ept id="p1">**</ept> alias of the <bpt id="p2">**</bpt>Foreach-Object<ept id="p2">**</ept> cmdlet and omits the name of the <bpt id="p3">**</bpt>MemberName<ept id="p3">**</ept> parameter, which is optional.</source>
+          <target state="translated">Verwendet die <bpt id="p1">**</bpt>Foreach<ept id="p1">**</ept> Alias der <bpt id="p2">**</bpt>Foreach-Object<ept id="p2">**</ept> Cmdlets und lässt den Namen des der <bpt id="p3">**</bpt>MemberName<ept id="p3">**</ept> -Parameter, der optional ist.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> cmdlet is very useful for getting property values, because it gets the value without changing the type, unlike the <bpt id="p2">**</bpt>Format<ept id="p2">**</ept> cmdlets or the Select-Object cmdlet, which change the property value type.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> Cmdlet ist sehr nützlich für das Abrufen von Eigenschaftswerten, da der Wert abgerufen wird, ohne den Typ im Gegensatz zu den <bpt id="p2">**</bpt>Format<ept id="p2">**</ept> -Cmdlets oder der Select-Object-Cmdlet, das ändern die Eigenschaft Werttyp.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>These commands split two dot-separated module names into their component names.</source>
+          <target state="translated">Durch diese Befehle werden durch zwei Punkte getrennte Modulnamen in ihre Komponentennamen aufgeteilt.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The commands call the <bpt id="p1">**</bpt>Split<ept id="p1">**</ept> method of strings.</source>
+          <target state="translated">Die Befehle rufen die <bpt id="p1">**</bpt>Split<ept id="p1">**</ept> Methode von Zeichenfolgen.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The three commands use different syntax, but they are equivalent and interchangeable.</source>
+          <target state="translated">Die drei Befehle verwenden unterschiedliche Syntax, sind aber äquivalent und austauschbar.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The first command uses the traditional syntax, which includes a script block and the current object operator ($_).</source>
+          <target state="translated">Der erste Befehl verwendet die herkömmliche Syntax. Diese umfasst einen Skriptblock und den aktuellen Objektoperator ($_).</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It uses the dot syntax to specify the method and parentheses to enclose the delimiter argument.</source>
+          <target state="translated">Es verwendet die Punktsyntax zum Angeben der Methode und die Klammern, um das Trennzeichenargument einzuschließen.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>MemberName<ept id="p1">**</ept> parameter to specify the <bpt id="p2">**</bpt>Split<ept id="p2">**</ept> method and the <bpt id="p3">**</bpt>ArgumentName<ept id="p3">**</ept> parameter to identify the dot (".") as the split delimiter.</source>
+          <target state="translated">Der zweite Befehl verwendet die <bpt id="p1">**</bpt>MemberName<ept id="p1">**</ept> Parameter, um die <bpt id="p2">**</bpt>Split<ept id="p2">**</ept> Methode und die <bpt id="p3">**</bpt>ArgumentName<ept id="p3">**</ept> Parameter, um den Punkt zu identifizieren (".") als teilungstrennzeichen.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The third command  uses the <bpt id="p1">**</bpt>Foreach<ept id="p1">**</ept> alias of the <bpt id="p2">**</bpt>Foreach-Object<ept id="p2">**</ept> cmdlet and omits the names of the <bpt id="p3">**</bpt>MemberName<ept id="p3">**</ept> and <bpt id="p4">**</bpt>ArgumentList<ept id="p4">**</ept> parameters, which are optional.</source>
+          <target state="translated">Der dritte Befehl verwendet die <bpt id="p1">**</bpt>Foreach<ept id="p1">**</ept> Alias der <bpt id="p2">**</bpt>Foreach-Object<ept id="p2">**</ept> Cmdlets und lässt die Namen der der <bpt id="p3">**</bpt>MemberName<ept id="p3">**</ept> und <bpt id="p4">**</bpt>ArgumentList<ept id="p4">**</ept> -Parameter, die optional sind.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The output of these three commands, shown below, is identical.</source>
+          <target state="translated">Die Ausgabe dieser drei Befehle, die unten gezeigt wird, ist identisch.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Split<ept id="p1">**</ept> is just one of many useful methods of strings.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Split<ept id="p1">**</ept> ist nur eine von vielen nützlichen Zeichenfolgenmethoden.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To see all of the properties and methods of strings, pipe a string to the Get-Member cmdlet.</source>
+          <target state="translated">Übergeben Sie eine Zeichenfolge an das Get-Member-Cmdlet, um alle Eigenschaften und Methoden von Zeichenfolgen finden Sie unter.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETER</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies the arguments to a method call.</source>
+          <target state="translated">Gibt die Argumente für einen Methodenaufruf an.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-Begin</source>
+          <target state="translated">: Beginnen</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Specifies a script block that runs before processing any input objects.</source>
+          <target state="translated">Gibt einen Skriptblock an, der vor dem Verarbeiten von Eingabeobjekten ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Vor dem Ausführen des Cmdlets zur Bestätigung aufgefordert. Vor dem Ausführen des Cmdlets zur Bestätigung aufgefordert.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-End</source>
+          <target state="translated">-End</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Specifies a script block that runs after processing all input objects.</source>
+          <target state="translated">Gibt einen Skriptblock an, der nach der Verarbeitung aller Eingabeobjekte ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Specifies the input objects.</source>
+          <target state="translated">Gibt die Eingabeobjekte an.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>ForEach-Object runs the script block or operation statement on each input object.</source>
+          <target state="translated">ForEach-Object führt den Skriptblock oder die Vorgangsanweisung für jedes Eingabeobjekt aus.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects, or type a command or expression that gets the objects.</source>
+          <target state="translated">Geben Sie eine Variable ein, die die Objekte enthält, oder geben Sie einen Befehl oder einen Ausdruck ein, mit dem die Objekte abgerufen werden.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>When you use the InputObject parameter with ForEach-Object, instead of piping command results to ForEach-Object, the InputObject value-even if the value is a collection that is the result of a command, such as -InputObject (Get-Process)-is treated as a single object.</source>
+          <target state="translated">Wenn Sie den InputObject-Parameter mit ForEach-Object, statt Piping Befehlsergebnisse an ForEach-Object verwenden, das Eingabeobjekt Wert, sogar wenn der Wert eine Auflistung, die das Ergebnis eines Befehls wie - InputObject (Get-Process) ist – als ein einzelnes Objekt behandelt.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Because InputObject cannot return individual properties from an array or collection of objects, it is recommended that if you use ForEach-Object to perform operations on a collection of objects for those objects that have specific values in defined properties, you use ForEach-Object in the pipeline, as shown in the examples in this topic.</source>
+          <target state="translated">Da InputObject keine individuellen Eigenschaften aus einem Array oder einer Auflistung von Objekten zurückgeben kann, wird Folgendes empfohlen: Wenn Sie ForEach-Object für Vorgänge an einer Auflistung von Objekten zu verwenden, die bestimmte Werte in definierten Eigenschaften haben, verwenden Sie ForEach-Object in der Pipeline, wie in den Beispielen in diesem Thema gezeigt.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-MemberName</source>
+          <target state="translated">-MemberName</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Specifies the property to get or the method to call.</source>
+          <target state="translated">Gibt die abzurufende Eigenschaft oder die aufzurufende Methode an.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted, but work only if the resulting string resolves to a unique value.</source>
+          <target state="translated">Platzhalterzeichen sind zulässig, jedoch funktionieren nur, wenn die resultierende Zeichenfolge in einen eindeutigen Wert aufgelöst wird.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If, for example, you run Get-Process | ForEach -MemberName *Name, and more than one member exists with a name that contains the string Name--such as the ProcessName and Name properties--the command fails.</source>
+          <target state="translated">Wenn Sie z. B. Get-Process ausführen | ForEach - MemberName * Name und mehr als ein Element vorhanden ist, mit einem Namen mit der Zeichenfolge Name – z. B. die ProcessName "und" Name-Eigenschaften – schlägt der Befehl fehl.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-Process</source>
+          <target state="translated">-Prozess</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Specifies the operation that is performed on each input object.</source>
+          <target state="translated">Gibt den Vorgang an, der für jedes Eingabeobjekt ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Enter a script block that describes the operation.</source>
+          <target state="translated">Geben Sie einen Skriptblock ein, der den Vorgang beschreibt.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>-RemainingScripts</source>
+          <target state="translated">-RemainingScripts</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Takes all script blocks that are not taken by the <bpt id="p1">**</bpt>Process<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Nimmt alle Skriptblöcke, die nicht vom ergriffen werden die <bpt id="p1">**</bpt>Prozess<ept id="p1">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Zeigt, was geschieht, wenn das Cmdlet ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Das Cmdlet wird nicht ausgeführt. Zeigt, was passieren würde, wenn das Cmdlet ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">Das Cmdlet wird nicht ausgeführt.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Dieses Cmdlet unterstützt die allgemeinen Parameter:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, -InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction und -WarningVariable.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Weitere Informationen finden Sie unter "about_commonparameters" (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">EINGABEN</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You can pipe any object to ForEach-Object.</source>
+          <target state="translated">Sie können jedes beliebige Objekt an ForEach-Object übergeben.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">AUSGABEN</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The objects that ForEach-Object returns are determined by the input.</source>
+          <target state="translated">Die Objekte, die ForEach-Object zurückgibt, werden durch die Eingabe bestimmt.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTIZEN</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> cmdlet works much like the <bpt id="p2">**</bpt>Foreach<ept id="p2">**</ept> statement, except that you cannot pipe input to a <bpt id="p3">**</bpt>Foreach<ept id="p3">**</ept> statement.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>ForEach-Object<ept id="p1">**</ept> Cmdlet funktioniert ähnlich wie die <bpt id="p2">**</bpt>Foreach<ept id="p2">**</ept> -Anweisung, mit der Ausnahme, dass die Eingabe übergeben werden können eine <bpt id="p3">**</bpt>Foreach<ept id="p3">**</ept> Anweisung.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>Foreach<ept id="p1">**</ept> statement, see about_Foreach (http://go.microsoft.com/fwlink/?LinkID=113229).</source>
+          <target state="translated">Weitere Informationen zu den <bpt id="p1">**</bpt>Foreach<ept id="p1">**</ept> -Anweisung finden Sie unter About_Foreach (http://go.microsoft.com/fwlink/?LinkID=113229).</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VERWANDTE LINKS</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4a5ab7637bd34c75563f6055878b2c55f9dcbb70</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Providers\Environment-Provider.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">23f65c78cf4c910882344f4958398cdf8b0cdbdc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c41863198424f7a37e5d46b011b0a715c837bbe</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Environment Provider</source>
+          <target state="translated">環境プロバイダー</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Environment Provider</source>
+          <target state="translated">環境プロバイダー</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PROVIDER NAME</source>
+          <target state="translated">プロバイダー名</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Environment</source>
+          <target state="translated">環境</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>DRIVES</source>
+          <target state="translated">ドライブ</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Env:</source>
+          <target state="translated">Env:</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Provides access to the Windows environment variables.</source>
+          <target state="translated">Windows 環境変数へのアクセスを提供します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DETAILED DESCRIPTION</source>
+          <target state="translated">詳細説明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Environment provider lets you get, add, change, clear, and delete Windows environment variables in Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell Environment プロバイダーでは、Windows PowerShell の Windows 環境変数を取得、追加、変更、消去、削除できます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Environment provider is a flat namespace that contains only objects that represent the environment variables.</source>
+          <target state="translated">Environment プロバイダーは環境変数を表すオブジェクトのみを含むフラットな名前空間です。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The variables have no child items.</source>
+          <target state="translated">変数に子項目はありません。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Each environment variable is an instance of the System.Collections.DictionaryEntry class.</source>
+          <target state="translated">各環境変数は System.Collections.DictionaryEntry クラスのインスタンスです。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The name of the variable is the dictionary key.</source>
+          <target state="translated">変数の名前はディクショナリ キーです。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The value of the environment variable is the dictionary value.</source>
+          <target state="translated">環境変数の値はディクショナリ値です。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The Environment provider exposes its data store in the Env: drive.</source>
+          <target state="translated">Environment プロバイダーは Env: ドライブでそのデータ ストアを公開します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To work with environment variables, change your location to the Env: drive <ph id="ph1">\(</ph>"set<ph id="ph2">\-</ph>location env:"<ph id="ph3">\)</ph>, or work from another Windows PowerShell drive.</source>
+          <target state="translated">環境変数を使用するには、Env に場所を変更します。 ドライブ <ph id="ph1">\(</ph>"設定<ph id="ph2">\-</ph>場所 env:"<ph id="ph3">\)</ph>, 、または別の Windows PowerShell ドライブから会社です。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To reference an environment variable from another location, use the Env: drive name in the path.</source>
+          <target state="translated">別の場所から環境変数を参照するには、パスに Env: ドライブ名を使用します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The Environment provider supports all the cmdlets that contain the Item noun except for <bpt id="p1">[</bpt>Invoke<ph id="ph1">\-</ph>Item &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///38a9887b-ce1a-4bde-be4e-98012efae204)</ept>.</source>
+          <target state="translated">Environment プロバイダー以外の名詞「Item」が含まれているすべてのコマンドレットをサポートしている <bpt id="p1">[</bpt>Invoke<ph id="ph1">\-</ph>アイテム #91; m2 &amp;#93;<ept id="p1">](assetId:///38a9887b-ce1a-4bde-be4e-98012efae204)</ept>します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>And, it supports the <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///86d8b4af-af2c-4a27-9519-2c9fd420be3d)</ept> and <bpt id="p2">[</bpt>Set<ph id="ph2">\-</ph>Content &amp;#91;m2&amp;#93;<ept id="p2">](assetId:///6fff9b86-86df-4440-b7b7-8124b22088fc)</ept> cmdlets.</source>
+          <target state="translated">サポートして、 <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>コンテンツ #91; m2 &amp;#93;<ept id="p1">](assetId:///86d8b4af-af2c-4a27-9519-2c9fd420be3d)</ept> と <bpt id="p2">[</bpt>設定<ph id="ph2">\-</ph>コンテンツ #91; m2 &amp;#93;<ept id="p2">](assetId:///6fff9b86-86df-4440-b7b7-8124b22088fc)</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However, it does not support the cmdlets that contain the ItemProperty noun, and it does not support the Filter parameter in any cmdlet.</source>
+          <target state="translated">ただし、名詞「ItemProperty」が含まれるコマンドレットはサポートせず、また、すべてのコマンドレットで Filter パラメーターをサポートしません。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Environment variables must conform to the usual naming standards.</source>
+          <target state="translated">環境変数は通常の命名規則標準に準拠する必要があります。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Additionally, the name cannot include the equal sign <ph id="ph1">\(\=\)</ph>.</source>
+          <target state="translated">さらに、名前に等号 (=) は、 <ph id="ph1">\(\=\)</ph>です。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Changes to the environment variables affect the current session only.</source>
+          <target state="translated">環境変数を変更した場合、現在のセッションのみが影響を受けます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To save the changes, add the changes to the Windows PowerShell profile, or use <bpt id="p1">[</bpt>Export<ph id="ph1">\-</ph>Console &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///0858eece-ddcb-4525-89d1-4732c5f54c48)</ept> to save the current session.</source>
+          <target state="translated">変更を保存するには、Windows PowerShell プロファイルに変更を追加または使用 <bpt id="p1">[</bpt>エクスポート<ph id="ph1">\-</ph>コンソール #91; m2 &amp;#93;<ept id="p1">](assetId:///0858eece-ddcb-4525-89d1-4732c5f54c48)</ept> を現在のセッションを保存します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>CAPABILITIES</source>
+          <target state="translated">機能</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>ShouldProcess</source>
+          <target state="translated">ShouldProcess</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Getting to the Env: Drive</source>
+          <target state="translated">Env: ドライブ</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command changes the current location to the Env: drive:</source>
+          <target state="translated">このコマンドは現在の場所を Env: ドライブに変更します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can use this command from any drive in Windows PowerShell.</source>
+          <target state="translated">このコマンドは Windows PowerShell のあらゆるドライブから実行できます。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To return to a file system drive, type the drive name.</source>
+          <target state="translated">ファイル システム ドライブに戻るには、ドライブ名を入力します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, type:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>set<ph id="ph1">\-</ph>location c:</source>
+          <target state="translated">設定<ph id="ph1">\-</ph>場所 c:</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Getting Environment Variables</source>
+          <target state="translated">環境変数を取得する</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This command lists all the environment variables in the current session:</source>
+          <target state="translated">このコマンドは現在のセッションにあるすべての環境変数を一覧表示します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can use this command from any Windows PowerShell drive.</source>
+          <target state="translated">このコマンドはすべての Windows PowerShell ドライブから使用できます。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This command gets the WINDIR environment variable:</source>
+          <target state="translated">このコマンドは WINDIR 環境変数を取得します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">例 3</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This command gets a list of all the environment variables in the current session and then sorts them by name:</source>
+          <target state="translated">このコマンドは現在のセッションにあるすべての環境変数の一覧を取得し、名前で並べ替えます。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>By default, the environment variables appear in the order that Windows PowerShell discovers them.</source>
+          <target state="translated">既定では、環境変数は Windows PowerShell により検出された順序で表示されます。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This command is submitted in the Env: drive.</source>
+          <target state="translated">このコマンドは Env: ドライブで送信されます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When you run this command from another drive, add the Path parameter with a value of Env:.</source>
+          <target state="translated">このコマンドを別のドライブから実行するときは、Env: の値と共に Path パラメーターを追加します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Creating a New Environment Variable</source>
+          <target state="translated">新しい環境変数の作成</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This command creates the USERMODE environment variable with a value of Non<ph id="ph1">\-</ph>Admin:</source>
+          <target state="translated">このコマンド以外の値を持つ USERMODE 環境変数を作成する<ph id="ph1">\-</ph>管理者。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Because the current location is in the Env: drive, the value of the Path parameter is a dot <ph id="ph1">\(</ph>.<ph id="ph2">\)</ph>.</source>
+          <target state="translated">現在の場所を env: ドライブ、Path パラメーターの値は、ドット <ph id="ph1">\(</ph>.<ph id="ph2">\)</ph>します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The dot represents the current location.</source>
+          <target state="translated">ドットは現在の場所を表します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you are not in the Env: drive, the value of the Path parameter would be Env:.</source>
+          <target state="translated">Env: ドライブにいない場合、Path パラメーターの値は Env: になります。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Displaying the Properties and Methods of Environment Variables</source>
+          <target state="translated">環境変数のプロパティとメソッドの表示</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This command uses the Get<ph id="ph1">\-</ph>ChildItem cmdlet to get all the environment variables:</source>
+          <target state="translated">このコマンドは、Get を使用して<ph id="ph1">\-</ph>渡すコマンドレットをすべての環境変数を取得します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The pipeline operator <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> sends the results to Get<ph id="ph3">\-</ph>Member, which displays the methods and properties of the object.</source>
+          <target state="translated">パイプライン演算子 <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> 結果を Get に送信<ph id="ph3">\-</ph>メンバー、メソッドとオブジェクトのプロパティが表示されます。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>When you pipe a collection of objects to Get<ph id="ph1">\-</ph>Member, such as the collection of environment variables in the Env: drive, Get<ph id="ph2">\-</ph>Member evaluates each object in the collection separately.</source>
+          <target state="translated">取得するオブジェクトのコレクションをパイプする<ph id="ph1">\-</ph>Env で環境変数のコレクションなどのメンバー: ドライブの Get<ph id="ph2">\-</ph>メンバーは、コレクション内の各オブジェクトを個別に評価します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Member then returns information about each object type that it finds.</source>
+          <target state="translated">取得<ph id="ph1">\-</ph>メンバーは、検出された各オブジェクトの種類に関する情報を返します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If all the objects are of the same type, it returns information about the single object type.</source>
+          <target state="translated">すべてのオブジェクトが同じ種類の場合、その 1 つのオブジェクト タイプに関する情報が返されます。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In this case, all the environment variables are DictionaryEntry objects.</source>
+          <target state="translated">この場合、すべての環境変数が DictionaryEntry オブジェクトです。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To get information about the collection of DictionaryEntry objects, use the InputObject parameter of Get<ph id="ph1">\-</ph>Member.</source>
+          <target state="translated">DictionaryEntry オブジェクトのコレクションに関する情報を取得するには、Get の InputObject パラメーターを使用<ph id="ph1">\-</ph>メンバーです。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For example, type:</source>
+          <target state="translated">たとえば、次のように入力します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>get<ph id="ph1">\-</ph>member <ph id="ph2">\-</ph>inputobject <ph id="ph3">\(</ph>get<ph id="ph4">\-</ph>childitem env:</source>
+          <target state="translated">取得<ph id="ph1">\-</ph>メンバー <ph id="ph2">\-</ph>inputobject <ph id="ph3">\(</ph>取得<ph id="ph4">\-</ph>渡す env:</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>When you use the InputObject parameter, Get<ph id="ph1">\-</ph>Member evaluates the collection, not the objects in the collection.</source>
+          <target state="translated">InputObject パラメーターを使用すると取得<ph id="ph1">\-</ph>メンバーは、コレクション内のオブジェクトではなくのコレクションを評価します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This command lists the values of the properties of the WINDIR environment variable:</source>
+          <target state="translated">このコマンドは WINDIR 環境変数のプロパティの値を一覧表示します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>It uses the Get<ph id="ph1">\-</ph>Item cmdlet to get an object that represents the WINDIR environment variable.</source>
+          <target state="translated">Get を使用して<ph id="ph1">\-</ph>コマンドレット、WINDIR 環境変数を表すオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The pipeline operator <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> sends the results to the Format<ph id="ph3">\-</ph>List command.</source>
+          <target state="translated">パイプライン演算子 <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> 形式に、その結果を送信<ph id="ph3">\-</ph>コマンドを一覧表示します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>It uses the Property parameter with a wildcard character <ph id="ph1">\(\*\)</ph> to format and display the values of all the properties of the WINDIR environment variable.</source>
+          <target state="translated">Property パラメーターとワイルドカード文字使用して <ph id="ph1">\(\*\)</ph> 書式を設定し、WINDIR 環境変数のすべてのプロパティの値を表示します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Changing the Properties of an Environment Variable</source>
+          <target state="translated">環境変数のプロパティの変更</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This command uses the Rename<ph id="ph1">\-</ph>Item cmdlet to change the name of the USERMODE environment variable that you created to USERROLE:</source>
+          <target state="translated">このコマンドは、名前の変更を使用して<ph id="ph1">\-</ph>コマンドレットを作成した USERMODE 環境変数の名前を USERROLE に変更します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This change affects the Name, Key, and PSPath properties of the DictionaryEntry object.</source>
+          <target state="translated">この変更は DictionaryEntry オブジェクトの Name、Key、PSPath プロパティに影響を与えます。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Do not change the name of an environment variable that the system uses.</source>
+          <target state="translated">システムが使用する環境変数の名前は変更しないでください。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Although these changes affect only the current session, they might cause the system or a program to operate incorrectly.</source>
+          <target state="translated">これらの変更は現在のセッションにのみ影響を与えますが、システムまたはプログラムの誤作動の原因になりかねません。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This command uses the Set<ph id="ph1">\-</ph>Item cmdlet to change the value of the USERROLE environment variable to Administrator:</source>
+          <target state="translated">このコマンド セットを使用して<ph id="ph1">\-</ph>項目コマンドレットを管理者には USERROLE 環境変数の値を変更します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Copying an Environment Variable</source>
+          <target state="translated">環境変数のコピー</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>This command copies the value of the USERROLE environment variable to the USERROLE2 environment variable:</source>
+          <target state="translated">このコマンドは USERROLE 環境変数の値を USERROLE2 環境変数にコピーします。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Deleting an environment variable</source>
+          <target state="translated">環境変数の削除</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This command deletes the USERROLE2 environment variable from the current session:</source>
+          <target state="translated">このコマンドは現在のセッションから USERROLE2 環境変数を削除します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You can use this command in any Windows PowerShell drive.</source>
+          <target state="translated">このコマンドはすべての Windows PowerShell ドライブで使用できます。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If you are in the Env: drive, you can omit the drive name from the path.</source>
+          <target state="translated">Env: ドライブにいる場合、パスからドライブ名を省略できます。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This command deletes the USERROLE environment variable.</source>
+          <target state="translated">このコマンドは USERROLE 環境変数を削除します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">参照</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Providers</source>
+          <target state="translated">に関する<ph id="ph1">\_</ph>プロバイダー</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

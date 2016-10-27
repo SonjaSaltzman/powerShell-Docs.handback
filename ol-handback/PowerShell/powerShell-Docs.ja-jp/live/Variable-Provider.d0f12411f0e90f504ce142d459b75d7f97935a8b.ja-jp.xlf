@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53a4bed95418e1ca96a83be44848c160b6a2e556</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Providers\Variable-Provider.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5176e6823e3e907835b07cbf27f9de872ebcbb14</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2eab9379cf9017b4154fb09d1149164d72b5f5ec</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Variable Provider</source>
+          <target state="translated">変数プロバイダー</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Variable Provider</source>
+          <target state="translated">変数プロバイダー</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PROVIDER NAME</source>
+          <target state="translated">プロバイダー名</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Variable</source>
+          <target state="translated">変数</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>DRIVES</source>
+          <target state="translated">ドライブ</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Variable:</source>
+          <target state="translated">変数:</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Provides access to the Windows PowerShell variables and to their values.</source>
+          <target state="translated">Windows PowerShell 変数とその値へのアクセスを提供します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DETAILED DESCRIPTION</source>
+          <target state="translated">詳細説明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Variable provider lets you get, add, change, clear, and delete Windows PowerShell variables in the current console.</source>
+          <target state="translated">Windows PowerShell Variable プロバイダーでは、現在のコンソールで Windows PowerShell 変数を取得、追加、変更、消去、削除できます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Variable provider supports the variables that Windows PowerShell creates, including the automatic variables, the preference variables, and the variables that you create.</source>
+          <target state="translated">Windows PowerShell Variable プロバイダーは Windows PowerShell により作成された変数をサポートします。自動変数、ユーザー設定変数、ユーザー作成変数などです。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Variable provider is a flat namespace that contains only the variable objects.</source>
+          <target state="translated">Variable プロバイダーは変数オブジェクトのみが含まれるフラットな名前空間です。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The variables have no child items.</source>
+          <target state="translated">変数に子項目はありません。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Most of the variables are instances of the System.Management.Automation.PSVariable class.</source>
+          <target state="translated">変数の大部分は System.Management.Automation.PSVariable クラスのインスタンスです。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>However, there are some variations.</source>
+          <target state="translated">ただし、バリエーションがいくつかあります。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, the "?" variable is a member of the QuestionMarkVariable class, and the "MaximumVariableCount" variable is a member of the SessionStateCapacityVariable class.</source>
+          <target state="translated">たとえば、変数「?」は QuestionMarkVariable クラスのメンバーであり、変数「MaximumVariableCount」は SessionStateCapacityVariable クラスのメンバーです。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Variable provider exposes its data store in the Variable: drive.</source>
+          <target state="translated">Variable プロバイダーは Variable: ドライブでそのデータ ストアを公開します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To work with variables, you can change your location to the Variable: drive <ph id="ph1">\(</ph>"set<ph id="ph2">\-</ph>location variable:"<ph id="ph3">\)</ph>, or you can work from any other Windows PowerShell drive.</source>
+          <target state="translated">変数を操作するには、変数に、場所を変更できます。 ドライブ <ph id="ph1">\(</ph>"設定<ph id="ph2">\-</ph>場所の変数:"<ph id="ph3">\)</ph>, 、あるいはその他の Windows PowerShell ドライブから使用できます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To reference a variable from another location, use the drive name <ph id="ph1">\(</ph>Variable:<ph id="ph2">\)</ph> in the path.</source>
+          <target state="translated">別の場所から変数を参照するには、ドライブ名を使用して <ph id="ph1">\(</ph>変数:<ph id="ph2">\)</ph> パスにします。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell includes a set of cmdlets designed especially to view and to change variables:</source>
+          <target state="translated">Windows PowerShell には、変数を表示したり、変更したりするための一連のコマンドレットがあります。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Variable</source>
+          <target state="translated">取得<ph id="ph1">\-</ph>変数</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>New<ph id="ph1">\-</ph>Variable</source>
+          <target state="translated">新しい<ph id="ph1">\-</ph>変数</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Set<ph id="ph1">\-</ph>Variable</source>
+          <target state="translated">設定<ph id="ph1">\-</ph>変数</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Remove<ph id="ph1">\-</ph>Variable</source>
+          <target state="translated">削除<ph id="ph1">\-</ph>変数</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Clear<ph id="ph1">\-</ph>Variable</source>
+          <target state="translated">クリア<ph id="ph1">\-</ph>変数</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When you use these cmdlets, you do not need to specify the Variable: drive in the name.</source>
+          <target state="translated">これらのコマンドレットを使用するとき、名前に Variable: ドライブを指定する必要はありません。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The Variable provider supports all of the cmdlets whose names contain the Item noun <ph id="ph1">\(</ph>the Item cmdlets<ph id="ph2">\)</ph>, except for <bpt id="p1">[</bpt>Invoke<ph id="ph3">\-</ph>Item &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///38a9887b-ce1a-4bde-be4e-98012efae204)</ept>.</source>
+          <target state="translated">Variable プロバイダーをサポートするすべての名前に名詞「Item」が含まれるコマンドレット <ph id="ph1">\(</ph>Item コマンドレット<ph id="ph2">\)</ph>, 、を除き <bpt id="p1">[</bpt>Invoke<ph id="ph3">\-</ph>アイテム #91; m2 &amp;#93;<ept id="p1">](assetId:///38a9887b-ce1a-4bde-be4e-98012efae204)</ept>します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The Variable provider supports the <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///86d8b4af-af2c-4a27-9519-2c9fd420be3d)</ept> and <bpt id="p2">[</bpt>Set<ph id="ph2">\-</ph>Content &amp;#91;m2&amp;#93;<ept id="p2">](assetId:///6fff9b86-86df-4440-b7b7-8124b22088fc)</ept> cmdlets.</source>
+          <target state="translated">Variable プロバイダーがサポートする、 <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>コンテンツ #91; m2 &amp;#93;<ept id="p1">](assetId:///86d8b4af-af2c-4a27-9519-2c9fd420be3d)</ept> と <bpt id="p2">[</bpt>設定<ph id="ph2">\-</ph>コンテンツ #91; m2 &amp;#93;<ept id="p2">](assetId:///6fff9b86-86df-4440-b7b7-8124b22088fc)</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>However, it does not support the cmdlets whose names contain the ItemProperty noun <ph id="ph1">\(</ph>the ItemProperty cmdlets<ph id="ph2">\)</ph>, and it does not support the Filter parameter in any cmdlet.</source>
+          <target state="translated">ただし、名前に名詞「ItemProperty」が含まれるコマンドレット サポートがない <ph id="ph1">\(</ph>ItemProperty コマンドレット<ph id="ph2">\)</ph>, すべてのコマンドレットで Filter パラメーターでサポートされません。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can also use the Windows PowerShell expression parser to create, view, and change the values of variables without using the cmdlets.</source>
+          <target state="translated">Windows PowerShell 式パーサーを利用し、コマンドレットを使用せずに変数の値を作成、表示、変更することもできます。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When working with variables directly, use a dollar sign <ph id="ph1">\($\)</ph> to identify the name as a variable and the assignment operator <ph id="ph2">\(\=\)</ph> to establish and change its value.</source>
+          <target state="translated">変数を直接使用する場合は、ドル記号を使用して <ph id="ph1">\($\)</ph> 変数と代入演算子として名前を識別するために <ph id="ph2">\(\=\)</ph> を設定し、その値を変更します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, "$p <ph id="ph1">\=</ph> <bpt id="p1">[</bpt>Get<ph id="ph2">\-</ph>Process &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///27a05dbd-4b69-48a3-8d55-b295f6225f15)</ept>" creates the "p" variable and stores the results of a "<bpt id="p2">[</bpt>Get<ph id="ph3">\-</ph>Process &amp;#91;m2&amp;#93;<ept id="p2">](assetId:///27a05dbd-4b69-48a3-8d55-b295f6225f15)</ept>" command in it.</source>
+          <target state="translated">たとえば、"$p <ph id="ph1">\=</ph> <bpt id="p1">[</bpt>を取得<ph id="ph2">\-</ph>プロセスと #91; m2 &amp;#93;<ept id="p1">](assetId:///27a05dbd-4b69-48a3-8d55-b295f6225f15)</ept>""p"変数を作成し、結果の"<bpt id="p2">[</bpt>取得<ph id="ph3">\-</ph>プロセスと #91; m2 &amp;#93;<ept id="p2">](assetId:///27a05dbd-4b69-48a3-8d55-b295f6225f15)</ept>"コマンド。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>All changes to the variables affect the current session only.</source>
+          <target state="translated">変数を変更した場合、現在のセッションのみが影響を受けます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To save the changes, add the changes to the Windows PowerShell profile, or use <bpt id="p1">[</bpt>Export<ph id="ph1">\-</ph>Console &amp;#91;m2&amp;#93;<ept id="p1">](assetId:///0858eece-ddcb-4525-89d1-4732c5f54c48)</ept> to save the current console.</source>
+          <target state="translated">変更を保存するには、Windows PowerShell プロファイルに変更を追加または使用 <bpt id="p1">[</bpt>エクスポート<ph id="ph1">\-</ph>コンソール #91; m2 &amp;#93;<ept id="p1">](assetId:///0858eece-ddcb-4525-89d1-4732c5f54c48)</ept> を現在のコンソールを保存します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>CAPABILITIES</source>
+          <target state="translated">機能</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>ShouldProcess</source>
+          <target state="translated">ShouldProcess</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Getting to the Variable: Drive</source>
+          <target state="translated">Variable: ドライブ</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This command changes the current location to the Variable: drive.</source>
+          <target state="translated">このコマンドは現在の場所を Variable: ドライブに変更します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can use this command from any drive in Windows PowerShell.</source>
+          <target state="translated">このコマンドは Windows PowerShell のあらゆるドライブから実行できます。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To return to a file system drive, type the drive name.</source>
+          <target state="translated">ファイル システム ドライブに戻るには、ドライブ名を入力します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example, type "set<ph id="ph1">\-</ph>location c:".</source>
+          <target state="translated">たとえば、「"設定<ph id="ph1">\-</ph>場所 c:"です。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Displaying the Value of Variables</source>
+          <target state="translated">変数の値の表示</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This command gets the list of all the variables and their values in the current session.</source>
+          <target state="translated">このコマンドは現在のセッションのすべての変数とその値の一覧を取得します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You can use this command from any Windows PowerShell drive.</source>
+          <target state="translated">このコマンドはすべての Windows PowerShell ドライブから使用できます。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This command gets the variables with names that begin with "max".</source>
+          <target state="translated">このコマンドは「max」で始まる名前を持つ変数を取得します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can use this command from any Windows PowerShell drive.</source>
+          <target state="translated">このコマンドはすべての Windows PowerShell ドライブから使用できます。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If you are in the Variable: drive, you can omit the drive name from the path.</source>
+          <target state="translated">Variable: ドライブにいる場合、パスからドライブ名を省略できます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">例 3</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This command gets the value of the WhatIfPreference variable by typing it at the command line.</source>
+          <target state="translated">このコマンドは WhatIfPreference 変数の値を取得します。コマンドラインでそれを入力します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The name of the variable is preceded by a dollar sign <ph id="ph1">\($\)</ph> to indicate that it is a variable.</source>
+          <target state="translated">変数の名前の先頭にドル記号 <ph id="ph1">\($\)</ph> を変数であることを示します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The Variable: drive name is not specified.</source>
+          <target state="translated">Variable: ドライブ名は指定されません。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 4</source>
+          <target state="translated">例 4</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This command uses the LiteralPath parameter of Get<ph id="ph1">\-</ph>ChildItem to get the value of the "?" variable from within the Variable: drive.</source>
+          <target state="translated">このコマンドは、Get の LiteralPath パラメーターを使用して<ph id="ph1">\-</ph>の値を取得を渡す、"?"変数内にある変数から: ドライブです。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem does not attempt to resolve any wildcards in the values of the LiteralPath parameter.</source>
+          <target state="translated">取得<ph id="ph1">\-</ph>渡すはワイルドカード LiteralPath パラメーターの値を解決しようとはしません。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To display the value of a variable with a special character name without a cmdlet, type a dollar sign <ph id="ph1">\($\)</ph> and the variable name.</source>
+          <target state="translated">コマンドレットなしで特殊文字名を持つ変数の値を表示するには、ドル記号を入力 <ph id="ph1">\($\)</ph> と変数名。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For example, to display the value of the "?" variable, type "$?".</source>
+          <target state="translated">たとえば、変数「?」の値を表示するには、「$?」と入力します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 5</source>
+          <target state="translated">例 5</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This command gets the variables that have the values of "ReadOnly" or "Constant" for their Options property.</source>
+          <target state="translated">このコマンドは、Options プロパティの値が「ReadOnly」または「Constant」の変数を取得します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Creating a New Variable</source>
+          <target state="translated">新しい変数の作成</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This command creates the "services" variable and stores the results of a Get<ph id="ph1">\-</ph>Service command in it.</source>
+          <target state="translated">このコマンドは、「サービス」変数を作成し、Get の結果を格納<ph id="ph1">\-</ph>がサービスを提供します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Because the current location is in the Variable: drive, the value of the Path parameter is a dot <ph id="ph1">\(</ph>.<ph id="ph2">\)</ph>, which represents the current location.</source>
+          <target state="translated">現在の場所が、変数であるため: ドライブ、Path パラメーターの値は、ドット <ph id="ph1">\(</ph>.<ph id="ph2">\)</ph>, 、現在の場所を表します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The parentheses around the Get<ph id="ph1">\-</ph>Service command ensure that the command is executed before the variable is created.</source>
+          <target state="translated">Get を囲むかっこは<ph id="ph1">\-</ph>サービス コマンドでは、変数が作成される前に、コマンドを実行することを確認します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Without the parentheses, the value of the new variable is a "Get<ph id="ph1">\-</ph>Service" string.</source>
+          <target state="translated">新しい変数の値には、かっこがない場合、"Get<ph id="ph1">\-</ph>サービス"の文字列です。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If you are not in the variable: drive, include the Variable: drive name in the path.</source>
+          <target state="translated">Variable: ドライブにいない場合、パスに Variable: ドライブ名を含めます。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This command creates a "services" variable and stores the result of a Get<ph id="ph1">\-</ph>Service command in it.</source>
+          <target state="translated">このコマンドは、「サービス」変数を作成し、Get の結果を格納<ph id="ph1">\-</ph>がサービスを提供します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The command uses a dollar sign <ph id="ph1">\($\)</ph> to indicate a variable and the assignment operator <ph id="ph2">\(\=\)</ph> to assign the result of the Get<ph id="ph3">\-</ph>Service command to the newly created variable.</source>
+          <target state="translated">このコマンドは、ドル記号を使用して <ph id="ph1">\($\)</ph> 変数と代入演算子を示すために <ph id="ph2">\(\=\)</ph> Get の結果を代入する<ph id="ph3">\-</ph>コマンドを新しく作成された変数のサービスを提供します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To create a variable without a value, omit the assignment operator.</source>
+          <target state="translated">値なしで変数を作成するには、代入演算子を省略します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Displaying the Properties and Methods of Variables</source>
+          <target state="translated">変数のプロパティとメソッドの表示</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This command uses the Get<ph id="ph1">\-</ph>Item cmdlet to get all variables.</source>
+          <target state="translated">このコマンドは、Get を使用して<ph id="ph1">\-</ph>コマンドレットすべての変数を取得します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The pipeline operator <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> sends the results to the Get<ph id="ph3">\-</ph>Member cmdlet, which displays the methods and properties of the object.</source>
+          <target state="translated">パイプライン演算子 <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> 結果を Get に送信<ph id="ph3">\-</ph>メンバー コマンドレットは、メソッドとオブジェクトのプロパティが表示されます。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When you pipe a collection of objects <ph id="ph1">\(</ph>such as the collection of variables in the Variable: drive<ph id="ph2">\)</ph> to Get<ph id="ph3">\-</ph>Member, Get<ph id="ph4">\-</ph>Member evaluates each object in the collection separately and returns information about each of the object types that it finds.</source>
+          <target state="translated">オブジェクトのコレクションをパイプする <ph id="ph1">\(</ph>変数内の変数のコレクションなど。 ドライブ<ph id="ph2">\)</ph> Get に<ph id="ph3">\-</ph>メンバーを取得<ph id="ph4">\-</ph>メンバーがコレクション内の各オブジェクトを個別に評価し、検出されたオブジェクトの種類の情報を返します。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To get information about the collection of objects in the Variable: drive, use the InputObject parameter of Get<ph id="ph1">\-</ph>Member.</source>
+          <target state="translated">変数にオブジェクトのコレクションに関する情報を取得する: ドライブは、Get の InputObject パラメーターを使用して、<ph id="ph1">\-</ph>メンバーです。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For example, "get<ph id="ph1">\-</ph>member <ph id="ph2">\-</ph>inputobject <ph id="ph3">\(</ph>get<ph id="ph4">\-</ph>item variable:<ph id="ph5">\*\)</ph>".</source>
+          <target state="translated">たとえば、"取得<ph id="ph1">\-</ph>メンバー <ph id="ph2">\-</ph>inputobject <ph id="ph3">\(</ph>取得<ph id="ph4">\-</ph>項目変数:<ph id="ph5">\*\)</ph>"です。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>When you use InputObject, Get<ph id="ph1">\-</ph>Member evaluates the collection, not the objects in the collection.</source>
+          <target state="translated">InputObject を使用すると取得<ph id="ph1">\-</ph>メンバーは、コレクション内のオブジェクトではなくのコレクションを評価します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This command lists the values of the properties of the "home" variable.</source>
+          <target state="translated">このコマンドは「home」変数のプロパティの値を一覧表示します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>It uses the Get<ph id="ph1">\-</ph>Item cmdlet to get an object that represents the "home" variable.</source>
+          <target state="translated">Get を使用して<ph id="ph1">\-</ph>コマンドレットを「home」変数を表すオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The pipeline operator <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> sends the results to the Format<ph id="ph3">\-</ph>List command.</source>
+          <target state="translated">パイプライン演算子 <ph id="ph1">\(</ph>&amp;#124;<ph id="ph2">\)</ph> 形式に、その結果を送信<ph id="ph3">\-</ph>コマンドを一覧表示します。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The Format<ph id="ph1">\-</ph>List command uses the Property parameter with a wildcard character <ph id="ph2">\(\*\)</ph> to format and to display the values of all of the properties of the "home" variable.</source>
+          <target state="translated">形式<ph id="ph1">\-</ph>List コマンドとワイルドカード文字は Property パラメーターを使用する <ph id="ph2">\(\*\)</ph> を書式設定し、すべての「home」変数のプロパティの値を表示します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Changing the Properties of a Variable</source>
+          <target state="translated">変数のプロパティの変更</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This command uses the Rename<ph id="ph1">\-</ph>Item cmdlet to change the name of the "a" variable to "processes".</source>
+          <target state="translated">このコマンドは、名前の変更を使用して<ph id="ph1">\-</ph>項目コマンドレットでは、"a"変数の名前を「processes」変更をします。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This command uses the Set<ph id="ph1">\-</ph>Item cmdlet to change the value of the ErrorActionPreference variable to "Stop".</source>
+          <target state="translated">このコマンド セットを使用して<ph id="ph1">\-</ph>を「Stop」「erroractionpreference」変数の値変更するコマンドレットです。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">例 3</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This command changes the value of the ErrorActionPreference variable to "Stop".</source>
+          <target state="translated">このコマンドは「ErrorActionPreference」変数の値を「Stop」に変更します。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>It uses a dollar sign <ph id="ph1">\($\)</ph> to indicate a variable and the assignment operator <ph id="ph2">\(\=\)</ph> to assign the value.</source>
+          <target state="translated">ドル記号を使用して <ph id="ph1">\($\)</ph> 変数と代入演算子を示すために <ph id="ph2">\(\=\)</ph> 値を割り当てます。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Copying a Variable</source>
+          <target state="translated">変数のコピー</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This command uses the Copy<ph id="ph1">\-</ph>Item cmdlet to copy the "processes" variable to "old<ph id="ph2">\_</ph>processes".</source>
+          <target state="translated">このコマンドは、コピーを使用して<ph id="ph1">\-</ph>に変数「processes」にコピーする項目コマンドレット"古い<ph id="ph2">\_</ph>プロセス"です。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This creates a new variable named "old<ph id="ph1">\_</ph>processes" that has the same value as the "processes" variable.</source>
+          <target state="translated">という名前の新しい変数を作成この"古い<ph id="ph1">\_</ph>プロセス"を含む、変数「processes」と同じ値です。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If the command is issued from within the Variable: drive, you can omit the drive name from the value of the Path parameter.</source>
+          <target state="translated">コマンドを Variable: ドライブ内から実行する場合、Path パラメーターの値からドライブ名を省略できます。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This command copies the "processes" variable to "old<ph id="ph1">\_</ph>processes" without using a cmdlet.</source>
+          <target state="translated">このコマンドのコピーを変数「processes」"古い<ph id="ph1">\_</ph>プロセス"コマンドレットを使用しないでします。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>It uses the dollar sign <ph id="ph1">\($\)</ph> to indicate variables and the assignment operator to assign the value of $processes to old<ph id="ph2">\_</ph>processes.</source>
+          <target state="translated">ドル記号を使用して <ph id="ph1">\($\)</ph> 変数を示し、代入演算子に古い $processes の値を割り当てる<ph id="ph2">\_</ph>プロセスです。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Deleting a Variable</source>
+          <target state="translated">変数の削除</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This command deletes the "serv" variable from the current session.</source>
+          <target state="translated">このコマンドは現在のセッションから変数「serv」を削除します。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You can use this command in any Windows PowerShell drive.</source>
+          <target state="translated">このコマンドはすべての Windows PowerShell ドライブで使用できます。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This command deletes all variables from the current session except for the variables whose Options property has a value of Constant.</source>
+          <target state="translated">このコマンドは現在のセッションからすべての変数を削除します。ただし、Options プロパティの値が Constant のものは除きます。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Without the Force parameter, the command does not delete variables whose Options property has a value of ReadOnly.</source>
+          <target state="translated">Force パラメーターがない場合、このコマンドでは Options プロパティの値が ReadOnly の変数は削除されません。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Setting the Value of a Variable to NULL</source>
+          <target state="translated">変数の値を NULL に設定する</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This command uses the Clear<ph id="ph1">\-</ph>Item cmdlet to change the value of the "processes" variable to NULL.</source>
+          <target state="translated">このコマンドは、クリア テキストを使用して<ph id="ph1">\-</ph>コマンドレットを"processes"変数の値を NULL に変更します。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This command clears the value of the "processes" variable by assigning a null value to it.</source>
+          <target state="translated">このコマンドは変数「processes」に null 値を割り当て、値を消去します。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>It uses the $null automatic variable to represent the NULL value.</source>
+          <target state="translated">$null 自動変数を使用し、NULL 値を表します。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">参照</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Variables</source>
+          <target state="translated">に関する<ph id="ph1">\_</ph>変数</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Automatic<ph id="ph2">\_</ph>Variables &amp;#91;m2&amp;#93;</source>
+          <target state="translated">に関する<ph id="ph1">\_</ph>自動<ph id="ph2">\_</ph>変数 #91; m2 &amp; #93 です。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Providers</source>
+          <target state="translated">に関する<ph id="ph1">\_</ph>プロバイダー</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

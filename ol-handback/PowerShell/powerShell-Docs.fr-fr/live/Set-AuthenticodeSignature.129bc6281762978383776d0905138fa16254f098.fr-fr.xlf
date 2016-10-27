@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e73f26ada42000bffd3d4916909fdca80102cf1e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Security\Set-AuthenticodeSignature.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f8f5a54f3d60fd74588f1350796dc365ac3f5e00</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ab69601566c4254fc038a2c15017c046ac71101</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-AuthenticodeSignature</source>
+          <target state="translated">Set-AuthenticodeSignature</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-AuthenticodeSignature</source>
+          <target state="translated">Set-AuthenticodeSignature</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SYNOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Adds an Authenticode signature to a Windows PowerShell script or other file.</source>
+          <target state="translated">Ajoute une signature Authenticode à un script Windows PowerShell ou à un autre fichier.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ByPath (Default)</source>
+          <target state="translated">ByPath (valeur par défaut)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ByLiteralPath</source>
+          <target state="translated">ByLiteralPath</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPTION</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Set-AuthenticodeSignature cmdlet adds an Authenticode signature to any file that supports Subject Interface Package (SIP).</source>
+          <target state="translated">L'applet de commande Set-AuthenticodeSignature ajoute une signature Authenticode à n'importe quel fichier qui prend en charge SIP (Subject Interface Package).</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In a Windows PowerShell script file, the signature takes the form of a block of text that indicates the end of the instructions that are executed in the script.</source>
+          <target state="translated">Dans un fichier de script Windows PowerShell, la signature prend la forme d'un bloc de texte qui indique la fin des instructions qui sont exécutées dans le script.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If there is a signature in the file when this cmdlet runs, that signature is removed.</source>
+          <target state="translated">S'il existe une signature dans le fichier lors de l'exécution de cette applet de commande, cette signature est supprimée.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- EXEMPLE 1 -------------------------</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>These commands retrieve a code-signing certificate from the Windows PowerShell certificate provider and use it to sign a Windows PowerShell script.</source>
+          <target state="translated">Ces commandes récupèrent un certificat de signature de code auprès du fournisseur de certificats Windows PowerShell et l'utilisent pour signer un script Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-ChildItem cmdlet and the Windows PowerShell certificate provider to get the certificates in the Cert:\CurrentUser\My subdirectory of the certificate store.</source>
+          <target state="translated">La première commande utilise l'applet de commande Get-ChildItem et le fournisseur de certificats Windows PowerShell pour obtenir les certificats dans le sous-répertoire Cert:\CurrentUser\My du magasin de certificats.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>(The Cert: drive is the drive exposed by the certificate provider.) The CodeSigningCert parameter, which is supported only by the certificate provider, limits the certificates retrieved to those with code-signing authority.</source>
+          <target state="translated">(Le lecteur Cert: est le lecteur exposé par le fournisseur de certificats.) Le paramètre CodeSigningCert, qui n'est pris en charge que par le fournisseur de certificats, limite les certificats récupérés à ceux avec l'autorité de signature de code.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The command stores the result in the $cert variable.</source>
+          <target state="translated">La commande stocke le résultat dans la variable $cert.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The second command uses the Set-AuthenticodeSignature cmdlet to sign the PSTestInternet2.ps1 script.</source>
+          <target state="translated">La deuxième commande utilise l'applet de commande Set-AuthenticodeSignature pour signer le script PSTestInternet2.ps1.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It uses the FilePath parameter to specify the name of the script and the Certificate parameter to specify that the certificate is stored in the $cert variable.</source>
+          <target state="translated">Elle utilise le paramètre FilePath pour spécifier le nom du script et le paramètre Certificate pour indiquer que le certificat est stocké dans la variable $cert.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>These commands use the Get-PfxCertificate cmdlet to find a code signing certificate.</source>
+          <target state="translated">Ces commandes utilisent l'applet de commande Get-PfxCertificate pour rechercher un certificat de signature de code.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Then, they use it to sign a Windows PowerShell script.</source>
+          <target state="translated">Ensuite, elles l'utilisent pour signer un script Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-PfxCertificate cmdlet to find the C:\Test\MySign.pfx certificate and store it in the $cert variable.</source>
+          <target state="translated">La première commande utilise l'applet de commande Get-PfxCertificate pour rechercher le certificat C:\Test\MySign.pfx et le stocker dans la variable $cert.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The second command uses Set-AuthenticodeSignature to sign the script.</source>
+          <target state="translated">La deuxième commande utilise Set-AuthenticodeSignature pour signer le script.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The FilePath parameter of Set-AuthenticodeSignature specifies the path to the script file being signed and the Cert parameter passes the $cert variable containing the certificate to Set-AuthenticodeSignature.</source>
+          <target state="translated">Le paramètre FilePath de Set-AuthenticodeSignature spécifie le chemin d'accès au fichier de script en cours de signature et le paramètre Cert passe la variable $cert contenant le certificat à Set-AuthenticodeSignature.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the certificate file is password protected, Windows PowerShell prompts you for the password.</source>
+          <target state="translated">Si le fichier de certificat est protégé par mot de passe, Windows PowerShell vous invite à entrer le mot de passe.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command adds a digital signature that includes the root authority in the trust chain, and it is signed by a third-party timestamp server.</source>
+          <target state="translated">Cette commande ajoute une signature numérique qui inclut l'autorité racine dans la chaîne d'approbation, et elle est signée par un serveur d'horodatage tiers.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The command uses the FilePath parameter to specify the script being signed and the Certificate parameter to specify the certificate that is saved in the $cert variable.</source>
+          <target state="translated">La commande utilise le paramètre FilePath pour spécifier le script en cours de signature et le paramètre Certificate pour spécifier le certificat qui est enregistré dans la variable $cert.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>It uses the IncludeChain parameter to include all of the signatures in the trust chain (including the root authority).</source>
+          <target state="translated">Elle utilise le paramètre IncludeChain pour inclure toutes les signatures dans la chaîne d'approbation (y compris l'autorité racine).</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It also uses the TimeStampServer parameter to add a timestamp to the signature.</source>
+          <target state="translated">Elle utilise également le paramètre TimeStampServer pour ajouter un horodatage à la signature.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This prevents the script from failing when the certificate expires.</source>
+          <target state="translated">Cela empêche l'échec du script quand le certificat expire.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMÈTRES</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-Certificate</source>
+          <target state="translated">-Certificate</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Specifies the certificate that will be used to sign the script or file.</source>
+          <target state="translated">Spécifie le certificat qui sera utilisé pour signer le script ou le fichier.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Enter a variable that stores an object representing the certificate or an expression that gets the certificate.</source>
+          <target state="translated">Entrez une variable qui stocke un objet qui représente le certificat ou une expression qui obtient le certificat.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To find a certificate, use Get-PfxCertificate or use the Get-ChildItem cmdlet in the Certificate (Cert:) drive.</source>
+          <target state="translated">Pour rechercher un certificat, utilisez Get-PfxCertificate ou l'applet de commande Get-ChildItem dans le lecteur de certificat (Cert:).</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the certificate is not valid or does not have code-signing authority, the command fails.</source>
+          <target state="translated">Si le certificat n'est pas valide ou n'a pas d'autorité de signature de code, la commande échoue.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-FilePath</source>
+          <target state="translated">-Chemin d’accès</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Specifies the path to a file that is being signed.</source>
+          <target state="translated">Spécifie le chemin d'accès à un fichier qui est en cours de signature.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Allows the cmdlet to append a signature to a read-only file.</source>
+          <target state="translated">Permet à l'applet de commande d'ajouter une signature à un fichier en lecture seule.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Even using the Force parameter, the cmdlet cannot override security restrictions.</source>
+          <target state="translated">Même en utilisant le paramètre Force, l'applet de commande ne peut pas remplacer les restrictions de sécurité.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-HashAlgorithm</source>
+          <target state="translated">Élément HashAlgorithm Impossible-</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Specifies the hashing algorithm that Windows uses to compute the digital signature for the file.</source>
+          <target state="translated">Spécifie l'algorithme de hachage que Windows utilise pour calculer la signature numérique du fichier.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For Windows PowerShell 3.0, the default is SHA256, which is the Windows default hashing algorithm.</source>
+          <target state="translated">Pour Windows PowerShell 3.0, la valeur par défaut est SHA256, qui est l'algorithme de hachage par défaut Windows.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For Windows PowerShell 2.0, the default is SHA1.</source>
+          <target state="translated">Pour Windows PowerShell 2.0, la valeur par défaut est SHA1.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Files that are signed with a different hashing algorithm might not be recognized on other systems.</source>
+          <target state="translated">Les fichiers qui sont signés avec un algorithme de hachage différent peuvent ne pas être reconnus sur d'autres systèmes.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-IncludeChain</source>
+          <target state="translated">-IncludeChain</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Determines which certificates in the certificate trust chain are included in the digital signature.</source>
+          <target state="translated">Détermine les certificats de la chaîne d'approbation des certificats qui sont inclus dans la signature numérique.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>"NotRoot" is the default.</source>
+          <target state="translated">« NotRoot » est la valeur par défaut.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">Les valeurs valides sont :</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Signer: Includes only the signer's certificate.</source>
+          <target state="translated">Signataire : Comprend uniquement le certificat du signataire.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>NotRoot: Includes all of the certificates in the certificate chain, except for the root authority.</source>
+          <target state="translated">NotRoot : Inclut tous les certificats dans la chaîne de certificats, à l’exception de l’autorité racine.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>--All: Includes all the certificates in the certificate chain.</source>
+          <target state="translated">--Tout : Inclut tous les certificats dans la chaîne de certificats.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-TimestampServer</source>
+          <target state="translated">-TimestampServer</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Uses the specified time stamp server to add a time stamp to the signature.</source>
+          <target state="translated">Utilise le serveur d'horodatage spécifié pour ajouter un horodatage à la signature.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Type the URL of the time stamp server as a string.</source>
+          <target state="translated">Tapez l'URL du serveur d'horodatage sous forme de chaîne.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The time stamp represents the exact time that the certificate was added to the file.</source>
+          <target state="translated">L'horodatage représente l'heure exacte à laquelle le certificat a été ajouté au fichier.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A time stamp prevents the script from failing if the certificate expires because users and programs can verify that the certificate was valid at the time of signing.</source>
+          <target state="translated">Un horodatage empêche le script d'échouer si le certificat expire, car les utilisateurs et programmes peuvent vérifier que le certificat était valide au moment de la signature.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies the path to a file that is being signed.</source>
+          <target state="translated">Spécifie le chemin d'accès à un fichier qui est en cours de signature.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept>, the value of the <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">Contrairement aux <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept>, la valeur de la <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> paramètre est utilisé exactement telle qu’elle est tapée.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">Aucun caractère n’est interprété en tant que caractère générique.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">Si le chemin d’accès inclut des caractères d’échappement, mettez-le entre des guillemets simples.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">Les guillemets simples indiquent à Windows PowerShell qu’aucun caractère ne doit être interprété en tant que séquence d’échappement.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Vous demande confirmation avant d’exécuter l’applet de commande. Vous demande confirmation avant d’exécuter l’applet de commande.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Présente les conséquences éventuelles de l’exécution de l’applet de commande.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">L’applet de commande n’est pas exécuté. Montre ce qui se passerait si l’applet de commande s’exécute.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">L’applet de commande n’est pas exécutée.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Cette applet de commande prend en charge les paramètres courants :-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction et - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Pour plus d’informations, consultez about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRÉES</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You can pipe a string that contains the file path to Set-AuthenticodeSignature.</source>
+          <target state="translated">Vous pouvez diriger une chaîne qui contient le chemin d'accès du fichier vers Set-AuthenticodeSignature.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SORTIES</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Signature</source>
+          <target state="translated">System.Management.Automation.Signature</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTES DE PUBLICATION</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LIENS CONNEXES</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Get-AuthenticodeSignature</source>
+          <target state="translated">Get-AuthenticodeSignature</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Get-ExecutionPolicy</source>
+          <target state="translated">Get-ExecutionPolicy</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Get-PfxCertificate</source>
+          <target state="translated">Get-PfxCertificate</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Set-ExecutionPolicy</source>
+          <target state="translated">Set-ExecutionPolicy</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>about_Execution_Policies</source>
+          <target state="translated">about_Execution_Policies</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>about_Signing</source>
+          <target state="translated">about_Signing</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

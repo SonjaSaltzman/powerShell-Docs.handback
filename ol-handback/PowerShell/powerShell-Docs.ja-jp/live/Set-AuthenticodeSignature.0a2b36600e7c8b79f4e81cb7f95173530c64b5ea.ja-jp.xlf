@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">793634ef3400ca70924e12981f68ca31ca3f36cd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Security\Set-AuthenticodeSignature.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a1c607481d9ec8bc2e345c363ccaf202fdf4be9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b625cf88a6fcd2b8c7da9d2e27b0b525c7d6283a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-AuthenticodeSignature</source>
+          <target state="translated">Set-AuthenticodeSignature</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-AuthenticodeSignature</source>
+          <target state="translated">Set-AuthenticodeSignature</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Adds an Authenticode signature to a Windows PowerShell script or other file.</source>
+          <target state="translated">Windows PowerShell スクリプトまたはその他のファイルに Authenticode 署名を追加します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ByPath (Default)</source>
+          <target state="translated">ByPath (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ByLiteralPath</source>
+          <target state="translated">ByLiteralPath</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-AuthenticodeSignature<ept id="p1">**</ept> cmdlet adds an Authenticode signature to any file that supports Subject Interface Package (SIP).</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Set-authenticodesignature<ept id="p1">**</ept> コマンドレットは、Subject Interface Package (SIP) をサポートする任意のファイルに Authenticode 署名を追加します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In a Windows PowerShell script file, the signature takes the form of a block of text that indicates the end of the instructions that are executed in the script.</source>
+          <target state="translated">Windows PowerShell スクリプト ファイルで署名に使用される形式は、スクリプトで実行される命令の最後を示すテキストのブロックです。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If there is a signature in the file when this cmdlet runs, that signature is removed.</source>
+          <target state="translated">このコマンドレットが実行されるときにファイル内に署名がある場合、その署名は削除されます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Example 1: Get a code-signing certificate and sign a script</source>
+          <target state="translated">例 1: コード署名証明書を取得し、スクリプトに署名</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>These commands get a code-signing certificate from the Windows PowerShell certificate provider and use it to sign a Windows PowerShell script.</source>
+          <target state="translated">これらのコマンドは、Windows PowerShell 証明書プロバイダーからコード署名証明書を取得し、Windows PowerShell スクリプトの署名に使用します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-ChildItem cmdlet and the Windows PowerShell certificate provider to get the certificates in the Cert:\CurrentUser\My subdirectory of the certificate store.</source>
+          <target state="translated">最初のコマンドは、Get-ChildItem コマンドレットおよび Windows PowerShell 証明書プロバイダーを使用して、証明書ストアの Cert:\CurrentUser\My サブディレクトリ内の証明書を取得します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>(The Cert: drive is the drive exposed by the certificate provider.) The <bpt id="p1">*</bpt>CodeSigningCert<ept id="p1">*</ept> parameter, which is supported only by the certificate provider, limits the certificates retrieved to those with code-signing authority.</source>
+          <target state="translated">(Cert: ドライブは、証明書プロバイダーによって公開されているドライブです。) <bpt id="p1">*</bpt>CodeSigningCert<ept id="p1">*</ept> 証明書プロバイダーによってサポートされるパラメーターは取得する対象のコード署名証明機関と証明書を制限します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The command stores the result in the $Cert variable.</source>
+          <target state="translated">コマンドは、$Cert 変数に結果を格納します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Set-AuthenticodeSignature<ept id="p1">**</ept> cmdlet to sign the PSTestInternet2.ps1 script.</source>
+          <target state="translated">2 番目のコマンドを使用して、 <bpt id="p1">**</bpt>Set-authenticodesignature<ept id="p1">**</ept> コマンドレット、PSTestInternet2.ps1 スクリプトに署名します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>FilePath<ept id="p1">*</ept> parameter to specify the name of the script and the <bpt id="p2">*</bpt>Certificate<ept id="p2">*</ept> parameter to specify that the certificate is stored in the $Cert variable.</source>
+          <target state="translated">使用して、 <bpt id="p1">*</bpt>FilePath<ept id="p1">*</ept> スクリプトの名前を指定するパラメーター、および <bpt id="p2">*</bpt>証明書<ept id="p2">*</ept> 証明書が $Cert 変数に格納されていることを指定するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example 2: Get a code-signing certificate and sign a script</source>
+          <target state="translated">例 2: コード署名証明書を取得し、スクリプトに署名</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>These commands use the Get-PfxCertificate cmdlet to find a code signing certificate.</source>
+          <target state="translated">これらのコマンドは、Get-PfxCertificate コマンドレットを使用してコード署名証明書を検索します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Then, they use it to sign a Windows PowerShell script.</source>
+          <target state="translated">次に、証明書を使用して Windows PowerShell スクリプトに署名します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Get-PfxCertificate<ept id="p1">**</ept> cmdlet to find the C:\Test\MySign.pfx certificate and store it in the $Cert variable.</source>
+          <target state="translated">最初のコマンドを使用して、 <bpt id="p1">**</bpt>Get-pfxcertificate<ept id="p1">**</ept> コマンドレットを C:\Test\MySign.pfx 証明書を検出して $Cert 変数に格納します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Set-AuthenticodeSignature<ept id="p1">**</ept> to sign the script.</source>
+          <target state="translated">2 番目のコマンドを使用して <bpt id="p1">**</bpt>Set-authenticodesignature<ept id="p1">**</ept> 、スクリプトに署名します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>FilePath<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Set-AuthenticodeSignature<ept id="p2">**</ept> specifies the path to the script file being signed and the <bpt id="p3">*</bpt>Certificate<ept id="p3">*</ept> parameter passes the $Cert variable containing the certificate to <bpt id="p4">**</bpt>Set-AuthenticodeSignature<ept id="p4">**</ept>.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>FilePath<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>Set-authenticodesignature<ept id="p2">**</ept> 署名されているスクリプト ファイルへのパスを指定し、 <bpt id="p3">*</bpt>証明書<ept id="p3">*</ept> パラメーターは証明書を含む $Cert 変数に渡します <bpt id="p4">**</bpt>Set-authenticodesignature<ept id="p4">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the certificate file is password protected, Windows PowerShell prompts you for the password.</source>
+          <target state="translated">証明書ファイルがパスワードで保護されている場合、Windows PowerShell によりパスワードが要求されます。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 3: Add a digital signature with the root authority</source>
+          <target state="translated">例 3: ルート証明機関にデジタル署名を追加します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command adds a digital signature that includes the root authority in the trust chain, and it is signed by a third-party timestamp server.</source>
+          <target state="translated">このコマンドは、信頼チェーンのルート証明機関を含むデジタル署名を追加します。これは、サードパーティのタイムスタンプ サーバーにより署名されます。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>FilePath<ept id="p1">*</ept> parameter to specify the script being signed and the <bpt id="p2">*</bpt>Certificate<ept id="p2">*</ept> parameter to specify the certificate that is saved in the $Cert variable.</source>
+          <target state="translated">コマンドを使用して、 <bpt id="p1">*</bpt>FilePath<ept id="p1">*</ept> 署名されているスクリプトを指定するパラメーター、および <bpt id="p2">*</bpt>証明書<ept id="p2">*</ept> $Cert 変数に保存されている証明書を指定するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>IncludeChain<ept id="p1">*</ept> parameter to include all of the signatures in the trust chain (including the root authority).</source>
+          <target state="translated">使用して、 <bpt id="p1">*</bpt>IncludeChain<ept id="p1">*</ept> (ルート証明機関を含む)、信頼チェーンに含めるすべての署名のパラメーターです。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It also uses the <bpt id="p1">*</bpt>TimeStampServer<ept id="p1">*</ept> parameter to add a timestamp to the signature.</source>
+          <target state="translated">使用して、 <bpt id="p1">*</bpt>TimeStampServer<ept id="p1">*</ept> 署名にタイムスタンプを追加するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This prevents the script from failing when the certificate expires.</source>
+          <target state="translated">これにより、証明の有効期限が切れた場合にもスクリプトは失敗しません。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-Certificate</source>
+          <target state="translated">証明書</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Specifies the certificate that will be used to sign the script or file.</source>
+          <target state="translated">スクリプトまたはファイルへの署名に使用する証明書を指定します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Enter a variable that stores an object representing the certificate or an expression that gets the certificate.</source>
+          <target state="translated">証明書を表すオブジェクトを格納する変数、または証明書を取得する式を入力します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To find a certificate, use Get-PfxCertificate or use the Get-ChildItem cmdlet in the Certificate (Cert:) drive.</source>
+          <target state="translated">証明書を検索するには、Get-PfxCertificate を使用するか、Certificate (Cert:) ドライブの Get-ChildItem コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the certificate is not valid or does not have code-signing authority, the command fails.</source>
+          <target state="translated">証明書が有効でない場合、またはコード署名の権限がない場合は、コマンドが失敗します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">コマンドレットを実行する前に確認するように求められます。コマンドレットを実行する前に確認するように求められます。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-FilePath</source>
+          <target state="translated">ファイルのパス</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Specifies the path to a file that is being signed.</source>
+          <target state="translated">署名するファイルへのパスを指定します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Allows the cmdlet to append a signature to a read-only file.</source>
+          <target state="translated">コマンドレットで読み取り専用ファイルに署名を追加できるようにします。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Even using the <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> parameter, the cmdlet cannot override security restrictions.</source>
+          <target state="translated">使用しても、 <bpt id="p1">*</bpt>Force<ept id="p1">*</ept> 、パラメーター、コマンドレットは、セキュリティ上の制限を上書きできません。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-HashAlgorithm</source>
+          <target state="translated">-HashAlgorithm</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Specifies the hashing algorithm that Windows uses to compute the digital signature for the file.</source>
+          <target state="translated">Windows でファイルのデジタル署名の計算に使用されるハッシュ アルゴリズムを指定します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For Windows PowerShell 3.0, the default is SHA-256, which is the Windows default hashing algorithm.</source>
+          <target state="translated">Windows PowerShell 3.0 で、既定値は、Windows の既定のハッシュ アルゴリズムは sha-256 です。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For Windows PowerShell 2.0, the default is SHA-1.</source>
+          <target state="translated">Windows PowerShell 2.0 で、既定値は sha-1 です。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Files that are signed with a different hashing algorithm might not be recognized on other systems.</source>
+          <target state="translated">異なるハッシュ アルゴリズムで署名されたファイルは、他のシステムで認識されない可能性があります。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-IncludeChain</source>
+          <target state="translated">-IncludeChain</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Determines which certificates in the certificate trust chain are included in the digital signature.</source>
+          <target state="translated">証明書の信頼チェーン内のどの証明書がデジタル署名に含まれているかを判断します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>NotRoot is the default.</source>
+          <target state="translated">NotRoot では、既定値です。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">このパラメーターに対して使用できる値:</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Signer.</source>
+          <target state="translated">署名者です。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Includes only the signer's certificate.</source>
+          <target state="translated">署名者の証明書のみが含まれます。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>NotRoot.</source>
+          <target state="translated">NotRoot します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Includes all of the certificates in the certificate chain, except for the root authority.</source>
+          <target state="translated">特定のチェーン内のすべての証明書が含まれます (ルート証明機関を除く)。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>All.</source>
+          <target state="translated">すべてです。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Includes all the certificates in the certificate chain.</source>
+          <target state="translated">証明書チェーン内のすべての証明書が含まれます。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">– LiteralPath</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies the path to a file that is being signed.</source>
+          <target state="translated">署名するファイルへのパスを指定します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">*</bpt>FilePath<ept id="p1">*</ept>, the value of the <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> parameter is used exactly as it is typed.</source>
+          <target state="translated">異なり <bpt id="p1">*</bpt>FilePath<ept id="p1">*</ept>, の値、 <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> は入力したとおりにパラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">ワイルドカードとして解釈される文字はありません。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">パスにエスケープ文字が含まれている場合は、単一引用符で囲みます。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">単一引用符で囲んだ文字はエスケープ シーケンスとして解釈されません。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-TimestampServer</source>
+          <target state="translated">-TimestampServer</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Uses the specified time stamp server to add a time stamp to the signature.</source>
+          <target state="translated">指定されたタイム スタンプ サーバーを使用して、署名にタイム スタンプを追加します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Type the URL of the time stamp server as a string.</source>
+          <target state="translated">タイム スタンプ サーバーの URL を文字列として入力します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The time stamp represents the exact time that the certificate was added to the file.</source>
+          <target state="translated">タイム スタンプは、証明書がファイルに追加された正確な時間を表します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A time stamp prevents the script from failing if the certificate expires because users and programs can verify that the certificate was valid at the time of signing.</source>
+          <target state="translated">タイム スタンプを使用すると、署名時に証明書が有効だったことをユーザーとプログラムで検証できるため、証明書の期限が過ぎている場合であってもスクリプトは失敗しません。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットを実行するとどのような結果になるかを表示します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットは実行されません。コマンドレットが実行された場合の処理を示しています。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">コマンドレットは実行されません。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can pipe a string that contains the file path to <bpt id="p1">**</bpt>Set-AuthenticodeSignature<ept id="p1">**</ept>.</source>
+          <target state="translated">ファイル パスを表す文字列をパイプする <bpt id="p1">**</bpt>Set-authenticodesignature<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Signature</source>
+          <target state="translated">System.Management.Automation.Signature</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Get-AuthenticodeSignature</source>
+          <target state="translated">Get-AuthenticodeSignature</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Get-ExecutionPolicy</source>
+          <target state="translated">Get-ExecutionPolicy</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Get-PfxCertificate</source>
+          <target state="translated">Get-PfxCertificate</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Set-ExecutionPolicy</source>
+          <target state="translated">Set-ExecutionPolicy</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>about_Execution_Policies</source>
+          <target state="translated">about_Execution_Policies</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>about_Signing</source>
+          <target state="translated">about_Signing</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

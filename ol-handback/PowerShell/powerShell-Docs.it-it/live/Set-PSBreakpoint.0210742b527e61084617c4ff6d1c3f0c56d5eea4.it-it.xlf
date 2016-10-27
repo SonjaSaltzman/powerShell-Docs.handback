@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f44ac3ddcb6eace329e3829ec3a76a40d3d4a4f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Set-PSBreakpoint.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0a63734777416fb9bde986dc647b4dcde2af264</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ddec1321187f17512de531cd3642bb8d7b813c21</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Set-PSBreakpoint</source>
+          <target state="translated">Set-PSBreakpoint</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set-PSBreakpoint</source>
+          <target state="translated">Set-PSBreakpoint</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">RIEPILOGO</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Sets a breakpoint on a line, command, or variable.</source>
+          <target state="translated">Imposta un punto di interruzione in una riga, un comando o una variabile.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTASSI</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Line (Default)</source>
+          <target state="translated">Riga (impostazione predefinita)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Command</source>
+          <target state="translated">Comando</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Variable</source>
+          <target state="translated">Variabile</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIZIONE</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Set-PSBreakpoint cmdlet sets a breakpoint in a script or in any command run in the current session.</source>
+          <target state="translated">Il cmdlet Set-PSBreakpoint imposta un punto di interruzione in uno script o in qualsiasi comando eseguito nella sessione corrente.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use Set-PSBreakpoint to set a breakpoint before executing a script or running a command, or during debugging, when stopped at another breakpoint.</source>
+          <target state="translated">È possibile usare il cmdlet Set PSBreakpoint per impostare un punto di interruzione prima di eseguire uno script o un comando o durante il debug, quando è arrestato in corrispondenza di un altro punto di interruzione.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Note: Set-PSBreakpoint cannot set a breakpoint on a remote computer.</source>
+          <target state="translated">Nota: Set-PSBreakpoint non può impostare un punto di interruzione in un computer remoto.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To debug a script on a remote computer, copy the script to the local computer and then debug it locally.</source>
+          <target state="translated">Per eseguire il debug di uno script in un computer remoto, copiare lo script nel computer locale ed eseguire il debug in locale.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Each Set-PSBreakpoint command creates one of the following three types of breakpoints:</source>
+          <target state="translated">Ogni comando Set-PSBreakpoint crea uno dei tre tipi di punti di interruzione seguenti:</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Line breakpoint:  Sets breakpoints at particular line and column coordinates.</source>
+          <target state="translated">Punto di interruzione riga: imposta punti di interruzione in corrispondenza delle coordinate di riga e colonna particolare.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Command breakpoint:  Sets breakpoints on commands and functions.</source>
+          <target state="translated">Punto di interruzione comando: imposta punti di interruzione in comandi e funzioni.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Variable breakpoint: Sets breakpoints on variables.</source>
+          <target state="translated">Punto di interruzione variabile: imposta punti di interruzione nelle variabili.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can set a breakpoint on multiple lines, commands, or variables in a single Set-PSBreakpoint command, but each Set-PSBreakpoint command sets only one type of breakpoint.</source>
+          <target state="translated">È possibile impostare un punto di interruzione in più righe, comandi o variabili con un unico comando Set-PSBreakpoint, ma ogni comando Set-PSBreakpoint imposta solo un tipo di punto di interruzione.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>At a breakpoint, Windows PowerShell temporarily stops executing and gives control to the debugger.</source>
+          <target state="translated">In corrispondenza del punto di interruzione, Windows PowerShell arresta temporaneamente l'esecuzione e cede il controllo al debugger.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The command prompt changes to "DBG<ph id="ph1">\&gt;</ph>", and a set of debugger commands become available for use.</source>
+          <target state="translated">Prompt dei comandi cambia in "DBG<ph id="ph1">\&gt;</ph>", e un set di comandi del debugger diventano disponibili per l'utilizzo.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>However, you can use the Action parameter to specify an alternate response, such as conditions for the breakpoint or instructions to perform additional tasks such as logging or diagnostics.</source>
+          <target state="translated">È tuttavia possibile usare il parametro Action per specificare una risposta alternativa, ad esempio le condizioni per il punto di interruzione o istruzioni per l'esecuzione di attività aggiuntive, come la registrazione o la diagnostica.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The Set-PSBreakpoint cmdlet is one of several cmdlets designed for debugging Windows PowerShell scripts.</source>
+          <target state="translated">Set-PSBreakpoint è uno dei diversi cmdlet progettati per il debug degli script di Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information about the Windows PowerShell debugger, see about_Debuggers.</source>
+          <target state="translated">Per altre informazioni sul debugger di Windows PowerShell, vedere about_Debuggers.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ESEMPI</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- ESEMPIO 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This command sets a breakpoint at line 5 in the Sample.ps1 script.</source>
+          <target state="translated">Questo comando imposta un punto di interruzione alla riga 5 nello script Sample.ps1.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>As a result, when the script runs, execution stops immediately before line 5 would execute.</source>
+          <target state="translated">Quando viene eseguito lo script, l'esecuzione viene arrestata immediatamente prima dell'esecuzione della riga 5.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When you set a new breakpoint by line number, the Set-PSBreakpoint cmdlet generates a line breakpoint object (System.Management.Automation.LineBreakpoint) that includes the breakpoint ID and hit count, as shown in the following sample output.</source>
+          <target state="translated">Quando si imposta un nuovo punto di interruzione in base al numero di riga, il cmdlet Set-PSBreakpoint genera un oggetto punto di interruzione di riga (System.Management.Automation.LineBreakpoint) che include l'ID del punto di interruzione e il numero di riscontri, come illustrato nell'output di esempio seguente.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This command creates a command breakpoint on the Increment function in the Sample.ps1 cmdlet.</source>
+          <target state="translated">Questo comando crea un punto di interruzione comando nella funzione Increment nel cmdlet Sample.ps1.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The script stops executing immediately before each call to the specified function.</source>
+          <target state="translated">L'esecuzione dello script viene arrestata immediatamente prima di ogni chiamata alla funzione specificata.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The result is a command breakpoint object.</source>
+          <target state="translated">Il risultato è un oggetto punto di interruzione comando.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Before the script runs, the value of the HitCount property is 0.</source>
+          <target state="translated">Prima dell'esecuzione dello script, il valore della proprietà HitCount è 0.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command sets a breakpoint on the Server variable in the Sample.ps1 script.</source>
+          <target state="translated">Questo comando imposta un punto di interruzione nella variabile Server nello script Sample.ps1.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It uses the Mode parameter with a value of ReadWrite to stop execution when the value of the variable is read and just before the value changes.</source>
+          <target state="translated">Usa il parametro Mode con il valore ReadWrite per arrestare l'esecuzione quando viene letto il valore della variabile e appena prima che il valore venga modificato.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This command sets a breakpoint on every command in the Sample.ps1 script that begins with "write", such as "write-host".</source>
+          <target state="translated">Questo comando imposta un punto di interruzione in tutti i comandi nello script Sample.ps1 che iniziano con "write", ad esempio "write-host".</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This command stops execution at the DiskTest function in the Test.ps1 script only when the value of the $disk variable is greater than 2.</source>
+          <target state="translated">Questo comando arresta l'esecuzione della funzione DiskTest nello script Test.ps1 solo quando il valore della variabile $disk è maggiore di 2.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>It uses the Set-PSBreakpoint cmdlet to set a command breakpoint on the DiskTest function.</source>
+          <target state="translated">Usa il cmdlet Set-PSBreakpoint per impostare un punto di interruzione comando nella funzione DiskTest.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The value of the action is a script block that tests the value of the $disk variable in the function.</source>
+          <target state="translated">Il valore dell'azione è un blocco di script che verifica il valore della variabile $disk nella funzione.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The action uses the BREAK keyword to stop execution if the condition is met.</source>
+          <target state="translated">L'azione usa la parola chiave BREAK per arrestare l'esecuzione qualora la condizione venga soddisfatta.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The alternative (and the default) is CONTINUE.</source>
+          <target state="translated">L'impostazione alternativa (predefinita) è la parola chiave CONTINUE.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This command sets a breakpoint on the CheckLog function.</source>
+          <target state="translated">Questo comando imposta un punto di interruzione nella funzione CheckLog.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Because the command does not specify a script, the breakpoint is set on anything that runs in the current session.</source>
+          <target state="translated">Poiché il comando non specifica uno script, il punto di interruzione viene impostato su tutto ciò che viene eseguito nella sessione corrente.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The debugger breaks when the function is called, not when it is declared.</source>
+          <target state="translated">Il debugger si interrompe quando viene chiamata la funzione e non quando viene dichiarata.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This command sets three line breakpoints in the Sample.ps1 script.</source>
+          <target state="translated">Questo comando imposta tre punti di interruzione riga nello script Sample.ps1.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>It sets one breakpoint at column 2 on each of the lines specified in the script.</source>
+          <target state="translated">Imposta un punto di interruzione in corrispondenza della colonna 2 in ognuna delle righe specificate nello script.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The action specified in the Action parameter applies to all breakpoints.</source>
+          <target state="translated">L'azione specificata nel parametro Action si applica a tutti i punti di interruzione.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETRI</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-Action</source>
+          <target state="translated">-Azione</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies commands that run at each breakpoint instead of breaking.</source>
+          <target state="translated">Specifica i comandi che vengono eseguiti a ogni punto di interruzione anziché interrompere l'esecuzione.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Enter a script block that contains the commands.</source>
+          <target state="translated">Immettere un blocco di script contenente i comandi.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to set conditional breakpoints or to perform other tasks, such as testing or logging.</source>
+          <target state="translated">È possibile usare questo parametro per impostare punti di interruzione condizionali o eseguire altre attività, ad esempio test o registrazione.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If this parameter is omitted, or no action is specified, execution stops at the breakpoint, and the debugger starts.</source>
+          <target state="translated">Se questo parametro viene omesso o non viene specificata alcuna azione, l'esecuzione si arresta in corrispondenza del punto di interruzione e viene avviato il debugger.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When the Action parameter is used, the Action script block runs at each breakpoint.</source>
+          <target state="translated">Quando si usa il parametro Action, viene eseguito il blocco di script Action a ogni punto di interruzione.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Execution does not stop unless the script block includes the Break keyword.</source>
+          <target state="translated">L'esecuzione non viene arrestata, a meno che il blocco di script non includa la parola chiave Break.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you use the Continue keyword in the script block, execution resumes until the next breakpoint.</source>
+          <target state="translated">Se si usa la parola chiave Continue nel blocco di script, l'esecuzione riprende fino al punto di interruzione successivo.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Script_Blocks, about_Break, and about_Continue.</source>
+          <target state="translated">Per altre informazioni, vedere about_Script_Blocks, about_Break e about_Continue.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-Column</source>
+          <target state="translated">-Colonna</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Specifies the column number of the column in the script file on which execution stops.</source>
+          <target state="translated">Specifica il numero di colonna della colonna nel file di script in cui l'esecuzione viene arrestata.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Enter only one column number.</source>
+          <target state="translated">Immettere solo un numero di colonna.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The default is column 1.</source>
+          <target state="translated">Il valore predefinito è la colonna 1.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The Column value is used with the value of the Line parameter to specify the breakpoint.</source>
+          <target state="translated">Il valore Column viene usato con il valore del parametro Line per specificare il punto di interruzione.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If the Line parameter specifies multiple lines, the Column parameter sets a breakpoint at the specified column on each of the specified lines.</source>
+          <target state="translated">Se nel parametro Line sono specificate più righe, il parametro Column imposta un punto di interruzione in corrispondenza della colonna specificata per ogni riga specificata.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell stops executing before the statement or expression that includes the character at the specified line and column position.</source>
+          <target state="translated">Windows PowerShell arresta l'esecuzione prima dell'istruzione o dell'espressione che include il carattere nella posizione di colonna e riga specificata.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Columns are counted from the top left margin beginning with column number 1 (not 0).</source>
+          <target state="translated">Le colonne vengono conteggiate dall'inizio del margine superiore sinistro a partire dal numero di colonna 1 (non 0).</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If you specify a column that does not exist in the script, an error is not declared, but the breakpoint is never executed.</source>
+          <target state="translated">Se si specifica una colonna che non esiste nello script, non viene generato un errore, ma il punto di interruzione non viene mai eseguito.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-Command</source>
+          <target state="translated">-Command</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Sets a command breakpoint.</source>
+          <target state="translated">Imposta un punto di interruzione del comando.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Enter cmdlet names, such as "Get-Process" or function names.</source>
+          <target state="translated">Immettere i nomi dei cmdlet, ad esempio "Get-Process" o i nomi delle funzioni.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">I caratteri jolly sono consentiti.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Execution stops just before each instance of each command is executed.</source>
+          <target state="translated">L'esecuzione si arresta appena prima dell'esecuzione di ogni istanza di ciascun comando.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If the command is a function, execution stops each time the function is called and at each BEGIN, PROCESS, and END section.</source>
+          <target state="translated">Se il comando è una funzione, l'esecuzione viene arrestata ogni volta che la funzione viene chiamata e in corrispondenza di ogni sezione BEGIN, PROCESS ed END.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-Line</source>
+          <target state="translated">-Line</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Sets a line breakpoint in a script.</source>
+          <target state="translated">Imposta un punto di interruzione riga in uno script.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Enter one or more line numbers, separated by commas.</source>
+          <target state="translated">Immettere uno o più numeri di riga, separati da virgole.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell stops immediately before executing the statement that begins on each of the specified lines.</source>
+          <target state="translated">Windows PowerShell si arresta immediatamente prima di eseguire l'istruzione che inizia in corrispondenza di ognuna delle righe specificate.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Lines are counted from the top left margin of the script file beginning with line number 1 (not 0).</source>
+          <target state="translated">Le righe vengono conteggiate dall'inizio del margine superiore sinistro del file di script a partire dal numero di riga 1 (non 0).</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If you specify a blank line, execution stops before the next non-blank line.</source>
+          <target state="translated">Se si specifica una riga vuota, l'esecuzione viene arrestata prima della riga non vuota successiva.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If the line is out of range, the breakpoint is never hit.</source>
+          <target state="translated">Se la riga non è compresa nell'intervallo, il punto di interruzione non viene mai raggiunto.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-Mode</source>
+          <target state="translated">-Modalità</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Determines the mode of access that triggers variable breakpoints.</source>
+          <target state="translated">Determina la modalità di accesso che attiva i punti di interruzione della variabile.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The default is Write.</source>
+          <target state="translated">L'impostazione predefinita è Write.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the Variable parameter is used in the command.</source>
+          <target state="translated">Questo parametro è valido solo quando nel comando viene usato il parametro Variable.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The mode applies to all breakpoints set in the command.</source>
+          <target state="translated">La modalità si applica a tutti i punti di interruzione impostati nel comando.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">I valori validi sonoi seguenti:</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Write: Stops execution immediately before a new value is written to the variable.</source>
+          <target state="translated">Scrittura: Interrompe l'esecuzione immediatamente prima della scrittura di un nuovo valore alla variabile.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Read: Stops execution when the variable is read, that is, when its value is accessed, either to be assigned, displayed, or used.</source>
+          <target state="translated">Interrompe l'esecuzione lettura: Quando la variabile viene letta, vale a dire quando il relativo valore sono accessibili, uno per l'assegnazione, visualizzato o utilizzato.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>In read mode, execution does not stop when the value of the variable changes.</source>
+          <target state="translated">In modalità di lettura, l'esecuzione non viene arrestata quando cambia il valore della variabile.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>ReadWrite: Stops execution when the variable is read or written.</source>
+          <target state="translated">ReadWrite: Arresta l'esecuzione quando la variabile viene letta o scritta.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>-Script</source>
+          <target state="translated">-Script</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Sets a breakpoint in each of the specified script files.</source>
+          <target state="translated">Imposta un punto di interruzione in ognuno dei file di script specificati.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Enter the paths and file names of one or more script files.</source>
+          <target state="translated">Immettere i percorsi e i nomi file di uno o più file di script.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If the files are in the current directory, you can omit the path.</source>
+          <target state="translated">Se i file si trovano nella directory corrente, è possibile omettere il percorso.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">I caratteri jolly sono consentiti.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>By default, variable breakpoints and command breakpoints are set on any command that runs in the current session.</source>
+          <target state="translated">Per impostazione predefinita, i punti di interruzione variabile e i punti di interruzione comando vengono impostati in qualsiasi comando eseguito nella sessione corrente.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This parameter is required only when setting a line breakpoint.</source>
+          <target state="translated">Questo parametro è obbligatorio solo quando si imposta un punto di interruzione riga.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-Variable</source>
+          <target state="translated">-Variable</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Sets a variable breakpoint.</source>
+          <target state="translated">Imposta un punto di interruzione variabile.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Enter a comma-separated list of variables without dollar signs ($).</source>
+          <target state="translated">Immettere un elenco di variabili delimitato da virgole senza il segno di dollaro ($).</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Use the Mode parameters to determine the mode of access that triggers the breakpoints.</source>
+          <target state="translated">Usare i parametri Mode per determinare la modalità di accesso che attiva i punti di interruzione.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The default mode, Write, stops execution just before a new value is written to the variable.</source>
+          <target state="translated">La modalità predefinita, Write, arresta l'esecuzione appena prima che un nuovo valore venga scritto nella variabile.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Questo cmdlet supporta i parametri comuni:-eseguire il Debug, - ErrorAction, - ErrorVariable, - InformationAction, InformationVariable-, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Per ulteriori informazioni, vedere about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">INPUT</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Nessuno</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to Set-PSBreakpoint.</source>
+          <target state="translated">Non è possibile inviare input tramite pipe a Set-PSBreakpoint.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">OUTPUT</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Breakpoint object (System.Management.Automation.LineBreakpoint, System.Management.Automation.VariableBreakpoint, System.Management.Automation.CommandBreakpoint)</source>
+          <target state="translated">Oggetto punto di interruzione (System.Management.Automation.LineBreakpoint, System.Management.Automation.VariableBreakpoint, System.Management.Automation.CommandBreakpoint)</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Set-PSBreakpoint returns an object that represents each breakpoint that it sets.</source>
+          <target state="translated">Set-PSBreakpoint restituisce un oggetto che rappresenta ogni punto di interruzione impostato.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTE</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Set-PSBreakpoint cannot set a breakpoint on a remote computer.</source>
+          <target state="translated">Set-PSBreakpoint non può impostare un punto di interruzione in un computer remoto.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To debug a script on a remote computer, copy the script to the local computer and then debug it locally.</source>
+          <target state="translated">Per eseguire il debug di uno script in un computer remoto, copiare lo script nel computer locale ed eseguire il debug in locale.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>When you set a breakpoint on more than one line, command, or variable, Set-PSBreakpoint generates a breakpoint object for each entry.</source>
+          <target state="translated">Quando si imposta un punto di interruzione in più di una riga, comando o variabile, PSBreakpoint Set genera un oggetto punto di interruzione per ogni voce.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>When setting a breakpoint on a function or variable at the command prompt, you can set the breakpoint before or after you create the function or variable.</source>
+          <target state="translated">Quando si imposta un punto di interruzione in una funzione o variabile al prompt dei comandi, è possibile impostare il punto di interruzione prima o dopo aver creato la funzione o la variabile.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">COLLEGAMENTI CORRELATI</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Disable-PSBreakpoint</source>
+          <target state="translated">Disable-PSBreakpoint</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Enable-PSBreakpoint</source>
+          <target state="translated">Enable-PSBreakpoint</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Get-PSBreakpoint</source>
+          <target state="translated">Get-PSBreakpoint</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Get-PSCallStack</source>
+          <target state="translated">Get-PSCallStack</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Remove-PSBreakpoint</source>
+          <target state="translated">Remove-PSBreakpoint</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>about_Debuggers</source>
+          <target state="translated">about_Debuggers</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

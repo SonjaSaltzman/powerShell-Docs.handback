@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ff6ed9549314912975439acb1d7f10f7cebf60ae</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Utility\Trace-Command.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df07ea05f93bf7c70131bc1bd650fed239dddfcd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a82ff0eb5e68ed711734c8d8248ebdaec4d05984</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Trace-Command</source>
+          <target state="translated">Trace-Command</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Trace-Command</source>
+          <target state="translated">Trace-Command</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SYNOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Configures and starts a trace of the specified expression or command.</source>
+          <target state="translated">Configure et démarre un suivi de la commande ou de l'expression spécifiée.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>expressionSet (Default)</source>
+          <target state="translated">expressionSet (valeur par défaut)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>commandSet</source>
+          <target state="translated">commandSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPTION</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Trace-Command cmdlet configures and starts a trace of the specified expression or command.</source>
+          <target state="translated">L'applet de commande Trace-Comman configure et démarre un suivi de la commande ou de l'expression spécifiée.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It works like Set-TraceSource, except that it applies only to the specified command.</source>
+          <target state="translated">Elle fonctionne comme Set-TraceSource, si ce n'est qu'elle s'applique uniquement à la commande spécifiée.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- EXEMPLE 1 -------------------------</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command starts a trace of metadata processing, parameter binding, and cmdlet creation and destruction of the "get-process notepad" expression.</source>
+          <target state="translated">Cette commande démarre un suivi de traitement de métadonnées et de liaison de paramètres, ainsi que de la création et de la destruction par applet de commande de l'expression « get-process notepad ».</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It uses the Name parameter to specify the trace sources, the Expression parameter to specify the command, and the PSHost parameter to send the output to the console.</source>
+          <target state="translated">Elle utilise le paramètre Name pour spécifier les sources de suivi, le paramètre Expression pour spécifier la commande, et le paramètre PSHost pour envoyer la sortie à la console.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Because it does not specify any tracing options or listener options, the command uses the defaults, "All" for the tracing options, and "None" for the listener options.</source>
+          <target state="translated">Comme elle ne spécifie pas les options de suivi ni les options d'écouteur, la commande utilise les valeurs par défaut, « All » pour les options de suivi et « None » pour les options d'écouteur.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>These commands trace the actions of the ParameterBinding operations of Windows PowerShell while it processes a Get-Alias expression that takes input from the pipeline.</source>
+          <target state="translated">Ces commandes effectuent le suivi des actions des opérations ParameterBinding de Windows PowerShell pendant le traitement d'une expression Get-Alias qui accepte une entrée du pipeline.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In Trace-Command, the InputObject parameter passes an object to the expression that is being processed during the trace.</source>
+          <target state="translated">Dans Trace-Command, le paramètre InputObject passe un objet à l'expression qui est traitée durant le suivi.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The first command stores the string "i*" in the $a variable.</source>
+          <target state="translated">La première commande stocke la chaîne « i* » dans la variable $a.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The second command uses the Trace-Command cmdlet with the ParameterBinding trace source.</source>
+          <target state="translated">La deuxième commande utilise l'applet de commande Trace-Command avec la source de suivi de ParameterBinding.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The PSHost parameter sends the output to the console.</source>
+          <target state="translated">Le paramètre PSHost envoie la sortie vers la console.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The expression being processed is "get-alias $input", where the $input variable is associated with the InputObject parameter.</source>
+          <target state="translated">L'expression en cours de traitement est « get-alias $input », où la variable $input est associée au paramètre InputObject.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The InputObject parameter passes the variable $a to the expression.</source>
+          <target state="translated">Le paramètre InputObject passe la variable $a à l'expression.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In effect, the command being processed during the trace is "get-alias -inputobject $a" or "$a | get-alias".</source>
+          <target state="translated">En effet, la commande traitée durant le suivi est « get-alias -inputobject $a » ou « $a | get-alias ».</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMÈTRES</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Specifies the parameters and parameter values for the command being traced.</source>
+          <target state="translated">Spécifie les paramètres et les valeurs de paramètre pour la commande faisant l'objet d'un suivi.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The alias for ArgumentList is Args.</source>
+          <target state="translated">L'alias d'ArgumentList est Args.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This feature is especially useful for debugging dynamic parameters.</source>
+          <target state="translated">Cette fonctionnalité est particulièrement utile pour déboguer des paramètres dynamiques.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-Command</source>
+          <target state="translated">-Command</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Specifies a command that is being processed during the trace.</source>
+          <target state="translated">Spécifie une commande qui est en cours de traitement au cours du suivi.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-Debugger</source>
+          <target state="translated">: Débogueur</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Sends the trace output to the debugger.</source>
+          <target state="translated">Envoie le résultat du suivi au débogueur.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can view the output in any user-mode or kernel mode debugger or in Visual Studio.</source>
+          <target state="translated">Vous pouvez afficher la sortie dans n'importe quel débogueur en mode noyau ou en mode utilisateur, ou dans Visual Studio.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This parameter also selects the default trace listener.</source>
+          <target state="translated">Ce paramètre sélectionne également l'écouteur de suivi par défaut.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-Expression</source>
+          <target state="translated">-Expression</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies the expression that is being processed during the trace.</source>
+          <target state="translated">Spécifie l'expression qui est en cours de traitement au cours du suivi.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Enclose the expression in braces ({}).</source>
+          <target state="translated">Mettez l'expression entre accolades ({}).</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-FilePath</source>
+          <target state="translated">-Chemin d’accès</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Sends the trace output to the specified file.</source>
+          <target state="translated">Envoie le résultat du suivi au fichier spécifié.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This parameter also selects the file trace listener.</source>
+          <target state="translated">Ce paramètre sélectionne également l'écouteur de suivi de fichier.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Allows the cmdlet to append trace information to a read-only file.</source>
+          <target state="translated">Permet à l'applet de commande d'ajouter des informations de suivi dans un fichier en lecture seule.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Used with the FilePath parameter.</source>
+          <target state="translated">Utilisé avec le paramètre FilePath.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Even using the Force parameter, the cmdlet cannot override security restrictions.</source>
+          <target state="translated">Même en utilisant le paramètre Force, l'applet de commande ne peut pas remplacer les restrictions de sécurité.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">Objet d’entrée :</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Provides input to the expression that is being processed during the trace.</source>
+          <target state="translated">Fournit une entrée à l'expression en cours de traitement au cours du suivi.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can enter a variable that represents the input that the expression accepts, or pass an object through the pipeline.</source>
+          <target state="translated">Vous pouvez entrer une variable qui représente l'entrée que l'expression accepte ou passer un objet via le pipeline.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-ListenerOption</source>
+          <target state="translated">-ListenerOption</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Adds optional data to the prefix of each trace message in the output.</source>
+          <target state="translated">Ajoute des données facultatives au préfixe de chaque message de suivi dans le résultat.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The valid values are None, LogicalOperationStack, DateTime, Timestamp, ProcessId, ThreadId, and Callstack.</source>
+          <target state="translated">Les valeurs valides sont None, LogicalOperationStack, DateTime, Timestamp, ProcessId, ThreadId et Callstack.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>"None" is the default.</source>
+          <target state="translated">« None » est la valeur par défaut.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To specify multiple options, separate them with commas, but with no spaces, and enclose them in quotation marks, such as "ProcessID,ThreadID".</source>
+          <target state="translated">Pour spécifier plusieurs options, séparez-les par des virgules, mais sans espaces, et placez-les entre guillemets, par exemple "ThreadID,ProcessID".</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Determines which Windows PowerShell components are traced.</source>
+          <target state="translated">Détermine quels composants de Windows PowerShell font l'objet d'un suivi.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Enter the name of the trace source of each component.</source>
+          <target state="translated">Entrez le nom de la source de suivi de chaque composant.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">Les caractères génériques sont autorisés.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To find the trace sources on your computer, type "Get-TraceSource".</source>
+          <target state="translated">Pour rechercher les sources de suivi sur votre ordinateur, tapez « Get-TraceSource ».</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-Option</source>
+          <target state="translated">-Option</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Determines the type of events that are traced.</source>
+          <target state="translated">Détermine le type des événements qui font l'objet d'un suivi.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The valid values are None, Constructor, Dispose, Finalizer, Method, Property, Delegates, Events, Exception, Lock, Error, Errors, Warning, Verbose, WriteLine, Data, Scope, ExecutionFlow, Assert, and All.</source>
+          <target state="translated">Les valeurs valides sont None, Constructor, Dispose, Finalizer, Method, Property, Delegates, Events, Exception, Lock, Error, Errors, Warning, Verbose, WriteLine, Data, Scope, ExecutionFlow, Assert et All.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>"All" is the default.</source>
+          <target state="translated">« All » est la valeur par défaut.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The following values are combinations of other values:</source>
+          <target state="translated">Les valeurs suivantes sont des combinaisons d'autres valeurs :</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>ExecutionFlow: (Constructor, Dispose, Finalizer, Method, Delegates, Events, and Scope)</source>
+          <target state="translated">ExecutionFlow : (Constructeur, Dispose, de finaliseur, méthode, délégués, événements et étendue)</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Data: (Constructor, Dispose, Finalizer, Property, Verbose, and WriteLine)</source>
+          <target state="translated">Données : (Constructeur, Dispose, finaliseur, Property, Verbose et WriteLine)</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Errors: (Error and Exception).</source>
+          <target state="translated">Erreurs : (Erreur et Exception).</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To specify multiple options, separate them with commas, but with no spaces, and enclose them in quotation marks, such as "Constructor,Dispose".</source>
+          <target state="translated">Pour spécifier plusieurs options, séparez-les par des virgules, mais sans espaces, et placez-les entre guillemets, par exemple "Constructor,Dispose".</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-PSHost</source>
+          <target state="translated">-PSHost</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Sends the trace output to the Windows PowerShell host.</source>
+          <target state="translated">Envoie le résultat du suivi à l'hôte Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This parameter also selects the PSHost trace listener.</source>
+          <target state="translated">Ce paramètre sélectionne également l'écouteur de suivi de PSHost.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Cette applet de commande prend en charge les paramètres courants :-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction et - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Pour plus d’informations, consultez about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRÉES</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You can pipe objects that represent input to the expression to Trace-Command.</source>
+          <target state="translated">Vous pouvez diriger vers Trace-Command des objets qui représentent une entrée pour l'expression.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SORTIES</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Returns the command trace in the debug stream.</source>
+          <target state="translated">Retourne le suivi de la commande dans le flux de débogage.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTES DE PUBLICATION</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Tracing is a method that developers use to debug and refine programs.</source>
+          <target state="translated">Le suivi est une méthode que les développeurs utilisent pour déboguer et affiner les programmes.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>When tracing, the program generates detailed messages about each step in its internal processing.</source>
+          <target state="translated">Pendant le suivi, le programme génère des messages détaillés sur chaque étape du traitement interne.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell tracing cmdlets are designed to help Windows PowerShell developers, but they are available to all users.</source>
+          <target state="translated">Les applets de commande de suivi Windows PowerShell sont conçues pour aider les développeurs Windows PowerShell, mais sont disponibles pour tous les utilisateurs.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>They let you monitor nearly every aspect of the functionality of the shell.</source>
+          <target state="translated">Elles vous permettent de surveiller quasiment chaque aspect de la fonctionnalité de l'interpréteur de commandes.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To find the Windows PowerShell components that are enabled for tracing, type "Get-Help Get-TraceSource."</source>
+          <target state="translated">Pour rechercher les composants de Windows PowerShell qui sont activés pour le suivi, tapez « Get-Help Get-TraceSource ».</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>A "trace source" is the part of each Windows PowerShell component that manages tracing and generates trace messages for the component.</source>
+          <target state="translated">Une « source de suivi » est la partie de chaque composant Windows PowerShell qui gère le suivi et génère des messages de suivi pour le composant.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To trace a component, you identify its trace source.</source>
+          <target state="translated">Pour suivre un composant, vous identifiez sa source de suivi.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A "trace listener" receives the output of the trace and displays it to the user.</source>
+          <target state="translated">Un « écouteur de suivi » reçoit le résultat du suivi et l'affiche à l'utilisateur.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You can elect to send the trace data to a user-mode or kernel-mode debugger, to the host or console, to a file, or to a custom listener derived from the System.Diagnostics.TraceListener class.</source>
+          <target state="translated">Vous pouvez choisir d'envoyer les données de suivi à un débogueur en mode utilisateur ou en mode noyau, à l'hôte ou à la console, vers un fichier, ou à un écouteur personnalisé dérivé de la classe System.Diagnostics.TraceListener.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>When you use the Command parameter set, Windows PowerShell processes the command just as it would be processed in a pipeline.</source>
+          <target state="translated">Quand vous utilisez l'ensemble de paramètres Command, Windows PowerShell traite la commande comme elle serait traitée dans un pipeline.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>For example, command discovery is not repeated for each incoming object.</source>
+          <target state="translated">Par exemple, la découverte de commande n'est pas répétée pour chaque objet entrant.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The names of the Name, Expression, Option, and Command parameters are optional.</source>
+          <target state="translated">Les noms des paramètres Name, Expression, Option et Command sont facultatifs.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If you omit the parameter names, the unnamed parameter values must appear in this order: Name, Expression, Option or Name, Command,-Option .</source>
+          <target state="translated">Si vous omettez les noms de paramètres, les valeurs de paramètre sans nom doivent apparaître dans cet ordre : nom, Expression, Option ou nom, commande,-Option.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If you include the parameter names, the parameters can appear in any order.</source>
+          <target state="translated">Si vous incluez les noms de paramètres, les paramètres peuvent apparaître dans tout ordre.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LIENS CONNEXES</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Get-TraceSource</source>
+          <target state="translated">Get-TraceSource.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Set-TraceSource</source>
+          <target state="translated">Set-TraceSource</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

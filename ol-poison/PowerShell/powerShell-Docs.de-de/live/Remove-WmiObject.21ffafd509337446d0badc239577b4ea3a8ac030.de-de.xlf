@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8cd52354258e52005a53d7bc2a6e30b5dd8cf0db</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Management\Remove-WmiObject.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c8833f81d9345acb20ba495fa8ad0f9e34c7097d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aef0aad44d56176795fb0348cedad548236d3822</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell-Cmdlets</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Remove-WmiObject</source>
+          <target state="translated">Remove-WmiObject</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Remove-WmiObject</source>
+          <target state="translated">Remove-WmiObject</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">ZUSAMMENFASSUNG</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Deletes an instance of an existing Windows Management Instrumentation (WMI) class.</source>
+          <target state="translated">Löscht eine Instanz einer vorhandenen Klasse der Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI).</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAX</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>class (Default)</source>
+          <target state="translated">Klasse (Standard)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>object</source>
+          <target state="translated">Objekt</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>path</source>
+          <target state="translated">Pfad</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>WQLQuery</source>
+          <target state="translated">WQLQuery</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>query</source>
+          <target state="translated">query</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>list</source>
+          <target state="translated">Liste</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Remove-WmiObject<ept id="p1">**</ept> cmdlet deletes an instance of an existing Windows Management Instrumentation (WMI)class.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Remove-WmiObject<ept id="p1">**</ept> Cmdlet Löscht eine Instanz einer vorhandenen Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI)-Klasse.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">BEISPIELE</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Example 1: Close all instances of a Win32 process</source>
+          <target state="translated">Beispiel 1: Schließen Sie alle Instanzen eines Win32-Prozesses</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This example closes all the instances of Notepad.exe.</source>
+          <target state="translated">Dieses Beispiel schließt alle Instanzen des Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The first command starts an instance of Notepad.</source>
+          <target state="translated">Der erste Befehl startet eine Instanz von Editor.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-WmiObject cmdlet to retrieve the instances of the Win32_Process that correspond to Notepad.exe, and then stores them in the $np variable.</source>
+          <target state="translated">Der zweite Befehl verwendet das Get-WmiObject-Cmdlet die Instanzen der Win32_Process abrufen, die Notepad.exe entsprechen, und speichert sie in der Variablen $np.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The third command passes the object in the $np variable to <bpt id="p1">**</bpt>Remove-WmiObject<ept id="p1">**</ept>, which deletes all the instances of Notepad.exe.</source>
+          <target state="translated">Der dritte Befehl übergibt das Objekt in der Variablen "$np" in <bpt id="p1">**</bpt>Remove-WmiObject<ept id="p1">**</ept>, die alle Instanzen des Notepad.exe löscht.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example 2: Delete a folder</source>
+          <target state="translated">Beispiel 2: Löschen eines Ordners</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command deletes the C:\Test folder.</source>
+          <target state="translated">Dieser Befehl löscht den Ordner C:\Test.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The first command uses <bpt id="p1">**</bpt>Get-WMIObject<ept id="p1">**</ept> to query for the C:\Test folder, and then stores the object in the $a variable.</source>
+          <target state="translated">Der erste Befehl verwendet <bpt id="p1">**</bpt>Get-WMIObject<ept id="p1">**</ept> Abfrage für den Ordner C:\Test und speichert das Objekt in der $a-Variablen.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The second command pipes the $a variable to <bpt id="p1">**</bpt>Remove-WMIObject<ept id="p1">**</ept>, which deletes the folder.</source>
+          <target state="translated">Der zweite Befehl übergibt die $a-Variablen zu <bpt id="p1">**</bpt>Remove-WMIObject<ept id="p1">**</ept>, dabei wird den Ordner gelöscht.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETER</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-AsJob</source>
+          <target state="translated">-AsJob</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet run as a background job.</source>
+          <target state="translated">Gibt an, dass dieses Cmdlet als Hintergrundauftrag ausgeführt.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Use this parameter to run commands that take a long time to finish.</source>
+          <target state="translated">Verwenden Sie diesen Parameter, um Befehle auszuführen, deren Ausführung viel Zeit in Anspruch nimmt.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>New CIM cmdlets, introduced Windows PowerShell 3.0, perform the same tasks as the WMI cmdlets.</source>
+          <target state="translated">Mit den neuen in Windows PowerShell 3.0 eingeführten CIM-Cmdlets werden die gleichen Aufgaben wie mit WMI-Cmdlets ausgeführt.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The CIM cmdlets comply with WS-Management (WSMan) standards and with the Common Information Model (CIM) standard, which enables the cmdlets to use the same techniques to manage computers that run the Windows operating system and those running other operating systems.</source>
+          <target state="translated">Die CIM-Cmdlets entsprechen WS-Management (WS-Management)-Standards und mit der Common Information Model (CIM) standard, wodurch die Cmdlets für die dieselben Techniken verwenden, um Computer zu verwalten, auf denen Windows-Betriebssystem und die Ausführung anderer Betriebssysteme ausgeführt.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Instead of using <bpt id="p1">**</bpt>Remove-WmiObject<ept id="p1">**</ept>, consider using the Remove-CimInstancehttp://go.microsoft.com/fwlink/?LinkId=227964 cmdlet.</source>
+          <target state="translated">Anstatt <bpt id="p1">**</bpt>Remove-WmiObject<ept id="p1">**</ept>, erwägen Sie das Cmdlet "Remove-CimInstancehttp://go.microsoft.com/fwlink/?LinkId=227964".</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter, the command returns an object that represents the background job and then displays the command prompt.</source>
+          <target state="translated">Bei Verwendung der <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> -Parameter, mit dem Befehl gibt ein Objekt, das den Hintergrundauftrag darstellt, und zeigt dann die Befehlszeile.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can continue to work in the session while the job finishes.</source>
+          <target state="translated">Sie können die Sitzung weiterhin verwenden, während der Auftrag abgeschlossen wird.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">**</bpt>Remove-WmiObject<ept id="p1">**</ept> is used against a remote computer, the job is created on the local computer, and the results from remote computers are automatically returned to the local computer.</source>
+          <target state="translated">Wenn <bpt id="p1">**</bpt>Remove-WmiObject<ept id="p1">**</ept> wird der Auftrag wird auf einem Remotecomputer, auf dem lokalen Computer erstellt, und die Ergebnisse von Remotecomputern werden automatisch auf den lokalen Computer zurückgegeben.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To manage the job, use the cmdlets that contain the <bpt id="p1">**</bpt>Job<ept id="p1">**</ept> noun (the <bpt id="p2">**</bpt>Job<ept id="p2">**</ept> cmdlets).</source>
+          <target state="translated">Verwenden Sie zum Verwalten des Auftrags die Cmdlets, enthalten die <bpt id="p1">**</bpt>Auftrag<ept id="p1">**</ept> Nomen (die <bpt id="p2">**</bpt>Auftrag<ept id="p2">**</ept> Cmdlets).</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To get the job results, use the Receive-Job cmdlet.</source>
+          <target state="translated">Um die Auftragsergebnisse abzurufen, verwenden Sie das Cmdlet %%amp;quot;Receive-Job%%amp;quot;.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To use this parameter for remote computers, the local and remote computers must be configured for remoting.</source>
+          <target state="translated">Um diesen Parameter für Remotecomputer zu verwenden, müssen der lokale Computer und Remotecomputer für Remoting konfiguriert werden.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Start Windows PowerShell by using the Run as administrator option.</source>
+          <target state="translated">Starten Sie Windows PowerShell mithilfe der Option als Administrator an.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Remote_Requirements.</source>
+          <target state="translated">Weitere Informationen finden Sie unter %%amp;quot;about_Remote_Requirements%%amp;quot;.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For more information about Windows PowerShell background jobs, see about_Jobs and about_Remote_Jobs.</source>
+          <target state="translated">Weitere Informationen zu Windows PowerShell-Hintergrundaufträge finden Sie unter "about_jobs" und "about_remote_jobs".</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-Authentication</source>
+          <target state="translated">-Authentifizierung</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Specifies the authentication level to use for the WMI connection.</source>
+          <target state="translated">Gibt die für die WMI-Verbindung zu verwendende Authentifizierungsebene an.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Die folgenden Werte für diesen Parameter sind zulässig:</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-1: Unchanged.</source>
+          <target state="translated">-1: unverändert.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>0: Default.</source>
+          <target state="translated">0: Default.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>1: None.</source>
+          <target state="translated">1: keine.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>No authentication in performed.</source>
+          <target state="translated">Wird keine Authentifizierung durchgeführt.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>2: Connect.</source>
+          <target state="translated">2: verbinden.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Authentication is performed only when the client establishes a relationship with the application.</source>
+          <target state="translated">Authentifizierung wird nur ausgeführt, wenn der Client eine Verbindung mit der Anwendung herstellt.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>3: Call.</source>
+          <target state="translated">3: aufrufen.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Authentication is performed only at the start of each call when the application receives the request.</source>
+          <target state="translated">Authentifizierung wird nur zu Beginn eines Aufrufs ausgeführt, wenn die Anwendung die Anforderung empfängt.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>4: Packet.</source>
+          <target state="translated">4: Paket.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Authentication is performed on all the data that is received from the client.</source>
+          <target state="translated">Authentifizierung erfolgt für alle Daten, die vom Client empfangen wird.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>5: PacketIntegrity.</source>
+          <target state="translated">5: PacketIntegrity.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>All the data that is transferred between the client and the application is authenticated and verified.</source>
+          <target state="translated">Alle Daten, die zwischen dem Client und der Anwendung übertragen werden, authentifiziert und überprüft werden.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>6: PacketPrivacy.</source>
+          <target state="translated">6: PacketPrivacy.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The properties of the other authentication levels are used, and all the data is encrypted.</source>
+          <target state="translated">Die Eigenschaften der anderen Authentifizierungsebenen werden verwendet, und alle Daten verschlüsselt.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-Authority</source>
+          <target state="translated">-Autorität</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Specifies the authority to use to authenticate the WMI connection.</source>
+          <target state="translated">Gibt die Autorität an, die zum Authentifizieren der WMI-Verbindung verwendet werden soll.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You can specify standard NTLM or Kerberos authentication.</source>
+          <target state="translated">Sie können die Standard-NTLM- oder Kerberos-Authentifizierung angeben.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To use NTLM, set the authority setting to ntlmdomain:<ph id="ph1">\&lt;</ph>DomainName<ph id="ph2">\&gt;</ph>, where <ph id="ph3">\&lt;</ph>DomainName<ph id="ph4">\&gt;</ph> identifies a valid NTLM domain name.</source>
+          <target state="translated">Legen Sie zur Verwendung von NTLM die Authority-Einstellung auf Ntlmdomain:<ph id="ph1">\&lt;</ph>Domänenname<ph id="ph2">\&gt;</ph>, wobei <ph id="ph3">\&lt;</ph>DomainName<ph id="ph4">\&gt;</ph> einen gültigen NTLM-Domänennamen identifiziert.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To use Kerberos, specify kerberos:<ph id="ph1">\&lt;</ph>DomainName<ph id="ph2">\&gt;\\\&lt;</ph>ServerName<ph id="ph3">\&gt;</ph>.</source>
+          <target state="translated">Geben Sie zur Verwendung von Kerberos Kerberos:<ph id="ph1">\&lt;</ph>DomainName<ph id="ph2">\&gt;\\\&lt;</ph>ServerName<ph id="ph3">\&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You cannot include the authority setting when you connect to the local computer.</source>
+          <target state="translated">Sie können die Authority-Einstellung nicht einschließen, wenn Sie eine Verbindung mit dem lokalen Computer herstellen.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-Class</source>
+          <target state="translated">-Klasse</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Specifies the name of a WMI class that this cmdlet deletes.</source>
+          <target state="translated">Gibt den Namen einer WMI-Klasse, die dieses Cmdlet löscht.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the computer on which this cmdlet runs.</source>
+          <target state="translated">Gibt den Namen des Computers, auf dem dieses Cmdlet ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">Der Standardwert ist der lokale Computer.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an IP address, or a fully qualified domain name of one or more computers.</source>
+          <target state="translated">Geben Sie den NetBIOS-Namen, eine IP-Adresse oder den vollqualifizierten Domänennamen eines Computers oder mehrerer Computer ein.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, a dot (.), or localhost.</source>
+          <target state="translated">Um den lokalen Computer anzugeben, geben Sie den Computernamen, einen Punkt (.) oder Localhost ein.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This parameter does not rely on Windows PowerShell remoting.</source>
+          <target state="translated">Dieser Parameter beruht nicht auf Windows PowerShell-Remoting.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter even if your computer is not configured to run remote commands.</source>
+          <target state="translated">Sie können die <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> -Parameter auch dann, wenn Ihr Computer nicht zum Ausführen von Remotebefehlen konfiguriert ist.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Vor dem Ausführen des Cmdlets zur Bestätigung aufgefordert. Vor dem Ausführen des Cmdlets zur Bestätigung aufgefordert.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">Gibt ein Benutzerkonto an, das über die Berechtigung zum Ausführen dieser Aktion verfügt.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">Der Standardwert ist der aktuelle Benutzer.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as User01 or Domain01\User01, or enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">Geben Sie einen Benutzernamen ein, z. B. "user01" oder "domain01\user01", oder geben Sie einen <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> Objekt, z. B. durch das Get-Credential-Cmdlet generiert.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>If you type a user name, this cmdlet prompts you for a password.</source>
+          <target state="translated">Wenn Sie einen Benutzernamen eingeben, werden Sie von dieses Cmdlet aufgefordert, ein Kennwort anzugeben.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-EnableAllPrivileges</source>
+          <target state="translated">-EnableAllPrivileges</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet enables all the permissions of the current user before the command it makes the WMI call.</source>
+          <target state="translated">Gibt an, dass mit diesem Cmdlet können alle Berechtigungen des aktuellen Benutzers vor dem Befehl, dass es den WMI-Aufruf durchführt.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-Impersonation</source>
+          <target state="translated">-Identitätswechsel</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Specifies the impersonation level to use.</source>
+          <target state="translated">Gibt die zu verwendende Identitätswechselebene an.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">Die folgenden Werte für diesen Parameter sind zulässig:</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>0: Default.</source>
+          <target state="translated">0: Default.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Reads the local registry for the default impersonation level, which is usually set to 3: Impersonate.</source>
+          <target state="translated">Liest die lokale Registrierung für die Standard-Identitätswechselebene, die in der Regel auf 3 festgelegt ist: die Identität annehmen.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>1: Anonymous.</source>
+          <target state="translated">1: Anonymous.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Hides the credentials of the caller.</source>
+          <target state="translated">Verbirgt die Anmeldeinformationen des Aufrufers.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>2: Identify.</source>
+          <target state="translated">2: Identify.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Allows objects to query the credentials of the caller.</source>
+          <target state="translated">Ermöglicht es Objekten, die Anmeldeinformationen des Aufrufers abzufragen.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>3: Impersonate.</source>
+          <target state="translated">3: Impersonate.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Allows objects to use the credentials of the caller.</source>
+          <target state="translated">Ermöglicht es Objekten, die Anmeldeinformationen des Aufrufers zu verwenden.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>4: Delegate.</source>
+          <target state="translated">4: Delegate.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Allows objects to permit other objects to use the credentials of the caller.</source>
+          <target state="translated">Ermöglicht es Objekten, anderen Objekten die Verwendung der Anmeldeinformationen des Aufrufers zu gestatten.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-InputObject</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Specifies a <bpt id="p1">**</bpt>ManagementObject<ept id="p1">**</ept> object to use as input.</source>
+          <target state="translated">Gibt eine <bpt id="p1">**</bpt>ManagementObject<ept id="p1">**</ept> Objekt als Eingabe verwendet.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>When this parameter is used, all other parameters are ignored.</source>
+          <target state="translated">Wenn dieser Parameter verwendet wird, werden alle anderen Parameter ignoriert.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>-Locale</source>
+          <target state="translated">-Gebietsschema</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Specifies the preferred locale for WMI objects.</source>
+          <target state="translated">Gibt das bevorzugte Gebietsschema für WMI-Objekte an.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Locale<ept id="p1">*</ept> parameter is specified as an array in the MS_<ph id="ph1">\&lt;</ph>LCID<ph id="ph2">\&gt;</ph> format in the preferred order.</source>
+          <target state="translated">Die <bpt id="p1">*</bpt>Gebietsschema<ept id="p1">*</ept> -Parameter wird angegeben, wie ein Array, in dem MS_<ph id="ph1">\&lt;</ph>LCID<ph id="ph2">\&gt;</ph> Format in der bevorzugten Reihenfolge.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-Namespace</source>
+          <target state="translated">-Namespace</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Specifies the WMI repository namespace where the referenced WMI class is located when it is used with the <bpt id="p1">*</bpt>Class<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Gibt den WMI-Repository-Namespace, in dem die referenzierte WMI-Klasse befindet sich bei Verwendung mit, der <bpt id="p1">*</bpt>Klasse<ept id="p1">*</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Specifies the WMI object path of a WMI class, or specifies the WMI object path of an instance of a WMI class to delete.</source>
+          <target state="translated">Gibt den WMI-Objektpfad einer WMI-Klasse oder den WMI-Objektpfad einer Instanz einer zu löschenden WMI-Klasse an.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-ThrottleLimit</source>
+          <target state="translated">-ThrottleLimit</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of concurrent connections that can be established to run this command.</source>
+          <target state="translated">Gibt die maximale Anzahl von gleichzeitigen Verbindungen an, die zum Ausführen dieses Befehls hergestellt werden können.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This parameter is used together with the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Dieser Parameter wird verwendet, zusammen mit den <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The throttle limit applies only to the current command, not to the session or to the computer.</source>
+          <target state="translated">Die Drosselungsgrenze gilt nur für den aktuellen Befehl und nicht für die Sitzung oder den Computer.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Zeigt, was geschieht, wenn das Cmdlet ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Das Cmdlet wird nicht ausgeführt. Zeigt, was passieren würde, wenn das Cmdlet ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">Das Cmdlet wird nicht ausgeführt.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Dieses Cmdlet unterstützt die allgemeinen Parameter:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, -InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction und -WarningVariable.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Weitere Informationen finden Sie unter "about_commonparameters" (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">EINGABEN</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>System.Management.ManagementObject</source>
+          <target state="translated">System.Management.ManagementObject</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>You can pipe a management object to this cmdlet.</source>
+          <target state="translated">Sie können ein Verwaltungsobjekt für dieses Cmdlet übergeben.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">AUSGABEN</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>None, System.Management.Automation.RemotingJob</source>
+          <target state="translated">Keine System.Management.Automation.RemotingJob</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns a job object, if you specify the <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">Dieses Cmdlet gibt ein Auftragsobjekt zurück, wenn Sie angeben, die <bpt id="p1">*</bpt>AsJob<ept id="p1">*</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Otherwise, it does not generate any output.</source>
+          <target state="translated">Andernfalls wird keine Ausgabe generiert.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTIZEN</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VERWANDTE LINKS</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Get-WmiObject</source>
+          <target state="translated">Get-WmiObject</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Invoke-WmiMethod</source>
+          <target state="translated">Invoke-WmiMethod</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Set-WmiInstance</source>
+          <target state="translated">Set-WmiInstance</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

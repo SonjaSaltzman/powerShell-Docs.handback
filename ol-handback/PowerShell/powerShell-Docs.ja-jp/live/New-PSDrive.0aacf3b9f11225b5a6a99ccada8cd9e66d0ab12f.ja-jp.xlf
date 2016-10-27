@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fd6e31b677e906c7ed05a8554f4cd31bda09ef22</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Management\New-PSDrive.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7df1c3fc2b39a2008ca7fd8b17a3ac827993e408</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">66bb5fb0fda7278392237c193607ffd26e031bb7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSDrive</source>
+          <target state="translated">New-PSDrive</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSDrive</source>
+          <target state="translated">New-PSDrive</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates temporary and persistent mapped network drives.</source>
+          <target state="translated">一時的および永続的にマップされたネットワーク ドライブを作成します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> cmdlet creates temporary and persistent drives that are mapped to or associated with a location in a data store, such as a network drive, a directory on the local computer, or a registry key, and persistent Windows mapped network drives that are associated with a file system location on a remote computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-psdrive<ept id="p1">**</ept> コマンドレットにマップされている、またはネットワーク ドライブ、ローカル コンピューターまたはレジストリ キー上のディレクトリなどのデータ ストア内の場所に関連付けられている一時的および永続的ドライブを作成し、永続的な Windows は、リモート コンピューター上のファイル システムの場所に関連付けられているネットワーク ドライブをマップします。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Temporary drives exist only in the current Windows PowerShell session and in sessions that you create in the current session.</source>
+          <target state="translated">一時ドライブは、現在の Windows PowerShell セッションと、現在のセッション内で作成されたセッションだけに存在します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>They can have any name that is valid in Windows PowerShell and can be mapped to any local or remote resource.</source>
+          <target state="translated">Windows PowerShell で有効な任意の名前を持つことができ、任意のローカルまたはリモート リソースにマップできます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use temporary Windows PowerShell drives to access data in the associated data store, just as you would do with any mapped network drive.</source>
+          <target state="translated">任意のマップされたネットワーク ドライブを使用する場合と同様、関連付けられたデータ ストア内のデータにアクセスするのに一時 Windows PowerShell ドライブを使用できます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can change locations into the drive, by using Set-Location, <bpt id="p1">**</bpt>cd<ept id="p1">**</ept>, or <bpt id="p2">**</bpt>chdir<ept id="p2">**</ept>, and access the contents of the drive by using Get-Item, Get-ChildItem, or <bpt id="p3">**</bpt>dir<ept id="p3">**</ept>.</source>
+          <target state="translated">ドライブに場所を変更するには、所在地の設定を使用して、 <bpt id="p1">**</bpt>cd<ept id="p1">**</ept>, 、または <bpt id="p2">**</bpt>chdir<ept id="p2">**</ept>, 、Get-item、Get-childitem を使用して、ドライブの内容をアクセスまたは <bpt id="p3">**</bpt>dir<ept id="p3">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, because temporary drives are known only to Windows PowerShell, you cannot access them by using File Explorer, Windows Management Instrumentation (WMI), Component Object Model (COM), or the Microsoft .NET Framework, or by using tools such as Net Use.</source>
+          <target state="translated">ただし、一時ドライブを認識しているのは Windows PowerShell だけなので、エクスプローラー、Windows Management Instrumentation (WMI)、コンポーネント オブジェクト モデル (COM)、または Microsoft .NET Framework を使用したり、Net Use などのツールを使用したりしてアクセスすることはできません。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The following features are added to <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> in Windows PowerShell 3.0:</source>
+          <target state="translated">次の機能が追加された <bpt id="p1">**</bpt>New-psdrive<ept id="p1">**</ept> Windows PowerShell 3.0 で。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Mapped network drives.</source>
+          <target state="translated">ネットワーク ドライブをマップします。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">*</bpt>Persist<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>New-PSDrive<ept id="p2">**</ept> to create Windows mapped network drives.</source>
+          <target state="translated">使用することができます、 <bpt id="p1">*</bpt>Persist<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>New-psdrive<ept id="p2">**</ept> マップ済みネットワーク ドライブを Windows を作成します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Unlike temporary Windows PowerShell drives, Windows mapped network drives are not session-specific.</source>
+          <target state="translated">一時 Windows PowerShell ドライブとは異なり Windows マップ済みネットワーク ドライブはセッション固有ではありません。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>They are saved in Windows and they can be managed by using standard Windows tools, such as File Explorer and Net Use.</source>
+          <target state="translated">Windows に保存されると、ファイル エクスプ ローラー、Net Use などの標準の Windows ツールを使用して管理できます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Mapped network drives must have a drive-letter name and be connected to a remote file system location.</source>
+          <target state="translated">マップ済みネットワーク ドライブは、ドライブ文字名を持ち、リモート ファイル システムの場所に接続されている必要があります。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When your command is scoped locally (no dot-sourcing), the <bpt id="p1">*</bpt>Persist<ept id="p1">*</ept> parameter does not persist the creation of a <bpt id="p2">**</bpt>PSDrive<ept id="p2">**</ept> beyond the scope in which the command is running.</source>
+          <target state="translated">コマンドがローカルにスコープ (ありませんドット ソース形式)、 <bpt id="p1">*</bpt>Persist<ept id="p1">*</ept> パラメーターでの作成が保持されない、 <bpt id="p2">**</bpt>PSDrive<ept id="p2">**</ept> コマンドが実行されている範囲を超えてします。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you are running <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> inside a script, and you want the drive to persist indefinitely, you must dot-source the script.</source>
+          <target state="translated">実行している場合は、 <bpt id="p1">**</bpt>New-psdrive<ept id="p1">**</ept> 内部スクリプトし、無期限に保持するドライブ、ドット ソース形式のスクリプトを作成する必要があります。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For best results, to force a new drive to persist indefinitely, add the <bpt id="p1">*</bpt>Scope<ept id="p1">*</ept> parameter to your command, and set its value to Global.</source>
+          <target state="translated">最良の結果を新しいドライブを無期限に保持するには、追加、 <bpt id="p1">*</bpt>スコープ<ept id="p1">*</ept> パラメーターをコマンドでは、その値をグローバルに設定します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>External drives.</source>
+          <target state="translated">外部ドライブです。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When an external drive is connected to the computer, Windows PowerShell automatically adds a PSDrive to the file system that represents the new drive.</source>
+          <target state="translated">外部ドライブがコンピューターに接続されている場合、Windows PowerShell は新しいドライブを表す PSDrive をファイル システムに自動的に追加します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You do not have to restart Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell を再起動する必要はありません。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Similarly, when an external drive is disconnected from the computer, Windows PowerShell automatically deletes the <bpt id="p1">**</bpt>PSDrive<ept id="p1">**</ept> that represents the removed drive.</source>
+          <target state="translated">同様に、外部ドライブがコンピューターから切断されている場合、Windows PowerShell を自動的に削除、 <bpt id="p1">**</bpt>PSDrive<ept id="p1">**</ept> 取り外されたドライブを表します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>External drives.</source>
+          <target state="translated">外部ドライブです。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When an external drive is connected to the computer, Windows PowerShell automatically adds a <bpt id="p1">**</bpt>PSDrive<ept id="p1">**</ept> to the file system that represents the new drive.</source>
+          <target state="translated">外部ドライブがコンピューターに接続されている場合、Windows PowerShell は自動的に追加、 <bpt id="p1">**</bpt>PSDrive<ept id="p1">**</ept> 新しいドライブを表す、ファイル システムにします。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You do not have to restart Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell を再起動する必要はありません。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Similarly, when an external drive is disconnected from the computer, Windows PowerShell automatically deletes the <bpt id="p1">**</bpt>PSDrive<ept id="p1">**</ept> that represents the removed drive.</source>
+          <target state="translated">同様に、外部ドライブがコンピューターから切断されている場合、Windows PowerShell を自動的に削除、 <bpt id="p1">**</bpt>PSDrive<ept id="p1">**</ept> 取り外されたドライブを表します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Credentials for UNC Paths.</source>
+          <target state="translated">UNC パスの資格情報。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When the value of the <bpt id="p1">*</bpt>Root<ept id="p1">*</ept> parameter is a UNC path, such as <ph id="ph1">\\\\</ph>Server\Share, the credential specified in the value of the <bpt id="p2">*</bpt>Credential<ept id="p2">*</ept> parameter is used to create the <bpt id="p3">**</bpt>PSDrive<ept id="p3">**</ept>.</source>
+          <target state="translated">時の値、 <bpt id="p1">*</bpt>ルート<ept id="p1">*</ept> パラメーターなど、UNC パスは、 <ph id="ph1">\\\\</ph>だったらの値に指定された資格情報、 <bpt id="p2">*</bpt>資格情報<ept id="p2">*</ept> を作成するパラメーターを使用、 <bpt id="p3">**</bpt>PSDrive<ept id="p3">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Otherwise, <bpt id="p1">*</bpt>Credential<ept id="p1">*</ept> is not effective when you are creating new file system drives.</source>
+          <target state="translated">それ以外の場合、 <bpt id="p1">*</bpt>資格情報<ept id="p1">*</ept> 適用するには新しいファイル システム ドライブを作成する場合。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Example 1: Create a drive mapped to a network share</source>
+          <target state="translated">例 1: ネットワーク共有にマップされたドライブを作成します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This command creates a temporary Windows PowerShell drive named P: that is mapped to the <ph id="ph1">\\\\</ph>Server01\Public network share.</source>
+          <target state="translated">このコマンドにマップされる p: という名前の一時 Windows PowerShell ドライブを作成する、 <ph id="ph1">\\\\</ph>Server01\Public ネットワーク共有です。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> parameter to specify a name for the drive, the <bpt id="p2">*</bpt>PSProvider<ept id="p2">*</ept> parameter to specify the Windows PowerShell FileSystem provider, and the <bpt id="p3">*</bpt>Root<ept id="p3">*</ept> parameter to specify the network share.</source>
+          <target state="translated">使用して、 <bpt id="p1">*</bpt>名前<ept id="p1">*</ept> 、ドライブの名前を指定するパラメーター、 <bpt id="p2">*</bpt>PSProvider<ept id="p2">*</ept> Windows PowerShell FileSystem プロバイダーを指定するパラメーター、および <bpt id="p3">*</bpt>ルート<ept id="p3">*</ept> ネットワーク共有を指定するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When the command finishes, the contents of the <ph id="ph1">\\\\</ph>Server01\Public share appear in the P: drive.</source>
+          <target state="translated">コマンドが終了する際の内容、 <ph id="ph1">\\\\</ph>p: ドライブに Server01\Public 共有が表示されます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To see them, type: <ph id="ph1">`dir P:`</ph>.</source>
+          <target state="translated">これらを参照する入力: <ph id="ph1">`dir P:`</ph>です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Example 2: Create a temporary drive</source>
+          <target state="translated">例 2: 一時ドライブを作成します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This command creates a temporary Windows PowerShell drive that provides quick access to a local directory.</source>
+          <target state="translated">このコマンドは、ローカル ディレクトリにすばやくアクセスできるようにする一時 Windows PowerShell ドライブを作成します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>It creates a drive named MyDocs: that is mapped to the "C:\Documents and Settings\User01\My Documents" directory on the local computer.</source>
+          <target state="translated">MyDocs: という名前のドライブが作成され、ローカル コンピューター上の "C:\Documents and Settings\User01\My Documents" ディレクトリにマップされます。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>It uses <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> to specify a name for the drive, <bpt id="p2">*</bpt>PSProvider<ept id="p2">*</ept> to specify the Windows PowerShell FileSystem provider, <bpt id="p3">*</bpt>Root<ept id="p3">*</ept> to specify the path of the My Documents folder, and the <bpt id="p4">*</bpt>Description<ept id="p4">*</ept> parameter to create a description of the drive.</source>
+          <target state="translated">使用して <bpt id="p1">*</bpt>名<ept id="p1">*</ept> 、ドライブの名前を指定する <bpt id="p2">*</bpt>PSProvider<ept id="p2">*</ept> Windows PowerShell FileSystem プロバイダーを指定する <bpt id="p3">*</bpt>ルート<ept id="p3">*</ept> My Documents フォルダーのパスを指定して、 <bpt id="p4">*</bpt>説明<ept id="p4">*</ept> ドライブの説明を作成するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When the command finishes, the contents of the My Documents folder appear in the MyDocs: drive.</source>
+          <target state="translated">コマンドが終了する際、MyDocs で、[マイ ドキュメント] フォルダーの内容が表示されます。 ドライブです。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To see them, type: <ph id="ph1">`dir MyDocs:`</ph>.</source>
+          <target state="translated">これらを参照する入力: <ph id="ph1">`dir MyDocs:`</ph>です。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Example 3: Create a drive for a registry key</source>
+          <target state="translated">例 3: レジストリ キーのドライブを作成します</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This command creates a temporary Windows PowerShell drive that provides quick access to a frequently checked registry key.</source>
+          <target state="translated">このコマンドは、頻繁にチェックされるレジストリ キーにすばやくアクセスできるようにする一時 Windows PowerShell ドライブを作成します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>It creates a drive named MyCompany that is mapped to the HKLM\Software\MyCompany registry key.</source>
+          <target state="translated">このコマンドでは MyCompany という名前のドライブが作成され、HKLM\Software\MyCompany レジストリ キーにマップされます。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It uses <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> to specify a name for the drive, <bpt id="p2">*</bpt>PSProvider<ept id="p2">*</ept> to specify the Windows PowerShell Registry provider, and <bpt id="p3">*</bpt>Root<ept id="p3">*</ept> to specify the registry key.</source>
+          <target state="translated">使用して <bpt id="p1">*</bpt>名<ept id="p1">*</ept> 、ドライブの名前を指定する <bpt id="p2">*</bpt>PSProvider<ept id="p2">*</ept> 、Windows PowerShell レジストリ プロバイダーを指定し、 <bpt id="p3">*</bpt>ルート<ept id="p3">*</ept> レジストリ キーを指定します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When the command finishes, the contents of the MyCompany key appear in the MyCompany: drive.</source>
+          <target state="translated">コマンドが終了する際、MyCompany の MyCompany キーの内容が表示されます。 ドライブです。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To see them, type: <ph id="ph1">`dir MyCompany:`</ph>.</source>
+          <target state="translated">これらを参照する入力: <ph id="ph1">`dir MyCompany:`</ph>です。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Example 4: Create a persisted mapped network drive</source>
+          <target state="translated">例 4: は、永続化されたマップ済みネットワーク ドライブを作成します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This command creates the S mapped network drive on the local computer.</source>
+          <target state="translated">このコマンドは、ローカル コンピューター上のマップされたネットワーク ドライブを作成します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The S drive is mapped to the <ph id="ph1">\\\\</ph>Server01\Scripts network share.</source>
+          <target state="translated">マップされています、 <ph id="ph1">\\\\</ph>Server01\Scripts ネットワーク共有です。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The command uses <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> to create the mapped network drive.</source>
+          <target state="translated">コマンドを使用して <bpt id="p1">**</bpt>New-psdrive<ept id="p1">**</ept> マップ済みネットワーク ドライブを作成します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>It uses <bpt id="p1">*</bpt>Persist<ept id="p1">*</ept> to create a Windows mapped network drive that is saved on the local computer.</source>
+          <target state="translated">使用して <bpt id="p1">*</bpt>Persist<ept id="p1">*</ept> 、ウィンドウを作成するローカル コンピューターに保存されているネットワーク ドライブをマップします。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The command uses <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> to specify a letter name that Windows accepts and <bpt id="p2">*</bpt>Root<ept id="p2">*</ept> to specify a location on a remote computer.</source>
+          <target state="translated">コマンドを使用して <bpt id="p1">*</bpt>名<ept id="p1">*</ept> 受け入れる文字名、Windows を指定して <bpt id="p2">*</bpt>ルート<ept id="p2">*</ept> をリモート コンピューター上の場所を指定します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>It uses <bpt id="p1">*</bpt>PSProvider<ept id="p1">*</ept> to specify the FileSystem provider.</source>
+          <target state="translated">使用して <bpt id="p1">*</bpt>PSProvider<ept id="p1">*</ept> FileSystem プロバイダーを指定します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The resulting drive can be viewed in other Windows PowerShell sessions on the local computer, in Windows Explorer, and in other tools, such as Net Use.</source>
+          <target state="translated">作成されたドライブは、ローカル コンピューター上の他の Windows PowerShell セッション、エクスプローラー、および Net Use などの他のツールに表示されます。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Example 5: Create persistent and temporary drives</source>
+          <target state="translated">例 5: 永続的であり、一時ドライブを作成します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This example shows the difference between a persistent mapped network drive and a temporary Windows PowerShell drive that is mapped to the same network share.</source>
+          <target state="translated">この例は、固定マップ済みネットワーク ドライブと一時 Windows PowerShell ドライブを同じネットワーク共有にマッピングしたときの違いを示します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">コマンドレットを実行する前に確認するように求められます。コマンドレットを実行する前に確認するように求められます。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">この処理を実行するアクセス許可を持つユーザー アカウントを指定します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">既定値は現在のユーザーです。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as User01 or Domain01\User01, or enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">User01 や domain01 \user01 などのユーザー名を入力するか入力、 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> 、Get-credential コマンドレットによって生成されるようなオブジェクトです。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If you type a user name, this cmdlet prompts you for a password.</source>
+          <target state="translated">ユーザー名を入力する場合は、このコマンドレットは、パスワードの求めます。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Starting in Windows PowerShell 3.0, when the value of the <bpt id="p1">*</bpt>Root<ept id="p1">*</ept> parameter is a UNC path, you can use credentials to create file system drives.</source>
+          <target state="translated">Windows PowerShell 3.0 以降との値、 <bpt id="p1">*</bpt>ルート<ept id="p1">*</ept> パラメーターは、UNC パス、資格情報を使用して、ファイル システム ドライブを作成することができます。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This parameter is not supported by all Windows PowerShell providers.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell のすべてのプロバイダーでサポートされているわけではありません。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">-Description</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specifies a brief text description of the drive.</source>
+          <target state="translated">ドライブの簡単な説明テキストを指定します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Type any string.</source>
+          <target state="translated">任意の文字列を入力します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To see the descriptions of all of the drives in the session, type <ph id="ph1">`Get-PSDrive | Format-Table Name, Description`</ph>.</source>
+          <target state="translated">すべてのセッション内のドライブの説明を表示するには、次のように入力します。 <ph id="ph1">`Get-PSDrive | Format-Table Name, Description`</ph>します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To see the description of a particular drives, type <ph id="ph1">`(Get-PSDrive \&lt;DriveName\&gt;).Description`</ph>.</source>
+          <target state="translated">特定のドライブの説明を参照する入力 <ph id="ph1">`(Get-PSDrive \&lt;DriveName\&gt;).Description`</ph>します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Specifies a name for the new drive.</source>
+          <target state="translated">新しいドライブの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For persistent mapped network drives, type a drive letter.</source>
+          <target state="translated">永続的にマップされたネットワーク ドライブの場合は、ドライブ文字を入力します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For temporary Windows PowerShell drives, type any valid string; you are not limited to drive letters.</source>
+          <target state="translated">一時 Windows PowerShell ドライブの場合は、有効な任意の文字列を入力します。ドライブ文字だけに制限されません。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-PSProvider</source>
+          <target state="translated">-PSProvider</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Specifies the Windows PowerShell provider that supports drives of this kind.</source>
+          <target state="translated">このような種類のドライブをサポートする Windows PowerShell プロバイダーを指定します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>For example, if the drive is associated with a network share or file system directory, the Windows PowerShell provider is FileSystem.</source>
+          <target state="translated">たとえば、ドライブが、ネットワーク共有またはファイル システムのディレクトリに関連付けられている場合は、Windows PowerShell プロバイダーはファイル システムです。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If the drive is associated with a registry key, the provider is Registry.</source>
+          <target state="translated">ドライブがレジストリ キーを使用して関連付けられている場合は、プロバイダーは、レジストリです。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Temporary Windows PowerShell drives can be associated with any Windows PowerShell provider.</source>
+          <target state="translated">一時 Windows PowerShell ドライブは、任意の Windows PowerShell プロバイダーに関連付けることができます。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Mapped network drives can be associated only with the FileSystem provider.</source>
+          <target state="translated">マップ済みネットワーク ドライブは、FileSystem プロバイダーだけに関連付けることができます。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To see a list of the providers in your Windows PowerShell session, use the Get-PSProvider cmdlet.</source>
+          <target state="translated">Windows PowerShell セッションでプロバイダーの一覧を表示するには、Get-psprovider コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>-Persist</source>
+          <target state="translated">非永続化します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet creates a Windows mapped network drive.</source>
+          <target state="translated">このコマンドレットが Windows マップ済みネットワーク ドライブを作成することを示します。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Mapped network drives are saved in Windows on the local computer.</source>
+          <target state="translated">マップ済みネットワーク ドライブは、ローカル コンピューターの Windows に保存されます。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>They are persistent, not session-specific, and can be viewed and managed in File Explorer and other tools.</source>
+          <target state="translated">それらは永続的で、セッション固有ではなく、エクスプローラーなどのツールで表示および管理できます。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>When you scope the command locally, that is, without dot-sourcing, the <bpt id="p1">*</bpt>Persist<ept id="p1">*</ept> parameter does not persist the creation of a <bpt id="p2">**</bpt>PSDrive<ept id="p2">**</ept> beyond the scope in which you run the command.</source>
+          <target state="translated">スコープを設定するコマンドをローカルでは、ドット ソース形式でない場合、 <bpt id="p1">*</bpt>Persist<ept id="p1">*</ept> パラメーターでの作成が保持されない、 <bpt id="p2">**</bpt>PSDrive<ept id="p2">**</ept> コマンドを実行する範囲を超えてします。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If you run <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> inside a script, and you want the new drive to persist indefinitely, you must dot-source the script.</source>
+          <target state="translated">実行すると <bpt id="p1">**</bpt>New-psdrive<ept id="p1">**</ept> 内部スクリプトし、新しいドライブを無期限に保持する、ドット ソース形式のスクリプトを作成する必要があります。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For best results, to force a new drive to persist, specify Global as the value of the <bpt id="p1">*</bpt>Scope<ept id="p1">*</ept> parameterin addition to adding <bpt id="p2">*</bpt>Persist<ept id="p2">*</ept> to your command.</source>
+          <target state="translated">最良の結果を永続化する新しいドライブには、グローバルとして指定の値、 <bpt id="p1">*</bpt>スコープ<ept id="p1">*</ept> parameterin 加算を追加する <bpt id="p2">*</bpt>Persist<ept id="p2">*</ept> コマンドにします。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The name of the drive must be a letter, such as D or E. The value of <bpt id="p1">*</bpt>Root<ept id="p1">*</ept> parameter must be a UNC path of a different computer.</source>
+          <target state="translated">ドライブの名前は D や E などの文字である必要があります。値 <bpt id="p1">*</bpt>ルート<ept id="p1">*</ept> パラメーターは、別のコンピューターの UNC パスを指定する必要があります。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">*</bpt>PSProvider<ept id="p1">*</ept> parameter must be FileSystem.</source>
+          <target state="translated">値、 <bpt id="p1">*</bpt>PSProvider<ept id="p1">*</ept> パラメーターはファイル システムである必要があります。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To disconnect a Windows mapped network drive, use the Remove-PSDrive cmdlet.</source>
+          <target state="translated">マップ済みネットワーク ドライブの Windows を切断するには、Remove-psdrive コマンドレットを使用します。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>When you disconnect a Windows mapped network drive, the mapping is permanently deleted from the computer, not just deleted from the current session.</source>
+          <target state="translated">Windows マップ済みネットワーク ドライブを切断すると、マッピングは現在のセッションから削除されるだけでなく、コンピューターから完全に削除されます。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Mapped network drives are specific to a user account.</source>
+          <target state="translated">マップ済みネットワーク ドライブは、ユーザー アカウントに固有です。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Mapped network drives that you create in sessions that are started by using the Run as administrator option or by using the credential of another user are not visible in a session that was started without explicit credentials, or by using the credentials of the current user.</source>
+          <target state="translated">[管理者として実行] を使用して開始または別のユーザーの資格情報を使用していない明示的な資格情報のない、または現在のユーザーの資格情報を使用して開始されたセッションで表示するセッションで作成したマップ済みネットワーク ドライブ。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-Root</source>
+          <target state="translated">-ルート</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Specifies the data store location to which a Windows PowerShell drive is mapped.</source>
+          <target state="translated">Windows PowerShell ドライブをマップするデータ ストアの場所を指定します。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For example, specify a network share, such as <ph id="ph1">\\\\</ph>Server01\Public, a local directory, such as C:\Program Files, or a registry key, such as HKLM:\Software\Microsoft.</source>
+          <target state="translated">たとえば、ネットワーク共有をなど指定 <ph id="ph1">\\\\</ph>Server01\Public、C:\Program Files や hkl m:\software\microsoft などのレジストリ キーなどのローカル ディレクトリ。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Temporary Windows PowerShell drives can be associated with a local or remote location on any supported provider drive.</source>
+          <target state="translated">一時 Windows PowerShell ドライブは、任意のサポートされているプロバイダー ドライブ上のローカルまたはリモートの場所に関連付けることができます。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Mapped network drives can be associated only with a file system location on a remote computer.</source>
+          <target state="translated">マップ済みネットワーク ドライブは、リモート コンピューター上のファイル システムの場所だけに関連付けることができます。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>-Scope</source>
+          <target state="translated">スコープ</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Specifies a scope for the drive.</source>
+          <target state="translated">ドライブのスコープを指定します。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are: Global, Local, and Script, or a number relative to the current scope, which is 0 through the number of scopes, where 0 is the current scope and 1 is its parent.</source>
+          <target state="translated">このパラメーターの使用可能な値: グローバル、ローカル、およびスクリプト、または 0 ~ 0 での現在のスコープと 1 があるスコープの数は、現在のスコープの相対的な数値親となっています。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Local is the default.</source>
+          <target state="translated">ローカルでは、既定値です。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Scopes (http://go.microsoft.com/fwlink/?LinkID=113260).</source>
+          <target state="translated">詳細については、about_Scopes (http://go.microsoft.com/fwlink/?LinkID=113260) を参照してください。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>-UseTransaction</source>
+          <target state="translated">-UseTransaction</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Includes the command in the active transaction.</source>
+          <target state="translated">アクティブなトランザクションのコマンドが含まれます。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">このパラメーターは、トランザクションが進行中の場合のみ有効です。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For more information, see Includes the command in the active transaction.</source>
+          <target state="translated">詳細については、含まれるはアクティブなトランザクションにコマンドを参照してください。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">このパラメーターは、トランザクションが進行中の場合のみ有効です。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For more information, see</source>
+          <target state="translated">詳細については、このトピックの後半の「</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットを実行するとどのような結果になるかを表示します。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットは実行されません。コマンドレットが実行された場合の処理を示しています。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">コマンドレットは実行されません。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">パイプを使用してこのコマンドレットに入力を渡すことはできません。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSDriveInfo</source>
+          <target state="translated">System.management.automation.psdriveinfo を持っています。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> is designed to work with the data exposed by any provider.</source>
+          <target state="translated"><bpt id="p1">**</bpt>新しい PSDrive<ept id="p1">**</ept> 、プロバイダーによって公開されているデータを使用するよう設計されています。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>To list the providers available in your session, use <bpt id="p1">**</bpt>Get-PSProvider<ept id="p1">**</ept>.</source>
+          <target state="translated">セッションで使用可能なプロバイダーの一覧を表示する <bpt id="p1">**</bpt>Get-psprovider<ept id="p1">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>For more information about providers, see about_Providers (http://go.microsoft.com/fwlink/?LinkID=113250).</source>
+          <target state="translated">プロバイダーの詳細については、「about_providers」(http://go.microsoft.com/fwlink/?LinkID=113250) を参照してください。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Mapped network drives are specific to a user account.</source>
+          <target state="translated">マップ済みネットワーク ドライブは、ユーザー アカウントに固有です。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Mapped network drives that you create in sessions that are started by using the Run as administrator option or by using the credential of another user are not visible in a session that was started without explicit credentials, or by using the credentials of the current user.</source>
+          <target state="translated">[管理者として実行] を使用して開始または別のユーザーの資格情報を使用していない明示的な資格情報のない、または現在のユーザーの資格情報を使用して開始されたセッションで表示するセッションで作成したマップ済みネットワーク ドライブ。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Get-PSDrive</source>
+          <target state="translated">Get-PSDrive</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Remove-PSDrive</source>
+          <target state="translated">Remove-PSDrive</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

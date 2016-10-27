@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c727cb6b522299b9b235ef2609cb4b4be8a295df</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\Connect-PSSession.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1a2b2af9374052fb6d3f966f09b81fdbaadffdde</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9c58f150020d1a0a913cfc66a0280877a2e728e9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession</source>
+          <target state="translated">Connect-PSSession</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Connect-PSSession</source>
+          <target state="translated">Connect-PSSession</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Reconnects to disconnected sessions.</source>
+          <target state="translated">重新连接到已断开连接的会话。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Name (Default)</source>
+          <target state="translated">名称 （默认值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Session</source>
+          <target state="translated">会话</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ComputerNameGuid</source>
+          <target state="translated">ComputerNameGuid</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>ComputerName</source>
+          <target state="translated">ComputerName</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>ConnectionUriGuid</source>
+          <target state="translated">ConnectionUriGuid</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>ConnectionUri</source>
+          <target state="translated">ConnectionUri</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>InstanceId</source>
+          <target state="translated">实例 Id</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <target state="translated">ID</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cmdlet reconnects to user-managed Windows PowerShell sessions (<bpt id="p2">**</bpt>PSSessions<ept id="p2">**</ept>) that were disconnected.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> cmdlet 重新连接到用户托管的 Windows PowerShell 会话 (<bpt id="p2">**</bpt>Pssession<ept id="p2">**</ept>) 的已断开连接。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It works on sessions that are disconnected intentionally, such as by using the Disconnect-PSSession cmdlet or the <bpt id="p1">*</bpt>InDisconnectedSession<ept id="p1">*</ept> parameter of the Invoke-Command cmdlet, and those that were disconnected unintentionally, such as by a temporary network outage.</source>
+          <target state="translated">它可以在有意断开连接，例如通过使用 Disconnect-pssession cmdlet 的会话或 <bpt id="p1">*</bpt>InDisconnectedSession<ept id="p1">*</ept> 的参数 Invoke-command cmdlet，以及这些被无意断开连接，如通过临时网络故障。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> can connect to any disconnected session that was started by the same user.</source>
+          <target state="translated"><bpt id="p1">**</bpt>连接 PSSession<ept id="p1">**</ept> 可以连接到已由同一用户启动任何断开连接会话。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>These include those that were started by or disconnected from other sessions on other computers.</source>
+          <target state="translated">其中包括那些已启动或从其他计算机上的其他会话断开连接。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>However, <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cannot connect to broken or closed sessions, or interactive sessions started by using the Enter-PSSession cmdlet.</source>
+          <target state="translated">但是， <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 无法连接到已损坏的或已关闭会话或通过使用 Enter-pssession cmdlet 启动的交互式会话。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Also you cannot connect sessions to sessions started by other users, unless you can provide the credentials of the user who created the session.</source>
+          <target state="translated">此外，也无法将会话连接到由其他用户启动的会话，除非你能提供创建会话的用户的凭据。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information about the Disconnected Sessions feature, see about_Remote_Disconnected_Sessions.</source>
+          <target state="translated">有关断开连接的会话功能的详细信息，请参阅 about_Remote_Disconnected_Sessions。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This cmdlet was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此 cmdlet 是在 Windows PowerShell 3.0 中引入的。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 1: Reconnect to a session</source>
+          <target state="translated">示例 1︰ 重新连接的会话</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This command reconnects to the ITTask session on the Server01 computer.</source>
+          <target state="translated">此命令重新连接到 Server01 计算机上的 ITTask 会话。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The output shows that the command was successful.</source>
+          <target state="translated">该输出显示此命令已成功。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>State<ept id="p1">**</ept> of the session is Opened and the <bpt id="p2">**</bpt>Availability<ept id="p2">**</ept> is Available, which indicates that you can run commands in the session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>状态<ept id="p1">**</ept> 打开的会话和 <bpt id="p2">**</bpt>可用性<ept id="p2">**</ept> 可用，这表示可以在会话中运行命令。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Example 2: Effect of disconnecting and reconnecting</source>
+          <target state="translated">示例 2︰ 生效的断开并重新连接</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This example shows the effect of disconnecting and then reconnecting to a session.</source>
+          <target state="translated">此示例显示了断开某一会话的连接又重新连接到该会话的效果。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get-PSSession cmdlet.</source>
+          <target state="translated">第一个命令使用 Get-pssession cmdlet。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Without the <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> parameter, the command gets only sessions that were created in the current session.</source>
+          <target state="translated">而无需 <bpt id="p1">*</bpt>ComputerName<ept id="p1">*</ept> 参数，该命令将获取当前会话中创建的会话。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The output shows that the command gets the Backups session on the local computer.</source>
+          <target state="translated">该输出显示此命令可获取本地计算机上的 Backup 会话。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>State<ept id="p1">**</ept> of the session is Opened and the <bpt id="p2">**</bpt>Availability<ept id="p2">**</ept> is Available.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>状态<ept id="p1">**</ept> 打开的会话和 <bpt id="p2">**</bpt>可用性<ept id="p2">**</ept> 才有效。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The second command uses the <bpt id="p1">**</bpt>Get-PSSession<ept id="p1">**</ept> cmdlet to get the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects that were created in the current session and the <bpt id="p3">**</bpt>Disconnect-PSSession<ept id="p3">**</ept> cmdlet to disconnect the sessions.</source>
+          <target state="translated">第二个命令使用 <bpt id="p1">**</bpt>Get-pssession<ept id="p1">**</ept> cmdlet 来获取 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 当前会话中创建的对象和 <bpt id="p3">**</bpt>Disconnect-pssession<ept id="p3">**</ept> cmdlet 来断开会话的连接。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The output shows that the Backups session was disconnected.</source>
+          <target state="translated">该输出显示 Backup 会话已断开连接。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>State<ept id="p1">**</ept> of the session is Disconnected and the <bpt id="p2">**</bpt>Availability<ept id="p2">**</ept> is None.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>状态<ept id="p1">**</ept> 的会话已断开连接和 <bpt id="p2">**</bpt>可用性<ept id="p2">**</ept> 为无。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Get-PSSession<ept id="p1">**</ept> cmdlet to get the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects that were created in the current session and the <bpt id="p3">**</bpt>Connect-PSSession<ept id="p3">**</ept> cmdlet to reconnect the sessions.</source>
+          <target state="translated">第三个命令使用 <bpt id="p1">**</bpt>Get-pssession<ept id="p1">**</ept> cmdlet 来获取 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 当前会话中创建的对象和 <bpt id="p3">**</bpt>Connect-pssession<ept id="p3">**</ept> cmdlet 重新连接会话。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The output shows that the Backups session was reconnected.</source>
+          <target state="translated">该输出显示 Backup 会话已重新连接。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>State<ept id="p1">**</ept> of the session is Opened and the <bpt id="p2">**</bpt>Availability<ept id="p2">**</ept> is Available.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>状态<ept id="p1">**</ept> 打开的会话和 <bpt id="p2">**</bpt>可用性<ept id="p2">**</ept> 才有效。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cmdlet on a session that is not disconnected, the command does not affect the session and it does not generate any errors.</source>
+          <target state="translated">如果您使用 <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 没有断开连接的会话的 cmdlet，该命令不会影响会话并不会生成任何错误。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Example 3: Series of commands in an enterprise scenario</source>
+          <target state="translated">示例 3︰ 系列在企业级方案的命令</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This series of commands shows how the <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> cmdlet might be used in an enterprise scenario.</source>
+          <target state="translated">此系列的命令演示如何 <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 可能在企业方案中使用 cmdlet。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In this case, a system administrator starts a long-running job in a session on a remote computer.</source>
+          <target state="translated">在此示例中，系统管理员将在远程计算机上的会话中启动长时间运行的作业。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>After starting the job, the administrator disconnects from the session and goes home.</source>
+          <target state="translated">启动该作业后，管理员将断开与该会话的连接，然后下班回家。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Later that evening, the administrator logs on to her home computer and verifies that the job ran until it is completed.</source>
+          <target state="translated">更高版本，当晚，管理员登录到她的家庭计算机，并验证该作业运行直到完成。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-AllowRedirection</source>
+          <target state="translated">-AllowRedirection</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet allows redirection of this connection to an alternate URI.</source>
+          <target state="translated">指示此 cmdlet 允许此连接到备用 URI 重定向。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> parameter, the remote destination can return an instruction to redirect to a different URI.</source>
+          <target state="translated">当您使用 <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> 参数，远程目标将返回一个指令，将重定向到一个不同的 URI。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell does not redirect connections, but you can use this parameter to allow it to redirect the connection.</source>
+          <target state="translated">默认情况下，Windows PowerShell 不会重定向连接，但你可以使用此参数允许它重定向连接。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can also limit the number of times the connection is redirected by changing the <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> session option value.</source>
+          <target state="translated">您还可以限制的连接通过更改重定向的次数 <bpt id="p1">**</bpt>MaximumConnectionRedirectionCount<ept id="p1">**</ept> 会话选项值。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">*</bpt>MaximumRedirection<ept id="p1">*</ept> parameter of the New-PSSessionOption cmdlet or set the <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> property of the <bpt id="p3">**</bpt>$PSSessionOption<ept id="p3">**</ept> preference variable.</source>
+          <target state="translated">使用 <bpt id="p1">*</bpt>MaximumRedirection<ept id="p1">*</ept> New-pssessionoption cmdlet 或集的参数 <bpt id="p2">**</bpt>MaximumConnectionRedirectionCount<ept id="p2">**</ept> 属性 <bpt id="p3">**</bpt>$PSSessionOption<ept id="p3">**</ept> 首选项变量。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">默认值为 5。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-ApplicationName</source>
+          <target state="translated">应用程序的名称</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies the name of an application.</source>
+          <target state="translated">指定应用程序的名称。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This cmdlet connects only to sessions that use the specified application.</source>
+          <target state="translated">此 cmdlet 只能连接到使用指定的应用程序的会话。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Enter the application name segment of the connection URI.</source>
+          <target state="translated">输入连接 URI 的应用程序名称段。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For example, in the following connection URI, the application name is WSMan: <ph id="ph1">`http://localhost:5985/WSMAN`</ph>.</source>
+          <target state="translated">例如，在以下连接 URI 中，应用程序名称为 WSMan: <ph id="ph1">`http://localhost:5985/WSMAN`</ph>。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The application name of a session is stored in the <bpt id="p1">**</bpt>Runspace.ConnectionInfo.AppName<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">会话的应用程序名称存储在 <bpt id="p1">**</bpt>Runspace.ConnectionInfo.AppName<ept id="p1">**</ept> 会话的属性。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The value of this parameter is used to select and filter sessions.</source>
+          <target state="translated">此参数的值用于选择和筛选会话。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It does not change the application that the session uses.</source>
+          <target state="translated">它不会更改会话使用的应用程序。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-Authentication</source>
+          <target state="translated">身份验证</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies the mechanism that is used to authenticate user credentials in the command to reconnect to the disconnected session.</source>
+          <target state="translated">指定用于对要重新连接到断开连接的会话的命令中的用户凭据进行身份验证的机制。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此参数的可接受的值是：</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <target state="translated">默认值</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Basic</source>
+          <target state="translated">基本</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Credssp</source>
+          <target state="translated">Credssp</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Digest</source>
+          <target state="translated">Digest</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Kerberos</source>
+          <target state="translated">Kerberos</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Negotiate</source>
+          <target state="translated">Negotiate</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>NegotiateWithImplicitCredential</source>
+          <target state="translated">NegotiateWithImplicitCredential</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The default value is Default.</source>
+          <target state="translated">默认值为 Default。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see AuthenticationMechanism Enumerationhttp://go.microsoft.com/fwlink/?LinkID=144382 (http://go.microsoft.com/fwlink/?LinkID=144382) in the Microsoft Developer Network (MSDN) library.</source>
+          <target state="translated">此参数的值的信息，请参阅 Microsoft Developer Network (MSDN) 库中的 AuthenticationMechanism Enumerationhttp://go.microsoft.com/fwlink/?LinkID=144382 (http://go.microsoft.com/fwlink/?LinkID=144382)。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Caution: Credential Security Support Provider (CredSSP) authentication, in which the user's credentials are passed to a remote computer to be authenticated, is designed for commands that require authentication on more than one resource, such as accessing a remote network share.</source>
+          <target state="translated">警告︰ 在其中用户的凭据传递到远程计算机中以进行身份验证的凭据安全支持提供程序 (CredSSP) 身份验证被用于要求对多个资源，例如访问远程网络共享的身份验证的命令。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This mechanism increases the security risk of the remote operation.</source>
+          <target state="translated">此机制增加了远程操作的安全风险。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If the remote computer is compromised, the credentials that are passed to it can be used to control the network session.</source>
+          <target state="translated">如果远程计算机的安全受到威胁，则传递给该计算机的凭据可用于控制网络会话。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-CertificateThumbprint</source>
+          <target state="translated">-CertificateThumbprint</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Specifies the digital public key certificate (X509) of a user account that has permission to connect to the disconnected session.</source>
+          <target state="translated">指定有权连接到断开连接的会话的用户帐户的数字公钥证书 (X509)。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Enter the certificate thumbprint of the certificate.</source>
+          <target state="translated">输入证书的证书指纹。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Certificates are used in client certificate-based authentication.</source>
+          <target state="translated">在基于客户端证书的身份验证中使用证书。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>They can be mapped only to local user accounts.</source>
+          <target state="translated">可以将它们映射仅对本地用户帐户。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>They do not work with domain accounts.</source>
+          <target state="translated">它们不适用于域帐户。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To get a certificate thumbprint, use a Get-Item or Get-ChildItem command in the Windows PowerShell Cert: drive.</source>
+          <target state="translated">若要获取证书指纹，请使用 Get-item 或 Get-childitem 命令在 Windows PowerShell Cert︰ 驱动器。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-ComputerName</source>
+          <target state="translated">-ComputerName</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Specifies the computers on which the disconnected sessions are stored.</source>
+          <target state="translated">指定在其中存储断开连接的会话的计算机。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Sessions are stored on the computer that is at the server-side or receiving end of a connection.</source>
+          <target state="translated">会话存储在位于连接的服务器端或接收端的计算机上。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The default is the local computer.</source>
+          <target state="translated">默认值为本地计算机。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Type the NetBIOS name, an IP address, or a fully qualified domain name of one computer.</source>
+          <target state="translated">键入计算机的 NetBIOS 名称、IP 地址或完全限定的域名。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are not permitted.</source>
+          <target state="translated">不允许使用通配符。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To specify the local computer, type the computer name, localhost, or a dot (.)</source>
+          <target state="translated">若要指定本地计算机，请键入计算机名称、 localhost 或点 （.）</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-ConfigurationName</source>
+          <target state="translated">-ConfigurationName</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Connects only to sessions that use the specified session configuration.</source>
+          <target state="translated">只连接到使用指定会话配置的会话。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Enter a configuration name or the fully qualified resource URI for a session configuration.</source>
+          <target state="translated">输入会话配置的配置名称或完全限定的资源 URI。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If you specify only the configuration name, the following schema URI is prepended: http://schemas.microsoft.com/powershell.</source>
+          <target state="translated">如果您仅指定配置名称，预置以下架构 URI: http://schemas.microsoft.com/powershell。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The configuration name of a session is stored in the <bpt id="p1">**</bpt>ConfigurationName<ept id="p1">**</ept> property of the session.</source>
+          <target state="translated">会话的配置名称存储在 <bpt id="p1">**</bpt>ConfigurationName<ept id="p1">**</ept> 会话的属性。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The value of this parameter is used to select and filter sessions.</source>
+          <target state="translated">此参数的值用于选择和筛选会话。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>It does not change the session configuration that the session uses.</source>
+          <target state="translated">它不会更改会话使用的会话配置。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations.</source>
+          <target state="translated">有关会话配置的详细信息，请参阅 about_Session_Configurations。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">将提示您在运行 cmdlet 前进行确认。将提示您在运行 cmdlet 前进行确认。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-ConnectionUri</source>
+          <target state="translated">-ConnectionUri</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Specifies the URIs of the connection endpoints for the disconnected sessions.</source>
+          <target state="translated">为断开连接的会话指定连接终结点的 Uri。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The URI must be fully qualified.</source>
+          <target state="translated">URI 必须完全限定。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The format of this string is as follows:</source>
+          <target state="translated">此字符串的格式如下：</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The default value is as follows:</source>
+          <target state="translated">默认值如下：</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If you do not specify a connection URI, you can use the <bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept> and <bpt id="p2">*</bpt>Port<ept id="p2">*</ept> parameters to specify the connection URI values.</source>
+          <target state="translated">如果不指定连接 URI，则可以使用 <bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept> 和 <bpt id="p2">*</bpt>端口<ept id="p2">*</ept> 参数来指定连接 URI 值。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Valid values for the <bpt id="p1">**</bpt>Transport<ept id="p1">**</ept> segment of the URI are HTTP and HTTPS.</source>
+          <target state="translated">有效值为 <bpt id="p1">**</bpt>传输<ept id="p1">**</ept> 段的 uri 为 HTTP 和 HTTPS。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If you specify a connection URI with a Transport segment, but do not specify a port, the session is created with standards ports: 80 for HTTP and 443 for HTTPS.</source>
+          <target state="translated">如果你使用 Transport 段中，指定连接 URI，但不是指定端口，使用以下标准端口创建了会话︰ 80 (HTTP） 和用于 HTTPS 的 443。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To use the default ports for Windows PowerShell remoting, specify port 5985 for HTTP or 5986 for HTTPS.</source>
+          <target state="translated">若要使用 Windows PowerShell 远程处理的默认端口，请指定 HTTP 端口 5985 或 HTTPS 端口 5986。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>If the destination computer redirects the connection to a different URI, Windows PowerShell prevents the redirection unless you use the <bpt id="p1">*</bpt>AllowRedirection<ept id="p1">*</ept> parameter in the command.</source>
+          <target state="translated">如果目标计算机将连接重定向到另一个 URI，Windows PowerShell 将阻止重定向，除非您使用 <bpt id="p1">*</bpt>AllowRedirection<ept id="p1">*</ept> 命令中的参数。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to connect to the disconnected session.</source>
+          <target state="translated">指定有权连接到断开连接的会话的用户帐户。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">默认为当前用户。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as User01 or Domain01\User01.</source>
+          <target state="translated">键入用户名，例如 User01 或 Domain01\User01。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Or, enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">或者，输入 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> 对象，例如由 Get-credential cmdlet 生成。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If you type a user name, this cmdlet prompts you for a password.</source>
+          <target state="translated">如果键入用户名，则此 cmdlet 会提示您输入密码。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Specifies the IDs of the disconnected sessions.</source>
+          <target state="translated">指定断开连接的会话的 ID。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Id<ept id="p1">*</ept> parameter works only when the disconnected session was previously connected to the current session.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>Id<ept id="p1">*</ept> 参数有效仅当断开连接的会话之前已连接到当前会话。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This parameter is valid, but not effective, when the session is stored on the local computer, but was not connected to the current session.</source>
+          <target state="translated">如果会话存储在本地计算机上，但未连接到当前会话，则此参数是有效的，但并未生效。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">的实例 Id</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Specifies the instance IDs of the disconnected sessions.</source>
+          <target state="translated">指定断开连接的会话的实例 ID。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The instance ID is a GUID that uniquely identifies a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> on a local or remote computer.</source>
+          <target state="translated">实例 ID 是 GUID，用于唯一标识 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 本地或远程计算机上。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The instance ID is stored in the <bpt id="p1">**</bpt>InstanceID<ept id="p1">**</ept> property of the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>.</source>
+          <target state="translated">将实例 ID 存储在 <bpt id="p1">**</bpt>InstanceID<ept id="p1">**</ept> 属性 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Specifies the friendly names of the disconnected sessions.</source>
+          <target state="translated">指定断开连接的会话的友好名称。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-Port</source>
+          <target state="translated">端口</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Specifies the network port on the remote computer that is used to reconnect to the session.</source>
+          <target state="translated">指定远程计算机上用于重新连接到会话的网络端口。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To connect to a remote computer, the remote computer must be listening on the port that the connection uses.</source>
+          <target state="translated">若要连接到一台远程计算机，则必须在该连接所用的端口上侦听远程计算机。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The default ports are 5985, which is the WinRM port for HTTP, and 5986, which is the WinRM port for HTTPS.</source>
+          <target state="translated">默认端口为 5985，即 WinRM 端口用于 HTTP 和 5986，这是为支持 HTTPS 的 WinRM 端口。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Before using an alternate port, you must configure the WinRM listener on the remote computer to listen at that port.</source>
+          <target state="translated">使用备用端口之前，你必须在远程计算机上配置 WinRM 侦听器，才能在该端口上进行侦听。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>To configure the listener, type the following two commands at the Windows PowerShell prompt:</source>
+          <target state="translated">若要配置侦听器，请在 Windows PowerShell 提示符下键入以下两个命令：</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Do not use the <bpt id="p1">*</bpt>Port<ept id="p1">*</ept> parameter unless you must.</source>
+          <target state="translated">请不要使用 <bpt id="p1">*</bpt>端口<ept id="p1">*</ept> 参数除非必要，否则。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The port that is set in the command applies to all computers or sessions on which the command runs.</source>
+          <target state="translated">在命令中设置的端口适用于运行该命令的所有计算机或会话。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An alternate port setting might prevent the command from running on all computers.</source>
+          <target state="translated">备用端口设置可能会阻止在所有计算机上运行该命令。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-Session</source>
+          <target state="translated">会话</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Specifies the disconnected sessions.</source>
+          <target state="translated">指定断开连接的会话。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> objects or a command that creates or gets the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> objects, such as a Get-PSSession command.</source>
+          <target state="translated">输入一个包含变量 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 对象或一个可创建或获取命令 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 对象，例如 Get-pssession 命令。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>-SessionOption</source>
+          <target state="translated">-SessionOption</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Specifies advanced options for the session.</source>
+          <target state="translated">为会话指定高级的选项。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> object, such as one that you create by using the New-PSSessionOption cmdlet, or a hash table in which the keys are session option names and the values are session option values.</source>
+          <target state="translated">输入 <bpt id="p1">**</bpt>SessionOption<ept id="p1">**</ept> 对象，如一个创建使用 New-pssessionoption cmdlet 或哈希表，键是会话选项名称，值是会话选项值。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The default values for the options are determined by the value of the $PSSessionOption preference variable, if it is set.</source>
+          <target state="translated">这些选项的默认值由 $PSSessionOption 首选项变量的值（如果已设置）确定。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Otherwise, the default values are established by options set in the session configuration.</source>
+          <target state="translated">否则，通过在会话配置中设置的选项创建默认值。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The session option values take precedence over default values for sessions set in the $PSSessionOption preference variable and in the session configuration.</source>
+          <target state="translated">会话选项值优先于默认值为在 $PSSessionOption 首选项变量和会话配置中设置的会话。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>However, they do not take precedence over maximum values, quotas or limits set in the session configuration.</source>
+          <target state="translated">但是，它们不优先于在会话配置中设置的最大值、配额或限制。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For a description of the session options that includes the default values, see New-PSSessionOption.</source>
+          <target state="translated">有关会话选项的说明，其中包含默认值，请参阅 New-pssessionoption。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>For information about the <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> preference variable, see about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248).</source>
+          <target state="translated">璝惠 <bpt id="p1">**</bpt>$PSSessionOption<ept id="p1">**</ept> 首选项变量，请参阅 about_Preference_Variables (http://go.microsoft.com/fwlink/?LinkID=113248)。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152).</source>
+          <target state="translated">有关会话配置的详细信息，请参阅 about_Session_Configurations (http://go.microsoft.com/fwlink/?LinkID=145152)。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>-ThrottleLimit</source>
+          <target state="translated">-ThrottleLimit</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of concurrent connections that can be established to run this command.</source>
+          <target state="translated">指定为运行此命令可建立的并发连接的最大数目。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter or enter a value of 0, the default value, 32, is used.</source>
+          <target state="translated">如果省略此参数或输入 0 值，则使用默认值 32。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The throttle limit applies only to the current command, not to the session or to the computer.</source>
+          <target state="translated">节流限制仅适用于当前命令，而不适用于会话或计算机。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>-UseSSL</source>
+          <target state="translated">-UseSSL</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet uses the Secure Sockets Layer (SSL) protocol to connect to the disconnected session.</source>
+          <target state="translated">指示此 cmdlet 使用安全套接字层 (SSL) 协议来连接到断开连接的会话。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>By default, SSL is not used.</source>
+          <target state="translated">默认情况下，不使用 SSL。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>WS-Management encrypts all Windows PowerShell content transmitted over the network.</source>
+          <target state="translated">WS-Management 对通过网络传输的所有 Windows PowerShell 内容进行加密。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept> parameter is an additional protection that sends the data across an HTTPS connection instead of an HTTP connection.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>UseSSL<ept id="p1">*</ept> 参数是一个附加的保护来通过 HTTPS 连接而不是 HTTP 连接发送数据。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>If you use this parameter, but SSL is not available on the port that is used for the command, the command fails.</source>
+          <target state="translated">如果使用此参数，但 SSL 在用于此命令的端口上不可用，则该命令将失败。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">显示如果运行 cmdlet 则会发生什么情况。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">该 cmdlet 不会运行。显示在 cmdlet 运行时，会发生什么情况。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">cmdlet 未运行。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>You can pipe a session (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>) to this cmdlet.</source>
+          <target state="translated">您可以通过管道传递一个会话 (<bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept>) 给此 cmdlet。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.Runspaces.PSSession</source>
+          <target state="translated">System.Management.Automation.Runspaces.PSSession</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns an object that represents the session to which it reconnected.</source>
+          <target state="translated">此 cmdlet 将返回一个对象，表示计算机重新连接该会话。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> reconnects only to sessions that are disconnected, that is, sessions that have a value of Disconnected for the <bpt id="p2">**</bpt>State<ept id="p2">**</ept> property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>连接 PSSession<ept id="p1">**</ept> 仅重新连接到断开连接的会话，即，具有值为已断开连接的会话 <bpt id="p2">**</bpt>状态<ept id="p2">**</ept> 属性。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Only sessions that are connected to, or end at, computers that run Windows PowerShell 3.0 or later versions can be disconnected and reconnected.</source>
+          <target state="translated">使用连接到仅会话或结尾处，运行 Windows PowerShell 3.0 的计算机或更高版本可以断开和重新连接。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>If you use <bpt id="p1">**</bpt>Connect-PSSession<ept id="p1">**</ept> on a session that is not disconnected, the command does not affect the session and it does not generate errors.</source>
+          <target state="translated">如果您使用 <bpt id="p1">**</bpt>Connect-pssession<ept id="p1">**</ept> 上没有断开连接的会话，该命令不会影响会话并不会生成错误。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Disconnected loopback sessions with interactive tokens, which are created by using the <bpt id="p1">*</bpt>EnableNetworkAccess<ept id="p1">*</ept> parameter, can be reconnected only from the computer on which the session was created.</source>
+          <target state="translated">断开连接的具有交互式令牌，通过创建环回会话 <bpt id="p1">*</bpt>EnableNetworkAccess<ept id="p1">*</ept> 参数，可以重新连接只能通过在其创建会话的计算机。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>This restriction protects the computer from malicious access.</source>
+          <target state="translated">此限制可使计算机免遭恶意访问。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property of a <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> is relative to the current session.</source>
+          <target state="translated">值 <bpt id="p1">**</bpt>状态<ept id="p1">**</ept> 属性 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 是相对于当前会话。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Therefore, a value of <bpt id="p1">**</bpt>Disconnected<ept id="p1">**</ept> means that the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> is not connected to the current session.</source>
+          <target state="translated">因此，值 <bpt id="p1">**</bpt>Disconnected<ept id="p1">**</ept> 意味着 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 未连接到当前会话。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>However, it does not mean that the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> is disconnected from all sessions.</source>
+          <target state="translated">但是，它并不意味着 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 从所有会话断开连接时。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>It might be connected to a different session.</source>
+          <target state="translated">它可能连接到另一个会话。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>To determine whether you can connect or reconnect to the session, use the <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> property.</source>
+          <target state="translated">若要确定是否可以连接或重新连接该会话，请使用 <bpt id="p1">**</bpt>可用性<ept id="p1">**</ept> 属性。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> value of None indicates that you can connect to the session.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>可用性<ept id="p1">**</ept> 值 None 表示您可以连接到会话。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>A value of Busy indicates that you cannot connect to the <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> because it is connected to another session.</source>
+          <target state="translated">忙碌的值指示无法连接到 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 因为它已连接到另一个会话。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>For more information about the values of the <bpt id="p1">**</bpt>State<ept id="p1">**</ept> property of sessions, see RunspaceState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate(v=VS.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate(v=VS.85).aspx) in the MSDN library.</source>
+          <target state="translated">有关的值的详细信息 <bpt id="p1">**</bpt>状态<ept id="p1">**</ept> 属性的会话，请参阅 RunspaceState Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate (v=VS.85).aspx (MSDN 库中的 http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspacestate (v=VS.85).aspx)。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>For more information about the values of the <bpt id="p1">**</bpt>Availability<ept id="p1">**</ept> property of sessions, see RunspaceAvailability Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability(v=vs.85).aspx (http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability(v=vs.85).aspx) in the MSDN library.</source>
+          <target state="translated">有关的值的详细信息 <bpt id="p1">**</bpt>可用性<ept id="p1">**</ept> 属性的会话，请参阅 RunspaceAvailability Enumerationhttp://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability (v=vs.85).aspx (MSDN 库中的 http://msdn.microsoft.com/en-us/library/windows/desktop/system.management.automation.runspaces.runspaceavailability (v=vs.85).aspx)。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>You cannot change the idle time-out value of a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> when you connect to the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>.</source>
+          <target state="translated">不能更改的空闲超时值 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 连接到 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>Connect-PSSession<ept id="p2">**</ept> takes a <bpt id="p3">**</bpt>SessionOption<ept id="p3">**</ept> object that has an <bpt id="p4">**</bpt>IdleTimeout<ept id="p4">**</ept> value.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>SessionOption<ept id="p1">*</ept> 参数 <bpt id="p2">**</bpt>Connect-pssession<ept id="p2">**</ept> 采用 <bpt id="p3">**</bpt>SessionOption<ept id="p3">**</ept> 对象，它具有 <bpt id="p4">**</bpt>IdleTimeout<ept id="p4">**</ept> 值。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>However, the <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> value of the <bpt id="p2">**</bpt>SessionOption<ept id="p2">**</ept> object and the <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> value of the $PSSessionOption variable are ignored when connecting to a <bpt id="p4">**</bpt>PSSession<ept id="p4">**</ept>.</source>
+          <target state="translated">但是， <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> 值 <bpt id="p2">**</bpt>SessionOption<ept id="p2">**</ept> 对象和 <bpt id="p3">**</bpt>IdleTimeout<ept id="p3">**</ept> $PSSessionOption 变量的值时连接到将忽略 <bpt id="p4">**</bpt>PSSession<ept id="p4">**</ept>。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>You can set and change the idle time-out of a <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> when you create the <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, by using the <bpt id="p3">**</bpt>New-PSSession<ept id="p3">**</ept> or <bpt id="p4">**</bpt>Invoke-Command<ept id="p4">**</ept> cmdlets, and when you disconnect from the <bpt id="p5">**</bpt>PSSession<ept id="p5">**</ept>.</source>
+          <target state="translated">您可以设置和更改的空闲超时值 <bpt id="p1">**</bpt>PSSession<ept id="p1">**</ept> 创建时 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept>, ，通过使用 <bpt id="p3">**</bpt>New-pssession<ept id="p3">**</ept> 或 <bpt id="p4">**</bpt>Invoke-command<ept id="p4">**</ept> cmdlet，并当从断开连接 <bpt id="p5">**</bpt>PSSession<ept id="p5">**</ept>。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> property of a <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> is critical to disconnected sessions, because it determines how long a disconnected session is maintained on the remote computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>IdleTimeout<ept id="p1">**</ept> 属性 <bpt id="p2">**</bpt>PSSession<ept id="p2">**</ept> 对断开连接的会话至关重要，但因为它决定了多长时间断开连接的会话仍在远程计算机上。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Disconnected sessions are considered to be idle from the moment that they are disconnected, even if commands are running in the disconnected session.</source>
+          <target state="translated">断开连接的会话从其断开连接的时刻起就被视为空闲，即使命令正在断开连接的会话中运行也是如此。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Disconnect-PSSession</source>
+          <target state="translated">Disconnect-PSSession</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Enter-PSSession</source>
+          <target state="translated">Enter-PSSession</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Exit-PSSession</source>
+          <target state="translated">Exit-PSSession</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Get-PSSession</source>
+          <target state="translated">Get-pssession</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration</source>
+          <target state="translated">Get-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>New-PSSession</source>
+          <target state="translated">New-PSSession</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>New-PSSessionOption</source>
+          <target state="translated">New-PSSessionOption</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>New-PSTransportOption</source>
+          <target state="translated">New-PSTransportOption</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Receive-PSSession</source>
+          <target state="translated">Receive-PSSession</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Register-PSSessionConfiguration</source>
+          <target state="translated">Register-PSSessionConfiguration</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Remove-PSSession</source>
+          <target state="translated">Remove-PSSession</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>about_PSSessions</source>
+          <target state="translated">about_PSSessions</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>about_Remote</source>
+          <target state="translated">about_Remote</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>about_Remote_Disconnected_Sessions</source>
+          <target state="translated">about_Remote_Disconnected_Sessions</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>about_Session_Configurations</source>
+          <target state="translated">about_Session_Configurations</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

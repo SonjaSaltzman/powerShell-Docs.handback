@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a05e4c942ee70d02675c5dcffc9acfdb9e898df9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\New-Module.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">de57bdcd7976db6d1375067ed2ea0bdee1c8431b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">857478771e86fbb3f381f716b6d53d57e2f2bd5f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-Module</source>
+          <target state="translated">New-Module</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates a new dynamic module that exists only in memory.</source>
+          <target state="translated">メモリ内にのみ存在する新しい動的モジュールを作成します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ScriptBlock (Default)</source>
+          <target state="translated">スクリプト ブロック (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">名前</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-Module<ept id="p1">**</ept> cmdlet creates a dynamic module from a script block.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-module<ept id="p1">**</ept> コマンドレットは、スクリプト ブロックから動的モジュールを作成します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The members of the dynamic module, such as functions and variables, are immediately available in the session and remain available until you close the session.</source>
+          <target state="translated">関数や変数などの動的モジュールのメンバーは、セッションで直ちに利用可能になり、セッションを終了するまで使用できます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Like static modules, by default, the cmdlets and functions in a dynamic module are exported and the variables and aliases are not.</source>
+          <target state="translated">静的モジュール同様、既定では動的モジュール内のコマンドレットと関数がエクスポートされ、変数およびエイリアスはありません。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, you can use the Export-ModuleMember cmdlet and the parameters of <bpt id="p1">**</bpt>New-Module<ept id="p1">**</ept> to override the defaults.</source>
+          <target state="translated">ただし、Export-modulemember コマンドレットとパラメーターを使用できます <bpt id="p1">**</bpt>New-module<ept id="p1">**</ept> を既定の設定をオーバーライドします。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>New-Module<ept id="p2">**</ept> to return the dynamic module as a custom object.</source>
+          <target state="translated">使用することも、 <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>New-module<ept id="p2">**</ept> をカスタム オブジェクトとして動的モジュールを返します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The members of the modules, such as functions, are implemented as script methods of the custom object instead of being imported into the session.</source>
+          <target state="translated">関数などモジュールのメンバーは、セッションにインポートされる代わりに、カスタム オブジェクトのスクリプト メソッドとして実装されます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Dynamic modules exist only in memory, not on disk.</source>
+          <target state="translated">動的モジュールは、ディスクではなく、メモリ内にのみ存在します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Like all modules, the members of dynamic modules run in a private module scope that is a child of the global scope.</source>
+          <target state="translated">すべてのモジュール同様、動的モジュールのメンバーはグローバル スコープの子であるプライベート モジュール スコープで実行されます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Get-Module cannot get a dynamic module, but Get-Command can get the exported members.</source>
+          <target state="translated">Get-Module は動的モジュールを取得できませんが、Get-Command はエクスポートされたメンバーを取得できます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To make a dynamic module available to <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept>, pipe a <bpt id="p2">**</bpt>New-Module<ept id="p2">**</ept> command to Import-Module, or pipe the module object that <bpt id="p3">**</bpt>New-Module<ept id="p3">**</ept> returns to <bpt id="p4">**</bpt>Import-Module<ept id="p4">**</ept>.</source>
+          <target state="translated">動的モジュールを使用できるようにする <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept>, 、パイプ、 <bpt id="p2">**</bpt>New-module<ept id="p2">**</ept> モジュールのインポートまたはパイプ モジュールにコマンド オブジェクトを <bpt id="p3">**</bpt>New-module<ept id="p3">**</ept> に戻ります <bpt id="p4">**</bpt>Import-module<ept id="p4">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This action adds the dynamic module to the <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> list, but it does not save the module to disk or make it persistent.</source>
+          <target state="translated">この操作は、動的モジュールを追加、 <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept> ] ボックスの一覧が、ディスクまたは永続化するにはモジュールを保存しません。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Example 1: Create a dynamic module</source>
+          <target state="translated">例 1: 動的モジュールを作成します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command creates a new dynamic module with a function called Hello.</source>
+          <target state="translated">このコマンドは、こんにちはという名前の関数を新しい動的モジュールを作成します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The command returns a module object that represents the new dynamic module.</source>
+          <target state="translated">このコマンドは、新しい動的モジュールを表すモジュール オブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example 2: Working with dynamic modules and Get-Module and Get-Command</source>
+          <target state="translated">動的モジュールと、Get-module と Get コマンドの例 2: 操作</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This example demonstrates that dynamic modules are not returned by the <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">この例では、動的モジュールがによって返されないこと、 <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The members that they export are returned by the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">によって返されるそれらがエクスポートするメンバー、 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example 3: Export a variable into the current session</source>
+          <target state="translated">例 3: 現在のセッションに変数をエクスポートします。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Export-ModuleMember<ept id="p1">**</ept> cmdlet to export a variable into the current session.</source>
+          <target state="translated">このコマンドを使用して、 <bpt id="p1">**</bpt>Export-modulemember<ept id="p1">**</ept> コマンドレットを現在のセッションに変数をエクスポートします。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Without the <bpt id="p1">**</bpt>Export-ModuleMember<ept id="p1">**</ept> command, only the function is exported.</source>
+          <target state="translated">なし、 <bpt id="p1">**</bpt>Export-modulemember<ept id="p1">**</ept> コマンド、関数のみをエクスポートします。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The output shows that both the variable and the function were exported into the session.</source>
+          <target state="translated">出力には、変数と関数が両方ともセッションにエクスポートされたことが示されます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Example 4: Make a dynamic module available to Get-Module</source>
+          <target state="translated">例 4: が Get モジュールを動的モジュールを利用します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command demonstrates that you can make a dynamic module available to <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> by piping the dynamic module to <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept>.</source>
+          <target state="translated">このコマンドを作成できること、動的モジュールの使用を示しています <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept> 動的モジュールをパイプ <bpt id="p2">**</bpt>Import-module<ept id="p2">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The first command uses a pipeline operator (|) to send the module object that <bpt id="p1">**</bpt>New-Module<ept id="p1">**</ept> generates to the <bpt id="p2">**</bpt>Import-Module<ept id="p2">**</ept> cmdlet.</source>
+          <target state="translated">最初のコマンドは、パイプラインを使用して演算子 (|)、モジュールを送信するオブジェクトを <bpt id="p1">**</bpt>New-module<ept id="p1">**</ept> を生成、 <bpt id="p2">**</bpt>Import-module<ept id="p2">**</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>Name<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>New-Module<ept id="p2">**</ept> to assign a friendly name to the module.</source>
+          <target state="translated">コマンドを使用して、 <bpt id="p1">*</bpt>名前<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>New-module<ept id="p2">**</ept> モジュールにフレンドリ名を割り当てます。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">**</bpt>Import-Module<ept id="p1">**</ept> does not return any objects by default, there is no output from this command.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Import-module<ept id="p1">**</ept> このコマンドの出力は既定では、オブジェクトは返しません。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The second command uses <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> to get the modules in the session.</source>
+          <target state="translated">2 番目のコマンドを使用して <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept> をセッションにモジュールを取得します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The result shows that <bpt id="p1">**</bpt>Get-Module<ept id="p1">**</ept> can get the new dynamic module.</source>
+          <target state="translated">結果を表示する <bpt id="p1">**</bpt>Get-module<ept id="p1">**</ept> 新しい動的モジュールを取得できます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The third command uses the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet to get the Hello function that the dynamic module exports.</source>
+          <target state="translated">3 番目のコマンドを使用して、 <bpt id="p1">**</bpt>Get-command<ept id="p1">**</ept> 動的モジュールがエクスポートするこんにちは関数を取得するコマンドレットです。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Example 5: Generate a custom object that has exported functions</source>
+          <target state="translated">例 5: がエクスポートされた関数をカスタム オブジェクトを生成します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> parameter of <bpt id="p2">**</bpt>New-Module<ept id="p2">**</ept> to generate a custom object that has script methods that represent the exported functions.</source>
+          <target state="translated">この例は、使用する方法を示しています。、 <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> のパラメーター <bpt id="p2">**</bpt>New-module<ept id="p2">**</ept> エクスポートされた関数を表すスクリプト メソッドを持つカスタム オブジェクトを生成します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>New-Module<ept id="p1">**</ept> cmdlet to generate a dynamic module with two functions, Hello and Goodbye.</source>
+          <target state="translated">最初のコマンドを使用して、 <bpt id="p1">**</bpt>New-module<ept id="p1">**</ept> こんにちはと Goodbye に 2 つの関数で動的モジュールを生成するコマンドレットです。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> parameter to generate a custom object instead of the PSModuleInfo object that <bpt id="p2">**</bpt>New-Module<ept id="p2">**</ept> generates by default.</source>
+          <target state="translated">このコマンドは、 <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> 、PSModuleInfo ではなくカスタム オブジェクトを生成するパラメーター オブジェクトを <bpt id="p2">**</bpt>New-module<ept id="p2">**</ept> 既定で生成します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command saves the custom object in the $m variable.</source>
+          <target state="translated">このコマンドは、カスタム オブジェクトを $m 変数に保存します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second command attempts to display the value of the $m variable.</source>
+          <target state="translated">2 番目のコマンドは、$m 変数の値を表示します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>No content appears.</source>
+          <target state="translated">内容は表示されません。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The third command uses a pipeline operator to send the custom object to the <bpt id="p1">**</bpt>Get-Member<ept id="p1">**</ept> cmdlet, which displays the properties and methods of the custom object.</source>
+          <target state="translated">3 番目のコマンドでは、パイプライン演算子を使用するカスタム オブジェクトを送信する、 <bpt id="p1">**</bpt>Get-member<ept id="p1">**</ept> コマンドレットに渡して、プロパティとカスタム オブジェクトのメソッドを表示します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The output shows that the object has script methods that represent the Hello and Goodbye functions.</source>
+          <target state="translated">出力には、Hello 関数と Goodbye 関数を表すスクリプト メソッドがオブジェクトにあることが示されます。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The fourth and fifth commands use the script method format to call the Hello and Goodbye functions.</source>
+          <target state="translated">4 番目と 5 番目のコマンドは、スクリプト メソッド形式を使用して、Hello 関数と Goodbye 関数を呼び出します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Example 6: Get the results of the script block</source>
+          <target state="translated">例 6: スクリプト ブロックの結果を取得します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">*</bpt>ReturnResult<ept id="p1">*</ept> parameter to request the results of running the script block instead of requesting a module object.</source>
+          <target state="translated">このコマンドを使用して、 <bpt id="p1">*</bpt>ReturnResult<ept id="p1">*</ept> モジュール オブジェクトを要求する代わりに、スクリプト ブロックの実行結果を要求するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The script block in the new module defines the SayHello function and then calls the function.</source>
+          <target state="translated">新しいモジュール内のスクリプト ブロックは SayHello 関数を定義し、その関数を呼び出します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Specifies an array of arguments which are parameter values that are passed to the script block.</source>
+          <target state="translated">スクリプト ブロックに渡されるパラメーターの値である引数の配列を指定します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-AsCustomObject</source>
+          <target state="translated">-AsCustomObject</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet returns a custom object that represents the dynamic module.</source>
+          <target state="translated">このコマンドレットが、動的モジュールを表すカスタム オブジェクトを返すことを示します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The module members are implemented as script methods of the custom object, but they are not imported into the session.</source>
+          <target state="translated">モジュールのメンバーは、カスタム オブジェクトのスクリプト メソッドとして実装されますが、セッションにインポートされません。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can save the custom object in a variable and use dot notation to invoke the members.</source>
+          <target state="translated">カスタム オブジェクトを変数に保存し、ドット表記を使用してメンバーを呼び出すことができます。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the module has multiple members with the same name, such as a function and a variable that are both named A, only one member with each name can be accessed from the custom object.</source>
+          <target state="translated">モジュールに同じ名前の複数のメンバーがある場合は、関数や変数など、名前が両方とも、それぞれの名前を持つ 1 つだけのメンバー アクセスできます、カスタム オブジェクトから。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-Cmdlet</source>
+          <target state="translated">コマンドレット</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specifies an array of cmdlets that this cmdlet exports from the module into the current session.</source>
+          <target state="translated">このコマンドレットでは現在のセッションにモジュールからエクスポートするコマンドレットの配列を指定します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Enter a comma-separated list of cmdlets.</source>
+          <target state="translated">コマンドレットのコンマ区切りのリストを入力します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">ワイルドカード文字を使用できます。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>By default, all cmdlets in the module are exported.</source>
+          <target state="translated">既定では、モジュール内のすべてのコマンドレットがエクスポートされます。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You cannot define cmdlets in a script block, but a dynamic module can include cmdlets if it imports the cmdlets from a binary module.</source>
+          <target state="translated">スクリプト ブロック内のコマンドレットは定義できませんが、コマンドレットがバイナリ モジュールからインポートされた場合、動的モジュールがコマンドレットを含めることができます。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-Function</source>
+          <target state="translated">関数</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Specifies an array of functions that this cmdlet exports from the module into the current session.</source>
+          <target state="translated">このコマンドレットでは現在のセッションにモジュールからエクスポート関数の配列を指定します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Enter a comma-separated list of functions.</source>
+          <target state="translated">関数のコンマ区切りのリストを入力します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Wildcard characters are permitted.</source>
+          <target state="translated">ワイルドカード文字を使用できます。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>By default, all functions defined in a module are exported.</source>
+          <target state="translated">既定では、モジュールで定義されたすべての関数がエクスポートされます。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specifies a name for the new module.</source>
+          <target state="translated">新しいモジュールの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You can also pipe a module name to New-Module.</source>
+          <target state="translated">また、パイプを使用してモジュール名を New-Module に渡すこともできます。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The default value is an autogenerated name that starts with <ph id="ph1">`__DynamicModule_`</ph> and is followed by a GUID that specifies the path of the dynamic module.</source>
+          <target state="translated">既定値は、自動生成された名前で始まる <ph id="ph1">`__DynamicModule_`</ph> され、動的モジュールのパスを指定する GUID が続きます。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-ReturnResult</source>
+          <target state="translated">-ReturnResult</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet runs the script block and returns the script block results instead of returning a module object.</source>
+          <target state="translated">このコマンドレットがスクリプト ブロックの実行モジュール オブジェクトを返す代わりにスクリプト ブロックの結果を返すことを示します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-ScriptBlock</source>
+          <target state="translated">-ScriptBlock</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Specifies the contents of the dynamic module.</source>
+          <target state="translated">動的モジュールの内容を指定します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Enclose the contents in braces ( { } ) to create a script block.</source>
+          <target state="translated">内容を中かっこ ({ }) で囲み、スクリプト ブロックを作成します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">このパラメーターは必須です。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>You can pipe a module name to this cmdlet.</source>
+          <target state="translated">このコマンドレットをモジュール名をパイプすることができます。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSModuleInfo, System.Management.Automation.PSCustomObject, or None</source>
+          <target state="translated">System.Management.Automation.PSModuleInfo、System.Management.Automation.PSCustomObject、または None</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This cmdlet generates a <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> object, by default.</source>
+          <target state="translated">このコマンドレットを生成、 <bpt id="p1">**</bpt>PSModuleInfo<ept id="p1">**</ept> 既定のオブジェクト。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> parameter, it generates a <bpt id="p2">**</bpt>PSCustomObject<ept id="p2">**</ept> object.</source>
+          <target state="translated">使用する場合、 <bpt id="p1">*</bpt>AsCustomObject<ept id="p1">*</ept> パラメーターを生成、 <bpt id="p2">**</bpt>PSCustomObject<ept id="p2">**</ept> オブジェクトです。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">*</bpt>ReturnResult<ept id="p1">*</ept> parameter, it returns the result of evaluating the script block in the dynamic module.</source>
+          <target state="translated">使用する場合、 <bpt id="p1">*</bpt>ReturnResult<ept id="p1">*</ept> 動的モジュール内のスクリプト ブロックの評価結果が返されるパラメーター。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You can also refer to <bpt id="p1">**</bpt>New-Module<ept id="p1">**</ept> by its alias, <bpt id="p2">**</bpt>nmo<ept id="p2">**</ept>.</source>
+          <target state="translated">参照することもできます。 <bpt id="p1">**</bpt>New-module<ept id="p1">**</ept> そのエイリアスで <bpt id="p2">**</bpt>nmo<ept id="p2">**</ept>します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Aliases.</source>
+          <target state="translated">詳細については、「about_Aliases」を参照してください。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Export-ModuleMember</source>
+          <target state="translated">Export-ModuleMember</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Get-Module</source>
+          <target state="translated">Get-Module</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Import-Module</source>
+          <target state="translated">Import-Module</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Remove-Module</source>
+          <target state="translated">Remove-Module</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>about_Modules</source>
+          <target state="translated">about_Modules</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

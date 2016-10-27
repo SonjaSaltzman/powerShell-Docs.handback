@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a694b591005b3b7d1282fa7ce9210e4122fbc285</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_Job_Details.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6afe9e189bc695d8e5d08e50ec770d279454065c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85418af06035ee69bd97af1ce9961a777f09b459</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Job_Details</source>
+          <target state="translated">about_Job_Details</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Job Details</source>
+          <target state="translated">有关作业的详细信息</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Job_Details</source>
+          <target state="translated">about_Job_Details</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Job_Details</source>
+          <target state="translated">about_Job_Details</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">简短说明</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Provides details about background jobs on local and remote computers.</source>
+          <target state="translated">在本地和远程计算机上提供有关后台作业的详细信息。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>DETAILED DESCRIPTION</source>
+          <target state="translated">详细说明</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This topic explains the concept of a background job and provides technical information about how background jobs work in Windows PowerShell.</source>
+          <target state="translated">本主题解释后台作业的概念，并提供有关在 Windows PowerShell 后台作业中如何工作的技术信息。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This topic is a supplement to the about_Jobs and about_Remote_Jobs topics.</source>
+          <target state="translated">本主题是 about_Jobs 和 about_Remote_Jobs 主题的补充。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>ABOUT BACKGROUND JOBS</source>
+          <target state="translated">有关后台作业</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A background job runs a command or expression asynchronously.</source>
+          <target state="translated">后台作业异步运行的命令或表达式。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It might run a cmdlet, a function, a script, or any other command-based task.</source>
+          <target state="translated">它可能运行 cmdlet、 函数、 脚本或任何其他基于命令的任务。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It is designed to run commands that take an extended period of time, but you can use it to run any command in the background.</source>
+          <target state="translated">而旨在运行需要的时间很长的时间的命令，但可以使用它来在后台运行任何命令。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When a synchronous command runs, the Windows PowerShell command prompt is suppressed until the command is complete.</source>
+          <target state="translated">同步命令运行时，该命令完成之前取消 Windows PowerShell 命令提示符。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>But a background job does not suppress the Windows PowerShell prompt.</source>
+          <target state="translated">但是，后台作业不会取消的 Windows PowerShell 提示符。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A command to start a background job returns a job object.</source>
+          <target state="translated">启动后台作业的命令返回作业对象。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The prompt returns immediately so you can work on other tasks while the background job runs.</source>
+          <target state="translated">因此您可以处理其他任务在后台作业运行时立即返回至命令提示符。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>However, when you start a background job, you do not get the results immediately even if the job runs very quickly.</source>
+          <target state="translated">但是，当您启动后台作业，您未获得结果立即即使作业运行速度非常快。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The job object that is returned contains useful information about the job, but it does not contain the job results.</source>
+          <target state="translated">返回的作业对象包含有关该作业的有用信息但不包含作业结果。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You must run a separate command to get the job results.</source>
+          <target state="translated">您必须运行单独的命令来获取作业结果。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can also run commands to stop the job, to wait for the job to be completed, and to delete the job.</source>
+          <target state="translated">您还可以运行命令来停止作业，等待作业完成，以及删除该作业。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To make the timing of a background job independent of other commands, each background job runs in its own Windows PowerShell environment (a "session").</source>
+          <target state="translated">若要使独立于其他命令的后台作业的时间，每个后台作业运行其自己的 Windows PowerShell 环境 （"会话"） 中。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>However, this can be a temporary connection that is created only to run the job and is then destroyed, or it can be a persistent session (a PSSession) that you can use to run several related jobs or commands.</source>
+          <target state="translated">但是，这可能是一个临时连接创建仅用于运行作业，然后销毁，也可以是一个持久性会话 (PSSession) 可用于运行多个相关作业或命令。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>USING THE JOB CMDLETS</source>
+          <target state="translated">使用 JOB CMDLET</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Use a Start-Job command to start a background job on a local computer.</source>
+          <target state="translated">使用 Start-job 命令在本地计算机上启动后台作业。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Start-Job returns a job object.</source>
+          <target state="translated">启动作业返回作业对象。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can also get objects representing the jobs that were started on the local computer by using the Get-Job cmdlet.</source>
+          <target state="translated">此外可以获取表示使用 Get-job cmdlet 在本地计算机启动的作业的对象。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To get the job results, use a Receive-Job command.</source>
+          <target state="translated">若要获取作业结果，请使用 Receive-job 命令。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If the job is not complete, Receive-Job returns partial results.</source>
+          <target state="translated">如果未完成作业后，接收作业返回部分结果。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can also use the Wait-Job cmdlet to suppress the command prompt until one or all of the jobs that were started in the session are complete.</source>
+          <target state="translated">您可以使用 Wait-job cmdlet 来禁止显示命令提示符处，直到一个或多个会话中启动的作业都已完成。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To stop a background job, use the Stop-Job cmdlet.</source>
+          <target state="translated">若要停止后台作业，请使用停止作业 cmdlet。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To delete a job, use the Remove-Job cmdlet.</source>
+          <target state="translated">若要删除作业，请使用 Remove-job cmdlet。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For more information about how the cmdlets work, see the Help topic for each cmdlet, and see about_Jobs.</source>
+          <target state="translated">有关这些 cmdlet 的工作原理的详细信息，请参阅每个 cmdlet 的帮助主题，请参阅 about_Jobs。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>STARTING BACKGROUND JOBS ON REMOTE COMPUTERS</source>
+          <target state="translated">在远程计算机上启动后台作业</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can create and manage background jobs on a local or remote computer.</source>
+          <target state="translated">您可以创建和管理本地或远程计算机上的后台作业。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To run a background job remotely, use the AsJob parameter of a cmdlet such as Invoke-Command, or use the Invoke-Command cmdlet to run a Start-Job command remotely.</source>
+          <target state="translated">若要远程运行后台作业，请使用 Invoke-command，如 cmdlet 的 AsJob 参数或使用 Invoke-command cmdlet 远程运行 Start-job 命令。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can also start a background job in an interactive session.</source>
+          <target state="translated">此外可以交互式会话中启动后台作业。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information about remote background jobs, see about_Remote_Jobs.</source>
+          <target state="translated">有关远程后台作业的详细信息，请参阅 about_Remote_Jobs。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>CHILD JOBS</source>
+          <target state="translated">子作业</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Each background job consists of a parent job and one or more child jobs.</source>
+          <target state="translated">每个后台作业包含父作业和一个或多个子作业。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In jobs started by using Start-Job or the AsJob parameter of Invoke-Command, the parent job is an executive.</source>
+          <target state="translated">通过使用 Start-job 或 Invoke-command 的 AsJob 参数启动的作业，在父作业是一名经理。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>It does not run any commands or return any results.</source>
+          <target state="translated">它不运行任何命令或返回任何结果。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The commands are actually run by the child jobs.</source>
+          <target state="translated">这些命令实际上由子作业运行。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>(Jobs started by using other cmdlets might work differently.)</source>
+          <target state="translated">（通过使用其他 cmdlet 启动作业可能工作方式不同。）</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The child jobs are stored in the ChildJobs property of the parent job object.</source>
+          <target state="translated">子作业存储在父作业对象的 ChildJobs 属性。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The ChildJobs property can contain one or many child job objects.</source>
+          <target state="translated">ChildJobs 属性可以包含一个或多个子作业对象。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The child job objects have a name, ID, and instance ID that differ from the parent job so that you can manage the parent and child jobs individually or as a unit.</source>
+          <target state="translated">子作业对象具有名称、 ID 和与父作业不同，以便你可以单独或作为一个单元管理的父和子作业的实例 ID。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To get the parent and child jobs of a job, use the IncludeChildJobs parameter of the Get-Job cmdlet.</source>
+          <target state="translated">若要获取作业的父和子作业，请使用 Get-job cmdlet 的 IncludeChildJobs 参数。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The IncludeChildJob parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">IncludeChildJob 参数是在 Windows PowerShell 3.0 中引入的。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; Get-Job -IncludeChildJob</source>
+          <target state="translated">C:\PS &gt; Get-job IncludeChildJob</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Id    Name   PSJobTypeName State      HasMoreData   Location    Command</source>
+          <target state="translated">Id 名称 PSJobTypeName 状态 HasMoreData 位置命令</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>1     Job1   RemoteJob     Failed     True          localhost   Get-Process 2     Job2                 Completed  True          Server01    Get-Process 3     Job3                 Failed     False         localhost   Get-Process</source>
+          <target state="translated">1 Job1 RemoteJob 失败，则返回 True localhost Get-process 2 Job2 完成，则返回 True Server01 Get-process 3 Job3 失败 False localhost 获取进程</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To get the parent job and only the child jobs with a particular State value, use the ChildJobState parameter of the Get-Job cmdlet.</source>
+          <target state="translated">若要获取父作业和仅具有特定的状态值的子作业，请使用 Get-job cmdlet 的 ChildJobState 参数。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The ChildJobState parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">ChildJobState 参数是在 Windows PowerShell 3.0 中引入的。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; Get-Job -ChildJobState Failed</source>
+          <target state="translated">C:\PS &gt; Get-job ChildJobState 失败</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Id    Name   PSJobTypeName State      HasMoreData   Location    Command</source>
+          <target state="translated">Id 名称 PSJobTypeName 状态 HasMoreData 位置命令</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>1     Job1   RemoteJob     Failed     True          localhost   Get-Process 3     Job3                 Failed     False         localhost   Get-Process</source>
+          <target state="translated">1 Job1 RemoteJob 失败，则返回 True localhost Get-process 3 Job3 失败 False localhost 获取进程</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To get the child jobs of a job on all versions of Windows PowerShell, use the ChildJob property of the parent job.</source>
+          <target state="translated">若要获取所有版本的 Windows PowerShell 上的子作业的作业，请使用父作业 ChildJob 属性。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; (Get-Job Job1).ChildJobs</source>
+          <target state="translated">C:\PS &gt; (Get-job Job1)。ChildJobs</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Id    Name   PSJobTypeName State      HasMoreData   Location    Command</source>
+          <target state="translated">Id 名称 PSJobTypeName 状态 HasMoreData 位置命令</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>2     Job2                 Completed  True          Server01    Get-Process 3     Job3                 Failed     False         localhost   Get-Process</source>
+          <target state="translated">2 Job2 完成，则返回 True Server01 Get-process 3 Job3 失败 False localhost 获取进程</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You can also use a Get-Job command on the child job, as shown in the following command:</source>
+          <target state="translated">下面的命令中所示，还可以在子作业使用 Get-job 命令︰</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; Get-Job Job3</source>
+          <target state="translated">C:\PS &gt; Get-job Job3</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Id    Name   PSJobTypeName State      HasMoreData   Location    Command</source>
+          <target state="translated">Id 名称 PSJobTypeName 状态 HasMoreData 位置命令</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>3     Job3                 Failed     False         localhost   Get-Process</source>
+          <target state="translated">3 Job3 失败 False localhost 获取进程</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The configuration of the child job depends on the command that you use to start the job.</source>
+          <target state="translated">子作业的配置取决于你用于启动该作业的命令。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-- When you use Start-Job to start a job on a local computer, the job consists of an executive parent job and a child job that runs the command.</source>
+          <target state="translated">--当使用启动作业在本地计算机上启动作业，作业 executive 父作业和包含运行该命令的子作业。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-- When you use the AsJob parameter of Invoke-Command to start a job on one or more computers, the job consists of an executive parent job and a child job for each job run on each computer.</source>
+          <target state="translated">--当使用 Invoke-command 的 AsJob 参数在一个或多台计算机上启动作业，作业 executive 父作业和包含每个作业每台计算机上运行的子作业。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-- When you use Invoke-Command to run a Start-Job command on one or more remote computers, the result is the same as a local command run on each remote computer.</source>
+          <target state="translated">--当使用 Invoke-command 运行 Start-job 命令在一个或多个远程计算机上，则结果是在每台远程计算机上运行的本地命令相同。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The command returns a job object for each computer.</source>
+          <target state="translated">该命令返回作业对象的每台计算机。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The job object consists of an executive parent job and one child job that runs the command.</source>
+          <target state="translated">作业对象组成的 executive 父作业和运行该命令的一个子作业。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The parent job represents all of the child jobs.</source>
+          <target state="translated">父作业表示所有子作业。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When you manage a parent job, you also manage the associated child jobs.</source>
+          <target state="translated">当你管理父作业时，还可以管理关联的子作业。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For example, if you stop a parent job, all child jobs are stopped.</source>
+          <target state="translated">例如，如果您停止父作业，将停止所有子作业。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If you get the results of a parent job, you get the results of all child jobs.</source>
+          <target state="translated">获取父作业的结果，如果您获得的所有子作业的结果。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>However, you can also manage child jobs individually.</source>
+          <target state="translated">但是，您可以单独管理子作业。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This is most useful when you want to investigate a problem with a job or get the results of only one of a number of child jobs started by using the AsJob parameter of Invoke-Command.</source>
+          <target state="translated">当你想要调查作业问题或获取的结果数量的子作业通过使用 Invoke-command 的 AsJob 参数启动之一时，这是最有用。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>(The backtick character [`] is the continuation character.)</source>
+          <target state="translated">（反撇号字符 ['] 是继续符。）</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The following command uses the AsJob parameter of Invoke-Command to start background jobs on the local computer and two remote computers.</source>
+          <target state="translated">下面的命令使用 Invoke-command 的 AsJob 参数在本地计算机和两台远程计算机上启动后台作业。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The command saves the job in the $j variable.</source>
+          <target state="translated">该命令将作业保存在 $j 变量。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; $j = Invoke-Command -ComputerName localhost, Server01, Server02 ` -Command {Get-Date} -AsJob</source>
+          <target state="translated">PS c: &gt; $j = Invoke-command-ComputerName localhost，Server01、 Server02 的命令 {Get-date} AsJob</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>When you display the Name and ChildJob properties of the job in $j, it shows that the command returned a job object with three child jobs, one for each computer.</source>
+          <target state="translated">当在 $j 中显示该作业的名称和 ChildJob 属性时，它显示该命令返回了具有三个子作业，每台计算机的作业对象。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>CPS C:&gt; $j | Format-List Name, ChildJobs</source>
+          <target state="translated">CPS c: &gt; $j |Format-list Name ChildJobs</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Name      : Job3 ChildJobs : {Job4, Job5, Job6}</source>
+          <target state="translated">名称︰ Job3 ChildJobs: {Job4 Job5，Job6}</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When you display the parent job, it shows that the job failed.</source>
+          <target state="translated">当显示父作业时，它显示的作业失败。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; $j</source>
+          <target state="translated">C:\PS &gt; $j</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Id    Name   PSJobTypeName State      HasMoreData   Location</source>
+          <target state="translated">Id 名称 PSJobTypeName 状态 HasMoreData 位置</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>3     Job3   RemotingJob   Failed     False         localhost,Server...</source>
+          <target state="translated">3 Job3 RemotingJob 失败 False localhost，而服务器...</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>But when you run a Get-Job command that gets the child jobs, the output shows that only one child job failed.</source>
+          <target state="translated">但是，运行时获取的子作业的 Get-job 命令，该输出显示该只能有一个子作业失败。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job -IncludeChildJobs</source>
+          <target state="translated">PS c: &gt; Get-job IncludeChildJobs</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Id    Name   PSJobTypeName State      HasMoreData   Location    Command</source>
+          <target state="translated">Id 名称 PSJobTypeName 状态 HasMoreData 位置命令</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>3     Job3   RemotingJob   Failed     False         localhost,Server... 4     Job4                 Completed  True          localhost   Get-Date 5     Job5                 Failed     False         Server01    Get-Date 6     Job6                 Completed  True          Server02    Get-Date</source>
+          <target state="translated">3 Job3 RemotingJob 失败 False localhost，而服务器...4 Job4 完成，则返回 True localhost Get-date 5 Job5 失败 False Server01 获取日期 6 Job6 完成，则返回 True Server02 Get-date</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To get the results of all child jobs, use the Receive-Job cmdlet to get the results of the parent job.</source>
+          <target state="translated">若要获取的所有子作业的结果，请使用 Receive-job cmdlet 来获取父作业的结果。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>But you can also get the results of a particular child job, as shown in the following command.</source>
+          <target state="translated">但是，您还可以获取特定的子作业的结果，如下面的命令中所示。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; Receive-Job -Name Job6 -Keep | Format-Table ComputerName, DateTime -Auto</source>
+          <target state="translated">C:\PS &gt; 接收作业的名称 Job6-保留 |表格格式 ComputerName、 DateTime 的自动</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>ComputerName DateTime</source>
+          <target state="translated">计算机名的日期时间</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Server02     Thursday, March 13, 2008 4:16:03 PM</source>
+          <target state="translated">Server02 2008 年 3 月 13 日，星期四，4:16:03 PM</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The child jobs feature of Windows PowerShell background jobs gives you more control over the jobs that you run.</source>
+          <target state="translated">Windows PowerShell 后台作业的子作业功能使您更好地控制你运行的作业。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>JOB TYPES</source>
+          <target state="translated">作业类型</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell supports different types of jobs for different tasks.</source>
+          <target state="translated">Windows PowerShell 支持为不同任务的不同类型的作业。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, developers can write "job source adapters" that add new job types to Windows PowerShell and include the job source adapters in modules.</source>
+          <target state="translated">从 Windows PowerShell 3.0 开始，开发人员可以编写"作业源适配器"，将新的作业类型添加到 Windows PowerShell 模块中包括的作业源适配器。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>When you import the module, you can use the new job type in your session.</source>
+          <target state="translated">导入模块时，您可以在会话中使用新的作业类型。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>For example, the PSScheduledJob module adds scheduled jobs and the PSWorkflow module adds workflow jobs.</source>
+          <target state="translated">例如，PSScheduledJob 模块添加计划的作业，PSWorkflow 模块添加的工作流作业。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Custom jobs types might differ significantly from standard Windows PowerShell background jobs.</source>
+          <target state="translated">从标准 Windows PowerShell 后台作业，自定义作业类型的差异可能很大。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>For example, scheduled jobs are saved on disk; they do not exist only in a particular session.</source>
+          <target state="translated">例如，计划的作业将保存在磁盘上;仅在特定会话中不存在。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Workflow jobs can be suspended and resumed.</source>
+          <target state="translated">可以挂起和恢复工作流作业。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The cmdlets that you use to manage custom jobs depend on the job type.</source>
+          <target state="translated">用来管理自定义作业的 cmdlet 取决于作业类型。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For some, you use the standard job cmdlets, such as Get-Job and Start-Job.</source>
+          <target state="translated">对于某些，您可以使用标准 job cmdlet，如 Get-job 和启动作业。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Others come with specialized cmdlets that manage only a particular type of job.</source>
+          <target state="translated">其他人都附带有管理特定类型的作业的专用 cmdlet。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For detailed information about custom job types, see the help topics about the job type.</source>
+          <target state="translated">有关自定义作业类型的详细信息，请参阅作业类型有关的帮助主题。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>To find the job type of a job, use the Get-Job cmdlet.</source>
+          <target state="translated">若要查找作业的作业类型，请使用 Get-job cmdlet。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Get-Job returns different job objects for different types of jobs.</source>
+          <target state="translated">Get-job 返回不同类型的作业的不同的作业对象。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The value of the PSJobTypeName property of the job objects that Get-Job returns indicates the job type.</source>
+          <target state="translated">Get-job 返回的作业对象 PSJobTypeName 属性的值指示的作业类型。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The following table lists the job types that come with Windows PowerShell.</source>
+          <target state="translated">下表列出了 Windows PowerShell 附带的作业类型。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Job Type         Description</source>
+          <target state="translated">作业类型说明</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>BackgroundJob    Started by using the Start-Job cmdlet.</source>
+          <target state="translated">通过使用 Start-job cmdlet 启动 BackgroundJob。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>RemoteJob        Started by using the AsJob parameter of the Invoke-Command cmdlet.</source>
+          <target state="translated">通过使用 Invoke-command cmdlet 的 AsJob 参数启动 RemoteJob。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>PSWorkflowJob    Started by using the AsJob parameter of a workflow.</source>
+          <target state="translated">通过使用工作流的 AsJob 参数启动 PSWorkflowJob。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>PSScheduledJob   An instance of a scheduled job started by a job trigger.</source>
+          <target state="translated">PSScheduledJob 由作业触发器启动计划作业的实例。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>CIMJob           Started by using the AsJob parameter of a cmdlet from a CDXML module.</source>
+          <target state="translated">通过使用 CDXML 模块中的 cmdlet 的 AsJob 参数启动 CIMJob。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>WMIJob           Started by using the AsJob parameter of a cmdlet from a WMI module.</source>
+          <target state="translated">通过使用 WMI 模块中的 cmdlet 的 AsJob 参数启动 WMIJob。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>PSEventJob       Created by running Register-ObjectEvent and specifying an action with the Action parameter.</source>
+          <target state="translated">PSEventJob 创建通过运行 Register-objectevent 并使用 Action 参数指定的操作。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>NOTE: Before using the Get-Job cmdlet to get jobs of a particular type, verify that the module that adds the job type is imported into the current session.</source>
+          <target state="translated">注意︰ 之前使用 Get-job cmdlet 来获取特定类型的作业，请验证添加的作业类型的模块导入到当前会话。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Otherwise, Get-Job does not get jobs of that type.</source>
+          <target state="translated">否则，Get 作业不会获取该类型的作业。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>EXAMPLE</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The following commands create a local background job, a remote background job, a workflow job, and a scheduled job.</source>
+          <target state="translated">以下命令将创建本地后台作业、 远程后台作业、 工作流作业和计划的作业。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Then, it uses the Get-Job cmdlet to get the jobs.</source>
+          <target state="translated">然后，它使用 Get-job cmdlet 来获取的作业。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Get-Job does not get the scheduled job, but it gets any started instances of the scheduled job.</source>
+          <target state="translated">获取作业不会由于计划的作业，但它将获取任何已启动计划作业的实例。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Start a background job on the local computer.</source>
+          <target state="translated">在本地计算机上启动后台作业。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Start-Job -Name LocalData {Get-Process}</source>
+          <target state="translated">PS c: &gt; 开始作业-命名本地数据 {Get-process}</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Id   Name        PSJobTypeName   State   HasMoreData     Location   Command</source>
+          <target state="translated">Id 名称 PSJobTypeName 状态 HasMoreData 位置命令</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>2    LocalData   BackgroundJob   Running        True     localhost  Get-Process</source>
+          <target state="translated">2 的本地数据 BackgroundJob 运行，则返回 True localhost 获取进程</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Start a background job that runs on a remote computer.</source>
+          <target state="translated">启动远程计算机运行的后台作业。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Invoke-Command -ComputerName Server01 {Get-Process} -AsJob -JobName RemoteData</source>
+          <target state="translated">PS c: &gt; Invoke-command-ComputerName Server01 {Get-process} AsJob-JobName RemoteData</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Id   Name        PSJobTypeName   State   HasMoreData     Location   Command</source>
+          <target state="translated">Id 名称 PSJobTypeName 状态 HasMoreData 位置命令</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>2    RemoteData  RemoteJob       Running        True     Server01   Get-Process</source>
+          <target state="translated">2 RemoteData RemoteJob 运行，则返回 True Server01 Get-process</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Create a scheduled job PS C:&gt;  Register-ScheduledJob -Name ScheduledJob -ScriptBlock {Get-Process} ` -Trigger (New-JobTrigger -Once -At "3 PM")</source>
+          <target state="translated">创建计划的作业 PS c: &gt; Register-scheduledjob-名称 ScheduledJob-ScriptBlock {Get-process} ' 的触发器 (New-jobtrigger-一次-在"3 PM")</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Id         Name            JobTriggers     Command       Enabled</source>
+          <target state="translated">启用 id 名称 JobTriggers 命令</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>1          ScheduledJob    1               Get-Process   True</source>
+          <target state="translated">1 ScheduledJob 1 Get-process True</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Create a workflow.</source>
+          <target state="translated">创建工作流。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; workflow Test-Workflow {Get-Process}</source>
+          <target state="translated">PS c: &gt; 工作流测试工作流 {Get-process}</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Run the workflow as a job.</source>
+          <target state="translated">作为作业运行工作流。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Test-Workflow -AsJob -JobName TestWFJob</source>
+          <target state="translated">PS c: &gt; 测试工作流-AsJob-JobName TestWFJob</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Id   Name        PSJobTypeName   State   HasMoreData     Location   Command</source>
+          <target state="translated">Id 名称 PSJobTypeName 状态 HasMoreData 位置命令</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>2    TestWFJob   PSWorkflowJob   NotStarted     True     localhost  Get-Process</source>
+          <target state="translated">2 TestWFJob PSWorkflowJob NotStarted True localhost 获取进程</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Get the jobs.</source>
+          <target state="translated">获取的作业。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The Get-Job command does not get scheduled jobs, but it gets instances of the scheduled job that are started.</source>
+          <target state="translated">Get-job 命令不会获取计划的作业，但它获取已启动计划作业的实例。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Job</source>
+          <target state="translated">PS c: &gt; 获取作业</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Id   Name         PSJobTypeName   State     HasMoreData     Location  Command</source>
+          <target state="translated">Id 名称 PSJobTypeName 状态 HasMoreData 位置命令</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>2    LocalData    BackgroundJob   Completed True            localhost Get-Process 4    RemoteData   RemoteJob       Completed True            Server01  Get-Process 6    TestWFJob    PSWorkflowJob   Completed True            localhost WorkflowJob 8    ScheduledJob PSScheduledJob  Completed True            localhost Get-Process</source>
+          <target state="translated">2 本地数据 BackgroundJob 完成，则返回 True localhost Get-process 4 RemoteData RemoteJob 完成，则返回 True Server01 Get-process 6 TestWFJob PSWorkflowJob 完成，则返回 True localhost WorkflowJob 8 ScheduledJob PSScheduledJob 完成，则返回 True localhost 获取进程</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>To get scheduled jobs, use the Get-ScheduledJob cmdlet.</source>
+          <target state="translated">若要获取计划的作业，请使用 Get-scheduledjob cmdlet。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-ScheduledJob</source>
+          <target state="translated">PS c: &gt; Get-scheduledjob</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Id         Name            JobTriggers     Command       Enabled</source>
+          <target state="translated">启用 id 名称 JobTriggers 命令</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>1          ScheduledJob    1               Get-Process   True</source>
+          <target state="translated">1 ScheduledJob 1 Get-process True</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">另请参阅</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>about_Jobs about_Remote_Jobs about_Remote about_Scheduled_Jobs Invoke-Command Start-Job Get-Job Wait-Job Stop-Job Remove-Job Suspend-Job Resume-Job New-PSSession Enter-PSSession Exit-PSSession Register-ScheduledJob Get-ScheduleJob</source>
+          <target state="translated">about_Jobs about_Remote_Jobs about_Remote about_Scheduled_Jobs Invoke-command Start-job Get-job Wait-job 停止作业 Remove-job Suspend-job Resume-job New-pssession Enter-pssession Exit-pssession Register-scheduledjob Get-schedulejob</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

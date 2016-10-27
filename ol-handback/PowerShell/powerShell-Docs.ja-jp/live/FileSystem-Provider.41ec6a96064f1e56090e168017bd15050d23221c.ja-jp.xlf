@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">542a5b9bfd6b4574eeee1eb3276f6f5f7e80019b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Core\Providers\FileSystem-Provider.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ded73b48f24256343dc76d294b54d43c6281156c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e4d1d18b445258f32673598af3b6c87acf5ede09</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>FileSystem Provider</source>
+          <target state="translated">FileSystem プロバイダー</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>FileSystem Provider</source>
+          <target state="translated">FileSystem プロバイダー</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PROVIDER NAME</source>
+          <target state="translated">プロバイダー名</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>FileSystem</source>
+          <target state="translated">FileSystem</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>DRIVES</source>
+          <target state="translated">ドライブ</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>C, D</source>
+          <target state="translated">C、D</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Provides access to files and directories.</source>
+          <target state="translated">ファイルとディレクトリへのアクセスを提供します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DETAILED DESCRIPTION</source>
+          <target state="translated">詳細説明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell FileSystem provider lets you get, add, change, clear, and delete files and directories in Windows PowerShell.</source>
+          <target state="translated">Windows PowerShell FileSystem プロバイダーでは、Windows PowerShell のファイルとディレクトリを取得、追加、変更、消去、削除できます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The FileSystem provider exposes Windows PowerShell drives that correspond to the logical drives on your computer, including drives that are mapped to network shares.</source>
+          <target state="translated">FileSystem プロバイダーは、コンピューターの論理ドライブに相当する Windows PowerShell ドライブを公開します。これにはネットワーク共有にマッピングされているドライブも含まれます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This lets you reference these drives from within Windows PowerShell.</source>
+          <target state="translated">これにより、Windows PowerShell 内からこれらのドライブを参照できます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The FileSystem provider lets you refer to files and folders in Windows PowerShell in the same way that you refer to them in Windows.</source>
+          <target state="translated">FileSystem プロバイダーでは、Windows で参照する場合と同じ方法で Windows PowerShell のファイルとフォルダーを参照できます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To refer to a drive, specify the drive name followed by a colon.</source>
+          <target state="translated">ドライブを参照するには、ドライブ名に続けてコロンを指定します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Like most of Windows PowerShell, the FileSystem provider is not case<ph id="ph1">\-</ph>sensitive.</source>
+          <target state="translated">Windows PowerShell のほとんどは、同様に、FileSystem プロバイダーはケースありません<ph id="ph1">\-</ph>と小文字を区別します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, to get the files and folders on the C drive, you refer to the "C:" drive or the "c:" drive.</source>
+          <target state="translated">たとえば、C ドライブのファイルとフォルダーを取得するには、「C:」ドライブまたは「c:」ドライブを参照します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A fully qualified name includes the drive name, followed by a colon, any directory and subdirectory names, and the file name <ph id="ph1">\(</ph>when applicable<ph id="ph2">\)</ph>.</source>
+          <target state="translated">完全修飾名には、ドライブ名、コロン、ディレクトリとサブディレクトリの名前とファイル名が含まれています。 <ph id="ph1">\(</ph>該当する場合<ph id="ph2">\)</ph>します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Each element of the fully qualified name must be separated either by a backslash <ph id="ph1">\(\\\)</ph> or a forward slash <ph id="ph2">\(\/\)</ph>.</source>
+          <target state="translated">円記号でいずれかの完全修飾名の各要素を区切る必要があります <ph id="ph1">\(\\\)</ph> またはスラッシュ <ph id="ph2">\(\/\)</ph>します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following example shows the fully qualified name for the Shell.dll file in the System32 subdirectory of the Windows directory on the C drive:</source>
+          <target state="translated">次のサンプルの場合、C ドライブ:</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>C:<ph id="ph1">\\</ph>Windows<ph id="ph2">\\</ph>System32<ph id="ph3">\\</ph>shell.dll</source>
+          <target state="translated">C:<ph id="ph1">\\</ph>Windows<ph id="ph2">\\</ph>System32<ph id="ph3">\\</ph>shell.dll</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If any element in the fully qualified name includes spaces, you must enclose the name in quotation marks.</source>
+          <target state="translated">完全修飾名の要素にスペースが含まれる場合、名前を引用符で括る必要があります。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For example,</source>
+          <target state="translated">例:</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>"C:<ph id="ph1">\\</ph>Program Files<ph id="ph2">\\</ph>Internet Explorer<ph id="ph3">\\</ph>iexplore.exe"</source>
+          <target state="translated">"C:<ph id="ph1">\\</ph>プログラム ファイル<ph id="ph2">\\</ph>Internet Explorer<ph id="ph3">\\</ph>iexplore.exe"</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The current location in the file system is represented by a dot or period character <ph id="ph1">\(</ph>.</source>
+          <target state="translated">ファイル システム内の現在の場所はドットまたはピリオドによって表される <ph id="ph1">\(</ph>です。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, the current location is the C:<ph id="ph1">\\</ph>Windows<ph id="ph2">\\</ph>System32 directory, then you can refer to the Shell.dll file in that directory as the following:</source>
+          <target state="translated">たとえば、現在の場所には、c:<ph id="ph1">\\</ph>Windows<ph id="ph2">\\</ph>System32 ディレクトリすることは次のようには、そのディレクトリの Shell.dll ファイルを参照してください。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>.<ph id="ph1">\\</ph>Shell.dll</source>
+          <target state="translated">.<ph id="ph1">\\</ph>Shell.dll</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To use the FileSystem provider to view and manage files and folders, use the provider cmdlets, such as <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> <ph id="ph2">\(</ph>"dir", "ls"<ph id="ph3">\)</ph> and <bpt id="p2">[</bpt>Set<ph id="ph4">\-</ph>Location<ept id="p2">](assetId:///d7f353cd-ebd7-462a-bd57-1498dc8b88a6)</ept> <ph id="ph5">\(</ph>"cd"<ph id="ph6">\)</ph>.</source>
+          <target state="translated">FileSystem プロバイダーを表示および管理ファイルとフォルダーを使用する場合など、プロバイダー コマンドレットを使用して <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>渡す<ept id="p1">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> <ph id="ph2">\(</ph>"dir"、"ls"<ph id="ph3">\)</ph> と <bpt id="p2">[</bpt>設定<ph id="ph4">\-</ph>場所<ept id="p2">](assetId:///d7f353cd-ebd7-462a-bd57-1498dc8b88a6)</ept> <ph id="ph5">\(</ph>"cd"<ph id="ph6">\)</ph>します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell also includes a "mkdir" function <ph id="ph1">\(</ph>alias <ph id="ph2">\=</ph> "md"<ph id="ph3">\)</ph> that uses the <bpt id="p1">[</bpt>New<ph id="ph4">\-</ph>Item<ept id="p1">](assetId:///67038d02-6598-49c6-b5bd-77b59d445abe)</ept> cmdlet to create a new directory.</source>
+          <target state="translated">Windows PowerShell は、関数「mkdir」も含まれています。 <ph id="ph1">\(</ph>エイリアス <ph id="ph2">\=</ph> 「md」<ph id="ph3">\)</ph> を使用して、 <bpt id="p1">[</bpt>新規<ph id="ph4">\-</ph>項目<ept id="p1">](assetId:///67038d02-6598-49c6-b5bd-77b59d445abe)</ept> コマンドレットを新しいディレクトリを作成します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can get customized help topics for provider cmdlets that explain how those cmdlets behave in a file system drive.</source>
+          <target state="translated">Windows PowerShell 3.0 より、プロバイダー コマンドレットのためにカスタマイズされたヘルプ トピックを取得できます。これはファイル システム ドライブでのプロバイダー コマンドレットの動作を説明します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To get the help topics that are customized for the file system drive, run a <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Help<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> command in a file system drive or use the Path parameter of <bpt id="p2">[</bpt>Get<ph id="ph2">\-</ph>Help<ept id="p2">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> to specify a file system drive.</source>
+          <target state="translated">にファイル システム ドライブのカスタマイズされたヘルプ トピックを取得するには、実行、 <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>ヘルプ<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> ファイル システム ドライブでコマンドまたはの Path パラメーターを使用 <bpt id="p2">[</bpt>取得<ph id="ph2">\-</ph>ヘルプ<ept id="p2">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> ファイル システム ドライブを指定します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example,</source>
+          <target state="translated">例:</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>PS C:<ph id="ph1">\\\&gt;</ph> <bpt id="p1">[</bpt>Get<ph id="ph2">\-</ph>Help<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> get<ph id="ph3">\-</ph>childitem</source>
+          <target state="translated">PS c:<ph id="ph1">\\\&gt;</ph> <bpt id="p1">[</bpt>取得<ph id="ph2">\-</ph>ヘルプ<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> 取得<ph id="ph3">\-</ph>渡す</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>PS HKLM:<ph id="ph1">\\\&gt;</ph> <bpt id="p1">[</bpt>Get<ph id="ph2">\-</ph>Help<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept><bpt id="p2">[</bpt>Get<ph id="ph3">\-</ph>ChildItem<ept id="p2">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> <ph id="ph4">\-</ph>path c:</source>
+          <target state="translated">PS の HKLM:<ph id="ph1">\\\&gt;</ph> <bpt id="p1">[</bpt>取得<ph id="ph2">\-</ph>ヘルプ<ept id="p1">](assetId:///1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept><bpt id="p2">[</bpt>取得<ph id="ph3">\-</ph>渡す<ept id="p2">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> <ph id="ph4">\-</ph>パス c:</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Also, beginning in Windows PowerShell 3.0, the FileSystem provider supports credentials for the <bpt id="p1">[</bpt>New<ph id="ph1">\-</ph>PSDrive<ept id="p1">](assetId:///a90ffe5f-a576-4c4a-b392-822bcec17ffd)</ept> cmdlet.</source>
+          <target state="translated">また、Windows PowerShell 3.0 以降では、FileSystem プロバイダーをサポート用の資格情報、 <bpt id="p1">[</bpt>新規<ph id="ph1">\-</ph>PSDrive<ept id="p1">](assetId:///a90ffe5f-a576-4c4a-b392-822bcec17ffd)</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For more information, see the help topic for the <bpt id="p1">[</bpt>New<ph id="ph1">\-</ph>PSDrive<ept id="p1">](assetId:///a90ffe5f-a576-4c4a-b392-822bcec17ffd)</ept> cmdlet.</source>
+          <target state="translated">詳細については、のヘルプ トピックを参照してください、 <bpt id="p1">[</bpt>新規<ph id="ph1">\-</ph>PSDrive<ept id="p1">](assetId:///a90ffe5f-a576-4c4a-b392-822bcec17ffd)</ept> コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>CAPABILITIES</source>
+          <target state="translated">機能</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Filter, ShouldProcess</source>
+          <target state="translated">Filter、ShouldProcess</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Splitting a Large File</source>
+          <target state="translated">大容量ファイルの分割</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>By default, the Get<ph id="ph1">\-</ph>Content cmdlet uses the end<ph id="ph2">\-</ph>of<ph id="ph3">\-</ph>line character as its delimiter, so it gets a file as a collection of strings, with each line as one string in the file.</source>
+          <target state="translated">既定では、Get<ph id="ph1">\-</ph>コマンドレットは、終了を使用してコンテンツ<ph id="ph2">\-</ph>の<ph id="ph3">\-</ph>ファイル内の 1 つの文字列として各行の文字列のコレクションとしてファイルを取得するためにその区切り記号として文字を行します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can use the Delimiter parameter to specify an alternate delimiter.</source>
+          <target state="translated">Delimiter パラメーターを使用して代替区切り文字を指定できます。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you set it to the characters that denote the end of a section or the beginning of the next section, you can split the file into logical parts.</source>
+          <target state="translated">区切り文字をセクションの終わりか次のセクションの始まりを示す文字に設定した場合、ファイルを論理部分に分割できます。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The first command gets the Employees.txt file and splits it into sections, each of which ends with the words "End of Employee Record" and it saves it in the $e variable.</source>
+          <target state="translated">最初のコマンドで Employees.txt ファイルが取得され、セクションに分割されます。それぞれが「End of Employee Record」という言葉で終わり、$e 変数に保存されます。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The second command uses array notation to get the first item in the collection in $e.</source>
+          <target state="translated">2 番目のコマンドでは、配列表記を使用して、$e のコレクション内の最初の項目を取得します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It uses an index of 0, because Windows PowerShell arrays are zero<ph id="ph1">\-</ph>based.</source>
+          <target state="translated">Windows PowerShell アレイが 0 であるために、インデックスは 0 を使用して<ph id="ph1">\-</ph>ベースです。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information about arrays, see about<ph id="ph1">\_</ph>Arrays.</source>
+          <target state="translated">詳細については、配列、を参照してください<ph id="ph1">\_</ph>配列。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Navigating the File System</source>
+          <target state="translated">ファイル システムのナビゲーション</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This command gets the current location:</source>
+          <target state="translated">このコマンドは現在の場所を取得します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The Get<ph id="ph1">\-</ph>Location cmdlet includes the functionality of commands like the cd command in the Windows Command Prompt and the pwd command in UNIX.</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>場所コマンドレットには、Windows コマンド プロンプトと UNIX の pwd コマンドでの cd コマンドのようなコマンドの機能が含まれています。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For more information, type:</source>
+          <target state="translated">詳細については、次のように入力してください。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>get<ph id="ph1">\-</ph>help get<ph id="ph2">\-</ph>location</source>
+          <target state="translated">取得<ph id="ph1">\-</ph>ヘルプ get<ph id="ph2">\-</ph>場所</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This command sets the current location:</source>
+          <target state="translated">このコマンドは現在の場所を設定します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Getting File and Directory Information</source>
+          <target state="translated">ファイルとディレクトリの情報を取得する</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This command gets all the files and directories in the current directory:</source>
+          <target state="translated">このコマンドは現在のディレクトリにあるすべてのファイルとフォルダーを取得します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>By default, the Get<ph id="ph1">\-</ph>ChildItem cmdlet does not recurse.</source>
+          <target state="translated">既定では、Get<ph id="ph1">\-</ph>渡すコマンドレットは再帰しません。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If files and folders are present in the current directory when you run this command, a System.IO.FileInfo object and a System.IO.DirectoryInfo object are returned.</source>
+          <target state="translated">このコマンドを実行するとき、現在のディレクトリにファイルとフォルダーがある場合、System.IO.FileInfo オブジェクトと System.IO.DirectoryInfo オブジェクトが返されます。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This command gets all the files in the current directory:</source>
+          <target state="translated">このコマンドは現在のディレクトリにあるすべてのファイルを取得します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The command uses the Get<ph id="ph1">\-</ph>ChildItem cmdlet to get all files and directories.</source>
+          <target state="translated">このコマンドは、Get を使用して<ph id="ph1">\-</ph>渡すコマンドレットをすべてのファイルとディレクトリを取得します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It pipes the results to the Where<ph id="ph1">\-</ph>Object cmdlet, which selects only the objects that are not <ph id="ph2">\(\!\)</ph> containers.</source>
+          <target state="translated">Where に結果をパイプ<ph id="ph1">\-</ph>れていないオブジェクトのみを選択するオブジェクト コマンドレット <ph id="ph2">\(\!\)</ph> コンテナーです。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">例 3</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The command uses the Get<ph id="ph1">\-</ph>ChildItem cmdlet to get all files and directories.</source>
+          <target state="translated">このコマンドは、Get を使用して<ph id="ph1">\-</ph>渡すコマンドレットをすべてのファイルとディレクトリを取得します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>It pipes the results to Where<ph id="ph1">\-</ph>Object, which select only the objects that are containers.</source>
+          <target state="translated">位置への結果をパイプ<ph id="ph1">\-</ph>オブジェクトは、コンテナー オブジェクトのみを選択します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 4</source>
+          <target state="translated">例 4</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This command displays the properties of a directory:</source>
+          <target state="translated">このコマンドはディレクトリのプロパティを表示します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The command uses the Path parameter of the Get<ph id="ph1">\-</ph>Item cmdlet to get the C:<ph id="ph2">\\</ph>ps<ph id="ph3">\-</ph>test directory.</source>
+          <target state="translated">コマンドは、Get の Path パラメーターを使用して<ph id="ph1">\-</ph>c: を取得する項目コマンドレット<ph id="ph2">\\</ph>ps<ph id="ph3">\-</ph>テスト ディレクトリ。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>It pipes the directory object to the Format<ph id="ph1">\-</ph>List cmdlet, which displays all <ph id="ph2">\(\*\)</ph> the properties and values of the directory in a list.</source>
+          <target state="translated">ディレクトリ オブジェクトを形式、パイプを使用して<ph id="ph1">\-</ph>リスト コマンドレットは、すべてが表示されます <ph id="ph2">\(\*\)</ph> プロパティと、リスト内のディレクトリの値。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 5</source>
+          <target state="translated">例 5</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This command displays the properties of a file:</source>
+          <target state="translated">このコマンドはファイルのプロパティを表示します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The command uses the Path parameter of the Get<ph id="ph1">\-</ph>Item cmdlet to get the test.txt file.</source>
+          <target state="translated">コマンドは、Get の Path パラメーターを使用して<ph id="ph1">\-</ph>コマンドレット test.txt ファイルを取得します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>It pipes the file object to the Format<ph id="ph1">\-</ph>List cmdlet, which displays all <ph id="ph2">\(\*\)</ph> the properties and values of the file in a list.</source>
+          <target state="translated">形式のファイル オブジェクトをパイプ<ph id="ph1">\-</ph>リスト コマンドレットは、すべてが表示されます <ph id="ph2">\(\*\)</ph> プロパティと、リスト内のファイルの値。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Copying Files and Directories</source>
+          <target state="translated">ファイルとディレクトリのコピー</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This command copies the A.txt file from the C:<ph id="ph1">\\</ph>A directory to the C:<ph id="ph2">\\</ph>A<ph id="ph3">\\</ph>Bb directory:</source>
+          <target state="translated">このコマンドは、c ドライブから A.txt ファイルをコピー<ph id="ph1">\\</ph>を c: ディレクトリ<ph id="ph2">\\</ph>A<ph id="ph3">\\</ph>Bb ディレクトリ。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>It overwrites files in the destination directory without prompting for confirmation.</source>
+          <target state="translated">確認を求めずにコピー先ディレクトリのファイルが上書きされます。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This command copies all the files in the C:<ph id="ph1">\\</ph>A<ph id="ph2">\\</ph>Bb directory that have the .txt file name extension to the C:<ph id="ph3">\\</ph>A<ph id="ph4">\\</ph>Cc<ph id="ph5">\\</ph>Ccc<ph id="ph6">\\</ph> directory:</source>
+          <target state="translated">このコマンドでは、すべてのファイルをコピー、c:<ph id="ph1">\\</ph>A<ph id="ph2">\\</ph>Bb ディレクトリを c: .txt ファイル名拡張子を持つ<ph id="ph3">\\</ph>A<ph id="ph4">\\</ph>Cc<ph id="ph5">\\</ph>Ccc<ph id="ph6">\\</ph> ディレクトリ。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>It uses the original names of the files.</source>
+          <target state="translated">ファイルの元の名前が使用されます。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The command overwrites the existing files in the destination directory without prompting for confirmation.</source>
+          <target state="translated">このコマンドを実行すると、確認を求めずにコピー先ディレクトリの既存ファイルが上書きされます。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">例 3</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Copies all the directories and files in the C:<ph id="ph1">\\</ph>a directory to the C:<ph id="ph2">\\</ph>c directory.</source>
+          <target state="translated">C ドライブ内のすべてのディレクトリとファイルのコピー<ph id="ph1">\\</ph>を c: ディレクトリ<ph id="ph2">\\</ph>c ディレクトリ。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If any of the directories to copy already exist in the destination directory, the command will fail unless you specify the Force parameter.</source>
+          <target state="translated">コピーするディレクトリがコピー先ディレクトリにすでに存在する場合、Force パラメーターを指定しないとコマンドは失敗します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Moving Files and Directories</source>
+          <target state="translated">ファイルとディレクトリの移動</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This command moves the C.txt file in the C:<ph id="ph1">\\</ph>A directory to the C:<ph id="ph2">\\</ph>A<ph id="ph3">\\</ph>Aa directory:</source>
+          <target state="translated">このコマンドは、c: の C.txt ファイルを移動<ph id="ph1">\\</ph>を c: ディレクトリ<ph id="ph2">\\</ph>A<ph id="ph3">\\</ph>Aa ディレクトリ。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The command will not automatically overwrite an existing file that has the same name.</source>
+          <target state="translated">このコマンドを実行して同じ名前を持つ既存ファイルが自動的に上書きされることはありません。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To force the cmdlet to overwrite an existing file, specify the Force parameter.</source>
+          <target state="translated">既存ファイルを上書きするようにコマンドレットに強制するには、Force パラメーターを指定します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This command moves the C:<ph id="ph1">\\</ph>A directory and all its contents to the C:<ph id="ph2">\\</ph>B directory:</source>
+          <target state="translated">このコマンドは、c: を移動させる<ph id="ph1">\\</ph>ディレクトリとそのすべての内容を c: に<ph id="ph2">\\</ph>B ディレクトリ。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You cannot move a directory when that directory is the current location.</source>
+          <target state="translated">ディレクトリが現在の場所のとき、そのディレクトリを移動することはできません。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Managing File Content</source>
+          <target state="translated">ファイル コンテンツの管理</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This command appends the "test content" string to the Test.txt file:</source>
+          <target state="translated">このコマンドを実行すると、文字列「test content」が Test.txt ファイルに追加されます。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The existing content in the Test.txt file is not deleted.</source>
+          <target state="translated">Test.txt ファイルの既存コンテンツは削除されません。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This command gets the contents of the Test.txt file and displays them in the console:</source>
+          <target state="translated">このコマンドは Test.txt ファイルのコンテンツを取得し、コンソールにそれを表示します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>You can pipe the contents of the file to another cmdlet.</source>
+          <target state="translated">ファイルのコンテンツを別のコマンドレットにパイプで送ることができます。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For example, the following command reads the contents of the Test.txt file and then supplies them as input to the ConvertTo<ph id="ph1">\-</ph>HTML cmdlet:</source>
+          <target state="translated">たとえば、次のコマンドは、Test.txt ファイルの内容を読み取り、ConvertTo への入力として提供されます<ph id="ph1">\-</ph>HTML コマンドレット。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>get<ph id="ph1">\-</ph>content <ph id="ph2">\-</ph>path test.txt &amp;#124; convertto<ph id="ph3">\-</ph>html</source>
+          <target state="translated">取得<ph id="ph1">\-</ph>コンテンツ <ph id="ph2">\-</ph>-path test.txt &amp;#124; convertto<ph id="ph3">\-</ph>html</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">例 3</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This command replaces the contents of the Test.txt file with the "test content" string:</source>
+          <target state="translated">このコマンドを実行すると、Test.txt ファイルのコンテンツが文字列「test content」で置換されます。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>It overwrites the contents of Test.txt.</source>
+          <target state="translated">Test.txt のコンテンツが上書きされます。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You can use the Value parameter of the New<ph id="ph1">\-</ph>Item cmdlet to add content to a file when you create it.</source>
+          <target state="translated">新規の Value パラメーターを使用する<ph id="ph1">\-</ph>コマンドレットを作成するときに、ファイルにコンテンツを追加します。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Managing Security Descriptors</source>
+          <target state="translated">セキュリティ記述子の管理</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>This command returns a System.Security.AccessControl.FileSecurity object:</source>
+          <target state="translated">このコマンドを実行すると System.Security.AccessControl.FileSecurity オブジェクトが返されます。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For more information about this object, pipe the command to the Get<ph id="ph1">\-</ph>Member cmdlet.</source>
+          <target state="translated">このオブジェクトに関する詳細については、パイプの Get コマンド<ph id="ph1">\-</ph>コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Or, see "FileSecurity Class" in the MSDN <ph id="ph1">\(</ph>Microsoft Developer Network<ph id="ph2">\)</ph> library at http:<ph id="ph3">\/\/</ph>go.microsoft.com<ph id="ph4">\/</ph>fwlink<ph id="ph5">\/</ph>?LinkId<ph id="ph6">\=</ph>145718.</source>
+          <target state="translated">MSDN の「FileSecurity Class」を参照してください。 または、 <ph id="ph1">\(</ph>Microsoft Developer Network<ph id="ph2">\)</ph> ライブラリの「http:<ph id="ph3">\/\/</ph>go.microsoft.com<ph id="ph4">\/</ph>fwlink<ph id="ph5">\/</ph>でしょうか。LinkId<ph id="ph6">\=</ph>145718 します。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This command returns a System.Security.AccessControl.DirectorySecurity object:</source>
+          <target state="translated">このコマンドを実行すると System.Security.AccessControl.DirectorySecurity オブジェクトが返されます。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>For more information about this object, pipe the command to the Get<ph id="ph1">\-</ph>Member cmdlet.</source>
+          <target state="translated">このオブジェクトに関する詳細については、パイプの Get コマンド<ph id="ph1">\-</ph>コマンドレットです。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Or, see "DirectorySecurity Class" in the MSDN library at http:<ph id="ph1">\/\/</ph>go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>?LinkId<ph id="ph4">\=</ph>145736.</source>
+          <target state="translated">または、http に、MSDN ライブラリの「DirectorySecurity Class」を参照してください:<ph id="ph1">\/\/</ph>go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>でしょうか。LinkId<ph id="ph4">\=</ph>145736 します。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Creating Files and Directories</source>
+          <target state="translated">ファイルとディレクトリの作成</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This command creates the Logfiles directory on the C drive:</source>
+          <target state="translated">このコマンドを実行すると、C: ドライブに Logfiles ディレクトリが作成されます。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This command creates the Log2.txt file in the C:<ph id="ph1">\\</ph>Logfiles directory and then adds the "test log" string to the file:</source>
+          <target state="translated">このコマンドでは、Log2.txt ファイルを作成、c:<ph id="ph1">\\</ph>Logfiles ディレクトリし、ファイルに「test log」の文字列を追加します。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">例 3</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Creates a file called Log2.txt in the C:<ph id="ph1">\\</ph>logfiles directory and adds the string "test log" to the file.</source>
+          <target state="translated">C: で Log2.txt」という名前のファイルを作成<ph id="ph1">\\</ph>logfiles ディレクトリと、ファイルに文字列「test log」が追加されます。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Renaming Files and Directories</source>
+          <target state="translated">ファイルとディレクトリの名前変更</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This command renames the A.txt file in the C:<ph id="ph1">\\</ph>A directory to B.txt:</source>
+          <target state="translated">このコマンドにより名前が、c: A.txt ファイル<ph id="ph1">\\</ph>B.txt:」にディレクトリ。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This command renames the C:<ph id="ph1">\\</ph>A<ph id="ph2">\\</ph>Cc directory to C:<ph id="ph3">\\</ph>A<ph id="ph4">\\</ph>Dd:</source>
+          <target state="translated">このコマンドにより名前が、c:<ph id="ph1">\\</ph>A<ph id="ph2">\\</ph>c: Cc ディレクトリ<ph id="ph3">\\</ph>A<ph id="ph4">\\</ph>Dd:</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Deleting Files and Directories</source>
+          <target state="translated">ファイルとディレクトリの削除</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This command deletes the Test.txt file in the current directory:</source>
+          <target state="translated">このコマンドを実行すると、現在のディレクトリにある Test.txt ファイルが削除されます。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This command deletes all the files in the current directory that have the .xml file name extension:</source>
+          <target state="translated">このコマンドを実行すると、現在のディレクトリにあり、ファイル名の拡張子が「.xml」のすべてのファイルが削除されます。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Starting a Program by Invoking an Associated File</source>
+          <target state="translated">関連ファイルの呼び出しでプログラムを起動する</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The first command uses the Get<ph id="ph1">\-</ph>Service cmdlet to get information about local services.</source>
+          <target state="translated">最初のコマンドは、Get<ph id="ph1">\-</ph>Service コマンドレットをローカルのサービスに関する情報を取得します。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>It pipes the information to the Export<ph id="ph1">\-</ph>Csv cmdlet and then stores that information in the Services.csv file.</source>
+          <target state="translated">については、エクスポートにパイプを使用<ph id="ph1">\-</ph>Csv コマンドレットとし、その情報を Services.csv ファイルに格納します。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The second command uses Invoke<ph id="ph1">\-</ph>Item to open the Services.csv file in the program associated with the .csv extension:</source>
+          <target state="translated">2 番目のコマンドは、Invoke を使用して<ph id="ph1">\-</ph>.csv の拡張子に関連付けられているプログラムで Services.csv ファイルを開く項目。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Getting Files and Folders with Specified Attributes</source>
+          <target state="translated">指定された属性のファイルとフォルダーを取得する</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 1</source>
+          <target state="translated">例 1</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>This command gets system files in the current directory and its subdirectories.</source>
+          <target state="translated">このコマンドを実行すると、現在のディレクトリとそのサブディレクトリにあるシステム ファイルが取得されます。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>It uses the File parameter to get only files <ph id="ph1">\(</ph>not directories<ph id="ph2">\)</ph> and the System parameter to get only items with the System attribute.</source>
+          <target state="translated">ファイルのみを取得するファイルのパラメーターを使用して <ph id="ph1">\(</ph>ディレクトリではなく<ph id="ph2">\)</ph> し、System パラメーター システム属性を持つ項目のみを取得します。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>It uses the Recurse parameter to get the items in the current directory and all subdirectories.</source>
+          <target state="translated">Recurse パラメーターを使用して現在のディレクトリとすべてのサブディレクトリにある項目を取得します。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 2</source>
+          <target state="translated">例 2</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This command gets all files, including hidden files, in the current directory.</source>
+          <target state="translated">このコマンドは、非表示ファイルを含む、現在のディレクトリにあるすべてのファイルを取得します。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>It uses the Attributes parameter with two values, <ph id="ph1">\!</ph>Directory<ph id="ph2">\+</ph>Hidden, which gets hidden files, and <ph id="ph3">\!</ph>Directory, which gets all other files.</source>
+          <target state="translated">2 つの値を持つ属性のパラメーターを使用して <ph id="ph1">\!</ph>ディレクトリ<ph id="ph2">\+</ph>非表示]、隠しファイルを取得して <ph id="ph3">\!</ph>ディレクトリで、その他のすべてのファイルを取得します。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>"dir <ph id="ph1">\-</ph>att <ph id="ph2">\!</ph>d,<ph id="ph3">\!</ph>d<ph id="ph4">\+</ph>h" is the equivalent of this command.</source>
+          <target state="translated">"dir <ph id="ph1">\-</ph>att <ph id="ph2">\!</ph>d、<ph id="ph3">\!</ph>d<ph id="ph4">\+</ph>h"はこのコマンドに相当します。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>EXAMPLE 3</source>
+          <target state="translated">例 3</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This command gets files in the current directory that are either compressed or encrypted.</source>
+          <target state="translated">このコマンドを実行すると、現在のディレクトリにあり、圧縮または暗号化されているファイルが取得されます。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>It uses the Attributes parameter with two values, Compressed and Encrypted.</source>
+          <target state="translated">Attributes パラメーターと共に 2 つの値、Compressed と Encrypted を使用します。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The values are separated by a comma <ph id="ph1">\(</ph>,<ph id="ph2">\)</ph> which represents the OR operator.</source>
+          <target state="translated">値がコンマで区切られた <ph id="ph1">\(</ph>,、<ph id="ph2">\)</ph> OR 演算子を表します。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>DYNAMIC PARAMETERS</source>
+          <target state="translated">動的パラメーター</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Dynamic parameters are cmdlet parameters that are added by a Windows PowerShell provider and are available only when the cmdlet is being used in the provider<ph id="ph1">\-</ph>enabled drive.</source>
+          <target state="translated">動的パラメーターは、コマンドレットは、プロバイダーで使用されている場合にのみ、Windows PowerShell プロバイダーと使用可能ですが追加されるコマンドレット パラメーター<ph id="ph1">\-</ph>ドライブを有効にします。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Encoding <ph id="ph1">\&lt;</ph>Microsoft.PowerShell.Commands.FileSystemCmdletProviderEncoding</source>
+          <target state="translated">エンコーディング <ph id="ph1">\&lt;</ph>Microsoft.PowerShell.Commands.FileSystemCmdletProviderEncoding</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Specifies the file encoding.</source>
+          <target state="translated">ファイル エンコードを指定します。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The default is ASCII.</source>
+          <target state="translated">既定値は ASCII です。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">値</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Unknown</source>
+          <target state="translated">Unknown の中から 1 つ以上を指定します</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The encoding type is unknown or invalid.</source>
+          <target state="translated">エンコード タイプが不明か無効です。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The data can be treated as binary.</source>
+          <target state="translated">データはバイナリとして処理できます。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>String</source>
+          <target state="translated">String</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Uses the encoding type for a string.</source>
+          <target state="translated">文字列のエンコード タイプを使用します。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Unicode</source>
+          <target state="translated">Unicode</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Encodes in UTF<ph id="ph1">\-</ph>16 format using the little<ph id="ph2">\-</ph>endian byte order.</source>
+          <target state="translated">UTF でエンコードされる<ph id="ph1">\-</ph>16 の形式を使用して、少し<ph id="ph2">\-</ph>エンディアン バイト順です。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Byte</source>
+          <target state="translated">Byte</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Encodes a set of characters into a sequence of bytes.</source>
+          <target state="translated">文字セットを一連のバイトにエンコードします。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>BigEndianUnicode</source>
+          <target state="translated">BigEndianUnicode</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Encodes in UTF<ph id="ph1">\-</ph>16 format using the big<ph id="ph2">\-</ph>endian byte order.</source>
+          <target state="translated">UTF でエンコードされる<ph id="ph1">\-</ph>16 形式の大規模なを使用して<ph id="ph2">\-</ph>エンディアン バイト順です。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>UTF8</source>
+          <target state="translated">UTF8</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Encodes in UTF<ph id="ph1">\-</ph>8 format.</source>
+          <target state="translated">UTF でエンコードされる<ph id="ph1">\-</ph>8 形式です。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>UTF7</source>
+          <target state="translated">UTF7</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Encodes in UTF<ph id="ph1">\-</ph>7 format.</source>
+          <target state="translated">UTF でエンコードされる<ph id="ph1">\-</ph>7 形式です。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>ASCII</source>
+          <target state="translated">ASCII</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Uses the encoding for the ASCII <ph id="ph1">\(</ph>7<ph id="ph2">\-</ph>bit<ph id="ph3">\)</ph> character set.</source>
+          <target state="translated">Ascii エンコーディングのエンコーディングを使用して <ph id="ph1">\(</ph>7<ph id="ph2">\-</ph>ビット<ph id="ph3">\)</ph> 文字セット。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Add<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">追加<ph id="ph1">\-</ph>コンテンツ</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Set<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">設定<ph id="ph1">\-</ph>コンテンツ</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Delimiter <ph id="ph1">\&lt;</ph>System.String</source>
+          <target state="translated">区切り記号 <ph id="ph1">\&lt;</ph>System.String</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Specifies the delimiter that <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> uses to divide the file into objects while it reads.</source>
+          <target state="translated">区切り文字を指定する <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>コンテンツ<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> を使用して、読み込み中に、ファイルをオブジェクトに分割します。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The default is "<ph id="ph1">\\</ph>n", the end<ph id="ph2">\-</ph>of<ph id="ph3">\-</ph>line character.</source>
+          <target state="translated">既定値は"<ph id="ph1">\\</ph>n"、末尾<ph id="ph2">\-</ph>の<ph id="ph3">\-</ph>文字を行します。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Therefore, by default, when reading a text file, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> returns a collection of string objects, each of which ends with an end<ph id="ph2">\-</ph>of<ph id="ph3">\-</ph>line character.</source>
+          <target state="translated">そのため、既定では、テキスト ファイルを読み取るときに <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>コンテンツ<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> をそれぞれが、最後で終わる文字列オブジェクトのコレクションを返します<ph id="ph2">\-</ph>の<ph id="ph3">\-</ph>文字を行します。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>When you enter a delimiter that does not exist in the file, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> returns the entire file as a single, undelimited object.</source>
+          <target state="translated">ファイルに存在しない区切り文字を入力するときに <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>コンテンツ<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> ファイル全体として、1 つの区切りのないオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>You can use this parameter to split a large file into smaller files by specifying a file separator, such as "End of Example", as the delimiter.</source>
+          <target state="translated">このパラメーターを使用し、大きなファイルを小さなファイルに分割します。「End of Example」のようなファイル区切り記号を区切り文字として指定します。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The delimiter is preserved <ph id="ph1">\(</ph>not discarded<ph id="ph2">\)</ph> and becomes the last item in each file section.</source>
+          <target state="translated">区切り文字は保持 <ph id="ph1">\(</ph>破棄されません<ph id="ph2">\)</ph> し、各ファイル セクションの最後の項目になります。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Troubleshooting Note: Currently, when the value of the Delimiter parameter is an empty string, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> does not return anything.</source>
+          <target state="translated">トラブルシューティング上の注意: 現在のところ、Delimiter パラメーターの値が場合空の文字列 <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>コンテンツ<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> は何も返しません。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>This is a known issue.</source>
+          <target state="translated">これは既知の問題です。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>To force <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> to return the entire file as a single, undelimited string, enter a value that does not exist in the file.</source>
+          <target state="translated">強制的に <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>コンテンツ<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> 区切りのない文字列を返すファイル全体を 1 つとして、ファイルに存在しない値を入力します。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Wait <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">待機 <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Waits for content to be appended to the file.</source>
+          <target state="translated">コンテンツがファイルに追加されるのを待ちます。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>If content is appended, it returns the appended content.</source>
+          <target state="translated">コンテンツが追加される場合、追加されたコンテンツを返します。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>If the content has changed, it returns the entire file.</source>
+          <target state="translated">コンテンツが変更された場合、ファイル全体が返されます。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>When waiting, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Content<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> checks the file once each second until you interrupt it, such as by pressing CTRL<ph id="ph2">\+</ph>C.</source>
+          <target state="translated">待機中に、 <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>コンテンツ<ept id="p1">](assetId:///4d594e54-2c28-4052-b3f8-1c27ea724561)</ept> するなどして中断し、ctrl キーを押しまで 1 秒おきに、ファイルをチェック<ph id="ph2">\+</ph>C.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Attributes <ph id="ph1">\&lt;</ph>FlagsExpression<ph id="ph2">\[</ph>System.IO.FileAttributes</source>
+          <target state="translated">属性 <ph id="ph1">\&lt;</ph>FlagsExpression<ph id="ph2">\[</ph>System.IO.FileAttributes</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Gets files and folders with the specified attributes.</source>
+          <target state="translated">指定した属性のファイルとフォルダーを取得します。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>This parameter supports all attributes and lets you specify complex combinations of attributes.</source>
+          <target state="translated">このパラメーターはすべての属性をサポートします。複雑な属性の組み合わせを指定できます。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The Attributes parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Attributes パラメーターは Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The Attributes parameter supports the following attributes: Archive, Compressed, Device, Directory, Encrypted, Hidden, Normal, NotContentIndexed, Offline, ReadOnly, ReparsePoint, SparseFile, System, and Temporary.</source>
+          <target state="translated">Attributes パラメーターは、次の属性をサポートしています: アーカイブ、圧縮、デバイス、ディレクトリ、暗号化、Hidden、標準、NotContentIndexed、Offline、ReadOnly、ReparsePoint、SparseFile、システム、および一時的なです。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>For a description of these attributes, see the FileAttributes enumeration at http:<ph id="ph1">\/\/</ph>go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>?LinkId<ph id="ph4">\=</ph>201508.</source>
+          <target state="translated">これらの属性については、http で FileAttributes 列挙体を参照してください:<ph id="ph1">\/\/</ph>go.microsoft.com<ph id="ph2">\/</ph>fwlink<ph id="ph3">\/</ph>でしょうか。LinkId<ph id="ph4">\=</ph>201508 します。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Use the following operators to combine attributes.</source>
+          <target state="translated">次の演算子を利用して属性を結合します。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>NOT</source>
+          <target state="translated">NOT</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>AND</source>
+          <target state="translated">AND</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>, OR</source>
+          <target state="translated">、または</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>No spaces are permitted between an operator and its attribute.</source>
+          <target state="translated">演算子とその属性の間にはスペースを挿入できません。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>However, spaces are permitted before commas.</source>
+          <target state="translated">ただし、コンマの前にはスペースを挿入できます。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Directory <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">ディレクトリ <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Gets directories <ph id="ph1">\(</ph>folders<ph id="ph2">\)</ph>.</source>
+          <target state="translated">ディレクトリを取得 <ph id="ph1">\(</ph>フォルダー<ph id="ph2">\)</ph>します。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>The Directory parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Directory パラメーターは Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>To get only directories, use the Directory parameter and omit the File parameter.</source>
+          <target state="translated">ディレクトリのみを取得するには、Directory パラメーターを使用し、File パラメーターを省略します。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>To exclude directories, use the File parameter and omit the Directory parameter, or use the Attributes parameter.</source>
+          <target state="translated">ディレクトリを除外するには、File パラメーターを使用して Directory パラメーターを省略するか、Attributes パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>File <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">ファイル <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Gets files.</source>
+          <target state="translated">ファイルを取得します。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The File parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">File パラメーターは Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>To get only files, use the File parameter and omit the Directory parameter.</source>
+          <target state="translated">ファイルのみを取得するには、File パラメーターを使用し、Directory パラメーターを省略します。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>To exclude files, use the Directory parameter and omit the File parameter, or use the Attributes parameter.</source>
+          <target state="translated">ファイルを除外するには、Directory パラメーターを使用して File パラメーターを省略するか、Attributes パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Hidden <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">非表示に <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Gets only hidden files and directories <ph id="ph1">\(</ph>folders<ph id="ph2">\)</ph>.</source>
+          <target state="translated">隠しファイルとディレクトリのみを取得 <ph id="ph1">\(</ph>フォルダー<ph id="ph2">\)</ph>します。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>ChildItem<ept id="p1">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> gets only non<ph id="ph2">\-</ph>hidden items.</source>
+          <target state="translated">既定では、 <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>渡す<ept id="p1">](assetId:///75cf79bb-4db6-4a67-8c36-3d20754e2190)</ept> 非取得のみ<ph id="ph2">\-</ph>アイテムを非表示です。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The Hidden parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Hidden パラメーターは Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>To get only hidden items, use the Hidden parameter, its "h" or "ah" aliases, or the Hidden value of the Attributes parameter.</source>
+          <target state="translated">非表示の項目のみを取得するには、Hidden パラメーター、そのエイリアス「h」またはエイリアス「ah」、あるいは Attributes パラメーターの Hidden 値を使用します。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>To exclude hidden items, omit the Hidden parameter or use the Attributes parameter.</source>
+          <target state="translated">非表示項目を除外するには、Hidden パラメーターを省略するか、Attributes パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>ReadOnly <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">読み取り専用 <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Gets only read<ph id="ph1">\-</ph>only files and directories <ph id="ph2">\(</ph>folders<ph id="ph3">\)</ph>.</source>
+          <target state="translated">読み取りのみを取得<ph id="ph1">\-</ph>ファイルとディレクトリのみ <ph id="ph2">\(</ph>フォルダー<ph id="ph3">\)</ph>します。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The ReadOnly parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">ReadOnly パラメーターは Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>To get only read<ph id="ph1">\-</ph>only items, use the ReadOnly parameter, its "ar" alias, or the ReadOnly value of the Attributes parameter.</source>
+          <target state="translated">読み取りのみを取得する<ph id="ph1">\-</ph>項目のみが ReadOnly パラメーター、その"ar"エイリアス、あるいは Attributes パラメーターの ReadOnly 値を使用します。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>To exclude read<ph id="ph1">\-</ph>only items, use the Attributes parameter.</source>
+          <target state="translated">読み取りを除外する<ph id="ph1">\-</ph>項目のみが、Attributes パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>System <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</source>
+          <target state="translated">システム <ph id="ph1">\&lt;</ph>System.Management.Automation.SwitchParameter</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Gets only system files and directories <ph id="ph1">\(</ph>folders<ph id="ph2">\)</ph>.</source>
+          <target state="translated">システム ファイルとディレクトリのみを取得 <ph id="ph1">\(</ph>フォルダー<ph id="ph2">\)</ph>します。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The System parameter was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">System パラメーターは Windows PowerShell 3.0 で導入されました。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>To get only system files and folders, use the System parameter, its "as" alias, or the System value of the Attributes parameter.</source>
+          <target state="translated">システムのファイルとフォルダーを取得するには、System パラメーター、そのエイリアス「as」、あるいは Attributes パラメーターの System 値を使用します。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>To exclude system files and folders, use the Attributes parameter.</source>
+          <target state="translated">システムのファイルとフォルダーを除外するには、Attributes パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>ChildItem</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>ChildItem</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>NewerThan <ph id="ph1">\&lt;</ph>System.DateTime</source>
+          <target state="translated">NewerThan <ph id="ph1">\&lt;</ph>System.DateTime</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Returns "True" <ph id="ph1">\(</ph>$True<ph id="ph2">\)</ph> when the LastWriteTime value of a file is greater than the specified date.</source>
+          <target state="translated">"True"を返す <ph id="ph1">\(</ph>$True<ph id="ph2">\)</ph> ファイルの LastWriteTime 値が指定した日付よりも大きい場合。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Otherwise, it returns "False" <ph id="ph1">\(</ph>$False<ph id="ph2">\)</ph>.</source>
+          <target state="translated">それ以外の場合は"False"を返します <ph id="ph1">\(</ph>$False<ph id="ph2">\)</ph>します。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Enter a DateTime object, such as one that the <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Date<ept id="p1">](assetId:///277ba77f-f2be-44d7-8f15-23069faf0a4b)</ept> cmdlet returns, or a string that can be converted to a DateTime object, such as "August 10, 2011 2:00 PM".</source>
+          <target state="translated">ような DateTime オブジェクトを入力する、 <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>日付<ept id="p1">](assetId:///277ba77f-f2be-44d7-8f15-23069faf0a4b)</ept> コマンドレットから返される、または「August 10, 2011 2時 00分 PM」などの DateTime オブジェクトに変換できる文字列。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Test<ph id="ph1">\-</ph>Path</source>
+          <target state="translated">テスト<ph id="ph1">\-</ph>パス</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>OlderThan <ph id="ph1">\&lt;</ph>System.DateTime</source>
+          <target state="translated">OlderThan <ph id="ph1">\&lt;</ph>System.DateTime</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Returns "True" <ph id="ph1">\(</ph>$True<ph id="ph2">\)</ph> when the LastWriteTime value of a file is less than the specified date.</source>
+          <target state="translated">"True"を返す <ph id="ph1">\(</ph>$True<ph id="ph2">\)</ph> ファイルの LastWriteTime 値が指定した日付よりも前の場合。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Otherwise, it returns "False" <ph id="ph1">\(</ph>$False<ph id="ph2">\)</ph>.</source>
+          <target state="translated">それ以外の場合は"False"を返します <ph id="ph1">\(</ph>$False<ph id="ph2">\)</ph>します。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Enter a DateTime object, such as one that the <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Date<ept id="p1">](assetId:///277ba77f-f2be-44d7-8f15-23069faf0a4b)</ept> cmdlet returns, or a string that can be converted to a DateTime object, such as "August 10, 2011 2:00 PM".</source>
+          <target state="translated">ような DateTime オブジェクトを入力する、 <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>日付<ept id="p1">](assetId:///277ba77f-f2be-44d7-8f15-23069faf0a4b)</ept> コマンドレットから返される、または「August 10, 2011 2時 00分 PM」などの DateTime オブジェクトに変換できる文字列。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Test<ph id="ph1">\-</ph>Path</source>
+          <target state="translated">テスト<ph id="ph1">\-</ph>パス</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Stream <ph id="ph1">\&lt;</ph>System.String</source>
+          <target state="translated">ストリーム <ph id="ph1">\&lt;</ph>System.String</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Manages alternate data streams.</source>
+          <target state="translated">代替データ ストリームを管理します。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Enter the stream name.</source>
+          <target state="translated">ストリーム名を入力します。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted only in <bpt id="p1">[</bpt>Get<ph id="ph1">\-</ph>Item for FileSystem<ept id="p1">](../Topic/Get-Item-for-FileSystem.md)</ept> and <bpt id="p2">[</bpt>Remove<ph id="ph2">\-</ph>Item for FileSystem<ept id="p2">](../Topic/Remove-Item-for-FileSystem.md)</ept> commands in a file system drive.</source>
+          <target state="translated">ワイルドカードはでのみ使用 <bpt id="p1">[</bpt>取得<ph id="ph1">\-</ph>FileSystem の項目<ept id="p1">](../Topic/Get-Item-for-FileSystem.md)</ept> と <bpt id="p2">[</bpt>削除<ph id="ph2">\-</ph>FileSystem の項目<ept id="p2">](../Topic/Remove-Item-for-FileSystem.md)</ept> ファイル システム ドライブにコマンドです。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Add<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">追加<ph id="ph1">\-</ph>コンテンツ</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Clear<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">クリア<ph id="ph1">\-</ph>コンテンツ</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Item</source>
+          <target state="translated">取得<ph id="ph1">\-</ph>項目</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Remove<ph id="ph1">\-</ph>Item</source>
+          <target state="translated">Remove<ph id="ph1">\-</ph>Item</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Set<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">設定<ph id="ph1">\-</ph>コンテンツ</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Raw <ph id="ph1">\&lt;</ph>SwitchParameter</source>
+          <target state="translated">Raw <ph id="ph1">\&lt;</ph>SwitchParameter</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Ignores newline characters.</source>
+          <target state="translated">改行文字が無視されます。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>Returns contents as a single item.</source>
+          <target state="translated">コンテンツを 1 つの項目として返します。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Cmdlets supported:</source>
+          <target state="translated">サポートされているコマンドレット:</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>Content</source>
+          <target state="translated">Get<ph id="ph1">\-</ph>Content</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">参照</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>about<ph id="ph1">\_</ph>Providers</source>
+          <target state="translated">に関する<ph id="ph1">\_</ph>プロバイダー</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

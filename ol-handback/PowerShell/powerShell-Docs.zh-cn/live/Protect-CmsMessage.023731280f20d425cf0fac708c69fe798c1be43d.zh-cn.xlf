@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d090c0d4b0d3b046bd319c0c83ea687db3b49f59</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Security\Protect-CmsMessage.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f01507a1a8d1bc6c667b90948246cd7b30d222fc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">833faf6b983890083a4033296994648eb1dabbcb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Protect-CmsMessage</source>
+          <target state="translated">保护 CmsMessage</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Protect-CmsMessage</source>
+          <target state="translated">保护 CmsMessage</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Encrypts content by using the Cryptographic Message Syntax format.</source>
+          <target state="translated">通过使用加密消息语法格式加密的内容。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ByContent (Default)</source>
+          <target state="translated">ByContent （默认值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ByPath</source>
+          <target state="translated">ByPath</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ByLiteralPath</source>
+          <target state="translated">ByLiteralPath</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Protect-CmsMessage<ept id="p1">**</ept> cmdlet encrypts content by using the Cryptographic Message Syntax (CMS) format.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>保护 CmsMessage<ept id="p1">**</ept> cmdlet 对内容进行加密通过加密消息语法 (CMS) 格式。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The CMS cmdlets support encryption and decryption of content using the IETF format as documented by RFC5652http://tools.ietf.org/html/rfc5652.</source>
+          <target state="translated">CMS cmdlet 支持加密和解密使用 IETF 格式 RFC5652 http://tools.ietf.org/html/rfc5652 所述的内容。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The CMS encryption standard uses public key cryptography, where the keys used to encrypt content (the public key) and the keys used to decrypt content (the private key) are separate.</source>
+          <target state="translated">标准 CMS 加密使用公钥加密用于加密内容 （公钥） 的密钥和用于解密内容 （私钥） 的密钥是独立。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Your public key can be shared widely, and is not sensitive data.</source>
+          <target state="translated">公匙可以广泛共享，它不是敏感数据。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If any content is encrypted with this public key, only your private key can decrypt it.</source>
+          <target state="translated">如果用此公匙加密了任何内容，只有你的私匙可以解密它。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information about Public Key Cryptography, see http://en.wikipedia.org/wiki/Public-key_cryptographyhttp://en.wikipedia.org/wiki/Public-key_cryptography.</source>
+          <target state="translated">有关公钥加密的详细信息，请参阅 http://en.wikipedia.org/wiki/Public-key_cryptographyhttp: / / en.wikipedia.org/wiki/Public-key_cryptography。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Before you can run the <bpt id="p1">**</bpt>Protect-CmsMessage<ept id="p1">**</ept> cmdlet, you must have an encryption certificate set up.</source>
+          <target state="translated">您可以运行之前 <bpt id="p1">**</bpt>保护 CmsMessage<ept id="p1">**</ept> cmdlet，您必须具有加密证书设置。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be recognized in Windows PowerShell, encryption certificates require a unique extended key usage (EKU)http://msdn.microsoft.com/library/windows/desktop/aa381990(v=vs.85).aspx ID to identify them as data encryption certificates (such as the IDs for Code Signing and Encrypted Mail).</source>
+          <target state="translated">若要识别 Windows PowerShell 中，加密证书都需要一个唯一的扩展密钥用法 (EKU) http://msdn.microsoft.com/library/windows/desktop/aa381990 (v=vs.85).aspx ID 以将它们标识为数据加密证书 （如代码签名和加密邮件的 Id)。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For an example of a certificate that would work for document encryption, see Example 1 in this topic.</source>
+          <target state="translated">适用于此类文档加密的证书的示例，请参阅本主题中的示例 1。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example 1: Create a certificate for encrypting content</source>
+          <target state="translated">示例 1︰ 创建用于加密的内容的证书</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Before you can run the <bpt id="p1">**</bpt>Protect-CmsMessage<ept id="p1">**</ept> cmdlet, you must create an encryption certificate.</source>
+          <target state="translated">您可以运行之前 <bpt id="p1">**</bpt>保护 CmsMessage<ept id="p1">**</ept> cmdlet，必须创建一个加密证书。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Using the following text, change the name in the Subject line to your name, email, or other identifier, and save the certificate in a file (such as DocumentEncryption.inf, as shown in this example).</source>
+          <target state="translated">使用以下文本，主题行中的名称更改为您的姓名、 电子邮件或其他标识符，并将证书保存在文件 （如 DocumentEncryption.inf，如本示例中所示)。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Example 2: Encrypt a message sent by email</source>
+          <target state="translated">示例 2︰ 对通过电子邮件发送的消息进行加密</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the following example, you encrypt a message, Hello World, by saving the message in a variable, and then piping it to the <bpt id="p1">**</bpt>Protect-CmsMessage<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">通过在变量中，保存消息，然后传送到在下面的示例中，加密消息，Hello World <bpt id="p1">**</bpt>保护 CmsMessage<ept id="p1">**</ept> cmdlet。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>To<ept id="p1">*</ept> parameter uses the value of the Subject line in the certificate.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>到<ept id="p1">*</ept> 参数使用证书中的主题行的值。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example 3: View document encryption certificates</source>
+          <target state="translated">示例 3︰ 查看文档的加密证书</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To view document encryption certificates in the certificate provider, you can add the <bpt id="p1">*</bpt>DocumentEncryptionCert<ept id="p1">*</ept> dynamic parameter of Get-ChildItemhttp://technet.microsoft.com/library/hh847761.aspx, available only when the certificate provider is loaded.</source>
+          <target state="translated">若要在 certificate 提供程序中查看文档加密证书，可以添加 <bpt id="p1">*</bpt>DocumentEncryptionCert<ept id="p1">*</ept> Get ChildItemhttp://technet.microsoft.com/library/hh847761.aspx，仅当证书提供程序会加载时可用的动态参数。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-Content</source>
+          <target state="translated">内容</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies a PSObject that contains content that you want to encrypt.</source>
+          <target state="translated">指定包含您想要加密的内容的 PSObject。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, you can encrypt the content of an event message, and then use the variable containing the message ($Event, in this example) as the value of the <bpt id="p1">*</bpt>Content<ept id="p1">*</ept> parameter: $event = Get-WinEvent -ProviderName "PowerShell" -MaxEvents 1.</source>
+          <target state="translated">例如，加密事件消息的内容，以及如何将消息 (在本例中为 $Event) 包含的值的变量 <bpt id="p1">*</bpt>内容<ept id="p1">*</ept> 参数︰ $event = Get-winevent ProviderName"PowerShell"-MaxEvents 1。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can also use the Get-Content cmdlet to get the contents of a file, such as a Microsoft Word document, and save the content in a variable that you use as the value of the <bpt id="p1">*</bpt>Content<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">此外可以使用 Get-content cmdlet 来获取文件，例如 Microsoft Word 文档的内容，并将内容保存在您使用的值作为变量 <bpt id="p1">*</bpt>内容<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specifies the path to content that you want to encrypt.</source>
+          <target state="translated">指定您想要加密的内容的路径。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Unlike <bpt id="p1">*</bpt>Path<ept id="p1">*</ept>, the value of <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> is used exactly as it is typed.</source>
+          <target state="translated">与不同 <bpt id="p1">*</bpt>路径<ept id="p1">*</ept>, ，值 <bpt id="p2">*</bpt>LiteralPath<ept id="p2">*</ept> 完全按照其键入时，才使用。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">不会将任何字符解释为通配符。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">如果路径包括转义符，请将其括在单引号中。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">单引号会告知 Windows PowerShell 不要将所有字符都解释为转义序列。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-OutFile</source>
+          <target state="translated">-OutFile</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Specifies the path and file name of a file to which you want to send the encrypted content.</source>
+          <target state="translated">指定您想要发送加密的内容的文件路径和文件名。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Specifies the path to content that you want to encrypt.</source>
+          <target state="translated">指定您想要加密的内容的路径。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-To</source>
+          <target state="translated">到</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specifies one or more CMS message recipients, identified in any of the following formats.</source>
+          <target state="translated">指定一个或多个 CMS 邮件的收件人，在以下任意格式的标识。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An actual certificate (as retrieved from the certificate provider).</source>
+          <target state="translated">（作为从 certificate 提供程序检索到） 实际的证书。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Path to the file containing the certificate.</source>
+          <target state="translated">包含证书的文件路径。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Path to a directory containing the certificate.</source>
+          <target state="translated">包含证书的目录路径。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Thumbprint of the certificate (used to look in the certificate store).</source>
+          <target state="translated">（用于在证书存储区中查找） 的证书的指纹。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Subject name of the certificate (used to look in the certificate store).</source>
+          <target state="translated">（用于在证书存储区中查找） 的证书使用者名称。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>about_Providers</source>
+          <target state="translated">about_Providers</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Get-CmsMessage</source>
+          <target state="translated">Get CmsMessage</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Unprotect-CmsMessage</source>
+          <target state="translated">取消保护 CmsMessage</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

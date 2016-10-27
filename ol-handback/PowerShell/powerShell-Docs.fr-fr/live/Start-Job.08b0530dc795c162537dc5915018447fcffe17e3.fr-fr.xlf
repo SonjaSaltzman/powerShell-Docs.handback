@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">704bc95715467c0ae844941f18dc97a90b45eb98</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\Start-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa48c56e9e9bf8b0a48055b8699701bebf883f22</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6fee1cf4d4bb21b46f6aa6a491aca0049b016b54</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">applet de commande PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">Start-Job</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">Start-Job</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">SYNOPSIS</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starts a Windows PowerShell background job.</source>
+          <target state="translated">Démarre une tâche en arrière-plan Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAXE</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ComputerName (Default)</source>
+          <target state="translated">Nom de l’ordinateur (par défaut)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>DefinitionName</source>
+          <target state="translated">DefinitionName</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>FilePathComputerName</source>
+          <target state="translated">FilePathComputerName</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>LiteralFilePathComputerName</source>
+          <target state="translated">LiteralFilePathComputerName</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIPTION</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet starts a Windows PowerShell background job on the local computer.</source>
+          <target state="translated">Le <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> applet de commande démarre une tâche d’arrière-plan de Windows PowerShell sur l’ordinateur local.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A Windows PowerShell background job runs a command "in the background" without interacting with the current session.</source>
+          <target state="translated">Une tâche en arrière-plan Windows PowerShell exécute une commande « en arrière-plan » sans interagir avec la session active.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you start a background job, a job object is returned immediately, even if the job takes an extended time to complete.</source>
+          <target state="translated">Quand vous démarrez une tâche en arrière-plan, un objet de traitement est immédiatement retourné, même si la tâche se termine plus tard.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can continue to work in the session without interruption while the job runs.</source>
+          <target state="translated">Vous pouvez continuer à travailler dans la session sans interruption pendant l'exécution de la tâche.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The job object contains useful information about the job, but it does not contain the job results.</source>
+          <target state="translated">L'objet de traitement retourné par Get-Job contient des informations utiles sur la tâche, mais ne contient pas les résultats de la tâche.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When the job completes, use the Receive-Job cmdlet to get the results of the job.</source>
+          <target state="translated">Lorsque la tâche est terminée, utilisez l’applet de commande Receive-Job pour obtenir les résultats de la tâche.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information about background jobs, see about_Jobs.</source>
+          <target state="translated">Pour plus d'informations sur les tâches en arrière-plan, consultez about_Jobs.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To run a background job on a remote computer, use the AsJob parameter that is available on many cmdlets, or use the Invoke-Command cmdlet to run a <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> command on the remote computer.</source>
+          <target state="translated">Pour exécuter une tâche en arrière-plan sur un ordinateur distant, utilisez le paramètre AsJob disponible sur de nombreuses cmdlets, ou utiliser l’applet de commande Invoke-Command pour exécuter une <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> commande sur l’ordinateur distant.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Remote_Jobs.</source>
+          <target state="translated">Pour plus d'informations, consultez about_Remote_Jobs.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> can start instances of custom job types, such as scheduled jobs.</source>
+          <target state="translated">À compter de Windows PowerShell 3.0, <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> peuvent démarrer des instances de types de tâches personnalisées, telles que les tâches planifiées.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For information about using <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> to start jobs with custom types, see the help topics for the job type feature.</source>
+          <target state="translated">Pour plus d’informations sur l’utilisation de <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> pour démarrer des tâches avec des types personnalisés, consultez les rubriques d’aide pour la fonctionnalité de type de tâche.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">EXEMPLES</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- EXEMPLE 1 -------------------------</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This command starts a background job that runs a Get-Process command.</source>
+          <target state="translated">Cette commande démarre une tâche en arrière-plan qui exécute une commande Get-Process.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command returns a job object with information about the job.</source>
+          <target state="translated">La commande retourne un objet de traitement avec des informations sur la tâche.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The command prompt returns immediately so that you can work in the session while the job runs in the background.</source>
+          <target state="translated">L'invite de commandes revient immédiatement pour que vous puissiez travailler dans la session pendant que la tâche s'exécute en arrière-plan.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This command uses the Invoke-Command cmdlet and its AsJob parameter to start a background job that runs a "get-service winrm" command on numerous computers.</source>
+          <target state="translated">Cette commande utilise l'applet de commande Invoke-Command et son paramètre AsJob pour démarrer une tâche en arrière-plan qui exécute une commande « get-service winrm » sur plusieurs ordinateurs.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Because the command is running on a server with substantial network traffic, the command uses the ThrottleLimit parameter of Invoke-Command to limit the number of concurrent commands to 16.</source>
+          <target state="translated">Étant donné que la commande s'exécute sur un serveur avec un trafic réseau important, la commande utilise le paramètre ThrottleLimit d'Invoke-Command pour limiter à 16 le nombre de commandes simultanées.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The command uses the ComputerName parameter to specify the computers on which the job runs.</source>
+          <target state="translated">La commande utilise le paramètre ComputerName pour spécifier les ordinateurs sur lesquels la tâche s'exécute.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The value of the ComputerName parameter is a Get-Content command that gets the text in the Servers.txt file, a file of computer names in a domain.</source>
+          <target state="translated">La valeur du paramètre ComputerName est une commande Get-Content qui obtient le texte du fichier Servers.txt, un fichier de noms d'ordinateur dans un domaine.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The command uses the ScriptBlock parameter to specify the command and the JobName parameter to specify a friendly name for the job.</source>
+          <target state="translated">La commande utilise le paramètre ScriptBlock pour spécifier la commande et le paramètre JobName pour spécifier un nom convivial pour la tâche.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These commands manage a background job that gets all of the events from the System log in Event Viewer.</source>
+          <target state="translated">Ces commandes gèrent une tâche en arrière-plan qui obtient tous les événements du journal système dans l'Observateur d'événements.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The job runs on the local computer.</source>
+          <target state="translated">La tâche s'exécute sur l'ordinateur local.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The first command uses the <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> cmdlet to start the job.</source>
+          <target state="translated">La première commande utilise le <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> pour démarrer la tâche.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It uses the Credential parameter to specify the user account of a user who has permission to run the job on the computer.</source>
+          <target state="translated">Elle utilise le paramètre Credential pour spécifier un compte d'utilisateur ayant l'autorisation d'exécuter la tâche sur l'ordinateur.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Then it saves the job object that <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> returns in the $j variable.</source>
+          <target state="translated">Ensuite, elle enregistre l’objet de traitement <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> renvoie dans la variable $j.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>At this point, you can resume your other work while the job completes.</source>
+          <target state="translated">À ce stade, vous pouvez reprendre votre travail en attendant la fin de la tâche.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The second command uses a pipeline operator (|) to pass the job object in $j to the Format-List cmdlet.</source>
+          <target state="translated">La deuxième commande utilise un opérateur de pipeline (|) pour passer l'objet de traitement de $j à l'applet de commande Format-List.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The Format-List command uses the Property parameter with a value of all (*) to display all of the properties of the job object in a list.</source>
+          <target state="translated">La commande Format-List utilise le paramètre Property ayant la valeur * (tout) pour afficher toutes les propriétés de l'objet de traitement dans une liste.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The third command displays the value of the JobStateInfo property.</source>
+          <target state="translated">La troisième commande affiche la valeur de la propriété JobStateInfo.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This contains the status of the job.</source>
+          <target state="translated">Elle contient l'état de la tâche.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Receive-Job cmdlet to get the results of the job.</source>
+          <target state="translated">La quatrième commande utilise l'applet de commande Receive-Job pour obtenir les résultats de la tâche.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It stores the results in the $results variable.</source>
+          <target state="translated">Elle stocke les résultats dans la variable $results.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The final command displays the contents of the $results variable.</source>
+          <target state="translated">La dernière commande affiche le contenu de la variable $results.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This command runs the Sample.ps1 script as a background job.</source>
+          <target state="translated">Cette commande exécute le script Sample.ps1 en tant que tâche en arrière-plan.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This command runs a background job that gets the WinRM process on the local computer.</source>
+          <target state="translated">Cette commande exécute une tâche en arrière-plan qui obtient le processus WinRM sur l'ordinateur local.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The command uses the ScriptBlock parameter to specify the command that runs in the background job.</source>
+          <target state="translated">La commande utilise le paramètre ScriptBlock pour spécifier la commande qui s'exécute dans la tâche en arrière-plan.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>It uses the Name parameter to specify a friendly name for the new job.</source>
+          <target state="translated">Elle utilise le paramètre Name pour spécifier un nom convivial pour la nouvelle tâche.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This command starts a job that collects a large amount of data and saves it in a .tif file.</source>
+          <target state="translated">Cette commande démarre une tâche qui collecte une grande quantité de données et l'enregistre dans un fichier .tif.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The command uses the InitializationScript parameter to run a script block that imports a required module.</source>
+          <target state="translated">La commande utilise le paramètre InitializationScript pour exécuter un bloc de script qui importe un module obligatoire.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It also uses the RunAs32 parameter to run the job in a 32-bit process even if the computer has a 64-bit operating system.</source>
+          <target state="translated">Elle utilise également le paramètre RunAs32 pour exécuter la tâche dans un processus 32 bits, même si l'ordinateur dispose d'un système d'exploitation 64 bits.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMÈTRES</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-ArgumentList</source>
+          <target state="translated">-ArgumentList</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specifies the arguments (parameter values) for the script that is specified by the <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Spécifie les arguments (valeurs de paramètre) pour le script qui est spécifié par le <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> paramètre.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Because all of the values that follow the ArgumentList parameter name are interpreted as being values of ArgumentList, the ArgumentList parameter should be the last parameter in the command.</source>
+          <target state="translated">Étant donné que toutes les valeurs qui suivent le nom de paramètre ArgumentList sont interprétées comme étant des valeurs d'ArgumentList, le paramètre ArgumentList doit être le dernier paramètre de la commande.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-Authentication</source>
+          <target state="translated">-Authentification</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies the mechanism that is used to authenticate the user's credentials.</source>
+          <target state="translated">Spécifie le mécanisme permettant d'authentifier les informations d'identification de l'utilisateur.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Valid values are <bpt id="p1">**</bpt>Default<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Basic<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Credssp<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Digest<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Kerberos<ept id="p5">**</ept>, <bpt id="p6">**</bpt>Negotiate<ept id="p6">**</ept>, and <bpt id="p7">**</bpt>NegotiateWithImplicitCredential<ept id="p7">**</ept>.</source>
+          <target state="translated">Les valeurs valides sont <bpt id="p1">**</bpt>par défaut<ept id="p1">**</ept>, <bpt id="p2">**</bpt>base<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Credssp<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Digest<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Kerberos<ept id="p5">**</ept>, <bpt id="p6">**</bpt>Negotiate<ept id="p6">**</ept>, et <bpt id="p7">**</bpt>NegotiateWithImplicitCredential<ept id="p7">**</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>Default<ept id="p1">**</ept>.</source>
+          <target state="translated">La valeur par défaut est <bpt id="p1">**</bpt>par défaut<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>CredSSP authentication is available only in Windows Vista, Windows Server 2008, and later versions of Windows.</source>
+          <target state="translated">L'authentification CredSSP est disponible uniquement dans Windows Vista, Windows Server 2008 et les versions ultérieures de Windows.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For information about the values of this parameter, see the description of the System.Management.Automation.Runspaces.AuthenticationMechanism enumeration in MSDN.</source>
+          <target state="translated">Pour plus d'informations sur les valeurs de ce paramètre, consultez la description de l'énumération System.Management.Automation.Runspaces.AuthenticationMechanism dans MSDN.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>CAUTION: Credential Security Support Provider (CredSSP) authentication, in which the user's credentials are passed to a remote computer to be authenticated, is designed for commands that require authentication on more than one resource, such as accessing a remote network share.</source>
+          <target state="translated">ATTENTION : L’authentification Credential Security Support Provider (CredSSP), dans lequel les informations d’identification de l’utilisateur sont transmises à un ordinateur distant pour être authentifiées, est conçue pour les commandes qui requièrent une authentification sur plusieurs ressources, telles que l’accès à un partage réseau distant.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This mechanism increases the security risk of the remote operation.</source>
+          <target state="translated">Ce mécanisme augmente le risque de sécurité lié à l'opération distante.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If the remote computer is compromised, the credentials that are passed to it can be used to control the network session.</source>
+          <target state="translated">Si l'ordinateur distant n'est pas fiable, les informations d'identification qui lui sont passées peuvent être utilisées pour contrôler la session réseau.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">Spécifie un compte d’utilisateur qui a l’autorisation d’exécuter cette action.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">La valeur par défaut est l’utilisateur actuel.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01", or enter a PSCredential object, such as one from the Get-Credential cmdlet.</source>
+          <target state="translated">Tapez un nom d'utilisateur, comme « User01 » ou « Domaine01\Utilisateur01 », ou entrez un objet PSCredential, tel que celui généré par l'applet de commande Get-Credential.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-DefinitionName</source>
+          <target state="translated">-DefinitionName</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Starts the job with the specified job definition name.</source>
+          <target state="translated">Démarre la tâche ayant le nom de la définition de tâche spécifié.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Use this parameter to start custom job types that have a definition name, such as scheduled jobs.</source>
+          <target state="translated">Utilisez ce paramètre pour démarrer les types de tâche personnalisés ayant un nom de définition, comme les tâches planifiées.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When you use <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> to start an instance of a scheduled job, the job starts immediately, regardless of job triggers or job options.</source>
+          <target state="translated">Lorsque vous utilisez <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> pour démarrer une instance d’une tâche planifiée, la tâche démarre immédiatement, indépendamment des déclencheurs ou des options de tâche.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The resulting job instance is a scheduled job, but it is not saved to disk like triggered scheduled jobs.</source>
+          <target state="translated">L'instance de tâche qui en résulte est une tâche planifiée, mais elle n'est pas enregistrée sur le disque comme les tâches planifiées déclenchées.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Also, you cannot use the <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> to provide values for parameters of scripts that run in a scheduled job.</source>
+          <target state="translated">En outre, vous ne pouvez pas utiliser le <bpt id="p1">**</bpt>ArgumentList<ept id="p1">**</ept> paramètre de <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> pour fournir des valeurs pour les paramètres des scripts qui s’exécutent dans une tâche planifiée.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Scheduled_Jobs.</source>
+          <target state="translated">Pour plus d’informations, consultez about_Scheduled_Jobs.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre est introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-DefinitionPath</source>
+          <target state="translated">-DefinitionPath</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Starts the job at the specified path location.</source>
+          <target state="translated">Démarre la tâche à l'emplacement de chemin d'accès spécifié.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Enter the definition path.</source>
+          <target state="translated">Entrez le chemin d'accès à la définition.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The concatenation of the values of the <bpt id="p1">**</bpt>DefinitionPath<ept id="p1">**</ept> and <bpt id="p2">**</bpt>DefinitionName<ept id="p2">**</ept> parameters should be the fully-qualified path to the job definition.</source>
+          <target state="translated">La concaténation des valeurs de la <bpt id="p1">**</bpt>DefinitionPath<ept id="p1">**</ept> et <bpt id="p2">**</bpt>DefinitionName<ept id="p2">**</ept> paramètres doivent être le chemin d’accès complet à la définition de tâche.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Use this parameter to start custom job types that have a definition path, such as scheduled jobs.</source>
+          <target state="translated">Utilisez ce paramètre pour démarrer les types de tâche personnalisés ayant un chemin d'accès de définition, comme les tâches planifiées.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For scheduled jobs, the value of the <bpt id="p1">**</bpt>DefinitionPath<ept id="p1">**</ept> parameter is "$home\AppData\Local\Windows\PowerShell\ScheduledJob".</source>
+          <target state="translated">Pour les tâches planifiées, la valeur de la <bpt id="p1">**</bpt>DefinitionPath<ept id="p1">**</ept> paramètre est « $home\AppData\Local\Windows\PowerShell\ScheduledJob ».</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre est introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>-FilePath</source>
+          <target state="translated">-Chemin d’accès</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Runs the specified local script as a background job.</source>
+          <target state="translated">Exécute le script local spécifié en tant que tâche en arrière-plan.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Enter the path and file name of the script or pipe a script path to <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">Entrez le chemin d’accès et le nom du script ou diriger un chemin d’accès de script à <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The script must reside on the local computer or in a directory that the local computer can access.</source>
+          <target state="translated">Le script doit résider sur l'ordinateur local ou dans un répertoire auquel celui-ci peut accéder.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>When you use this parameter, Windows PowerShell converts the contents of the specified script file to a script block and runs the script block as a background job.</source>
+          <target state="translated">Quand vous utilisez ce paramètre, Windows PowerShell convertit le contenu du fichier de script spécifié en bloc de script et exécute le bloc de script en tant que tâche en arrière-plan.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-InitializationScript</source>
+          <target state="translated">-InitializationScript</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Specifies commands that run before the job starts.</source>
+          <target state="translated">Spécifie les commandes à exécuter avant le début de la tâche.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Enclose the commands in braces ( { } ) to create a script block.</source>
+          <target state="translated">Placez les commandes entre accolades ( { } ) pour créer un bloc de script.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Use this parameter to prepare the session in which the job runs.</source>
+          <target state="translated">Utilisez ce paramètre pour préparer la session dans laquelle la tâche s'exécute.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>For example, you can use it to add functions, snap-ins, and modules to the session.</source>
+          <target state="translated">Par exemple, vous pouvez l'utiliser pour ajouter des fonctions, des composants logiciels enfichables et des modules à la session.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">Objet d’entrée :</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Specifies input to the command.</source>
+          <target state="translated">Spécifie l'entrée de la commande.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the objects, or type a command or expression that generates the objects.</source>
+          <target state="translated">Entrez une variable contenant les objets, ou tapez une commande ou une expression qui génère ces objets.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>In the value of the <bpt id="p1">**</bpt>ScriptBlock<ept id="p1">**</ept> parameter, use the $input automatic variable to represent the input objects.</source>
+          <target state="translated">Dans la valeur de la <bpt id="p1">**</bpt>ScriptBlock<ept id="p1">**</ept> paramètre, utilisez le $input la variable automatique pour représenter les objets d’entrée.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Runs the specified local script as a background job.</source>
+          <target state="translated">Exécute le script local spécifié en tant que tâche en arrière-plan.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Enter the path to a script on the local computer.</source>
+          <target state="translated">Entrez le chemin d'accès à un script sur l'ordinateur local.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Unlike the <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> parameter, the value of <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> is used exactly as it is typed.</source>
+          <target state="translated">Contrairement à la <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> paramètre, la valeur de <bpt id="p2">**</bpt>LiteralPath<ept id="p2">**</ept> est utilisée exactement telle qu’elle est tapée.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">Aucun caractère n’est interprété en tant que caractère générique.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">Si le chemin d’accès inclut des caractères d’échappement, mettez-le entre des guillemets simples.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">Les guillemets simples indiquent à Windows PowerShell qu’aucun caractère ne doit être interprété en tant que séquence d’échappement.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Specifies a friendly name for the new job.</source>
+          <target state="translated">Spécifie le nom convivial de la nouvelle tâche.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can use the name to identify the job to other job cmdlets, such as Stop-Job.</source>
+          <target state="translated">Vous pouvez utiliser le nom pour identifier la tâche à d’autres applets de commande job, telles que Stop-Job.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The default friendly name is Job#, where "#" is an ordinal number that is incremented for each job.</source>
+          <target state="translated">Le nom convivial par défaut est Job#, où « # » est un nombre ordinal incrémenté pour chaque tâche.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-PSVersion</source>
+          <target state="translated">-PSVersion</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Runs the job with the specified version of Windows PowerShell.</source>
+          <target state="translated">Exécute la tâche avec la version spécifiée de Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Valid values are 2.0 and 3.0.</source>
+          <target state="translated">Les valeurs valides sont 2.0 et 3.0.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre est introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-RunAs32</source>
+          <target state="translated">-RunAs32</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Runs the job in a 32-bit process.</source>
+          <target state="translated">Exécute la tâche dans un processus 32 bits.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Use this parameter to force the job to run in a 32-bit process on a 64-bit operating system.</source>
+          <target state="translated">Utilisez ce paramètre pour forcer la tâche à s'exécuter dans un processus 32 bits sur un système d'exploitation 64 bits.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>NOTE: On 64-bit versions of Windows 7 and Windows Server 2008 R2, when the <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> command includes the <bpt id="p2">**</bpt>RunAs32<ept id="p2">**</ept> parameter, you cannot use the <bpt id="p3">**</bpt>Credential<ept id="p3">**</ept> parameter to specify the credentials of another user.</source>
+          <target state="translated">REMARQUE : sur les versions 64 bits de Windows 7 et Windows Server 2008 R2, lors de la <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> commande inclut le <bpt id="p2">**</bpt>RunAs32<ept id="p2">**</ept> paramètre, vous ne pouvez pas utiliser le <bpt id="p3">**</bpt>informations d’identification<ept id="p3">**</ept> pour spécifier les informations d’identification d’un autre utilisateur.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-ScriptBlock</source>
+          <target state="translated">-ScriptBlock</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Specifies the commands to run in the background job.</source>
+          <target state="translated">Spécifie les commandes à exécuter dans la tâche en arrière-plan.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Enclose the commands in braces ( { } ) to create a script block.</source>
+          <target state="translated">Placez les commandes entre accolades ( { } ) pour créer un bloc de script.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">Ce paramètre est obligatoire.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-Type</source>
+          <target state="translated">-Type</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Starts only jobs of the specified custom type.</source>
+          <target state="translated">Démarre uniquement les tâches du type personnalisé spécifié.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Enter a custom job type name, such as PSScheduledJob for scheduled jobs or PSWorkflowJob for workflows jobs.</source>
+          <target state="translated">Entrez un nom de type de tâche personnalisé, par exemple, PSScheduledJob pour les tâches planifiées ou PSWorkflowJob pour les tâches de workflow.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This parameter is not valid for standard background jobs.</source>
+          <target state="translated">Ce paramètre n'est pas valide pour les tâches en arrière-plan standard.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Ce paramètre est introduit dans Windows PowerShell 3.0.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Cette applet de commande prend en charge les paramètres courants :-Debug, - ErrorAction, - ErrorVariable, - InformationAction, - InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction et - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Pour plus d’informations, consultez about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">ENTRÉES</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>You can pipe an object with the Name property to the Name parameter.</source>
+          <target state="translated">Vous pouvez diriger un objet avec la propriété Name vers le paramètre Name.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For example, you can pipe a FileInfo object from Get-ChildItem to <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept>.</source>
+          <target state="translated">Par exemple, vous pouvez diriger un objet FileInfo de Get-ChildItem pour <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">SORTIES</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSRemotingJob</source>
+          <target state="translated">System.Management.Automation.PSRemotingJob</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> returns an object that represents the job that it started.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> retourne un objet qui représente la tâche démarrée.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTES DE PUBLICATION</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To run in the background, <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> runs in its own session within the current session.</source>
+          <target state="translated">Pour exécuter en arrière-plan, <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> s’exécute dans sa propre session dans la session active.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>When you use the Invoke-Command cmdlet to run a <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> command in a session on a remote computer, <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> runs in a session within the remote session.</source>
+          <target state="translated">Lorsque vous utilisez l’applet de commande Invoke-Command pour exécuter une <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> commande dans une session sur un ordinateur distant, <bpt id="p2">**</bpt>Start-Job<ept id="p2">**</ept> s’exécute dans une session de la session à distance.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">LIENS CONNEXES</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get-Job</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">Tâche de réception</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">Remove-Job</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">Start-Job</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">Tâche d’arrêt</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">Wait-Job</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>about_Job_Details</source>
+          <target state="translated">about_Job_Details</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>about_Remote_Jobs</source>
+          <target state="translated">about_Remote_Jobs</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>about_Jobs</source>
+          <target state="translated">about_Jobs</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

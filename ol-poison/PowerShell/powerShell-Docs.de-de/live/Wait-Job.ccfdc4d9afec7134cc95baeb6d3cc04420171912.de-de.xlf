@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2627cb51dd92921a3a0c0b680aaa240b54d8e4db</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\Wait-Job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aaca506ef91ac162f73a6b7fd2b8362b46dcbfad</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">db92f79caec5742cb861329c6a4937923004ea78</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell-Cmdlets</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">Wait-Job</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Wait-Job</source>
+          <target state="translated">Wait-Job</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">ZUSAMMENFASSUNG</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Suppresses the command prompt until one or all of the Windows PowerShell background jobs running in the session are complete.</source>
+          <target state="translated">Unterdrückt die Eingabeaufforderung, bis ein oder alle der in der Sitzung ausgeführten Windows PowerShell-Hintergrundaufträge abgeschlossen sind.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SYNTAX</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SessionIdParameterSet (Default)</source>
+          <target state="translated">SessionIdParameterSet (Standard)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>JobParameterSet</source>
+          <target state="translated">JobParameterSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>NameParameterSet</source>
+          <target state="translated">NameParameterSet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>InstanceIdParameterSet</source>
+          <target state="translated">InstanceIdParameterSet</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>StateParameterSet</source>
+          <target state="translated">StateParameterSet</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>FilterParameterSet</source>
+          <target state="translated">FilterParameterSet</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet waits for Windows PowerShell background jobs to complete before it displays the command prompt.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> Cmdlet wartet, bis Windows PowerShell-Hintergrundaufträge abgeschlossen, bevor der Befehlszeile angezeigt.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can wait until any background job is complete, or until all background jobs are complete, and you can set a maximum wait time for the job.</source>
+          <target state="translated">Sie können warten, bis ein Hintergrundauftrag abgeschlossen ist, oder bis alle Hintergrundaufträge abgeschlossen sind, und Sie können eine maximale Wartezeit für den Auftrag festlegen.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When the commands in the job are complete, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> displays the command prompt and returns a job object so that you can pipe it to another command.</source>
+          <target state="translated">Wenn die Befehle im Auftrag abgeschlossen ist, sind <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> zeigt die Befehlszeile an und gibt ein Auftragsobjekt zurück, sodass Sie an einen anderen Befehl übergeben werden können.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet to wait for background jobs, such as those that were started by using the Start-Job cmdlet or the <bpt id="p2">**</bpt>AsJob<ept id="p2">**</ept> parameter of the Invoke-Command cmdlet.</source>
+          <target state="translated">Können <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> Cmdlet Hintergrundaufträge, z. B. warten, die mithilfe des Start-Job-Cmdlets gestartet wurden oder die <bpt id="p2">**</bpt>AsJob<ept id="p2">**</ept> Parameter des Invoke-Command-Cmdlet.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information about Windows PowerShell background jobs, see about_Jobs.</source>
+          <target state="translated">Weitere Informationen zu Windows PowerShell-Hintergrundaufträge finden Sie unter "about_jobs".</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet also waits for custom job types, such as workflow jobs and instances of scheduled jobs.</source>
+          <target state="translated">Ab Windows PowerShell 3.0, die <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> Cmdlet wartet auch benutzerdefinierte Auftragstypen, z. B. Workflowaufträge und Instanzen von geplanten Aufträgen.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To enable <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to wait for jobs of a particular type, import the module that supports the custom job type into the session before running a <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> command, either by using the Import-Module cmdlet or by using or getting a cmdlet in the module.</source>
+          <target state="translated">So aktivieren Sie <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> Aufträge eines bestimmten Typs warten, importieren Sie das Modul, das den benutzerdefinierten Typ in der Sitzung vor der Ausführung unterstützt, eine <bpt id="p2">**</bpt>Get-Job<ept id="p2">**</ept> Befehl mithilfe des Import-Module-Cmdlets oder mit oder einem Cmdlet im Modul abrufen.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For information about a particular custom job type, see the documentation of the custom job type feature.</source>
+          <target state="translated">Informationen zu einem bestimmten benutzerdefinierten Auftragstyp finden Sie in der Dokumentation der Funktion „Benutzerdefinierte Auftragstypen“.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">BEISPIELE</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- BEISPIEL 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This command waits for all of the background jobs running in the session to complete.</source>
+          <target state="translated">Dieser Befehl wartet, bis alle Hintergrundaufträge in der aktuellen Sitzung abgeschlossen sind.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the Wait-Job cmdlet with jobs started on remote computers by using the Start-Job cmdlet.</source>
+          <target state="translated">Dieses Beispiel zeigt, wie das Wait-Job-Cmdlet mit Aufträgen verwendet wird, die auf Remotecomputern mithilfe des Start-Job-Cmdlets gestartet wurden.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Both the Start-Job and Wait-Job commands are submitted to the remote computer by using the Invoke-Command cmdlet.</source>
+          <target state="translated">Sowohl der Start-Job-Befehl als auch der Wait-Job-Befehl werden mithilfe des Invoke-Command-Cmdlets an den Remotecomputer übergeben.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This example uses Wait-Job to determine whether a Get-Date command running as a background job on three different computers is complete.</source>
+          <target state="translated">In diesem Beispiel wird Wait-Job verwendet, um zu bestimmen, ob ein Get-Date-Befehl, der als Hintergrundauftrag auf drei verschiedenen Computern ausgeführt wird, abgeschlossen ist.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The first command creates a Windows PowerShell session (PSSession) on each of the three remote computers and stores them in the $s variable.</source>
+          <target state="translated">Der erste Befehl erstellt eine Windows PowerShell-Sitzung (PSSession) auf jedem der drei Remotecomputer und speichert sie in der $s-Variablen.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The second command uses the Invoke-Command cmdlet to run a Start-Job command in each of the three sessions in $s.</source>
+          <target state="translated">Der zweite Befehl verwendet das Invoke-Command-Cmdlet, um einen Start-Job-Befehl in jeder der drei Sitzungen in $s auszuführen.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>All of the jobs are named Date1.</source>
+          <target state="translated">Alle Aufträge sind Date1 benannt.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The third command uses the Invoke-Command cmdlet to run a Wait-Job command.</source>
+          <target state="translated">Der dritte Befehl verwendet das Invoke-Command-Cmdlet, um einen Wait-Job-Befehl auszuführen.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command waits for the Date1 jobs on each computer to complete.</source>
+          <target state="translated">Dieser Befehl wartet, bis die Date1-Auftrage auf jedem Computer abgeschlossen sind.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It stores the resulting collection (array) of job objects in the $done variable.</source>
+          <target state="translated">Die resultierende Auflistung (Array) der Auftragsobjekte wird in der $done-Variablen gespeichert.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Count property of the array of job objects in the $done variable to determine how many of the jobs are complete.</source>
+          <target state="translated">Der vierte Befehl verwendet die Count-Eigenschaft des Auftragsobjektarrays in der $done-Variablen, um zu bestimmen, wie viele der Aufträge abgeschlossen sind.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This example uses the <bpt id="p1">**</bpt>Any<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> to determine when the first of many background jobs running in the current session are complete.</source>
+          <target state="translated">Dieses Beispiel verwendet die <bpt id="p1">**</bpt>alle<ept id="p1">**</ept> Parameter <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> um zu bestimmen, wann die erste von zahlreichen Hintergrundaufträgen in der aktuellen Sitzung abgeschlossen sind.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It also shows how to use the <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> cmdlet to wait for remote jobs to complete.</source>
+          <target state="translated">Außerdem wird gezeigt, wie Sie die <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> -Cmdlet zum Abschluss von Remoteaufträgen warten.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The first command creates a PSSession on each of the computers listed in the Machines.txt file and stores the PSSessions in the $s variable.</source>
+          <target state="translated">Der erste Befehl erstellt eine PSSession auf allen Computern, die in der Datei „Machines.txt“ aufgelistet sind, und speichert die PSSessions in der $s-Variablen.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Content cmdlet to get the contents of the file.</source>
+          <target state="translated">Der Befehl verwendet das Cmdlet "Get-Content", um den Inhalt der Datei abzurufen.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Content<ept id="p1">**</ept> command is enclosed in parentheses to ensure that it runs before the New-PSSession command.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Get-Content<ept id="p1">**</ept> Befehl ist eingeschlossen in Klammern, um sicherzustellen, dass sie vor dem New-PSSession-Befehl ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The second command stores a <bpt id="p1">**</bpt>Get-EventLog<ept id="p1">**</ept> command string (in quotation marks) in the $c variable.</source>
+          <target state="translated">Der zweite Befehl speichert eine <bpt id="p1">**</bpt>Get-EventLog<ept id="p1">**</ept> -Befehlszeichenfolge (in Anführungszeichen) in der Variablen $c.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The third command uses the Invoke-Command cmdlet to run a <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> command in each of the sessions in $s.</source>
+          <target state="translated">Der dritte Befehl verwendet das Invoke-Command-Cmdlet zum Ausführen einer <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> -Befehls in den einzelnen Sitzungen in $s.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> command starts a background job that runs the <bpt id="p2">**</bpt>Get-EventLog<ept id="p2">**</ept> command in the $c variable.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Start-Job<ept id="p1">**</ept> Befehl startet einen Hintergrundauftrag, der ausgeführt wird die <bpt id="p2">**</bpt>"Get-EventLog"<ept id="p2">**</ept> in der Variablen $c Befehl.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> scope modifier to indicate that the $c variable was defined on the local computer.</source>
+          <target state="translated">Der Befehl verwendet die <bpt id="p1">**</bpt>mit<ept id="p1">**</ept> Bereichsbezeichner, um anzugeben, dass die Variable $c auf dem lokalen Computer definiert wurde.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> scope modifier is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>mit<ept id="p1">**</ept> Bereichsbezeichner wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information about the <bpt id="p1">**</bpt>Using<ept id="p1">**</ept> scope modifier, see about_Remote_Variables (http://go.microsoft.com/fwlink/?LinkID=252653).</source>
+          <target state="translated">Weitere Informationen zu den <bpt id="p1">**</bpt>mit<ept id="p1">**</ept> -Bereichsbezeichner, finden Sie unter About_Remote_Variables (http://go.microsoft.com/fwlink/?LinkID=252653).</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> cmdlet to run a <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> command in the sessions.</source>
+          <target state="translated">Der vierte Befehl verwendet die <bpt id="p1">**</bpt>Invoke-Command<ept id="p1">**</ept> -Cmdlet zum Ausführen einer <bpt id="p2">**</bpt>Wait-Job<ept id="p2">**</ept> Befehl in den Sitzungen.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Any<ept id="p1">**</ept> parameter to wait until the first job on the remote computers is complete.</source>
+          <target state="translated">Er verwendet die <bpt id="p1">**</bpt>alle<ept id="p1">**</ept> Parameter warten, bis der erste Auftrag auf den Remotecomputern abgeschlossen ist.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the Timeout parameter of Wait-Job to set a maximum wait time for the jobs running on remote computers.</source>
+          <target state="translated">Dieses Beispiel zeigt, wie Sie den Timeout-Parameter von Wait-Job zum Festlegen einer maximalen Wartezeit für die Aufträge, die auf Remotecomputern ausgeführt werden, verwenden.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The first command creates a PSSession on each of three remote computers (Server01, Server02, and Server03), and it saves the PSSessions in the $s variable.</source>
+          <target state="translated">Der erste Befehl erstellt eine PSSession auf jedem der drei Remotecomputer (Server01, Server02 und Server03) und speichert die PSSessions in der $s-Variablen.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The second command uses the Invoke-Command cmdlet to run a Start-Job command in each of the PSSessions in $s.</source>
+          <target state="translated">Der zweite Befehl verwendet das Invoke-Command-Cmdlet, um einen Start-Job-Befehl in jeder der PSSessions in $s auszuführen.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It saves the resulting job objects in the $jobs variable.</source>
+          <target state="translated">Die resultierenden Auftragsobjekte in der $jobs-Variablen gespeichert.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The third command uses the Invoke-Command cmdlet to run a Wait-Job command in each of the PSSessions in $s.</source>
+          <target state="translated">Der dritte Befehl verwendet das Invoke-Command-Cmdlet, um einen Wait-Job-Befehl in jeder der PSSessions in $s auszuführen.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The Wait-Job command determines whether all of the commands have completed within 30 seconds.</source>
+          <target state="translated">Der Wait-Job-Befehl bestimmt, ob alle Befehle innerhalb von 30 Sekunden abgeschlossen haben.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It uses the Timeout parameter with a value of 30 (seconds) to establish the maximum wait time and saves the results of the command in the $done variable.</source>
+          <target state="translated">Er verwendet den Timeout-Parameter mit einem Wert von 30 (Sekunden), um die maximale Wartezeit festzulegen, und speichert die Ergebnisse des Befehls in der $done-Variablen.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In this case, after 30 seconds, only the command on the Server02 computer has completed.</source>
+          <target state="translated">In diesem Fall wurde nur der Befehl auf dem Computer Server02 nach 30 Sekunden abgeschlossen.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Wait-Job ends the wait, displays the command prompt, and returns the object that represents the job that was completed.</source>
+          <target state="translated">Wait-Job beendet den Wartevorgang, zeigt die Eingabeaufforderung an und gibt das Objekt zurück, das den abgeschlossenen Auftrag darstellt.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The $done variable contains a job object that represents the job that ran on Server02.</source>
+          <target state="translated">Die $done-Variable enthält ein Auftragsobjekt, das den auf Server02 ausgeführten Auftrag darstellt.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This command identifies three jobs by their IDs and waits until any of them are complete.</source>
+          <target state="translated">Mit diesem Befehl werden drei Aufträge anhand der ID identifiziert und gewartet, bis einer der Aufträge abgeschlossen ist.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The command prompt returns when the first job completes.</source>
+          <target state="translated">Die Eingabeaufforderung kehrt zurück, wenn der erste Auftrag abgeschlossen ist.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 6 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 6 --------------------------</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This command waits 120 seconds (two minutes) for the DailyLog job to complete.</source>
+          <target state="translated">Dieser Befehl wartet 120 Sekunden (zwei Minuten), bis der DailyLog-Auftrag abgeschlossen ist.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If the job does not complete in the next two minutes, the command prompt returns anyway, and the job continues to run in the background.</source>
+          <target state="translated">Wenn der Auftrag nicht innerhalb der nächsten zwei Minuten abgeschlossen ist, wird dennoch wieder die Eingabeaufforderung angezeigt, und der Auftrag wird weiter im Hintergrund ausgeführt.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 7 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 7 --------------------------</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This Wait-Job command uses the job name to identify the job to wait for.</source>
+          <target state="translated">Dieser Wait-Job-Befehl verwendet den Auftragsnamen, um den Auftrag zu identifizieren, auf den gewartet wird.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 8 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 8 --------------------------</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the Wait-Job cmdlet with jobs started on the local computer by using the Start-Job cmdlet.</source>
+          <target state="translated">Dieses Beispiel zeigt, wie das Wait-Job-Cmdlet mit Aufträgen verwendet wird, die auf dem lokalen Computer mithilfe des Start-Job-Cmdlets gestartet werden.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>These commands start a job that gets the Windows PowerShell script files that were added or updated in the last week.</source>
+          <target state="translated">Diese Befehle starten einen Auftrag, der die Windows PowerShell-Skriptdateien abruft, die in der letzten Woche hinzugefügt oder aktualisiert wurden.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The first command uses the Start-Job cmdlet to start a background job on the local computer.</source>
+          <target state="translated">Der erste Befehl verwendet das Start-Job-Cmdlet, um einen Hintergrundauftrag auf dem lokalen Computer zu starten.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The job runs a Get-ChildItem command that gets all of the files with a ".ps1" file name extension that were added or updated in the last week.</source>
+          <target state="translated">Der Auftrag führt einen Get-ChildIdem-Befehl aus, der alle Dateien mit der Dateinamenserweiterung „.ps1“ abruft, die in der letzten Woche hinzugefügt oder aktualisiert wurden.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The third command uses the Wait-Job cmdlet to wait until the job is complete.</source>
+          <target state="translated">Der dritte Befehl verwendet das Wait-Job-Cmdlet, um zu warten, bis der Auftrag abgeschlossen ist.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>When the job completes, the command displays the job object, which contains information about the job.</source>
+          <target state="translated">Wenn der Auftrag abgeschlossen ist, zeigt der Befehl das Auftragsobjekt mit Informationen zu dem Auftrag an.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 9 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 9 --------------------------</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the Wait-Job cmdlet with jobs started on remote computers by using the AsJob parameter of the Invoke-Command cmdlet.</source>
+          <target state="translated">Dieses Beispiel zeigt, wie das Wait-Job-Cmdlet mit Aufträgen verwendet wird, die auf Remotecomputern mit dem AsJob-Parameter von Invoke-Command-Cmdlet gestartet werden.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When using AsJob, the job is created on the local computer and the results are automatically returned to the local computer, even though the job runs on the remote computers.</source>
+          <target state="translated">Wenn AsJob verwendet wird, wird der Auftrag auf dem lokalen Computer erstellt, und die Ergebnisse werden automatisch auf dem lokalen Computer zurückgegeben, obwohl der Auftrag auf den Remotecomputern ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This example uses Wait-Job to determine whether a Get-Process command running in the sessions on three remote computers is complete.</source>
+          <target state="translated">Dieses Beispiel verwendet Wait-Job, um zu bestimmen, ob ein Get-Process-Befehl in Sitzungen auf drei Remotecomputern abgeschlossen ist.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The first command creates PSSessions on three computers and stores them in the $s variable.</source>
+          <target state="translated">Der erste Befehl erstellt PSSessions auf drei Computern und speichert sie in der $s-Variablen.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The second command uses the Invoke-Command cmdlet to run a Get-Process command in each of the three PSSessions in $s.</source>
+          <target state="translated">Der zweite Befehl verwendet das Invoke-Command-Cmdlet, um einen Get-Process-Befehl in jeder der drei PSSessions in $s auszuführen.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The command uses the AsJob parameter to run the command asynchronously as a background job.</source>
+          <target state="translated">Der Befehl verwendet den AsJob-Parameter, der Befehl asynchron als Hintergrundauftrag ausgeführt.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The command returns a job object, just like the jobs started by using Start-Job, and the job object is stored in the $j variable.</source>
+          <target state="translated">Der Befehl gibt ein Auftragsobjekt zurück, genau wie die Aufträge, die mithilfe von Start-Job gestartet wurden, und das Auftragsobjekt wird in der $j-Variablen gespeichert.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The third command uses a pipeline operator (|) to send the job object in $j to the Wait-Job cmdlet.</source>
+          <target state="translated">Der dritte Befehl verwendet einen Pipelineoperator (|), um das Auftragsobjekt in $j an das Wait-Job-Cmdlet zu senden.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Notice that an Invoke-Command command is not required in this case, because the job resides on the local computer.</source>
+          <target state="translated">Beachten Sie, dass ein Invoke-Command-Befehl in diesem Fall nicht erforderlich ist, da sich der Auftrag auf dem lokalen Computer befindet.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 10 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 10 --------------------------</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This command waits for the job with an ID value of 1.</source>
+          <target state="translated">Dieser Befehl wartet auf den Auftrag mit dem ID-Wert 1.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETER</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-Any</source>
+          <target state="translated">-Alle</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Displays the command prompt (and returns the job object) when any job completes.</source>
+          <target state="translated">Zeigt die Eingabeaufforderung (und gibt das Auftragsobjekt zurück) wenn ein Auftrag abgeschlossen ist.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>By default, Wait-Job waits until all of the specified jobs are complete before displaying the prompt.</source>
+          <target state="translated">Standardmäßig wartet die Wait-Job, bis alle angegebenen Aufträge abgeschlossen sind, bevor die Eingabeaufforderung angezeigt wird.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">-Filter</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Waits for jobs that satisfy all of the conditions established in the associated hash table.</source>
+          <target state="translated">Wartet auf Aufträge, die alle Bedingungen in der zugehörigen Hashtabelle erfüllen.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Enter a hash table where the keys are job properties and the values are job property values.</source>
+          <target state="translated">Geben Sie eine Hashtabelle ein, in der die Schlüssel Auftragseigenschaften und die Werte Werte der Auftragseigenschaften sind.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This parameter works only on custom job types, such as workflow jobs and scheduled jobs.</source>
+          <target state="translated">Dieser Parameter funktioniert nur mit benutzerdefinierten Auftragstypen, z. B. Workflowaufträgen und geplanten Aufträgen.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>It does not work on standard background jobs, such as those created by using the Start-Job cmdlet.</source>
+          <target state="translated">Es funktioniert nicht auf standard-Hintergrundaufträgen, z. B. mithilfe des Start-Job-Cmdlets erstellt.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>For information about support for this parameter, see the help topic for the job type.</source>
+          <target state="translated">Weitere Informationen zur Unterstützung für diesen Parameter finden Sie unter dem Hilfethema für den Auftragstyp.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Continues waiting if jobs are in the <bpt id="p1">**</bpt>Suspended<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Disconnected<ept id="p2">**</ept> state.</source>
+          <target state="translated">Wartet weiter, wenn Aufträge in sind die <bpt id="p1">**</bpt>angehalten<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>getrennt<ept id="p2">**</ept> Zustand.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> returns (terminates the wait) when jobs are in one of the following states: Completed, Failed, Stopped, Suspended, or Disconnected.</source>
+          <target state="translated">Standardmäßig <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> zurückgibt (beendet den Wartevorgang) Wenn Aufträge werden in einem der folgenden Status: abgeschlossen, Fehler, beendet, angehalten oder getrennt.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">Dieser Parameter wird in Windows PowerShell 3.0 eingeführt.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-Id</source>
+          <target state="translated">-Id</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Waits for jobs with the specified IDs.</source>
+          <target state="translated">Wartet auf Aufträge mit angegebenen IDs.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The ID is an integer that uniquely identifies the job within the current session.</source>
+          <target state="translated">Die ID ist eine Ganzzahl, die den Auftrag innerhalb der aktuellen Sitzung eindeutig identifiziert.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>It is easier to remember and type than the InstanceId, but it is unique only within the current session.</source>
+          <target state="translated">Sie lässt sich einfacher merken und eingeben als die InstanceId, ist aber nur innerhalb der aktuellen Sitzung eindeutig.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You can type one or more IDs (separated by commas).</source>
+          <target state="translated">Sie können eine oder mehrere IDs (durch Kommas getrennt) eingeben.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>To find the ID of a job, type "Get-Job" without parameters.</source>
+          <target state="translated">Um die ID eines Auftrags zu suchen, geben Sie Get-Job ohne Parameter ein.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-InstanceId</source>
+          <target state="translated">-InstanceId</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Waits for jobs with the specified instance IDs.</source>
+          <target state="translated">Wartet auf Aufträge mit den angegebenen Instanz-IDs.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The default is all jobs.</source>
+          <target state="translated">Standardmäßig werden alle Aufträge fortgesetzt.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>An instance ID is a GUID that uniquely identifies the job on the computer.</source>
+          <target state="translated">Eine Instanz-ID ist eine GUID, die den Auftrag auf dem Computer eindeutig identifiziert.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>To find the instance ID of a job, use Get-Job.</source>
+          <target state="translated">Um die Instanz-ID eines Auftrags zu ermitteln, verwenden Sie „Get-Job“.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-Job</source>
+          <target state="translated">-Job</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Waits for the specified jobs.</source>
+          <target state="translated">Wartet auf die angegebenen Aufträge.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains the job objects or a command that gets the job objects.</source>
+          <target state="translated">Geben Sie eine Variable ein, die Auftragsobjekte bzw. einen Befehl enthält, der die Auftragsobjekte abruft.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>You can also use a pipeline operator to send job objects to the Wait-Job cmdlet.</source>
+          <target state="translated">Sie können auch einen Pipelineoperator verwenden, um Auftragsobjekte an das Wait-Job-Cmdlet zu senden.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>By default, Wait-Job waits for all jobs created in the current session.</source>
+          <target state="translated">Standardmäßig wartet Wait-Job auf alle Aufträge, die in der aktuellen Sitzung erstellt wurden.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Waits for jobs with the specified friendly name.</source>
+          <target state="translated">Wartet auf Aufträge mit dem angegebenen Anzeigenamen.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>-State</source>
+          <target state="translated">-Status</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Waits only for jobs in the specified state.</source>
+          <target state="translated">Wartet nur auf Aufträge im angegebenen Status.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Valid values are NotStarted, Running, Completed, Failed, Stopped, Blocked, Suspended, Disconnected, Suspending, Stopping.</source>
+          <target state="translated">Gültige Werte sind nicht gestartet, Ausführung, abgeschlossen, Fehler, beendet, gesperrt, angehalten, getrennt, angehalten, beendet.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For more information about job states, see "JobState Enumeration" in MSDN at http://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate(v=vs.85).aspx</source>
+          <target state="translated">Weitere Informationen zum Auftragsstatus finden Sie unter "JobState Enumeration" in MSDN unter http://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspxhttp://msdn.microsoft.com/library/windows/desktop/system.management.automation.jobstate (v=vs.85).aspx</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-Timeout</source>
+          <target state="translated">-Timeout</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Determines the maximum wait time for each background job, in seconds.</source>
+          <target state="translated">Bestimmt die maximale Wartezeit für jeden Hintergrundauftrag in Sekunden.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The default, -1, waits until the job completes, no matter how long it runs.</source>
+          <target state="translated">Der Standardwert „-1“ wartet, bis der Auftrag abgeschlossen ist, unabhängig von der Ausführungdauer.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The timing starts when you submit the Wait-Job command, not the Start-Job command.</source>
+          <target state="translated">Die Zeitmessung beginnt mit dem Senden des Wait-Job-Befehls, nicht des Start-Job-Befehls.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If this time is exceeded, the wait ends and the command prompt returns, even if the job is still running.</source>
+          <target state="translated">Wenn diese Zeit abgelaufen ist, endet der Wartevorgang, und die Befehlseingabeaufforderung wird wieder angezeigt, auch wenn der Auftrag noch läuft.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>No error message is displayed.</source>
+          <target state="translated">Es wird keine Fehlermeldung angezeigt.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Dieses Cmdlet unterstützt die allgemeinen Parameter:-Debug, - ErrorAction, - ErrorVariable, - InformationAction, -InformationVariable, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction und -WarningVariable.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Weitere Informationen finden Sie unter "about_commonparameters" (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">EINGABEN</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.RemotingJob</source>
+          <target state="translated">System.Management.Automation.RemotingJob</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>You can pipe a job object to Wait-Job.</source>
+          <target state="translated">Sie können ein Auftragsobjekt an Wait-Job übergeben.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">AUSGABEN</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSRemotingJob</source>
+          <target state="translated">System.Management.Automation.PSRemotingJob</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Wait-Job returns job objects that represent the completed jobs.</source>
+          <target state="translated">Wait-Job gibt Auftragsobjekte zurück, die die abgeschlossenen Aufträge darstellen.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If the wait ends because the value of the Timeout parameter is exceeded, Wait-Job does not return any objects.</source>
+          <target state="translated">Wenn der Wartevorgang beendet wird, weil der Wert des Timeout-Parameters überschritten ist, gibt Wait-Job keine Objekte zurück.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTIZEN</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> returns (terminates the wait) when jobs are in one of the following states: Completed, Failed, Stopped, Suspended, or Disconnected.</source>
+          <target state="translated">Standardmäßig <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> zurückgibt (beendet den Wartevorgang) Wenn Aufträge werden in einem der folgenden Status: abgeschlossen, Fehler, beendet, angehalten oder getrennt.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To direct <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> to continue waiting for <bpt id="p2">**</bpt>Suspended<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Disconnected<ept id="p3">**</ept> jobs, use the <bpt id="p4">**</bpt>Force<ept id="p4">**</ept> parameter.</source>
+          <target state="translated">Weiterleiten <bpt id="p1">**</bpt>Wait-Job<ept id="p1">**</ept> zu warten, <bpt id="p2">**</bpt>angehalten<ept id="p2">**</ept> und <bpt id="p3">**</bpt>getrennt<ept id="p3">**</ept> Aufträge, verwenden die <bpt id="p4">**</bpt>Kraft<ept id="p4">**</ept> Parameter.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">VERWANDTE LINKS</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Get-Job</source>
+          <target state="translated">Get-Job</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Invoke-Command</source>
+          <target state="translated">Invoke-Command</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Receive-Job</source>
+          <target state="translated">Empfangen-Job</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Remove-Job</source>
+          <target state="translated">Remove-Job</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Resume-Job</source>
+          <target state="translated">Resume-Job</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Start-Job</source>
+          <target state="translated">Start-Job</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Stop-Job</source>
+          <target state="translated">Stop-Job</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Suspend-Job</source>
+          <target state="translated">Suspend-Job</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>about_Jobs</source>
+          <target state="translated">about_Jobs</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>about_Job_Details</source>
+          <target state="translated">about_Job_Details</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>about_Remote_Jobs</source>
+          <target state="translated">about_Remote_Jobs</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>about_Remote_Variables</source>
+          <target state="translated">about_Remote_Variables</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

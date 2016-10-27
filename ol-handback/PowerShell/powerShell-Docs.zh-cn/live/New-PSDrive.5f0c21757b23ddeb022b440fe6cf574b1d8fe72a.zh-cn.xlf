@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0aff51210cc9ca69affb4e9b2cd0818d4a091b4d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Management\New-PSDrive.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">31d8dd98bfa70057ae75af322a984646ede4c004</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b032483bd569fcccb6fd12bee40b55523af35691</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>New-PSDrive</source>
+          <target state="translated">New-PSDrive</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New-PSDrive</source>
+          <target state="translated">New-PSDrive</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates temporary and persistent mapped network drives.</source>
+          <target state="translated">创建临时映射网络驱动器和永久映射网络驱动器</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> cmdlet creates temporary and persistent drives that are "mapped" to or associated with a location in a data store, such as a network drive, a directory on the local computer, or a registry key, and persistent Windows mapped network drives that are associated with a file system location on a remote computer.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-psdrive<ept id="p1">**</ept> cmdlet 可创建临时和永久"映射"到或与数据存储，例如网络驱动器、 本地计算机或注册表项上的目录中的位置相关联的驱动器和永久 Windows 映射网络驱动器与远程计算机上的文件系统位置关联。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Temporary drives exist only in the current Windows PowerShell session and in sessions that you create in the current session.</source>
+          <target state="translated">临时驱动器仅存在于当前 Windows PowerShell 会话中以及在当前会话中创建的会话中。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>They can have any name that is valid in Windows PowerShell and can be mapped to any local or remote resource.</source>
+          <target state="translated">它们可以用在 Windows PowerShell 中有效的任意名称来命名，并且可以映射到任何位置或远程资源。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use temporary Windows PowerShell drives to access data in the associated data store, just like you would do with any mapped network drive.</source>
+          <target state="translated">如同操作任何映射网络驱动器一样，你可以使用临时 Windows PowerShell 驱动器访问关联数据存储中的数据。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can change locations into the drive (using "set-location", "cd", or "chdir") and access the contents of the drive (using "get-item", "get-childitem", or "dir").</source>
+          <target state="translated">可以更改驱动器中的位置（使用“set-location”、“cd”或“chdir”），并且可以访问驱动器的内容（使用“get-item”、“get-childitem”或“dir”）。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, because temporary drives are known only to Windows PowerShell, you cannot access them by using File Explorer, Windows Management Instrumentation (WMI), Component Object Model (COM), or the Microsoft .NET Framework, or by using tools such as Net Use.</source>
+          <target state="translated">但是，由于只有 Windows PowerShell 能识别临时驱动器，因此不能使用文件资源管理器、Windows Management Instrumentation (WMI)、组件对象模型 (COM)、Microsoft .NET Framework 或诸如 Net Use 之类的工具来访问临时驱动器。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>New features are added to New-PSDrive in Windows PowerShell 3.0.</source>
+          <target state="translated">Windows PowerShell 3.0 中的 New-PSDrive 新增了一些功能。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Mapped network drives: You can use the <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>New-PSDrive<ept id="p2">**</ept> to create Windows mapped network drives.</source>
+          <target state="translated">映射网络驱动器︰ 您可以使用 <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> 参数 <bpt id="p2">**</bpt>New-psdrive<ept id="p2">**</ept> 来创建 Windows 映射网络驱动器。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Unlike temporary Windows PowerShell drives, Windows mapped network drives are not session-specific; they are saved in Windows and they can be managed by using standard Windows tools, such as File Explorer and Net Use.</source>
+          <target state="translated">与临时 Windows PowerShell 驱动器不同，Windows 映射网络驱动器不是会话特定的驱动器；它们保存在 Windows 中并且可以通过使用标准的 Windows 工具（例如文件资源管理器或 Net Use）进行管理。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Mapped network drives must have a drive-letter name and be connected to a remote file system location.</source>
+          <target state="translated">映射网络驱动器必须以驱动器号命名，并且连接到某个远程文件系统位置。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When your command is scoped locally (no dot-sourcing), the <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> parameter doesn't persist the creation of a PSDrive beyond the scope in which the command is running.</source>
+          <target state="translated">当您的命令的作用范围是本地 （无点溯源），则 <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> 参数不会保留在其中运行该命令的作用域之外的 PSDrive 的创建。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you are running New-PSDrive inside of a script, and you want the drive to persist indefinitely, you must dot-source the script.</source>
+          <target state="translated">如果在一个脚本内运行 New-psdrive 并且你想要无限期地保留的驱动器，则必须点源脚本。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For best results, to force a new drive to persist indefinitely, add the <bpt id="p1">**</bpt>Scope<ept id="p1">**</ept> parameter to your command, and set its value to <bpt id="p2">**</bpt>Global<ept id="p2">**</ept>.</source>
+          <target state="translated">为获得最佳结果，若要强制要无限期地保留的新驱动器，请添加 <bpt id="p1">**</bpt>范围<ept id="p1">**</ept> 参数与您的命令，并将其值设置为 <bpt id="p2">**</bpt>全局<ept id="p2">**</ept>。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>External drives: When an external drive is connected to the computer, Windows PowerShell automatically adds a PSDrive to the file system that represents the new drive.</source>
+          <target state="translated">外部驱动器︰ 当外部驱动器连接到计算机时，Windows PowerShell 自动将 PSDrive 添加到代表新驱动器的文件系统。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You do not need to restart Windows PowerShell.</source>
+          <target state="translated">你无需重启 Windows PowerShell。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Similarly, when an external drive is disconnected from the computer, Windows PowerShell automatically deletes the PSDrive that represents the removed drive.</source>
+          <target state="translated">简单来说，当从计算机断开连接外部驱动器时，Windows PowerShell 会自动删除代表删除的驱动器的 PSDrive。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Credentials for UNC Paths: When the value of the <bpt id="p1">**</bpt>Root<ept id="p1">**</ept> parameter is a UNC path, such as <ph id="ph1">\\\\</ph>Server\Share, the credential specified in the value of the <bpt id="p2">**</bpt>Credential<ept id="p2">**</ept> parameter is used to create the PSDrive.</source>
+          <target state="translated">UNC 路径的凭据︰ 时的值 <bpt id="p1">**</bpt>根<ept id="p1">**</ept> 参数是一个 UNC 路径，如 <ph id="ph1">\\\\</ph>服务器 \ 共享中的值指定的凭据 <bpt id="p2">**</bpt>凭据<ept id="p2">**</ept> 参数用于创建 PSDrive。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Otherwise, the <bpt id="p1">**</bpt>Credential<ept id="p1">**</ept> parameter is not effective when creating new file system drives.</source>
+          <target state="translated">否则为 <bpt id="p1">**</bpt>凭据<ept id="p1">**</ept> 创建新文件系统驱动器中时，可能不是有效参数。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 示例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command creates a temporary Windows PowerShell drive named P: that is mapped to the <ph id="ph1">\\\\</ph>Server01\Public network share.</source>
+          <target state="translated">此命令将创建一个名为映射到的 p︰ 的临时 Windows PowerShell 驱动器 <ph id="ph1">\\\\</ph>Server01\Public 网络共享。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a name for the drive, the <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parameter to specify the Windows PowerShell FileSystem provider, and the <bpt id="p3">**</bpt>Root<ept id="p3">**</ept> parameter to specify the network share.</source>
+          <target state="translated">它使用 <bpt id="p1">**</bpt>名称<ept id="p1">**</ept> 参数来指定该驱动器的名称 <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> 参数来指定 Windows PowerShell FileSystem 提供程序，与 <bpt id="p3">**</bpt>根<ept id="p3">**</ept> 参数来指定网络共享。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When the command completes, the contents of the <ph id="ph1">\\\\</ph>Server01\Public share appear in the P: drive.</source>
+          <target state="translated">该命令完成后，内容 <ph id="ph1">\\\\</ph>Server01\Public 共享出现 p︰ 驱动器中。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To see them, type: "<ph id="ph1">`dir P:`</ph>".</source>
+          <target state="translated">若要查看这些内容，请键入：“<ph id="ph1">`dir P:`</ph>”。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command creates a temporary Windows PowerShell drive that provides quick access to a local directory.</source>
+          <target state="translated">此命令创建一个临时 Windows PowerShell 驱动器，用于对本地目录进行快速访问。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It creates a drive named MyDocs: that is mapped to the "C:\Documents and Settings\User01\My Documents" directory on the local computer.</source>
+          <target state="translated">它创建一个名为 MyDocs: 的驱动器，该驱动器映射到本地计算机的“C:\Documents and Settings\User01\My Documents”目录。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a name for the drive, the <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parameter to specify the Windows PowerShell FileSystem provider, the <bpt id="p3">**</bpt>Root<ept id="p3">**</ept> parameter to specify the path to the My Documents folder, and the <bpt id="p4">**</bpt>Description<ept id="p4">**</ept> parameter to create a description of the drive.</source>
+          <target state="translated">它使用 <bpt id="p1">**</bpt>名称<ept id="p1">**</ept> 参数来指定该驱动器的名称 <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> 参数来指定 Windows PowerShell FileSystem 提供程序， <bpt id="p3">**</bpt>根<ept id="p3">**</ept> 参数来指定 My Documents 文件夹的路径和 <bpt id="p4">**</bpt>说明<ept id="p4">**</ept> 参数以创建该驱动器的描述。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When the command completes, the contents of the My Documents folder appear in the MyDocs: drive.</source>
+          <target state="translated">该命令完成后，My Documents 文件夹的内容即会显示在 MyDocs: 驱动器中。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To see them, type: "dir MyDocs:".</source>
+          <target state="translated">若要查看这些内容，请键入：“dir MyDocs:”。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This command creates a temporary Windows PowerShell drive that provides quick access to a frequently checked registry key.</source>
+          <target state="translated">此命令创建一个临时 Windows PowerShell 驱动器，用于对经常查看的注册表项进行快速访问。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It creates a drive named MyCompany that is mapped to the HKLM\Software\MyCompany registry key.</source>
+          <target state="translated">该命令创建一个名为 MyCompany 的驱动器，该驱动器映射到 HKLM\Software\MyCompany 注册表项。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a name for the drive, the <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parameter to specify the Windows PowerShell Registry provider, and the <bpt id="p3">**</bpt>Root<ept id="p3">**</ept> parameter to specify the registry key.</source>
+          <target state="translated">它使用 <bpt id="p1">**</bpt>名称<ept id="p1">**</ept> 参数来指定该驱动器的名称 <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> 参数来指定 Windows PowerShell Registry 提供程序，与 <bpt id="p3">**</bpt>根<ept id="p3">**</ept> 参数来指定注册表项。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When the command completes, the contents of the MyCompany key appear in the MyCompany: drive.</source>
+          <target state="translated">该命令完成后，MyCompany 项的内容即会显示在 MyCompany: 驱动器中。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To see them, type: "<ph id="ph1">`dir MyCompany:`</ph>".</source>
+          <target state="translated">若要查看这些内容，请键入：“<ph id="ph1">`dir MyCompany:`</ph>”。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This command creates the "S" mapped network drive on the local computer.</source>
+          <target state="translated">此命令在本地计算机上创建“S”映射网络驱动器。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The "S" drive is mapped to the <ph id="ph1">\\\\</ph>Server01\Scripts network share.</source>
+          <target state="translated">"S"驱动器映射到 <ph id="ph1">\\\\</ph>Server01\Scripts 网络共享。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> cmdlet to create the mapped network drive.</source>
+          <target state="translated">该命令使用 <bpt id="p1">**</bpt>New-psdrive<ept id="p1">**</ept> cmdlet 创建映射的网络驱动器。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> parameter to create a Windows mapped network drive that is saved on the local computer.</source>
+          <target state="translated">它使用 <bpt id="p1">**</bpt>Persist<ept id="p1">**</ept> 参数来创建 Windows 映射网络驱动器保存在本地计算机上。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The command uses the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter to specify a letter name that Windows accepts and the <bpt id="p2">**</bpt>Root<ept id="p2">**</ept> parameter to specify a location on a remote computer.</source>
+          <target state="translated">该命令使用 <bpt id="p1">**</bpt>名称<ept id="p1">**</ept> 参数来指定的驱动器号名称，Windows 接受和 <bpt id="p2">**</bpt>根<ept id="p2">**</ept> 参数来指定远程计算机上的位置。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> parameter to specify the FileSystem provider.</source>
+          <target state="translated">它使用 <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> 参数指定 FileSystem 提供程序。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The resulting drive can be viewed in other Windows PowerShell sessions on the local computer, in Windows Explorer, and in other tools, such as Net Use.</source>
+          <target state="translated">最终创建的驱动器可以在本地计算机上的其他 Windows PowerShell 会话、Windows 资源管理器及 Net Use 等其他工具中查看。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 5 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 5 --------------------------</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This example shows the difference between a persistent mapped network drive and a temporary Windows PowerShell drive that is mapped to the same network share.</source>
+          <target state="translated">此示例显示了永久映射网络驱动器与映射到同一网络共享的临时 Windows PowerShell 驱动器之间的差异。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">指定有权执行此操作的用户帐户。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">默认为当前用户。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01".</source>
+          <target state="translated">键入用户名，例如“User01”或“Domain01\User01”。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Or, enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">或者，输入 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> 对象，例如由 Get-credential cmdlet 生成。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If you type a user name, you will be prompted for a password.</source>
+          <target state="translated">如果键入用户名，则将提示你输入密码。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, when the value of the <bpt id="p1">**</bpt>Root<ept id="p1">**</ept> parameter is a UNC path, you can use credentials to create file system drives.</source>
+          <target state="translated">从 Windows PowerShell 3.0 开始时的值 <bpt id="p1">**</bpt>根<ept id="p1">**</ept> 参数是 UNC 路径，可以使用凭据来创建文件系统驱动器。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This parameter is not supported by all Windows PowerShell providers.</source>
+          <target state="translated">并非所有的 Windows PowerShell 提供程序都支持此参数。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-Description</source>
+          <target state="translated">-Description</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies a brief text description of the drive.</source>
+          <target state="translated">指定驱动器的简短文本说明。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Type any string.</source>
+          <target state="translated">键入任意字符串。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To see the descriptions of all of the drives in the session, type "<ph id="ph1">`Get-PSDrive | Format-Table Name, Description`</ph>".</source>
+          <target state="translated">若要查看所有会话中的驱动器的说明，请键入"<ph id="ph1">`Get-PSDrive | Format-Table Name, Description`</ph>"。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To see the description of a particular drives, type "<ph id="ph1">`(Get-PSDrive \&lt;DriveName\&gt;).Description`</ph>".</source>
+          <target state="translated">若要查看某个特定驱动器的说明，请键入"<ph id="ph1">`(Get-PSDrive \&lt;DriveName\&gt;).Description`</ph>"。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Specifies a name for the new drive.</source>
+          <target state="translated">指定新驱动器的名称。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For persistent mapped network drives, type a drive letter.</source>
+          <target state="translated">对于永久映射网络驱动器，请键入驱动器号。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For temporary Windows PowerShell drives, type any valid string; you are not limited to drive letters.</source>
+          <target state="translated">对于临时 Windows PowerShell 驱动器，请键入任意有效字符串；不必局限于驱动器号。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-Persist</source>
+          <target state="translated">非持久性</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Creates a Windows mapped network drive.</source>
+          <target state="translated">创建 Windows 映射网络驱动器。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Mapped network drives are saved in Windows on the local computer.</source>
+          <target state="translated">映射网络驱动器保存于本地计算机的 Windows 中。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>They are persistent, not session-specific, and can be viewed and managed in File Explorer and other tools.</source>
+          <target state="translated">它们是非会话特定的永久性驱动器，可以在文件资源管理器及其他工具中进行查看和管理。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When you scope the command locally (that is, without dot-sourcing), the Persist parameter won't persist the creation of a PSDrive beyond the scope in which you run the command.</source>
+          <target state="translated">当您限定范围的本地命令 （即，不带圆点溯源），保留参数将不会保留在其中运行该命令的作用域之外的 PSDrive 的创建。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If you run the New-PSDrive cmdlet inside of a script, and you want the new drive to persist indefinitely, you must dot-source the script.</source>
+          <target state="translated">如果您运行一个脚本内的 New-psdrive cmdlet，并且你想要无限期地保留的新驱动器，则必须点源脚本。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For best results, to force a new drive to persist, specify Global as the value of the <bpt id="p1">**</bpt>Scope<ept id="p1">**</ept> parameter, as well as adding the Persist parameter to your command.</source>
+          <target state="translated">为获得最佳结果，以强制要保留的新驱动器，请指定全局作为值的 <bpt id="p1">**</bpt>范围<ept id="p1">**</ept> 参数，以及将保留参数添加到您的命令。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The name of the drive must be a letter, such as D or E. The value of the <bpt id="p1">**</bpt>Root<ept id="p1">**</ept> parameter must be a UNC path to a different computer.</source>
+          <target state="translated">驱动器的名称必须是字母，例如 D 或 E值 <bpt id="p1">**</bpt>根<ept id="p1">**</ept> 参数必须是另一台计算机的 UNC 路径。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> parameter must be FileSystem.</source>
+          <target state="translated">值 <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> 参数必须是文件系统。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To disconnect a Windows mapped network drive, use the Remove-PSDrive cmdlet.</source>
+          <target state="translated">若要断开 Windows 映射网络驱动器，请使用 Remove-psdrive cmdlet。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>When you disconnect a Windows mapped network drive, the mapping is permanently deleted from the computer, not just deleted from the current session.</source>
+          <target state="translated">在断开 Windows 映射网络驱动器时，将从计算机中永久删除该映射，而不仅是从当前会话中删除。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>NOTE: Mapped network drives are specific to a user account.</source>
+          <target state="translated">注意：映射网络驱动器特定于用户帐户。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Mapped network drives that you create in sessions that are started with the "Run as administrator" option or with the credential of another user are not visible in a session that you started without explicit credentials, or with the credentials of the current user.</source>
+          <target state="translated">使用"以管理员身份运行"选项启动或使用另一用户的凭据是可见的如果没有显式凭据，或使用当前用户的凭据启动的会话的会话中创建的映射的网络驱动器。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-PSProvider</source>
+          <target state="translated">-PSProvider</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Specifies the Windows PowerShell provider that supports drives of this type.</source>
+          <target state="translated">指定支持此类型的驱动器的 Windows PowerShell 提供程序。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For example, if the drive is associated with a network share or file system directory, the Windows PowerShell provider is "FileSystem".</source>
+          <target state="translated">例如，如果驱动器与网络共享或文件系统目录相关联，Windows PowerShell 提供程序将为"FileSystem"。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If the drive is associated with a registry key, the provider is "Registry".</source>
+          <target state="translated">如果驱动器与注册表项关联，则提供程序为“Registry”。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Temporary Windows PowerShell drives can be associated with any Windows PowerShell provider.</source>
+          <target state="translated">临时 Windows PowerShell 驱动器可以与任何 Windows PowerShell 提供程序关联。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Mapped network drives can be associated only with the FileSystem provider.</source>
+          <target state="translated">映射网络驱动器仅可与 FileSystem 提供程序关联。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To see a list of the providers in your Windows PowerShell session, use the Get-PSProvider cmdlet.</source>
+          <target state="translated">若要查看 Windows PowerShell 会话中的提供程序的列表，请使用 Get-psprovider cmdlet。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-Root</source>
+          <target state="translated">根</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Specifies the data store location to which a Windows PowerShell drive is mapped.</source>
+          <target state="translated">指定 Windows PowerShell 驱动器映射到的数据存储位置。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For example, specify a network share (such as <ph id="ph1">\\\\</ph>Server01\Public), a local directory (such as C:\Program Files), or a registry key (such as HKLM:\Software\Microsoft).</source>
+          <target state="translated">例如，指定网络共享 (如 <ph id="ph1">\\\\</ph>Server01\Public)，本地目录 （如 C:\Program Files) 或注册表项 （如 hklm: \ software\microsoft)。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Temporary Windows PowerShell drives can be associated with a local or remote location on any supported provider drive.</source>
+          <target state="translated">临时 Windows PowerShell 驱动器可以与任何受支持的提供程序驱动器上的本地或远程位置关联。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Mapped network drives can be associated only with a file system location on a remote computer.</source>
+          <target state="translated">映射网络驱动器只能与远程计算机上的文件系统位置关联。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-Scope</source>
+          <target state="translated">作用域</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Specifies a scope for the drive.</source>
+          <target state="translated">指定驱动器的作用域。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Valid values are "<bpt id="p1">**</bpt>Global<ept id="p1">**</ept>", "<bpt id="p2">**</bpt>Local<ept id="p2">**</ept>", or "<bpt id="p3">**</bpt>Script<ept id="p3">**</ept>", or a number relative to the current scope (0 through the number of scopes, where 0 is the current scope and 1 is its parent).</source>
+          <target state="translated">有效值为"<bpt id="p1">**</bpt>全局<ept id="p1">**</ept>"，"<bpt id="p2">**</bpt>本地<ept id="p2">**</ept>"，或"<bpt id="p3">**</bpt>脚本<ept id="p3">**</ept>"，或者相对于当前作用域 (0 到作用域，其中 0 是当前作用域，1 是其父级的数)。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>"<bpt id="p1">**</bpt>Local<ept id="p1">**</ept>" is the default.</source>
+          <target state="translated">"<bpt id="p1">**</bpt>本地<ept id="p1">**</ept>"是默认设置。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Scopes (http://go.microsoft.com/fwlink/?LinkID=113260).</source>
+          <target state="translated">有关详细信息，请参阅 about_Scopes (http://go.microsoft.com/fwlink/?LinkID=113260)。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">将提示您在运行 cmdlet 前进行确认。将提示您在运行 cmdlet 前进行确认。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">显示如果运行 cmdlet 则会发生什么情况。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">该 cmdlet 不会运行。显示在 cmdlet 运行时，会发生什么情况。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">cmdlet 未运行。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-UseTransaction</source>
+          <target state="translated">-UseTransaction</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Includes the command in the active transaction.</source>
+          <target state="translated">在活动事务中使用该命令。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">仅当正在执行事务时，此参数才有效。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For more information, see Includes the command in the active transaction.</source>
+          <target state="translated">有关详细信息，请参阅包括在活动事务中的命令。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">仅当正在执行事务时，此参数才有效。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For more information, see</source>
+          <target state="translated">有关详细信息，请参阅本主题后面的</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">无</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">不能通过管道将输入传递给此 cmdlet。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSDriveInfo</source>
+          <target state="translated">即 System.Management.Automation.PSDriveInfo</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> cmdlet is designed to work with the data exposed by any provider.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>New-psdrive<ept id="p1">**</ept> cmdlet 用于处理由任何提供程序公开的数据。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To list the providers available in your session, use the Get-PSProvider cmdlet.</source>
+          <target state="translated">若要列出会话中可用的提供程序，请使用 Get-psprovider cmdlet。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For more information about providers, see about_Providers (http://go.microsoft.com/fwlink/?LinkID=113250).</source>
+          <target state="translated">有关提供程序的详细信息，请参阅 about_Providers (http://go.microsoft.com/fwlink/?LinkID=113250)。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Mapped network drives are specific to a user account.</source>
+          <target state="translated">映射网络驱动器特定于用户帐户。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Mapped network drives that you create in sessions that are started with the "Run as administrator" option or with the credential of another user are not visible in a session that you started without explicit credentials, or with the credentials of the current user.</source>
+          <target state="translated">使用"以管理员身份运行"选项启动或使用另一用户的凭据是可见的如果没有显式凭据，或使用当前用户的凭据启动的会话的会话中创建的映射的网络驱动器。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Get-PSDrive</source>
+          <target state="translated">Get-PSDrive</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Remove-PSDrive</source>
+          <target state="translated">Remove-PSDrive</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>about_Providers</source>
+          <target state="translated">about_Providers</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

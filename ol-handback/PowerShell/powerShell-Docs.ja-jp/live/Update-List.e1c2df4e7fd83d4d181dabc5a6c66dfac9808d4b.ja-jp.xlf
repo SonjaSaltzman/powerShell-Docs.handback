@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">300a8a8f1143d88199aa8fd5a28ea8a546d5f102</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\3.0\Microsoft.PowerShell.Utility\Update-List.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4ae5db1e45eb6315f4d2333aa3780adbd3363ea2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c91ff60152840c25fe9890519396ff6685595c0a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Update-List</source>
+          <target state="translated">Update-List</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Update-List</source>
+          <target state="translated">Update-List</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Adds items to and removes items from a property value that contains a collection of objects.</source>
+          <target state="translated">オブジェクトのコレクションを格納するプロパティ値の項目を追加または削除します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>AddRemoveSet (Default)</source>
+          <target state="translated">AddRemoveSet (既定値)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ReplaceSet</source>
+          <target state="translated">ReplaceSet</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Update-List cmdlet adds items to and removes items from a property value of an object, and then it returns the updated object.</source>
+          <target state="translated">Update-List コマンドレットは、オブジェクトのプロパティ値の項目を追加または削除し、更新したオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This cmdlet is designed for properties that contain collections of objects.</source>
+          <target state="translated">このコマンドレットは、オブジェクトのコレクションを格納するプロパティ用に設計されています。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Add and Remove parameters add individual items to and remove them from the collection.</source>
+          <target state="translated">コレクションの各項目を Add パラメーターで追加し、Remove パラメーターで削除します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Replace parameter replaces the entire collection.</source>
+          <target state="translated">Replace パラメーターは、コレクション全体を置き換えます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you do not specify a property in the command, Update-List returns an object that describes the update instead of updating the object.</source>
+          <target state="translated">コマンドでプロパティが指定されていない場合、Update-List は、オブジェクトを更新する代わりに更新を記述するオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can submit the update object to cmdlets that change objects, such as Set-* cmdlets.</source>
+          <target state="translated">Set-* コマンドレットなどオブジェクトを変更するコマンドレットに、更新オブジェクトを送信できます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This cmdlet works only when the property that is being updated supports the IList interface that Update-List uses.</source>
+          <target state="translated">このコマンドレットは、更新されるプロパティが Update-List で使用する IList インターフェイスをサポートしている場合にのみ機能します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Also, any Set-* cmdlets that accept an update must support the IList interface.</source>
+          <target state="translated">また、更新を受け取る Set-* コマンドレットは IList インターフェイスをサポートする必要があります。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The core cmdlets that are installed with Windows PowerShell do not support this interface.</source>
+          <target state="translated">Windows PowerShell でインストールされているコア コマンドレットは、このインターフェイスをサポートしません。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To determine whether a cmdlet supports Update-List, see the cmdlet Help topic.</source>
+          <target state="translated">コマンドレットが Update-List をサポートするかどうかを判断するには、コマンドレットのヘルプ トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command adds A and B and removes X and Y from the Aliases property of a mailbox.</source>
+          <target state="translated">このコマンドは、メールボックスの Aliases プロパティの A と B を追加し、X と Y を削除します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-MailBox cmdlet from Microsoft Exchange Server to get the mailbox.</source>
+          <target state="translated">このコマンドは、Get-MailBox コマンドレットを使用して、Microsoft Exchange Server からメールボックスを取得します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A pipeline operator sends the mailbox object to the Update-List cmdlet.</source>
+          <target state="translated">パイプライン演算子は、メールボックス オブジェクトを Update-List コマンドレットに送信します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The Update-List command uses the Property parameter to indicate that the Aliases property of the mailbox is being updated, and it uses the Add and Remove parameters to specify the items that are being added and removed from the collection.</source>
+          <target state="translated">Update-List コマンドは、Property パラメーターを使用してメールボックスの Aliases プロパティを更新し、Add パラメーターと Remove パラメーターを使用してコレクションで追加および削除する項目を指定します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The Aliases property fulfills the conditions of Update-List, because it stores a collection of Microsoft .NET Framework objects that have Add and Remove methods.</source>
+          <target state="translated">Aliases プロパティで、Add メソッドと Remove メソッドを保持する Microsoft .NET Framework オブジェクトのコレクションが格納されるため、Update-List の条件が満たされます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The Update-List cmdlet returns the updated mailbox, which is piped to the Set-MailBox cmdlet, which changes the mailbox.</source>
+          <target state="translated">Update-List コマンドレットで更新されたメールボックスが返され、これがパイプを使用して Set-MailBox コマンドレットに渡され、メール ボックスが変更されます。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information about Get-Mailbox, see http://go.microsoft.com/fwlink/?LinkId=111536.</source>
+          <target state="translated">Get-Mailbox の詳細については、http://go.microsoft.com/fwlink/?LinkId=111536 を参照してください。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This command adds A and B to the value of the Aliases property of a mailbox and removes X and Y. This command has the same effect as the previous command, although it has a slightly different format.</source>
+          <target state="translated">このコマンドは、メールボックスの Aliases プロパティの値に対して A と B を追加し、X と Y を削除します。このコマンドには前のコマンドと同じ効果がありますが、形式が少し異なります。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-MailBox cmdlet to get the mailbox, and it saves the mailbox in the $m variable.</source>
+          <target state="translated">このコマンドは、Get-MailBox コマンドレットを使用してメールボックスを取得し、$m 変数に保存します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command uses the InputObject parameter of Update-List to specify the mailbox.</source>
+          <target state="translated">このコマンドは、Update-List の InputObject パラメーターを使用して、メールボックスを指定します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The value of InputObject is the mailbox in the $m variable.</source>
+          <target state="translated">InputObject の値は、$m 変数内のメールボックスです。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It uses the Property parameter to specify the Aliases property and the Add and Remove parameters to specify the items being added to and removed from the value of Aliases.</source>
+          <target state="translated">Property パラメーターを使用して Aliases プロパティが指定され、Add パラメーターと Remove パラメーターを使用して追加および削除する Aliases の値の項目が指定されます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The command uses a pipeline operator (|) to send the updated mailbox object to the Set-Mailbox cmdlet, which changes the mailbox.</source>
+          <target state="translated">このコマンドは、パイプライン演算子 (|) を使用して、メールボックスを変更する Set-Mailbox コマンドレットに更新されたメールボックス オブジェクトを送信します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This command adds A and B to the value of the Aliases property of a mailbox and removes X and Y. This command has the same effect as the two previous commands, but it uses a different procedure to perform the task.</source>
+          <target state="translated">このコマンドは、メールボックスの Aliases プロパティの値に対して A と B を追加し、X と Y を削除します。このコマンドには、前の 2 つのコマンドと同じ効果がありますが、タスクを実行する手順は異なります。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Instead of updating the Aliases property of the mailbox before sending it to Set-Mailbox, this command uses Update-List to create an object that represents the change.</source>
+          <target state="translated">メールボックスの Aliases プロパティを更新してから Set-Mailbox に送信する代わりに、このコマンドは、Update-List を使用して変更を表すオブジェクトを作成します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Then it submits the change to the Alias parameter of Set-Mailbox.</source>
+          <target state="translated">次に、その変更を Set-Mailbox の Alias パラメーターに送信します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-MailBox cmdlet to get the mailbox.</source>
+          <target state="translated">このコマンドは、Get-MailBox コマンドレットを使用して、メールボックスを取得します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A pipeline operator sends the mailbox object to the Set-Mailbox cmdlet, which changes mailboxes.</source>
+          <target state="translated">パイプライン演算子は、メールボックスを変更する Set-Mailbox コマンドレットにメールボックス オブジェクトを送信します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The command uses the Alias parameter of Set-Mailbox to change the Aliases property of the mailbox object.</source>
+          <target state="translated">このコマンドは、Set-Mailbox の Alias パラメーターを使用して、メールボックスの Aliases プロパティを変更します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The value of the Alias parameter is an Update-List command that creates an object that represents the update.</source>
+          <target state="translated">Alias パラメーターの値は、更新を表すオブジェクトを作成する Update-List コマンドです。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The Update-List command is enclosed in parentheses to ensure that it runs before the value of the Alias parameter is evaluated.</source>
+          <target state="translated">Update-List コマンドは、Alias パラメーターの値が評価される前に動作するようにかっこで囲まれています。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When the Set-Mailbox command completes, the mailbox is changed.</source>
+          <target state="translated">Set-Mailbox コマンドが完了したら、メールボックスが変更されます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 4 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 4 --------------------------</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This command uses the Replace operator of Update-List to replace the collection in the Aliases property of the object in $a with a new collection.</source>
+          <target state="translated">このコマンドは、Update-List の Replace 演算子を使用して、$a 内のオブジェクトの Aliases プロパティ内のコレクションを新しいコレクションで置き換えます。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This command uses the InputObject parameter which, in this case, is equivalent to using a pipeline operator to pass $a to Update-List.</source>
+          <target state="translated">このコマンドは InputObject パラメーターを使用しますが、これはパイプライン演算子で $a を Update-List に渡すことに相当します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-Add</source>
+          <target state="translated">-Add</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Specifies the property values to be added to the collection.</source>
+          <target state="translated">コレクションに追加するプロパティ値を指定します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Enter the values in the order that they should appear in the collection.</source>
+          <target state="translated">コレクションに表示する順序で値を入力します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-InputObject</source>
+          <target state="translated">-Inputobject</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Specifies the objects to be updated.</source>
+          <target state="translated">更新するオブジェクトを指定します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You can also pipe the object to be updated to Update-List.</source>
+          <target state="translated">パイプを使用して、更新するオブジェクトを Update-List に渡すこともできます。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-Property</source>
+          <target state="translated">-プロパティ</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Identifies the property that contains the collection that is being updated.</source>
+          <target state="translated">更新するコレクションを格納するプロパティを識別します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you omit this parameter, Update-List returns an object that represents the change instead of changing the object.</source>
+          <target state="translated">このパラメーターを省略すると、Update-List は、オブジェクトを変更する代わりに変更を表すオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-Remove</source>
+          <target state="translated">-Remove</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specifies the property values to be removed from the collection.</source>
+          <target state="translated">コレクションから削除するプロパティ値を指定します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-Replace</source>
+          <target state="translated">置換</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specifies a new collection.</source>
+          <target state="translated">新しいコレクションを指定します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This parameter replaces all items in the original collection with the items specified by this parameter.</source>
+          <target state="translated">このパラメーターは、元のコレクション内のすべての項目を、このパラメーターで指定された項目で置き換えます。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSObject</source>
+          <target state="translated">System.Management.Automation.PSObject</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You can pipe the objects to be updated to Update-List.</source>
+          <target state="translated">パイプを使用して、更新するオブジェクトを Update-List に渡すことができます。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Objects or System.Management.Automation.PSListModifier</source>
+          <target state="translated">オブジェクトまたは System.Management.Automation.PSListModifier</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Update-List returns the updated object, or it returns an object that represents the update action.</source>
+          <target state="translated">Update-List は、更新するオブジェクトを返すか、更新アクションを表すオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Select-Object</source>
+          <target state="translated">Select-Object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

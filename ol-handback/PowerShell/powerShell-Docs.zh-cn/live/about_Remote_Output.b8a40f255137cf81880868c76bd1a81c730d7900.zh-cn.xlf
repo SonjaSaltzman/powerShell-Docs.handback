@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3ba6bf9c37a361711af17b5a0cb4fe72dbbf3073</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\About\about_Remote_Output.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fbf581bc4e57f489f2ffb3bdc7dc79ef1d4663fe</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b47b67a14bcf01e165206fd160b3e8099bce0fb6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Remote_Output</source>
+          <target state="translated">about_Remote_Output</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Remote Output</source>
+          <target state="translated">有关远程输出</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Remote_Output</source>
+          <target state="translated">about_Remote_Output</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>TOPIC</source>
+          <target state="translated">TOPIC</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>about_Remote_Output</source>
+          <target state="translated">about_Remote_Output</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">简短说明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Describes how to interpret and format the output of remote commands.</source>
+          <target state="translated">描述如何解释和格式化远程命令的输出。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">详细说明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The output of a command that was run on a remote computer might look like output of the same command run on a local computer, but there are some significant differences.</source>
+          <target state="translated">在远程计算机运行命令的输出可能如下所示相同的本地计算机上运行的命令的输出，但有一些重要差异。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This topic explains how to interpret, format, and display the output of commands that are run on remote computers.</source>
+          <target state="translated">本主题说明如何解释、 设置格式，并显示在远程计算机运行的命令的输出。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>DISPLAYING THE COMPUTER NAME</source>
+          <target state="translated">显示计算机名称</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When you use the Invoke-Command cmdlet to run a command on a remote computer, the command returns an object that includes the name of the computer that generated the data.</source>
+          <target state="translated">当使用 Invoke-command cmdlet 在远程计算机上运行命令时，该命令将返回一个对象，包括生成的数据的计算机的名称。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The remote computer name is stored in the PSComputerName property.</source>
+          <target state="translated">远程计算机名称存储在 PSComputerName 属性。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For many commands, the PSComputerName is displayed by default.</source>
+          <target state="translated">对于多数命令，默认情况下显示 PSComputerName。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, the following command runs a Get-Culture command on two remote computers, Server01 and Server02.</source>
+          <target state="translated">例如，以下命令在两台远程计算机 Server01 和 Server02 上运行 Get-culture 命令。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The output, which appears below, includes the names of the remote computers on which the command ran.</source>
+          <target state="translated">输出如下所示，包括该命令已运行的远程计算机的名称。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; invoke-command -script {get-culture} -comp Server01, Server02</source>
+          <target state="translated">C:\PS &gt; 调用命令的脚本 {get 区域性}-comp Server01、 Server02</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>LCID  Name    DisplayName                PSComputerName</source>
+          <target state="translated">LCID 名称 DisplayName PSComputerName</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>1033  en-US   English (United States)    Server01 1033  es-AR   Spanish (Argentina)        Server02</source>
+          <target state="translated">1033 EN-US 英语 （美国） Server01 1033 es AR 西班牙语 （阿根廷） Server02</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can use the HideComputerName parameter of Invoke-Command to hide the PSComputerName property.</source>
+          <target state="translated">Invoke-command 的 HideComputerName 参数可用于隐藏 PSComputerName 属性。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This parameter is designed for commands that collect data from only one remote computer.</source>
+          <target state="translated">此参数被用于从只有一台远程计算机中收集数据的命令。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following command runs a Get-Culture command on the Server01 remote computer.</source>
+          <target state="translated">以下命令在 Server01 远程计算机上运行 Get-culture 命令。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It uses the HideComputerName parameter to hide the PSComputerName property and related properties.</source>
+          <target state="translated">它使用 HideComputerName 参数以隐藏 PSComputerName 属性和相关的属性。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; invoke-command -scr {get-culture} -comp Server01 -HideComputerName</source>
+          <target state="translated">C:\PS &gt; 调用命令 scr {get 区域性}-comp Server01 HideComputerName</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>LCID             Name             DisplayName</source>
+          <target state="translated">LCID 名称显示名称</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>1033             en-US            English (United States)</source>
+          <target state="translated">1033 EN-US 英语 （美国）</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can also display the PSComputerName property if it is not displayed by default.</source>
+          <target state="translated">如果它不会显示默认情况下，您还可以显示 PSComputerName 属性。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example, the following commands use the Format-Table cmdlet to add the PSComputerName property to the output of a remote Get-Date command.</source>
+          <target state="translated">例如，以下命令使用 Format-table cmdlet 将 PSComputerName 属性添加到远程的 Get-date 命令的输出。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; $dates = invoke-command -script {get-date} -computername Server01, Server02 C:\PS&gt; $dates | format-table DateTime, PSComputerName -auto</source>
+          <target state="translated">C:\PS &gt; $dates = 调用命令的脚本 {get date}-computername Server01、 Server02 C:\PS &gt; $dates |表格格式的日期时间、 PSComputerName-自动</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>DateTime                            PSComputerName</source>
+          <target state="translated">DateTime PSComputerName</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Monday, July 21, 2008 7:16:58 PM    Server01 Monday, July 21, 2008 7:16:58 PM    Server02</source>
+          <target state="translated">2008 年 7 月 21 日，星期一 7:16:58 PM Server01 2008 年 7 月 21 日，星期一 7:16:58 PM Server02</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>DISPLAYING THE MACHINENAME PROPERTY</source>
+          <target state="translated">显示 MACHINENAME 属性</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Several cmdlets, including Get-Process, Get-Service, and Get-EventLog, have a ComputerName parameter that gets the objects on a remote computer.</source>
+          <target state="translated">多个 cmdlet，包括获取进程、 Get 服务和 Get-eventlog，具有 ComputerName 参数可获取远程计算机上的对象。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These cmdlets do not use Windows PowerShell remoting, so you can use them even on computers that are not configured for remoting in Windows PowerShell.</source>
+          <target state="translated">这些 cmdlet 不要使用 Windows PowerShell 远程处理，因此您可以使用它们甚至在没有配置的计算机上用于在 Windows PowerShell 远程处理。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The objects that these cmdlets return store the name of the remote computer in the MachineName property.</source>
+          <target state="translated">这些 cmdlet 返回的对象存储在 MachineName 属性的远程计算机的名称。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>(These objects do not have a PSComputerName property.)</source>
+          <target state="translated">（这些对象没有 PSComputerName 属性。）</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, this command gets the PowerShell process on the Server01 and Server02 remote computers.</source>
+          <target state="translated">例如，此命令在 Server01 和 Server02 远程计算机上获取的 PowerShell 进程。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default display does not include the MachineName property.</source>
+          <target state="translated">默认显示不包括 MachineName 属性。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; get-process PowerShell -computername server01, server02</source>
+          <target state="translated">C:\PS &gt; 获取进程 PowerShell-computername server01、 server02</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName</source>
+          <target state="translated">处理 npm （k) pm （k) ws （k) vm （m) CPU(s) Id ProcessName</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>920      38    97524     114504   575     9.66   2648 PowerShell 194       6    24256      32384   142            3020 PowerShell 352      27    63472      63520   577     3.84   4796 PowerShell</source>
+          <target state="translated">920 38 97524 114504 575 9.66 2648 PowerShell 194 6 24256 32384 142 3020 PowerShell 352 27 63472 63520 577 3.84 4796 PowerShell</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can use the Format-Table cmdlet to display the MachineName property of the process objects.</source>
+          <target state="translated">Format-table cmdlet 可用于显示的进程对象的 MachineName 属性。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, the following command saves the processes in the $p variable and then uses a pipeline operator (|) to send the processes in $p to the Format-Table command.</source>
+          <target state="translated">例如，下面的命令将进程保存在 $p 变量，然后使用管道运算符 (|) 将 $p 中进程发送到 Format-table 命令。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The command uses the Property parameter of Format-Table to include the MachineName property in the display.</source>
+          <target state="translated">该命令使用表格格式的 Property 参数以在显示中包括 MachineName 属性。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; $p = get-process PowerShell -comp Server01, Server02 C:\PS&gt; $P | format-table -property ID, ProcessName, MachineName -auto</source>
+          <target state="translated">C:\PS &gt; $p = 获取进程 PowerShell-comp Server01、 Server02 C:\PS &gt; $P |表格格式的属性 ID、 进程名称、 MachineName-自动</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Id ProcessName MachineName</source>
+          <target state="translated">Id ProcessName MachineName</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>2648 PowerShell  Server02 3020 PowerShell  Server01 4796 PowerShell  Server02</source>
+          <target state="translated">2648 PowerShell Server02 3020 PowerShell Server01 4796 PowerShell Server02</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The following more complex command adds the MachineName property to the default process display.</source>
+          <target state="translated">以下更复杂的命令将 MachineName 属性添加到默认进程显示。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>It uses hash tables to specify calculated properties.</source>
+          <target state="translated">它使用哈希表来指定计算的属性。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Fortunately, you do not have to understand it to use it.</source>
+          <target state="translated">幸运的是，不需要了解它以使用它。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>(Note that the backtick [`] is the continuation character.)</source>
+          <target state="translated">（请注意，反撇号 ['] 继续符。）</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; $p = get-process PowerShell -comp Server01, Server02</source>
+          <target state="translated">C:\PS &gt; $p = 获取进程 PowerShell-comp Server01、 Server02</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>C:\PS&gt; $p | format-table -property Handles, <ph id="ph1">`
+@{Label="NPM(K)";Expression={int}}, `</ph> @{Label="PM(K)";Expression={int}}, <ph id="ph2">`
+@{Label="WS(K)";Expression={int}}, `</ph> @{Label="VM(M)";Expression={int}}, <ph id="ph3">`
+@{Label="CPU(s)";Expression={if ($.CPU -ne $()){ $.CPU.ToString("N")}}}, `</ph> Id, ProcessName, MachineName -auto</source>
+          <target state="translated">C:\PS &gt; $p |表格格式的属性句柄 <ph id="ph1">`
+@{Label="NPM(K)";Expression={int}}, `</ph> @{Label="PM(K)";表达式 = {int}}， <ph id="ph2">`
+@{Label="WS(K)";Expression={int}}, `</ph> @{Label="VM(M)";表达式 = {int}}， <ph id="ph3">`
+@{Label="CPU(s)";Expression={if ($.CPU -ne $()){ $.CPU.ToString("N")}}}, `</ph> Id、 进程名称，MachineName-自动</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Handles NPM(K) PM(K)  WS(K) VM(M) CPU(s)   Id ProcessName MachineName</source>
+          <target state="translated">处理 npm （k) pm （k) ws （k) vm （m) CPU(s) Id ProcessName MachineName</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>920     38 97560 114532   576        2648 PowerShell  Server02 192      6 24132  32028   140        3020 PowerShell  Server01 438     26 48436  59132   565        4796 PowerShell  Server02</source>
+          <target state="translated">920 38 97560 114532 576 2648 PowerShell Server02 192 6 24132 32028 140 3020 PowerShell Server01 438 26 48436 59132 为 565 4796 PowerShell Server02</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>DESERIALIZED OBJECTS</source>
+          <target state="translated">反序列化的对象</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When you run remote commands that generate output, the command output is transmitted across the network back to the local computer.</source>
+          <target state="translated">运行生成输出的远程命令时，命令输出返回到本地计算机在网络传输。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Because most live Microsoft .NET Framework objects (such as the objects that Windows PowerShell cmdlets return) cannot be transmitted over the network, the live objects are "serialized".</source>
+          <target state="translated">不能通过网络传输 （例如，Windows PowerShell cmdlet 返回的对象） 的大多数实时 Microsoft.NET Framework 对象，因为存在的对象进行"序列化"。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In other words, the live objects are converted into XML representations of the object and its properties.</source>
+          <target state="translated">换而言之，存在的对象被转换为对象并将其属性的 XML 表示形式。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Then, the XML-based serialized object is transmitted across the network.</source>
+          <target state="translated">然后，基于 XML 的序列化对象是通过网络传输。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>On the local computer, Windows PowerShell receives the XML-based serialized object and "deserializes" it by converting the XML-based object into a standard .NET Framework object.</source>
+          <target state="translated">在本地计算机上，Windows PowerShell 会收到基于 XML 的序列化对象，并"进行反序列化"通过将基于 XML 的对象转换为标准的.NET Framework 对象。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>However, the deserialized object is not a live object.</source>
+          <target state="translated">但是，反序列化的对象不是活动对象。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It is a snapshot of the object at the time that it was serialized, and it includes properties but no methods.</source>
+          <target state="translated">它是对象的快照已序列化时，它包括属性，但不是包括方法。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can use and manage these objects in Windows PowerShell, including passing them in pipelines, displaying selected properties, and formatting them.</source>
+          <target state="translated">您可以使用和管理这些对象在 Windows PowerShell 中，包括将它们传递在管道中，显示所选的属性和格式设置它们。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Most deserialized objects are automatically formatted for display by entries in the Types.ps1xml or Format.ps1xml files.</source>
+          <target state="translated">大多数反序列化的对象是自动为显示进行格式化的 Types.ps1xml 或 Format.ps1xml 文件中存在的项。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>However, the local computer might not have formatting files for all of the deserialized objects that were generated on a remote computer.</source>
+          <target state="translated">但是，在本地计算机可能没有在远程计算机生成的反序列化对象的所有文件的都格式。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>When objects are not formatted, all of the properties of each object appear in the console in a streaming list.</source>
+          <target state="translated">当未格式化的对象时，所有的每个对象的属性将出现在流式处理列表中的控制台。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>When objects are not formatted automatically, you can use the formatting cmdlets, such as Format-Table or Format-List, to format and display selected properties.</source>
+          <target state="translated">当对象未自动格式化时，可以使用格式设置 cmdlet，如 Format-table 或 Format-list，来格式化并显示所选的属性。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Or, you can use the Out-GridView cmdlet to display the objects in a table.</source>
+          <target state="translated">或者，您可以使用 Out-gridview cmdlet 显示一个表中的对象。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Also, if you run a command on a remote computer that uses cmdlets that you do not have on your local computer, the objects that the command returns might not be formatted properly because you do not have the formatting files for those objects on your computer.</source>
+          <target state="translated">此外，如果使用 cmdlet，您不具有本地计算机上的远程计算机上运行命令，该命令将返回的对象可能不会格式化正确因为您的计算机上没有这些对象的格式设置文件。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To get formatting data from another computer, use the Get-FormatData and Export-FormatData cmdlets.</source>
+          <target state="translated">若要获取格式设置另一台计算机中的数据，使用 Get-formatdata 和 Export-formatdata cmdlet。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Some object types, such as DirectoryInfo objects and GUIDs, are converted back into live objects when they are received.</source>
+          <target state="translated">在到达时，某些对象类型，如 DirectoryInfo 对象和 Guid，被转换回为活动对象。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>These objects do not need any special handling or formatting.</source>
+          <target state="translated">这些对象不需要任何特殊处理，或格式设置。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>ORDERING THE RESULTS</source>
+          <target state="translated">对结果进行排序</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The order of the computer names in the ComputerName parameter of cmdlets determines the order in which Windows PowerShell connects to the remote computers.</source>
+          <target state="translated">Cmdlet 的 ComputerName 参数中的计算机名称的顺序确定在其中 Windows PowerShell 连接到远程计算机的顺序。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>However, the results appear in the order in which the local computer receives them, which might be a different order.</source>
+          <target state="translated">但是，结果将显示，在本地计算机将接收它们，这可能有点不同的顺序的顺序。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To change the order of the results, use the Sort-Object cmdlet.</source>
+          <target state="translated">若要更改结果的顺序，请使用 Sort-object cmdlet。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You can sort on the PSComputerName or MachineName property.</source>
+          <target state="translated">您可以按 PSComputerName 或 MachineName 属性进行排序。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You can also sort on another property of the object so that the results from different computers are interspersed.</source>
+          <target state="translated">您还可以排序对象的另一个属性，以便从不同的计算机的结果交织在一起。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">另请参阅</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>about_Remote about_Remote_Variables Format-Table Get-EventLog Get-Process Get-Service Get-WmiObject Invoke-Command Out-GridView Select-Object</source>
+          <target state="translated">about_Remote about_Remote_Variables Format-table Get-eventlog Get-process Get-service Get-wmiobject Invoke-command Out-gridview Select-object</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5cb83d741c5a255ae33f0f9374f2a77baf8c221</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Send-MailMessage.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">49fe0cfb11505780716cd675efaedce07a93dfeb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e363e617707319a41bfc054a4cefb6c4b55dbaf</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Send-MailMessage</source>
+          <target state="translated">Send-mailmessage</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Send-MailMessage</source>
+          <target state="translated">Send-mailmessage</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Sends an e-mail message.</source>
+          <target state="translated">電子メール メッセージを送信します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Send-MailMessage cmdlet sends an e-mail message from within Windows PowerShell.</source>
+          <target state="translated">Send-MailMessage コマンドレットは、Windows PowerShell 内から電子メール メッセージを送信します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This command sends an e-mail message from User01 to User02.</source>
+          <target state="translated">このコマンドは、電子メール メッセージを User01 から User02 に送信します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The mail message has a subject, which is required, but it does not have a body, which is optional.</source>
+          <target state="translated">件名は必須であるため、このメール メッセージで件名が指定されていますが、本文は省略可能なため、指定されていません。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Also, because the SmtpServer parameter is not specified, Send-MailMessage uses the value of the $PSEmailServer preference variable for the SMTP server.</source>
+          <target state="translated">また、SmtpServer パラメーターが指定されていないため、Send-MailMessage は SMTP サーバーに $PSEmailServer ユーザー設定変数の値を使用します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This command sends an e-mail message with an attachment from User01 to two other users.</source>
+          <target state="translated">このコマンドは、ファイルが添付された電子メール メッセージを User01 から 2 人の別のユーザーに送信します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It specifies a priority value of "High" and requests a delivery notification by e-mail when the e-mail messages are delivered or when they fail.</source>
+          <target state="translated">優先度に "High" の値を指定して、電子メール メッセージが配信されたときやエラーになったときに電子メールによる配信通知を要求します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This command sends an e-mail message from User01 to the ITGroup mailing list with a copy (CC) to User02 and a blind carbon copy (BCC) to the IT manager (ITMgr).</source>
+          <target state="translated">このコマンドは、User01 から ITGroup メーリング リストに電子メール メッセージを送信します。同時に、コピー (CC) をUser02 に、ブラインド カーボン コピー(BCC) を IT マネージャー (ITMgr) に送信します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The command uses the credentials of a domain administrator and the UseSSL parameter.</source>
+          <target state="translated">このコマンドは、ドメイン管理者の資格情報と UseSSL パラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-Attachments</source>
+          <target state="translated">-添付ファイル</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Specifies the path and file names of files to be attached to the e-mail message.</source>
+          <target state="translated">電子メール メッセージに添付するファイルのパスとファイル名を指定します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can use this parameter or pipe the paths and file names to Send-MailMessage.</source>
+          <target state="translated">このパラメーターを使用するか、パイプを使用してパスとファイル名を Send-MailMessage に渡すことができます。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-Bcc</source>
+          <target state="translated">-[Bcc]</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specifies the e-mail addresses that receive a copy of the mail but are not listed as recipients of the message.</source>
+          <target state="translated">メッセージの受信者の一覧に表示されることなくメールのコピーを受信する電子メール アドレスを指定します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Enter names (optional) and the e-mail address, such as "Name <ph id="ph1">\&lt;</ph>someone@example.com<ph id="ph2">\&gt;</ph>".</source>
+          <target state="translated">(省略可能) の名前と電子メール アドレスなどの入力"名 <ph id="ph1">\&lt;</ph>someone@example.com<ph id="ph2">\&gt;</ph>"です。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-Body</source>
+          <target state="translated">本体</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Specifies the body (content) of the e-mail message.</source>
+          <target state="translated">電子メール メッセージの本文 (内容) を指定します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-BodyAsHtml</source>
+          <target state="translated">-BodyAsHtml</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Indicates that the value of the Body parameter contains HTML.</source>
+          <target state="translated">Body パラメーターの値に HTML が使用されることを示します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-Cc</source>
+          <target state="translated">-[Cc]</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Specifies the e-mail addresses to which a carbon copy (CC) of the e-mail message is sent.</source>
+          <target state="translated">電子メール メッセージのカーボン コピー (CC) の送信先である電子メール アドレスを指定します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Enter names (optional) and the e-mail address, such as "Name <ph id="ph1">\&lt;</ph>someone@example.com<ph id="ph2">\&gt;</ph>".</source>
+          <target state="translated">(省略可能) の名前と電子メール アドレスなどの入力"名 <ph id="ph1">\&lt;</ph>someone@example.com<ph id="ph2">\&gt;</ph>"です。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">この処理を実行するアクセス許可を持つユーザー アカウントを指定します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">既定値は現在のユーザーです。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01".</source>
+          <target state="translated">「User01」や「Domain01\User01」などのユーザー名を入力します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Or, enter a PSCredential object, such as one from the Get-Credential cmdlet.</source>
+          <target state="translated">または、Get-Credential コマンドレットで返されるような PSCredential オブジェクトを入力します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-DeliveryNotificationOption</source>
+          <target state="translated">-DeliveryNotificationOption</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specifies the delivery notification options for the e-mail message.</source>
+          <target state="translated">電子メール メッセージの配信通知オプションを指定します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can specify multiple values.</source>
+          <target state="translated">複数の値を指定することができます。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>"None" is the default value.</source>
+          <target state="translated">既定値は "None" です。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The alias for this parameter is "dno".</source>
+          <target state="translated">このパラメーターのエイリアスは "dno" です。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The delivery notifications are sent in an e-mail message to the address specified in the value of the To parameter.</source>
+          <target state="translated">配信通知は、To パラメーターの値で指定したアドレスへの電子メール メッセージ内で送信されます。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Valid values are:</source>
+          <target state="translated">有効な値は、</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>None: No notification.</source>
+          <target state="translated">None: 通知されません。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>OnSuccess: Notify if the delivery is successful.</source>
+          <target state="translated">成功: は、配信が成功した場合に通知します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>OnFailure: Notify if the delivery is unsuccessful.</source>
+          <target state="translated">OnFailure: は、配信が成功した場合に通知します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Delay: Notify if the delivery is delayed.</source>
+          <target state="translated">遅延: は、配信が遅延される場合に通知します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Never: Never notify.</source>
+          <target state="translated">このことはありません。 通知しません。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-Encoding</source>
+          <target state="translated">エンコード</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Specifies the encoding used for the body and subject.</source>
+          <target state="translated">件名と本文に使用するエンコードを指定します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Valid values are ASCII, UTF8, UTF7, UTF32, Unicode, BigEndianUnicode, Default, and OEM.</source>
+          <target state="translated">有効な値は、ASCII、UTF8、UTF7、UTF32、Unicode、BigEndianUnicode、既定値、OEM です。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>ASCII is the default.</source>
+          <target state="translated">既定値は ASCII です。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-From</source>
+          <target state="translated">元</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies the address from which the mail is sent.</source>
+          <target state="translated">メールの送信元アドレスを指定します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Enter a name (optional) and e-mail address, such as "Name <ph id="ph1">\&lt;</ph>someone@example.com<ph id="ph2">\&gt;</ph>".</source>
+          <target state="translated">(省略可能) の名前を入力し、電子メール アドレスなど、"名前 <ph id="ph1">\&lt;</ph>someone@example.com<ph id="ph2">\&gt;</ph>"です。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">このパラメーターは必須です。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-Port</source>
+          <target state="translated">ポート</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specifies an alternate port on the SMTP server.</source>
+          <target state="translated">SMTP サーバーの代替ポートを指定します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The default value is 25, which is the default SMTP port.</source>
+          <target state="translated">既定値は 25 です。これは、既定の SMTP ポートです。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This parameter is available in Windows PowerShell 3.0 and newer releases.</source>
+          <target state="translated">このパラメーターは、Windows PowerShell 3.0 以降のリリースで使用できます。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-Priority</source>
+          <target state="translated">優先順位</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies the priority of the e-mail message.</source>
+          <target state="translated">電子メール メッセージの優先度を指定します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The valid values for this are Normal, High, and Low.</source>
+          <target state="translated">このパラメーターの有効な値は、Normal、High、Low です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Normal is the default.</source>
+          <target state="translated">既定値は Normal です。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-SmtpServer</source>
+          <target state="translated">SmtpServer-</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the SMTP server that sends the e-mail message.</source>
+          <target state="translated">電子メール メッセージを送信する SMTP サーバーの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The default value is the value of the $PSEmailServer preference variable.</source>
+          <target state="translated">既定値は $PSEmailServer ユーザー設定変数の値です。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If the preference variable is not set and this parameter is omitted, the command fails.</source>
+          <target state="translated">ユーザー設定変数が設定されていない場合にこのパラメーターを省略すると、コマンドはエラーになります。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-Subject</source>
+          <target state="translated">サブジェクト</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specifies the subject of the e-mail message.</source>
+          <target state="translated">電子メール メッセージの件名を指定します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">このパラメーターは必須です。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-To</source>
+          <target state="translated">先</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Specifies the addresses to which the mail is sent.</source>
+          <target state="translated">メールの送信先アドレスを指定します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Enter names (optional) and the e-mail address, such as "Name <ph id="ph1">\&lt;</ph>someone@example.com<ph id="ph2">\&gt;</ph>".</source>
+          <target state="translated">(省略可能) の名前と電子メール アドレスなどの入力"名 <ph id="ph1">\&lt;</ph>someone@example.com<ph id="ph2">\&gt;</ph>"です。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">このパラメーターは必須です。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-UseSsl</source>
+          <target state="translated">-UseSsl</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Uses the Secure Sockets Layer (SSL) protocol to establish a connection to the remote computer to send mail.</source>
+          <target state="translated">Secure Sockets Layer (SSL) プロトコルは、メールを送信するリモート コンピューターとの接続を確立するためにを使用します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>By default, SSL is not used.</source>
+          <target state="translated">既定では、SSL は使用されません。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>You can pipe the path and file names of attachments to Send-MailMessage.</source>
+          <target state="translated">パイプを使用して添付ファイルのパスとファイル名を Send-MailMessage に渡すことができます。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not generate any output.</source>
+          <target state="translated">このコマンドレットは出力を生成しません。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

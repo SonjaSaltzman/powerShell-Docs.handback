@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">567eb14a2daba07e5fc50fb1dd8a71419b92b501</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Core\About\about_Command_Precedence.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">14b617eeacfbdc298c51b5e2c247b0a8d9403a3f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ff216515ee10fbdc6f1053f80852fa01f0958004</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">PowerShell-Cmdlets</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Command Precedence</source>
+          <target state="translated">Zur Befehlsreihenfolge</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Command_Precedence</source>
+          <target state="translated">about_Command_Precedence</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">KURZE BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Describes how Windows PowerShell determines which command to run.</source>
+          <target state="translated">Beschreibt, wie Windows PowerShell bestimmt, welcher Befehl ausgeführt werden soll.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">LANGE BESCHREIBUNG</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This topic explains how Windows PowerShell determines which command to run, especially when a session contains more than one command with the same name.</source>
+          <target state="translated">In diesem Thema wird erläutert, wie Windows PowerShell ausführen, insbesondere, wenn eine Sitzung mehr als einen Befehl mit demselben Namen enthält, welcher Befehl bestimmt.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>It also explains how to run commands that do not run by default, and it explains how to avoid command-name conflicts in your session.</source>
+          <target state="translated">Außerdem wird erläutert, wie Befehle ausführen, die nicht standardmäßig ausgeführt werden, und es wird erläutert, wie in der Sitzung Befehl-Namenskonflikte zu vermeiden.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>COMMAND PRECEDENCE</source>
+          <target state="translated">BEFEHLSRANGFOLGE</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When a session includes commands that have the same name, Windows PowerShell uses the following rules to decide which command to run.</source>
+          <target state="translated">Bei eine Sitzung Befehle, die den gleichen Namen haben enthält, verwendet Windows PowerShell die folgenden Regeln, um zu entscheiden, welcher Befehl ausgeführt.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These rules become very important when you add commands to your session from modules, snap-ins, and other sessions.</source>
+          <target state="translated">Diese Regeln werden sehr wichtig, wenn Sie Ihre Sitzung Module, Snap-Ins und einen anderen Sitzungen Befehle hinzufügen.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-- If you specify the path to a command, Windows PowerShell runs the command at the location specified by the path.</source>
+          <target state="translated">– Wenn Sie den Pfad zu einem Befehl angeben, führt Windows PowerShell den Befehl an der durch den Pfad angegebenen Position.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example, the following command runs the FindDocs.ps1 script in the C:\TechDocs directory:</source>
+          <target state="translated">Der folgende Befehl führt beispielsweise das FindDocs.ps1-Skript in das Verzeichnis C:\TechDocs:</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>C:\TechDocs\FindDocs.ps1</source>
+          <target state="translated">C:\TechDocs\FindDocs.ps1</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>As a security feature, Windows PowerShell does not run executable (native) commands, including Windows PowerShell scripts, unless the command is located in a path that is listed in the Path environment variable ($env:path) or unless you specify the path to the script file.</source>
+          <target state="translated">Als Sicherheitsfunktion, Windows PowerShell führt keine ausführbaren Befehle (systemeigenen), einschließlich Windows PowerShell-Skripts, wenn der Befehl in einem Pfad befindet, der in der Path-Umgebungsvariablen aufgelistet ist ($env: Path) oder, wenn Sie den Pfad zur Skriptdatei angeben.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To run a script that is in the current directory, specify the full path, or type a dot (.) to represent the current directory.</source>
+          <target state="translated">Zum Ausführen eines Skripts, das im aktuellen Verzeichnis befindet, geben Sie den vollständigen Pfad ein, oder geben Sie einen Punkt (.), um das aktuelle Verzeichnis repräsentiert.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, to run the FindDocs.ps1 file in the current directory, type:</source>
+          <target state="translated">Geben Sie z. B. zum Ausführen der FindDocs.ps1-Datei im aktuellen Verzeichnis:</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>.\FindDocs.ps1</source>
+          <target state="translated">.\FindDocs.ps1</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-- If you do not specify a path, Windows PowerShell uses the following precedence order when it runs commands:</source>
+          <target state="translated">– Wenn Sie keinen Pfad angeben, verwendet Windows PowerShell die folgende Rangfolge bei der Ausführung von Befehlen an:</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Alias</source>
+          <target state="translated">Alias</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Function</source>
+          <target state="translated">Funktion</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Cmdlet</source>
+          <target state="translated">Cmdlet</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Native Windows commands</source>
+          <target state="translated">Systemeigener Windows-Befehle</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Therefore, if you type "help", Windows PowerShell first looks for an alias named "help", then a function named "Help", and finally a cmdlet named "Help".</source>
+          <target state="translated">Daher Wenn Sie "help" eingeben, sucht Windows PowerShell zunächst einen Alias mit dem Namen "Hilfe", und klicken Sie dann eine Funktion mit dem Namen "Hilfe", und schließlich ein Cmdlet namens "Hilfe".</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It runs the first "help" item that it finds.</source>
+          <target state="translated">Er führt das erste Element "Hilfe", das es findet.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For example, if you have a Get-Map function in the session and you import a cmdlet named Get-Map.</source>
+          <target state="translated">Beispielsweise, wenn Sie eine Get-Map-Funktion in der Sitzung und importieren Sie ein Cmdlet namens Get-Zuordnung.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>By default, when you type "Get-Map", Windows PowerShell runs the Get-Map function.</source>
+          <target state="translated">Wenn Sie "Get-Map" eingeben, führt Windows PowerShell die Get-Map-Funktion.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-- When the session contains items of the same type that have the same name, such as two cmdlets with the same name, Windows PowerShell runs the item that was added to the session most recently.</source>
+          <target state="translated">– Wenn die Sitzung Elemente des gleichen Typs enthält, die z. b. zwei Cmdlets mit dem gleichen Namen, den gleichen Namen haben, führt Windows PowerShell das Element, das die Sitzung zuletzt hinzugefügt wurde.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, if you have a cmdlet named Get-Date and you import another cmdlet named Get-Date, by default, Windows PowerShell runs the most-recently imported cmdlet when you type "Get-Date".</source>
+          <target state="translated">Führt z. B. wenn ein Get-Date-Cmdlet und importieren Sie ein anderes Cmdlet Get-Date, standardmäßig namens Windows PowerShell das zuletzt importierte Cmdlet bei der Eingabe von "Get-Date".</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>HIDDEN and REPLACED ITEMS As a result of these rules, items can be replaced or hidden by items with the same name.</source>
+          <target state="translated">AUSGEBLENDET und ERSETZT ELEMENTE als Ergebnis dieser Regeln können Elemente können ersetzt bzw. von Elementen mit dem gleichen Namen ausgeblendet werden.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>--  Items are "hidden" or "shadowed" if you can still access the original item, such as by qualifying the item name with a module or snap-in name.</source>
+          <target state="translated">--Elemente werden "verborgen" oder "Schattiert", wenn Sie das ursprüngliche Element, weiterhin wie z. B. zugreifen können, indem der Name des Elements mit einem Modul oder Snap-in-Namen qualifiziert.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, if you import a function that has the same name as a cmdlet in the session, the cmdlet is hidden (but not replaced) because it was imported from a snap-in or module.</source>
+          <target state="translated">Z. B. Wenn Sie eine Funktion zu, die den gleichen Namen wie ein Cmdlet in der Sitzung verfügt importieren, mit dem Cmdlet ausgeblendet (aber nicht ersetzt), da er eine-Snap-in oder ein Modul importiert wurde.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>--  Items are "replaced" or "overwritten" if you can no longer access the original item.</source>
+          <target state="translated">--Elemente "ersetzt" oder "überschrieben", wenn Sie das ursprüngliche Element nicht mehr zugreifen können.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, if you import a variable that has the same name as a a variable in the session, the original variable is replaced and is no longer accessible.</source>
+          <target state="translated">Wenn Sie eine Variable importieren, die den gleichen Namen wie z. B. eine eine Variable in der Sitzung, die ursprüngliche Variable ersetzt wird und nicht mehr zugegriffen werden kann.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You cannot qualify a variable with a module name.</source>
+          <target state="translated">Eine Variable mit dem Namen eines Moduls kann nicht qualifiziert werden.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Also, if you type a function at the command line and then import a function with the same name, the original function is replaced and is no longer accessible.</source>
+          <target state="translated">Auch wenn Sie eine Funktion in der Befehlszeile eingeben, und importieren Sie eine Funktion mit dem gleichen Namen, die ursprüngliche Funktion ersetzt, und ist nicht mehr verfügbar.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>FINDING HIDDEN COMMANDS</source>
+          <target state="translated">SUCHEN VON AUSGEBLENDET-BEFEHLE</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The All parameter of the Get-Command cmdlet gets all commands with the specified name, even if they are hidden or replaced.</source>
+          <target state="translated">Das alle Parameter des Cmdlets Get-Command Ruft alle Befehle mit dem angegebenen Namen ab, auch wenn sie ausgeblendet oder ersetzt werden.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, by default, Get-Command gets only the commands that run when you type the command name.</source>
+          <target state="translated">Ab Windows PowerShell 3.0, standardmäßig ruft Get-Befehl nur die Befehle, die ausgeführt werden, wenn Sie den Befehlsnamen eingeben.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the following examples, the session includes a Get-Date function and a Get-Date cmdlet.</source>
+          <target state="translated">In den folgenden Beispielen enthält die Sitzung eine Get-Date-Funktion und ein Cmdlet "Get-Date".</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The following command gets the Get-Date command that runs when you type "Get-Date".</source>
+          <target state="translated">Der folgende Befehl ruft den Get-Date-Befehl, der ausgeführt wird, wenn Sie "Get-Date" eingeben.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Command Get-Date</source>
+          <target state="translated">PS C: &gt; Get-Command Get-Date</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>CommandType     Name                                               ModuleName</source>
+          <target state="translated">CommandType Namen ModuleName</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Function        get-date</source>
+          <target state="translated">Funktion Get-date</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The following command uses the All parameter to get all Get-Date commands.</source>
+          <target state="translated">Der folgende Befehl verwendet den alle Parameter zum Abrufen aller Get-Date-Befehle.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>PS C:&gt; Get-Command Get-Date -All</source>
+          <target state="translated">PS C: &gt; Get-Command Get-Date-alle</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>CommandType     Name                                               ModuleName</source>
+          <target state="translated">CommandType Namen ModuleName</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Function        get-date Cmdlet          Get-Date                                           Microsoft.PowerShell.Utility</source>
+          <target state="translated">Get-Date-Cmdlet Get-Date Microsoft.PowerShell.Utility-Funktion</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>RUNNING HIDDEN COMMANDS</source>
+          <target state="translated">AUSFÜHREN VON BEFEHLEN AUSGEBLENDET</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can run particular commands by specifying item properties that distinguish the command from other commands that might have the same name.</source>
+          <target state="translated">Sie können bestimmte Befehle ausführen, durch Angabe von Eigenschaften, die mit dem Befehl von anderen Befehlen unterscheiden, die möglicherweise den gleichen Namen.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can use this method to run any command, but it is especially useful for running hidden commands.</source>
+          <target state="translated">Sie können diese Methode verwenden, um jeden Befehl ausführen, aber es ist besonders nützlich für ausgeblendete Befehle ausführen.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Use this method as a best practice when writing scripts that you intend to distribute because you cannot predict which commands might be present in the session in which the script runs.</source>
+          <target state="translated">Verwenden Sie diese Methode wird empfohlen, beim Schreiben von Skripts, die Sie möchten zu verteilen, da Sie nicht vorhersehen können, welche Befehle in der Sitzung möglicherweise in dem das Skript ausgeführt wird.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>QUALIFIED NAMES</source>
+          <target state="translated">QUALIFIZIERTE NAMEN</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can run commands that have been imported from a Windows PowerShell snap-in or module or from another session by qualifying the command name with the name of the module or snap-in in which it originated.</source>
+          <target state="translated">Sie können Ausführen von Befehlen, die von einer Windows PowerShell-Snap-in oder das Modul oder einer anderen Sitzung durch die Qualifizierung des Befehlsnamens mit dem Namen des Moduls importiert wurden oder -Snap-in in dem sie stammen.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can qualify commands, but you cannot qualify variables or aliases.</source>
+          <target state="translated">Sie können Befehle qualifizieren, sondern Sie können keine Variablen oder Aliase.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For example, if the Get-Date cmdlet from the Microsoft.PowerShell.Utility snap-in is hidden by an alias, function, or cmdlet with the same name, you can run it by using the snap-in-qualified name of the cmdlet:</source>
+          <target state="translated">Z. B. wenn das Cmdlet "Get-Date" Microsoft.PowerShell.Utility-Snap-in durch ein Alias, eine Funktion oder ein Cmdlet mit dem gleichen Namen ausgeblendet ist, können Sie es ausführen mit dem Snap-in qualifizierten Namen des Cmdlets:</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Utility\Get-Date</source>
+          <target state="translated">Microsoft.PowerShell.Utility\Get-Date</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To run a New-Map command that was added by the MapFunctions module, use its module-qualified name:</source>
+          <target state="translated">Um einen New-Map-Befehl ausführen, der vom Modul MapFunctions hinzugefügt wurde, verwenden Sie den qualifizierten Namen:</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>MapFunctions\New-Map</source>
+          <target state="translated">MapFunctions\New-Karte</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To find the snap-in or module from which a command was imported, use the ModuleName property of commands.</source>
+          <target state="translated">Um finden die-Snap-in oder das Modul, von dem ein Befehl importiert wurde, verwenden Sie die ModuleName-Eigenschaft von Befehlen.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>(Get-Command &lt;command-name&gt;).ModuleName</source>
+          <target state="translated">(&lt; Befehlsname &gt; Get-Befehl). Modulname</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For example, to find the source of the Get-Date cmdlet, type:</source>
+          <target state="translated">Geben Sie beispielsweise, um die Quelle für das Cmdlet "Get-Date" zu suchen:</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>PS C:&gt;(Get-Command Get-Date).ModuleName Microsoft.PowerShell.Utility</source>
+          <target state="translated">PS C: &gt; (Get-Command Get-Date). ModuleName Microsoft.PowerShell.Utility</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>CALL OPERATOR</source>
+          <target state="translated">CALL-OPERATOR</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can also use the Call operator (&amp;) to run any command that you can get by using a Get-ChildItem (the alias is "dir"), Get-Command, or Get-Module command.</source>
+          <target state="translated">Sie können auch den Operator Call (&amp;) für jeden Befehl ausführen, die durch Verwendung von abrufen können eine Get-ChildItem (der Alias ist "Dir"), Get-Command oder Get-Module Befehl.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To run a command, enclose the Get-Command command in parentheses, and use the Call operator (&amp;) to run the command.</source>
+          <target state="translated">Führen Sie einen Befehl, den Get-Befehl in Klammern einschließen und den Aufrufoperator (&amp;) zum Ausführen des Befehls.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>&amp;(Get-Command ...)</source>
+          <target state="translated">&amp; (Get-Command...)</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>or -</source>
+          <target state="translated">oder –</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>&amp;(dir ... )</source>
+          <target state="translated">&amp;(dir...)</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>For example, if you have a function named Map that is hidden by an alias named Map, use the following command to run the function.</source>
+          <target state="translated">Wenn Sie eine Funktion namens Zuordnung, die durch einen alias mit dem Namen Zuordnung ausgeblendet ist haben, verwenden Sie den folgenden Befehl zum Ausführen der Funktion fest.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>&amp;(Get-Command -Name Map -Type function)</source>
+          <target state="translated">&amp; (Get-Command Name Map-Funktion eingeben)</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>or -</source>
+          <target state="translated">oder –</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>&amp;(dir function:\map)</source>
+          <target state="translated">&amp; (Dir-Funktion: \map)</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>You can also save your hidden command in a variable to make it easier to run.</source>
+          <target state="translated">Sie können auch in einer Variablen zu erleichtern, führen Sie den Befehl ausgeblendeten speichern.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For example, the following command saves the Map function in the $myMap variable and then uses the Call operator to run it.</source>
+          <target state="translated">Z. B. der folgende Befehl die Map-Funktion in der $myMap-Variablen gespeichert und verwendet dann den Operator Call ausführen.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>$myMap = (Get-Command -Name map -Type function)</source>
+          <target state="translated">$myMap = (Get-Command Name zuordnen - Type-Funktion)</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>&amp;($myMap)</source>
+          <target state="translated">&amp;($myMap)</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If a command originated in a module, you can use the following format to run it.</source>
+          <target state="translated">Wenn ein Befehl in einem Modul stammt, können Sie das folgende Format, um es auszuführen.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>&amp; &lt;PSModuleInfo-object&gt;</source>
+          <target state="translated">&amp; &lt; PSModuleInfo-Objekt &gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For example, to run the Add-File cmdlet in the FileCommands module, use the following command sequence.</source>
+          <target state="translated">Verwenden Sie zum Ausführen des Add-in-Datei-Cmdlets im Modul FileCommands, z. B. die folgende Befehlssequenz.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>$FileCommands = get-module -name FileCommands</source>
+          <target state="translated">$FileCommands = Get-Module-name FileCommands</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>&amp; $FileCommands Add-File</source>
+          <target state="translated">&amp; $FileCommands hinzufügen-Datei</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>REPLACED ITEMS</source>
+          <target state="translated">ERSETZTE ELEMENTE</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Items that have not been imported from a module or snap-in, such as functions, variables, and aliases that you create in your session or that you add by using a profile can be replaced by commands that have the same name.</source>
+          <target state="translated">Elemente, die nicht, aus einem Modul oder Snap-in wie z. B. Funktionen, Variablen und Aliase importiert wurden, die Sie erstellen, in der Sitzung oder, die Sie mithilfe eines Profils hinzufügen, können durch Befehle ersetzt werden, die den gleichen Namen haben.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If they are replaced, you cannot access them.</source>
+          <target state="translated">Wenn sie ersetzt werden, wird Sie können nicht darauf zugreifen.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Variables and aliases are always replaced even if they have been imported from a module or snap-in because you cannot use a call operator or a qualified name to run them.</source>
+          <target state="translated">Variablen und Aliase werden immer ersetzt, auch wenn sie aus einem Modul importiert wurden oder -Snap-in, da Sie eine Call-Operator oder ein qualifizierter Name verwenden können, um sie auszuführen.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For example, if you type a Get-Map function in your session, and you import a function called Get-Map, the original function is replaced.</source>
+          <target state="translated">Wenn die Eingabe einer Get-Map-Funktion in der Sitzung, und Sie eine Funktion namens Get-Zuordnung importieren, wird z. B. die ursprüngliche Funktion ersetzt.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You cannot retrieve it in the current session.</source>
+          <target state="translated">Es kann nicht in der aktuellen Sitzung abgerufen werden.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>AVOIDING NAME CONFLICTS</source>
+          <target state="translated">VERMEIDEN VON NAMENSKONFLIKTEN</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The best way to manage command name conflicts is to prevent them.</source>
+          <target state="translated">Die beste Möglichkeit, um Konflikte bei Befehlsnamen zu verwalten ist, verhindern.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>When you name your commands, use a name that is very specific or is likely to be unique.</source>
+          <target state="translated">Wenn Sie Ihre Befehle benennen, verwenden Sie einen Namen, der sehr spezifisch ist oder eindeutig sein.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For example, add your initials or company name acronym to the nouns in your commands.</source>
+          <target state="translated">Fügen Sie beispielsweise Ihre Initialen oder Company Name Akronym Substantive in Ihren Befehlen hinzu.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Also, when you import commands into your session from a Windows PowerShell module or from another session, use the Prefix parameter of the Import-Module or Import-PSSession cmdlet to add a prefix to the nouns in the names of commands.</source>
+          <target state="translated">Auch wenn Sie Befehle in der Sitzung von einem Windows PowerShell-Modul oder einer anderen Sitzung importieren, verwenden Sie den Präfix-Parameter des Import-Module oder Import-PSSession-Cmdlets den Substantiven im Namen von Befehlen ein Präfix hinzu.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>For example, the following command avoids any conflict with the Get-Date and Set-Date cmdlets that come with Windows PowerShell when you import the DateFunctions module.</source>
+          <target state="translated">Beispielsweise wird der folgende Befehl Konflikte mit den Cmdlets "Get-Date" und "Set-Date", die mit Windows PowerShell enthalten sind, wenn Sie das DateFunctions-Modul importieren.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Import-Module -Name DateFunctions -Prefix ZZ</source>
+          <target state="translated">Import-Module-Name DateFunctions-ZZ-Präfix</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For more information, see Import-Module and Import-PSSession.</source>
+          <target state="translated">Weitere Informationen finden Sie unter Import-Module und Import-PSSession.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">SIEHE AUCH</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>about_Path_Syntax about_Aliases about_Functions Alias (provider) Function (provider) Get-Command Import-Module Import-PSSession</source>
+          <target state="translated">About_Path_Syntax "about_aliases" About_Functions Alias (Provider) (Provider) Get-Command-Import-Module-Import-PSSession-Funktion</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">98e5f79ebe75e96e243b2a3add350173ab09f557</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Utility\Get-EventSubscriber.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e0750d1279442327964626c47908b91cd252928</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2f7e9235476e2b7f445efd792448621f5a434dd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get-EventSubscriber</source>
+          <target state="translated">Get-eventsubscriber</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get-EventSubscriber</source>
+          <target state="translated">Get-eventsubscriber</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets the event subscribers in the current session.</source>
+          <target state="translated">获取当前会话中的事件订阅服务器。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>BySource (Default)</source>
+          <target state="translated">BySource （默认值）</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ById</source>
+          <target state="translated">ById</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Get-EventSubscriber cmdlet gets the event subscribers in the current session.</source>
+          <target state="translated">Get-EventSubscriber cmdlet 获取当前会话中的事件订阅服务器。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When you subscribe to an event by using a Register event cmdlet, an event subscriber is added to your Windows PowerShell session, and the events to which you subscribed are added to your event queue whenever they are raised.</source>
+          <target state="translated">当你使用 Register 事件 cmdlet 订阅事件时，事件订阅服务器将添加到 Windows PowerShell 会话，而且每当引发它们时，你所订阅的事件将添加到事件队列中。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To cancel an event subscription, delete the event subscriber by using the Unregister-Event cmdlet.</source>
+          <target state="translated">若要取消事件订阅，请使用 Unregister-Event cmdlet 删除事件订阅服务器。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- 示例 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This example uses a Get-EventSubscriber command to get the event subscriber for a timer event.</source>
+          <target state="translated">此示例使用 Get-EventSubscriber 命令获取计时器事件的事件订阅服务器。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The first command uses the New-Object cmdlet to create an instance of a timer object.</source>
+          <target state="translated">第一个命令使用 New-Object cmdlet 创建计时器对象的实例。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It saves the new timer object in the $timer variable.</source>
+          <target state="translated">它将新的计时器对象保存在 $timer 变量中。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The second command uses the Get-Member cmdlet to display the events that are available for timer objects.</source>
+          <target state="translated">第二个命令使用 Get-Member cmdlet 来显示可用于计时器对象的事件。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The command uses the Type parameter of the Get-Member cmdlet with a value of Event.</source>
+          <target state="translated">该命令将 Get-Member cmdlet 的 Type 参数与事件的值一起使用。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The third command uses the Register-ObjectEvent cmdlet to register for the Elapsed event on the timer object.</source>
+          <target state="translated">第三个命令使用 Register-ObjectEvent cmdlet 注册计时器对象上的已用时间事件。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The fourth command uses the Get-EventSubscriber cmdlet to get the event subscriber for the Elapsed event.</source>
+          <target state="translated">第四个命令使用 Get-EventSubscriber cmdlet 获取已用时间事件的事件订阅服务器。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the dynamic module in the PSEventJob object in the Action property of the event subscriber.</source>
+          <target state="translated">此示例演示如何使用事件订阅服务器的 Action 属性中的 PSEventJob 对象中的动态模块。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The first command uses the New-Object cmdlet to create a timer object.</source>
+          <target state="translated">第一个命令使用 New-Object cmdlet 创建计时器对象。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The second command sets the interval of the timer to 500 (milliseconds).</source>
+          <target state="translated">第二个命令将计时器的间隔设置为 500（毫秒）。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The third command uses the Register-ObjectEvent cmdlet to register the Elapsed event of the timer object.</source>
+          <target state="translated">第三个命令使用 Register-ObjectEvent cmdlet 注册计时器对象上的已用时间事件。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The command includes an action that handles the event.</source>
+          <target state="translated">该命令包含处理事件的操作。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Whenever the timer interval elapses, an event is raised and the commands in the action run.</source>
+          <target state="translated">每当计时器时间间隔过后，将引发一个事件，而且运行操作中的命令。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In this case, the Get-Random cmdlet generates a random number between 0 and 100 and saves it in the $random variable.</source>
+          <target state="translated">在这种情况下，Get-Random cmdlet 生成一个介于 0 和 100 之间的随机数字，并将其保存在 $random 变量中。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The source identifier of the event is Timer.Random.</source>
+          <target state="translated">该事件的源标识符是 Timer.Random。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When you use an Action parameter in a Register-ObjectEvent command, the command returns a PSEventJob object that represents the action.</source>
+          <target state="translated">当你使用 Register-ObjectEvent 命令中的 Action 参数时，该命令返回一个表示操作的 PSEventJob 对象。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The fourth command enables the timer.</source>
+          <target state="translated">第四个命令启用计时器。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The fifth command uses the Get-EventSubscriber cmdlet to get the event subscriber of the Timer.Random event.</source>
+          <target state="translated">第五个命令使用 Get-EventSubscriber cmdlet 获取 Timer.Random 事件的事件订阅服务器。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It saves the event subscriber object in the $subscriber variable.</source>
+          <target state="translated">它将事件订阅服务器对象保存在 $subscriber 变量中。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The sixth command shows that the Action property of the event subscriber object contains a PSEventJob object.</source>
+          <target state="translated">第六个命令显示事件订阅服务器对象的 Action 属性包含 PSEventJob 对象。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In fact, it contains the same PSEventJob object that the Register-ObjectEvent command returned.</source>
+          <target state="translated">实际上，它包含 Register-ObjectEvent 命令返回的相同 PSEventJob 对象。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The seventh command uses the Format-List cmdlet to display all of the properties of the PSEventJob object in the Action property in a list.</source>
+          <target state="translated">第七条命令使用 Format-List cmdlet 来显示列表中 Action 属性中的 PSEventJob 对象的所有属性。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The result reveal that the PSEventJob object has a Module property that contains a dynamic script module that implements the action.</source>
+          <target state="translated">其结果显示 PSEventJob 对象具有 Module 属性，它包含实现操作的动态脚本模块。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The remaining commands use the call operator (&amp;) to invoke the command in the module and display the value of the $random variable.</source>
+          <target state="translated">剩余的命令使用调用运算符 (&amp;) 来调用该模块中的命令，并显示 $random 变量的值。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can use the call operator to invoke any command in a module, including commands that are not exported.</source>
+          <target state="translated">可以使用调用运算符来调用模块中的任何命令，包括未导出的命令。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In this case, the commands show the random number that is being generated when the Elapsed event occurs.</source>
+          <target state="translated">在这种情况下，这些命令显示当已用时间事件发生时生成的随机数字。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information about modules, see about_Modules.</source>
+          <target state="translated">有关模块的详细信息，请参阅 about_Modules。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets all event subscribers, including subscribers for events that are hidden by using the SupportEvent parameter of Register-ObjectEvent, Register-WmiEvent, and Register-EngineEvent.</source>
+          <target state="translated">获取所有事件订阅服务器，包括通过使用 Register-ObjectEvent、Register-WmiEvent 和 Register-EngineEvent 的 SupportEvent 参数而隐藏的事件的订阅服务器。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-SourceIdentifier</source>
+          <target state="translated">-SourceIdentifier</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets only the event subscribers with the specified SourceIdentifier property value.</source>
+          <target state="translated">仅获取具有指定的 SourceIdentifier 属性值的事件订阅服务器。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>By default, Get-EventSubscriber gets all event subscribers in the session.</source>
+          <target state="translated">默认情况下，Get-EventSubscriber 获取会话中的所有事件订阅服务器。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Wildcards are not permitted.</source>
+          <target state="translated">不允许使用通配符。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This parameter is case-sensitive.</source>
+          <target state="translated">此参数区分大小写。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-SubscriptionId</source>
+          <target state="translated">-订阅 Id</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets only the specified subscription identifier.</source>
+          <target state="translated">仅获取指定的订阅标识符。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>By default, Get-EventSubscriber gets all event subscribers in the session.</source>
+          <target state="translated">默认情况下，Get-EventSubscriber 获取会话中的所有事件订阅服务器。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">无</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You cannot pipe input to this cmdlet.</source>
+          <target state="translated">不能通过管道将输入传递给此 cmdlet。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>System.Management.Automation.PSEventSubscriber</source>
+          <target state="translated">System.Management.Automation.PSEventSubscriber</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Get-EventSubscriber returns an object that represents each event subscriber.</source>
+          <target state="translated">Get-EventSubscriber 返回一个表示每个事件订阅服务器的对象。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The New-Event cmdlet, which creates a custom event, does not generate a subscriber.</source>
+          <target state="translated">New-Event cmdlet 创建自定义事件，不生成订阅服务器。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Therefore, the Get-EventSubscriber cmdlet will not find a subscriber object for these events.</source>
+          <target state="translated">因此，Get-EventSubscriber cmdlet 将找不到这些事件的订阅服务器对象。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>However, if you use the Register-EngineEvent cmdlet to subscribe to a custom event (in order to forward the event or to specify an action), Get-EventSubscriber will find the subscriber that Register-EngineEvent generates.</source>
+          <target state="translated">但是，如果你使用 Register-EngineEvent cmdlet 来订阅自定义事件（为了转发事件或指定一个操作），则 Get-EventSubscriber 将查找 Register-EngineEvent 生成的订阅服务器。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Events, event subscriptions, and the event queue exist only in the current session.</source>
+          <target state="translated">事件、事件订阅和事件队列仅存在于当前会话中。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If you close the current session, the event queue is discarded and the event subscription is canceled.</source>
+          <target state="translated">如果关闭当前会话，将丢弃事件队列并取消事件订阅。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Get-Event</source>
+          <target state="translated">Get-Event</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>New-Event</source>
+          <target state="translated">New-Event</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Register-EngineEvent</source>
+          <target state="translated">Register-engineevent</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Register-ObjectEvent</source>
+          <target state="translated">Register-objectevent</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Register-WmiEvent</source>
+          <target state="translated">Register-wmievent</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Remove-Event</source>
+          <target state="translated">删除事件</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Unregister-Event</source>
+          <target state="translated">注销事件</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Wait-Event</source>
+          <target state="translated">等待事件</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

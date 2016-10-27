@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1e0f97858c52e4368e53296eb850531f792a5207</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.Utility\Invoke-WebRequest.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">079bd38b0f65f8f3cb0e9af07fcca12a4a4cc8bd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0fa2d49e429debe90e044e0a4c9560712efda095</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Invoke-WebRequest</source>
+          <target state="translated">Invoke-WebRequest</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Invoke-WebRequest</source>
+          <target state="translated">Invoke-WebRequest</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">简述</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets content from a web page on the Internet.</source>
+          <target state="translated">从 Internet 上的网页中获取内容。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">语法</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Invoke-WebRequest<ept id="p1">**</ept> cmdlet sends HTTP, HTTPS, FTP, and FILE requests to a web page or web service.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>Invoke-webrequest<ept id="p1">**</ept> cmdlet 将 HTTP、 HTTPS、 FTP 和 FILE 请求发送到 web 页或 web 服务。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>It parses the response and returns collections of forms, links, images, and other significant HTML elements.</source>
+          <target state="translated">它将分析该响应并返回表单、链接、图像和其他重要的 HTML 元素的集合。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This cmdlet was introduced in Windows PowerShell 3.0.</source>
+          <target state="translated">此 cmdlet 是在 Windows PowerShell 3.0 中引入的。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">示例</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Example 1: Send a web request</source>
+          <target state="translated">示例 1︰ 发送 web 请求</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This command uses the <bpt id="p1">**</bpt>Invoke-WebRequest<ept id="p1">**</ept> cmdlet to send a web request to the Bing.com site.</source>
+          <target state="translated">此命令使用 <bpt id="p1">**</bpt>Invoke-webrequest<ept id="p1">**</ept> cmdlet 向 Bing.com 站点发送 web 请求。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The first command issues the request and saves the response in the $R variable.</source>
+          <target state="translated">第一个命令发出请求，并将响应保存在 $R 变量。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The second command gets the <bpt id="p1">**</bpt>InnerHtml<ept id="p1">**</ept> property when it includes an equal sign, sorts the inner HTML by length and selects the 5 shortest values.</source>
+          <target state="translated">第二个命令获取 <bpt id="p1">**</bpt>InnerHtml<ept id="p1">**</ept> 属性时它包括一个等于号、 按长度对内部 HTML 进行排序并选择 5 个最短值。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Sorting by the shortest HTML value often helps you find the most specific element that matches that text.</source>
+          <target state="translated">按最短的 HTML 值进行排序通常可帮助你找到与该文本匹配的最特定元素。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Example 2: Use a stateful web service</source>
+          <target state="translated">示例 2︰ 使用有状态的 web 服务</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This example shows how to use the <bpt id="p1">**</bpt>Invoke-WebRequest<ept id="p1">**</ept> cmdlet with a stateful web service, such as Facebook.</source>
+          <target state="translated">此示例演示如何使用 <bpt id="p1">**</bpt>Invoke-webrequest<ept id="p1">**</ept> cmdlet 中使用有状态的 web 服务，如 Facebook。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Example 3: Get links from a web page</source>
+          <target state="translated">示例 3︰ 从 web 页获取链接</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This command gets the links in a web page.</source>
+          <target state="translated">此命令将获取网页中的链接。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">**</bpt>Invoke-WebRequest<ept id="p1">**</ept> cmdlet to get the web page content.</source>
+          <target state="translated">它使用 <bpt id="p1">**</bpt>Invoke-webrequest<ept id="p1">**</ept> cmdlet 来获取网页内容。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Then it users the <bpt id="p1">**</bpt>Links<ept id="p1">**</ept> property of the HtmlWebResponseObject that <bpt id="p2">**</bpt>Invoke-WebRequest<ept id="p2">**</ept> returns, and the <bpt id="p3">**</bpt>Href<ept id="p3">**</ept> property of each link.</source>
+          <target state="translated">然后对其进行用户 <bpt id="p1">**</bpt>链接<ept id="p1">**</ept> 的 htmlwebresponseobject 的属性， <bpt id="p2">**</bpt>Invoke-webrequest<ept id="p2">**</ept> 返回时，与 <bpt id="p3">**</bpt>Href<ept id="p3">**</ept> 每个链接的属性。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">参数</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-Body</source>
+          <target state="translated">正文</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specifies the body of the request.</source>
+          <target state="translated">指定请求的正文。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The body is the content of the request that follows the headers.</source>
+          <target state="translated">正文是请求的内容，位于标头之后。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can also pipe a body value to <bpt id="p1">**</bpt>Invoke-WebRequest<ept id="p1">**</ept>.</source>
+          <target state="translated">您还可以通过管道将正文值到 <bpt id="p1">**</bpt>Invoke-webrequest<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Body<ept id="p1">*</ept> parameter can be used to specify a list of query parameters or specify the content of the response.</source>
+          <target state="translated"> <bpt id="p1">*</bpt>正文<ept id="p1">*</ept> 参数可以用于指定查询参数的列表，或者指定将响应的内容。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When the input is a GET request and the body is an IDictionary (typically, a hash table), the body is added to the URI as query parameters.</source>
+          <target state="translated">当输入是一个 GET 请求且正文是 IDictionary（通常情况下是一个哈希表）时，会将正文作为查询参数添加到 URI 中。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For other GET requests, the body is set as the value of the request body in the standard name=value format.</source>
+          <target state="translated">对于其他的 GET 请求，将正文按标准的“名称=值”格式设置为请求正文的值。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When the body is a form, or it is the output of an <bpt id="p1">**</bpt>Invoke-WebRequest<ept id="p1">**</ept> call, Windows PowerShell sets the request content to the form fields.</source>
+          <target state="translated">当正文是一个表单，或它的输出 <bpt id="p1">**</bpt>Invoke-webrequest<ept id="p1">**</ept> 调用时，Windows PowerShell 将请求内容设置为表单域。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">例如：</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>or -</source>
+          <target state="translated">或-</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-Certificate</source>
+          <target state="translated">证书</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specifies the client certificate that is used for a secure web request.</source>
+          <target state="translated">指定用于安全的 Web 请求的客户端证书。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Enter a variable that contains a certificate or a command or expression that gets the certificate.</source>
+          <target state="translated">输入一个包含证书的变量，或可获取该证书的命令或表达式。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To find a certificate, use Get-PfxCertificate or use the Get-ChildItem cmdlet in the Certificate (Cert:) drive.</source>
+          <target state="translated">若要查找证书，请使用 Get-PfxCertificate 或使用 Certificate (Cert:) 驱动器中的 Get-ChildItem cmdlet。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If the certificate is not valid or does not have sufficient authority, the command fails.</source>
+          <target state="translated">如果证书无效或不具有足够的权限，则该命令将失败。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-CertificateThumbprint</source>
+          <target state="translated">-CertificateThumbprint</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specifies the digital public key certificate (X509) of a user account that has permission to send the request.</source>
+          <target state="translated">指定有权发送请求的用户帐户的数字公钥证书 (X509)。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Enter the certificate thumbprint of the certificate.</source>
+          <target state="translated">输入证书的证书指纹。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Certificates are used in client certificate-based authentication.</source>
+          <target state="translated">在基于客户端证书的身份验证中使用证书。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>They can be mapped only to local user accounts; they do not work with domain accounts.</source>
+          <target state="translated">证书只能映射到本地用户帐户，而不适用于域帐户。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To get a certificate thumbprint, use the Get-Item or Get-ChildItem command in the Windows PowerShell Cert: drive.</source>
+          <target state="translated">若要获取证书指纹，请在 Windows PowerShell Cert: 驱动器中使用 Get-Item 或 Get-ChildItem 命令。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-ContentType</source>
+          <target state="translated">-ContentType</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Specifies the content type of the web request.</source>
+          <target state="translated">指定 Web 请求的内容类型。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If this parameter is omitted and the request method is POST, <bpt id="p1">**</bpt>Invoke-WebRequest<ept id="p1">**</ept> sets the content type to application/x-www-form-urlencoded.</source>
+          <target state="translated">如果省略此参数且请求方法是 POST， <bpt id="p1">**</bpt>Invoke-webrequest<ept id="p1">**</ept> 将内容类型设置为应用程序/x-响应客户-­ urlencoded。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Otherwise, the content type is not specified in the call.</source>
+          <target state="translated">否则，将不会在调用中指定内容类型。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to send the request.</source>
+          <target state="translated">指定有权发送请求的用户帐户。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">默认为当前用户。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as User01 or Domain01\User01, or enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">键入用户名，例如 User01 或 Domain01\User01，或输入 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> 对象，例如由 Get-credential cmdlet 生成。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-DisableKeepAlive</source>
+          <target state="translated">-DisableKeepAlive</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Indicates that the cmdlet sets the KeepAlive value in the HTTP header to False.</source>
+          <target state="translated">指示该 cmdlet 将 KeepAlive 值设置为 False 的 HTTP 标头中。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>By default, KeepAlive is True.</source>
+          <target state="translated">默认情况下，KeepAlive 为 True。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>KeepAlive establishes a persistent connection to the server to facilitate subsequent requests.</source>
+          <target state="translated">KeepAlive 可建立到服务器的持续性连接，以便处理后续请求。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-Headers</source>
+          <target state="translated">-标头</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specifies the headers of the web request.</source>
+          <target state="translated">指定 Web 请求的标头。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Enter a hash table or dictionary.</source>
+          <target state="translated">输入哈希表或字典。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To set UserAgent headers, use the <bpt id="p1">*</bpt>UserAgent<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要设置 UserAgent 标头，使用 <bpt id="p1">*</bpt>UserAgent<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You cannot use this parameter to specify UserAgent or cookie headers.</source>
+          <target state="translated">不能使用此参数指定 UserAgent 或 cookie 标头。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-InFile</source>
+          <target state="translated">-InFile</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets the content of the web request from a file.</source>
+          <target state="translated">从文件中获取 Web 请求的内容。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Enter a path and file name.</source>
+          <target state="translated">请输入路径和文件名。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If you omit the path, the default is the current location.</source>
+          <target state="translated">如果省略路径，则默认路径为当前位置。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-MaximumRedirection</source>
+          <target state="translated">-MaximumRedirection</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Specifies how many times Windows PowerShell redirects a connection to an alternate Uniform Resource Identifier (URI) before the connection fails.</source>
+          <target state="translated">指定 Windows PowerShell 将重定向连接到备用的统一资源标识符 (URI) 之前连接失败的次数。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The default value is 5.</source>
+          <target state="translated">默认值为 5。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A value of 0 (zero) prevents all redirection.</source>
+          <target state="translated">值为 0（零）将阻止所有重定向。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-Method</source>
+          <target state="translated">方法</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies the method used for the web request.</source>
+          <target state="translated">指定用于 Web 请求的方法。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此参数的可接受的值是：</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <target state="translated">默认值</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">“删除”</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Get</source>
+          <target state="translated">Get</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Head</source>
+          <target state="translated">H e a d</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Merge</source>
+          <target state="translated">合并</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="translated">选项</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Patch</source>
+          <target state="translated">修补程序</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Post</source>
+          <target state="translated">发布</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Put</source>
+          <target state="translated">Put</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Trace</source>
+          <target state="translated">Trace</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-OutFile</source>
+          <target state="translated">-OutFile</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Specifies the output file for which this cmdlet saves the response body.</source>
+          <target state="translated">指定此 cmdlet 将其保存响应正文的输出文件。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Enter a path and file name.</source>
+          <target state="translated">请输入路径和文件名。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If you omit the path, the default is the current location.</source>
+          <target state="translated">如果省略路径，则默认路径为当前位置。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">**</bpt>Invoke-WebRequest<ept id="p1">**</ept> returns the results to the pipeline.</source>
+          <target state="translated">默认情况下， <bpt id="p1">**</bpt>Invoke-webrequest<ept id="p1">**</ept> 将结果返回到管道。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To send the results to a file and to the pipeline, use the <bpt id="p1">*</bpt>Passthru<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要将结果发送到文件和管道，请使用 <bpt id="p1">*</bpt>Passthru<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-PassThru</source>
+          <target state="translated">-PassThru</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Indicates that the cmdlet returns the results, in addition to writing them to a file.</source>
+          <target state="translated">指示该 cmdlet 返回结果时，除了对文件进行写入。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the <bpt id="p1">*</bpt>OutFile<ept id="p1">*</ept> parameter is also used in the command.</source>
+          <target state="translated">此参数是仅当 <bpt id="p1">*</bpt>OutFile<ept id="p1">*</ept> 命令中还使用参数。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-Proxy</source>
+          <target state="translated">代理</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Specifies a proxy server for the request, rather than connecting directly to the Internet resource.</source>
+          <target state="translated">指定用于该请求，而不是直接连接到 Internet 资源的代理服务器。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Enter the URI of a network proxy server.</source>
+          <target state="translated">输入网络代理服务器的 URI。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-ProxyCredential</source>
+          <target state="translated">-ProxyCredential</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to use the proxy server that is specified by the <bpt id="p1">*</bpt>Proxy<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">指定有权使用由指定的代理服务器的用户帐户 <bpt id="p1">*</bpt>代理<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">默认为当前用户。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01", or enter a <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">键入用户名，例如"User01"或"Domain01\User01"; 或输入 <bpt id="p1">**</bpt>PSCredential<ept id="p1">**</ept> 对象，例如由 Get-credential cmdlet 生成。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the <bpt id="p1">*</bpt>Proxy<ept id="p1">*</ept> parameter is also used in the command.</source>
+          <target state="translated">此参数是仅当 <bpt id="p1">*</bpt>代理<ept id="p1">*</ept> 命令中还使用参数。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">*</bpt>ProxyCredential<ept id="p1">*</ept> and <bpt id="p2">*</bpt>ProxyUseDefaultCredentials<ept id="p2">*</ept> parameters in the same command.</source>
+          <target state="translated">不能使用 <bpt id="p1">*</bpt>ProxyCredential<ept id="p1">*</ept> 和 <bpt id="p2">*</bpt>ProxyUseDefaultCredentials<ept id="p2">*</ept> 同一命令中的参数。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-ProxyUseDefaultCredentials</source>
+          <target state="translated">-ProxyUseDefaultCredentials</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Indicates that the cmdlet uses the credentials of the current user to access the proxy server that is specified by the <bpt id="p1">*</bpt>Proxy<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">指示该 cmdlet 使用当前用户的凭据来访问由指定的代理服务器 <bpt id="p1">*</bpt>代理<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when the <bpt id="p1">*</bpt>Proxy<ept id="p1">*</ept> parameter is also used in the command.</source>
+          <target state="translated">此参数是仅当 <bpt id="p1">*</bpt>代理<ept id="p1">*</ept> 命令中还使用参数。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">*</bpt>ProxyCredential<ept id="p1">*</ept> and <bpt id="p2">*</bpt>ProxyUseDefaultCredentials<ept id="p2">*</ept> parameters in the same command.</source>
+          <target state="translated">不能使用 <bpt id="p1">*</bpt>ProxyCredential<ept id="p1">*</ept> 和 <bpt id="p2">*</bpt>ProxyUseDefaultCredentials<ept id="p2">*</ept> 同一命令中的参数。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-SessionVariable</source>
+          <target state="translated">-SessionVariable</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Specifies a variable for which this cmdlet creates a web request session and saves it in the value.</source>
+          <target state="translated">指定一个变量，此 cmdlet 创建一个 web 请求会话，并将其保存在值中。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Enter a variable name without the dollar sign ($) symbol.</source>
+          <target state="translated">输入一个不带美元符号 ($) 的变量名称。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>When you specify a session variable, <bpt id="p1">**</bpt>Invoke-WebRequest<ept id="p1">**</ept> creates a web request session object and assigns it to a variable with the specified name in your Windows PowerShell session.</source>
+          <target state="translated">当指定会话变量中， <bpt id="p1">**</bpt>Invoke-webrequest<ept id="p1">**</ept> 创建 web 请求会话对象，并在 Windows PowerShell 会话中将其分配给具有指定名称的变量。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>You can use the variable in your session as soon as the command completes.</source>
+          <target state="translated">命令完成后可以立即在会话中使用该变量。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Unlike a remote session, the web request session is not a persistent connection.</source>
+          <target state="translated">与远程会话不同，Web 请求会话不是持续性连接。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>It is an object that contains information about the connection and the request, including cookies, credentials, the maximum redirection value, and the user agent string.</source>
+          <target state="translated">它是一个包含有关连接和请求的信息的对象，包括 Cookie、凭据、最大重定向值和用户代理字符串。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>You can use it to share state and data among web requests.</source>
+          <target state="translated">可用于共享 Web 请求之间的状态和数据。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>To use the web request session in subsequent web requests, specify the session variable in the value of the <bpt id="p1">*</bpt>WebSession<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">若要在后续的 web 请求中使用 web 请求会话，指定会话变量的值中 <bpt id="p1">*</bpt>WebSession<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses the data in the web request session object when establishing the new connection.</source>
+          <target state="translated">在建立新连接时，Windows PowerShell 将使用 Web 请求会话对象中的数据。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>To override a value in the web request session, use a cmdlet parameter, such as <bpt id="p1">*</bpt>UserAgent<ept id="p1">*</ept> or <bpt id="p2">*</bpt>Credential<ept id="p2">*</ept>.</source>
+          <target state="translated">若要在 web 请求会话中重写的值，使用 cmdlet 参数，如 <bpt id="p1">*</bpt>UserAgent<ept id="p1">*</ept> 或 <bpt id="p2">*</bpt>凭据<ept id="p2">*</ept>。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Parameter values take precedence over values in the web request session.</source>
+          <target state="translated">参数值优先于 Web 请求会话中的值。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">*</bpt>SessionVariable<ept id="p1">*</ept> and <bpt id="p2">*</bpt>WebSession<ept id="p2">*</ept> parameters in the same command.</source>
+          <target state="translated">不能使用 <bpt id="p1">*</bpt>SessionVariable<ept id="p1">*</ept> 和 <bpt id="p2">*</bpt>WebSession<ept id="p2">*</ept> 同一命令中的参数。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-TimeoutSec</source>
+          <target state="translated">-TimeoutSec</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Specifies how long the request can be pending before it times out.</source>
+          <target state="translated">指定超时之前请求可以挂起多长时间。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Enter a value in seconds.</source>
+          <target state="translated">输入一个值（以秒为单位）。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The default value, 0, specifies an indefinite time-out.</source>
+          <target state="translated">默认值 0 指定无限超时。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A Domain Name System (DNS) query can take up to 15 seconds to return or time out.</source>
+          <target state="translated">域名系统 (DNS) 查询可以采用最多 15 秒钟才能返回或超时。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>If your request contains a host name that requires resolution, and you set <bpt id="p1">*</bpt>TimeoutSec<ept id="p1">*</ept> to a value greater than zero, but less than 15 seconds, it can take 15 seconds or more before a WebException is thrown, and your request times out.</source>
+          <target state="translated">如果您的请求包含的主机名，需要解析，并且您设置 <bpt id="p1">*</bpt>TimeoutSec<ept id="p1">*</ept> 为一个大于零，但不超过 15 秒的值，可能需要 15 秒或更长之前引发了 webexception 错误，并且您的请求超时。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>-TransferEncoding</source>
+          <target state="translated">-TransferEncoding</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Specifies a value for the transfer-encoding HTTP response header.</source>
+          <target state="translated">指定传输编码 HTTP 响应头的值。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are:</source>
+          <target state="translated">此参数的可接受的值是：</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Chunked</source>
+          <target state="translated">分块</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Compress</source>
+          <target state="translated">压缩</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Deflate</source>
+          <target state="translated">Deflate</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>GZip</source>
+          <target state="translated">GZip</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Identity</source>
+          <target state="translated">标识</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>-Uri</source>
+          <target state="translated">-Uri</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Specifies the Uniform Resource Identifier (URI) of the Internet resource to which the web request is sent.</source>
+          <target state="translated">指定将 Web 请求发送到的 Internet 资源的统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Enter a URI.</source>
+          <target state="translated">输入 URI。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>This parameter supports HTTP, HTTPS, FTP, and FILE values.</source>
+          <target state="translated">此参数支持 HTTP、HTTPS、FTP 和 FILE 值。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This parameter is required.</source>
+          <target state="translated">此参数是必需的。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The parameter name (<bpt id="p1">*</bpt>Uri<ept id="p1">*</ept>) is optional.</source>
+          <target state="translated">参数名 (<bpt id="p1">*</bpt>Uri<ept id="p1">*</ept>) 是可选的。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>-UseBasicParsing</source>
+          <target state="translated">-UseBasicParsing</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Indicates that the cmdlet uses the response object for HTML content without Document Object Model (DOM) parsing.</source>
+          <target state="translated">指示该 cmdlet 使用 HTML 内容进行响应对象而不进行文档对象模型 (DOM) 解析。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>This parameter is required when Internet Explorer is not installed on the computers, such as on a Server Core installation of a Windows Server operating system.</source>
+          <target state="translated">当 Internet Explorer 未安装在计算机上（例如在 Windows Server 操作系统安装 Server Core）时，此参数是必需的。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>-UseDefaultCredentials</source>
+          <target state="translated">-UseDefaultCredentials</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Indicates that the cmdet uses the credentials of the current user to send the web request.</source>
+          <target state="translated">指示 cmdet 使用当前用户的凭据来发送 web 请求。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>-UserAgent</source>
+          <target state="translated">UserAgent</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Specifies a user agent string for the web request.</source>
+          <target state="translated">指定 Web 请求的用户代理字符串。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The default user agent is similar to Mozilla/5.0 (Windows NT; Windows NT 6.1; en-US) WindowsPowerShell/3.0 with slight variations for each operating system and platform.</source>
+          <target state="translated">默认的用户代理是类似于 Mozilla/5.0 (Windows NT;Windows NT 6.1;EN-US) WindowsPowerShell/3.0 为每个操作系统和平台稍有不同。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>To test a website with the standard user agent string that is used by most Internet browsers, use the properties of the PSUserAgenthttp://msdn.microsoft.com/en-us/library/windows/desktop/hh484857(v=vs.85).aspx class, such as Chrome, FireFox, InternetExplorer, Opera, and Safari.</source>
+          <target state="translated">若要测试与大多数 Internet 浏览器使用的标准用户代理字符串的网站，使用的属性 PSUserAgenthttp://msdn.microsoft.com/en-us/library/windows/desktop/hh484857 （v=vs.85).aspx 类，如 Chrome、 FireFox、 InternetExplorer、 Opera 和 Safari。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For example, the following command uses the user agent string for Internet</source>
+          <target state="translated">例如，以下命令将用户代理字符串用于 Internet</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>-WebSession</source>
+          <target state="translated">-WebSession</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Specifies a web request session.</source>
+          <target state="translated">指定一个 Web 请求会话。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Enter the variable name, including the dollar sign ($).</source>
+          <target state="translated">输入变量名称，包括美元符号 ($)。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>To override a value in the web request session, use a cmdlet parameter, such as <bpt id="p1">*</bpt>UserAgent<ept id="p1">*</ept> or <bpt id="p2">*</bpt>Credential<ept id="p2">*</ept>.</source>
+          <target state="translated">若要在 web 请求会话中重写的值，使用 cmdlet 参数，如 <bpt id="p1">*</bpt>UserAgent<ept id="p1">*</ept> 或 <bpt id="p2">*</bpt>凭据<ept id="p2">*</ept>。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Parameter values take precedence over values in the web request session.</source>
+          <target state="translated">参数值优先于 Web 请求会话中的值。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Unlike a remote session, the web request session is not a persistent connection.</source>
+          <target state="translated">与远程会话不同，Web 请求会话不是持续性连接。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>It is an object that contains information about the connection and the request, including cookies, credentials, the maximum redirection value, and the user agent string.</source>
+          <target state="translated">它是一个包含有关连接和请求的信息的对象，包括 Cookie、凭据、最大重定向值和用户代理字符串。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>You can use it to share state and data among web requests.</source>
+          <target state="translated">可用于共享 Web 请求之间的状态和数据。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>To create a web request session, enter a variable name (without a dollar sign) in the value of the <bpt id="p1">*</bpt>SessionVariable<ept id="p1">*</ept> parameter of an <bpt id="p2">**</bpt>Invoke-WebRequest<ept id="p2">**</ept> command.</source>
+          <target state="translated">若要创建一个 web 请求会话，请输入变量名称 （不带美元符号） 的值中 <bpt id="p1">*</bpt>SessionVariable<ept id="p1">*</ept> 参数 <bpt id="p2">**</bpt>Invoke-webrequest<ept id="p2">**</ept> 命令。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Invoke-WebRequest<ept id="p1">**</ept> creates the session and saves it in the variable.</source>
+          <target state="translated"><bpt id="p1">**</bpt>调用 WebRequest<ept id="p1">**</ept> 创建会话，并将其保存在变量中。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>In subsequent commands, use the variable as the value of the <bpt id="p1">*</bpt>WebSession<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">在后续命令中，使用该变量的值作为 <bpt id="p1">*</bpt>WebSession<ept id="p1">*</ept> 参数。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">*</bpt>SessionVariable<ept id="p1">*</ept> and <bpt id="p2">*</bpt>WebSession<ept id="p2">*</ept> parameters in the same command.</source>
+          <target state="translated">不能使用 <bpt id="p1">*</bpt>SessionVariable<ept id="p1">*</ept> 和 <bpt id="p2">*</bpt>WebSession<ept id="p2">*</ept> 同一命令中的参数。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">此 cmdlet 支持以下常见参数:-调试-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutVariable、-OutBuffer、-PipelineVariable、-Verbose、-WarningAction 和-WarningVariable。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">输入</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>System.Object</source>
+          <target state="translated">System.Object</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>You can pipe the body of a web request to <bpt id="p1">**</bpt>Invoke-WebRequest<ept id="p1">**</ept>.</source>
+          <target state="translated">您可以通过管道传递到 web 请求的正文 <bpt id="p1">**</bpt>Invoke-webrequest<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">输出</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Microsoft.PowerShell.Commands.HtmlWebResponseObject</source>
+          <target state="translated">Microsoft.PowerShell.Commands.HtmlWebResponseObject</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">说明</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">相关的链接</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Invoke-RestMethod</source>
+          <target state="translated">Invoke-RestMethod</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>ConvertFrom-Json</source>
+          <target state="translated">ConvertFrom-Json</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>ConvertTo-Json</source>
+          <target state="translated">ConvertTo-Json</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

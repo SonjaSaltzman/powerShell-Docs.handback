@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b8f9f116d7d5348da138ae074de9b5a8a7a6bb5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\5.0\Microsoft.PowerShell.ODataUtils\Export-ODataEndpointProxy.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7685b75c5ed71c1ec63782234730636d65b1d133</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33cfe21b2e51000f9f19d35a287b9477ec38c5e8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell コマンドレット</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Export-ODataEndpointProxy</source>
+          <target state="translated">エクスポート ODataEndpointProxy</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Export-ODataEndpointProxy</source>
+          <target state="translated">エクスポート ODataEndpointProxy</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">概要</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Generates a module that contains cmdlets to manage an OData endpoint.</source>
+          <target state="translated">OData エンドポイントを管理するコマンドレットを含むモジュールを生成します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">構文</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">説明</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> cmdlet uses the metadata of an OData endpoint to generate a module that contains cmdlets you can use to manage that OData endpoint.</source>
+          <target state="translated"> <bpt id="p1">**</bpt>エクスポート ODataEndpointProxy<ept id="p1">**</ept> コマンドレットでは、OData エンドポイントのメタデータを使用して、その OData エンドポイントを管理に使用できるコマンドレットを含むモジュールを生成します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The module is based on CDXML.</source>
+          <target state="translated">このモジュールは、CDXML に基づいています。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>After this cmdlet generates the module, it saves that module to the path and file name specified by the <bpt id="p1">*</bpt>OutputModule<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">このコマンドレットでは、モジュールが生成された後で指定されたパスとファイル名にそのモジュールを保存、 <bpt id="p1">*</bpt>OutputModule<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> generates cmdlets for create, read, update, and delete (CRUD) operations, non-CRUD actions, and association manipulation.</source>
+          <target state="translated"><bpt id="p1">**</bpt>エクスポート ODataEndpointProxy<ept id="p1">**</ept> 作成、読み取り、更新、および削除 (CRUD) 操作の非 CRUD アクションとの関連付け操作のためのコマンドレットが生成されます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> generates one CDXML file per endpoint resource.</source>
+          <target state="translated"><bpt id="p1">**</bpt>エクスポート ODataEndpointProxy<ept id="p1">**</ept> エンドポイント リソースごとに 1 つの CDXML ファイルが生成されます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can edit these CDXML files after the module is generated.</source>
+          <target state="translated">モジュールが生成された後は、これらの CDXML ファイルを編集できます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, if you want to change the noun or verb names of the cmdlets to align with Windows PowerShell cmdlet naming guidelines, you can modify the file.</source>
+          <target state="translated">たとえば、Windows PowerShell コマンドレットの名前付けのガイドラインに合うようにコマンドレットの名詞や動詞の名前を変更する場合は、ファイルを変更できます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Every cmdlet in a generated module must include a <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> parameter in order to connect to the endpoint that the module manages.</source>
+          <target state="translated">生成されたモジュールのすべてのコマンドレットを含める必要があります、 <bpt id="p1">*</bpt>ConnectionURI<ept id="p1">*</ept> モジュールを管理するエンドポイントに接続するためにパラメーター。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">例</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Example 1: Generate a module to manage a retail web service endpoint</source>
+          <target state="translated">例 1: 小売り web サービスのエンドポイントを管理するモジュールを生成します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This command generates a module to manage a retail service endpoint.</source>
+          <target state="translated">このコマンドは、製品版のサービス エンドポイントを管理するモジュールを生成します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The command specifies the URI of the endpoint and the URI of the endpoint metadata.</source>
+          <target state="translated">このコマンドは、エンドポイントの URI と、エンドポイントのメタデータの URI を指定します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The command also provides an output path and script module name as the value of the <bpt id="p1">*</bpt>OutputModule<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">値として、コマンドが出力パスとスクリプト モジュール名にも用意されています、 <bpt id="p1">*</bpt>OutputModule<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For the value of the <bpt id="p1">*</bpt>ResourceNameMapping<ept id="p1">*</ept> parameter, the command provides a hashtable that maps the resource collection name to the desired noun for the cmdlet set.</source>
+          <target state="translated">値を <bpt id="p1">*</bpt>ResourceNameMapping<ept id="p1">*</ept> パラメーターのコマンドは、提供を目的の名詞コマンドレット セットのリソースのコレクション名にマップするハッシュ テーブルです。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In this example, Products is the resource collection name and <bpt id="p1">**</bpt>Merchandise<ept id="p1">**</ept> is the noun.</source>
+          <target state="translated">この例では製品は、リソースのコレクション名と <bpt id="p1">**</bpt>商品<ept id="p1">**</ept> 、名詞は、です。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To allow connections to non-SSL sites, HTTP, as opposed to HTTPS, add the <bpt id="p1">*</bpt>AllowUnsecureConnection<ept id="p1">*</ept> parameter.</source>
+          <target state="translated">HTTP、HTTPS ではなく、非 SSL サイトへの接続を許可するには、追加、 <bpt id="p1">*</bpt>AllowUnsecureConnection<ept id="p1">*</ept> パラメーター。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">パラメータ</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-AllowClobber</source>
+          <target state="translated">-AllowClobber</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet replaces an existing module.</source>
+          <target state="translated">このコマンドレットが既存のモジュールに置き換えられることを示します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-AllowUnsecureConnection</source>
+          <target state="translated">-AllowUnsecureConnection</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Indicates that this module can connect to URIs that are not SSL-secured.</source>
+          <target state="translated">このモジュールは、SSL で保護されている Uri に接続できることを示します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The module can manage HTTP sites in addition to HTTPS sites.</source>
+          <target state="translated">このモジュールは、HTTPS サイトだけでなく HTTP サイトを管理できます。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-CmdletAdapter</source>
+          <target state="translated">-CmdletAdapter</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies the cmdlet adapter.</source>
+          <target state="translated">コマンドレットのアダプターを指定します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are: ODataAdapter and NetworkControllerAdapter.</source>
+          <target state="translated">このパラメーターの使用可能な値: ODataAdapter と NetworkControllerAdapter です。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">コマンドレットを実行する前に確認するように求められます。コマンドレットを実行する前に確認するように求められます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-CreateRequestMethod</source>
+          <target state="translated">-CreateRequestMethod</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Specifies the request method.</source>
+          <target state="translated">要求メソッドを指定します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are: PUT, POST, and PATCH.</source>
+          <target state="translated">このパラメーターの使用可能な値: PUT、POST、および修正プログラム。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has access to the OData endpoint.</source>
+          <target state="translated">OData エンドポイントへのアクセス権を持つユーザー アカウントを指定します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default value is the current user.</source>
+          <target state="translated">既定値は現在のユーザーです。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If a remote computer runs Windows Vista or a later release of the Windows operating system, the cmdlet prompts you for credentials.</source>
+          <target state="translated">リモート コンピューターでは、Windows Vista または Windows オペレーティング システムの今後のリリースを実行する場合、コマンドレットはユーザーに資格情報を求めます。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-CustomData</source>
+          <target state="translated">-CustomData</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Specifies a hash table of custom data.</source>
+          <target state="translated">カスタム データのハッシュ テーブルを指定します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Indicates that this cmdlet overwrites an existing generated module of the same name in an existing <ph id="ph1">`Modules`</ph> folder.</source>
+          <target state="translated">このコマンドレットでは、既存の同じ名前の既存の生成されたモジュールが上書きされることを示す <ph id="ph1">`Modules`</ph> フォルダーです。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-Headers</source>
+          <target state="translated">ヘッダー</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>{{Fill Headers Description}}</source>
+          <target state="translated">{{入力ヘッダーの説明}}</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-MetadataUri</source>
+          <target state="translated">-MetadataUri</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specifies the URI of the metadata of the endpoint.</source>
+          <target state="translated">エンドポイントのメタデータの URI を指定します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-OutputModule</source>
+          <target state="translated">-OutputModule</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Specifies the path and module name to which this cmdlet saves the generated module of proxy commands.</source>
+          <target state="translated">このコマンドレットがコマンドをプロキシの生成されたモジュールを保存するパスとモジュール名を指定します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This cmdlet copies a binary module, module manifest, and formatting file, if applicable, to the specified folder.</source>
+          <target state="translated">このコマンドレットは、指定したフォルダーに、該当する場合、バイナリ モジュール、モジュール マニフェスト、および書式設定ファイルをコピーします。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you specify only the name of the module, <bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> saves the module in the <ph id="ph1">`$home\Documents\WindowsPowerShell\Modules`</ph> folder.</source>
+          <target state="translated">モジュールの名前のみを指定する場合は、 <bpt id="p1">**</bpt>エクスポート ODataEndpointProxy<ept id="p1">**</ept> でモジュールを保存、 <ph id="ph1">`$home\Documents\WindowsPowerShell\Modules`</ph> フォルダーです。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you specify a path, the cmdlet creates the module folder in that path.</source>
+          <target state="translated">パスを指定する場合、コマンドレットは、そのパスでモジュール フォルダーを作成します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-ResourceNameMapping</source>
+          <target state="translated">-ResourceNameMapping</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies a hashtable that contains mappings that let you customize the generated cmdlets.</source>
+          <target state="translated">生成されたコマンドレットをカスタマイズするためのマッピングを含むハッシュ テーブルを指定します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In this hashtable, the resource collection name is the key.</source>
+          <target state="translated">このハッシュ テーブルでは、リソースのコレクション名は、キーです。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The desired cmdlet noun is the value.</source>
+          <target state="translated">必要なコマンドレットの名詞は、値です。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For example, in the hash table @{Products = 'Merchandise'}, <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> is the resource collection name that serves as the key.</source>
+          <target state="translated">たとえば、ハッシュ テーブルで @{製品 = '商品'}、 <bpt id="p1">**</bpt>製品<ept id="p1">**</ept> キーとして機能するリソースのコレクションの名前です。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Merchandise<ept id="p1">**</ept> is the resulting cmdlet noun.</source>
+          <target state="translated"><bpt id="p1">**</bpt>商品<ept id="p1">**</ept> が結果として得られるコマンドレットの名詞。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The generated cmdlet names might not align to Windows PowerShellcmdlet naming guidelines.</source>
+          <target state="translated">生成されたコマンドレット名は、Windows PowerShellcmdlet 名前付けのガイドラインに整列可能性があります。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can modify the resource CDXML file to change the cmdlet names after this cmdlet creates the module.</source>
+          <target state="translated">このコマンドレットは、モジュールを作成した後は、コマンドレット名を変更するリソースの CDXML ファイルを変更することができます。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For more information, see Strongly Encouraged Development Guidelineshttp://msdn.microsoft.com/library/dd878270(v=vs.85).aspx (http://msdn.microsoft.com/library/dd878270(v=vs.85).aspx) in the Microsoft Developer Network library.</source>
+          <target state="translated">詳細については、強く推奨して開発 Guidelineshttp://msdn.microsoft.com/library/dd878270 (v=vs.85).aspx (Microsoft Developer Network ライブラリ http://msdn.microsoft.com/library/dd878270 (v=vs.85).aspx) を参照してください。。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-UpdateRequestMethod</source>
+          <target state="translated">-UpdateRequestMethod</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Specifies the update request method.</source>
+          <target state="translated">更新要求のメソッドを指定します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The acceptable values for this parameter are: PUT, POST, and PATCH.</source>
+          <target state="translated">このパラメーターの使用可能な値: PUT、POST、および修正プログラム。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-Uri</source>
+          <target state="translated">Uri</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Specifies the URI of the endpoint.</source>
+          <target state="translated">エンドポイントの URI を指定します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットを実行するとどのような結果になるかを表示します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">コマンドレットは実行されません。コマンドレットが実行された場合の処理を示しています。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">コマンドレットは実行されません。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">このコマンドレットは、共通のパラメーターをサポートしています:-デバッグ、-erroraction、-errorvariable、- InformationAction-InformationVariable、- OutVariable、-OutBuffer、- PipelineVariable、- Verbose、および - WarningVariable です。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">詳細については、about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">入力</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">出力</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">ノート</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">関連リンク</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>OData Library</source>
+          <target state="translated">OData ライブラリ</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>What is the OData Protocol?</source>
+          <target state="translated">OData プロトコルは何ですか。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Invoke-RestMethod</source>
+          <target state="translated">Invoke-RestMethod</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

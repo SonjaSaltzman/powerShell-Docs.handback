@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">22b35d99f7c8545e260b8a1a67ea81a5a3f6fddc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Core\About\about_Functions_Advanced_Parameters.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">28a3e59fdd25b79321b0b607b0a9c34c0def77c6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a6df0f99aece19895c05d69883252558965d64b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>about_Functions_Advanced_Parameters</source>
+          <target state="translated">about_Functions_Advanced_Parameters</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">powershell cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>About Functions Advanced Parameters</source>
+          <target state="translated">有关高级参数的函数</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>about_Functions_Advanced_Parameters</source>
+          <target state="translated">about_Functions_Advanced_Parameters</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>about_Functions_Advanced_Parameters</source>
+          <target state="translated">about_Functions_Advanced_Parameters</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SHORT DESCRIPTION</source>
+          <target state="translated">简短说明</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Explains how to add parameters to advanced functions.</source>
+          <target state="translated">说明如何将参数添加到高级的功能。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LONG DESCRIPTION</source>
+          <target state="translated">详细说明</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can add parameters to the advanced functions that you write, and use parameter attributes and arguments to limit the parameter values that function users submit with the parameter.</source>
+          <target state="translated">您可以将参数添加到您编写的高级功能，并使用参数的属性和参数来限制函数用户提交带有参数的参数值。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The parameters that you add to your function are available to users in addition to the common parameters that Windows PowerShell adds automatically to all cmdlets and advanced functions.</source>
+          <target state="translated">您将添加到您的函数的参数是可供用户以及公共 Windows PowerShell 将自动添加到所有 cmdlet 和高级的函数的参数。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information about the Windows PowerShell common parameters, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">有关 Windows PowerShell 通用参数的详细信息，请参阅 about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216)。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Beginning in Windows PowerShell 3.0, you can use splatting with @Args to represent the parameters in a command.</source>
+          <target state="translated">从 Windows PowerShell 3.0 开始，您可以使用展开 @Args 来表示一个命令中的参数。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This technique is valid on simple and advanced functions.</source>
+          <target state="translated">此技术非常简单和高级函数上有效。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Functions (http://go.microsoft.com/fwlink/?LinkID=113231) and about_Splatting (http://go.microsoft.com/fwlink/?LinkID=262720).</source>
+          <target state="translated">有关详细信息，请参阅 about_Functions (http://go.microsoft.com/fwlink/?LinkID=113231) 和 about_Splatting (http://go.microsoft.com/fwlink/?LinkID=262720)。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Static Parameters Static parameters are parameters that are always available in the function.</source>
+          <target state="translated">静态参数静态参数是客始终可在函数中使用的参数。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Most parameters in Windows PowerShell cmdlets and scripts are static parameters.</source>
+          <target state="translated">在 Windows PowerShell cmdlet 和脚本中的大多数参数都是静态参数。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following example shows the declaration of a ComputerName parameter that has the following characteristics:</source>
+          <target state="translated">下面的示例演示具有以下特征的 ComputerName 参数的声明︰</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>It is mandatory (required).</source>
+          <target state="translated">它是强制的 （必需）。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It takes input from the pipeline.</source>
+          <target state="translated">它将管道中的输入。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It takes an array of strings as input.</source>
+          <target state="translated">它采用一个字符串数组作为输入。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true, ValueFromPipeline=$true)] [String[]] $ComputerName</source>
+          <target state="translated">[参数 (必需 = $true，ValueFromPipeline = $true)][字符串 []] $ComputerName</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Attributes of Parameters</source>
+          <target state="translated">参数的属性</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This section describes the attributes that you can add to function parameters.</source>
+          <target state="translated">本部分介绍您可以将其添加到函数参数的属性。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>All attributes are optional.</source>
+          <target state="translated">所有特性都是可选的。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>However, if you omit the CmdletBinding attribute, then to be recognized as an advanced function, the function must include the Parameter attribute.</source>
+          <target state="translated">但是，如果您省略 CmdletBinding 属性，然后识别为一项高级功能，该函数必须包含参数属性。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can add one or multiple attributes in each parameter declaration.</source>
+          <target state="translated">您可以在每个参数声明中添加一个或多个属性。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>There is no limit to the number of attributes that you can add to a parameter declaration.</source>
+          <target state="translated">您可以将其添加到参数声明的属性的数目没有限制。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The Parameter Attribute</source>
+          <target state="translated">参数属性</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The Parameter attribute is used to declare the attributes of function parameters.</source>
+          <target state="translated">参数特性用于声明的函数参数的属性。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The Parameter attribute is optional, and you can omit it if none of the parameters of your functions need attributes, but to be recognized as an advanced function (rather than a simple function), a function must have either the CmdletBinding attribute or the Parameter attribute, or both.</source>
+          <target state="translated">参数属性是可选的如果任何参数的函数需要属性，但若要识别为一项高级的功能 （而不是一个简单的函数），可以忽略它，函数必须具有 CmdletBinding 属性和/或参数属性。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The Parameter attribute has arguments that define the characteristics of the parameter, such as whether the parameter is mandatory or optional.</source>
+          <target state="translated">参数特性具有定义的参数，如该参数是必需还是可选的特征的参数。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Use the following syntax to declare the Parameter attribute, an argument, and an argument value.</source>
+          <target state="translated">使用以下语法声明的参数属性、 参数和参数值。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The parentheses that enclose the argument and its value must follow "Parameter" with no intervening space.</source>
+          <target state="translated">括号括起该参数并且其值必须遵循与没有插入空格"参数"。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>[parameter(Argument=value)] $ParameterName</source>
+          <target state="translated">parameter(Argument=value) $ParameterName</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Use commas to separate arguments within the parentheses.</source>
+          <target state="translated">使用逗号分隔的括号内的参数。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Use the following syntax to declare two arguments of the Parameter attribute.</source>
+          <target state="translated">使用以下语法声明两个参数的参数属性。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>[parameter(Argument1=value1, Argument2=value2)]</source>
+          <target state="translated">[参数 (参数 1 = 值 1，参数 2 = 值 2)]</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If you use the Parameter attribute without arguments (as an alternative to using the CmdletBinding attribute), the parentheses that follow the attribute name are still required.</source>
+          <target state="translated">如果 （作为一种方式使用 CmdletBinding 属性） 使用不带参数的参数属性，则仍需要属性名称后面的括号。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>[parameter()] $ParameterName</source>
+          <target state="translated">parameter() $ParameterName</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Mandatory Argument</source>
+          <target state="translated">强制参数</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The Mandatory argument indicates that the parameter is required.</source>
+          <target state="translated">强制参数指示参数是必需的。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If this argument is not specified, the parameter is an optional parameter.</source>
+          <target state="translated">如果未指定此参数，该参数是一个可选参数。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The following example declares the ComputerName parameter.</source>
+          <target state="translated">下面的示例声明 ComputerName 参数。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>It uses the Mandatory argument to make the parameter mandatory.</source>
+          <target state="translated">它使用强制参数来将参数设为强制。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true)] [String[]] $ComputerName</source>
+          <target state="translated">[parameter(Mandatory=$true)][字符串 []] $ComputerName</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Position Argument</source>
+          <target state="translated">位置参数</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The Position argument determines whether the parameter name is required when the parameter is used in a command.</source>
+          <target state="translated">位置参数确定是否在命令中使用此参数的参数名称时需要。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When a parameter declaration includes the Position argument, the parameter name can be omitted and Windows PowerShell identifies the unnamed parameter value by its position (or order) in the list of unnamed parameter values in the command.</source>
+          <target state="translated">当参数声明包含位置参数时，可以省略参数名和 Windows PowerShell 命令中的未命名的参数值的列表中的标识其位置 （或订单） 的未命名的参数值。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If the Position argument is not specified, the parameter name (or a parameter name alias or abbreviation) must precede the parameter value whenever the parameter is used in a command.</source>
+          <target state="translated">如果未指定位置参数，参数名称 （或参数别名或缩写） 必须在前面的参数值时在命令中使用此参数。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>By default, all function parameters are positional.</source>
+          <target state="translated">默认情况下，所有函数参数都是位置。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell assigns position numbers to parameters in the order in which the parameters are declared in the function.</source>
+          <target state="translated">Windows PowerShell 将分配给在参数声明的函数中的顺序的参数的位置编号。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To disable this feature, set the value of the PositionalBinding argument of the CmdletBinding attribute to $False.</source>
+          <target state="translated">若要禁用此功能，设置到 $False CmdletBinding 属性 PositionalBinding 参数的值。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The Position argument takes precedence over the value of the PositionalBinding argument for the parameters on which it is declared.</source>
+          <target state="translated">位置参数将优先于声明它的参数的 PositionalBinding 参数的值。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For more information, see PositionalBinding in about_Functions_CmdletBindingAttribute.</source>
+          <target state="translated">有关详细信息，请参阅在 about_Functions_CmdletBindingAttribute 的 PositionalBinding。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The value of the Position argument is specified as an integer.</source>
+          <target state="translated">位置参数的值指定为整数。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A position value of 0 represents the first position in the command, a position value of 1 represents the second position in the command, and so on.</source>
+          <target state="translated">位置值为 0 表示该命令的第一个位置，位置值 1 表示第二个位置中的命令中，依次类推。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If a function has no positional parameters, Windows PowerShell assigns positions to each parameter based on the order in which the parameters are declared.</source>
+          <target state="translated">如果函数没有任何位置参数，Windows PowerShell 会将职位分配给每个参数基于在其中声明参数的顺序。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>However, as a best practice, do not rely on this assignment.</source>
+          <target state="translated">但是，作为最佳做法是，不要依赖此分配。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When you want parameters to be positional, use the Position argument.</source>
+          <target state="translated">当您想要为位置参数时，请使用位置参数。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The following example declares the ComputerName parameter.</source>
+          <target state="translated">下面的示例声明 ComputerName 参数。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>It uses the Position argument with a value of 0.</source>
+          <target state="translated">值为 0，它使用位置参数。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>As a result, when "-ComputerName" is omitted from command, its value must be the first or only unnamed parameter value in the command.</source>
+          <target state="translated">因此，当"的计算机名"省略命令，从其值必须为第一个或唯一未命名的命令中的参数值。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>[parameter(Position=0)] [String[]] $ComputerName</source>
+          <target state="translated">[parameter(Position=0)][字符串 []] $ComputerName</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>NOTE: When the Get-Help cmdlet displays the corresponding "Position?"</source>
+          <target state="translated">注意︰ 当 Get-help cmdlet 显示的对应"位置？"</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>parameter attribute, the position value is incremented by 1.</source>
+          <target state="translated">参数特性，位置值都会增加 1。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For example, a parameter with a Position argument value of 0 has a parameter attribute of "Position?</source>
+          <target state="translated">例如，具有位置参数值为 0 的参数具有参数属性的"位置？</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>1."</source>
+          <target state="translated">1."</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>ParameterSetName Argument</source>
+          <target state="translated">ParameterSetName 参数</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The ParameterSetName argument specifies the parameter set to which a parameter belongs.</source>
+          <target state="translated">ParameterSetName 参数指定参数所属集的参数。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If no parameter set is specified, the parameter belongs to all the parameter sets defined by the function.</source>
+          <target state="translated">如果不指定任何参数集，则该参数属于由函数定义的所有参数集。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Therefore, to be unique, each parameter set must have at least one parameter that is not a member of any other parameter set.</source>
+          <target state="translated">因此，若要唯一，每个参数集必须具有至少一个参数不是任何其他参数集的成员。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The following example declares a ComputerName parameter in the Computer parameter set, a UserName parameter in the User parameter set, and a Summary parameter in both parameter sets.</source>
+          <target state="translated">下面的示例声明计算机参数集中的 ComputerName 参数、 用户名参数中的用户参数集和在两个参数集中 Summary 参数。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true, ParameterSetName="Computer")] [String[]] $ComputerName,</source>
+          <target state="translated">[参数 (必需 = $true，ParameterSetName ="计算机")][字符串 []] $ComputerName，</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true, ParameterSetName="User")] [String[]] $UserName,</source>
+          <target state="translated">[参数 (必需 = $true，ParameterSetName ="User")][字符串 []] $UserName，</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$false)] [Switch] $Summary</source>
+          <target state="translated">[parameter(Mandatory=$false)]交换机 $Summary</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>You can specify only one ParameterSetName value in each argument and only one ParameterSetName argument in each Parameter attribute.</source>
+          <target state="translated">每个参数属性中，可以指定只有一个 ParameterSetName 值中的每个参数且仅有一个 ParameterSetName 参数。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>To indicate that a parameter appears in more than one parameter set, add additional Parameter attributes.</source>
+          <target state="translated">若要指示一个参数将显示在多个参数集，添加其他参数属性。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The following example explicitly adds the Summary parameter to the Computer and User parameter sets.</source>
+          <target state="translated">下面的示例显式将摘要参数添加到计算机和用户的参数集。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The Summary parameter is mandatory in one parameter set and optional in the other.</source>
+          <target state="translated">摘要参数是必需设置和参数是可选的另一个参数中。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true, ParameterSetName="Computer")] [String[]] $ComputerName,</source>
+          <target state="translated">[参数 (必需 = $true，ParameterSetName ="计算机")][字符串 []] $ComputerName，</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true, ParameterSetName="User")] [String[]] $UserName,</source>
+          <target state="translated">[参数 (必需 = $true，ParameterSetName ="User")][字符串 []] $UserName，</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$false, ParameterSetName="Computer")] [parameter(Mandatory=$true, ParameterSetName="User")] [Switch] $Summary</source>
+          <target state="translated">[参数 (必需 = $false，ParameterSetName ="计算机")][参数 (必需 = $true，ParameterSetName ="User")]交换机 $Summary</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>For more information about parameter sets, see "Cmdlet Parameter Sets" in the MSDN library at http://go.microsoft.com/fwlink/?LinkId=142183.</source>
+          <target state="translated">有关参数集的详细信息，请参阅"Cmdlet 参数设置"http://go.microsoft.com/fwlink/?LinkId=142183 的 MSDN library 中。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>ValueFromPipeline Argument</source>
+          <target state="translated">ValueFromPipeline 参数</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The ValueFromPipeline argument indicates that the parameter accepts input from a pipeline object.</source>
+          <target state="translated">ValueFromPipeline 参数指示参数接受来自管道对象的输入。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Specify this argument if the function accepts the entire object, not just a property of the object.</source>
+          <target state="translated">指定此参数，如果该函数接受对整个对象，而不仅仅是对象的属性。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The following example declares a ComputerName parameter that is mandatory and accepts an object that is passed to the function from the pipeline.</source>
+          <target state="translated">下面的示例声明是必需的并且接受从管道传递给函数的对象的 ComputerName 参数。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true, ValueFromPipeline=$true)] [String[]] $ComputerName</source>
+          <target state="translated">[参数 (必需 = $true，ValueFromPipeline = $true)][字符串 []] $ComputerName</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>ValueFromPipelineByPropertyName Argument</source>
+          <target state="translated">ValueFromPipelineByPropertyName 参数</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The valueFromPipelineByPropertyName argument indicates that the parameter accepts input from a property of a pipeline object.</source>
+          <target state="translated">ValueFromPipelineByPropertyName 参数指示该参数接受输入的管道对象的属性。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The object property must have the same name or alias as the parameter.</source>
+          <target state="translated">对象属性必须具有相同的名称或别名作为参数。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>For example, if the function has a ComputerName parameter, and the piped object has a ComputerName property, the value of the ComputerName property is assigned to the ComputerName parameter of the function.</source>
+          <target state="translated">例如，如果函数具有 ComputerName 参数，并且管道的对象包含一个 ComputerName 属性，ComputerName 属性的值被分配给该函数的 ComputerName 参数。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The following example declares a ComputerName parameter that is mandatory and accepts input from the ComputerName property of the object that is passed to the function through the pipeline.</source>
+          <target state="translated">下面的示例声明是必需的并且接受来自通过管道传递给函数的对象的 ComputerName 属性输入的 ComputerName 参数。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true, ValueFromPipelineByPropertyName=$true)] [String[]] $ComputerName</source>
+          <target state="translated">[参数 (必需 = $true，ValueFromPipelineByPropertyName = $true)][字符串 []] $ComputerName</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>ValueFromRemainingArguments Argument</source>
+          <target state="translated">ValueFromRemainingArguments 参数</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The ValueFromRemainingArguments argument indicates that the parameter accepts all of the parameters values in the command that are not assigned to other parameters of the function.</source>
+          <target state="translated">ValueFromRemainingArguments 参数指示参数接受所有未分配给函数的其他参数在命令中的参数值。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The following example declares a ComputerName parameter that is mandatory and accepts all the remaining parameter values that were submitted to the function.</source>
+          <target state="translated">下面的示例声明是必需的接受所有剩余参数值已提交至函数的 ComputerName 参数。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true, ValueFromRemainingArguments=$true)] [String[]] $ComputerName</source>
+          <target state="translated">[参数 (必需 = $true，ValueFromRemainingArguments = $true)][字符串 []] $ComputerName</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>HelpMessage Argument</source>
+          <target state="translated">HelpMessage 参数</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The HelpMessage argument specifies a string that contains a brief description of the parameter or its value.</source>
+          <target state="translated">HelpMessage 参数指定一个字符串，包含它的值或参数的简要说明。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell displays this message in the prompt that appears when a mandatory parameter value is missing from a command.</source>
+          <target state="translated">Windows PowerShell 命令中缺少必需的参数值时，将出现的提示中显示此消息。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>This argument has no effect on optional parameters.</source>
+          <target state="translated">此参数可选参数无效。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The following example declares a mandatory ComputerName parameter and a help message that explains the expected parameter value.</source>
+          <target state="translated">下面的示例声明的强制性的 ComputerName 参数和一条解释预期的参数值的帮助消息。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>[parameter(mandatory=$true, HelpMessage="Enter one or more computer names separated by commas.")] [String[]] $ComputerName</source>
+          <target state="translated">[参数 (必需 = $true，HelpMessage ="输入以逗号分隔的一个或多个计算机名称。")][字符串 []] $ComputerName</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Alias Attribute</source>
+          <target state="translated">Alias 特性</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The Alias attribute establishes an alternate name for the parameter.</source>
+          <target state="translated">Alias 特性建立的备选名称的参数。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>There is no limit to the number of aliases that you can assign to a parameter.</source>
+          <target state="translated">可分配给参数的别名的数量没有限制。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The following example shows a parameter declaration that adds the "CN" and "MachineName" aliases to the mandatory ComputerName parameter.</source>
+          <target state="translated">下面的示例演示将"CN"和"MachineName"别名添加到必需的 ComputerName 参数的参数声明。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true)] [alias("CN","MachineName")] [String[]] $ComputerName</source>
+          <target state="translated">[parameter(Mandatory=$true)][alias("CN","MachineName")][字符串 []] $ComputerName</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Parameter and Variable Validation Attributes</source>
+          <target state="translated">参数和变量的验证特性</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Validation attributes direct Windows PowerShell to test the parameter values that users submit when they call the advanced function.</source>
+          <target state="translated">验证特性指示 Windows PowerShell，若要测试用户提交当它们调用高级的函数的参数值。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>If the parameter values fail the test, an error is generated and the function is not called.</source>
+          <target state="translated">如果参数值使测试失败，则会生成错误并不调用该函数。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>You can also use some of the validation attributes to restrict the values that users can specify for variables.</source>
+          <target state="translated">您可以使用一些验证特性来限制用户可以为变量指定的值。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>AllowNull Validation Attribute</source>
+          <target state="translated">AllowNull 验证特性</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The AllowNull attribute allows the value of a mandatory parameter to be null ($null).</source>
+          <target state="translated">AllowNull 属性允许必需的参数为 null 的值 ($null)。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The following example declares a ComputerName parameter that can have a Null value.</source>
+          <target state="translated">下面的示例声明可以具有 Null 值的 ComputerName 参数。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true)] [AllowNull()] [String] $ComputerName</source>
+          <target state="translated">[parameter(Mandatory=$true)][AllowNull()][String] $ComputerName</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>AllowEmptyString Validation Attribute</source>
+          <target state="translated">AllowEmptyString 验证特性</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The AllowEmptyString attribute allows the value of a mandatory parameter to be an empty string ("").</source>
+          <target state="translated">AllowEmptyString 属性允许为空字符串的强制性参数的值 ("")。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The following example declares a ComputerName parameter that can have an empty string value.</source>
+          <target state="translated">下面的示例声明可以具有空字符串值的 ComputerName 参数。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true)] [AllowEmptyString()] [String] $ComputerName</source>
+          <target state="translated">[parameter(Mandatory=$true)][AllowEmptyString()][String] $ComputerName</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>AllowEmptyCollection Validation Attribute</source>
+          <target state="translated">AllowEmptyCollection 验证特性</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The AllowEmptyCollection attribute allows the value of a mandatory parameter to be an empty collection (@()).</source>
+          <target state="translated">AllowEmptyCollection 属性允许的值为一个空集合的强制性参数 (@ （)）。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The following example declares a ComputerName parameter that can have a empty collection value.</source>
+          <target state="translated">下面的示例声明可以具有空集合值的 ComputerName 参数。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true)] [AllowEmptyCollection()] [String[]] $ComputerName</source>
+          <target state="translated">[parameter(Mandatory=$true)][AllowEmptyCollection()][字符串 []] $ComputerName</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>ValidateCount Validation Attribute</source>
+          <target state="translated">ValidateCount 验证特性</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The ValidateCount attribute specifies the minimum and maximum number of parameter values that a parameter accepts.</source>
+          <target state="translated">ValidateCount 属性指定一个参数接受的参数值的最小值和最大数目。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell generates an error if the number of parameter values in the command that calls the function is outside that range.</source>
+          <target state="translated">如果在命令中调用函数的参数值的数目超出了该范围，Windows PowerShell 会生成错误。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The following parameter declaration creates a ComputerName parameter that takes 1 to 5 parameter values.</source>
+          <target state="translated">下面的参数声明创建一个将 1 到 5 参数值的 ComputerName 参数。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true)] [ValidateCount(1,5)] [String[]] $ComputerName</source>
+          <target state="translated">[parameter(Mandatory=$true)][ValidateCount(1,5)][字符串 []] $ComputerName</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>ValidateLength Validation Attribute</source>
+          <target state="translated">ValidateLength 验证特性</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The ValidateLength attribute specifies the minimum and maximum number of characters in a parameter or variable value.</source>
+          <target state="translated">ValidateLength 属性中的参数或变量的值指定最小和最大字符数。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell generates an error if the length of a value specified for a parameter or a variable is outside of the range.</source>
+          <target state="translated">如果指定为参数或变量的值的长度位于范围之外，Windows PowerShell 将产生一个错误。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>In the following example, each computer name must have one to 10 characters.</source>
+          <target state="translated">在下面的示例中，每个计算机名必须具有一个到 10 个字符。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true)] [ValidateLength(1,10)] [String[]] $ComputerName</source>
+          <target state="translated">[parameter(Mandatory=$true)][ValidateLength(1,10)][字符串 []] $ComputerName</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>In the following example, the value of the variable $number must be a minimum of one character in length, and a maximum of ten characters.</source>
+          <target state="translated">在下面的示例中，变量 $number 的值必须为 1 个字符的长度，最小值和最多 10 个字符。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>[Int32][ValidateLength(1,10)]$number = 01</source>
+          <target state="translated">[Int32]ValidateLength(1,10) $number = 01</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>ValidatePattern Validation Attribute</source>
+          <target state="translated">ValidatePattern 验证特性</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The ValidatePattern attribute specifies a regular expression that is compared to the parameter or variable value.</source>
+          <target state="translated">ValidatePattern 属性指定为参数或变量的值进行比较的正则表达式。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell generates an error if the value does not match the regular expression pattern.</source>
+          <target state="translated">如果值不匹配正则表达式模式，则 Windows PowerShell 会生成错误。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>In the following example, the parameter value must be a four-digit number, and each digit must be a number 0 to 9.</source>
+          <target state="translated">在下面的示例中，参数值必须是一个四位数字，并且每个数字必须是 0 到 9 的数字。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true)] [ValidatePattern("[0-9][0-9][0-9][0-9]")] [String[]] $ComputerName</source>
+          <target state="translated">[parameter(Mandatory=$true)][ValidatePattern("[0-9][0-9][0-9][0-9]")][字符串 []] $ComputerName</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>In the following example, the value of the variable $number must be a four-digit number, and each digit must be a number 0 to 9.</source>
+          <target state="translated">在下面的示例中，变量 $number 的值必须是一个四位数字，并每个数字必须是 0 到 9 的数字。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>[Int32][ValidatePattern("[0-9][0-9][0-9][0-9]")]$number = 1111</source>
+          <target state="translated">[Int32]ValidatePattern("[0-9][0-9][0-9][0-9]") $number = 1111年</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>ValidateRange Validation Attribute</source>
+          <target state="translated">ValidateRange 验证特性</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The ValidateRange attribute specifies a numeric range for each parameter or variable value.</source>
+          <target state="translated">ValidateRange 属性指定的每个参数或变量值的数值范围。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell generates an error if any value is outside that range.</source>
+          <target state="translated">此范围外的任何值时，Windows PowerShell 将生成错误。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>In the following example, the value of the Attempts parameter must be between 0 and 10.</source>
+          <target state="translated">在下面的示例中，尝试参数的值必须介于 0 和 10 之间。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true)] [ValidateRange(0,10)] [Int] $Attempts</source>
+          <target state="translated">[parameter(Mandatory=$true)][ValidateRange(0,10)][Int] $Attempts</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>In the following example, the value of the variable $number must be between 0 and 10.</source>
+          <target state="translated">在下面的示例中，变量 $number 的值必须介于 0 和 10 之间。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>[Int32][ValidateRange(0,10)]$number = 5</source>
+          <target state="translated">[Int32]ValidateRange(0,10) $number = 5</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>ValidateScript Validation Attribute</source>
+          <target state="translated">ValidateScript 验证特性</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The ValidateScript attribute specifies a script that is used to validate a parameter or variable value.</source>
+          <target state="translated">ValidateScript 属性指定用于验证的参数或变量的值的脚本。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell pipes the value to the script, and generates an error if the script returns "false" or if the script throws an exception.</source>
+          <target state="translated">Windows PowerShell 管道传递到脚本中，值并将生成错误，如果此脚本返回"false"，或者该脚本将引发异常。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>When you use the ValidateScript attribute, the value that is being validated is mapped to the $<bpt id="p1">_</bpt> variable. You can use the $<ept id="p1">_</ept> variable to refer to the value in the script.</source>
+          <target state="translated">当使用 ValidateScript 属性时，所验证的值映射到 $<bpt id="p1">_</bpt> 变量。可以使用 $<ept id="p1">_</ept> 变量来引用脚本中的值。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>In the following example, the value of the EventDate parameter must be greater than or equal to the current date.</source>
+          <target state="translated">在下面的示例中，EventDate 参数的值必须大于或等于当前的日期。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>[parameter()] [ValidateScript({$_ -ge (get-date)})] [DateTime] $EventDate</source>
+          <target state="translated">[parameter()][ValidateScript ({$_ – ge (获取日期)})]DateTime $EventDate</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>In the following example, the value of the variable $date must be greater than or equal to the current date and time.</source>
+          <target state="translated">在下面的示例中，变量 $date 的值必须大于或等于当前日期和时间。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>[DateTime][ValidateScript({$_ -ge (get-date)})]$date = (get-date)</source>
+          <target state="translated">[DateTime][ValidateScript ({$_ – ge (获取日期)})] $date = （获取日期）</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>ValidateSet Attribute</source>
+          <target state="translated">ValidateSet 属性</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The ValidateSet attribute specifies a set of valid values for a parameter or variable.</source>
+          <target state="translated">ValidateSet 属性指定参数或变量的有效值的集。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell generates an error if a parameter or variable value does not match a value in the set.</source>
+          <target state="translated">如果参数或变量的值与集中的值不匹配，Windows PowerShell 将生成错误。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>In the following example, the value of the Detail parameter can only be "Low," "Average," or "High."</source>
+          <target state="translated">以下示例中，在详细信息参数的值只能是"低，""Average"高"。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true)] [ValidateSet("Low", "Average", "High")] [String[]] $Detail</source>
+          <target state="translated">[parameter(Mandatory=$true)][ValidateSet"低"、"Average"("高"）][字符串 []] $Detail</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>In the following example, the value of the variable $flavor must be either Chocolate, Strawberry, or Vanilla.</source>
+          <target state="translated">在下面的示例中，变量 $flavor 的值必须是巧克力、 草莓或传统的。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>[String][ValidateSet("Chocolate", "Strawberry", "Vanilla")]$flavor = Strawberry</source>
+          <target state="translated">[String][ValidateSet （"Chocolate"、"草莓"、"传统"）] $flavor = 草莓</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>ValidateNotNull Validation Attribute</source>
+          <target state="translated">ValidateNotNull 验证特性</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The ValidateNotNull attribute specifies that the parameter value cannot be null ($null).</source>
+          <target state="translated">ValidateNotNull 属性指定参数值不能为 null ($null)。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell generates an error if the parameter value is null.</source>
+          <target state="translated">如果参数值为 null，则 Windows PowerShell 将生成错误。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The ValidateNotNull attribute is designed to be used when the type of the parameter value is not specified or when the specified type will accept a value of Null.</source>
+          <target state="translated">ValidateNotNull 属性设计用于或指定的类型将接受的值为 Null 时未指定参数值的类型。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>(If you specify a type that will not accept a null value, such as a string, the null value will be rejected without the ValidateNotNull attribute, because it does not match the specified type.)</source>
+          <target state="translated">（如果指定一个类型，它将不接受 null 值，例如字符串，null 值将被拒绝不具有 ValidateNotNull 属性，因为指定的类型不匹配。）</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>In the following example, the value of the ID parameter cannot be null.</source>
+          <target state="translated">在下面的示例中，ID 参数的值不能为 null。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true)] [ValidateNotNull()]</source>
+          <target state="translated">[parameter(Mandatory=$true)][ValidateNotNull()]</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>$ID</source>
+          <target state="translated">$ID</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>ValidateNotNullOrEmpty Validation Attribute</source>
+          <target state="translated">ValidateNotNullOrEmpty 验证特性</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>The ValidateNotNullOrEmpty attribute specifies that the parameter value cannot be null ($null) and cannot be an empty string ("").</source>
+          <target state="translated">属性指定参数值不能为的 ValidateNotNullOrEmpty ($null)，则为 null 且不能为空字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell generates an error if the parameter is used in a function call, but its value is null, an empty string, or an empty array.</source>
+          <target state="translated">Windows PowerShell 将生成一个错误，如果在函数调用中，将使用此参数，但其值为 null、 空字符串，则为空数组。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Param</source>
+          <target state="translated">Param</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$true)] [ValidateNotNullOrEmpty()] [String[]] $UserName</source>
+          <target state="translated">[parameter(Mandatory=$true)][ValidateNotNullOrEmpty()][字符串 []] $UserName</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Dynamic Parameters</source>
+          <target state="translated">动态参数</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Dynamic parameters are parameters of a cmdlet, function, or script that are available only under certain conditions.</source>
+          <target state="translated">动态参数是只在某些情况下可用的 cmdlet、 函数或脚本的参数。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>For example, several provider cmdlets have parameters that are available only when the cmdlet is used in the provider drive, or in a particular path of the provider drive.</source>
+          <target state="translated">例如，多个提供程序 cmdlet 具有参数，仅当在提供程序驱动器中，或特定的提供程序驱动器路径中使用此 cmdlet 才可用。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>For example, the Encoding parameter is available on the Add-Content, Get-Content, and Set-Content cmdlets only when it is used in a file system drive.</source>
+          <target state="translated">例如，Encoding 参数是可用的添加内容，Get-content 和 Set-content cmdlet 仅当在文件系统驱动器中使用。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>You can also create a parameter that appears only when another parameter is used in the function command or when another parameter has a certain value.</source>
+          <target state="translated">此外可以创建显示仅当函数命令中使用另一个参数或另一个参数具有某个值的参数。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Dynamic parameters can be very useful, but use them only when necessary, because they can be difficult for users to discover.</source>
+          <target state="translated">动态参数可以很有用，但它们仅在必要时使用，因为可能很困难的用户来发现。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>To find a dynamic parameter, the user must be in the provider path, use the ArgumentList parameter of the Get-Command cmdlet, or use the Path parameter of Get-Help.</source>
+          <target state="translated">若要查找动态参数，用户必须是提供程序路径中，使用 ArgumentList 参数的 Get-command cmdlet，或使用 Get-help 的 Path 参数。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>To create a dynamic parameter for a function or script, use the DynamicParam keyword.</source>
+          <target state="translated">若要创建的函数或脚本的动态参数，请使用 DynamicParam 关键字。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The syntax is as follows:</source>
+          <target state="translated">语法是，如下所示︰</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>DynamicParam {&lt;statement-list&gt;}</source>
+          <target state="translated">DynamicParam {&lt; 语句的列表 &gt;}</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>In the statement list, use an If statement to specify the conditions under which the parameter is available in the function.</source>
+          <target state="translated">在语句列表中，使用 If 语句来指定在其下的参数是在函数中可用的条件。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Use the New-Object cmdlet to create a System.Management.Automation.RuntimeDefinedParameter object to represent the parameter and specify its name.</source>
+          <target state="translated">使用 New-object cmdlet 创建 System.Management.Automation.RuntimeDefinedParameter 对象来表示的参数，并指定其名称。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>You can also use a New-Object command to create a System.Management.Automation.ParameterAttribute object to represent attributes of the parameter, such as Mandatory, Position, or ValueFromPipeline or its parameter set.</source>
+          <target state="translated">您可以使用 New-object 命令创建一个 System.Management.Automation.ParameterAttribute 对象以表示参数，例如必需、 位置、 ValueFromPipeline 或其参数集的属性。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The following example shows a sample function with standard parameters named Name and Path, and an optional dynamic parameter named DP1.The DP1 parameter is in the PSet1 parameter set and has a type of Int32.</source>
+          <target state="translated">下面的示例演示一个示例函数使用标准的参数名为的名称和路径和一个名为 DP1 的可选动态参数。DP1 参数处于 PSet1 参数集，并且有一个类型为 int32。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The DP1 parameter is available in the Sample function only when the value of the Path parameter contains "HKLM:", indicating that it is being used in the HKEY_LOCAL_MACHINE registry drive.</source>
+          <target state="translated">DP1 参数可用于示例函数仅在 Path 参数的值包含"HKLM:"，指示它正在使用 HKEY_LOCAL_MACHINE 注册表驱动器中。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>function Get-Sample { [CmdletBinding()] Param ([String]$Name, [String]$Path)</source>
+          <target state="translated">函数获取示例 {[CmdletBinding()] Param ([String] $Name，[String] $Path)</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>DynamicParam { if ($path -match ".HKLM.:") { $attributes = new-object System.Management.Automation.ParameterAttribute $attributes.ParameterSetName = "__AllParameterSets" $attributes.Mandatory = $false $attributeCollection = new-object ` -Type System.Collections.ObjectModel.Collection[System.Attribute] $attributeCollection.Add($attributes)</source>
+          <target state="translated">DynamicParam {如果 ($path-匹配"。HKLM。:") {$attributes = 新对象 System.Management.Automation.ParameterAttribute $attributes。ParameterSetName ="__AllParameterSets"$attributes。必需 = $false $attributeCollection = 新对象的类型 System.Collections.ObjectModel.Collection[System.Attribute] $attributeCollection.Add($attributes)</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>$dynParam1 = new-object ` -Type System.Management.Automation.RuntimeDefinedParameter("dp1", [Int32], $attributeCollection)</source>
+          <target state="translated">$dynParam1 = 新对象的类型 System.Management.Automation.RuntimeDefinedParameter("dp1", [Int32], $attributeCollection)</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>$paramDictionary = new-object ` -Type System.Management.Automation.RuntimeDefinedParameterDictionary $paramDictionary.Add("dp1", $dynParam1) return $paramDictionary } } }</source>
+          <target state="translated">$paramDictionary = 新对象的类型 System.Management.Automation.RuntimeDefinedParameterDictionary $paramDictionary.Add （"dp1"、 $dynParam1） 返回 $paramDictionary}}}</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>For more information, see "RuntimeDefinedParameter Class" in the MSDN (Microsoft Developer Network) library at http://go.microsoft.com/fwlink/?LinkID=145130.</source>
+          <target state="translated">有关详细信息，请参阅在 http://go.microsoft.com/fwlink/?LinkID=145130 MSDN (Microsoft Developer Network) 库中的"RuntimeDefinedParameter 类"。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Switch Parameters Switch parameters are parameters with no parameter value.</source>
+          <target state="translated">开关参数开关参数是任何参数值的参数。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>They are effective only when they are used and have only one effect.</source>
+          <target state="translated">只有他们会使用，都只有一个效果，它们是有效的。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>For example, the -NoProfile parameter of PowerShell.exe is a switch parameter.</source>
+          <target state="translated">例如，PowerShell.exe-NoProfile 参数是一个开关参数。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>To create a switch parameter in a function, specify the Switch type in the parameter definition.</source>
+          <target state="translated">若要在函数中创建一个开关参数，请在参数定义中指定交换机类型。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>For example: Param ([Switch]<ph id="ph1">&lt;ParameterName&gt;</ph>) -or- Param</source>
+          <target state="translated">例如︰ Param ([交换机]<ph id="ph1">&lt;ParameterName&gt;</ph>)-或-Param</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>(</source>
+          <target state="translated">(</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>[parameter(Mandatory=$false)] [Switch]</source>
+          <target state="translated">[parameter(Mandatory=$false)][交换机]</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>)</source>
+          <target state="translated">)</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Switch parameters are easy to use and are preferred over Boolean parameters, which have a more difficult syntax.</source>
+          <target state="translated">开关参数易于使用和之所以优于有难度的语法的布尔参数。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>For example, to use a switch parameter, the user types the parameter in the command.</source>
+          <target state="translated">例如，若要使用开关参数，用户键入该参数在命令中。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>-IncludeAll</source>
+          <target state="translated">-IncludeAll</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>To use a Boolean parameter, the user types the parameter and a Boolean value.</source>
+          <target state="translated">若要使用布尔型参数，用户键入该参数和一个布尔值。</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>-IncludeAll:$true</source>
+          <target state="translated">-IncludeAll: $true</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>When creating switch parameters, choose the parameter name carefully.</source>
+          <target state="translated">在创建交换机参数时，请仔细选择的参数名称。</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>Be sure that the parameter name communicates the effect of the parameter to the user, and avoid ambiguous terms, such as Filter or Maximum, that might imply that a value is required.</source>
+          <target state="translated">请确保参数名称通信对用户来说，参数的效果并避免不明确的条款，例如筛选器或最大值，则可能暗示存在值是必需的。</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>SEE ALSO</source>
+          <target state="translated">另请参阅</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>about_Functions about_Functions_Advanced about_Functions_Advanced_Methods about_Functions_CmdletBindingAttribute about_Functions_OutputTypeAttribute</source>
+          <target state="translated">about_Functions about_Functions_Advanced about_Functions_Advanced_Methods about_Functions_CmdletBindingAttribute about_Functions_OutputTypeAttribute</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

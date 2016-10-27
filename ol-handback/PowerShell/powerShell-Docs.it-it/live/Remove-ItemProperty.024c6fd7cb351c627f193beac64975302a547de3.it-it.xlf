@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">927f66382340f7d9d62a03ca6223d41e0f66fa45</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">reference\4.0\Microsoft.PowerShell.Management\Remove-ItemProperty.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d6ffa68c8e2902caaab6e22d3f387cd00e667a6b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b7db8ffa3851f35f33d3b28e1e43398528c098ab</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell, cmdlet</source>
+          <target state="translated">cmdlet PowerShell</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Remove-ItemProperty</source>
+          <target state="translated">Remove-ItemProperty</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Remove-ItemProperty</source>
+          <target state="translated">Remove-ItemProperty</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SYNOPSIS</source>
+          <target state="translated">RIEPILOGO</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Deletes the property and its value from an item.</source>
+          <target state="translated">Elimina la proprietà e il relativo valore da un elemento.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SYNTAX</source>
+          <target state="translated">SINTASSI</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Path (Default)</source>
+          <target state="translated">Percorso (impostazione predefinita)</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>LiteralPath</source>
+          <target state="translated">LiteralPath</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DESCRIPTION</source>
+          <target state="translated">DESCRIZIONE</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Remove-ItemProperty cmdlet deletes a property and its value from an item.</source>
+          <target state="translated">Il cmdlet Remove-ItemProperty elimina una proprietà e il relativo valore da un elemento.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use it to delete registry values and the data that they store.</source>
+          <target state="translated">È possibile usarlo per eliminare i valori del Registro di sistema e i dati archiviati al loro interno.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="translated">ESEMPI</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 1 --------------------------</source>
+          <target state="translated">-------------------------- ESEMPIO 1 --------------------------</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command deletes the SmpProperty registry value, and its data, from the SmpApplication subkey of the HKEY_LOCAL_MACHINE\Software registry key.</source>
+          <target state="translated">Questo comando elimina il valore del Registro di sistema SmpProperty e i relativi dati dalla sottochiave SmpApplication della chiave HKEY_LOCAL_MACHINE\Software.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Because the command is issued from a file system drive (PS C:<ph id="ph1">\\\&gt;</ph>), it includes the fully qualified path to the SmpApplication subkey, including the drive, HKLM:, and the Software key.</source>
+          <target state="translated">Poiché il comando viene eseguito da un'unità file system (c: PS<ph id="ph1">\\\&gt;</ph>), include il percorso completo della sottochiave SmpApplication, incluse l'unità, HKLM: e la chiave Software.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It uses the Name parameter to identify the registry value that is being deleted.</source>
+          <target state="translated">Usa il parametro Name per identificare il valore del Registro di sistema da eliminare.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 2 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 2 --------------------------</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>These commands delete the Options registry value, and its data, from the MyApp subkey of HKEY_CURRENT_USER\Software\MyCompany.</source>
+          <target state="translated">Questi comandi eliminano il valore del Registro di sistema Options e i relativi dati dalla sottochiave MyApp subkey di HKEY_CURRENT_USER\Software\MyCompany.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The first command uses the Set-Location cmdlet to change the current location to the HKEY_CURRENT_USER drive (HKCU:) and the Software\MyCompany\MyApp subkey.</source>
+          <target state="translated">Il primo comando usa il cmdlet Set-Location per spostare la posizione corrente nell'unità HKEY_CURRENT_USER (HKCU:) e nella sottochiave Software\MyCompany\MyApp.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The second command uses the Remove-Item cmdlet to remove the Options registry value, and its data, from the MyApp subkey.</source>
+          <target state="translated">Il secondo comando usa il cmdlet Remove-Item per rimuovere la chiave del Registro di sistema Options e i relativi dati dalla sottochiave MyApp.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Because the Path parameter is required, the command uses a dot (.) to indicate the current location.</source>
+          <target state="translated">Poiché il parametro Path è obbligatorio, il comando usa un punto (.) per indicare la posizione corrente.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It uses the Name parameter to specify which registry value to delete.</source>
+          <target state="translated">Usa il parametro Name per specificare quale valore del Registro di sistema eliminare.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It uses the Confirm parameter to request a user prompt before deleting the value.</source>
+          <target state="translated">Usa il parametro Confirm per richiedere un prompt utente prima di eliminare il valore.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-------------------------- EXAMPLE 3 --------------------------</source>
+          <target state="translated">-------------------------- EXAMPLE 3 --------------------------</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This command deletes the NoOfEmployees registry value, and its data, from the HKLM\Software\MyCompany registry key.</source>
+          <target state="translated">Questo comando elimina il valore del Registro di sistema NoOfEmployees e i relativi dati dalla chiave HKLM\Software\MyCompany.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The command uses the Get-Item cmdlet to get an item that represents the registry key.</source>
+          <target state="translated">Usa il cmdlet Get-Item per ottenere un elemento che rappresenta la chiave del Registro di sistema.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It uses a pipeline operator (|) to send the object to the Remove-ItemProperty cmdlet.</source>
+          <target state="translated">Usa un operatore pipeline (|) per inviare l'oggetto al cmdlet Remove-ItemProperty.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Then, it uses the Name parameter of Remove-ItemProperty to specify the name of the registry value.</source>
+          <target state="translated">Usa quindi il parametro Name di Remove-ItemProperty per specificare il valore del Registro di sistema.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>PARAMETERS</source>
+          <target state="translated">PARAMETRI</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-Credential</source>
+          <target state="translated">-Credential</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies a user account that has permission to perform this action.</source>
+          <target state="translated">Specifica un account utente che dispone delle autorizzazioni per eseguire questa azione.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The default is the current user.</source>
+          <target state="translated">Il valore predefinito è l'utente corrente.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Type a user name, such as "User01" or "Domain01\User01", or enter a PSCredential object, such as one generated by the Get-Credential cmdlet.</source>
+          <target state="translated">Digitare un nome utente, ad esempio "User01" o "Domain01\User01", oppure immettere un oggetto PSCredential, ad esempio un oggetto generato dal cmdlet Get-Credential.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If you type a user name, you will be prompted for a password.</source>
+          <target state="translated">Se si digita un nome utente, viene richiesta una password.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This parameter is not supported by any providers installed with Windows PowerShell.</source>
+          <target state="translated">Questo parametro non è supportato dai provider installati con Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-Exclude</source>
+          <target state="translated">-Exclude</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Omits the specified items.</source>
+          <target state="translated">Omette gli elementi specificati.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Path parameter.</source>
+          <target state="translated">Il valore di questo parametro qualifica il parametro Path.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Enter a path element or pattern, such as "*.txt".</source>
+          <target state="translated">Immettere un elemento o modello di percorso, ad esempio "*.txt".</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">I caratteri jolly sono consentiti.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-Filter</source>
+          <target state="translated">-Filtro</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Specifies a filter in the provider's format or language.</source>
+          <target state="translated">Specifica un filtro nel formato o nel linguaggio del provider.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Path parameter.</source>
+          <target state="translated">Il valore di questo parametro qualifica il parametro Path.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The syntax of the filter, including the use of wildcards, depends on the provider.</source>
+          <target state="translated">La sintassi del filtro, incluso l'uso dei caratteri jolly, dipende dal provider.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Filters are more efficient than other parameters, because the provider applies them when retrieving the objects rather than having Windows PowerShell filter the objects after they are retrieved.</source>
+          <target state="translated">I filtri sono più efficienti di altri parametri, poiché il provider li applica durante il recupero degli oggetti invece di attendere che Windows PowerShell filtri gli oggetti dopo averli recuperati.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-Force</source>
+          <target state="translated">-Force</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Allows the cmdlet to remove a property of an object that cannot otherwise be accessed by the user.</source>
+          <target state="translated">Consente al cmdlet di rimuovere una proprietà in un oggetto che diversamente non è accessibile all'utente.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Implementation varies from provider to provider.</source>
+          <target state="translated">L'implementazione varia a seconda del provider.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Providers.</source>
+          <target state="translated">Per altre informazioni, vedere about_Providers.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-Include</source>
+          <target state="translated">-Include</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Deletes only the specified items.</source>
+          <target state="translated">Elimina solo gli elementi specificati.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The value of this parameter qualifies the Path parameter.</source>
+          <target state="translated">Il valore di questo parametro qualifica il parametro Path.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Enter a path element or pattern, such as "*.txt".</source>
+          <target state="translated">Immettere un elemento o modello di percorso, ad esempio "*.txt".</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">I caratteri jolly sono consentiti.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-LiteralPath</source>
+          <target state="translated">-LiteralPath</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specifies a path to the item property.</source>
+          <target state="translated">Specifica un percorso della proprietà dell'elemento.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The value of LiteralPath is used exactly as it is typed.</source>
+          <target state="translated">Il valore di LiteralPath viene usato esattamente com'è digitato.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>No characters are interpreted as wildcards.</source>
+          <target state="translated">Nessun carattere viene interpretato come carattere jolly.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If the path includes escape characters, enclose it in single quotation marks.</source>
+          <target state="translated">Se il percorso include caratteri di escape, racchiuderlo tra virgolette singole.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Single quotation marks tell Windows PowerShell not to interpret any characters as escape sequences.</source>
+          <target state="translated">Le virgolette singole indicano a Windows PowerShell di non interpretare i caratteri come sequenze di escape.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-Name</source>
+          <target state="translated">-Name</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specifies the names of the properties to be retrieved.</source>
+          <target state="translated">Specifica il nome delle proprietà da recuperare.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-Path</source>
+          <target state="translated">-Path</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the item whose properties are being removed.</source>
+          <target state="translated">Specifica il percorso dell'elemento di cui rimuovere le proprietà.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Wildcards are permitted.</source>
+          <target state="translated">I caratteri jolly sono consentiti.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-Confirm</source>
+          <target state="translated">-Confirm</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Prompts you for confirmation before running the cmdlet.Prompts you for confirmation before running the cmdlet.</source>
+          <target state="translated">Viene chiesta conferma prima dell'esecuzione del cmdlet. Viene chiesta conferma prima dell'esecuzione del cmdlet.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-WhatIf</source>
+          <target state="translated">-WhatIf</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Mostra gli effetti dell'esecuzione del cmdlet.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.Shows what would happen if the cmdlet runs.</source>
+          <target state="translated">Il cmdlet non viene eseguito. Viene illustrato che cosa accadrebbe se viene eseguito il cmdlet.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The cmdlet is not run.</source>
+          <target state="translated">Il cmdlet non viene eseguito.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-UseTransaction</source>
+          <target state="translated">-UseTransaction</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Includes the command in the active transaction.</source>
+          <target state="translated">Include il comando nella transazione attiva.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">Questo parametro è valido solo quando è in corso una transazione.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For more information, see Includes the command in the active transaction.</source>
+          <target state="translated">Per ulteriori informazioni, vedere include il comando nella transazione attiva.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This parameter is valid only when a transaction is in progress.</source>
+          <target state="translated">Questo parametro è valido solo quando è in corso una transazione.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For more information, see</source>
+          <target state="translated">Per altre informazioni, vedere l'articolo relativo alla</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>CommonParameters</source>
+          <target state="translated">CommonParameters</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.</source>
+          <target state="translated">Questo cmdlet supporta i parametri comuni:-eseguire il Debug, - ErrorAction, - ErrorVariable, - InformationAction, InformationVariable-, - OutVariable,-OutBuffer, - PipelineVariable, - Verbose, - WarningAction e - WarningVariable.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</source>
+          <target state="translated">Per ulteriori informazioni, vedere about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>INPUTS</source>
+          <target state="translated">INPUT</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>System.String</source>
+          <target state="translated">System.String</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can pipe a string that contains a path (but not a literal path) to Remove-ItemProperty.</source>
+          <target state="translated">È possibile inviare tramite pipe una stringa che contiene un percorso (ma non un percorso letterale) a Remove-ItemProperty.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>OUTPUTS</source>
+          <target state="translated">OUTPUT</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Nessuno</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This cmdlet does not return any output.</source>
+          <target state="translated">Questo cmdlet non restituisce alcun output.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>NOTES</source>
+          <target state="translated">NOTE</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>You can also refer to Remove-ItemProperty by its built-in alias, "rp".</source>
+          <target state="translated">È anche possibile fare riferimento a Remove-ItemProperty mediante il relativo alias predefinito, ovvero "mp".</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Alias.</source>
+          <target state="translated">Per altre informazioni, vedere about_Alias.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>In the Windows PowerShell Registry provider, registry values are considered to be properties of a registry key or subkey.</source>
+          <target state="translated">Nel provider del Registro di sistema di Windows PowerShell i valori del Registro di sistema vengono considerati come proprietà di una chiave o di una sottochiave.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You can use the ItemProperty cmdlets to manage these values.</source>
+          <target state="translated">È possibile usare i cmdlet ItemProperty per gestire questi valori.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The Remove-ItemProperty cmdlet is designed to work with the data exposed by any provider.</source>
+          <target state="translated">Il cmdlet Remove-ItemProperty è progettato per funzionare con i dati esposti da qualsiasi provider.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To list the providers available in your session, type "Get-PSProvider".</source>
+          <target state="translated">Per visualizzare l'elenco dei provider disponibili nella sessione corrente, digitare "Get-PSProvider".</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For more information, see about_Providers.</source>
+          <target state="translated">Per altre informazioni, vedere about_Providers.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>RELATED LINKS</source>
+          <target state="translated">COLLEGAMENTI CORRELATI</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Clear-ItemProperty</source>
+          <target state="translated">Clear-ItemProperty</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Copy-ItemProperty</source>
+          <target state="translated">Copy-ItemProperty</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Get-ItemProperty</source>
+          <target state="translated">Get-ItemProperty</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Move-ItemProperty</source>
+          <target state="translated">Move-ItemProperty</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>New-ItemProperty</source>
+          <target state="translated">Nuovo ItemProperty</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Remove-Item</source>
+          <target state="translated">Remove-Item</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Rename-ItemProperty</source>
+          <target state="translated">Rename-ItemProperty</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Set-ItemProperty</source>
+          <target state="translated">Set-ItemProperty</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>about_Providers</source>
+          <target state="translated">about_Providers</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
