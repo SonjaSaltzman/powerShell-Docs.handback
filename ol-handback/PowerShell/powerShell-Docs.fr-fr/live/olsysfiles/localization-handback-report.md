@@ -6,24 +6,21 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [reference\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/89379e7cbbccc6fdc449026de83d936183089dbf/reference/readme.md) | ArchivedSuccess | [Details](#2c9b6f7172a1782f72bb9e5a9ba7992eb80797de2163)
+ [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs/blob/8e486891a4e5db20389d6ae65d00c42e1308af35/dsc/pullServer.md) | InSyncHandedBackSuccess | [Details](#4ab20cdcac6f10dc9ecab6d85b38f413e0ade8b083)
 
 ## Item Details
-##### <a name='2c9b6f7172a1782f72bb9e5a9ba7992eb80797de2163'></a> Source: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/89379e7cbbccc6fdc449026de83d936183089dbf/reference/readme.md)
-* Status: ArchivedSuccess
-* Target File: 
-* Handoff File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/6480271ec91991a40411411302b33fb44f6089b6/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
-* Handoff Datetime: 2016-10-27 21:50:18
+##### <a name='4ab20cdcac6f10dc9ecab6d85b38f413e0ade8b083'></a> Source: [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs/blob/8e486891a4e5db20389d6ae65d00c42e1308af35/dsc/pullServer.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/d70338f5713b5351a8ea72462513e23463a63915/dsc/pullServer.md)
+* Handoff File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/22f0a626646e02d2be25bfeb2286ebffef20ff31/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.fr-fr.xlf)
+* Handoff Datetime: 2016-10-07 23:35:34
 * Handoff Reason: Include
-* Archive File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c37f3ab297a8fe282a93fb39aaad29e112e4a78d/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
-* Archive Datetime: 2016-10-27 21:50:20
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/d70338f5713b5351a8ea72462513e23463a63915/reference/readme.md)
-* Current Handback File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4e138113a0fb037a8cbb956b39a0aca837c8524c/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-27 21:53:14
-* Bilingual File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f35a79c889d4fb87886e707826a0e2d8b9400701/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
-* Bilingual Datetime: 2016-10-25 07:03:19
+* Archive File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/f91cd59516c81c5d1c90ddc7d2b212f8e846e448/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.fr-fr.xlf)
+* Archive Datetime: 2016-10-12 15:13:53
+* Handback File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b81ecd35eb493bc1bda264b379fc1afac69e66a0/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.fr-fr.xlf)
+* Handback Datetime: 2016-10-27 22:47:50
+* Bilingual File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/22ee2e03b7078e32ebd9a031c703f49bd0a00652/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.fr-fr.xlf)
+* Bilingual Datetime: 2016-10-22 21:39:33
 * [Back to Top](#report-top)
 
 
