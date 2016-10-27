@@ -28768,9 +28768,9 @@
 * Archive Datetime: 2016-10-27 21:50:20
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/2d52725f966e8e0b4e3f7cadb86b7bb41cb8be62/reference/readme.md)
-* Current Handback File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f35a79c889d4fb87886e707826a0e2d8b9400701/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
-* Current Handback Datetime: 2016-10-25 07:02:42
+* Current Target File: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/d70338f5713b5351a8ea72462513e23463a63915/reference/readme.md)
+* Current Handback File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4e138113a0fb037a8cbb956b39a0aca837c8524c/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
+* Current Handback Datetime: 2016-10-27 21:53:14
 * Bilingual File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f35a79c889d4fb87886e707826a0e2d8b9400701/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.fr-fr.xlf)
 * Bilingual Datetime: 2016-10-25 07:03:19
 * [Back to Top](#report-top)
