@@ -2795,6 +2795,8 @@
 * Current Target File: [dsc\DSCAutomationHostEnabled.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/28e1012c271faeb33a2bf7f894603106106f6882/dsc/DSCAutomationHostEnabled.md)
 * Current Handback File: [DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3d4b745b170ec868fc7eef31ae9d03f0d37db15a/ol-handback/PowerShell/powerShell-Docs.pt-br/live/DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.pt-br.xlf)
 * Current Handback Datetime: 2016-10-27 20:29:47
+* Bilingual File: [DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3d4b745b170ec868fc7eef31ae9d03f0d37db15a/ol-handback/PowerShell/powerShell-Docs.pt-br/live/DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.pt-br.xlf)
+* Bilingual Datetime: 2016-10-27 21:55:33
 * [Back to Top](#report-top)
 
 ##### <a name='4c802002c6a03a27d02221dd713677911a77c30b26'></a> Source: [dsc\enactingConfigurations.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/enactingConfigurations.md)
@@ -28784,6 +28786,8 @@
 * Current Target File: [reference\TOC.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/28e1012c271faeb33a2bf7f894603106106f6882/reference/TOC.md)
 * Current Handback File: [TOC.df89c545bc69390ff4652223333da66a5898f045.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3d4b745b170ec868fc7eef31ae9d03f0d37db15a/ol-handback/PowerShell/powerShell-Docs.pt-br/live/TOC.df89c545bc69390ff4652223333da66a5898f045.pt-br.xlf)
 * Current Handback Datetime: 2016-10-27 20:29:47
+* Bilingual File: [TOC.df89c545bc69390ff4652223333da66a5898f045.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3d4b745b170ec868fc7eef31ae9d03f0d37db15a/ol-handback/PowerShell/powerShell-Docs.pt-br/live/TOC.df89c545bc69390ff4652223333da66a5898f045.pt-br.xlf)
+* Bilingual Datetime: 2016-10-27 21:55:33
 * [Back to Top](#report-top)
 
 ##### <a name='c3b263110a908c28569cf3048a94d48da83166842166'></a> Source: [scripting\core-powershell\console\PowerShell.exe-Command-Line-Help.md](https://github.com/PowerShell/powerShell-Docs/blob/763dc6bb0410ec09fc237d41b96842895b15d142/scripting/core-powershell/console/PowerShell.exe-Command-Line-Help.md)
