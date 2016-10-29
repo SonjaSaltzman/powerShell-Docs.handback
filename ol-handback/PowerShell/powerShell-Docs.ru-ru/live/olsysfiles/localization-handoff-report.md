@@ -1,122 +1,44 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 7
+ Total Files | 2
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\bootstrapDsc.md](https://github.com/PowerShell/powerShell-Docs/blob/77ca52b130a432f79b9b4399afa5480e0daec983/dsc/bootstrapDsc.md) | HandedOffSuccess | [Details](#471684ffe62edfb10005f0ade162222eef4c9a3214)
- [dsc\DSCAutomationHostEnabled.md](https://github.com/PowerShell/powerShell-Docs/blob/260490003335923d4e1c6b6873b11ee71ba780c0/dsc/DSCAutomationHostEnabled.md) | HandedOffSuccess | [Details](#24842d755aa34ab29c6a5b4f973052476bc907e525)
- [dsc\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/42b857791d4d76864053ac43d39293c50161de46/dsc/TOC.md) | HandedOffSuccess | [Details](#2602bc6759b52a4e4519011fd489a0425a1ec1e098)
- [dsc\troubleshooting.md](https://github.com/PowerShell/powerShell-Docs/blob/99c1ea706ca5c3fb008065e98cc99fef463b1011/dsc/troubleshooting.md) | HandedOffSuccess | [Details](#caf661fe58faf8cf24c789b408505051429df3f499)
- [reference\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/89379e7cbbccc6fdc449026de83d936183089dbf/reference/readme.md) | ArchivedSuccess | [Details](#2c9b6f7172a1782f72bb9e5a9ba7992eb80797de2163)
- [reference\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/89379e7cbbccc6fdc449026de83d936183089dbf/reference/TOC.md) | HandedOffSuccess | [Details](#0035659b9a3f658c9ed15729b22519d6b4a6b0e72164)
- [scripting\setup\Windows-PowerShell-System-Requirements.md](https://github.com/PowerShell/powerShell-Docs/blob/c1e210afa664304fa38f7dead444ab4a206be64f/scripting/setup/Windows-PowerShell-System-Requirements.md) | HandedOffSuccess | [Details](#f560b955f8f817caf96dba40900844b98a0e92a92292)
+ [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | HandedOffSuccess | [Details](#966cab74cb2519893d4744e8bd0ca12f93f731362297)
+ [wmf\5.0\limitation_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/3e60ee1441f1f12b878b34deb4469a7df8bbc4f3/wmf/5.0/limitation_overview.md) | HandedOffSuccess | [Details](#ef8d306319a197df28afe41e2fbba547b589b3772361)
 
 ## Item Details
-##### <a name='471684ffe62edfb10005f0ade162222eef4c9a3214'></a> Source: [dsc\bootstrapDsc.md](https://github.com/PowerShell/powerShell-Docs/blob/77ca52b130a432f79b9b4399afa5480e0daec983/dsc/bootstrapDsc.md)
+##### <a name='966cab74cb2519893d4744e8bd0ca12f93f731362297'></a> Source: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
+* Status: HandedOffSuccess
+* Target File: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/fb8a55fb7861d945f997248857b6a020fc1a664c/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
+* Handoff File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/645fe785e42fdb0def8a879d51a543102447ef8d/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf)
+* Handoff Datetime: 2016-10-29 08:03:31
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/51b6ca42061af6362ea8dba61f7cff534bbad24b/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf)
+* Handback Datetime: 2016-10-22 23:15:30
+* Bilingual File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/51b6ca42061af6362ea8dba61f7cff534bbad24b/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf)
+* Bilingual Datetime: 2016-10-22 23:16:29
+* [Back to Top](#report-top)
+
+##### <a name='ef8d306319a197df28afe41e2fbba547b589b3772361'></a> Source: [wmf\5.0\limitation_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/3e60ee1441f1f12b878b34deb4469a7df8bbc4f3/wmf/5.0/limitation_overview.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [bootstrapDsc.bf70322a0205fe01fff5771c1c339ccbd2296594.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9f99d4a7d98b3c3ebadd725cd1fb0e704d9186e5/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/bootstrapDsc.bf70322a0205fe01fff5771c1c339ccbd2296594.ru-ru.xlf)
-* Handoff Datetime: 2016-10-27 21:52:04
+* Handoff File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/645fe785e42fdb0def8a879d51a543102447ef8d/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ru-ru.xlf)
+* Handoff Datetime: 2016-10-29 08:03:31
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='24842d755aa34ab29c6a5b4f973052476bc907e525'></a> Source: [dsc\DSCAutomationHostEnabled.md](https://github.com/PowerShell/powerShell-Docs/blob/260490003335923d4e1c6b6873b11ee71ba780c0/dsc/DSCAutomationHostEnabled.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9f99d4a7d98b3c3ebadd725cd1fb0e704d9186e5/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/DSCAutomationHostEnabled.fba7c9b1470882c6192cbd39804769a5471d975c.ru-ru.xlf)
-* Handoff Datetime: 2016-10-27 21:52:04
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='2602bc6759b52a4e4519011fd489a0425a1ec1e098'></a> Source: [dsc\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/42b857791d4d76864053ac43d39293c50161de46/dsc/TOC.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [TOC.b2a7935bce42ebc7e43bfe65f3058900e2942427.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9f99d4a7d98b3c3ebadd725cd1fb0e704d9186e5/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/TOC.b2a7935bce42ebc7e43bfe65f3058900e2942427.ru-ru.xlf)
-* Handoff Datetime: 2016-10-27 21:52:04
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [dsc\TOC.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/1480022d40ef50742357df8133982b4469ae4150/dsc/TOC.md)
-* Current Handback File: [TOC.b2a7935bce42ebc7e43bfe65f3058900e2942427.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/22376499a2430c7e640a943c1a2db0ade4dce354/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/TOC.b2a7935bce42ebc7e43bfe65f3058900e2942427.ru-ru.xlf)
-* Current Handback Datetime: 2016-10-06 00:34:32
-* Bilingual File: [TOC.b2a7935bce42ebc7e43bfe65f3058900e2942427.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/22376499a2430c7e640a943c1a2db0ade4dce354/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/TOC.b2a7935bce42ebc7e43bfe65f3058900e2942427.ru-ru.xlf)
-* Bilingual Datetime: 2016-10-06 00:37:50
-* [Back to Top](#report-top)
-
-##### <a name='caf661fe58faf8cf24c789b408505051429df3f499'></a> Source: [dsc\troubleshooting.md](https://github.com/PowerShell/powerShell-Docs/blob/99c1ea706ca5c3fb008065e98cc99fef463b1011/dsc/troubleshooting.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9f99d4a7d98b3c3ebadd725cd1fb0e704d9186e5/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ru-ru.xlf)
-* Handoff Datetime: 2016-10-27 21:52:04
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [dsc\troubleshooting.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/b5a146f3ca2d46575984263c9b8e2d19fa18b8c5/dsc/troubleshooting.md)
-* Current Handback File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba7ac197e62822324264399c785ca995a6b46954/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ru-ru.xlf)
-* Current Handback Datetime: 2016-10-22 19:02:52
-* Bilingual File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba7ac197e62822324264399c785ca995a6b46954/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ru-ru.xlf)
-* Bilingual Datetime: 2016-10-22 19:04:08
-* [Back to Top](#report-top)
-
-##### <a name='2c9b6f7172a1782f72bb9e5a9ba7992eb80797de2163'></a> Source: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs/blob/89379e7cbbccc6fdc449026de83d936183089dbf/reference/readme.md)
-* Status: ArchivedSuccess
-* Target File: 
-* Handoff File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9f99d4a7d98b3c3ebadd725cd1fb0e704d9186e5/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ru-ru.xlf)
-* Handoff Datetime: 2016-10-27 21:52:04
-* Handoff Reason: Include
-* Archive File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/ea6b2f5f08253f3fc33356c31d2993ecef869772/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ru-ru.xlf)
-* Archive Datetime: 2016-10-27 21:52:06
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [reference\readme.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/b5a146f3ca2d46575984263c9b8e2d19fa18b8c5/reference/readme.md)
-* Current Handback File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba7ac197e62822324264399c785ca995a6b46954/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ru-ru.xlf)
-* Current Handback Datetime: 2016-10-22 19:02:52
-* Bilingual File: [readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ba7ac197e62822324264399c785ca995a6b46954/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ru-ru.xlf)
-* Bilingual Datetime: 2016-10-22 19:04:08
-* [Back to Top](#report-top)
-
-##### <a name='0035659b9a3f658c9ed15729b22519d6b4a6b0e72164'></a> Source: [reference\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/89379e7cbbccc6fdc449026de83d936183089dbf/reference/TOC.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [TOC.df89c545bc69390ff4652223333da66a5898f045.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9f99d4a7d98b3c3ebadd725cd1fb0e704d9186e5/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/TOC.df89c545bc69390ff4652223333da66a5898f045.ru-ru.xlf)
-* Handoff Datetime: 2016-10-27 21:52:04
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='f560b955f8f817caf96dba40900844b98a0e92a92292'></a> Source: [scripting\setup\Windows-PowerShell-System-Requirements.md](https://github.com/PowerShell/powerShell-Docs/blob/c1e210afa664304fa38f7dead444ab4a206be64f/scripting/setup/Windows-PowerShell-System-Requirements.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9f99d4a7d98b3c3ebadd725cd1fb0e704d9186e5/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.ru-ru.xlf)
-* Handoff Datetime: 2016-10-27 21:52:04
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\setup\Windows-PowerShell-System-Requirements.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/2d4704a73b629a1ad2bbbb4b073e69efb36cd4b1/scripting/setup/Windows-PowerShell-System-Requirements.md)
-* Current Handback File: [Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f6d8de964b294f6e46340961cf04fe7c1d14d82a/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.ru-ru.xlf)
-* Current Handback Datetime: 2016-09-06 23:40:58
-* Bilingual File: [Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f6d8de964b294f6e46340961cf04fe7c1d14d82a/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.ru-ru.xlf)
-* Bilingual Datetime: 2016-09-06 23:42:38
+* Current Target File: [wmf\5.0\limitation_overview.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/162e5ddd7c324b4993f6bc08316a2b15dd6a58fc/wmf/5.0/limitation_overview.md)
+* Current Handback File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0eb7f7cd35035ac920fc3df83264ef40d20006c4/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ru-ru.xlf)
+* Current Handback Datetime: 2016-10-07 14:17:15
+* Bilingual File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0eb7f7cd35035ac920fc3df83264ef40d20006c4/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ru-ru.xlf)
+* Bilingual Datetime: 2016-10-07 14:20:56
 * [Back to Top](#report-top)
 
 

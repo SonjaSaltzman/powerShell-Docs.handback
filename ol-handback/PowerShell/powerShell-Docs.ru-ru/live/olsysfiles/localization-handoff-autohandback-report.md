@@ -2,7 +2,7 @@
 > This report show how many files are handback automatically in this handoff.
 
 ## Summary
-* **Auto Archive Count**: 1
+* **Auto Archive Count**: 0
 * **Auto Handback Count**: 0
 
 ## Auto Handback List
@@ -22,5 +22,4 @@
 
 | Handoff Xliff | Archived Reason | 
 | --- | --- | 
-| [ol-handoff\PowerShell\powerShell-Docs.ru-ru\live\readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9f99d4a7d98b3c3ebadd725cd1fb0e704d9186e5/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/readme.d9df587a23aa9a61e8928f2153ec8e757cb742eb.ru-ru.xlf) | Archived when 16/10/18 07:23 | 
 
