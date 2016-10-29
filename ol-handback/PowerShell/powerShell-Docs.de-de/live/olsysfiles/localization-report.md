@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 7
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 104
+[ Archive Success Files ](#archive-success-list)| 103
 [ Handback Failed Files ](#handback-failed-list)| 1
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 290
+[ In Sync Handback Files ](#insync-handback-success-list)| 291
 [ Ignored Files ](#ignored-list)| 2009
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -132,7 +132,6 @@
  [scripting\setup\Installing-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Installing-Windows-PowerShell.md) | ArchivedSuccess | [Details](#5b79069bdd57bb62f2cde2c92c981de98e8984922285)
  [scripting\setup\security.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/security.md) | ArchivedSuccess | [Details](#eb1ac0640b61cd8daf1c5ed4800cabee64a6c2762286)
  [scripting\whats-new\What-s-New-in-the-PowerShell-50-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-the-PowerShell-50-ISE.md) | ArchivedSuccess | [Details](#232b6a7020cbe3181a1fe722eae31d4d27d376692296)
- [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | ArchivedSuccess | [Details](#966cab74cb2519893d4744e8bd0ca12f93f731362297)
  [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-With-PowerShell.md) | ArchivedSuccess | [Details](#035fc8adc08df500069e800cfb94c5dcff46d88f2298)
  [wmf\5.0\limitation_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/3e60ee1441f1f12b878b34deb4469a7df8bbc4f3/wmf/5.0/limitation_overview.md) | ArchivedSuccess | [Details](#ef8d306319a197df28afe41e2fbba547b589b3772361)
 
@@ -343,6 +342,7 @@
  [scripting\setup\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/4ddd5099ce33263d43dcbad0930e654b573a8937/scripting/setup/WinRMSecurity.md) | InSyncHandedBackSuccess | [Details](#fa7e5c84ac82fa72836536ece507f1751e0990772293)
  [scripting\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/1fe4c9a63c6d7fa47357b068997c5d9ce8ef6c32/scripting/TOC.md) | InSyncHandedBackSuccess | [Details](#4916c6b7a1d93b5dc94f4ed54afd26b919061c3e2294)
  [scripting\topic\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/afa259b8611f995bbf5b824179a12e3d8f15df86/scripting/topic/WinRMSecurity.md) | InSyncHandedBackSuccess | [Details](#207792452c563ec6cca5c17fbcd122372442d8ac2295)
+ [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | InSyncHandedBackSuccess | [Details](#966cab74cb2519893d4744e8bd0ca12f93f731362297)
  [scripting\Windows-PowerShell-Glossary.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/Windows-PowerShell-Glossary.md) | InSyncHandedBackSuccess | [Details](#5c6f660f9de9039355f3a991da440b75e97275eb2299)
  [wmf\5.0\audit_cms.md](https://github.com/PowerShell/powerShell-Docs/blob/b32cb86b7a18fee929cc81360d81f479571a74c2/wmf/5.0/audit_cms.md) | InSyncHandedBackSuccess | [Details](#2160a4b932075c98df6806c61d263d30f650b9f42300)
  [wmf\5.0\audit_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/a5eb166c5badca2d7d926766ffa480b082355e86/wmf/5.0/audit_overview.md) | InSyncHandedBackSuccess | [Details](#20e6c97ad5dc845bc0ead973ed8a62b34af3e8242301)
@@ -30926,15 +30926,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='966cab74cb2519893d4744e8bd0ca12f93f731362297'></a> Source: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
-* Status: ArchivedSuccess
-* Target File: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/3a57169e583e3790da128b0561869cd79b72e523/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/74776eaf414961e49005a52508c2d4aa1ca95936/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
 * Handoff File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/376af08ee95ce7df2f4cb90cc274042eba82fc81/ol-handoff/PowerShell/powerShell-Docs.de-de/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf)
 * Handoff Datetime: 2016-10-29 08:02:02
 * Handoff Reason: Include
 * Archive File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c26fdc9ba39704442038beea0960b9762a77e46f/ol-archive/PowerShell/powerShell-Docs.de-de/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf)
 * Archive Datetime: 2016-10-29 08:08:09
-* Handback File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/60ef2dd925aa1eaac25b8286ae731816dc5e3261/ol-handback/PowerShell/powerShell-Docs.de-de/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf)
-* Handback Datetime: 2016-10-23 10:21:49
+* Handback File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c778156fd3fc4e957b121022f833a34aa2482d7b/ol-handback/PowerShell/powerShell-Docs.de-de/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf)
+* Handback Datetime: 2016-10-29 15:16:35
 * Bilingual File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/60ef2dd925aa1eaac25b8286ae731816dc5e3261/ol-handback/PowerShell/powerShell-Docs.de-de/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.de-de.xlf)
 * Bilingual Datetime: 2016-10-23 10:22:50
 * [Back to Top](#report-top)
