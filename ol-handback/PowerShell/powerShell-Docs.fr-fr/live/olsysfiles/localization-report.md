@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 1
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 45
+[ Archive Success Files ](#archive-success-list)| 44
 [ Handback Failed Files ](#handback-failed-list)| 3
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 353
+[ In Sync Handback Files ](#insync-handback-success-list)| 354
 [ Ignored Files ](#ignored-list)| 2009
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -63,7 +63,6 @@
  [scripting\getting-started\cookbooks\Selecting-Items-from-a-List-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Selecting-Items-from-a-List-Box.md) | ArchivedSuccess | [Details](#ce74f3c7cb26632269e42dfddb941fee11dcdc872247)
  [scripting\getting-started\fundamental\Getting-Detailed-Help-Information.md](https://github.com/PowerShell/powerShell-Docs/blob/b59186234a513cf34d2615d90643ee749bd60d3f/scripting/getting-started/fundamental/Getting-Detailed-Help-Information.md) | ArchivedSuccess | [Details](#c38edc68154ccfa9cd76ebdad5a94ddfb4f902c82263)
  [scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/416d21d2a2fa3d837eba19b1023e4045a124e23c/scripting/getting-started/Getting-Ready-to-Use-Windows-PowerShell.md) | ArchivedSuccess | [Details](#9229df48b00c125e04d0f97536697495d0ca01ed2276)
- [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md) | ArchivedSuccess | [Details](#b81bcbd37cdfebc04fbc7ef92d76f0769c1357132282)
  [scripting\setup\Installing-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Installing-Windows-PowerShell.md) | ArchivedSuccess | [Details](#5b79069bdd57bb62f2cde2c92c981de98e8984922285)
  [scripting\setup\security.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/security.md) | ArchivedSuccess | [Details](#eb1ac0640b61cd8daf1c5ed4800cabee64a6c2762286)
  [scripting\setup\Windows-PowerShell-System-Requirements.md](https://github.com/PowerShell/powerShell-Docs/blob/c1e210afa664304fa38f7dead444ab4a206be64f/scripting/setup/Windows-PowerShell-System-Requirements.md) | ArchivedSuccess | [Details](#f560b955f8f817caf96dba40900844b98a0e92a92292)
@@ -331,6 +330,7 @@
  [scripting\getting-started\more-powershell-learning.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/getting-started/more-powershell-learning.md) | InSyncHandedBackSuccess | [Details](#ba4f79742e21e23fb3745ca8c7833679d398ccf42278)
  [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/119b4d50423498e08383f02e56ae76653d06e555/scripting/getting-started/understanding-concepts-reference.md) | InSyncHandedBackSuccess | [Details](#e3cac149d549400b6a180b4a4fd6ff1a13a8130b2279)
  [scripting\PowerShell-Scripting.md](https://github.com/PowerShell/powerShell-Docs/blob/b38cfd053cc2356fa7ca99605dbd84190d342327/scripting/PowerShell-Scripting.md) | InSyncHandedBackSuccess | [Details](#fc6307be4dafb378350b6d9667b2b6aca0e2e6d42281)
+ [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md) | InSyncHandedBackSuccess | [Details](#b81bcbd37cdfebc04fbc7ef92d76f0769c1357132282)
  [scripting\setup\Installing-the-Windows-PowerShell-2.0-Engine.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Installing-the-Windows-PowerShell-2.0-Engine.md) | InSyncHandedBackSuccess | [Details](#68a3d823f6545e1fbf6399b4d566a7e62daeebc92283)
  [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs/blob/7caac42751c580d588fcf19db7253c8b75d6c865/scripting/setup/Installing-the-Windows-PowerShell-SDK.md) | InSyncHandedBackSuccess | [Details](#7af27dc9bd8e93d1df5258b0d8df8af12726f5682284)
  [scripting\setup\setup-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/setup/setup-reference.md) | InSyncHandedBackSuccess | [Details](#63f7597ba91fb839252de451c6c9380b5b19c0ec2287)
@@ -30527,18 +30527,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='b81bcbd37cdfebc04fbc7ef92d76f0769c1357132282'></a> Source: [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/e0296a44b5936b917bf3fbff61801817ff026466/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md)
 * Handoff File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/47f92832170078193b2e358325c16fc58796818c/ol-handoff/PowerShell/powerShell-Docs.fr-fr/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.fr-fr.xlf)
 * Handoff Datetime: 2016-10-17 17:42:23
 * Handoff Reason: Include
 * Archive File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a525a1bb0e44087546993d94dbb7cabe1ad24e02/ol-archive/PowerShell/powerShell-Docs.fr-fr/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.fr-fr.xlf)
 * Archive Datetime: 2016-10-18 19:21:31
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs.fr-fr/blob/4ee319263ba40e8c7473619e0dcb7472dbce9622/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md)
-* Current Handback File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b6a920cd270602fa4a79e549ca0eda8f3dd55cd9/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.fr-fr.xlf)
-* Current Handback Datetime: 2016-09-07 00:35:21
+* Handback File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/1b7ed8ea17caa173053d469ac2fc592a68326204/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.fr-fr.xlf)
+* Handback Datetime: 2016-11-01 22:18:03
 * Bilingual File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.fr-fr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b6a920cd270602fa4a79e549ca0eda8f3dd55cd9/ol-handback/PowerShell/powerShell-Docs.fr-fr/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.fr-fr.xlf)
 * Bilingual Datetime: 2016-09-07 00:37:51
 * [Back to Top](#report-top)
