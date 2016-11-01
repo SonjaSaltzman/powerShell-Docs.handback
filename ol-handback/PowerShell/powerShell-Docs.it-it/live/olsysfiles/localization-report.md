@@ -30576,8 +30576,8 @@
 * Archive Datetime: 2016-10-18 19:23:17
 * Handback File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0615e77f89af403c7bb275a3e5afd7e0f2e10d47/ol-handback/PowerShell/powerShell-Docs.it-it/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.it-it.xlf)
 * Handback Datetime: 2016-11-01 22:18:14
-* Bilingual File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6dbfe1e9244ad879334249a2156f2c4579204c2b/ol-handback/PowerShell/powerShell-Docs.it-it/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.it-it.xlf)
-* Bilingual Datetime: 2016-09-07 01:32:25
+* Bilingual File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0615e77f89af403c7bb275a3e5afd7e0f2e10d47/ol-handback/PowerShell/powerShell-Docs.it-it/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.it-it.xlf)
+* Bilingual Datetime: 2016-11-01 22:21:14
 * [Back to Top](#report-top)
 
 ##### <a name='68a3d823f6545e1fbf6399b4d566a7e62daeebc92283'></a> Source: [scripting\setup\Installing-the-Windows-PowerShell-2.0-Engine.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Installing-the-Windows-PowerShell-2.0-Engine.md)
