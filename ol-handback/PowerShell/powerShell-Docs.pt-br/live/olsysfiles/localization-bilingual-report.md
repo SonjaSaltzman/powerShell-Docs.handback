@@ -6,21 +6,21 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | InSyncHandedBackSuccess | [Details](#966cab74cb2519893d4744e8bd0ca12f93f731362297)
+ [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md) | InSyncHandedBackSuccess | [Details](#b81bcbd37cdfebc04fbc7ef92d76f0769c1357132282)
 
 ## Item Details
-##### <a name='966cab74cb2519893d4744e8bd0ca12f93f731362297'></a> Source: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
+##### <a name='b81bcbd37cdfebc04fbc7ef92d76f0769c1357132282'></a> Source: [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/e018d3aa6e62331cb55ac1a7a0f42d9bb863699b/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
-* Handoff File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/73c91df3e88d003614e30ff0112e5727f4102f45/ol-handoff/PowerShell/powerShell-Docs.pt-br/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.pt-br.xlf)
-* Handoff Datetime: 2016-10-29 08:03:19
+* Target File: [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/3e87938bebb47439e64af4cc97354f6a37d6eae6/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md)
+* Handoff File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/19beb78bab7bc74530468d9921fbd850bf85a89a/ol-handoff/PowerShell/powerShell-Docs.pt-br/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf)
+* Handoff Datetime: 2016-10-17 17:45:35
 * Handoff Reason: Include
-* Archive File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/40714c51b977137342d93afb6ac293f1640b6171/ol-archive/PowerShell/powerShell-Docs.pt-br/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.pt-br.xlf)
-* Archive Datetime: 2016-10-29 08:09:36
-* Handback File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4b5acf12b797f99b4568521c38e54b6da81b876f/ol-handback/PowerShell/powerShell-Docs.pt-br/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.pt-br.xlf)
-* Handback Datetime: 2016-10-29 17:24:01
-* Bilingual File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4b5acf12b797f99b4568521c38e54b6da81b876f/ol-handback/PowerShell/powerShell-Docs.pt-br/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.pt-br.xlf)
-* Bilingual Datetime: 2016-10-29 17:26:54
+* Archive File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/89adaa49f8977677e28f8d968e847fc8c3023345/ol-archive/PowerShell/powerShell-Docs.pt-br/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf)
+* Archive Datetime: 2016-10-18 19:23:55
+* Handback File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/826ad39f6ce0e6d2ddba032ba1faee5daf93e00e/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf)
+* Handback Datetime: 2016-11-01 22:18:44
+* Bilingual File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/826ad39f6ce0e6d2ddba032ba1faee5daf93e00e/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf)
+* Bilingual Datetime: 2016-11-01 22:21:36
 * [Back to Top](#report-top)
 
 
