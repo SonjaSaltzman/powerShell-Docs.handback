@@ -8,10 +8,10 @@
 [ Handoff Success Files ](#handoff-success-list)| 0
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 110
-[ Handback Failed Files ](#handback-failed-list)| 1
+[ Handback Failed Files ](#handback-failed-list)| 2
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 291
-[ Ignored Files ](#ignored-list)| 2009
+[ In Sync Handback Files ](#insync-handback-success-list)| 289
+[ Ignored Files ](#ignored-list)| 2010
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
 
@@ -137,6 +137,7 @@
  Source File | Status | Details 
  ----------- | ------ | ------- 
  [dsc\authoringResourceComposite.md](https://github.com/PowerShell/powerShell-Docs/blob/48cfed9e0c31e24c441eafb388a799bd7fc7415f/dsc/authoringResourceComposite.md) | HandedBackFailed | [Details](#6631d60d7d82e71c315c26a0196aa3e4c1b60b1510)
+ [scripting\getting-started\cookbooks\Collecting-Information-About-Computers.md](https://github.com/PowerShell/powerShell-Docs/blob/d698cdd29bfe165b87494696ca2dc3486be4ab0e/scripting/getting-started/cookbooks/Collecting-Information-About-Computers.md) | HandedBackFailed | [Details](#96204a0ce674cacd5b830f9f8b820ce3e1cbbc202230)
 
 ## <a name='outofsync-handback-success-list'></a> Out Of Sync Handback Success File List
 
@@ -289,8 +290,6 @@
  [scripting\getting-started\cookbooks\Appendix-2---Creating-a-Custom-PowerShell-Shortcut.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Appendix-2---Creating-a-Custom-PowerShell-Shortcut.md) | InSyncHandedBackSuccess | [Details](#ceec1038516ddd4c29df770d14981c0a694374982227)
  [scripting\getting-started\cookbooks\basic-cookbooks-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/cookbooks/basic-cookbooks-reference.md) | InSyncHandedBackSuccess | [Details](#a5bfad60f1cb254f1899723c40751cd8b96ef54e2228)
  [scripting\getting-started\cookbooks\Changing-Computer-State.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Changing-Computer-State.md) | InSyncHandedBackSuccess | [Details](#1779b9de13a30a43236e24793e5196261a7db77f2229)
- [scripting\getting-started\cookbooks\Collecting-Information-About-Computers.md](https://github.com/PowerShell/powerShell-Docs/blob/d698cdd29bfe165b87494696ca2dc3486be4ab0e/scripting/getting-started/cookbooks/Collecting-Information-About-Computers.md) | InSyncHandedBackSuccess | [Details](#96204a0ce674cacd5b830f9f8b820ce3e1cbbc202230)
- [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md) | InSyncHandedBackSuccess | [Details](#4c0f405a46e16935211b3886a40c9f7d1afc72602231)
  [scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Getting-WMI-Objects--Get-WmiObject-.md) | InSyncHandedBackSuccess | [Details](#de9e8af7908ac6a72a100fd2c86b52c30c390c392234)
  [scripting\getting-started\cookbooks\Managing-Current-Location.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Managing-Current-Location.md) | InSyncHandedBackSuccess | [Details](#97bdd8ed6278fc5d45b34adf50ef8a194966ef0c2235)
  [scripting\getting-started\cookbooks\Managing-Windows-PowerShell-Drives.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Managing-Windows-PowerShell-Drives.md) | InSyncHandedBackSuccess | [Details](#d266a109b1acd97c03594f988ce2fab3c697b80c2238)
@@ -2429,6 +2428,7 @@
  [reference\5.1\ToC.md](https://github.com/PowerShell/powerShell-Docs/blob/a759e987ad79e2cec6f7db927629919a5efcfcf5/reference/5.1/ToC.md) | Ignored | [Details](#50ba2d769b8d1657715bb625aa5bc7fe5a290f972161)
  [reference\docfx.json](https://github.com/PowerShell/powerShell-Docs/blob/a759e987ad79e2cec6f7db927629919a5efcfcf5/reference/docfx.json) | Ignored | [Details](#4067949f949c2c6f1d130d1cebc2a228af655dc12162)
  [scripting\docfx.json](https://github.com/PowerShell/powerShell-Docs/blob/a759e987ad79e2cec6f7db927629919a5efcfcf5/scripting/docfx.json) | Ignored | [Details](#9c38507d64e79807091da129978f4ef71091d9462224)
+ [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/a759e987ad79e2cec6f7db927629919a5efcfcf5/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md) | Ignored | [Details](#662d0823749c142a716b74164ad57a8612833ccd2231)
  [scripting\md.style](https://github.com/PowerShell/powerShell-Docs/blob/a759e987ad79e2cec6f7db927629919a5efcfcf5/scripting/md.style) | Ignored | [Details](#755db60abb7859af5065e2c5ddfbfc6cfb7aeeda2280)
  [wmf\docfx.json](https://github.com/PowerShell/powerShell-Docs/blob/a759e987ad79e2cec6f7db927629919a5efcfcf5/wmf/docfx.json) | Ignored | [Details](#90e6537c69b63c19d38e53440bb0982e016001342391)
  [wmf\images\CatalogFile1.jpg](https://github.com/PowerShell/powerShell-Docs/blob/a759e987ad79e2cec6f7db927629919a5efcfcf5/wmf/images/CatalogFile1.jpg) | Ignored | [Details](#e4ee3e2aa0624ac60c9669581fab767fec5097c02392)
@@ -29943,7 +29943,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='96204a0ce674cacd5b830f9f8b820ce3e1cbbc202230'></a> Source: [scripting\getting-started\cookbooks\Collecting-Information-About-Computers.md](https://github.com/PowerShell/powerShell-Docs/blob/d698cdd29bfe165b87494696ca2dc3486be4ab0e/scripting/getting-started/cookbooks/Collecting-Information-About-Computers.md)
-* Status: InSyncHandedBackSuccess
+* Status: HandedBackFailed
 * Target File: [scripting\getting-started\cookbooks\Collecting-Information-About-Computers.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/79ddb3c30555442a7887a4156b024ad89e0cb84f/scripting/getting-started/cookbooks/Collecting-Information-About-Computers.md)
 * Handoff File: [Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/33825405d24010abda65e56163602016abba4e62/ol-handoff/PowerShell/powerShell-Docs.de-de/live/Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.de-de.xlf)
 * Handoff Datetime: 2016-08-18 01:23:34
@@ -29951,23 +29951,22 @@
 * Archive File: [Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a7982d24647baf614ccfe202ca95069805d5d1e7/ol-archive/PowerShell/powerShell-Docs.de-de/live/Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.de-de.xlf)
 * Archive Datetime: 2016-08-23 13:32:01
 * Handback File: [Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/079352f787a221aac50f176123d469f5eea1168b/ol-handback/PowerShell/powerShell-Docs.de-de/live/Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.de-de.xlf)
-* Handback Datetime: 2016-10-06 00:30:08
+* Handback Datetime: 2016-11-01 17:50:15
+* Handback Error: [handback_file_rejected](#96204a0ce674cacd5b830f9f8b820ce3e1cbbc202230handback_file_rejected)
 * Bilingual File: [Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/079352f787a221aac50f176123d469f5eea1168b/ol-handback/PowerShell/powerShell-Docs.de-de/live/Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.de-de.xlf)
 * Bilingual Datetime: 2016-10-06 00:36:33
 * [Back to Top](#report-top)
 
-##### <a name='4c0f405a46e16935211b3886a40c9f7d1afc72602231'></a> Source: [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/bdf8cb09ea572b9b9669714f60147753bb94f325/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md)
-* Handoff File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/112766a3348dbdee16b9c19bf90aa7b76d3224b9/ol-handoff/PowerShell/powerShell-Docs.de-de/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf)
-* Handoff Datetime: 2016-08-23 21:22:04
-* Handoff Reason: Include
-* Archive File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/975337cba254b516866699e54a9586dbfd41cf2d/ol-archive/PowerShell/powerShell-Docs.de-de/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf)
-* Archive Datetime: 2016-08-30 13:06:47
-* Handback File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/41555cb016f4522d175b2b47bf18a79c98b4f214/ol-handback/PowerShell/powerShell-Docs.de-de/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf)
-* Handback Datetime: 2016-09-07 02:07:07
-* Bilingual File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/41555cb016f4522d175b2b47bf18a79c98b4f214/ol-handback/PowerShell/powerShell-Docs.de-de/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf)
-* Bilingual Datetime: 2016-09-07 02:09:14
+##### <a name='662d0823749c142a716b74164ad57a8612833ccd2231'></a> Source: [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/a759e987ad79e2cec6f7db927629919a5efcfcf5/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md)
+* Status: Ignored
+* Target File: 
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
 ##### <a name='6fffd6406a7570e06fc4403cd238804ef0f513602232'></a> Source: [scripting\getting-started\cookbooks\Creating-a-Custom-Input-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Creating-a-Custom-Input-Box.md)
@@ -32501,6 +32500,12 @@
 * Error Message: Handback file: C:\ol\master\PSD.handback\7f42c4\ol-handback\PowerShell\powerShell-Docs.de-de\live\authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.de-de.xlf failed.
 * Retriable: False
 * Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\PSD.handback\\7f42c4\\ol-handback\\PowerShell\\powerShell-Docs.de-de\\live\\authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.de-de.xlf failed.","internal_error_retriable":false,"exception_message":"Fail to transform from xliff to markdown with invalid metadata: Invalid yaml header when parsing:\ntitle: Zusammengesetzte Ressourcen: Verwenden einer DSC-Konfiguration als Ressource ms.date: 2016-05-16 keywords: PowerShell, DSC description:  \nms.topic: Artikel author: eslesar manager: dongill ms.prod: PowerShell\nError message: (Line: 1, Col: 35, Idx: 34) - (Line: 1, Col: 35, Idx: 34): Mapping values are not allowed in this context.","exception_type":"System.IO.InvalidDataException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 94\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass7_0.<GetHandbackFiles>b__1(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 442","extended_information":null}
+
+##### <a name='96204a0ce674cacd5b830f9f8b820ce3e1cbbc202230handback_file_rejected'></a> Source: [scripting\getting-started\cookbooks\Collecting-Information-About-Computers.md](#96204a0ce674cacd5b830f9f8b820ce3e1cbbc202230)
+* Error Code: handback_file_rejected
+* Error Message: file Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.de-de.xlf is out of handoff scope
+* Retriable: False
+* Error Details: {"internal_error_code":"handback_file_rejected","internal_error_message":"file Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.de-de.xlf is out of handoff scope","internal_error_retriable":false,"exception_message":"file Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.de-de.xlf is out of handoff scope","exception_type":"Microsoft.OpenLocalization.Common.ErrorHandling.OpenLocalizationException","stack_trace":null,"extended_information":null}
 
 
 Generated by OpenLocalization.
