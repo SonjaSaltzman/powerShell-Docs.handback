@@ -1,44 +1,29 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 2
+ Total Files | 1
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | HandedOffSuccess | [Details](#966cab74cb2519893d4744e8bd0ca12f93f731362297)
- [wmf\5.0\limitation_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/3e60ee1441f1f12b878b34deb4469a7df8bbc4f3/wmf/5.0/limitation_overview.md) | HandedOffSuccess | [Details](#ef8d306319a197df28afe41e2fbba547b589b3772361)
+ [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/41647fc2b323292e496340f68bc92fd9a997ce0e/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md) | HandedOffSuccess | [Details](#662d0823749c142a716b74164ad57a8612833ccd2231)
 
 ## Item Details
-##### <a name='966cab74cb2519893d4744e8bd0ca12f93f731362297'></a> Source: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
-* Status: HandedOffSuccess
-* Target File: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/fb8a55fb7861d945f997248857b6a020fc1a664c/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
-* Handoff File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/645fe785e42fdb0def8a879d51a543102447ef8d/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf)
-* Handoff Datetime: 2016-10-29 08:03:31
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/51b6ca42061af6362ea8dba61f7cff534bbad24b/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf)
-* Handback Datetime: 2016-10-22 23:15:30
-* Bilingual File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/51b6ca42061af6362ea8dba61f7cff534bbad24b/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf)
-* Bilingual Datetime: 2016-10-22 23:16:29
-* [Back to Top](#report-top)
-
-##### <a name='ef8d306319a197df28afe41e2fbba547b589b3772361'></a> Source: [wmf\5.0\limitation_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/3e60ee1441f1f12b878b34deb4469a7df8bbc4f3/wmf/5.0/limitation_overview.md)
+##### <a name='662d0823749c142a716b74164ad57a8612833ccd2231'></a> Source: [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/41647fc2b323292e496340f68bc92fd9a997ce0e/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/645fe785e42fdb0def8a879d51a543102447ef8d/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ru-ru.xlf)
-* Handoff Datetime: 2016-10-29 08:03:31
+* Handoff File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/6f29ede8a7e7585b3b3fc62f3cf5787a30fdc6a9/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf)
+* Handoff Datetime: 2016-11-01 18:00:58
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [wmf\5.0\limitation_overview.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/162e5ddd7c324b4993f6bc08316a2b15dd6a58fc/wmf/5.0/limitation_overview.md)
-* Current Handback File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0eb7f7cd35035ac920fc3df83264ef40d20006c4/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ru-ru.xlf)
-* Current Handback Datetime: 2016-10-07 14:17:15
-* Bilingual File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0eb7f7cd35035ac920fc3df83264ef40d20006c4/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ru-ru.xlf)
-* Bilingual Datetime: 2016-10-07 14:20:56
+* Current Target File: [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/2d4704a73b629a1ad2bbbb4b073e69efb36cd4b1/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md)
+* Current Handback File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f6d8de964b294f6e46340961cf04fe7c1d14d82a/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf)
+* Current Handback Datetime: 2016-09-06 23:40:58
+* Bilingual File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f6d8de964b294f6e46340961cf04fe7c1d14d82a/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf)
+* Bilingual Datetime: 2016-09-06 23:42:38
 * [Back to Top](#report-top)
 
 
