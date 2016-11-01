@@ -1,11 +1,28 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md) | InSyncHandedBackSuccess | [Details](#b81bcbd37cdfebc04fbc7ef92d76f0769c1357132282)
 
 ## Item Details
+##### <a name='b81bcbd37cdfebc04fbc7ef92d76f0769c1357132282'></a> Source: [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs.pt-br/blob/3e87938bebb47439e64af4cc97354f6a37d6eae6/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md)
+* Handoff File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/19beb78bab7bc74530468d9921fbd850bf85a89a/ol-handoff/PowerShell/powerShell-Docs.pt-br/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf)
+* Handoff Datetime: 2016-10-17 17:45:35
+* Handoff Reason: Include
+* Archive File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/89adaa49f8977677e28f8d968e847fc8c3023345/ol-archive/PowerShell/powerShell-Docs.pt-br/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf)
+* Archive Datetime: 2016-10-18 19:23:55
+* Handback File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/826ad39f6ce0e6d2ddba032ba1faee5daf93e00e/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf)
+* Handback Datetime: 2016-11-01 22:18:44
+* Bilingual File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4f946a84fdb75dd414ceae03a50b12ff7064acb7/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.pt-br.xlf)
+* Bilingual Datetime: 2016-09-07 02:38:38
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
