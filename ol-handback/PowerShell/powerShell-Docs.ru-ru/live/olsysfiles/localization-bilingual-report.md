@@ -1,26 +1,41 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 2
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md) | InSyncHandedBackSuccess | [Details](#b81bcbd37cdfebc04fbc7ef92d76f0769c1357132282)
+ [scripting\core-powershell\ise\Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/ise/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.md) | InSyncHandedBackSuccess | [Details](#942d85f8b49282bf888bfcdb55c353073c0e62f32195)
+ [scripting\getting-started\fundamental\Exploring-the-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/b59186234a513cf34d2615d90643ee749bd60d3f/scripting/getting-started/fundamental/Exploring-the-Windows-PowerShell-ISE.md) | InSyncHandedBackSuccess | [Details](#d0f9c059f6f5286388af3cfc07995fe46e7321c32262)
 
 ## Item Details
-##### <a name='b81bcbd37cdfebc04fbc7ef92d76f0769c1357132282'></a> Source: [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md)
+##### <a name='942d85f8b49282bf888bfcdb55c353073c0e62f32195'></a> Source: [scripting\core-powershell\ise\Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/ise/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/0beb0b598eabd051a9db21953c85026239e23d8c/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md)
-* Handoff File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/4d56e579f676df9c0736e2da1abeb6298b274130/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.ru-ru.xlf)
+* Target File: [scripting\core-powershell\ise\Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/1bee3c52cd31027c66aefa45e494ea497b509c87/scripting/core-powershell/ise/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.md)
+* Handoff File: [Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/4d56e579f676df9c0736e2da1abeb6298b274130/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.ru-ru.xlf)
 * Handoff Datetime: 2016-10-17 17:45:08
 * Handoff Reason: Include
-* Archive File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/0b8bd79307c28ba6bfd3cd3caa37b0c711296969/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.ru-ru.xlf)
+* Archive File: [Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/0b8bd79307c28ba6bfd3cd3caa37b0c711296969/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.ru-ru.xlf)
 * Archive Datetime: 2016-10-18 19:23:37
-* Handback File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/58339967ff5316333611eff8bc0e8070cb919f1f/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.ru-ru.xlf)
-* Handback Datetime: 2016-11-01 22:18:54
-* Bilingual File: [Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/58339967ff5316333611eff8bc0e8070cb919f1f/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Accessibility-in-Windows-PowerShell-ISE.2ca37c157ff546e8a8bfde68228e933bd363cbbe.ru-ru.xlf)
-* Bilingual Datetime: 2016-11-01 22:21:30
+* Handback File: [Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b3e8980e767601730cac634807a3d39b7bbe769e/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.ru-ru.xlf)
+* Handback Datetime: 2016-11-02 00:01:28
+* Bilingual File: [Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b3e8980e767601730cac634807a3d39b7bbe769e/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.ru-ru.xlf)
+* Bilingual Datetime: 2016-11-02 00:03:03
+* [Back to Top](#report-top)
+
+##### <a name='d0f9c059f6f5286388af3cfc07995fe46e7321c32262'></a> Source: [scripting\getting-started\fundamental\Exploring-the-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/b59186234a513cf34d2615d90643ee749bd60d3f/scripting/getting-started/fundamental/Exploring-the-Windows-PowerShell-ISE.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\fundamental\Exploring-the-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/1bee3c52cd31027c66aefa45e494ea497b509c87/scripting/getting-started/fundamental/Exploring-the-Windows-PowerShell-ISE.md)
+* Handoff File: [Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/4d56e579f676df9c0736e2da1abeb6298b274130/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.ru-ru.xlf)
+* Handoff Datetime: 2016-10-17 17:45:08
+* Handoff Reason: Include
+* Archive File: [Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/0b8bd79307c28ba6bfd3cd3caa37b0c711296969/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.ru-ru.xlf)
+* Archive Datetime: 2016-10-18 19:23:37
+* Handback File: [Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b3e8980e767601730cac634807a3d39b7bbe769e/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.ru-ru.xlf)
+* Handback Datetime: 2016-11-02 00:01:28
+* Bilingual File: [Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b3e8980e767601730cac634807a3d39b7bbe769e/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.ru-ru.xlf)
+* Bilingual Datetime: 2016-11-02 00:03:03
 * [Back to Top](#report-top)
 
 
