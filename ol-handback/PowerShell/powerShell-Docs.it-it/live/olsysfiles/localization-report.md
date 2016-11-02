@@ -29257,8 +29257,8 @@
 * Archive Datetime: 2016-10-18 19:23:17
 * Handback File: [Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7f5eb0aad20f84ab642792ba1d4446c610ac8818/ol-handback/PowerShell/powerShell-Docs.it-it/live/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.it-it.xlf)
 * Handback Datetime: 2016-11-02 00:01:16
-* Bilingual File: [Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2785b60a5ddf8fa4cbb1d6cdd83bc08724336a6f/ol-handback/PowerShell/powerShell-Docs.it-it/live/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.it-it.xlf)
-* Bilingual Datetime: 2016-09-26 15:37:04
+* Bilingual File: [Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7f5eb0aad20f84ab642792ba1d4446c610ac8818/ol-handback/PowerShell/powerShell-Docs.it-it/live/Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.fafa427058ad68f27ad38041d5743b74ff894bd6.it-it.xlf)
+* Bilingual Datetime: 2016-11-02 00:02:58
 * [Back to Top](#report-top)
 
 ##### <a name='9d42c25d60984e2706c9064995679b0da90aeaad2196'></a> Source: [scripting\core-powershell\ise\Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/ise/Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md)
@@ -30269,8 +30269,8 @@
 * Archive Datetime: 2016-10-18 19:23:17
 * Handback File: [Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7f5eb0aad20f84ab642792ba1d4446c610ac8818/ol-handback/PowerShell/powerShell-Docs.it-it/live/Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.it-it.xlf)
 * Handback Datetime: 2016-11-02 00:01:16
-* Bilingual File: [Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f76b9f0e7dfbaa2e6b69056a51c120553723a9bd/ol-handback/PowerShell/powerShell-Docs.it-it/live/Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.it-it.xlf)
-* Bilingual Datetime: 2016-10-20 15:14:31
+* Bilingual File: [Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7f5eb0aad20f84ab642792ba1d4446c610ac8818/ol-handback/PowerShell/powerShell-Docs.it-it/live/Exploring-the-Windows-PowerShell-ISE.a3f992702bf0a10e452f02c0ce43f75d90f185dc.it-it.xlf)
+* Bilingual Datetime: 2016-11-02 00:02:58
 * [Back to Top](#report-top)
 
 ##### <a name='c38edc68154ccfa9cd76ebdad5a94ddfb4f902c82263'></a> Source: [scripting\getting-started\fundamental\Getting-Detailed-Help-Information.md](https://github.com/PowerShell/powerShell-Docs/blob/b59186234a513cf34d2615d90643ee749bd60d3f/scripting/getting-started/fundamental/Getting-Detailed-Help-Information.md)
