@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">369b6379c3ddc4b7ccd1000aec9b0b002e1934b3</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-00ddeee" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">caf661fe58faf8cf24c789b408505051429df3f4</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\troubleshooting.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12d49ab4b26101a2eada15e123dcf96d32878ccd</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7636284db2cb460830e3aec9e2377c4f8c1eb5cc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba3015fb5fb5515afd2406175459573288ed6a36</xliffext:olxliffhash>
+      <xliffext:poisonError xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">file troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.zh-cn.xlf is out of handoff scope</xliffext:poisonError>
     </header>
     <body>
       <group id="content" extype="content">
@@ -182,8 +184,8 @@
           <source>2: Details of operations run in the last half hour</source>
           <target state="translated">2：过去半小时内所运行操作的详细信息</target>       </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
-          <source>, a property of every Windows event, states the time the event was created.</source>
-          <target state="translated">，每个 Windows 事件的属性，表明创建该事件的时间。</target>       </trans-unit>
+          <source><ph id="ph1">`TimeCreated`</ph>, a property of every Windows event, states the time the event was created.</source>
+          <target state="translated">每个 Windows 事件都具有 <ph id="ph1">`TimeCreated`</ph> 属性，它表明创建该事件的时间。</target>       </trans-unit>
         <trans-unit id="158" translate="yes" xml:space="preserve">
           <source>Comparing this property with a particular date/time object can be used to filter all events:</source>
           <target state="translated">可通过将此属性与特定日期/时间对象进行比较来筛选所有事件：</target>       </trans-unit>
@@ -200,8 +202,8 @@
           <source>4: Error messages logged for recent failed operations</source>
           <target state="translated">4：为最近的失败操作记录到的错误消息</target>       </trans-unit>
         <trans-unit id="163" translate="yes" xml:space="preserve">
-          <source>contains a set of events for the latest operation.</source>
-          <target state="translated">包含最新操作的一组事件。</target>       </trans-unit>
+          <source><ph id="ph1">`$SeparateDscOperations[0].Group`</ph> contains a set of events for the latest operation.</source>
+          <target state="translated"><ph id="ph1">`$SeparateDscOperations[0].Group`</ph> 包含最新操作的一组事件。</target>       </trans-unit>
         <trans-unit id="164" translate="yes" xml:space="preserve">
           <source>Run the <ph id="ph1">`Where-Object`</ph> cmdlet to filter the events based on their level display name.</source>
           <target state="translated">运行 <ph id="ph1">`Where-Object`</ph> cmdlet 可根据事件级别显示名称对筛选事件。</target>       </trans-unit>
@@ -212,8 +214,8 @@
           <source>5: All events generated for a particular job ID.</source>
           <target state="translated">5：为特定作业 ID 生成的所有事件。</target>       </trans-unit>
         <trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>is an array of groups, each of which has the name as the unique job ID.</source>
-          <target state="translated">是一系列组，其中每个组的名称即其唯一作业 ID。</target>       </trans-unit>
+          <source><ph id="ph1">`$SeparateDscOperations`</ph> is an array of groups, each of which has the name as the unique job ID.</source>
+          <target state="translated"><ph id="ph1">`$SeparateDscOperations`</ph> 是一个组数组，其中每个组的名称即其唯一作业 ID。</target>       </trans-unit>
         <trans-unit id="168" translate="yes" xml:space="preserve">
           <source>By running the <ph id="ph1">`Where-Object`</ph> cmdlet, you can extract those groups of events that have a particular job ID:</source>
           <target state="translated">通过运行 <ph id="ph1">`Where-Object`</ph> cmdlet，你可以提取这些具有特定作业 ID 的事件组：</target>       </trans-unit>
@@ -263,119 +265,158 @@
           <source>Getting details of DSC events</source>
           <target state="translated">获取 DSC 事件的详细信息</target>       </trans-unit>
         <trans-unit id="184" translate="yes" xml:space="preserve">
-          <source>The <ph id="ph1">`Trace-xDscOperation1 cmdlet returns an object containing a collection of events, their event types, and the message output generated from a particular DSC operation. Typically, when you find a failure in any of the operations using `</ph>Get-xDscOperation`, you would trace that operation to find out which of the events caused a failure.</source>
-          <target state="translated"><ph id="ph1">`Trace-xDscOperation1 cmdlet returns an object containing a collection of events, their event types, and the message output generated from a particular DSC operation. Typically, when you find a failure in any of the operations using `</ph>Get-xDscOperation`，你将跟踪该操作以找到导致失败的事件。</target>       </trans-unit>
+          <source>The <ph id="ph1">`Trace-xDscOperation`</ph> cmdlet returns an object containing a collection of events, their event types, and the message output generated from a particular DSC operation.</source>
+          <target state="translated"><ph id="ph1">`Trace-xDscOperation`</ph> cmdlet 将返回一个对象，其中包含事件集合、其事件类型以及特定 DSC 操作生成的消息输出。</target>       </trans-unit>
         <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Typically, when you find a failure in any of the operations using <ph id="ph1">`Get-xDscOperation`</ph>, you would trace that operation to find out which of the events caused a failure.</source>
+          <target state="translated">通常情况下，使用 <ph id="ph1">`Get-xDscOperation`</ph> 在任何操作中查找故障时，将跟踪该操作以查明导致故障的事件。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
           <source>Use the  <ph id="ph1">`SequenceID`</ph> parameter to get the events for a specific operation for a specific computer.</source>
           <target state="translated">使用  <ph id="ph1">`SequenceID`</ph> 参数以获取某个特定计算机的某个特定操作的事件。</target>       </trans-unit>
-        <trans-unit id="186" translate="yes" xml:space="preserve">
+        <trans-unit id="187" translate="yes" xml:space="preserve">
           <source>For example, if you specify a <ph id="ph1">`SequenceID`</ph> of 9, <ph id="ph2">`Trace-xDscOperaion`</ph> get the trace for the DSC operation that was 9th from the last operation:</source>
           <target state="translated">例如，如果你指定 9 的 <ph id="ph1">`SequenceID`</ph>，则 <ph id="ph2">`Trace-xDscOperaion`</ph> 获取 DSC 操作的跟踪（自上一次操作的第 9 个）：</target>       </trans-unit>
-        <trans-unit id="187" translate="yes" xml:space="preserve">
+        <trans-unit id="188" translate="yes" xml:space="preserve">
           <source>Pass the <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> assigned to a specific DSC operation (as returned by the <ph id="ph1">`Get-xDscOperation`</ph> cmldet) to get the event details for that DSC operation:</source>
           <target state="translated">传递分配给特定 DSC 操作（由 <ph id="ph1">`Get-xDscOperation`</ph> cmldet 返回）的 <bpt id="p1">**</bpt>GUID<ept id="p1">**</ept> 以获取 DSC 操作的事件详细信息：</target>       </trans-unit>
-        <trans-unit id="188" translate="yes" xml:space="preserve">
+        <trans-unit id="189" translate="yes" xml:space="preserve">
           <source>Note that, since <ph id="ph1">`Trace-xDscOperation`</ph> aggregates events from the Analytic, Debug, and Operational logs, it will prompt you to enable these logs as described above.</source>
           <target state="translated">请注意，由于 <ph id="ph1">`Trace-xDscOperation`</ph> 聚合来自分析、调试和运行日志的事件，因此它将提示你启用这些日志，如上所述。</target>       </trans-unit>
-        <trans-unit id="189" translate="yes" xml:space="preserve">
+        <trans-unit id="190" translate="yes" xml:space="preserve">
           <source>Alternately, you can gather information on the events by saving the output of <ph id="ph1">`Trace-xDscOperation`</ph> into a variable.</source>
           <target state="translated">或者，你可以通过将 <ph id="ph1">`Trace-xDscOperation`</ph> 的输出保存到变量中来收集关于事件的信息。</target>       </trans-unit>
-        <trans-unit id="190" translate="yes" xml:space="preserve">
+        <trans-unit id="191" translate="yes" xml:space="preserve">
           <source>You can use the following commands to display all the events for a particular DSC operation.</source>
           <target state="translated">可使用以下命令显示特定 DSC 操作的所有事件。</target>       </trans-unit>
-        <trans-unit id="191" translate="yes" xml:space="preserve">
+        <trans-unit id="192" translate="yes" xml:space="preserve">
           <source>This will display the same results as the <ph id="ph1">`Get-WinEvent`</ph> cmdlet, such as in the output below:</source>
           <target state="translated">此操作将显示与 <ph id="ph1">`Get-WinEvent`</ph> cmdlet 相同的结果，例如以下输出中的结果：</target>       </trans-unit>
-        <trans-unit id="192" translate="yes" xml:space="preserve">
+        <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>Ideally, you would first use <ph id="ph1">`Get-xDscOperation`</ph> to list out the last few DSC configuration runs on your machines.</source>
           <target state="translated">理想情况下，你将首先使用 <ph id="ph1">`Get-xDscOperation`</ph> 列出在计算机上运行的最后几个 DSC 配置。</target>       </trans-unit>
-        <trans-unit id="193" translate="yes" xml:space="preserve">
+        <trans-unit id="194" translate="yes" xml:space="preserve">
           <source>Following this, you can examine any single operation (using its SequenceID or JobID) with <ph id="ph1">`Trace-xDscOperation`</ph> to discover what it did behind the scenes.</source>
           <target state="translated">此后，可以通过 <ph id="ph1">`Trace-xDscOperation`</ph> 检查任意单个操作（使用其 SequenceID 或 JobID）以发现它在后台进行的活动。</target>       </trans-unit>
-        <trans-unit id="194" translate="yes" xml:space="preserve">
+        <trans-unit id="195" translate="yes" xml:space="preserve">
           <source>Getting events for a remote computer</source>
           <target state="translated">获取远程计算机的事件</target>       </trans-unit>
-        <trans-unit id="195" translate="yes" xml:space="preserve">
+        <trans-unit id="196" translate="yes" xml:space="preserve">
           <source>Use the <ph id="ph1">`ComputerName`</ph> parameter of the <ph id="ph2">`Trace-xDscOperation`</ph> cmdlet to get the event details on a remote computer.</source>
           <target state="translated">使用 <ph id="ph1">`ComputerName`</ph> cmdlet 的 <ph id="ph2">`Trace-xDscOperation`</ph> 参数以获取远程计算机上的事件详细信息。</target>       </trans-unit>
-        <trans-unit id="196" translate="yes" xml:space="preserve">
+        <trans-unit id="197" translate="yes" xml:space="preserve">
           <source>Before you can do this, you have to create a firewall rule to allow remote administration on the remote computer:</source>
           <target state="translated">执行此操作前，你需要创建一个防火墙规则，以允许在远程计算机上进行远程管理：</target>       </trans-unit>
-        <trans-unit id="197" translate="yes" xml:space="preserve">
+        <trans-unit id="198" translate="yes" xml:space="preserve">
           <source>Now you can specify that computer in your call to <ph id="ph1">`Trace-xDscOperation`</ph>:</source>
           <target state="translated">现在可以在你的调用中将计算机指定到 <ph id="ph1">`Trace-xDscOperation`</ph>：</target>       </trans-unit>
-        <trans-unit id="198" translate="yes" xml:space="preserve">
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>My resources won’t update: How to reset the cache</source>
+          <target state="translated">资源不更新：如何重置缓存</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The DSC engine caches resources implemented as a PowerShell module for efficiency purposes.</source>
+          <target state="translated">出于效率考虑，DSC 引擎将缓存作为 PowerShell 模块实现的资源。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>However, this can cause problems when you are authoring a resource and testing it simultaneously because DSC will load the cached version until the process is restarted.</source>
+          <target state="translated">但是，当你同时创作和测试资源时，这可能导致问题，因为在重启进程前，DSC 将始终加载缓存的版本。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The only way to make DSC load the newer version is to explicitly kill the process hosting the DSC engine.</source>
+          <target state="translated">使 DSC 加载较新版本的唯一方法是显式终止承载 DSC 引擎的进程。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Similarly, when you run <ph id="ph1">`Start-DscConfiguration`</ph>, after adding and modifying a custom resource, the modification may not execute unless, or until, the computer is rebooted.</source>
+          <target state="translated">同样，当你运行 <ph id="ph1">`Start-DscConfiguration`</ph> 时，在添加和修改自定义资源之后，重启计算机之前可能无法执行修改。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This is because DSC runs in the WMI Provider Host Process (WmiPrvSE), and usually, there are many instances of WmiPrvSE running at once.</source>
+          <target state="translated">这是因为 DSC 在 WMI 提供程序主机进程 (WmiPrvSE) 中运行，且通常情况下将有 WmiPrvSE 的多个实例同时运行。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>When you reboot, the host process is restarted and the cache is cleared.</source>
+          <target state="translated">重启时，将重新启动主机进程并清除缓存。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To successfully recycle the configuration and clear the cache without rebooting, you must stop and then restart the host process.</source>
+          <target state="translated">若要在不重启的情况下成功回收配置并清除缓存，必须停止并重新启动主机进程。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This can be done on a per instance basis, whereby you identify the process, stop it, and restart it.</source>
+          <target state="translated">可按实例逐一进行此操作，在这些实例中标识、停止和重新启动该进程。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Or, you can use <ph id="ph1">`DebugMode`</ph>, as demonstrated below, to reload the PowerShell DSC resource.</source>
+          <target state="translated">或者，你可以使用 <ph id="ph1">`DebugMode`</ph> 来重新加载 PowerShell DSC 资源，如下所示。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To identify which process is hosting the DSC engine and stop it on a per instance basis, you can list the process ID of the WmiPrvSE which is hosting the DSC engine.</source>
+          <target state="translated">若要确定承载 DSC 引擎的进程并按实例逐一停止它们，你可以列出承载 DSC 引擎的 WmiPrvSE 的进程 ID。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Then, to update the provider, stop the WmiPrvSE process using the commands below, and then run <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> again.</source>
+          <target state="translated">然后，若要更新提供程序，请使用以下命令停止 WmiPrvSE 进程，并再次运行 <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
           <source>Using DebugMode</source>
           <target state="translated">使用 DebugMode</target>       </trans-unit>
-        <trans-unit id="199" translate="yes" xml:space="preserve">
+        <trans-unit id="212" translate="yes" xml:space="preserve">
           <source>You can configure the DSC Local Configuration Manager (LCM) to use <ph id="ph1">`DebugMode`</ph> to always clear the cache when the host process is restarted.</source>
           <target state="translated">可将 DSC 本地配置管理器 (LCM) 配置为使用 <ph id="ph1">`DebugMode`</ph>，以便在重新启动主机进程时始终清除缓存。</target>       </trans-unit>
-        <trans-unit id="200" translate="yes" xml:space="preserve">
+        <trans-unit id="213" translate="yes" xml:space="preserve">
           <source>When set to <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept>, it causes the engine to always reload the PowerShell DSC resource.</source>
           <target state="translated">当设置为 <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept>，它将使引擎始终重新加载 PowerShell DSC 资源。</target>       </trans-unit>
-        <trans-unit id="201" translate="yes" xml:space="preserve">
+        <trans-unit id="214" translate="yes" xml:space="preserve">
           <source>Once you are done writing your resource, you can set it back to <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept> and the engine will revert to its behavior of caching the modules.</source>
           <target state="translated">编写完资源后，可将其设置回 <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept>，引擎将恢复到其缓存模块的行为。</target>       </trans-unit>
-        <trans-unit id="202" translate="yes" xml:space="preserve">
+        <trans-unit id="215" translate="yes" xml:space="preserve">
           <source>Following is a demonstration to show how <ph id="ph1">`DebugMode`</ph> can automatically refresh the cache.</source>
           <target state="translated">下列演示表明了 <ph id="ph1">`DebugMode`</ph> 可以如何自动刷新缓存。</target>       </trans-unit>
-        <trans-unit id="203" translate="yes" xml:space="preserve">
+        <trans-unit id="216" translate="yes" xml:space="preserve">
           <source>First, let’s look at the default configuration:</source>
           <target state="translated">首先，让我们看一下默认配置：</target>       </trans-unit>
-        <trans-unit id="204" translate="yes" xml:space="preserve">
+        <trans-unit id="217" translate="yes" xml:space="preserve">
           <source>You can see that <ph id="ph1">`DebugMode`</ph> is set to <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept>.</source>
           <target state="translated">你可以看到 <ph id="ph1">`DebugMode`</ph> 设置为 <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept>。</target>       </trans-unit>
-        <trans-unit id="205" translate="yes" xml:space="preserve">
+        <trans-unit id="218" translate="yes" xml:space="preserve">
           <source>To set up the <ph id="ph1">`DebugMode`</ph> demonstration, use the following PowerShell resource:</source>
           <target state="translated">若要设置 <ph id="ph1">`DebugMode`</ph> 演示，请使用以下 PowerShell 资源：</target>       </trans-unit>
-        <trans-unit id="206" translate="yes" xml:space="preserve">
+        <trans-unit id="219" translate="yes" xml:space="preserve">
           <source>Now, author a configuration using the above resource called <ph id="ph1">`TestProviderDebugMode`</ph>:</source>
           <target state="translated">现在，使用上述名为 <ph id="ph1">`TestProviderDebugMode`</ph> 的资源创作配置：</target>       </trans-unit>
-        <trans-unit id="207" translate="yes" xml:space="preserve">
+        <trans-unit id="220" translate="yes" xml:space="preserve">
           <source>You will see that the contents of file: “<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>” is <bpt id="p2">**</bpt>1<ept id="p2">**</ept>.</source>
           <target state="translated">你将看到文件“<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>”的内容为 <bpt id="p2">**</bpt>1<ept id="p2">**</ept>。</target>       </trans-unit>
-        <trans-unit id="208" translate="yes" xml:space="preserve">
+        <trans-unit id="221" translate="yes" xml:space="preserve">
           <source>Now, update the provider code using the following script:</source>
           <target state="translated">现在，使用以下脚本更新提供程序代码：</target>       </trans-unit>
-        <trans-unit id="209" translate="yes" xml:space="preserve">
+        <trans-unit id="222" translate="yes" xml:space="preserve">
           <source>This script generates a random number and updates the provider code accordingly.</source>
           <target state="translated">此脚本将生成一个随机数，并相应地更新提供程序代码。</target>       </trans-unit>
-        <trans-unit id="210" translate="yes" xml:space="preserve">
+        <trans-unit id="223" translate="yes" xml:space="preserve">
           <source>With <ph id="ph1">`DebugMode`</ph> set to false, the contents of the file “<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>” are never changed.</source>
           <target state="translated">将 <ph id="ph1">`DebugMode`</ph> 设置为 false 后，文件“<bpt id="p1">**</bpt>$env:SystemDrive\OutputFromTestProviderDebugMode.txt<ept id="p1">**</ept>”的内容未发生更改。</target>       </trans-unit>
-        <trans-unit id="211" translate="yes" xml:space="preserve">
+        <trans-unit id="224" translate="yes" xml:space="preserve">
           <source>Now, set <ph id="ph1">`DebugMode`</ph> to <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept> in your configuration script:</source>
           <target state="translated">现在，在配置脚本中将 <ph id="ph1">`DebugMode`</ph> 设置为 <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept>：</target>       </trans-unit>
-        <trans-unit id="212" translate="yes" xml:space="preserve">
+        <trans-unit id="225" translate="yes" xml:space="preserve">
           <source>When you run the above script again, you will see that the content of the file is different every time.</source>
           <target state="translated">再次运行上述脚本时，你将看到该文件的内容每次都不同。</target>       </trans-unit>
-        <trans-unit id="213" translate="yes" xml:space="preserve">
+        <trans-unit id="226" translate="yes" xml:space="preserve">
           <source>(You can run <ph id="ph1">`Get-DscConfiguration`</ph> to check it).</source>
           <target state="translated">（可运行 <ph id="ph1">`Get-DscConfiguration`</ph> 以对其进行检查）。</target>       </trans-unit>
-        <trans-unit id="214" translate="yes" xml:space="preserve">
+        <trans-unit id="227" translate="yes" xml:space="preserve">
           <source>Below is the result of two additional runs (your results may be different when you run the script):</source>
           <target state="translated">以下是两次额外运行的结果（当你运行脚本时，结果可能不同）：</target>       </trans-unit>
-        <trans-unit id="215" translate="yes" xml:space="preserve">
+        <trans-unit id="228" translate="yes" xml:space="preserve">
           <source>See Also</source>
           <target state="translated">另请参阅</target>       </trans-unit>
-        <trans-unit id="216" translate="yes" xml:space="preserve">
+        <trans-unit id="229" translate="yes" xml:space="preserve">
           <source>Reference</source>
           <target state="translated">引用</target>       </trans-unit>
-        <trans-unit id="217" translate="yes" xml:space="preserve">
-          <source>DSC Log Resource</source>
-          <target state="translated">DSC Log 资源</target>       </trans-unit>
-        <trans-unit id="218" translate="yes" xml:space="preserve">
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>DSC Log Resource<ept id="p1">](logResource.md)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>DSC Log 资源<ept id="p1">](logResource.md)</ept></target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
           <source>Concepts</source>
           <target state="translated">概念</target>       </trans-unit>
-        <trans-unit id="219" translate="yes" xml:space="preserve">
-          <source>Build Custom Windows PowerShell Desired State Configuration Resources</source>
-          <target state="translated">构建自定义 Windows PowerShell Desired State Configuration 资源</target>       </trans-unit>
-        <trans-unit id="220" translate="yes" xml:space="preserve">
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Build Custom Windows PowerShell Desired State Configuration Resources<ept id="p1">](authoringResource.md)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>构建自定义 Windows PowerShell Desired State Configuration 资源<ept id="p1">](authoringResource.md)</ept></target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
           <source>Other Resources</source>
           <target state="translated">其他资源</target>       </trans-unit>
-        <trans-unit id="221" translate="yes" xml:space="preserve">
-          <source>Windows PowerShell Desired State Configuration Cmdlets</source>
-          <target state="translated">Windows PowerShell Desired State Configuration Cmdlet</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Cmdlets<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521624(v=wps.630).aspx)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521624(v=wps.630).aspx)</ept></target>       </trans-unit>
       </group>
     </body>
   </file>
