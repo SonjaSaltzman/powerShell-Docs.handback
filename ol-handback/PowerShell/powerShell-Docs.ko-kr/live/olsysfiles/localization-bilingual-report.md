@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [wmf\5.0\limitation_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/3e60ee1441f1f12b878b34deb4469a7df8bbc4f3/wmf/5.0/limitation_overview.md) | InSyncHandedBackSuccess | [Details](#ef8d306319a197df28afe41e2fbba547b589b3772364)
 
 ## Item Details
-##### <a name='ef8d306319a197df28afe41e2fbba547b589b3772364'></a> Source: [wmf\5.0\limitation_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/3e60ee1441f1f12b878b34deb4469a7df8bbc4f3/wmf/5.0/limitation_overview.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [wmf\5.0\limitation_overview.md](https://github.com/PowerShell/powerShell-Docs.ko-kr/blob/ce5c15e35de0efecf79a9206febd4a8c38204a99/wmf/5.0/limitation_overview.md)
-* Handoff File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a36e21cccc36e960c465ec43177bb69e17328170/ol-handoff/PowerShell/powerShell-Docs.ko-kr/live/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf)
-* Handoff Datetime: 2016-10-29 08:03:07
-* Handoff Reason: Include
-* Archive File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/6e1bf2cb8a57820af8e1d0f9b08fa356f28f0e2e/ol-archive/PowerShell/powerShell-Docs.ko-kr/live/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf)
-* Archive Datetime: 2016-10-29 08:08:53
-* Handback File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ddf18ed4c6402cace536047abd3ad49bfb4fb5b5/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf)
-* Handback Datetime: 2016-11-04 02:07:06
-* Bilingual File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ddf18ed4c6402cace536047abd3ad49bfb4fb5b5/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf)
-* Bilingual Datetime: 2016-11-04 02:07:50
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
