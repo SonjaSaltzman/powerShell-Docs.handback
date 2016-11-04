@@ -29121,8 +29121,8 @@
 * Archive Datetime: 2016-08-23 13:33:51
 * Handback File: [Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d4a9df84e79401f69aa559fe00b1d2fb80c7e8aa/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.zh-cn.xlf)
 * Handback Datetime: 2016-11-04 14:24:54
-* Bilingual File: [Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4063ca1e637b09d88a5b10155005c3ab3d2d63d2/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.zh-cn.xlf)
-* Bilingual Datetime: 2016-10-06 00:36:54
+* Bilingual File: [Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d4a9df84e79401f69aa559fe00b1d2fb80c7e8aa/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.zh-cn.xlf)
+* Bilingual Datetime: 2016-11-04 14:30:27
 * [Back to Top](#report-top)
 
 ##### <a name='c935d6f066aed1496069681723aa7bd72edbb8e32186'></a> Source: [scripting\core-powershell\core-modules\Windows-PowerShell-Core-About-Topics.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/core-modules/Windows-PowerShell-Core-About-Topics.md)
@@ -29858,8 +29858,8 @@
 * Archive Datetime: 2016-08-23 13:33:51
 * Handback File: [Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d4a9df84e79401f69aa559fe00b1d2fb80c7e8aa/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.zh-cn.xlf)
 * Handback Datetime: 2016-11-04 14:24:54
-* Bilingual File: [Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6ab99d85056cd81d2a7d888f7e6886cdc76117a6/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.zh-cn.xlf)
-* Bilingual Datetime: 2016-10-07 16:02:47
+* Bilingual File: [Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.zh-cn.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/d4a9df84e79401f69aa559fe00b1d2fb80c7e8aa/ol-handback/PowerShell/powerShell-Docs.zh-cn/live/Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.zh-cn.xlf)
+* Bilingual Datetime: 2016-11-04 14:30:27
 * [Back to Top](#report-top)
 
 ##### <a name='662d0823749c142a716b74164ad57a8612833ccd2234'></a> Source: [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/41647fc2b323292e496340f68bc92fd9a997ce0e/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md)
