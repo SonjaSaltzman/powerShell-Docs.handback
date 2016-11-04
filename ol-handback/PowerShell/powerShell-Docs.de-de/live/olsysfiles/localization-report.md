@@ -29291,8 +29291,8 @@
 * Archive Datetime: 2016-08-23 13:32:01
 * Handback File: [Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5ab306d9d5bfb6f1a83ba23466b22c4010c02118/ol-handback/PowerShell/powerShell-Docs.de-de/live/Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.de-de.xlf)
 * Handback Datetime: 2016-11-04 14:24:39
-* Bilingual File: [Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/079352f787a221aac50f176123d469f5eea1168b/ol-handback/PowerShell/powerShell-Docs.de-de/live/Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.de-de.xlf)
-* Bilingual Datetime: 2016-10-06 00:36:33
+* Bilingual File: [Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5ab306d9d5bfb6f1a83ba23466b22c4010c02118/ol-handback/PowerShell/powerShell-Docs.de-de/live/Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.de-de.xlf)
+* Bilingual Datetime: 2016-11-04 14:30:06
 * [Back to Top](#report-top)
 
 ##### <a name='c935d6f066aed1496069681723aa7bd72edbb8e32186'></a> Source: [scripting\core-powershell\core-modules\Windows-PowerShell-Core-About-Topics.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/core-modules/Windows-PowerShell-Core-About-Topics.md)
