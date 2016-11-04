@@ -8,9 +8,9 @@
 [ Handoff Success Files ](#handoff-success-list)| 14
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 107
-[ Handback Failed Files ](#handback-failed-list)| 1
+[ Handback Failed Files ](#handback-failed-list)| 2
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 280
+[ In Sync Handback Files ](#insync-handback-success-list)| 279
 [ Ignored Files ](#ignored-list)| 2013
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -150,6 +150,7 @@
  Source File | Status | Details 
  ----------- | ------ | ------- 
  [dsc\authoringResourceComposite.md](https://github.com/PowerShell/powerShell-Docs/blob/48cfed9e0c31e24c441eafb388a799bd7fc7415f/dsc/authoringResourceComposite.md) | HandedBackFailed | [Details](#6631d60d7d82e71c315c26a0196aa3e4c1b60b1510)
+ [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | HandedBackFailed | [Details](#966cab74cb2519893d4744e8bd0ca12f93f731362300)
 
 ## <a name='outofsync-handback-success-list'></a> Out Of Sync Handback Success File List
 
@@ -342,7 +343,6 @@
  [scripting\setup\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/4ddd5099ce33263d43dcbad0930e654b573a8937/scripting/setup/WinRMSecurity.md) | InSyncHandedBackSuccess | [Details](#fa7e5c84ac82fa72836536ece507f1751e0990772296)
  [scripting\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/1fe4c9a63c6d7fa47357b068997c5d9ce8ef6c32/scripting/TOC.md) | InSyncHandedBackSuccess | [Details](#4916c6b7a1d93b5dc94f4ed54afd26b919061c3e2297)
  [scripting\topic\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/afa259b8611f995bbf5b824179a12e3d8f15df86/scripting/topic/WinRMSecurity.md) | InSyncHandedBackSuccess | [Details](#207792452c563ec6cca5c17fbcd122372442d8ac2298)
- [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | InSyncHandedBackSuccess | [Details](#966cab74cb2519893d4744e8bd0ca12f93f731362300)
  [scripting\Windows-PowerShell-Glossary.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/Windows-PowerShell-Glossary.md) | InSyncHandedBackSuccess | [Details](#5c6f660f9de9039355f3a991da440b75e97275eb2302)
  [wmf\5.0\audit_cms.md](https://github.com/PowerShell/powerShell-Docs/blob/b32cb86b7a18fee929cc81360d81f479571a74c2/wmf/5.0/audit_cms.md) | InSyncHandedBackSuccess | [Details](#2160a4b932075c98df6806c61d263d30f650b9f42303)
  [wmf\5.0\audit_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/a5eb166c5badca2d7d926766ffa480b082355e86/wmf/5.0/audit_overview.md) | InSyncHandedBackSuccess | [Details](#20e6c97ad5dc845bc0ead973ed8a62b34af3e8242304)
@@ -30973,7 +30973,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='966cab74cb2519893d4744e8bd0ca12f93f731362300'></a> Source: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/1d4062490ba76a8cc62faa8fb96eff92b49169b7/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
-* Status: InSyncHandedBackSuccess
+* Status: HandedBackFailed
 * Target File: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/6d3f5fd72f9973df2e352dbe27ccf5de6d751539/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
 * Handoff File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/645fe785e42fdb0def8a879d51a543102447ef8d/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf)
 * Handoff Datetime: 2016-10-29 08:03:31
@@ -30981,7 +30981,8 @@
 * Archive File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/31a179d2cb410995275b55ddc38bf2ebbf6af46e/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf)
 * Archive Datetime: 2016-10-29 08:09:25
 * Handback File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/90e15d4df61a4e742a1f2ec48982f61acbc710fe/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf)
-* Handback Datetime: 2016-10-29 17:24:19
+* Handback Datetime: 2016-11-04 14:44:13
+* Handback Error: [handback_file_rejected](#966cab74cb2519893d4744e8bd0ca12f93f731362300handback_file_rejected)
 * Bilingual File: [What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/90e15d4df61a4e742a1f2ec48982f61acbc710fe/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf)
 * Bilingual Datetime: 2016-10-29 17:26:46
 * [Back to Top](#report-top)
@@ -32562,6 +32563,12 @@
 * Error Message: Handback file: C:\ol\master\PSD.handback\7f42c4\ol-handback\PowerShell\powerShell-Docs.ru-ru\live\authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.ru-ru.xlf failed.
 * Retriable: False
 * Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\ol\\master\\PSD.handback\\7f42c4\\ol-handback\\PowerShell\\powerShell-Docs.ru-ru\\live\\authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.ru-ru.xlf failed.","internal_error_retriable":false,"exception_message":"Fail to transform from xliff to markdown with invalid metadata: Invalid yaml header when parsing:\ntitle: Составные ресурсы: использование DSC как ресурса ms.date:  2016-05-16 keywords:  powershell,DSC description:  \nms.topic:  article author:  eslesar manager:  dongill ms.prod:  powershell\nError message: (Line: 1, Col: 25, Idx: 24) - (Line: 1, Col: 25, Idx: 24): Mapping values are not allowed in this context.","exception_type":"System.IO.InvalidDataException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 94\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass7_0.<GetHandbackFiles>b__1(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 442","extended_information":null}
+
+##### <a name='966cab74cb2519893d4744e8bd0ca12f93f731362300handback_file_rejected'></a> Source: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](#966cab74cb2519893d4744e8bd0ca12f93f731362300)
+* Error Code: handback_file_rejected
+* Error Message: file What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf is out of handoff scope
+* Retriable: False
+* Error Details: {"internal_error_code":"handback_file_rejected","internal_error_message":"file What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf is out of handoff scope","internal_error_retriable":false,"exception_message":"file What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.ru-ru.xlf is out of handoff scope","exception_type":"Microsoft.OpenLocalization.Common.ErrorHandling.OpenLocalizationException","stack_trace":null,"extended_information":null}
 
 
 Generated by OpenLocalization.
