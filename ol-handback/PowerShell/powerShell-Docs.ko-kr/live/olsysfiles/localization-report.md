@@ -31707,8 +31707,8 @@
 * Archive Datetime: 2016-10-29 08:08:53
 * Handback File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ddf18ed4c6402cace536047abd3ad49bfb4fb5b5/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf)
 * Handback Datetime: 2016-11-04 02:07:06
-* Bilingual File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/e9f6ef7e5c22dd21d4ee3682ef05acc27b64779d/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf)
-* Bilingual Datetime: 2016-10-06 00:37:16
+* Bilingual File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ddf18ed4c6402cace536047abd3ad49bfb4fb5b5/ol-handback/PowerShell/powerShell-Docs.ko-kr/live/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ko-kr.xlf)
+* Bilingual Datetime: 2016-11-04 02:07:50
 * [Back to Top](#report-top)
 
 ##### <a name='9a9e69d384ffd92e0c26904a176f9954c5815f9a2365'></a> Source: [wmf\5.0\networkswitch_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/b32cb86b7a18fee929cc81360d81f479571a74c2/wmf/5.0/networkswitch_overview.md)
