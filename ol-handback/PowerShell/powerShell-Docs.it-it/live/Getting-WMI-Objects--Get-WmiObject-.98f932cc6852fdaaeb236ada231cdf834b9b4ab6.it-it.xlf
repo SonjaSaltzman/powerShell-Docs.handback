@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e6f58860c7aebcf60d8df562f009fce0db3c955</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">680809545ec4f06e2a2f6fcacacd14ba3c89f051</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Getting WMI Objects  Get WmiObject</source>
+          <target state="translated">Recupero di oggetti WMI (Get-WmiObject)</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">powershell,cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Getting WMI Objects (Get-WmiObject)</source>
+          <target state="translated">Recupero di oggetti WMI (Get-WmiObject)</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Getting WMI Objects (Get<ph id="ph1">\-</ph>WmiObject)</source>
+          <target state="translated">Recupero di oggetti WMI (Get<ph id="ph1">\-</ph>WmiObject)</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Windows Management Instrumentation (WMI) is a core technology for Windows system administration because it exposes a wide range of information in a uniform manner.</source>
+          <target state="translated">Strumentazione gestione Windows (WMI) è una tecnologia fondamentale per l'amministrazione del sistema Windows poiché espone un'ampia gamma di informazioni in modo uniforme.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Because of how much WMI makes possible, the Windows PowerShell cmdlet for accessing WMI objects, <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept>, is one of the most useful for doing real work.</source>
+          <target state="translated">Considerando le potenzialità d'uso di WMI, il cmdlet di Windows PowerShell per l'accesso agli oggetti WMI, <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept>, è uno dei più utili per eseguire il lavoro effettivo.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We are going to discuss how to use Get<ph id="ph1">\-</ph>WmiObject to access WMI objects and then how to use WMI objects to do specific things.</source>
+          <target state="translated">Verrà illustrato come usare Get<ph id="ph1">\-</ph>WmiObject per accedere agli oggetti WMI e quindi in che modo usare tali oggetti per eseguire operazioni specifiche.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Listing WMI Classes</source>
+          <target state="translated">Elenco delle classi WMI</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The first problem most WMI users encounter is trying to find out what can be done with WMI.</source>
+          <target state="translated">Il primo problema che la maggior parte degli utenti di WMI si trova ad affrontare è scoprire che cosa si può fare con WMI.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>WMI classes describe the resources that can be managed.</source>
+          <target state="translated">Le classi WMI descrivono le risorse che possono essere gestite.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>There are hundreds of WMI classes, some of which contain dozens of properties.</source>
+          <target state="translated">Sono disponibili centinaia di classi WMI, alcune delle quali contengono decine di proprietà.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> addresses this problem by making WMI discoverable.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>WmiObject<ept id="p1">**</ept> affronta questo problema rendendo individuabile WMI.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can get a list of the WMI classes available on the local computer by typing:</source>
+          <target state="translated">È possibile ottenere un elenco delle classi WMI disponibili nel computer locale digitando:</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can retrieve the same information from a remote computer by using the ComputerName parameter, specifying a computer name or IP address:</source>
+          <target state="translated">È possibile recuperare le stesse informazioni da un computer remoto usando il parametro ComputerName, specificando un nome di computer o un indirizzo IP:</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The class listing returned by remote computers may vary due to the specific operating system the computer is running and the particular WMI extensions added by installed applications.</source>
+          <target state="translated">L'elenco delle classi restituito dai computer remoti può variare in base allo specifico sistema operativo in esecuzione nel computer e alle particolari estensioni di WMI aggiunte dalle applicazioni installate.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When using Get<ph id="ph1">\-</ph>WmiObject to connect to a remote computer, the remote computer must be running WMI and, under the default configuration, the account you are using must be in the local administrators group on the remote computer.</source>
+          <target state="translated">Quando si usa Get<ph id="ph1">\-</ph>WmiObject per connettersi a un computer remoto, all'interno di questo deve essere in esecuzione WMI e, in base alla configurazione predefinita, l'account in uso deve appartenere al gruppo Administrators locale nel computer remoto stesso.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The remote system does not need to have Windows PowerShell installed.</source>
+          <target state="translated">Non è necessario che nel sistema remoto sia installato Windows PowerShell.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This allows you to administer operating systems that are not running Windows PowerShell, but do have WMI available.</source>
+          <target state="translated">In questo modo è possibile amministrare i sistemi operativi che non eseguono Windows PowerShell, ma che dispongono di WMI.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can even include the ComputerName when connecting to the local system.</source>
+          <target state="translated">È anche possibile includere ComputerName quando ci si connette al sistema locale.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can use the local computer's name, its IP address (or the loopback address 127.0.0.1), or the WMI<ph id="ph1">\-</ph>style '.' as the computer name.</source>
+          <target state="translated">Come nome computer è possibile usare il nome del computer locale, il relativo indirizzo IP (o l'indirizzo di loopback 127.0.0.1) o il punto ("."), secondo il formato WMI.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you are running Windows PowerShell on a computer named Admin01 with IP address 192.168.1.90, the following commands will all return the WMI class listing for that computer:</source>
+          <target state="translated">Se si esegue Windows PowerShell in un computer denominato Admin01 con indirizzo IP 192.168.1.90, i comandi seguenti restituiranno tutti l'elenco delle classi WMI per tale computer:</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Get<ph id="ph1">\-</ph>WmiObject uses the root<ph id="ph2">\/</ph>cimv2 namespace by default.</source>
+          <target state="translated">Per impostazione predefinita, Get<ph id="ph1">\-</ph>WmiObject usa lo spazio dei nomi root<ph id="ph2">\/</ph>cimv2.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you want to specify another WMI namespace, use the <bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> parameter and specify the corresponding namespace path:</source>
+          <target state="translated">Se si vuole specificare un altro spazio dei nomi WMI, usare il parametro <bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> e specificare il percorso dello spazio dei nomi corrispondente:</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Displaying WMI Class Details</source>
+          <target state="translated">Visualizzazione dei dettagli della classe WMI</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you already know the name of a WMI class, you can use it to get information immediately.</source>
+          <target state="translated">Se si conosce già il nome di una classe WMI, è possibile usarlo per ottenere immediatamente informazioni.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For example, one of the WMI classes commonly used for retrieving information about a computer is <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept>.</source>
+          <target state="translated">Ad, esempio, una delle classi WMI comunemente usate per il recupero di informazioni su un computer è <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Although we are showing all of the parameters, the command can be expressed in a more succinct way.</source>
+          <target state="translated">Anche se vengono mostrati tutti i parametri, il comando può essere espresso in modo più conciso.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter is not necessary when connecting to the local system.</source>
+          <target state="translated">Il parametro <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> non è necessario quando ci si connette al sistema locale.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>We show it to demonstrate the most general case and remind you about the parameter.</source>
+          <target state="translated">Viene mostrato solo per dimostrare il caso più generale e ricordare l'esistenza del parametro.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> defaults to root<ph id="ph1">\/</ph>cimv2, and can be omitted as well.</source>
+          <target state="translated">Il valore predefinito di <bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept> è root<ph id="ph1">\/</ph>cimv2, che può essere omesso anch'esso.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Finally, most cmdlets allow you to omit the name of common parameters.</source>
+          <target state="translated">La maggior parte dei cmdlet consente infine di omettere il nome dei parametri comuni.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>With Get<ph id="ph1">\-</ph>WmiObject, if no name is specified for the first parameter, Windows PowerShell treats it as the <bpt id="p1">**</bpt>Class<ept id="p1">**</ept> parameter.</source>
+          <target state="translated">Con Get<ph id="ph1">\-</ph>WmiObject, se non viene specificato alcun nome per il primo parametro, Windows PowerShell considererà quest'ultimo come parametro <bpt id="p1">**</bpt>Class<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This means the last command could have been issued by typing:</source>
+          <target state="translated">Ciò significa che l'ultimo comando avrebbe potuto essere emesso digitando:</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept> class has many more properties than those displayed here.</source>
+          <target state="translated">La classe <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept> ha molte più proprietà di quelle illustrate in questo articolo.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can use Get<ph id="ph1">\-</ph>Member to see all the properties.</source>
+          <target state="translated">Per visualizzare tutte le proprietà, è possibile usare Get<ph id="ph1">\-</ph>Member.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The properties of a WMI class are automatically available like other object properties:</source>
+          <target state="translated">Le proprietà di una classe WMI sono disponibili automaticamente come altre proprietà dell'oggetto:</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Displaying Non<ph id="ph1">\-</ph>Default Properties with Format Cmdlets</source>
+          <target state="translated">Visualizzazione di proprietà non predefinite con i cmdlet Format</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If you want information contained in the <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept> class that is not displayed by default, you can display it by using the <bpt id="p2">**</bpt>Format<ept id="p2">**</ept> cmdlets.</source>
+          <target state="translated">Se sono necessarie informazioni contenute nella classe <bpt id="p1">**</bpt>Win32<ph id="ph1">\_</ph>OperatingSystem<ept id="p1">**</ept> ma non visualizzate per impostazione predefinita, è possibile visualizzarle usando i cmdlet <bpt id="p2">**</bpt>Format<ept id="p2">**</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, if you want to display available memory data, type:</source>
+          <target state="translated">Se ad esempio si vogliono visualizzare i dati disponibili relativi alla memoria, digitare:</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Wildcards work with property names in <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept>, so the final pipeline element can be reduced to <bpt id="p2">**</bpt>Format<ph id="ph2">\-</ph>Table <ph id="ph3">\-</ph>Property TotalV<ph id="ph4">\&amp;</ph>#42;,Free<ph id="ph5">\&amp;</ph>#42;<ept id="p2">**</ept></source>
+          <target state="translated">I caratteri jolly possono essere usati con i nomi delle proprietà in <bpt id="p1">**</bpt>Format<ph id="ph1">\-</ph>Table<ept id="p1">**</ept>, pertanto l'elemento finale della pipeline può essere ridotto a <bpt id="p2">**</bpt>Format<ph id="ph2">\-</ph>Table <ph id="ph3">\-</ph>Property TotalV<ph id="ph4">\&amp;</ph>#42;,Free<ph id="ph5">\&amp;</ph>#42;<ept id="p2">**</ept></target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The memory data might be more readable if you format it as a list by typing:</source>
+          <target state="translated">I dati relativi alla memoria potrebbero essere più leggibili se si formattano come elenco digitando:</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

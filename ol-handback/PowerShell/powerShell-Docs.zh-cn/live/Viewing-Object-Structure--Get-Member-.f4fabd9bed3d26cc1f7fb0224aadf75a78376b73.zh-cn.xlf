@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-56a7a5e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8cd074bc4314aeb8d50fa31d74d9a1b2d2a37469</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Viewing-Object-Structure--Get-Member-.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e7b17026dc81e8a9f6a47790c3b77362021c3e4</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Viewing Object Structure  Get Member</source>
+          <target state="translated">查看对象结构 (Get Member)</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="translated">powershell,cmdlet</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Viewing Object Structure (Get-Member)</source>
+          <target state="translated">查看对象结构 (Get-Member)</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Because objects play such a central role in Windows PowerShell, there are several native commands designed to work with arbitrary object types.</source>
+          <target state="translated">由于对象在 Windows PowerShell 中扮演了如此重要的角色，因此存在几个用于处理任意对象类型的本机命令。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The most important one is the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> command.</source>
+          <target state="translated">最重要的一个是 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> 命令。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The simplest technique for analyzing the objects that a command returns is to pipe the output of that command to the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> cmdlet.</source>
+          <target state="translated">分析命令返回的对象的最简单方法是通过管道将该命令的输出传递到 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> cmdlet。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> cmdlet shows you the formal name of the object type and a complete listing of its members.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> cmdlet 向你显示对象类型的正式名称及其成员的完整列表。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The number of elements that are returned can sometimes be overwhelming.</source>
+          <target state="translated">有时返回的元素数目可能非常巨大。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, a process object can have over 100 members.</source>
+          <target state="translated">例如，一个进程对象可以拥有 100 多个成员。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To see all the members of a Process object and page the output so you can view all of it, type:</source>
+          <target state="translated">若要查看进程对象的所有成员并分页显示输出，以便于你可以全部查看，请键入：</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The output from this command will look something like this:</source>
+          <target state="translated">此命令的输出将如下所示：</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We can make this long list of information more usable by filtering for elements we want to see.</source>
+          <target state="translated">我们可以通过筛选想要查看的元素，让这个冗长的信息列表更易于使用。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> command lets you list only members that are properties.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>Member<ept id="p1">**</ept> 命令仅允许你列出属性成员。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>There are several forms of properties.</source>
+          <target state="translated">属性的形式有数种。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The cmdlet displays properties of any type if we set the <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>MemberMemberType<ept id="p1">**</ept> parameter to the value <bpt id="p2">**</bpt>Properties<ept id="p2">**</ept>.</source>
+          <target state="translated">如果我们将 <bpt id="p1">**</bpt>Get<ph id="ph1">\-</ph>MemberMemberType<ept id="p1">**</ept> 参数设置为值 <bpt id="p2">**</bpt>Properties<ept id="p2">**</ept>，则 cmdlet 将显示任何类型的属性。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The resulting list is still very long, but a bit more manageable:</source>
+          <target state="translated">生成的列表仍会很长，但较之前更易于管理：</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The allowed values of MemberType are AliasProperty, CodeProperty, Property, NoteProperty, ScriptProperty, Properties, PropertySet, Method, CodeMethod, ScriptMethod, Methods, ParameterizedProperty, MemberSet, and All.</source>
+          <target state="translated">MemberType 的允许值有 AliasProperty、CodeProperty、Property、NoteProperty、ScriptProperty、Properties、PropertySet、Method、CodeMethod、ScriptMethod、Methods、ParameterizedProperty、MemberSet 以及 All。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>There are over 60 properties for a process.</source>
+          <target state="translated">一个进程有 60 多个属性。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The reason Windows PowerShell often shows only a handful of properties for any well<ph id="ph1">\-</ph>known object is that showing all of them would produce an unmanageable amount of information.</source>
+          <target state="translated">对于任何已知的对象，Windows PowerShell 通常仅显示少许属性，这是因为显示所有属性会导致产生无法管理的信息量。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell determines how to display an object type by using information stored in XML files that have names ending in .format.ps1xml.</source>
+          <target state="translated">Windows PowerShell 通过使用存储在以 .format.ps1xml 结尾的 XML 文件中的信息来决定某种类型的对象的显示方式。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The formatting data for process objects, which are .NET System.Diagnostics.Process objects, is stored in PowerShellCore.format.ps1xml.</source>
+          <target state="translated">进程对象也即 .NET System.Diagnostics.Process 对象的格式设置数据存储在 PowerShellCore.format.ps1xml 中。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you need to look at properties other than those that Windows PowerShell displays by default, you will need to format the output data yourself.</source>
+          <target state="translated">如果需要查看 Windows PowerShell 默认显示的属性之外的属性，则需要自己对输出数据进行格式化。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This can be done by using the format cmdlets.</source>
+          <target state="translated">这可以通过使用格式 cmdlet 实现。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
