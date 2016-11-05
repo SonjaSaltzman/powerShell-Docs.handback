@@ -2710,8 +2710,8 @@
 ##### <a name='567ab9528402c7d39d80a997bc14b6c6992cf77219'></a> Source: [dsc\configurations.md](https://github.com/PowerShell/powerShell-Docs/blob/49ddf6faf98a51f7ad5252e9563b1543478ed113/dsc/configurations.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/036ef71475f17bc7e79fe0f1c5c47643827c4539/ol-handoff/PowerShell/powerShell-Docs.it-it/live/configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.it-it.xlf)
-* Handoff Datetime: 2016-11-04 20:09:12
+* Handoff File: [configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/82880007625658fa574ad0f69161aab1519279e1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/configurations.02626ddbf3a00f8ede56fdfd2e46a027800e75b6.it-it.xlf)
+* Handoff Datetime: 2016-11-05 01:20:37
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -5052,8 +5052,8 @@
 ##### <a name='ac9231a475ba84e9051bbd06a65f3f20c9e49846187'></a> Source: [jea\prerequisites.md](https://github.com/PowerShell/powerShell-Docs/blob/7504fe496a8913718847e45115d126caf4049bef/jea/prerequisites.md)
 * Status: HandedOffSuccess
 * Target File: [jea\prerequisites.md](https://github.com/PowerShell/powerShell-Docs.it-it/blob/890877e2b2a839e196c2825cf1e813266d86e5b6/jea/prerequisites.md)
-* Handoff File: [prerequisites.c7c64787c6d6d670a4d099b82dfa08e0cdc17727.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5127af0e466b3bf7a4158432e7daa6f787400ec1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/prerequisites.c7c64787c6d6d670a4d099b82dfa08e0cdc17727.it-it.xlf)
-* Handoff Datetime: 2016-11-04 14:27:34
+* Handoff File: [prerequisites.c7c64787c6d6d670a4d099b82dfa08e0cdc17727.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/82880007625658fa574ad0f69161aab1519279e1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/prerequisites.c7c64787c6d6d670a4d099b82dfa08e0cdc17727.it-it.xlf)
+* Handoff Datetime: 2016-11-05 01:20:37
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -29211,8 +29211,8 @@
 ##### <a name='3543503655cc506c4c0f8a7f3d1056c05a66ecba2192'></a> Source: [scripting\core-powershell\ise\How-to-Use-Profiles-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/cb3db96ff87078756166df9f90d44d88cdfd155f/scripting/core-powershell/ise/How-to-Use-Profiles-in-Windows-PowerShell-ISE.md)
 * Status: HandedOffSuccess
 * Target File: [scripting\core-powershell\ise\How-to-Use-Profiles-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs.it-it/blob/de75570ce7c87cb02d28dfc1c10bf9cec129d64d/scripting/core-powershell/ise/How-to-Use-Profiles-in-Windows-PowerShell-ISE.md)
-* Handoff File: [How-to-Use-Profiles-in-Windows-PowerShell-ISE.72f3b348070f83aa4291e40ad45a895af4a48018.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5127af0e466b3bf7a4158432e7daa6f787400ec1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/How-to-Use-Profiles-in-Windows-PowerShell-ISE.72f3b348070f83aa4291e40ad45a895af4a48018.it-it.xlf)
-* Handoff Datetime: 2016-11-04 14:27:34
+* Handoff File: [How-to-Use-Profiles-in-Windows-PowerShell-ISE.72f3b348070f83aa4291e40ad45a895af4a48018.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/82880007625658fa574ad0f69161aab1519279e1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/How-to-Use-Profiles-in-Windows-PowerShell-ISE.72f3b348070f83aa4291e40ad45a895af4a48018.it-it.xlf)
+* Handoff Datetime: 2016-11-05 01:20:37
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -29655,8 +29655,8 @@
 ##### <a name='f62b1e0ec9f26e1b2bcb364c78a2ce39467655a52219'></a> Source: [scripting\core-powershell\web-access\authorization-rules-and-security-features-of-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/web-access/authorization-rules-and-security-features-of-windows-powershell-web-access.md)
 * Status: HandedOffSuccess
 * Target File: [scripting\core-powershell\web-access\authorization-rules-and-security-features-of-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs.it-it/blob/0c22698545cae75186f036f4d7692a85c4665212/scripting/core-powershell/web-access/authorization-rules-and-security-features-of-windows-powershell-web-access.md)
-* Handoff File: [authorization-rules-and-security-features-of-windows-powershell-web-access.c317fe9a78ba1130929bd001738c2eb57f0037dd.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5127af0e466b3bf7a4158432e7daa6f787400ec1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/authorization-rules-and-security-features-of-windows-powershell-web-access.c317fe9a78ba1130929bd001738c2eb57f0037dd.it-it.xlf)
-* Handoff Datetime: 2016-11-04 14:27:34
+* Handoff File: [authorization-rules-and-security-features-of-windows-powershell-web-access.c317fe9a78ba1130929bd001738c2eb57f0037dd.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/82880007625658fa574ad0f69161aab1519279e1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/authorization-rules-and-security-features-of-windows-powershell-web-access.c317fe9a78ba1130929bd001738c2eb57f0037dd.it-it.xlf)
+* Handoff Datetime: 2016-11-05 01:20:37
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -29669,8 +29669,8 @@
 ##### <a name='fe79ca70ff1f9a3960b79747221a70adc46b7c672220'></a> Source: [scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/web-access/install-and-use-windows-powershell-web-access.md)
 * Status: HandedOffSuccess
 * Target File: [scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs.it-it/blob/3f87a1e6e5176322cb4c9976eb718f647c67baa2/scripting/core-powershell/web-access/install-and-use-windows-powershell-web-access.md)
-* Handoff File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5127af0e466b3bf7a4158432e7daa6f787400ec1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.it-it.xlf)
-* Handoff Datetime: 2016-11-04 14:27:34
+* Handoff File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/82880007625658fa574ad0f69161aab1519279e1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.it-it.xlf)
+* Handoff Datetime: 2016-11-05 01:20:37
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -29697,8 +29697,8 @@
 ##### <a name='d84b13db1fa5f12a7b4f8fa7b9b8cd7fb8fbae9d2222'></a> Source: [scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/web-access/uninstall-windows-powershell-web-access.md)
 * Status: HandedOffSuccess
 * Target File: [scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs.it-it/blob/3f87a1e6e5176322cb4c9976eb718f647c67baa2/scripting/core-powershell/web-access/uninstall-windows-powershell-web-access.md)
-* Handoff File: [uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5127af0e466b3bf7a4158432e7daa6f787400ec1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.it-it.xlf)
-* Handoff Datetime: 2016-11-04 14:27:34
+* Handoff File: [uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/82880007625658fa574ad0f69161aab1519279e1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.it-it.xlf)
+* Handoff Datetime: 2016-11-05 01:20:37
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -29711,8 +29711,8 @@
 ##### <a name='67426f6ad72967293f8aee1b3f098afc73067c592223'></a> Source: [scripting\core-powershell\web-access\use-the-web-based-windows-powershell-console.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/core-powershell/web-access/use-the-web-based-windows-powershell-console.md)
 * Status: HandedOffSuccess
 * Target File: [scripting\core-powershell\web-access\use-the-web-based-windows-powershell-console.md](https://github.com/PowerShell/powerShell-Docs.it-it/blob/0c22698545cae75186f036f4d7692a85c4665212/scripting/core-powershell/web-access/use-the-web-based-windows-powershell-console.md)
-* Handoff File: [use-the-web-based-windows-powershell-console.a8b4c6032c977748f5d93f5365f50e8e8c8fc1ee.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5127af0e466b3bf7a4158432e7daa6f787400ec1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/use-the-web-based-windows-powershell-console.a8b4c6032c977748f5d93f5365f50e8e8c8fc1ee.it-it.xlf)
-* Handoff Datetime: 2016-11-04 14:27:34
+* Handoff File: [use-the-web-based-windows-powershell-console.a8b4c6032c977748f5d93f5365f50e8e8c8fc1ee.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/82880007625658fa574ad0f69161aab1519279e1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/use-the-web-based-windows-powershell-console.a8b4c6032c977748f5d93f5365f50e8e8c8fc1ee.it-it.xlf)
+* Handoff Datetime: 2016-11-05 01:20:37
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -31727,8 +31727,8 @@
 ##### <a name='52c2587e945407c7eeca67bf1b5c9a9c138706d92363'></a> Source: [wmf\5.0\limitation_dsc.md](https://github.com/PowerShell/powerShell-Docs/blob/39ded85dbb11fbb98b1ede001aa9e92dda81449e/wmf/5.0/limitation_dsc.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [limitation_dsc.84393b9f829dc3ec01781af7ab4702c88eefacce.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5127af0e466b3bf7a4158432e7daa6f787400ec1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/limitation_dsc.84393b9f829dc3ec01781af7ab4702c88eefacce.it-it.xlf)
-* Handoff Datetime: 2016-11-04 14:27:34
+* Handoff File: [limitation_dsc.84393b9f829dc3ec01781af7ab4702c88eefacce.it-it.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/82880007625658fa574ad0f69161aab1519279e1/ol-handoff/PowerShell/powerShell-Docs.it-it/live/limitation_dsc.84393b9f829dc3ec01781af7ab4702c88eefacce.it-it.xlf)
+* Handoff Datetime: 2016-11-05 01:20:37
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
