@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 5
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 124
+[ Archive Success Files ](#archive-success-list)| 119
 [ Handback Failed Files ](#handback-failed-list)| 4
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
-[ In Sync Handback Files ](#insync-handback-success-list)| 270
+[ In Sync Handback Files ](#insync-handback-success-list)| 275
 [ Ignored Files ](#ignored-list)| 2012
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -132,20 +132,15 @@
  [scripting\core-powershell\workflows\PSWorkflow-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/workflows/PSWorkflow-Module.md) | ArchivedSuccess | [Details](#4bef4aa944dce5c15cd87ff3b256f2222a92daf02225)
  [scripting\core-powershell\workflows\PSWorkflowUtility-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/6c666e2e23cb74818e37293410dafc9033057733/scripting/core-powershell/workflows/PSWorkflowUtility-Module.md) | ArchivedSuccess | [Details](#c49b8f4f5969faa017a858f8b66fe9bfc5515c362226)
  [scripting\getting-started\cookbooks\Appendix-1---Compatibility-Aliases.md](https://github.com/PowerShell/powerShell-Docs/blob/f1ecd7d8598ad4585285a5dc1c6d20f2d4fefe6e/scripting/getting-started/cookbooks/Appendix-1---Compatibility-Aliases.md) | ArchivedSuccess | [Details](#5ff999383d23aed2bdbb501e4974fd4543a0a2f52229)
- [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/41647fc2b323292e496340f68bc92fd9a997ce0e/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md) | ArchivedSuccess | [Details](#662d0823749c142a716b74164ad57a8612833ccd2234)
  [scripting\getting-started\cookbooks\Creating-a-Custom-Input-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Creating-a-Custom-Input-Box.md) | ArchivedSuccess | [Details](#6fffd6406a7570e06fc4403cd238804ef0f513602235)
  [scripting\getting-started\cookbooks\Creating-a-Graphical-Date-Picker.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Creating-a-Graphical-Date-Picker.md) | ArchivedSuccess | [Details](#e3899a183cb1c8652adff7d01ffc09efde7f49b42236)
- [scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Getting-WMI-Objects--Get-WmiObject-.md) | ArchivedSuccess | [Details](#de9e8af7908ac6a72a100fd2c86b52c30c390c392237)
  [scripting\getting-started\cookbooks\Managing-Processes-with-Process-Cmdlets.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Managing-Processes-with-Process-Cmdlets.md) | ArchivedSuccess | [Details](#3812d0492da1879df50538533740ff857af7b15d2239)
  [scripting\getting-started\cookbooks\Managing-Services.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Managing-Services.md) | ArchivedSuccess | [Details](#61c98c54ca1b555f6b2e827fb31228bf6a2cc71d2240)
  [scripting\getting-started\cookbooks\Multiple-selection-List-Boxes.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Multiple-selection-List-Boxes.md) | ArchivedSuccess | [Details](#03a9bbfb14c4587d794db2eaadf60cc7a4d4dcdc2243)
  [scripting\getting-started\cookbooks\Other-Useful-Scripting-Objects.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Other-Useful-Scripting-Objects.md) | ArchivedSuccess | [Details](#938e3e80b709a5f9a09cd52120fca41c60b5675d2244)
  [scripting\getting-started\cookbooks\PowerShellGet-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/PowerShellGet-Module.md) | ArchivedSuccess | [Details](#16b3617b75b6aae25a92beaf5d6d2d6f2437ee132246)
  [scripting\getting-started\cookbooks\Selecting-Items-from-a-List-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Selecting-Items-from-a-List-Box.md) | ArchivedSuccess | [Details](#ce74f3c7cb26632269e42dfddb941fee11dcdc872250)
- [scripting\getting-started\cookbooks\Using-Static-Classes-and-Methods.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Using-Static-Classes-and-Methods.md) | ArchivedSuccess | [Details](#28bc665c3ffb1b74a2ff922584c31a8657842a0f2254)
- [scripting\getting-started\cookbooks\Working-with-Registry-Entries.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Working-with-Registry-Entries.md) | ArchivedSuccess | [Details](#cdc7f45c9fa8a6bf748a52b460a1ac190d2839712260)
  [scripting\getting-started\fundamental\Getting-Detailed-Help-Information.md](https://github.com/PowerShell/powerShell-Docs/blob/b59186234a513cf34d2615d90643ee749bd60d3f/scripting/getting-started/fundamental/Getting-Detailed-Help-Information.md) | ArchivedSuccess | [Details](#c38edc68154ccfa9cd76ebdad5a94ddfb4f902c82266)
- [scripting\getting-started\fundamental\Using-Familiar-Command-Names.md](https://github.com/PowerShell/powerShell-Docs/blob/0c22cc16f5c5becacfc07a6332c0b949f9da40e0/scripting/getting-started/fundamental/Using-Familiar-Command-Names.md) | ArchivedSuccess | [Details](#dc235dee1af01c1f3d29118e4824d6a2b49b113a2273)
  [scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/416d21d2a2fa3d837eba19b1023e4045a124e23c/scripting/getting-started/Getting-Ready-to-Use-Windows-PowerShell.md) | ArchivedSuccess | [Details](#9229df48b00c125e04d0f97536697495d0ca01ed2279)
  [scripting\setup\Installing-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/Installing-Windows-PowerShell.md) | ArchivedSuccess | [Details](#5b79069bdd57bb62f2cde2c92c981de98e8984922288)
  [scripting\setup\security.md](https://github.com/PowerShell/powerShell-Docs/blob/2aa04e8094fee4b0da3d5e7025cca215d542355e/scripting/setup/security.md) | ArchivedSuccess | [Details](#eb1ac0640b61cd8daf1c5ed4800cabee64a6c2762289)
@@ -301,6 +296,8 @@
  [scripting\getting-started\cookbooks\Appendix-2---Creating-a-Custom-PowerShell-Shortcut.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Appendix-2---Creating-a-Custom-PowerShell-Shortcut.md) | InSyncHandedBackSuccess | [Details](#ceec1038516ddd4c29df770d14981c0a694374982230)
  [scripting\getting-started\cookbooks\basic-cookbooks-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/cookbooks/basic-cookbooks-reference.md) | InSyncHandedBackSuccess | [Details](#a5bfad60f1cb254f1899723c40751cd8b96ef54e2231)
  [scripting\getting-started\cookbooks\Changing-Computer-State.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Changing-Computer-State.md) | InSyncHandedBackSuccess | [Details](#1779b9de13a30a43236e24793e5196261a7db77f2232)
+ [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/41647fc2b323292e496340f68bc92fd9a997ce0e/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md) | InSyncHandedBackSuccess | [Details](#662d0823749c142a716b74164ad57a8612833ccd2234)
+ [scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Getting-WMI-Objects--Get-WmiObject-.md) | InSyncHandedBackSuccess | [Details](#de9e8af7908ac6a72a100fd2c86b52c30c390c392237)
  [scripting\getting-started\cookbooks\Managing-Current-Location.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Managing-Current-Location.md) | InSyncHandedBackSuccess | [Details](#97bdd8ed6278fc5d45b34adf50ef8a194966ef0c2238)
  [scripting\getting-started\cookbooks\Managing-Windows-PowerShell-Drives.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Managing-Windows-PowerShell-Drives.md) | InSyncHandedBackSuccess | [Details](#d266a109b1acd97c03594f988ce2fab3c697b80c2241)
  [scripting\getting-started\cookbooks\Manipulating-Items-Directly.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Manipulating-Items-Directly.md) | InSyncHandedBackSuccess | [Details](#b21af4711cc5a846517c3e286c9e90f858612ccb2242)
@@ -311,11 +308,13 @@
  [scripting\getting-started\cookbooks\Selecting-Parts-of-Objects--Select-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Selecting-Parts-of-Objects--Select-Object-.md) | InSyncHandedBackSuccess | [Details](#463eaa5d27eeb03f232239bc6810ab00d4a1eaf42251)
  [scripting\getting-started\cookbooks\Sorting-Objects.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Sorting-Objects.md) | InSyncHandedBackSuccess | [Details](#88753c43124cfce3581af2259449be5f01579ae82252)
  [scripting\getting-started\cookbooks\Using-Format-Commands-to-Change-Output-View.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Using-Format-Commands-to-Change-Output-View.md) | InSyncHandedBackSuccess | [Details](#4d8c2392c6a9f59dc5e601308bc08db8c653760e2253)
+ [scripting\getting-started\cookbooks\Using-Static-Classes-and-Methods.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Using-Static-Classes-and-Methods.md) | InSyncHandedBackSuccess | [Details](#28bc665c3ffb1b74a2ff922584c31a8657842a0f2254)
  [scripting\getting-started\cookbooks\Viewing-Object-Structure--Get-Member-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Viewing-Object-Structure--Get-Member-.md) | InSyncHandedBackSuccess | [Details](#acd52c1271013320dafa7f7bf5c72b752e07574b2255)
  [scripting\getting-started\cookbooks\Working-with-Files-and-Folders.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Working-with-Files-and-Folders.md) | InSyncHandedBackSuccess | [Details](#c3f7c226fcb496e5bb51ba601429c54b43de9d522256)
  [scripting\getting-started\cookbooks\Working-With-Files-Folders-and-Registry-Keys.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Working-With-Files-Folders-and-Registry-Keys.md) | InSyncHandedBackSuccess | [Details](#3e1bf444d7657b66422dab3eb8dbeef5e4d581b42257)
  [scripting\getting-started\cookbooks\Working-with-Objects.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Working-with-Objects.md) | InSyncHandedBackSuccess | [Details](#e7069571249447bffc587d3665ffdb8f75bd9c252258)
  [scripting\getting-started\cookbooks\Working-with-Printers.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Working-with-Printers.md) | InSyncHandedBackSuccess | [Details](#c013124d12a551245152c1703e5f1d8a3f8f5f702259)
+ [scripting\getting-started\cookbooks\Working-with-Registry-Entries.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Working-with-Registry-Entries.md) | InSyncHandedBackSuccess | [Details](#cdc7f45c9fa8a6bf748a52b460a1ac190d2839712260)
  [scripting\getting-started\cookbooks\Working-with-Registry-Keys.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Working-with-Registry-Keys.md) | InSyncHandedBackSuccess | [Details](#4809eb60ba1a5529343c2ab3c88493bf2c32389b2261)
  [scripting\getting-started\cookbooks\Working-with-Software-Installations.md](https://github.com/PowerShell/powerShell-Docs/blob/fe3d7885b7c031a24a737f58523c8018cfc36146/scripting/getting-started/cookbooks/Working-with-Software-Installations.md) | InSyncHandedBackSuccess | [Details](#4334a1ff099072c2287af299d65caed3f16032fe2262)
  [scripting\getting-started\fundamental\About-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/fundamental/About-Windows-PowerShell.md) | InSyncHandedBackSuccess | [Details](#548cb522ecf8f8f5e82fb43e709c6b8bf3a050962264)
@@ -325,6 +324,7 @@
  [scripting\getting-started\fundamental\Scripting-with-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/fundamental/Scripting-with-Windows-PowerShell.md) | InSyncHandedBackSuccess | [Details](#0148f4631e34e65a4336c5d1d50e313fb66397482270)
  [scripting\getting-started\fundamental\Understanding-Important-Windows-PowerShell-Concepts.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/fundamental/Understanding-Important-Windows-PowerShell-Concepts.md) | InSyncHandedBackSuccess | [Details](#89634d992eb59650e1f1a6cf89064b477ac4fea92271)
  [scripting\getting-started\fundamental\Understanding-the-Windows-PowerShell-Pipeline.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/fundamental/Understanding-the-Windows-PowerShell-Pipeline.md) | InSyncHandedBackSuccess | [Details](#d90bf940a1047b629f7b59d239aab50a787482512272)
+ [scripting\getting-started\fundamental\Using-Familiar-Command-Names.md](https://github.com/PowerShell/powerShell-Docs/blob/0c22cc16f5c5becacfc07a6332c0b949f9da40e0/scripting/getting-started/fundamental/Using-Familiar-Command-Names.md) | InSyncHandedBackSuccess | [Details](#dc235dee1af01c1f3d29118e4824d6a2b49b113a2273)
  [scripting\getting-started\fundamental\Using-Variables-to-Store-Objects.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/fundamental/Using-Variables-to-Store-Objects.md) | InSyncHandedBackSuccess | [Details](#6216f3e1a766c57a7549a3e3b4fbe76d043a8a412274)
  [scripting\getting-started\fundamental\Using-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/16608d8b97ec816d77ec7b8ac2438a4d64b55fba/scripting/getting-started/fundamental/Using-Windows-PowerShell.md) | InSyncHandedBackSuccess | [Details](#9563e58d2840c7cc2120b58b041660aaeee128302276)
  [scripting\getting-started\fundamental\Using-Windows-PowerShell-for-Administration.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/fundamental/Using-Windows-PowerShell-for-Administration.md) | InSyncHandedBackSuccess | [Details](#904aff841a50f1599ac29c0408a0af6fa43fe7942275)
@@ -30011,18 +30011,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='662d0823749c142a716b74164ad57a8612833ccd2234'></a> Source: [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/41647fc2b323292e496340f68bc92fd9a997ce0e/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/58324900398b241e89f88f47e452254fceeaa581/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md)
 * Handoff File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/6bb319e0fcbc7857308d84cfefcb5292a1f6ecd5/ol-handoff/PowerShell/powerShell-Docs.de-de/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf)
 * Handoff Datetime: 2016-11-01 17:59:41
 * Handoff Reason: Include
 * Archive File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/ecd29b43c1d8099b2b465111c86ad05f1d3e946e/ol-archive/PowerShell/powerShell-Docs.de-de/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf)
 * Archive Datetime: 2016-11-08 14:09:55
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/bdf8cb09ea572b9b9669714f60147753bb94f325/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md)
-* Current Handback File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/41555cb016f4522d175b2b47bf18a79c98b4f214/ol-handback/PowerShell/powerShell-Docs.de-de/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf)
-* Current Handback Datetime: 2016-09-07 02:07:07
+* Handback File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/73f91740e317960d028b0131de60825f1259e0f6/ol-handback/PowerShell/powerShell-Docs.de-de/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf)
+* Handback Datetime: 2016-11-08 23:30:14
 * Bilingual File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/41555cb016f4522d175b2b47bf18a79c98b4f214/ol-handback/PowerShell/powerShell-Docs.de-de/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.de-de.xlf)
 * Bilingual Datetime: 2016-09-07 02:09:14
 * [Back to Top](#report-top)
@@ -30062,15 +30059,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='de9e8af7908ac6a72a100fd2c86b52c30c390c392237'></a> Source: [scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Getting-WMI-Objects--Get-WmiObject-.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/58324900398b241e89f88f47e452254fceeaa581/scripting/getting-started/cookbooks/Getting-WMI-Objects--Get-WmiObject-.md)
 * Handoff File: [Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9749bf998f059d851a3ff901c57ddbcba66ccf9a/ol-handoff/PowerShell/powerShell-Docs.de-de/live/Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.de-de.xlf)
 * Handoff Datetime: 2016-11-04 20:08:12
 * Handoff Reason: Include
 * Archive File: [Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/ecd29b43c1d8099b2b465111c86ad05f1d3e946e/ol-archive/PowerShell/powerShell-Docs.de-de/live/Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.de-de.xlf)
 * Archive Datetime: 2016-11-08 14:09:55
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/73f91740e317960d028b0131de60825f1259e0f6/ol-handback/PowerShell/powerShell-Docs.de-de/live/Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.de-de.xlf)
+* Handback Datetime: 2016-11-08 23:30:14
 * [Back to Top](#report-top)
 
 ##### <a name='97bdd8ed6278fc5d45b34adf50ef8a194966ef0c2238'></a> Source: [scripting\getting-started\cookbooks\Managing-Current-Location.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Managing-Current-Location.md)
@@ -30316,15 +30313,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='28bc665c3ffb1b74a2ff922584c31a8657842a0f2254'></a> Source: [scripting\getting-started\cookbooks\Using-Static-Classes-and-Methods.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Using-Static-Classes-and-Methods.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Using-Static-Classes-and-Methods.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/58324900398b241e89f88f47e452254fceeaa581/scripting/getting-started/cookbooks/Using-Static-Classes-and-Methods.md)
 * Handoff File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9749bf998f059d851a3ff901c57ddbcba66ccf9a/ol-handoff/PowerShell/powerShell-Docs.de-de/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.de-de.xlf)
 * Handoff Datetime: 2016-11-04 20:08:12
 * Handoff Reason: Include
 * Archive File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/ecd29b43c1d8099b2b465111c86ad05f1d3e946e/ol-archive/PowerShell/powerShell-Docs.de-de/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.de-de.xlf)
 * Archive Datetime: 2016-11-08 14:09:55
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/73f91740e317960d028b0131de60825f1259e0f6/ol-handback/PowerShell/powerShell-Docs.de-de/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.de-de.xlf)
+* Handback Datetime: 2016-11-08 23:30:14
 * [Back to Top](#report-top)
 
 ##### <a name='acd52c1271013320dafa7f7bf5c72b752e07574b2255'></a> Source: [scripting\getting-started\cookbooks\Viewing-Object-Structure--Get-Member-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Viewing-Object-Structure--Get-Member-.md)
@@ -30398,15 +30395,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='cdc7f45c9fa8a6bf748a52b460a1ac190d2839712260'></a> Source: [scripting\getting-started\cookbooks\Working-with-Registry-Entries.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Working-with-Registry-Entries.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Working-with-Registry-Entries.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/58324900398b241e89f88f47e452254fceeaa581/scripting/getting-started/cookbooks/Working-with-Registry-Entries.md)
 * Handoff File: [Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9749bf998f059d851a3ff901c57ddbcba66ccf9a/ol-handoff/PowerShell/powerShell-Docs.de-de/live/Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.de-de.xlf)
 * Handoff Datetime: 2016-11-04 20:08:12
 * Handoff Reason: Include
 * Archive File: [Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/ecd29b43c1d8099b2b465111c86ad05f1d3e946e/ol-archive/PowerShell/powerShell-Docs.de-de/live/Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.de-de.xlf)
 * Archive Datetime: 2016-11-08 14:09:55
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/73f91740e317960d028b0131de60825f1259e0f6/ol-handback/PowerShell/powerShell-Docs.de-de/live/Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.de-de.xlf)
+* Handback Datetime: 2016-11-08 23:30:14
 * [Back to Top](#report-top)
 
 ##### <a name='4809eb60ba1a5529343c2ab3c88493bf2c32389b2261'></a> Source: [scripting\getting-started\cookbooks\Working-with-Registry-Keys.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Working-with-Registry-Keys.md)
@@ -30568,18 +30565,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='dc235dee1af01c1f3d29118e4824d6a2b49b113a2273'></a> Source: [scripting\getting-started\fundamental\Using-Familiar-Command-Names.md](https://github.com/PowerShell/powerShell-Docs/blob/0c22cc16f5c5becacfc07a6332c0b949f9da40e0/scripting/getting-started/fundamental/Using-Familiar-Command-Names.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\fundamental\Using-Familiar-Command-Names.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/58324900398b241e89f88f47e452254fceeaa581/scripting/getting-started/fundamental/Using-Familiar-Command-Names.md)
 * Handoff File: [Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/0d620a18d7dd333cf4d5eab5596b14234e5c80fa/ol-handoff/PowerShell/powerShell-Docs.de-de/live/Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.de-de.xlf)
 * Handoff Datetime: 2016-11-02 22:02:02
 * Handoff Reason: Include
 * Archive File: [Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/ecd29b43c1d8099b2b465111c86ad05f1d3e946e/ol-archive/PowerShell/powerShell-Docs.de-de/live/Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.de-de.xlf)
 * Archive Datetime: 2016-11-08 14:09:55
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\getting-started\fundamental\Using-Familiar-Command-Names.md](https://github.com/PowerShell/powerShell-Docs.de-de/blob/bdf8cb09ea572b9b9669714f60147753bb94f325/scripting/getting-started/fundamental/Using-Familiar-Command-Names.md)
-* Current Handback File: [Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/41555cb016f4522d175b2b47bf18a79c98b4f214/ol-handback/PowerShell/powerShell-Docs.de-de/live/Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.de-de.xlf)
-* Current Handback Datetime: 2016-09-07 02:07:07
+* Handback File: [Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/73f91740e317960d028b0131de60825f1259e0f6/ol-handback/PowerShell/powerShell-Docs.de-de/live/Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.de-de.xlf)
+* Handback Datetime: 2016-11-08 23:30:14
 * Bilingual File: [Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.de-de.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/41555cb016f4522d175b2b47bf18a79c98b4f214/ol-handback/PowerShell/powerShell-Docs.de-de/live/Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.de-de.xlf)
 * Bilingual Datetime: 2016-09-07 02:09:14
 * [Back to Top](#report-top)
