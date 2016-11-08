@@ -1,41 +1,101 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 2
+ Total Files | 6
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [scripting\core-powershell\core-modules\Windows-PowerShell-5.0.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-modules/Windows-PowerShell-5.0.md) | InSyncHandedBackSuccess | [Details](#8adf724740b2f09bff6d5cafb822566f4747780c2185)
- [scripting\getting-started\cookbooks\Collecting-Information-About-Computers.md](https://github.com/PowerShell/powerShell-Docs/blob/d698cdd29bfe165b87494696ca2dc3486be4ab0e/scripting/getting-started/cookbooks/Collecting-Information-About-Computers.md) | InSyncHandedBackSuccess | [Details](#96204a0ce674cacd5b830f9f8b820ce3e1cbbc202233)
+ [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/41647fc2b323292e496340f68bc92fd9a997ce0e/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md) | InSyncHandedBackSuccess | [Details](#662d0823749c142a716b74164ad57a8612833ccd2234)
+ [scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Getting-WMI-Objects--Get-WmiObject-.md) | InSyncHandedBackSuccess | [Details](#de9e8af7908ac6a72a100fd2c86b52c30c390c392237)
+ [scripting\getting-started\cookbooks\Using-Static-Classes-and-Methods.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Using-Static-Classes-and-Methods.md) | InSyncHandedBackSuccess | [Details](#28bc665c3ffb1b74a2ff922584c31a8657842a0f2254)
+ [scripting\getting-started\cookbooks\Viewing-Object-Structure--Get-Member-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Viewing-Object-Structure--Get-Member-.md) | InSyncHandedBackSuccess | [Details](#acd52c1271013320dafa7f7bf5c72b752e07574b2255)
+ [scripting\getting-started\cookbooks\Working-with-Registry-Entries.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Working-with-Registry-Entries.md) | InSyncHandedBackSuccess | [Details](#cdc7f45c9fa8a6bf748a52b460a1ac190d2839712260)
+ [scripting\getting-started\fundamental\Using-Familiar-Command-Names.md](https://github.com/PowerShell/powerShell-Docs/blob/0c22cc16f5c5becacfc07a6332c0b949f9da40e0/scripting/getting-started/fundamental/Using-Familiar-Command-Names.md) | InSyncHandedBackSuccess | [Details](#dc235dee1af01c1f3d29118e4824d6a2b49b113a2273)
 
 ## Item Details
-##### <a name='8adf724740b2f09bff6d5cafb822566f4747780c2185'></a> Source: [scripting\core-powershell\core-modules\Windows-PowerShell-5.0.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-modules/Windows-PowerShell-5.0.md)
+##### <a name='662d0823749c142a716b74164ad57a8612833ccd2234'></a> Source: [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs/blob/41647fc2b323292e496340f68bc92fd9a997ce0e/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [scripting\core-powershell\core-modules\Windows-PowerShell-5.0.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/ba3f70dc0f9ac8ad0cd328ee6b759b8cdbddb9a5/scripting/core-powershell/core-modules/Windows-PowerShell-5.0.md)
-* Handoff File: [Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5a684a0d7d10dfbf2eb87bcdfac35d48aebab527/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.ru-ru.xlf)
-* Handoff Datetime: 2016-08-18 01:37:52
+* Target File: [scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/3516487133dd2ec76548abebeb0f46e06ba58dd4/scripting/getting-started/cookbooks/Creating-.NET-and-COM-Objects--New-Object-.md)
+* Handoff File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/6f29ede8a7e7585b3b3fc62f3cf5787a30fdc6a9/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf)
+* Handoff Datetime: 2016-11-01 18:00:58
 * Handoff Reason: Include
-* Archive File: [Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/b4725f9dbdd6581843e0380da9efc0dbfb3524e7/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.ru-ru.xlf)
-* Archive Datetime: 2016-08-23 13:37:55
-* Handback File: [Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/90dadb9f5ce63ea8fb9e2e31c836957fe6c237e4/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.ru-ru.xlf)
-* Handback Datetime: 2016-11-04 14:25:33
-* Bilingual File: [Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/90dadb9f5ce63ea8fb9e2e31c836957fe6c237e4/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Windows-PowerShell-5.0.af9ec34f7af19f97e9c2299972cbfcfc182580a2.ru-ru.xlf)
-* Bilingual Datetime: 2016-11-04 14:31:16
+* Archive File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/bc4ffba3ebf158db31ef44e66edb7bf611c2f6c7/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf)
+* Archive Datetime: 2016-11-08 14:10:53
+* Handback File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/432295cd7cd8a13c0afb761b000ce7745be418ec/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf)
+* Handback Datetime: 2016-11-08 23:31:23
+* Bilingual File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/432295cd7cd8a13c0afb761b000ce7745be418ec/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.ru-ru.xlf)
+* Bilingual Datetime: 2016-11-08 23:33:25
 * [Back to Top](#report-top)
 
-##### <a name='96204a0ce674cacd5b830f9f8b820ce3e1cbbc202233'></a> Source: [scripting\getting-started\cookbooks\Collecting-Information-About-Computers.md](https://github.com/PowerShell/powerShell-Docs/blob/d698cdd29bfe165b87494696ca2dc3486be4ab0e/scripting/getting-started/cookbooks/Collecting-Information-About-Computers.md)
+##### <a name='de9e8af7908ac6a72a100fd2c86b52c30c390c392237'></a> Source: [scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Getting-WMI-Objects--Get-WmiObject-.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [scripting\getting-started\cookbooks\Collecting-Information-About-Computers.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/ba3f70dc0f9ac8ad0cd328ee6b759b8cdbddb9a5/scripting/getting-started/cookbooks/Collecting-Information-About-Computers.md)
-* Handoff File: [Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/5a684a0d7d10dfbf2eb87bcdfac35d48aebab527/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.ru-ru.xlf)
-* Handoff Datetime: 2016-08-18 01:37:52
+* Target File: [scripting\getting-started\cookbooks\Getting-WMI-Objects--Get-WmiObject-.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/3516487133dd2ec76548abebeb0f46e06ba58dd4/scripting/getting-started/cookbooks/Getting-WMI-Objects--Get-WmiObject-.md)
+* Handoff File: [Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8ae3492ff7f1b05aa94881e4033d5b41302814b3/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.ru-ru.xlf)
+* Handoff Datetime: 2016-11-04 20:09:22
 * Handoff Reason: Include
-* Archive File: [Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/b4725f9dbdd6581843e0380da9efc0dbfb3524e7/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.ru-ru.xlf)
-* Archive Datetime: 2016-08-23 13:37:55
-* Handback File: [Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/90dadb9f5ce63ea8fb9e2e31c836957fe6c237e4/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.ru-ru.xlf)
-* Handback Datetime: 2016-11-04 14:25:33
-* Bilingual File: [Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/90dadb9f5ce63ea8fb9e2e31c836957fe6c237e4/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Collecting-Information-About-Computers.eed23e687357879bd13c90bb4d3966ee89bc9099.ru-ru.xlf)
-* Bilingual Datetime: 2016-11-04 14:31:16
+* Archive File: [Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/bc4ffba3ebf158db31ef44e66edb7bf611c2f6c7/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.ru-ru.xlf)
+* Archive Datetime: 2016-11-08 14:10:53
+* Handback File: [Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/432295cd7cd8a13c0afb761b000ce7745be418ec/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.ru-ru.xlf)
+* Handback Datetime: 2016-11-08 23:31:23
+* Bilingual File: [Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/432295cd7cd8a13c0afb761b000ce7745be418ec/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.ru-ru.xlf)
+* Bilingual Datetime: 2016-11-08 23:33:25
+* [Back to Top](#report-top)
+
+##### <a name='28bc665c3ffb1b74a2ff922584c31a8657842a0f2254'></a> Source: [scripting\getting-started\cookbooks\Using-Static-Classes-and-Methods.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Using-Static-Classes-and-Methods.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Using-Static-Classes-and-Methods.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/3516487133dd2ec76548abebeb0f46e06ba58dd4/scripting/getting-started/cookbooks/Using-Static-Classes-and-Methods.md)
+* Handoff File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8ae3492ff7f1b05aa94881e4033d5b41302814b3/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.ru-ru.xlf)
+* Handoff Datetime: 2016-11-04 20:09:22
+* Handoff Reason: Include
+* Archive File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/bc4ffba3ebf158db31ef44e66edb7bf611c2f6c7/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.ru-ru.xlf)
+* Archive Datetime: 2016-11-08 14:10:53
+* Handback File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/432295cd7cd8a13c0afb761b000ce7745be418ec/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.ru-ru.xlf)
+* Handback Datetime: 2016-11-08 23:31:23
+* Bilingual File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/432295cd7cd8a13c0afb761b000ce7745be418ec/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.ru-ru.xlf)
+* Bilingual Datetime: 2016-11-08 23:33:25
+* [Back to Top](#report-top)
+
+##### <a name='acd52c1271013320dafa7f7bf5c72b752e07574b2255'></a> Source: [scripting\getting-started\cookbooks\Viewing-Object-Structure--Get-Member-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Viewing-Object-Structure--Get-Member-.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Viewing-Object-Structure--Get-Member-.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/3516487133dd2ec76548abebeb0f46e06ba58dd4/scripting/getting-started/cookbooks/Viewing-Object-Structure--Get-Member-.md)
+* Handoff File: [Viewing-Object-Structure--Get-Member-.f4fabd9bed3d26cc1f7fb0224aadf75a78376b73.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8ae3492ff7f1b05aa94881e4033d5b41302814b3/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/Viewing-Object-Structure--Get-Member-.f4fabd9bed3d26cc1f7fb0224aadf75a78376b73.ru-ru.xlf)
+* Handoff Datetime: 2016-11-04 20:09:22
+* Handoff Reason: Include
+* Archive File: [Viewing-Object-Structure--Get-Member-.f4fabd9bed3d26cc1f7fb0224aadf75a78376b73.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/bc4ffba3ebf158db31ef44e66edb7bf611c2f6c7/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/Viewing-Object-Structure--Get-Member-.f4fabd9bed3d26cc1f7fb0224aadf75a78376b73.ru-ru.xlf)
+* Archive Datetime: 2016-11-08 14:10:53
+* Handback File: [Viewing-Object-Structure--Get-Member-.f4fabd9bed3d26cc1f7fb0224aadf75a78376b73.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/432295cd7cd8a13c0afb761b000ce7745be418ec/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Viewing-Object-Structure--Get-Member-.f4fabd9bed3d26cc1f7fb0224aadf75a78376b73.ru-ru.xlf)
+* Handback Datetime: 2016-11-08 23:31:23
+* Bilingual File: [Viewing-Object-Structure--Get-Member-.f4fabd9bed3d26cc1f7fb0224aadf75a78376b73.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/432295cd7cd8a13c0afb761b000ce7745be418ec/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Viewing-Object-Structure--Get-Member-.f4fabd9bed3d26cc1f7fb0224aadf75a78376b73.ru-ru.xlf)
+* Bilingual Datetime: 2016-11-08 23:33:25
+* [Back to Top](#report-top)
+
+##### <a name='cdc7f45c9fa8a6bf748a52b460a1ac190d2839712260'></a> Source: [scripting\getting-started\cookbooks\Working-with-Registry-Entries.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Working-with-Registry-Entries.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Working-with-Registry-Entries.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/3516487133dd2ec76548abebeb0f46e06ba58dd4/scripting/getting-started/cookbooks/Working-with-Registry-Entries.md)
+* Handoff File: [Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8ae3492ff7f1b05aa94881e4033d5b41302814b3/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.ru-ru.xlf)
+* Handoff Datetime: 2016-11-04 20:09:22
+* Handoff Reason: Include
+* Archive File: [Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/bc4ffba3ebf158db31ef44e66edb7bf611c2f6c7/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.ru-ru.xlf)
+* Archive Datetime: 2016-11-08 14:10:53
+* Handback File: [Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/432295cd7cd8a13c0afb761b000ce7745be418ec/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.ru-ru.xlf)
+* Handback Datetime: 2016-11-08 23:31:23
+* Bilingual File: [Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/432295cd7cd8a13c0afb761b000ce7745be418ec/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.ru-ru.xlf)
+* Bilingual Datetime: 2016-11-08 23:33:25
+* [Back to Top](#report-top)
+
+##### <a name='dc235dee1af01c1f3d29118e4824d6a2b49b113a2273'></a> Source: [scripting\getting-started\fundamental\Using-Familiar-Command-Names.md](https://github.com/PowerShell/powerShell-Docs/blob/0c22cc16f5c5becacfc07a6332c0b949f9da40e0/scripting/getting-started/fundamental/Using-Familiar-Command-Names.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\fundamental\Using-Familiar-Command-Names.md](https://github.com/PowerShell/powerShell-Docs.ru-ru/blob/3516487133dd2ec76548abebeb0f46e06ba58dd4/scripting/getting-started/fundamental/Using-Familiar-Command-Names.md)
+* Handoff File: [Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/12eb91cf4aee86dc7b3ea1bbb0288fd6e5323a4c/ol-handoff/PowerShell/powerShell-Docs.ru-ru/live/Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.ru-ru.xlf)
+* Handoff Datetime: 2016-11-02 22:03:09
+* Handoff Reason: Include
+* Archive File: [Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/bc4ffba3ebf158db31ef44e66edb7bf611c2f6c7/ol-archive/PowerShell/powerShell-Docs.ru-ru/live/Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.ru-ru.xlf)
+* Archive Datetime: 2016-11-08 14:10:53
+* Handback File: [Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/432295cd7cd8a13c0afb761b000ce7745be418ec/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.ru-ru.xlf)
+* Handback Datetime: 2016-11-08 23:31:23
+* Bilingual File: [Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.ru-ru.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/432295cd7cd8a13c0afb761b000ce7745be418ec/ol-handback/PowerShell/powerShell-Docs.ru-ru/live/Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.ru-ru.xlf)
+* Bilingual Datetime: 2016-11-08 23:33:25
 * [Back to Top](#report-top)
 
 
