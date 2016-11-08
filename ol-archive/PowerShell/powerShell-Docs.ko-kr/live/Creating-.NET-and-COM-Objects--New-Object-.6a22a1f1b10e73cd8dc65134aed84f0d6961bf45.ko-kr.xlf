@@ -2,12 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4fb33c9" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4c0f405a46e16935211b3886a40c9f7d1afc7260</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-eac019f" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">662d0823749c142a716b74164ad57a8612833ccd</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Creating-.NET-and-COM-Objects--New-Object-.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">347f4a678fd237b2bfb5407124967071cba4a72e</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64ed6d81b8d08d54732475e98cbc84a33f2c1f30</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7e240727a80f311fbf68e10232c53b579ce86d0c</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -234,99 +235,93 @@
           <source>The output below shows the members we need to use to finish creating our shortcut:</source>
           <target state="translated">아래 출력은 바로 가기 만들기를 완료하는 데 사용해야 하는 멤버를 보여 줍니다.</target>       </trans-unit>
         <trans-unit id="175" translate="yes" xml:space="preserve">
-          <source>PS&gt; $lnk | Get-Member TypeName: System.__ComObject#{f935dc23-1cf0-11d0-adb9-00c04fd58a0b} Name             MemberType   Definition ----             ----------   ---------- ... Save             Method       void Save () ... TargetPath       Property     string TargetPath () {get} {set} ...</source>
-          <target state="translated">PS&gt; $lnk | Get-Member TypeName: System.__ComObject#{f935dc23-1cf0-11d0-adb9-00c04fd58a0b} Name             MemberType   Definition ----             ----------   ---------- ... Save             Method       void Save () ... TargetPath       Property     string TargetPath () {get} {set} ...</target>       </trans-unit>
-        <trans-unit id="176" translate="yes" xml:space="preserve">
           <source>We need to specify the <bpt id="p1">**</bpt>TargetPath<ept id="p1">**</ept>, which is the application folder for Windows PowerShell, and then save the shortcut <bpt id="p2">**</bpt>$lnk<ept id="p2">**</ept> by calling the <bpt id="p3">**</bpt>Save<ept id="p3">**</ept> method.</source>
           <target state="translated">Windows PowerShell의 응용 프로그램 폴더인 <bpt id="p1">**</bpt>TargetPath<ept id="p1">**</ept>를 지정한 다음 <bpt id="p3">**</bpt>Save<ept id="p3">**</ept> 메서드를 호출하여 <bpt id="p2">**</bpt>$lnk<ept id="p2">**</ept> 바로 가기를 저장해야 합니다.</target>       </trans-unit>
-        <trans-unit id="177" translate="yes" xml:space="preserve">
+        <trans-unit id="176" translate="yes" xml:space="preserve">
           <source>The Windows PowerShell application folder path is stored in the variable <bpt id="p1">**</bpt>$PSHome<ept id="p1">**</ept>, so we can do this by typing:</source>
           <target state="translated">Windows PowerShell 응용 프로그램 폴더 경로는 <bpt id="p1">**</bpt>$PSHome<ept id="p1">**</ept> 변수에 저장되므로 다음과 같이 입력하면 됩니다.</target>       </trans-unit>
-        <trans-unit id="178" translate="yes" xml:space="preserve">
-          <source>$lnk.TargetPath = $PSHome $lnk.Save()</source>
-          <target state="translated">$lnk.TargetPath = $PSHome $lnk.Save()</target>       </trans-unit>
-        <trans-unit id="179" translate="yes" xml:space="preserve">
+        <trans-unit id="177" translate="yes" xml:space="preserve">
           <source>Using Internet Explorer from Windows PowerShell</source>
           <target state="translated">Windows PowerShell에서 Internet Explorer 사용</target>       </trans-unit>
-        <trans-unit id="180" translate="yes" xml:space="preserve">
+        <trans-unit id="178" translate="yes" xml:space="preserve">
           <source>Many applications (including the Microsoft Office family of applications and Internet Explorer) can be automated by using COM.</source>
           <target state="translated">COM을 사용하여 많은 응용 프로그램(Microsoft Office 응용 프로그램 제품군 및 Internet Explorer 포함)을 자동화할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="181" translate="yes" xml:space="preserve">
+        <trans-unit id="179" translate="yes" xml:space="preserve">
           <source>Internet Explorer illustrates some of the typical techniques and issues involved in working with COM-based applications.</source>
           <target state="translated">Internet Explorer는 COM 기반 응용 프로그램 작업과 관련된 몇 가지 일반적인 방법과 문제를 보여 줍니다.</target>       </trans-unit>
-        <trans-unit id="182" translate="yes" xml:space="preserve">
+        <trans-unit id="180" translate="yes" xml:space="preserve">
           <source>You create an Internet Explorer instance by specifying the Internet Explorer ProgId, <bpt id="p1">**</bpt>InternetExplorer.Application<ept id="p1">**</ept>:</source>
           <target state="translated">Internet Explorer ProgId인 <bpt id="p1">**</bpt>InternetExplorer.Application<ept id="p1">**</ept>을 지정하여 Internet Explorer 인스턴스를 만듭니다.</target>       </trans-unit>
-        <trans-unit id="183" translate="yes" xml:space="preserve">
+        <trans-unit id="181" translate="yes" xml:space="preserve">
           <source>This command starts Internet Explorer, but does not make it visible.</source>
           <target state="translated">이 명령은 Internet Explorer를 시작하지만 표시하지는 않습니다.</target>       </trans-unit>
-        <trans-unit id="184" translate="yes" xml:space="preserve">
+        <trans-unit id="182" translate="yes" xml:space="preserve">
           <source>If you type Get-Process, you can see that a process named iexplore is running.</source>
           <target state="translated">Get-Process를 입력하면 iexplore라는 프로세스가 실행되고 있는 것을 확인할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="185" translate="yes" xml:space="preserve">
+        <trans-unit id="183" translate="yes" xml:space="preserve">
           <source>In fact, if you exit Windows PowerShell, the process will continue to run.</source>
           <target state="translated">실제로 Windows PowerShell을 종료해도 프로세스는 계속 실행됩니다.</target>       </trans-unit>
-        <trans-unit id="186" translate="yes" xml:space="preserve">
+        <trans-unit id="184" translate="yes" xml:space="preserve">
           <source>You must reboot the computer or use a tool like Task Manager to end the iexplore process.</source>
           <target state="translated">iexplore 프로세스를 종료하려면 컴퓨터를 다시 부팅하거나 작업 관리자와 같은 도구를 사용해야 합니다.</target>       </trans-unit>
-        <trans-unit id="187" translate="yes" xml:space="preserve">
+        <trans-unit id="185" translate="yes" xml:space="preserve">
           <source>COM objects that start as separate processes, commonly called <bpt id="p1">*</bpt>ActiveX executables<ept id="p1">*</ept>, may or may not display a user interface window when they start up.</source>
           <target state="translated">별도 프로세스로 시작되며, 흔히 <bpt id="p1">*</bpt>ActiveX 실행 파일<ept id="p1">*</ept>이라고 불리는 COM 개체는 시작될 때 사용자 인터페이스 창을 표시할 수도 있고, 표시하지 않을 수도 있습니다.</target>       </trans-unit>
-        <trans-unit id="188" translate="yes" xml:space="preserve">
+        <trans-unit id="186" translate="yes" xml:space="preserve">
           <source>If they create a window but do not make it visible, like Internet Explorer, the focus will generally move to the Windows desktop and you must make the window visible to interact with it.</source>
           <target state="translated">Internet Explorer처럼 창을 만들지만 표시하지 않는 경우 일반적으로 포커스가 Windows 바탕 화면으로 이동하며, 창을 조작하려면 표시해야 합니다.</target>       </trans-unit>
-        <trans-unit id="189" translate="yes" xml:space="preserve">
+        <trans-unit id="187" translate="yes" xml:space="preserve">
           <source>By typing <bpt id="p1">**</bpt>$ie | Get-Member<ept id="p1">**</ept>, you can view properties and methods for Internet Explorer.</source>
           <target state="translated"><bpt id="p1">**</bpt>$ie | Get-Member<ept id="p1">**</ept>를 입력하면 Internet Explorer의 속성과 메서드를 볼 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="190" translate="yes" xml:space="preserve">
+        <trans-unit id="188" translate="yes" xml:space="preserve">
           <source>To see the Internet Explorer window, set the Visible property to $true by typing:</source>
           <target state="translated">Internet Explorer 창을 보려면 다음과 같이 입력하여 Visible 속성을 $true로 설정합니다.</target>       </trans-unit>
-        <trans-unit id="191" translate="yes" xml:space="preserve">
+        <trans-unit id="189" translate="yes" xml:space="preserve">
           <source>You can then navigate to a specific Web address by using the Navigate method:</source>
           <target state="translated">그런 다음 Navigate 메서드를 사용하여 특정 웹 주소로 이동할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="192" translate="yes" xml:space="preserve">
+        <trans-unit id="190" translate="yes" xml:space="preserve">
           <source>Using other members of the Internet Explorer object model, it is possible to retrieve text content from the Web page.</source>
           <target state="translated">Internet Explorer 개체 모델의 다른 멤버를 사용하여 웹 페이지에서 텍스트 콘텐츠를 검색할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="193" translate="yes" xml:space="preserve">
+        <trans-unit id="191" translate="yes" xml:space="preserve">
           <source>The following command will display the HTML text in the body of the current Web page:</source>
           <target state="translated">다음 명령은 현재 웹 페이지의 본문에 있는 HTML 텍스트를 표시합니다.</target>       </trans-unit>
-        <trans-unit id="194" translate="yes" xml:space="preserve">
+        <trans-unit id="192" translate="yes" xml:space="preserve">
           <source>To close Internet Explorer from within PowerShell, call its Quit() method:</source>
           <target state="translated">PowerShell 내에서 Internet Explorer를 닫으려면 Quit() 메서드를 호출합니다.</target>       </trans-unit>
-        <trans-unit id="195" translate="yes" xml:space="preserve">
+        <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>This will force it to close.</source>
           <target state="translated">이렇게 하면 강제로 닫힙니다.</target>       </trans-unit>
-        <trans-unit id="196" translate="yes" xml:space="preserve">
+        <trans-unit id="194" translate="yes" xml:space="preserve">
           <source>The $ie variable no longer contains a valid reference even though it still appears to be a COM object.</source>
           <target state="translated">$ie 변수가 여전히 COM 개체로 표시되지만 더 이상 유효한 참조를 포함하지 않습니다.</target>       </trans-unit>
-        <trans-unit id="197" translate="yes" xml:space="preserve">
+        <trans-unit id="195" translate="yes" xml:space="preserve">
           <source>If you attempt to use it, you will get an automation error:</source>
           <target state="translated">이 변수를 사용하려고 하면 다음과 같은 자동화 오류 메시지가 나타납니다.</target>       </trans-unit>
-        <trans-unit id="198" translate="yes" xml:space="preserve">
+        <trans-unit id="196" translate="yes" xml:space="preserve">
           <source>You can either remove the remaining reference with a command like $ie = $null, or completely remove the variable by typing:</source>
           <target state="translated">$ie = $null과 같은 명령을 사용하여 나머지 참조를 제거하거나, 다음과 같이 입력하여 변수를 완전히 제거할 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="199" translate="yes" xml:space="preserve">
+        <trans-unit id="197" translate="yes" xml:space="preserve">
           <source>There is no common standard for whether ActiveX executables exit or continue to run when you remove a reference to one.</source>
           <target state="translated">해당 참조를 제거할 때 ActiveX 실행 파일을 종료할지 아니면 계속 실행할지에 대한 일반적인 표준은 없습니다.</target>       </trans-unit>
-        <trans-unit id="200" translate="yes" xml:space="preserve">
+        <trans-unit id="198" translate="yes" xml:space="preserve">
           <source>Depending on circumstances such as whether the application is visible, whether an edited document is running in it, and even whether Windows PowerShell is still running, the application may or may not exit.</source>
           <target state="translated">응용 프로그램이 표시되는지 여부, 응용 프로그램에서 편집한 문서의 실행 여부 및 Windows PowerShell의 실행 여부와 같은 상황에 따라 응용 프로그램이 종료될 수도 있고, 종료되지 않을 수도 있습니다.</target>       </trans-unit>
-        <trans-unit id="201" translate="yes" xml:space="preserve">
+        <trans-unit id="199" translate="yes" xml:space="preserve">
           <source>For this reason, you should test termination behavior for each ActiveX executable you want to use in Windows PowerShell.</source>
           <target state="translated">따라서 Windows PowerShell에서 사용할 각 ActiveX 실행 파일의 종료 동작을 테스트해야 합니다.</target>       </trans-unit>
-        <trans-unit id="202" translate="yes" xml:space="preserve">
+        <trans-unit id="200" translate="yes" xml:space="preserve">
           <source>Getting Warnings About .NET Framework-Wrapped COM Objects</source>
           <target state="translated">.NET Framework-Wrapped COM 개체에 대한 경고 보기</target>       </trans-unit>
-        <trans-unit id="203" translate="yes" xml:space="preserve">
+        <trans-unit id="201" translate="yes" xml:space="preserve">
           <source>In some cases, a COM object might have an associated .NET Framework <bpt id="p1">*</bpt>Runtime-Callable Wrapper<ept id="p1">*</ept> or RCW, and this will be used by <bpt id="p2">**</bpt>New-Object<ept id="p2">**</ept>.</source>
           <target state="translated">경우에 따라 COM 개체에는 <bpt id="p2">**</bpt>New-Object<ept id="p2">**</ept>가 사용하는 .NET Framework RCW(<bpt id="p1">*</bpt>런타임 호출 가능 래퍼<ept id="p1">*</ept>)가 포함되어 있을 수 있습니다.</target>       </trans-unit>
-        <trans-unit id="204" translate="yes" xml:space="preserve">
+        <trans-unit id="202" translate="yes" xml:space="preserve">
           <source>Since the behavior of the RCW may be different from the behavior of the normal COM object, <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept> has a <bpt id="p2">**</bpt>Strict<ept id="p2">**</ept> parameter to warn you about RCW access.</source>
           <target state="translated">RCW의 동작이 일반적인 COM 개체와 다를 수 있기 때문에 <bpt id="p1">**</bpt>New-Object<ept id="p1">**</ept>에는 RCW 액세스에 대해 경고하는 <bpt id="p2">**</bpt>Strict<ept id="p2">**</ept> 매개 변수가 포함되어 있습니다.</target>       </trans-unit>
-        <trans-unit id="205" translate="yes" xml:space="preserve">
+        <trans-unit id="203" translate="yes" xml:space="preserve">
           <source>If you specify the <bpt id="p1">**</bpt>Strict<ept id="p1">**</ept> parameter and then create a COM object that uses an RCW, you get a warning message:</source>
           <target state="translated"><bpt id="p1">**</bpt>Strict<ept id="p1">**</ept> 매개 변수를 지정한 다음 RCW를 사용하는 COM 개체를 만들면 다음과 같은 경고 메시지가 나타납니다.</target>       </trans-unit>
-        <trans-unit id="206" translate="yes" xml:space="preserve">
+        <trans-unit id="204" translate="yes" xml:space="preserve">
           <source>Although the object is still created, you are warned that it is not a standard COM object.</source>
           <target state="translated">개체가 만들어진 후에도 표준 COM 개체가 아니라는 경고 메시지는 계속 나타납니다.</target>       </trans-unit>
       </group>
