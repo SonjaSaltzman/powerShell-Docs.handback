@@ -29896,8 +29896,8 @@
 * Archive Datetime: 2016-11-08 14:11:02
 * Handback File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ff6c9b8258f2d62e97d5a47804e3bbcf2d2013b3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.pt-br.xlf)
 * Handback Datetime: 2016-11-08 23:31:35
-* Bilingual File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4f946a84fdb75dd414ceae03a50b12ff7064acb7/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.pt-br.xlf)
-* Bilingual Datetime: 2016-09-07 02:38:38
+* Bilingual File: [Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ff6c9b8258f2d62e97d5a47804e3bbcf2d2013b3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Creating-.NET-and-COM-Objects--New-Object-.6a22a1f1b10e73cd8dc65134aed84f0d6961bf45.pt-br.xlf)
+* Bilingual Datetime: 2016-11-08 23:33:30
 * [Back to Top](#report-top)
 
 ##### <a name='6fffd6406a7570e06fc4403cd238804ef0f513602235'></a> Source: [scripting\getting-started\cookbooks\Creating-a-Custom-Input-Box.md](https://github.com/PowerShell/powerShell-Docs/blob/f891988cce205b5729d0da6c4ce23da5fbd53b7f/scripting/getting-started/cookbooks/Creating-a-Custom-Input-Box.md)
@@ -29944,6 +29944,8 @@
 * Archive Datetime: 2016-11-08 14:11:02
 * Handback File: [Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ff6c9b8258f2d62e97d5a47804e3bbcf2d2013b3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.pt-br.xlf)
 * Handback Datetime: 2016-11-08 23:31:35
+* Bilingual File: [Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ff6c9b8258f2d62e97d5a47804e3bbcf2d2013b3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Getting-WMI-Objects--Get-WmiObject-.98f932cc6852fdaaeb236ada231cdf834b9b4ab6.pt-br.xlf)
+* Bilingual Datetime: 2016-11-08 23:33:30
 * [Back to Top](#report-top)
 
 ##### <a name='97bdd8ed6278fc5d45b34adf50ef8a194966ef0c2238'></a> Source: [scripting\getting-started\cookbooks\Managing-Current-Location.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Managing-Current-Location.md)
@@ -30193,6 +30195,8 @@
 * Archive Datetime: 2016-11-08 14:11:02
 * Handback File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ff6c9b8258f2d62e97d5a47804e3bbcf2d2013b3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.pt-br.xlf)
 * Handback Datetime: 2016-11-08 23:31:35
+* Bilingual File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ff6c9b8258f2d62e97d5a47804e3bbcf2d2013b3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.pt-br.xlf)
+* Bilingual Datetime: 2016-11-08 23:33:30
 * [Back to Top](#report-top)
 
 ##### <a name='acd52c1271013320dafa7f7bf5c72b752e07574b2255'></a> Source: [scripting\getting-started\cookbooks\Viewing-Object-Structure--Get-Member-.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Viewing-Object-Structure--Get-Member-.md)
@@ -30205,6 +30209,8 @@
 * Archive Datetime: 2016-11-08 14:11:02
 * Handback File: [Viewing-Object-Structure--Get-Member-.f4fabd9bed3d26cc1f7fb0224aadf75a78376b73.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ff6c9b8258f2d62e97d5a47804e3bbcf2d2013b3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Viewing-Object-Structure--Get-Member-.f4fabd9bed3d26cc1f7fb0224aadf75a78376b73.pt-br.xlf)
 * Handback Datetime: 2016-11-08 23:31:35
+* Bilingual File: [Viewing-Object-Structure--Get-Member-.f4fabd9bed3d26cc1f7fb0224aadf75a78376b73.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ff6c9b8258f2d62e97d5a47804e3bbcf2d2013b3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Viewing-Object-Structure--Get-Member-.f4fabd9bed3d26cc1f7fb0224aadf75a78376b73.pt-br.xlf)
+* Bilingual Datetime: 2016-11-08 23:33:30
 * [Back to Top](#report-top)
 
 ##### <a name='c3f7c226fcb496e5bb51ba601429c54b43de9d522256'></a> Source: [scripting\getting-started\cookbooks\Working-with-Files-and-Folders.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Working-with-Files-and-Folders.md)
@@ -30273,6 +30279,8 @@
 * Archive Datetime: 2016-11-08 14:11:02
 * Handback File: [Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ff6c9b8258f2d62e97d5a47804e3bbcf2d2013b3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.pt-br.xlf)
 * Handback Datetime: 2016-11-08 23:31:35
+* Bilingual File: [Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ff6c9b8258f2d62e97d5a47804e3bbcf2d2013b3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Working-with-Registry-Entries.976d36732cc6108f0778e6a62a7464c45e1118bc.pt-br.xlf)
+* Bilingual Datetime: 2016-11-08 23:33:30
 * [Back to Top](#report-top)
 
 ##### <a name='4809eb60ba1a5529343c2ab3c88493bf2c32389b2261'></a> Source: [scripting\getting-started\cookbooks\Working-with-Registry-Keys.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/cookbooks/Working-with-Registry-Keys.md)
@@ -30449,8 +30457,8 @@
 * Archive Datetime: 2016-11-08 14:11:02
 * Handback File: [Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ff6c9b8258f2d62e97d5a47804e3bbcf2d2013b3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.pt-br.xlf)
 * Handback Datetime: 2016-11-08 23:31:35
-* Bilingual File: [Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/4f946a84fdb75dd414ceae03a50b12ff7064acb7/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.pt-br.xlf)
-* Bilingual Datetime: 2016-09-07 02:38:38
+* Bilingual File: [Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.pt-br.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/ff6c9b8258f2d62e97d5a47804e3bbcf2d2013b3/ol-handback/PowerShell/powerShell-Docs.pt-br/live/Using-Familiar-Command-Names.8a60fa9c7acab4b8d258a854a67fc88365a64e18.pt-br.xlf)
+* Bilingual Datetime: 2016-11-08 23:33:30
 * [Back to Top](#report-top)
 
 ##### <a name='6216f3e1a766c57a7549a3e3b4fbe76d043a8a412274'></a> Source: [scripting\getting-started\fundamental\Using-Variables-to-Store-Objects.md](https://github.com/PowerShell/powerShell-Docs/blob/3222a0ba54e87b214c5ebf64e587f920d531956a/scripting/getting-started/fundamental/Using-Variables-to-Store-Objects.md)
